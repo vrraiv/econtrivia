@@ -51,5 +51,533 @@
     "as_of": null,
     "time_sensitive": false,
     "tags": ["Bank of England", "central bank", "1694", "firsts"]
+  },
+  {
+    "id": "firsts-004",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Dutch East India Company (VOC), founded in 1602, is generally regarded as the world's first publicly traded company. On which exchange were its shares listed?",
+    "choices": [
+      "Amsterdam Stock Exchange",
+      "London Stock Exchange",
+      "Antwerp Bourse",
+      "Hamburg Exchange"
+    ],
+    "answer": "Amsterdam Stock Exchange",
+    "explanation": "The Amsterdam Stock Exchange (Amsterdamsche Beurs) was established in 1602 specifically to trade VOC shares. It is considered the world's first modern stock exchange, introducing concepts like short selling, options, and margin trading.",
+    "source": "https://www.euronext.com/en/about/history",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["VOC", "Amsterdam", "stock exchange", "firsts"]
+  },
+  {
+    "id": "firsts-005",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Adam Smith's landmark work 'The Wealth of Nations,' often called the founding text of modern economics, was published in:",
+    "choices": [
+      "1776",
+      "1759",
+      "1803",
+      "1848"
+    ],
+    "answer": "1776",
+    "explanation": "An Inquiry into the Nature and Causes of the Wealth of Nations was published on 9 March 1776 — the same year as the American Declaration of Independence. Smith introduced the concepts of the invisible hand, division of labour, and comparative advantage.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Adam Smith", "Wealth of Nations", "1776", "classical economics"]
+  },
+  {
+    "id": "firsts-006",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which country was the first to formally introduce a nationwide value-added tax (VAT)?",
+    "choices": [
+      "France",
+      "Germany",
+      "Sweden",
+      "United Kingdom"
+    ],
+    "answer": "France",
+    "explanation": "France introduced the first broad-based VAT in 1954, designed by tax official Maurice Lauré. The idea spread rapidly; the EU later required all member states to adopt VAT, and today it is used by over 170 countries — though the US remains a notable holdout.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["VAT", "France", "tax policy", "firsts"]
+  },
+  {
+    "id": "firsts-007",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Diners Club card, launched in 1950, is generally recognised as the world's first general-purpose charge card. In which city was it first used?",
+    "choices": [
+      "New York City",
+      "Chicago",
+      "Los Angeles",
+      "London"
+    ],
+    "answer": "New York City",
+    "explanation": "Frank McNamara founded Diners Club after reportedly forgetting his wallet at a restaurant. The first cards were used at select New York restaurants in 1950. Unlike today's credit cards, early Diners Club cards required full payment each month.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["credit card", "Diners Club", "firsts", "payments"]
+  },
+  {
+    "id": "firsts-008",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "New Zealand became the first country to adopt formal inflation targeting as a framework for monetary policy in which year?",
+    "choices": [
+      "1990",
+      "1984",
+      "1997",
+      "1979"
+    ],
+    "answer": "1990",
+    "explanation": "The Reserve Bank of New Zealand Act 1989 came into force in 1990, requiring the central bank to keep inflation within an explicit target band. The framework proved so successful that Canada (1991), the UK (1992), Sweden (1993), and many others quickly adopted it.",
+    "source": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/history-of-monetary-policy",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["inflation targeting", "New Zealand", "monetary policy", "firsts"]
+  },
+  {
+    "id": "firsts-009",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Germany introduced the world's first national old-age pension system, under Chancellor Bismarck, in 1889.",
+    "answer": true,
+    "explanation": "Bismarck's Old Age and Disability Insurance Law (1889) created the first state-run contributory pension, covering workers aged 70 and older. The retirement age was later lowered. The scheme was partly designed to undercut socialist political movements by giving workers a stake in the existing order.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["pension", "Bismarck", "Germany", "social security", "firsts"]
+  },
+  {
+    "id": "firsts-010",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The world's first ATM (automated teller machine) was installed in 1967 outside a branch of which bank?",
+    "choices": [
+      "Barclays Bank",
+      "Lloyds Bank",
+      "Citibank",
+      "National Westminster Bank"
+    ],
+    "answer": "Barclays Bank",
+    "explanation": "The first ATM was installed on 27 June 1967 at a Barclays branch in Enfield, north London, designed by John Shepherd-Barron. It dispensed a fixed amount of £10 per use with a special voucher — PIN numbers came later.",
+    "source": "https://www.barclays.co.uk/news/2017/6/50-years-of-the-atm/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["ATM", "Barclays", "firsts", "payments", "banking"]
+  },
+  {
+    "id": "firsts-011",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Paper money was invented in China centuries before it appeared in Europe. The world's first government-issued paper currency, the 'jiaozi,' originated during which dynasty?",
+    "choices": [
+      "Song dynasty",
+      "Ming dynasty",
+      "Tang dynasty",
+      "Han dynasty"
+    ],
+    "answer": "Song dynasty",
+    "explanation": "The Song dynasty issued the jiaozi around 1000 CE as the world's first government-issued paper currency, backed by iron coins. Tang dynasty merchants had used 'flying money' (feiqian) as private letters of credit slightly earlier, but the Song jiaozi was the first state-issued paper money.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["paper money", "China", "Song dynasty", "firsts", "currency"]
+  },
+  {
+    "id": "firsts-012",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Cobden-Chevalier Treaty of 1860 is considered the world's first major free trade agreement. It was signed between Britain and which other country?",
+    "choices": [
+      "France",
+      "Prussia",
+      "Belgium",
+      "United States"
+    ],
+    "answer": "France",
+    "explanation": "Negotiated by Richard Cobden and Michel Chevalier, the treaty cut tariffs dramatically between Britain and France. It also introduced the most-favoured-nation clause, which became a cornerstone of modern trade law. A cascade of similar treaties followed across Europe.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["free trade", "Cobden-Chevalier", "firsts", "UK", "France"]
+  },
+  {
+    "id": "firsts-013",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The United Kingdom formally adopted the gold standard in 1821. Under a gold standard, a country's currency is:",
+    "choices": [
+      "directly convertible into a fixed quantity of gold",
+      "backed by both gold and silver reserves",
+      "pegged to the US dollar at a fixed rate",
+      "issued only by private banks, not the government"
+    ],
+    "answer": "directly convertible into a fixed quantity of gold",
+    "explanation": "Under a pure gold standard, the government guarantees to exchange its banknotes for a fixed weight of gold on demand. Britain's return to gold in 1821 followed the Napoleonic Wars. The system provided exchange-rate stability but removed policy flexibility during downturns.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["gold standard", "UK", "monetary history", "firsts"]
+  },
+  {
+    "id": "firsts-014",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which country was the first to abandon the gold standard during the Great Depression, in September 1931?",
+    "choices": [
+      "United Kingdom",
+      "United States",
+      "France",
+      "Germany"
+    ],
+    "answer": "United Kingdom",
+    "explanation": "Britain suspended gold convertibility on 21 September 1931 under intense speculative pressure on sterling. The US followed in 1933 (domestically) and 1971 (internationally). Countries that left gold early generally recovered from the Depression faster than those that clung to it.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["gold standard", "Great Depression", "UK", "firsts"]
+  },
+  {
+    "id": "firsts-015",
+    "category": "firsts",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The first minimum wage law in the world was enacted in 1894 in:",
+    "choices": [
+      "New Zealand",
+      "Australia",
+      "United Kingdom",
+      "United States"
+    ],
+    "answer": "New Zealand",
+    "explanation": "New Zealand's Industrial Conciliation and Arbitration Act 1894 established compulsory arbitration and set minimum wage conditions. Australia's Victorian Wages Board system (1896) followed closely. The UK's national minimum wage didn't arrive until 1999, and the US federal minimum wage was set in 1938.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["minimum wage", "New Zealand", "labour policy", "firsts"]
+  },
+  {
+    "id": "firsts-016",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "In what year was the first Nobel Memorial Prize in Economic Sciences awarded?",
+    "answer": 1969,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel was first awarded in 1969 to Ragnar Frisch and Jan Tinbergen. It was established by Sweden's central bank (the Riksbank) to commemorate its 300th anniversary — not part of Alfred Nobel's original will.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel", "economics prize", "1969", "firsts"]
+  },
+  {
+    "id": "firsts-017",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Canada was the second country (after New Zealand) to adopt explicit inflation targeting. In what year did the Bank of Canada introduce its inflation-control target?",
+    "choices": [
+      "1991",
+      "1988",
+      "1995",
+      "1982"
+    ],
+    "answer": "1991",
+    "explanation": "The Bank of Canada and the federal government jointly announced an inflation target of 3% (later reduced to 2%) in February 1991. This made Canada a pioneer in inflation targeting and the framework has since been renewed every five years.",
+    "source": "https://www.bankofcanada.ca/core-functions/monetary-policy/inflation/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Bank of Canada", "inflation targeting", "Canada", "monetary policy"]
+  },
+  {
+    "id": "firsts-018",
+    "category": "firsts",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Bank of Japan was the first central bank to adopt quantitative easing (QE) as a policy tool, doing so in:",
+    "choices": [
+      "2001",
+      "1997",
+      "2008",
+      "1991"
+    ],
+    "answer": "2001",
+    "explanation": "The Bank of Japan launched the first QE programme in March 2001, purchasing government bonds to increase bank reserves after conventional rate cuts had pushed the policy rate to zero. The Fed, ECB, and Bank of England adopted similar programmes after the 2008 financial crisis.",
+    "source": "https://www.boj.or.jp/en/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["quantitative easing", "Bank of Japan", "monetary policy", "firsts"]
+  },
+  {
+    "id": "firsts-019",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "The United States was the first country to establish a federal deposit insurance scheme protecting bank depositors.",
+    "answer": true,
+    "explanation": "The Federal Deposit Insurance Corporation (FDIC) was created by the Glass–Steagall Act of 1933 after thousands of bank failures wiped out depositor savings during the Great Depression. Canada did not introduce deposit insurance until the Canada Deposit Insurance Corporation was established in 1967.",
+    "source": "https://www.fdic.gov/about/history/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["FDIC", "deposit insurance", "US", "banking", "firsts"]
+  },
+  {
+    "id": "firsts-020",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which country enacted the first nationwide carbon tax, in 1990?",
+    "choices": [
+      "Finland",
+      "Sweden",
+      "Norway",
+      "Denmark"
+    ],
+    "answer": "Finland",
+    "explanation": "Finland introduced a carbon tax in January 1990, making it the world's first. Sweden followed in 1991 with a much higher rate (now one of the world's highest CO₂ taxes). Canada's federal carbon price was introduced in 2019.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["carbon tax", "Finland", "climate policy", "firsts"]
+  },
+  {
+    "id": "firsts-021",
+    "category": "firsts",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The world's first large-scale, randomised controlled trial of a universal basic income (UBI) was conducted in which country in the late 2010s?",
+    "choices": [
+      "Finland",
+      "Kenya",
+      "Canada",
+      "India"
+    ],
+    "answer": "Finland",
+    "explanation": "Finland ran a government-sponsored UBI experiment from 2017 to 2018, giving €560/month to 2,000 randomly selected unemployed people. Results showed improved wellbeing and mental health but modest effects on employment. Kenya's GiveDirectly experiment is larger but NGO-run; Canada's Mincome experiment (1970s) was earlier but smaller.",
+    "source": "https://www.kela.fi/web/en/news-archive/-/asset_publisher/lN08GY2nIrZo/content/results-of-the-basic-income-experiment-small-employment-effects-better-wellbeing",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["UBI", "universal basic income", "Finland", "firsts"]
+  },
+  {
+    "id": "firsts-022",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The South Sea Bubble of 1720, one of history's first major stock market crashes, occurred in which country?",
+    "choices": [
+      "Great Britain",
+      "Netherlands",
+      "France",
+      "Spain"
+    ],
+    "answer": "Great Britain",
+    "explanation": "The South Sea Company's share price rose tenfold in 1720 before collapsing catastrophically, ruining thousands of investors. It occurred in parallel with John Law's Mississippi Bubble in France. Both crashes triggered early financial regulation and left lasting distrust of joint-stock companies.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["South Sea Bubble", "UK", "stock market crash", "financial history"]
+  },
+  {
+    "id": "firsts-023",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "The first futures market in history was established in Japan in the 17th century to trade rice contracts.",
+    "answer": true,
+    "explanation": "The Dojima Rice Exchange in Osaka, established around 1697, is considered the world's first futures market. Merchants traded standardised rice futures contracts, allowing producers to lock in prices and speculators to take positions — concepts that underpin modern derivatives markets.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["futures market", "Japan", "Dojima", "rice", "firsts"]
+  },
+  {
+    "id": "firsts-024",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Karl Marx and Friedrich Engels published 'The Communist Manifesto' — the most influential socialist economic tract — in which year?",
+    "choices": [
+      "1848",
+      "1867",
+      "1776",
+      "1832"
+    ],
+    "answer": "1848",
+    "explanation": "The Manifesto of the Communist Party was published in February 1848, weeks before the European revolutions of that year. Marx's Capital (Das Kapital) followed in 1867. The Manifesto remains one of the most widely read political-economic documents in history.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Marx", "Communist Manifesto", "1848", "socialism"]
+  },
+  {
+    "id": "firsts-025",
+    "category": "firsts",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The concept of GDP as we know it was developed for the US Department of Commerce in the 1930s by an economist who later won a Nobel Prize. Who was he?",
+    "choices": [
+      "Simon Kuznets",
+      "Wassily Leontief",
+      "Paul Samuelson",
+      "John Kenneth Galbraith"
+    ],
+    "answer": "Simon Kuznets",
+    "explanation": "Simon Kuznets developed national income accounting for the US Commerce Department (1934 report) and is the father of GDP measurement. He won the Nobel Prize in 1971. Kuznets himself warned that GDP poorly measures economic welfare — a caveat economists still echo.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["GDP", "Kuznets", "national accounts", "Nobel", "firsts"]
+  },
+  {
+    "id": "firsts-026",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "These four economic policy milestones each changed the rules of the global system. Rank them from oldest to most recent.",
+    "items": [
+      "Bretton Woods Agreement (IMF & World Bank founded)",
+      "First GATT signed (predecessor to WTO)",
+      "Nixon ends dollar-gold convertibility",
+      "WTO replaces GATT"
+    ],
+    "order_by": "year of occurrence",
+    "answer": "Bretton Woods Agreement → First GATT signed → Nixon ends dollar-gold convertibility → WTO replaces GATT",
+    "explanation": "Bretton Woods: 1944. GATT: 1947. Nixon closes the gold window: August 1971. WTO founded: January 1, 1995.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Bretton Woods", "GATT", "WTO", "Nixon", "international economics"]
+  },
+  {
+    "id": "firsts-027",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "The Nobel Memorial Prize in Economics (officially the Sveriges Riksbank Prize) was not part of Alfred Nobel's original will — it was added later by Sweden's central bank.",
+    "answer": true,
+    "explanation": "Alfred Nobel's 1895 will established prizes for physics, chemistry, medicine, literature, and peace. The economics prize was established in 1968 by the Riksbank on its 300th anniversary and is technically not a Nobel Prize — a distinction Nobel's descendants have repeatedly pointed out.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel", "Riksbank", "prize history", "firsts"]
+  },
+  {
+    "id": "firsts-028",
+    "category": "firsts",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "John Law's Mississippi Company Bubble (1719–1720) introduced a financial innovation that is now considered the forerunner of modern quantitative easing. What did Law do?",
+    "choices": [
+      "Issued paper money backed by land and future revenues to retire government debt",
+      "Created a central bank that lent directly to private businesses",
+      "Introduced forward contracts on commodities to stabilise farm prices",
+      "Established the first interbank lending market with overnight rates"
+    ],
+    "answer": "Issued paper money backed by land and future revenues to retire government debt",
+    "explanation": "John Law's system: the Banque Générale issued paper livres to buy French government debt; the Mississippi Company held monopoly trade rights whose future profits backed the money supply. When confidence collapsed the bubble burst spectacularly, setting back French finance for decades.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["John Law", "Mississippi Bubble", "monetary history", "France", "firsts"]
+  },
+  {
+    "id": "firsts-029",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The European Union's Emissions Trading System (EU ETS), launched in 2005, was the world's first multinational:",
+    "choices": [
+      "carbon cap-and-trade system",
+      "carbon tax",
+      "green bond market",
+      "renewable energy subsidy scheme"
+    ],
+    "answer": "carbon cap-and-trade system",
+    "explanation": "The EU ETS set a cap on greenhouse gas emissions from large industrial facilities and let companies buy and sell emission allowances. It was the first international cap-and-trade scheme and remains the world's largest carbon market, covering ~40% of EU emissions.",
+    "source": "https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets_en",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["EU ETS", "carbon trading", "cap-and-trade", "climate policy", "firsts"]
+  },
+  {
+    "id": "firsts-030",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "short",
+    "prompt": "What term describes the economic doctrine, dominant from roughly 1500–1800, that a nation's wealth depends on accumulating gold and silver by maximising exports and minimising imports?",
+    "answer": "mercantilism",
+    "accept": ["mercantilism", "mercantilist", "mercantile system"],
+    "explanation": "Mercantilism held that the world's wealth was a fixed pie and nations competed for share. Adam Smith's Wealth of Nations (1776) was largely a refutation of mercantilist policies. Ironically, some economists argue modern export-led growth strategies echo mercantilist ideas.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["mercantilism", "economic history", "trade policy", "firsts"]
+  },
+  {
+    "id": "firsts-031",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "The New York Stock Exchange (NYSE) was formally established in 1792 under what became known as the Buttonwood Agreement.",
+    "answer": true,
+    "explanation": "On May 17, 1792, twenty-four stockbrokers signed the Buttonwood Agreement under a buttonwood (sycamore) tree on Wall Street, agreeing to trade securities only among themselves and to charge fixed commissions. This informal compact evolved into the NYSE, the world's largest stock exchange by market capitalisation.",
+    "source": "https://www.nyse.com/history",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["NYSE", "Wall Street", "Buttonwood Agreement", "firsts", "stock exchange"]
+  },
+  {
+    "id": "firsts-032",
+    "category": "firsts",
+    "difficulty": 3,
+    "format": "order",
+    "prompt": "These four landmark economics texts each reshaped the field. Arrange them chronologically, from earliest to most recently published.",
+    "items": [
+      "The Wealth of Nations (Adam Smith)",
+      "Principles of Economics (Alfred Marshall)",
+      "The General Theory (Keynes)",
+      "Foundations of Economic Analysis (Samuelson)"
+    ],
+    "order_by": "year of first publication",
+    "answer": "The Wealth of Nations → Principles of Economics → The General Theory → Foundations of Economic Analysis",
+    "explanation": "Wealth of Nations: 1776. Marshall's Principles: 1890. Keynes's General Theory: 1936. Samuelson's Foundations: 1947.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Smith", "Marshall", "Keynes", "Samuelson", "economics texts", "firsts"]
+  },
+  {
+    "id": "firsts-033",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "short",
+    "prompt": "What word, coined by the physiocrat economist A.R.J. Turgot around 1750, describes the doctrine that market economies are self-regulating and governments should not interfere?",
+    "answer": "laissez-faire",
+    "accept": ["laissez-faire", "laissez faire", "laissez-faire economics"],
+    "explanation": "Laissez-faire ('let do' or 'leave alone' in French) became the rallying cry of classical liberal economists. The phrase is often attributed to French merchant Legendre responding to Colbert's question about how government could help commerce ('Leave us alone!'). Adam Smith gave it its intellectual foundation.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["laissez-faire", "economic liberalism", "firsts", "classical economics"]
   }
 ]

@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const questionsDir = join(__dirname, '..', 'questions');
 
 const VALID_FORMATS = ['mc', 'tf', 'numeric', 'order', 'higher_lower', 'match', 'short'];
-const REQUIRE_SOURCE = new Set(['data', 'trends', 'finance', 'firsts']);
+const REQUIRE_SOURCE = new Set(['data', 'trends', 'finance']);
 
 const errors = [];
 const warnings = [];

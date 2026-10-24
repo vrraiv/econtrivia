@@ -1,0 +1,544 @@
+[
+  {
+    "id": "wildcard-001",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Why do movie theatres charge so much for popcorn compared to the price outside?",
+    "choices": [
+      "Price discrimination: once you're inside, the theatre has a captive market",
+      "Popcorn is expensive to produce and the margins are thin",
+      "High popcorn prices cross-subsidise lower ticket prices at rival cinemas",
+      "Health regulations require special equipment that raises costs"
+    ],
+    "answer": "Price discrimination: once you're inside, the theatre has a captive market",
+    "explanation": "Theatres use a two-part pricing strategy: a low ticket price to get you in (where they compete), then extract surplus via concessions once you're 'locked in'. This is the same logic as cheap printers with expensive ink, or free razors with pricey blades. Economists call it the 'aftermarket' or 'razor-and-blades' model.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["price discrimination", "captive market", "two-part pricing"]
+  },
+  {
+    "id": "wildcard-002",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Airlines routinely sell more tickets than there are seats on a plane — a practice called overbooking. The economic logic is that they are:",
+    "choices": [
+      "accounting for the predictable percentage of passengers who don't show up",
+      "testing demand to set optimal prices for future flights",
+      "complying with regulations that require backup seat allocation",
+      "maximising pilot flying hours under union agreements"
+    ],
+    "answer": "accounting for the predictable percentage of passengers who don't show up",
+    "explanation": "Historical no-show rates are 5–15% depending on the route and fare class. By statistically overbooking, airlines fill nearly every seat — a mostly empty plane is a total revenue loss. When everyone does show up, they offer compensation (vouchers, cash) to volunteers, which is often cheaper than flying with empty seats.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["overbooking", "airlines", "expected value", "pricing"]
+  },
+  {
+    "id": "wildcard-003",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The 'diamond-water paradox' puzzled early economists: water is essential for life yet cheap, while diamonds are frivolous yet expensive. The resolution, discovered in the 1870s, is that price reflects:",
+    "choices": [
+      "marginal utility, not total utility",
+      "total utility, not marginal utility",
+      "the cost of production, not consumer value",
+      "social prestige rather than economic value"
+    ],
+    "answer": "marginal utility, not total utility",
+    "explanation": "Water has enormous total utility but, because it's abundant, its marginal utility (value of one more litre) is low. Diamonds have low total utility but, being scarce, each additional diamond provides high marginal utility. This insight — the 'marginal revolution' of 1871 — independently occurred to Jevons, Menger, and Walras, founding modern microeconomics.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["diamond-water paradox", "marginal utility", "value theory"]
+  },
+  {
+    "id": "wildcard-004",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'cobra effect' describes a policy backfire in colonial India: the British government offered a bounty for dead cobras, hoping to reduce the snake population. What actually happened?",
+    "choices": [
+      "Enterprising Indians began farming cobras to collect the bounty, increasing the population",
+      "Cobras migrated from rural areas to cities where the bounty could be collected",
+      "The bounty was so small it had no effect, wasting government funds",
+      "Cobra hunters monopolised the trade and raised their prices above the bounty level"
+    ],
+    "answer": "Enterprising Indians began farming cobras to collect the bounty, increasing the population",
+    "explanation": "When the government eventually cancelled the bounty (realising the problem), cobra farmers released their now-worthless snakes, increasing the wild population beyond the starting point. This is a textbook example of Goodhart's Law and the dangers of using a proxy measure as a policy target.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["cobra effect", "perverse incentives", "policy backfire", "Goodhart's Law"]
+  },
+  {
+    "id": "wildcard-005",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "short",
+    "prompt": "Goodhart's Law states: 'When a measure becomes a target, it ceases to be a good measure.' What is the name for the broader phenomenon where hitting a metric by gaming or distorting behaviour — rather than improving the underlying reality — makes the metric useless?",
+    "answer": "Goodhart's Law",
+    "accept": ["Goodhart's Law", "Goodhart's law", "Goodharts Law", "Goodhart law", "the cobra effect", "teaching to the test"],
+    "explanation": "Charles Goodhart, a Bank of England economist, observed this in monetary policy: once the Bank targeted M3 money supply, banks found ways to hit the target without affecting the economy as intended. The principle now explains everything from hospital waiting-time targets to school exam scores to Soviet production quotas.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Goodhart's Law", "metrics", "policy", "perverse incentives"]
+  },
+  {
+    "id": "wildcard-006",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'broken window fallacy', described by Frédéric Bastiat in 1850, argues that breaking a window does NOT stimulate the economy because:",
+    "choices": [
+      "the glazier's gain comes at the expense of what the shopkeeper would have bought instead",
+      "replacing broken things creates inflation, not real wealth",
+      "small businesses rarely have insurance to cover the cost",
+      "GDP doesn't count repair spending, so it doesn't appear in economic statistics"
+    ],
+    "answer": "the glazier's gain comes at the expense of what the shopkeeper would have bought instead",
+    "explanation": "Bastiat's insight: you see the broken window being fixed (the 'seen'); you don't see the new shoes the shopkeeper would have bought (the 'unseen'). Destruction creates activity but not net wealth — it merely redirects spending. This refutes arguments that disasters, wars, or vandalism 'stimulate' economies.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Bastiat", "broken window", "seen vs unseen", "fallacy"]
+  },
+  {
+    "id": "wildcard-007",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "Grocery stores typically place staples like milk and bread at the back of the store because doing so forces customers to walk past higher-margin impulse-buy items.",
+    "answer": true,
+    "explanation": "This is a classic example of choice architecture. The store exploits the fact that you must reach the back to get milk, exposing you to chips, candy, and promotions en route. It's the brick-and-mortar equivalent of Amazon putting high-margin items in search results — design influences behaviour without restricting choice.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["choice architecture", "supermarket", "nudge", "retail economics"]
+  },
+  {
+    "id": "wildcard-008",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In restaurant menus, placing a very expensive item (say, a $120 steak) at the top of the menu makes the $45 entrées below it seem reasonable by comparison. This is an example of:",
+    "choices": [
+      "Anchoring and the decoy effect",
+      "The endowment effect",
+      "Loss aversion",
+      "Hyperbolic discounting"
+    ],
+    "answer": "Anchoring and the decoy effect",
+    "explanation": "The expensive 'anchor' at the top recalibrates diners' sense of what is normal to spend, making mid-priced items appear like bargains. The 'decoy effect' (or asymmetric dominance) is related: adding an overpriced option C steers customers from A to B. Restaurant consultants call the high-priced item a 'profit leader' because it lifts the average spend.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["anchoring", "decoy effect", "menu psychology", "restaurant economics"]
+  },
+  {
+    "id": "wildcard-009",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "A neuroscience study by Plassmann et al. (2008) gave subjects the same wine but told them it cost either $5 or $45. Brain scans showed the '$45' wine produced more activity in the medial orbitofrontal cortex — the brain's pleasure centre. This best illustrates which economic concept?",
+    "choices": [
+      "Price as a quality signal creating genuine perceived utility",
+      "The Veblen good: demand rising with price",
+      "Adverse selection: buyers use price to infer hidden quality",
+      "Conspicuous consumption: paying for status rather than taste"
+    ],
+    "answer": "Price as a quality signal creating genuine perceived utility",
+    "explanation": "Remarkably, the higher price actually changed the experienced pleasure — not just the reported preference. This goes beyond Veblen goods (where higher price signals status) to show that price literally alters the hedonic experience. It has unsettling implications: charging more can make your product genuinely better from the consumer's perspective.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["price signal", "quality", "wine", "behavioural economics", "Plassmann"]
+  },
+  {
+    "id": "wildcard-010",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "In the Prisoner's Dilemma, two suspects who cannot communicate each face the same choice: confess (and possibly reduce their sentence at the other's expense) or stay silent. The Nash equilibrium is for both players to:",
+    "choices": [
+      "both confess, even though both staying silent would be better for each",
+      "both stay silent, reaching the best collective outcome",
+      "one confess and one stay silent, with the silent prisoner suffering most",
+      "cooperate only if they have been partners for at least two prior games"
+    ],
+    "answer": "both confess, even though both staying silent would be better for each",
+    "explanation": "Confessing is a dominant strategy regardless of what the other player does — so both confess and serve longer sentences than if they had cooperated. The dilemma illustrates why individually rational choices can lead to collectively bad outcomes — relevant to arms races, deforestation, advertising wars, and cartel stability.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["prisoner's dilemma", "game theory", "Nash equilibrium", "cooperation"]
+  },
+  {
+    "id": "wildcard-011",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Dan Ariely demonstrated the 'zero price effect': when an item becomes free (drops from $0.01 to $0.00), demand jumps far more than standard demand theory would predict. Why does free feel so special?",
+    "choices": [
+      "Zero eliminates the risk of a bad deal — free can never be a mistake",
+      "Free items have higher perceived quality due to loss aversion",
+      "The zero price triggers anchoring at a low value, increasing quantity demanded",
+      "People fear being charged later, so they stockpile free goods"
+    ],
+    "answer": "Zero eliminates the risk of a bad deal — free can never be a mistake",
+    "explanation": "Ariely's experiment: when he offered a Lindt truffle for $0.15 and a Hershey Kiss for $0.01, most chose the truffle. When both prices dropped by $0.01 (truffle $0.14, Kiss free), the majority switched to the Kiss — even though the relative difference was unchanged. Free removes the psychological cost of making a wrong choice.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["zero price effect", "Ariely", "free", "behavioural economics"]
+  },
+  {
+    "id": "wildcard-012",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Uber's surge pricing raises fares during peak demand (rainstorms, New Year's Eve). From an economics textbook perspective, surge pricing:",
+    "choices": [
+      "clears the market by attracting more drivers and reducing demand",
+      "is pure price gouging with no benefit to consumers",
+      "violates the law of supply because prices rise with demand",
+      "acts as a subsidy to low-income users who need rides most urgently"
+    ],
+    "answer": "clears the market by attracting more drivers and reducing demand",
+    "explanation": "Higher prices simultaneously attract drivers from home (supply up) and cause some riders to walk, share, or wait (demand down), eliminating the shortage. Without surge pricing, there would be queues or shortages — exactly what happens with price-controlled taxis in rainstorms. Critics argue it's unfair; economists argue it creates more rides overall.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["surge pricing", "Uber", "dynamic pricing", "market clearing"]
+  },
+  {
+    "id": "wildcard-013",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Tipping is more common in countries with high rates of repeat-customer dining (like the US) than in countries with mostly one-time tourist dining (like Japan). Game theory would predict this: tips enforce quality in repeated interactions but offer no incentive in one-shot encounters.",
+    "answer": true,
+    "explanation": "In a one-shot game, a rational server has no incentive to give good service knowing they'll never see you again, and a rational customer has no incentive to tip after service is received. Tipping cultures thrive where patrons return — diners, neighbourhood restaurants, hotel staff. Japan's culture of pride in service quality achieves the same result through norms rather than cash.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["tipping", "game theory", "repeated game", "Japan", "norms"]
+  },
+  {
+    "id": "wildcard-014",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'dollar auction', designed by game theorist Martin Shubik, auctions a $1 bill to the highest bidder — with the twist that BOTH the highest and second-highest bidders must pay. The typical result is that the bidding:",
+    "choices": [
+      "escalates well past $1 as both bidders try to avoid being the loser who pays without winning",
+      "stops immediately at $1 because no rational bidder would pay more than the prize",
+      "collapses to zero because both players anticipate the trap and refuse to bid",
+      "reaches exactly $1 because the Nash equilibrium is for both players to bid truthfully"
+    ],
+    "answer": "escalates well past $1 as both bidders try to avoid being the loser who pays without winning",
+    "explanation": "Once bidding reaches $0.99 vs $1.00, the $0.99 bidder faces a choice: lose $0.99 by stopping, or bid $1.01 (lose only $0.01 if they win). This logic keeps escalating — bids of $5, $10, or higher for a $1 bill are common. The auction models arms races, legal disputes, and wars where exit costs keep rivals locked in.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["dollar auction", "Shubik", "escalation of commitment", "game theory"]
+  },
+  {
+    "id": "wildcard-015",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Retail prices ending in $0.99 or $9.99 rather than round numbers exploit a bias called 'left-digit anchoring'. The key reason these prices feel cheaper is that:",
+    "choices": [
+      "shoppers read left-to-right and anchor on the first digit before processing the rest",
+      "odd numbers signal discounted clearance merchandise",
+      "the 99-cent ending implies the product is already at minimum margin",
+      "consumers are conditioned by advertising to associate 9s with value"
+    ],
+    "answer": "shoppers read left-to-right and anchor on the first digit before processing the rest",
+    "explanation": "$3.99 feels closer to $3 than to $4 because the brain registers '3' first. Studies show the effect is strongest at round-number boundaries — $19.99 vs $20.00 — and weaker at non-round ones. The '99-cent' strategy has been traced back to the 19th century when cash registers required making change to prevent theft, a happy accident that stuck.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["left-digit anchoring", "pricing psychology", "99 cents", "retail"]
+  },
+  {
+    "id": "wildcard-016",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Facebook and Google provide their core services free to billions of users. In economic terms, the actual 'product' being sold is:",
+    "choices": [
+      "user attention and data, sold to advertisers",
+      "platform infrastructure, licensed to app developers",
+      "premium subscriptions sold to a small fraction of power users",
+      "government data contracts funded by surveillance partnerships"
+    ],
+    "answer": "user attention and data, sold to advertisers",
+    "explanation": "These are 'two-sided platforms': one side (users) receives services free, subsidised by the other side (advertisers) who pay to reach them. The phrase 'if you're not paying for the product, you are the product' captures this. Jean Tirole won the 2014 Nobel partly for his work on two-sided market theory.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["two-sided market", "platform economics", "Facebook", "Google", "attention economy"]
+  },
+  {
+    "id": "wildcard-017",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Research on assortative mating — people tending to marry others with similar education and income — has implications for income inequality. Which effect does rising assortative mating have on household income inequality?",
+    "choices": [
+      "It increases inequality, because high-earner couples pull further ahead of low-earner couples",
+      "It decreases inequality, because dual-income households raise the bottom more than the top",
+      "It has no effect on inequality, because individual wages determine outcomes, not household composition",
+      "It first increases then decreases inequality, following a Kuznets-style curve"
+    ],
+    "answer": "It increases inequality, because high-earner couples pull further ahead of low-earner couples",
+    "explanation": "When high earners marry high earners (and low earners marry low earners), two incomes compound the advantage at the top and disadvantage at the bottom. Studies by Greenwood et al. (2014) found that if 1960 mating patterns had persisted to 2005, the US Gini coefficient would have been meaningfully lower. It's a structural driver of inequality that is invisible to wage statistics alone.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["assortative mating", "inequality", "household income", "Gini"]
+  },
+  {
+    "id": "wildcard-018",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which of the following best describes why shipping a car from Japan to California by sea is often cheaper than trucking it from a factory in Detroit to a dealership in Los Angeles?",
+    "choices": [
+      "Ocean shipping benefits from massive economies of scale; trucks carry a handful of vehicles",
+      "Japanese cars are subsidised by the government, making exports artificially cheap",
+      "US trucking unions negotiate rates far above competitive market prices",
+      "Detroit automakers charge a premium for domestic transport to protect profit margins"
+    ],
+    "answer": "Ocean shipping benefits from massive economies of scale; trucks carry a handful of vehicles",
+    "explanation": "A car carrier ship holds 6,000–8,000 vehicles; a car-transport truck holds 7–10. The fixed cost of crossing the Pacific is spread over thousands of vehicles, making the per-unit cost trivial. This is why globalisation happened: once containerisation and supertankers drove per-unit shipping costs below tariff savings, it became cheaper to produce goods across the world than across the city.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["economies of scale", "shipping", "globalisation", "containerisation"]
+  },
+  {
+    "id": "wildcard-019",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "According to standard economic theory, a lottery ticket with an expected value below its purchase price (i.e. a 'bad bet') can still be rational to buy if the buyer genuinely enjoys the activity of playing.",
+    "answer": true,
+    "explanation": "Economists separate 'investment' from 'entertainment'. A $5 lottery ticket with $1 expected return is a $4 entertainment purchase. If the daydreaming, social ritual, and excitement are worth at least $4 to the buyer, the purchase is rational in a utility-maximising sense. This is also why casinos don't call it gambling — they call it gaming.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["lottery", "expected value", "utility", "risk-loving"]
+  },
+  {
+    "id": "wildcard-020",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Gary Becker's economic analysis of marriage treats the marriage market like any other market. Which of these predictions follows directly from his model?",
+    "choices": [
+      "People with more desirable traits will receive better 'terms' in relationships",
+      "Divorce rates fall as women's incomes rise, because marriages become more equal",
+      "Assortative mating disappears as markets become more efficient",
+      "Marriage rates rise during recessions because people pool risk"
+    ],
+    "answer": "People with more desirable traits will receive better 'terms' in relationships",
+    "explanation": "In Becker's model, individuals 'trade' traits on the marriage market (income, looks, personality). Those with more desirable attributes command better terms — more attractive partners, better household bargaining power. His model also predicts assortative mating on complementary traits and specialisation within households (one earner, one homemaker) when it maximises total output.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Becker", "marriage economics", "assortative mating", "household"]
+  },
+  {
+    "id": "wildcard-021",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "If a government prints money to pay its debts, the resulting inflation acts as a hidden tax on holders of cash and fixed-income assets. What is the technical name for the government's revenue from issuing money?",
+    "choices": [
+      "Seigniorage",
+      "Monetary expansion tax",
+      "Inflationary tariff",
+      "Currency premium"
+    ],
+    "answer": "Seigniorage",
+    "explanation": "Seigniorage (from the French seigneur, lord) is the profit a government makes from issuing currency — the face value minus the cost of production. In extreme cases (Weimar Germany, Zimbabwe), governments fund large fractions of spending this way, rapidly destroying the currency's purchasing power. Even in normal times, the US earns roughly $100 billion annually in seigniorage.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["seigniorage", "money printing", "inflation tax", "monetary policy"]
+  },
+  {
+    "id": "wildcard-022",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "An immigration researcher wants to measure whether immigrants 'take jobs from natives'. The main econometric challenge is:",
+    "choices": [
+      "Immigrants move to booming areas, so high immigration correlates with low unemployment — but doesn't cause it",
+      "Official unemployment statistics exclude immigrants, making comparisons impossible",
+      "Immigrant wages are paid under the table, so they don't appear in wage surveys",
+      "Immigrants only enter sectors with labour shortages, so there is no job competition by construction"
+    ],
+    "answer": "Immigrants move to booming areas, so high immigration correlates with low unemployment — but doesn't cause it",
+    "explanation": "This is a classic endogeneity/reverse causality problem: immigrants are attracted to places with strong labour markets, so naïve regressions find that more immigration correlates with lower unemployment — the opposite of the feared effect. Card's famous Mariel Boatlift study (1990) exploited a natural experiment to get around this, finding minimal wage effects.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["immigration", "labour economics", "endogeneity", "Card", "Mariel Boatlift"]
+  },
+  {
+    "id": "wildcard-023",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "A 'Veblen good' is one where demand increases as the price rises, rather than falling. The classic real-world example is:",
+    "choices": [
+      "Luxury handbags or watches, where a high price signals status",
+      "Gasoline, where higher prices lead to more driving as a status symbol",
+      "Generic medications, where higher price signals better quality to all buyers",
+      "Organic food, where higher price signals environmental commitment"
+    ],
+    "answer": "Luxury handbags or watches, where a high price signals status",
+    "explanation": "Thorstein Veblen introduced 'conspicuous consumption' in 1899: wealthy consumers buy expensive goods precisely because they are expensive — the price is the point. Cutting the price of a Rolex or Hermès Birkin bag would destroy its appeal by making it accessible. This makes Veblen goods an exception to the law of demand.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Veblen good", "conspicuous consumption", "luxury", "status"]
+  },
+  {
+    "id": "wildcard-024",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The economic argument for immigration rests partly on labour market complementarity. Which scenario best illustrates immigrants and native workers being complements rather than substitutes?",
+    "choices": [
+      "Immigrant construction labourers increase demand for native-born project managers and architects",
+      "Immigrant and native-born workers compete for the same entry-level retail jobs",
+      "Immigrant doctors replace native doctors who retire, keeping the supply constant",
+      "Immigrants and natives both seek low-skill manufacturing jobs in the same factory"
+    ],
+    "answer": "Immigrant construction labourers increase demand for native-born project managers and architects",
+    "explanation": "When immigrants fill labour-intensive roles, they enable expansion of industries that need both manual and cognitive labour — creating demand for native-born workers with different skills. This complementarity is why immigration often raises wages for some natives even as it adds workers. Substitution effects (direct competition) are more relevant when skills are identical.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["immigration", "labour complementarity", "labour economics"]
+  },
+  {
+    "id": "wildcard-025",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Concert promoters for major artists like Taylor Swift increasingly use 'dynamic pricing', where ticket prices rise with demand. The economic case for this practice is that it:",
+    "choices": [
+      "transfers revenue from scalpers to artists and reduces the incentive to resell",
+      "guarantees every fan can get a ticket at a price they can afford",
+      "reduces fraud by making scalped tickets unprofitable",
+      "stabilises tour economics by smoothing revenue across high and low demand dates"
+    ],
+    "answer": "transfers revenue from scalpers to artists and reduces the incentive to resell",
+    "explanation": "When tickets are priced below market-clearing, scalpers buy blocks and resell at the true market price, capturing the surplus. Dynamic pricing captures that surplus for the artist instead. Critics argue it prices out lower-income fans; supporters note that scalpers were always doing this — the money just went to middlemen rather than musicians.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["dynamic pricing", "scalping", "concerts", "market clearing"]
+  },
+  {
+    "id": "wildcard-026",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "Rank these four economic 'perverse incentive' or 'unintended consequences' stories from the earliest historical occurrence to the most recent.",
+    "items": [
+      "British bounty on cobras backfires (colonial India)",
+      "Volstead Act Prohibition boosts organised crime (USA)",
+      "Soviet nail quota produces only tiny nails, then only giant nails",
+      "Cash-for-clunkers programme raises used car prices, hurting low-income buyers (USA)"
+    ],
+    "order_by": "approximate year the policy was introduced or the problem emerged",
+    "answer": "British bounty on cobras backfires (colonial India) → Volstead Act Prohibition boosts organised crime (USA) → Soviet nail quota produces only tiny nails, then only giant nails → Cash-for-clunkers programme raises used car prices, hurting low-income buyers (USA)",
+    "explanation": "The cobra bounty: British India, roughly 1860–1900. US Prohibition (Volstead Act): 1920. Soviet nail quotas: a running problem through much of the USSR era, especially 1930s–1950s. US Cash for Clunkers (CARS Act): 2009. Each illustrates Goodhart's Law or the law of unintended consequences.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["perverse incentives", "unintended consequences", "cobra effect", "Goodhart's Law"]
+  },
+  {
+    "id": "wildcard-027",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Coase Theorem states that when property rights are well-defined and transaction costs are zero, parties will negotiate to an efficient outcome regardless of who holds the rights. Which of these is the most damaging real-world limitation of the theorem?",
+    "choices": [
+      "Transaction costs are rarely zero: negotiating, monitoring, and enforcing agreements is expensive",
+      "Property rights in most countries are poorly defined, especially in rural areas",
+      "Governments rarely allow private parties to negotiate around regulations",
+      "The theorem only applies to two-party disputes, not multi-party problems"
+    ],
+    "answer": "Transaction costs are rarely zero: negotiating, monitoring, and enforcing agreements is expensive",
+    "explanation": "Coase himself noted the theorem's real contribution was showing WHY institutions (firms, laws, markets) exist: to minimise transaction costs. Where costs are low (two neighbours disputing a fence), private bargaining works. Where costs are high (millions of cars emitting CO₂), government intervention — carbon taxes, regulations — is required. Coase won the Nobel in 1991.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Coase theorem", "transaction costs", "externalities", "property rights"]
+  },
+  {
+    "id": "wildcard-028",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "War typically increases a country's GDP in the short run even though it destroys resources, because building tanks, planes, and weapons counts as production in national income accounts.",
+    "answer": true,
+    "explanation": "This is Bastiat's unseen problem applied to national accounting. GDP counts spending, not welfare — so military production and reconstruction both boost the statistic. Keynes himself famously proposed burying money in coal mines and having workers dig it up, just to illustrate that the metric would improve even for economically wasteful activity.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["GDP", "war", "national accounts", "Bastiat", "Keynes"]
+  },
+  {
+    "id": "wildcard-029",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Match each everyday phenomenon to the economics concept it best illustrates.",
+    "pairs": [
+      ["Selling milk at a loss to attract shoppers", "Loss leader pricing"],
+      ["Job applicants getting degrees to signal ability, not just learn", "Signalling theory (Spence)"],
+      ["Everyone in an office taking too many sick days because it's 'not their money'", "Moral hazard"],
+      ["Only bad used cars get listed for sale because sellers know more than buyers", "Adverse selection (Akerlof)"]
+    ],
+    "answer": "Milk at a loss→Loss leader; Degrees→Signalling; Sick days→Moral hazard; Used cars→Adverse selection",
+    "explanation": "These four concepts are cornerstones of applied microeconomics. Loss leaders recoup profit elsewhere. Spence's signalling: education is costly for low-ability workers to fake, so it credibly signals ability even if it teaches nothing useful. Moral hazard: insured behaviour changes. Akerlof's lemons: hidden quality drives good products out of markets.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["loss leader", "signalling", "moral hazard", "adverse selection", "Akerlof"]
+  },
+  {
+    "id": "wildcard-030",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'snob effect' describes how demand for a good FALLS as it becomes more widely owned or more affordable. It is the opposite of the 'bandwagon effect'. Which of these best illustrates the snob effect?",
+    "choices": [
+      "A luxury car brand that deliberately limits production to maintain exclusivity",
+      "A streaming service whose popularity grows because everyone is discussing its shows",
+      "A fashion trend that spreads virally on social media",
+      "A restaurant that fills up because a food critic gave it a glowing review"
+    ],
+    "answer": "A luxury car brand that deliberately limits production to maintain exclusivity",
+    "explanation": "Ferrari famously produces fewer cars than it could sell — artificial scarcity is part of the product. The snob effect means that if Ferrari flooded the market, existing owners and aspirational buyers would value the brand less. The economic term for goods where value depends on exclusivity is 'positional goods' — their utility comes partly from others NOT having them.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["snob effect", "positional goods", "exclusivity", "luxury", "Veblen"]
+  }
+]

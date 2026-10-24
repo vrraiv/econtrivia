@@ -50,5 +50,458 @@
     "as_of": null,
     "time_sensitive": false,
     "tags": ["tariff", "trade policy", "origins"]
+  },
+  {
+    "id": "origins-004",
+    "category": "origins",
+    "difficulty": 1,
+    "format": "short",
+    "prompt": "What English word for one's regular pay comes from the Latin 'salarium', which may refer to an allowance paid to Roman soldiers in salt?",
+    "answer": "salary",
+    "accept": ["salary", "salaries"],
+    "explanation": "The Latin 'salarium' is linked to 'sal' (salt). Whether soldiers were literally paid in salt or merely given a salt-purchasing allowance is debated, but the connection stuck. The word passed through Old French into English as 'salary' — and Roman soldiers who didn't earn their allowance were said to be 'not worth their salt'.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["salary", "etymology", "Latin", "Roman"]
+  },
+  {
+    "id": "origins-005",
+    "category": "origins",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The word 'bankrupt' traces to the Italian phrase 'banca rotta', meaning:",
+    "choices": [
+      "broken bench",
+      "empty vault",
+      "lost ledger",
+      "sunken ship"
+    ],
+    "answer": "broken bench",
+    "explanation": "Medieval Italian money changers conducted business on a wooden bench (banca). When a money changer failed, creditors or authorities literally broke the bench — banca rotta. The phrase entered English as 'bankrupt' via French and Latin. This is also the origin of the word 'bank' itself.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["bankrupt", "etymology", "Italian", "banking"]
+  },
+  {
+    "id": "origins-006",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The word 'mortgage' comes from Old French and literally translates as:",
+    "choices": [
+      "dead pledge",
+      "land bond",
+      "heavy debt",
+      "iron contract"
+    ],
+    "answer": "dead pledge",
+    "explanation": "'Mortgage' combines 'mort' (dead) and 'gage' (pledge). The 'death' referred to two things: the pledge dies when the debt is paid off, and the land is 'dead' (lost) to the borrower if they default. Legal scholar Glanvill described the concept in 12th-century England.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["mortgage", "etymology", "Old French", "debt"]
+  },
+  {
+    "id": "origins-007",
+    "category": "origins",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The word 'budget' entered English from Old French 'bougette', which meant:",
+    "choices": [
+      "a small leather bag",
+      "a royal treasury",
+      "a written ledger",
+      "a sealed decree"
+    ],
+    "answer": "a small leather bag",
+    "explanation": "The UK Chancellor of the Exchequer traditionally arrived at Parliament carrying a locked leather bag (bougette) containing the financial proposals. 'Opening the budget' originally meant opening this bag. The first recorded use of 'budget' to mean financial plan is from the 1760s.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["budget", "etymology", "Old French", "UK Parliament"]
+  },
+  {
+    "id": "origins-008",
+    "category": "origins",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The term 'boycott' — refusing to deal with a person or business as a form of protest — is named after Captain Charles Boycott. What was his role in 1880s Ireland?",
+    "choices": [
+      "Land agent who refused to reduce tenant rents after a bad harvest",
+      "Factory owner who locked out striking workers",
+      "Colonial tax collector who doubled duties without notice",
+      "Bank manager who foreclosed on struggling farmers"
+    ],
+    "answer": "Land agent who refused to reduce tenant rents after a bad harvest",
+    "explanation": "In 1880, Captain Charles Boycott managed estates in County Mayo, Ireland. After refusing to lower rents following a crop failure, the Irish Land League urged local people to shun him completely — his labourers quit, shops refused him, and his mail went undelivered. Charles Stewart Parnell's movement had coined a new word within months.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["boycott", "etymology", "Ireland", "labour"]
+  },
+  {
+    "id": "origins-009",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Charles Ponzi's 1919–1920 scheme promised extraordinary returns by arbitraging which seemingly mundane financial instrument?",
+    "choices": [
+      "International postal reply coupons",
+      "Foreign currency exchange contracts",
+      "Pre-war government bonds",
+      "Commodity warehouse receipts"
+    ],
+    "answer": "International postal reply coupons",
+    "explanation": "Ponzi claimed he could buy international reply coupons in countries with weak currencies (like post-WWI Spain or Italy) and redeem them in the US for more stamps than he paid, pocketing the arbitrage. The scheme was mathematically real but practically impossible at scale. He raised $15 million (roughly $250 million today) before it collapsed.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Ponzi scheme", "fraud", "postal coupons", "1920"]
+  },
+  {
+    "id": "origins-010",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "The terms 'bull market' and 'bear market' have a clear, agreed-upon single etymology: bulls toss their horns upward (prices rising) while bears swipe downward (prices falling).",
+    "answer": false,
+    "explanation": "The exact origin is disputed. One competing theory points to 18th-century London 'bearskin jobbers' who sold shares they didn't yet own (selling the bearskin before catching the bear). 'Bull' may have followed as the natural opposite. The up/down gesture explanation is a popular modern folk etymology. Both terms appear in print by the early 1700s, but the tossing/swiping explanation came later.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["bull market", "bear market", "etymology", "stock market"]
+  },
+  {
+    "id": "origins-011",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The term 'blue chip' — used to describe large, well-established, financially sound companies — borrowed its meaning from which source?",
+    "choices": [
+      "Poker chips, where blue traditionally had the highest denomination",
+      "The blue ink historically used to record sterling-credit accounts",
+      "The blue colour of the British East India Company's stock certificates",
+      "A blue ribbon awarded at 19th-century US agricultural fairs to champion livestock"
+    ],
+    "answer": "Poker chips, where blue traditionally had the highest denomination",
+    "explanation": "In American poker sets, chips are typically white (lowest), red, and blue (highest value). Oliver Gingold of Dow Jones is credited with first applying 'blue chip' to stocks in 1923 after watching trades in stocks priced at $200 or more. The poker analogy — high value, trustworthy — stuck.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["blue chip", "etymology", "poker", "stocks"]
+  },
+  {
+    "id": "origins-012",
+    "category": "origins",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Adam Smith famously used the phrase 'invisible hand' to describe how self-interest guides markets. How many times did Smith use the phrase across all of his published writings?",
+    "choices": [
+      "Exactly three times, across three separate works",
+      "Once, in The Wealth of Nations — it was the centrepiece of that book",
+      "Dozens of times — it was his most-used metaphor throughout his career",
+      "Never in print — the phrase was attributed to him posthumously"
+    ],
+    "answer": "Exactly three times, across three separate works",
+    "explanation": "Smith used 'invisible hand' exactly three times: once in The History of Astronomy (written in the 1750s, unpublished in his lifetime), once in The Theory of Moral Sentiments (1759), and once in The Wealth of Nations (1776). It became the centrepiece of free-market ideology long after Smith's death, a prominence he never gave it himself.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["invisible hand", "Adam Smith", "Wealth of Nations", "origins"]
+  },
+  {
+    "id": "origins-013",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The phrase 'laissez-faire' ('let it be done' / 'leave it alone') entered economic vocabulary from which intellectual tradition?",
+    "choices": [
+      "The French Physiocrats of the 18th century",
+      "The Scottish Enlightenment philosophers around Adam Smith",
+      "The Manchester School of industrial free traders",
+      "The Austrian School of Menger and Böhm-Bawerk"
+    ],
+    "answer": "The French Physiocrats of the 18th century",
+    "explanation": "The phrase is often attributed to Vincent de Gournay (~1750s), a French merchant-turned-official who argued that government should stay out of commerce. The Physiocrats — Quesnay, Turgot, and others — used it to oppose mercantilist regulations. It predates Adam Smith by decades, though Smith shared the sentiment.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["laissez-faire", "Physiocrats", "etymology", "free trade"]
+  },
+  {
+    "id": "origins-014",
+    "category": "origins",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The word 'economics' ultimately derives from the ancient Greek word 'oikonomia', which originally meant:",
+    "choices": [
+      "household management",
+      "trade and exchange",
+      "measurement of wealth",
+      "the study of markets"
+    ],
+    "answer": "household management",
+    "explanation": "'Oikonomia' combines 'oikos' (household) and 'nomos' (law or rule). Xenophon's 'Oeconomicus' (~400 BCE) and Aristotle's 'Oeconomica' were literally books about running a household and estate. The modern sense of studying national and market economies came much later — the word 'economics' in its modern usage was popularised in the late 19th century.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["economics", "etymology", "Greek", "oikonomia"]
+  },
+  {
+    "id": "origins-015",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The terms 'macroeconomics' and 'microeconomics' were first introduced into the economics literature by which Norwegian economist?",
+    "choices": [
+      "Ragnar Frisch",
+      "Jan Tinbergen",
+      "Gunnar Myrdal",
+      "Trygve Haavelmo"
+    ],
+    "answer": "Ragnar Frisch",
+    "explanation": "Ragnar Frisch coined both terms in a 1933 article in the journal Econometrica, which he also co-founded. 'Macro' from the Greek for 'large' and 'micro' from 'small' captured the distinction between economy-wide analysis and the behaviour of individual agents. Frisch shared the first Nobel in Economics in 1969.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["macroeconomics", "microeconomics", "Frisch", "etymology"]
+  },
+  {
+    "id": "origins-016",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "In economics, 'Black Friday' originally referred to a financial catastrophe in 1869, not to the post-Thanksgiving retail shopping day.",
+    "answer": true,
+    "explanation": "The original Black Friday was September 24, 1869, when financiers Jay Gould and James Fisk tried to corner the US gold market. When President Grant released Treasury gold to break the corner, gold prices collapsed and markets panicked. The retail shopping meaning — biggest shopping day of the year — didn't become standard until the 1980s.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Black Friday", "1869", "gold panic", "etymology"]
+  },
+  {
+    "id": "origins-017",
+    "category": "origins",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Tulip mania (Netherlands, 1636–37) is often cited as history's first recorded speculative bubble. At the peak, the most prized tulip bulb contracts were reportedly worth the equivalent of:",
+    "choices": [
+      "Several years' wages for a skilled craftsman",
+      "About a week's wages for a merchant",
+      "A modest house in Amsterdam",
+      "A single gold sovereign"
+    ],
+    "answer": "Several years' wages for a skilled craftsman",
+    "explanation": "At the height of mania, rare 'broken' tulip bulbs (their multicoloured patterns caused by a mosaic virus) fetched extraordinary prices. One Semper Augustus bulb reportedly sold for 10,000 guilders — roughly 10–12 times a skilled craftsman's annual income. The market collapsed in February 1637 when buyers simply stopped appearing.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["tulip mania", "speculative bubble", "Netherlands", "1637"]
+  },
+  {
+    "id": "origins-018",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Double-entry bookkeeping — the accounting method in which every transaction is recorded as both a debit and a credit — was systematically described for the first time in print in which year?",
+    "choices": [
+      "1494",
+      "1687",
+      "1340",
+      "1602"
+    ],
+    "answer": "1494",
+    "explanation": "Luca Pacioli's 'Summa de arithmetica, geometria, proportioni et proportionalità' (1494) included the first printed description of double-entry bookkeeping, the system already used by Venetian merchants. Pacioli didn't invent it — the practice dates to at least 14th-century Genoa — but his codification spread it across Europe.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["double-entry bookkeeping", "Pacioli", "accounting", "1494"]
+  },
+  {
+    "id": "origins-019",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Paper money was invented centuries before it arrived in Europe. Which civilisation issued the earliest known government-backed paper currency, around 1000 CE?",
+    "choices": [
+      "Song dynasty China",
+      "Abbasid Caliphate",
+      "Byzantine Empire",
+      "Mughal India"
+    ],
+    "answer": "Song dynasty China",
+    "explanation": "The Song dynasty issued 'jiaozi', government-backed paper promissory notes, around the late 10th–early 11th century. Earlier, Tang dynasty merchants had used private 'flying money' drafts. Marco Polo's accounts of paper money in Yuan China astonished 13th-century Europeans, who wouldn't adopt the technology for another four centuries.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["paper money", "China", "Song dynasty", "currency history"]
+  },
+  {
+    "id": "origins-020",
+    "category": "origins",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The dollar sign '$' has a disputed origin, but the most widely accepted scholarly explanation traces it to:",
+    "choices": [
+      "An abbreviation of 'ps' for Spanish/Mexican pesos or piastres, with the P and s overlaid",
+      "The initials 'US' superimposed on each other on early government documents",
+      "A stylised rendition of the Pillars of Hercules on the Spanish coat of arms",
+      "A shorthand for 'shilling' used by Thomas Jefferson in his early financial notes"
+    ],
+    "answer": "An abbreviation of 'ps' for Spanish/Mexican pesos or piastres, with the P and s overlaid",
+    "explanation": "The most accepted theory, advanced by historian Florian Cajori, holds that '$' evolved from the handwritten abbreviation 'ps' (for 'pesos') with the P written over the s, the loop of the P eventually dropping away to leave two vertical strokes. The symbol appears in American business correspondence from the 1770s, before the US dollar was officially created in 1792.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["dollar sign", "etymology", "Spanish peso", "currency"]
+  },
+  {
+    "id": "origins-021",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The term 'stagflation' — the combination of high inflation and economic stagnation — was coined in a speech to the British Parliament in 1965. Who coined it?",
+    "choices": [
+      "Iain Macleod",
+      "Harold Wilson",
+      "Milton Friedman",
+      "Edward Heath"
+    ],
+    "answer": "Iain Macleod",
+    "explanation": "Conservative MP Iain Macleod used 'stagflation' in a November 1965 speech, warning of 'the worst of both worlds — not just inflation on one side or stagnation on the other, but both of them together.' The term became ubiquitous during the 1970s oil shocks, which seemed to refute the standard inflation-unemployment tradeoff.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["stagflation", "etymology", "Macleod", "UK Parliament"]
+  },
+  {
+    "id": "origins-022",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "The 'Laffer curve' — illustrating that cutting taxes can sometimes increase revenue — was first sketched by Arthur Laffer on a cocktail napkin at a Washington restaurant in 1974.",
+    "answer": true,
+    "explanation": "According to accounts by journalist Jude Wanniski (who was present), Laffer drew the curve on a napkin at the Two Continents restaurant in Washington, D.C., to explain to Dick Cheney and Donald Rumsfeld why the Ford administration's tax increase might backfire. Laffer himself doesn't remember the napkin, but the story has entered economic lore. The underlying insight — that both 0% and 100% tax rates yield zero revenue — predates Laffer.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Laffer curve", "tax policy", "origins", "supply-side"]
+  },
+  {
+    "id": "origins-023",
+    "category": "origins",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Big Mac Index — using the price of a McDonald's Big Mac to compare purchasing power across countries — was invented by The Economist magazine. In what year was it first published?",
+    "choices": [
+      "1986",
+      "1971",
+      "1994",
+      "2001"
+    ],
+    "answer": "1986",
+    "explanation": "The Economist's economics editor Pam Woodall introduced the Big Mac Index in September 1986 as a 'lighthearted guide' to purchasing power parity. It uses the Big Mac because it is produced to a near-identical recipe in over 100 countries, making it a useful (if imperfect) common basket. Academic economists now take it seriously enough to publish peer-reviewed papers on it.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Big Mac Index", "purchasing power parity", "The Economist", "1986"]
+  },
+  {
+    "id": "origins-024",
+    "category": "origins",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Muhammad Yunus founded Grameen Bank in Bangladesh, pioneering microfinance. What was the amount of his first personal loan to poor craftswomen, which launched the entire movement?",
+    "choices": [
+      "US $27",
+      "US $500",
+      "US $1,200",
+      "US $5,000"
+    ],
+    "answer": "US $27",
+    "explanation": "In 1974, Yunus lent the equivalent of US $27 (from his own pocket) to 42 stool-makers in Jobra village who were trapped in debt bondage to traders. The experiment proved small loans at fair rates could be commercially viable and transform lives. Grameen Bank was formally established in 1983 and has since extended billions in microloans. Yunus won the Nobel Peace Prize in 2006.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["microfinance", "Grameen Bank", "Yunus", "origins"]
+  },
+  {
+    "id": "origins-025",
+    "category": "origins",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The term 'quantitative easing' — creating central bank reserves to purchase assets — was coined in the early 2000s by a Western academic advising which central bank?",
+    "choices": [
+      "The Bank of Japan",
+      "The US Federal Reserve",
+      "The Bank of England",
+      "The European Central Bank"
+    ],
+    "answer": "The Bank of Japan",
+    "explanation": "Economist Richard Werner coined 'quantitative easing' (quantitative Lockerung in German) and advocated the policy for Japan in the 1990s to combat deflation. The Bank of Japan officially adopted the term when it launched its QE programme in March 2001 — the first central bank to do so. The Fed, Bank of England, and ECB adopted the approach after 2008.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["quantitative easing", "Bank of Japan", "central banking", "origins"]
+  },
+  {
+    "id": "origins-026",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Phillips curve — describing a tradeoff between unemployment and inflation — is named after A.W. Phillips, who discovered the relationship by analysing which country's historical data?",
+    "choices": [
+      "United Kingdom",
+      "United States",
+      "New Zealand",
+      "Australia"
+    ],
+    "answer": "United Kingdom",
+    "explanation": "Alban William Housego Phillips, a New Zealand-born economist at the LSE, published his 1958 paper using 97 years of UK wage and unemployment data (1861–1957). The paper showed a stable inverse relationship between unemployment and wage inflation. Samuelson and Solow soon adapted it to consumer price inflation in the US, and the 'Phillips curve' became central to Keynesian policymaking — until stagflation undermined it in the 1970s.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Phillips curve", "inflation", "unemployment", "origins"]
+  },
+  {
+    "id": "origins-027",
+    "category": "origins",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The word 'capital' in economics — meaning accumulated wealth used to generate more wealth — ultimately derives from the Latin word 'caput', meaning:",
+    "choices": [
+      "head",
+      "land",
+      "treasure",
+      "grain"
+    ],
+    "answer": "head",
+    "explanation": "'Caput' means head in Latin, and wealth in ancient societies was often counted in heads of cattle. 'Capitale' in medieval Latin referred to livestock as the primary form of moveable wealth. From there the word migrated to money and accumulated assets. The same root gives us 'cattle', 'chattel', and 'capital' — all originally about the same thing: livestock as wealth.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["capital", "etymology", "Latin", "cattle"]
+  },
+  {
+    "id": "origins-028",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "These four texts each marked a turning point in economic thought. Put them in order of publication year, starting with the oldest.",
+    "items": [
+      "Luca Pacioli's Summa (double-entry bookkeeping)",
+      "Adam Smith's The Wealth of Nations",
+      "John Maynard Keynes's The General Theory",
+      "Thomas Piketty's Capital in the Twenty-First Century"
+    ],
+    "order_by": "year of first publication",
+    "answer": "Luca Pacioli's Summa → Adam Smith's The Wealth of Nations → John Maynard Keynes's The General Theory → Thomas Piketty's Capital in the Twenty-First Century",
+    "explanation": "Pacioli's Summa: 1494. The Wealth of Nations: 1776. The General Theory of Employment, Interest and Money: 1936. Capital in the Twenty-First Century (originally in French as Le Capital au XXIe siècle): 2013.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Pacioli", "Smith", "Keynes", "Piketty", "economics books", "chronology"]
   }
 ]

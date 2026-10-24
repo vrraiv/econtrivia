@@ -36,5 +36,460 @@
     "as_of": null,
     "time_sensitive": false,
     "tags": ["Galbraith", "Affluent Society", "Canada", "public goods"]
+  },
+  {
+    "id": "pop-003",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Daniel Kahneman's Thinking, Fast and Slow divides human thought into two systems. System 1 is fast and intuitive; System 2 is:",
+    "choices": [
+      "slow, deliberate, and effortful",
+      "unconscious and emotional",
+      "driven by social norms",
+      "purely rational and unbiased"
+    ],
+    "answer": "slow, deliberate, and effortful",
+    "explanation": "Kahneman, who won the 2002 Nobel in Economics, showed that System 1 handles most everyday decisions automatically, while System 2 kicks in for complex reasoning — but is lazy and often lets System 1's errors slide unchecked.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Kahneman", "behavioural economics", "System 1", "System 2"]
+  },
+  {
+    "id": "pop-004",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 2008 book Nudge, by Richard Thaler and Cass Sunstein, advocates 'libertarian paternalism' — guiding people toward better choices while:",
+    "choices": [
+      "preserving their freedom to choose otherwise",
+      "imposing financial penalties for bad choices",
+      "replacing markets with expert planning",
+      "eliminating advertising that exploits biases"
+    ],
+    "answer": "preserving their freedom to choose otherwise",
+    "explanation": "A classic nudge is changing the default on a pension plan from opt-in to opt-out: enrolment rates soar without forcing anyone. Thaler won the 2017 Nobel for this work. The key is that the nudge changes the choice architecture without restricting options.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Thaler", "Sunstein", "nudge", "behavioural economics"]
+  },
+  {
+    "id": "pop-005",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Thomas Piketty's Capital in the Twenty-First Century argues that wealth inequality tends to rise when the return on capital (r) is greater than economic growth (g). Which of these best summarises his key concern?",
+    "choices": [
+      "Inherited wealth grows faster than wages, concentrating wealth over generations",
+      "Government deficits crowd out private investment, reducing growth",
+      "Trade deficits transfer wealth from rich to poor countries",
+      "Technological progress destroys more jobs than it creates"
+    ],
+    "answer": "Inherited wealth grows faster than wages, concentrating wealth over generations",
+    "explanation": "Piketty's r > g formula means that people who live off capital (dividends, rents) accumulate wealth faster than workers — tending toward a 'patrimonial capitalism' reminiscent of 19th-century Europe. The 700-page book became an unlikely global bestseller in 2014.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Piketty", "inequality", "r > g", "capital"]
+  },
+  {
+    "id": "pop-006",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Michael Lewis's The Big Short chronicles traders who bet against the US housing market before the 2008 crash. The title refers to their financial position: they were 'short' on mortgage bonds, meaning they profited when prices:",
+    "choices": [
+      "fell",
+      "rose",
+      "stayed flat",
+      "became more volatile"
+    ],
+    "answer": "fell",
+    "explanation": "Being 'short' means borrowing an asset and selling it, expecting to buy it back cheaper later and pocket the difference. The protagonists in The Big Short — including Michael Burry, Steve Eisman, and Greg Lippmann — were ridiculed for years before the crash proved them right and made them fortunes.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Lewis", "Big Short", "2008", "short selling"]
+  },
+  {
+    "id": "pop-007",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Michael Lewis's 2014 book Flash Boys exposed a controversial practice in stock markets where some traders use speed advantages to:",
+    "choices": [
+      "detect and front-run other investors' orders milliseconds before they execute",
+      "manipulate company earnings reports before they are released",
+      "bribe exchange officials for preferential order routing",
+      "short-sell stocks they know will be downgraded by analysts"
+    ],
+    "answer": "detect and front-run other investors' orders milliseconds before they execute",
+    "explanation": "High-frequency traders (HFTs) co-locate servers next to exchanges and use fibre-optic cables routed for minimal distance — shaving microseconds — to see large incoming orders and trade ahead of them. Lewis's protagonist, Brad Katsuyama, responded by founding the IEX exchange with a deliberate 350-microsecond speed bump.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Lewis", "Flash Boys", "HFT", "front-running"]
+  },
+  {
+    "id": "pop-008",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Michael Lewis's memoir Liar's Poker (1989) is set at which Wall Street firm, where Lewis worked as a bond salesman in the 1980s?",
+    "choices": [
+      "Salomon Brothers",
+      "Goldman Sachs",
+      "Merrill Lynch",
+      "Drexel Burnham Lambert"
+    ],
+    "answer": "Salomon Brothers",
+    "explanation": "The title comes from a high-stakes bluffing game played with dollar-bill serial numbers by Salomon traders. Lewis wrote Liar's Poker as a cautionary tale about Wall Street excess, but was dismayed that many readers treated it as a how-to guide and flooded into finance careers.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Lewis", "Liar's Poker", "Salomon Brothers", "Wall Street"]
+  },
+  {
+    "id": "pop-009",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "Richard Thaler's book Misbehaving is subtitled 'The Making of Behavioural Economics' and draws on Thaler's own career to show how mainstream economists initially resisted the idea that people behave irrationally.",
+    "answer": true,
+    "explanation": "Thaler recounts decades of academic resistance to behavioural findings — colleagues dismissing anomalies as trivial or arguing they'd disappear in 'real' markets. His persistence, and eventual Nobel Prize in 2017, helped transform economics into a field that takes human psychology seriously.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Thaler", "behavioural economics", "Misbehaving"]
+  },
+  {
+    "id": "pop-010",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Abhijit Banerjee and Esther Duflo won the 2019 Nobel Prize and are best known for applying which research method to fighting global poverty?",
+    "choices": [
+      "Randomised controlled trials (RCTs)",
+      "Agent-based computational modelling",
+      "Cross-country regression analysis",
+      "Structural equation modelling"
+    ],
+    "answer": "Randomised controlled trials (RCTs)",
+    "explanation": "Their book Poor Economics (2011) popularised the idea of testing anti-poverty interventions like vaccines, microfinance, and cash transfers the same way drugs are tested — randomly assigning treatment and control groups. Duflo, at 46, was the second woman and youngest person to win the Economics Nobel.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Banerjee", "Duflo", "RCT", "development economics", "Nobel 2019"]
+  },
+  {
+    "id": "pop-011",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Philip Tetlock's Superforecasting research found that the most accurate predictors of geopolitical and economic events tended to be:",
+    "choices": [
+      "generalists who aggregate diverse information and update beliefs frequently",
+      "deep specialists with decades of experience in a single field",
+      "prediction market participants who bet large amounts of money",
+      "former government insiders with access to classified information"
+    ],
+    "answer": "generalists who aggregate diverse information and update beliefs frequently",
+    "explanation": "Tetlock found that 'foxes' (who know many things) beat 'hedgehogs' (who know one big thing) in forecasting accuracy. His superforecasters — often ordinary people, not experts — outperformed CIA analysts in a multi-year tournament by constantly seeking disconfirming evidence and making small, frequent updates.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Tetlock", "forecasting", "superforecasters", "fox vs hedgehog"]
+  },
+  {
+    "id": "pop-012",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "E.F. Schumacher's influential 1973 book Small Is Beautiful criticised mainstream economics for treating which finite resource as an income rather than as capital?",
+    "choices": [
+      "Natural resources and fossil fuels",
+      "Human labour and working hours",
+      "Land and agricultural productivity",
+      "Foreign exchange reserves"
+    ],
+    "answer": "Natural resources and fossil fuels",
+    "explanation": "Schumacher argued that burning coal and oil and calling it 'income' was like a business spending its capital and calling it profit. Written just before the 1973 oil shock, the book helped launch the green economics movement and influenced E.F.'s daughter Barbara Wood to found the Schumacher Institute.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Schumacher", "Small is Beautiful", "natural resources", "green economics"]
+  },
+  {
+    "id": "pop-013",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Kate Raworth's Doughnut Economics (2017) proposes that economic policy should keep societies within a 'doughnut' — above a social foundation floor and below a planetary ceiling. The inner ring represents:",
+    "choices": [
+      "basic needs like food, healthcare, and housing",
+      "sustainable GDP growth targets",
+      "minimum acceptable Gini coefficients",
+      "emissions permitted under the Paris Agreement"
+    ],
+    "answer": "basic needs like food, healthcare, and housing",
+    "explanation": "The doughnut's hole represents shortfalls in human needs (the social foundation); the outer ring represents ecological overshoot (the planetary ceiling). The safe and just space is the doughnut itself. Amsterdam adopted the framework for its post-COVID recovery planning in 2020.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Raworth", "doughnut economics", "planetary boundaries"]
+  },
+  {
+    "id": "pop-014",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Benjamin Graham's The Intelligent Investor is considered the bible of value investing. Which legendary investor called it 'by far the best book on investing ever written'?",
+    "choices": [
+      "Warren Buffett",
+      "George Soros",
+      "Peter Lynch",
+      "John Templeton"
+    ],
+    "answer": "Warren Buffett",
+    "explanation": "Buffett studied under Graham at Columbia and calls The Intelligent Investor the book that shaped his entire investing philosophy. The core concept is 'margin of safety' — buying stocks at a significant discount to their intrinsic value to protect against error and bad luck.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Graham", "Buffett", "value investing", "Intelligent Investor"]
+  },
+  {
+    "id": "pop-015",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Burton Malkiel's A Random Walk Down Wall Street argues that stock prices follow a 'random walk', leading to his famous recommendation that most investors should:",
+    "choices": [
+      "buy low-cost index funds rather than trying to beat the market",
+      "time the market by following technical chart patterns",
+      "focus exclusively on dividend-paying value stocks",
+      "hire active fund managers with strong recent track records"
+    ],
+    "answer": "buy low-cost index funds rather than trying to beat the market",
+    "explanation": "If prices already reflect all available information (the efficient market hypothesis), picking individual stocks is equivalent to flipping a coin — and active managers charge fees for that coin-flip. Malkiel's index-fund advice, first published in 1973, anticipated Vanguard's first index fund by two years.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Malkiel", "random walk", "index funds", "efficient markets"]
+  },
+  {
+    "id": "pop-016",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "George Akerlof and Robert Shiller's Animal Spirits argues that macroeconomic fluctuations are partly driven by psychological forces Keynes called 'animal spirits'. Which of these is NOT one of the five animal spirits they identify?",
+    "choices": [
+      "rational expectations",
+      "confidence",
+      "fairness",
+      "money illusion"
+    ],
+    "answer": "rational expectations",
+    "explanation": "Akerlof and Shiller identify five animal spirits: confidence, fairness, corruption and bad faith, money illusion, and stories (narratives). Rational expectations — the idea that people correctly anticipate future policy — is actually the mainstream concept they argue against.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Akerlof", "Shiller", "animal spirits", "Keynes", "behavioural macro"]
+  },
+  {
+    "id": "pop-017",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "The sunk cost fallacy occurs when people irrationally continue an activity because of time or money already invested, even when the future expected value of continuing is negative.",
+    "answer": true,
+    "explanation": "Classic examples: finishing a terrible movie because you've already paid; staying in a failing business because of past investment. Rational economics says only future costs and benefits should influence decisions — the past is gone. Yet the fallacy is nearly universal, showing up in business, warfare, and relationships.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["sunk cost", "behavioural economics", "fallacy"]
+  },
+  {
+    "id": "pop-018",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'IKEA effect' is the finding that people place disproportionately high value on products they have partially assembled themselves. This is most directly explained by which broader concept?",
+    "choices": [
+      "Endowment effect — we value things more once we own or create them",
+      "Loss aversion — we fear losing the effort we invested",
+      "Anchoring — the assembly instructions set a high value in our minds",
+      "Signalling — assembled furniture signals competence to others"
+    ],
+    "answer": "Endowment effect — we value things more once we own or create them",
+    "explanation": "The IKEA effect was named and studied by Michael Norton, Daniel Mochon, and Dan Ariely (2011). Participants valued self-assembled IKEA boxes as highly as expert-built ones. It's related to but distinct from the endowment effect — here the labour itself generates attachment, even before ownership is complete.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["IKEA effect", "behavioural economics", "endowment effect"]
+  },
+  {
+    "id": "pop-019",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "According to Kahneman's research, losses feel roughly how many times worse than equivalent gains feel good — a phenomenon called loss aversion?",
+    "choices": [
+      "Twice as bad",
+      "Equal",
+      "Three times as bad",
+      "Five times as bad"
+    ],
+    "answer": "Twice as bad",
+    "explanation": "Kahneman and Tversky found the pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This asymmetry explains why people irrationally avoid small-probability catastrophes and why investors hold losing stocks too long — the emotional pain of realising a loss outweighs the rational benefit.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Kahneman", "Tversky", "loss aversion", "prospect theory"]
+  },
+  {
+    "id": "pop-020",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Michael Lewis's Moneyball tells the story of the Oakland Athletics baseball team using statistical analysis to compete with richer teams. The economist concept most central to the story is:",
+    "choices": [
+      "market inefficiency — undervalued assets exist when conventional wisdom is wrong",
+      "comparative advantage — each player should do what they do best",
+      "diminishing returns — adding stars has less impact than expected",
+      "price discrimination — paying different wages to different players"
+    ],
+    "answer": "market inefficiency — undervalued assets exist when conventional wisdom is wrong",
+    "explanation": "Billy Beane and Paul DePodesta identified that traditional scouts overvalued flashy attributes (home runs, stolen bases) and undervalued on-base percentage. By buying what the market mispriced, they built a winning team on a fraction of the payroll. The approach spawned a revolution in sports analytics.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Lewis", "Moneyball", "market inefficiency", "Oakland A's"]
+  },
+  {
+    "id": "pop-021",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'anchoring' bias means that the first number you encounter in a negotiation or estimate heavily influences your final judgement. Which of these is a classic demonstration of anchoring?",
+    "choices": [
+      "Asking people to spin a wheel of fortune before estimating an African country's UN share produces estimates correlated with the wheel result",
+      "People buy more when products are labelled 'sale' even if the price hasn't changed",
+      "Judges give harsher sentences on hot days",
+      "Investors panic-sell after seeing stock prices fall in the news"
+    ],
+    "answer": "Asking people to spin a wheel of fortune before estimating an African country's UN share produces estimates correlated with the wheel result",
+    "explanation": "Tversky and Kahneman's classic anchoring experiment: subjects who spun a rigged wheel to land on 65 gave much higher UN-share estimates than those who landed on 10 — even though the wheel was obviously random. Anchors work even when explicitly irrelevant, which is why retailers always show a 'was' price alongside the 'now' price.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["anchoring", "Tversky", "Kahneman", "behavioural economics"]
+  },
+  {
+    "id": "pop-022",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "short",
+    "prompt": "What is the term for the economic fallacy of continuing to invest in a failing project because of the resources already spent, even when quitting would be rational?",
+    "answer": "sunk cost fallacy",
+    "accept": ["sunk cost fallacy", "sunk cost", "sunk-cost fallacy", "escalation of commitment", "concorde fallacy"],
+    "explanation": "The sunk cost fallacy — also called the Concorde fallacy after the supersonic jet that the UK and France kept funding despite mounting losses — is one of the most pervasive decision-making errors in business and government. Rational decision-makers should ignore past costs and focus only on future payoffs.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["sunk cost", "fallacy", "behavioural economics", "Concorde"]
+  },
+  {
+    "id": "pop-023",
+    "category": "pop",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The endowment effect, demonstrated by Thaler's famous coffee-mug experiments, shows that people demand much more to give up an object they own than they would pay to acquire it. This violates which standard economics assumption?",
+    "choices": [
+      "Preference independence of initial endowments (Coase theorem)",
+      "Diminishing marginal utility of wealth",
+      "The law of demand",
+      "Rational expectations"
+    ],
+    "answer": "Preference independence of initial endowments (Coase theorem)",
+    "explanation": "The Coase theorem implies that efficient outcomes are reached regardless of who initially owns an asset, because parties can trade to the optimum. But if willingness to accept far exceeds willingness to pay, the initial assignment of property rights matters enormously — undermining the theorem's practical reach.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["endowment effect", "Thaler", "Coase", "behavioural economics"]
+  },
+  {
+    "id": "pop-024",
+    "category": "pop",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Tim Harford's The Undercover Economist and similar 'pop econ' books popularised applying economic reasoning to everyday life. Which economist is generally credited with pioneering this 'economics of everything' approach in academia, including the economics of crime and the family?",
+    "choices": [
+      "Gary Becker",
+      "Steven Levitt",
+      "Robert Frank",
+      "Tyler Cowen"
+    ],
+    "answer": "Gary Becker",
+    "explanation": "Becker's Nobel Prize (1992) was for extending economic analysis beyond markets to social behaviour — crime, discrimination, marriage, and drug addiction. His Human Capital (1964) argued education was an investment with measurable returns. Levitt's Freakonomics is arguably Becker's popular legacy, though Levitt himself credits Becker as a major influence.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Becker", "economics of everything", "pop econ"]
+  },
+  {
+    "id": "pop-025",
+    "category": "pop",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Robert Shiller won the 2013 Nobel Prize partly for work showing that stock prices are far more volatile than dividends, implying markets are not purely driven by rational valuation. He called the excess volatility driven by mood and stories:",
+    "choices": [
+      "irrational exuberance",
+      "animal spirits",
+      "narrative economics",
+      "speculative bubbles"
+    ],
+    "answer": "irrational exuberance",
+    "explanation": "Shiller borrowed the phrase 'irrational exuberance' from a 1996 Alan Greenspan speech and made it the title of his 2000 book warning that US equities were dangerously overvalued — published just before the dot-com crash. He later added 'narrative economics' as a separate concept: how stories spread virally and drive markets.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Shiller", "irrational exuberance", "behavioural finance", "bubbles"]
+  },
+  {
+    "id": "pop-026",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "higher_lower",
+    "prompt": "Which book sold more copies in its first year?",
+    "items": ["Capital in the Twenty-First Century (Piketty, 2014 English edition)", "Freakonomics (Levitt & Dubner, 2005)"],
+    "metric": "first-year English-language sales (approximate)",
+    "answer": "Freakonomics (Levitt & Dubner, 2005)",
+    "explanation": "Freakonomics sold roughly 500,000 copies in its first year and went on to 5+ million total. Piketty's Capital sold about 80,000 copies in the first year of its English translation — remarkable for a dense 700-page academic tome, but far behind Freakonomics.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Freakonomics", "Piketty", "bestsellers", "pop econ"]
+  },
+  {
+    "id": "pop-027",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "Put these pop-economics bestsellers in the order they hit shelves, from oldest to most recent.",
+    "items": [
+      "The Intelligent Investor (Benjamin Graham)",
+      "Small Is Beautiful (E.F. Schumacher)",
+      "A Random Walk Down Wall Street (Burton Malkiel)",
+      "Thinking, Fast and Slow (Daniel Kahneman)"
+    ],
+    "order_by": "year of first publication",
+    "answer": "The Intelligent Investor → Small Is Beautiful → A Random Walk Down Wall Street → Thinking, Fast and Slow",
+    "explanation": "Graham's Intelligent Investor: 1949. Schumacher's Small Is Beautiful: 1973. Malkiel's Random Walk: also 1973, published the same year — but Graham's foundational text predates both. Kahneman's Thinking, Fast and Slow: 2011.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Graham", "Schumacher", "Malkiel", "Kahneman", "books", "chronology"]
   }
 ]

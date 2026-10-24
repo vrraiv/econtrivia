@@ -74,5 +74,538 @@
     "as_of": null,
     "time_sensitive": false,
     "tags": ["Nobel 2024", "institutions", "Acemoglu", "Robinson", "growth"]
+  },
+  {
+    "id": "nobel-005",
+    "category": "nobel",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Milton Friedman won the 1976 Nobel Prize in Economics. He is best known as the intellectual leader of which economic school?",
+    "choices": [
+      "Chicago School",
+      "Keynesian School",
+      "Austrian School",
+      "Post-Keynesian School"
+    ],
+    "answer": "Chicago School",
+    "explanation": "Friedman spent most of his career at the University of Chicago, where he championed free markets, monetarism, and limited government. He was awarded the prize for his work on consumption theory and monetary history.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1976/friedman/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 1976", "Friedman", "Chicago School", "monetarism"]
+  },
+  {
+    "id": "nobel-006",
+    "category": "nobel",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Friedrich Hayek won the 1974 Nobel Prize in Economics, sharing it with Gunnar Myrdal. Hayek is famous for arguing that prices in a market economy serve primarily as:",
+    "choices": [
+      "signals that coordinate dispersed knowledge no central planner can possess",
+      "tools for government to redistribute income more efficiently",
+      "obstacles to optimal resource allocation that require regulation",
+      "measures of social welfare that should be maximised by policy"
+    ],
+    "answer": "signals that coordinate dispersed knowledge no central planner can possess",
+    "explanation": "In his 1945 essay 'The Use of Knowledge in Society', Hayek argued that prices aggregate the scattered, tacit knowledge of millions of individuals — information no central authority could ever gather. This became the foundation of his critique of central planning.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1974/hayek/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 1974", "Hayek", "price signals", "Austrian School"]
+  },
+  {
+    "id": "nobel-007",
+    "category": "nobel",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Paul Samuelson, who won the second-ever Nobel Prize in Economics (1970), is credited with writing one of the most influential economics textbooks of the 20th century. What was it called?",
+    "choices": [
+      "Economics",
+      "The General Theory",
+      "Principles of Economics",
+      "The Wealth of Nations"
+    ],
+    "answer": "Economics",
+    "explanation": "Samuelson's textbook 'Economics: An Introductory Analysis', first published in 1948, introduced millions of students to the neoclassical-Keynesian synthesis. It went through 19 editions and sold over 4 million copies worldwide.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1970/samuelson/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 1970", "Samuelson", "textbook", "neoclassical synthesis"]
+  },
+  {
+    "id": "nobel-008",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Robert Solow won the 1987 Nobel Prize for his work on economic growth. His growth model famously found that most long-run economic growth comes not from more capital or labour, but from:",
+    "choices": [
+      "technological progress (the 'Solow residual')",
+      "government investment in infrastructure",
+      "international trade and comparative advantage",
+      "population growth and demographic dividends"
+    ],
+    "answer": "technological progress (the 'Solow residual')",
+    "explanation": "Solow's 1956–57 papers showed that the majority of US economic growth could not be explained by increases in capital or labour — a leftover he called the 'residual', now interpreted as total factor productivity growth driven by technology.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1987/solow/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 1987", "Solow", "growth model", "total factor productivity"]
+  },
+  {
+    "id": "nobel-009",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Gary Becker won the 1992 Nobel Prize for extending economic analysis to social behaviour. Which of the following is most associated with his work?",
+    "choices": [
+      "Human capital theory — treating education and training as investments",
+      "Game theory — analysing strategic interactions between firms",
+      "Real business cycle theory — linking fluctuations to technology shocks",
+      "Public choice theory — applying economics to political behaviour"
+    ],
+    "answer": "Human capital theory — treating education and training as investments",
+    "explanation": "Becker's 1964 book 'Human Capital' showed that spending on education, health, and training raises a worker's productivity just like investing in physical machinery. He also applied economics to discrimination, crime, and family decisions.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1992/becker/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 1992", "Becker", "human capital", "Chicago School"]
+  },
+  {
+    "id": "nobel-010",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Amartya Sen won the 1998 Nobel Prize in Economics. He is particularly well known for his study of famines, concluding that most modern famines result primarily from:",
+    "choices": [
+      "failures of entitlement and distribution, not absolute food shortage",
+      "overpopulation and Malthusian resource limits",
+      "foreign trade embargoes cutting off food imports",
+      "climate shocks that destroy crops across entire regions"
+    ],
+    "answer": "failures of entitlement and distribution, not absolute food shortage",
+    "explanation": "In 'Poverty and Famines' (1981), Sen showed that major famines — including the 1943 Bengal famine — occurred despite adequate overall food supplies. People starved because they lacked the economic 'entitlements' (income, legal rights) to obtain food.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1998/sen/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 1998", "Sen", "famines", "entitlement", "welfare economics"]
+  },
+  {
+    "id": "nobel-011",
+    "category": "nobel",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Daniel Kahneman won the 2002 Nobel Prize in Economics despite being a psychologist, not an economist. He shared the prize for work on:",
+    "choices": [
+      "prospect theory and decision-making under uncertainty",
+      "auction design and mechanism theory",
+      "information asymmetry and signalling",
+      "voting theory and social choice"
+    ],
+    "answer": "prospect theory and decision-making under uncertainty",
+    "explanation": "Kahneman and his long-time collaborator Amos Tversky (who had died in 1996 and so could not share the prize) showed that people systematically deviate from rational expected utility maximisation — especially by feeling losses more acutely than equivalent gains.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2002", "Kahneman", "prospect theory", "behavioural economics"]
+  },
+  {
+    "id": "nobel-012",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Amos Tversky, who co-developed prospect theory with Daniel Kahneman, shared the 2002 Nobel Prize in Economics with Kahneman.",
+    "answer": false,
+    "explanation": "Tversky died of cancer in July 1996, six years before the prize was awarded in 2002. The Nobel Prize is not awarded posthumously (with one narrow exception in 2011 for medicine). Kahneman acknowledged that Tversky would certainly have shared the prize had he lived.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2002", "Kahneman", "Tversky", "behavioural economics"]
+  },
+  {
+    "id": "nobel-013",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "George Akerlof's 1970 paper 'The Market for Lemons', which contributed to his 2001 Nobel Prize, used the used-car market to illustrate which economic concept?",
+    "choices": [
+      "Adverse selection caused by information asymmetry",
+      "Moral hazard in insurance markets",
+      "Price discrimination by monopolists",
+      "Network effects and switching costs"
+    ],
+    "answer": "Adverse selection caused by information asymmetry",
+    "explanation": "Akerlof showed that when sellers know more about quality than buyers, bad products ('lemons') drive out good ones. The paper was rejected by three journals before publication, yet became one of the most cited economics papers of all time.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2001/akerlof/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2001", "Akerlof", "adverse selection", "information asymmetry"]
+  },
+  {
+    "id": "nobel-014",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Michael Spence shared the 2001 Nobel Prize for his theory of market signalling. In his model, why do workers get university degrees even if the education itself teaches nothing useful?",
+    "choices": [
+      "Completing a degree signals to employers that the worker has high ability",
+      "Degrees improve social connections and access to professional networks",
+      "Government subsidies make degrees cheaper than the market rate",
+      "Employers use grades as a measure of effort, not intelligence"
+    ],
+    "answer": "Completing a degree signals to employers that the worker has high ability",
+    "explanation": "Spence showed that if high-ability workers find education less costly to complete, firms can use degree attainment as a credible signal of ability — even if education adds no human capital. The insight applies to any costly, observable action used to reveal private information.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2001/spence/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2001", "Spence", "signalling", "information"]
+  },
+  {
+    "id": "nobel-015",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Richard Thaler won the 2017 Nobel Prize for behavioural economics. His 'nudge' concept recommends that governments improve decisions by:",
+    "choices": [
+      "changing default options to make the socially desirable choice the path of least resistance",
+      "imposing taxes and penalties on harmful behaviours",
+      "banning products that are demonstrably bad for consumers",
+      "mandating financial literacy education in schools"
+    ],
+    "answer": "changing default options to make the socially desirable choice the path of least resistance",
+    "explanation": "Thaler and Cass Sunstein's 2008 book 'Nudge' showed that changing defaults — for example, making opt-out rather than opt-in the default for pension saving — dramatically increases participation without restricting choice. The UK and US governments set up 'nudge units' as a result.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2017/thaler/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2017", "Thaler", "nudge", "behavioural economics", "libertarian paternalism"]
+  },
+  {
+    "id": "nobel-016",
+    "category": "nobel",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Abhijit Banerjee and Esther Duflo shared the 2019 Nobel Prize (with Michael Kremer) for pioneering which research method in development economics?",
+    "choices": [
+      "Randomised controlled trials (RCTs) to measure causal effects of anti-poverty programmes",
+      "Satellite imagery to track economic activity in remote regions",
+      "Agent-based models simulating household decision-making",
+      "Difference-in-differences analysis of natural experiments"
+    ],
+    "answer": "Randomised controlled trials (RCTs) to measure causal effects of anti-poverty programmes",
+    "explanation": "Banerjee and Duflo's J-PAL lab at MIT pioneered using RCTs — like those used in medical drug trials — to test which development interventions actually reduce poverty. Their approach transformed development economics from armchair theorising to evidence-based policy.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2019/banerjee/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2019", "Banerjee", "Duflo", "RCT", "development economics"]
+  },
+  {
+    "id": "nobel-017",
+    "category": "nobel",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Claudia Goldin won the 2023 Nobel Prize in Economics for her research on women in the labour market. She found that the largest remaining source of the gender pay gap today is:",
+    "choices": [
+      "the wage penalty for workers — disproportionately women — who need flexible or part-time hours",
+      "direct discrimination by employers paying women less for identical work",
+      "differences in educational attainment between men and women",
+      "occupational segregation, with women concentrated in lower-paid sectors"
+    ],
+    "answer": "the wage penalty for workers — disproportionately women — who need flexible or part-time hours",
+    "explanation": "Goldin showed that the modern gender pay gap is largely driven by the high premium paid for long, inflexible hours in many high-paying professions. Because women still disproportionately bear caregiving responsibilities, they face higher costs from demanding work schedules.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2023/goldin/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2023", "Goldin", "gender pay gap", "labour economics"]
+  },
+  {
+    "id": "nobel-018",
+    "category": "nobel",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "The Nobel Prize in Economics is one of the original prizes established in Alfred Nobel's will of 1895.",
+    "answer": false,
+    "explanation": "Alfred Nobel's 1895 will specified five prizes: Physics, Chemistry, Physiology or Medicine, Literature, and Peace. The economics prize — officially the 'Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel' — was created in 1968 by Sweden's central bank and first awarded in 1969.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel Prize", "economics", "history", "Riksbank"]
+  },
+  {
+    "id": "nobel-019",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "John Nash, whose life was depicted in the film 'A Beautiful Mind', shared the 1994 Nobel Prize in Economics for his contribution to:",
+    "choices": [
+      "non-cooperative game theory and the Nash equilibrium",
+      "cooperative bargaining theory and coalition formation",
+      "evolutionary game theory and replicator dynamics",
+      "auction theory and revenue equivalence"
+    ],
+    "answer": "non-cooperative game theory and the Nash equilibrium",
+    "explanation": "Nash's 1950 dissertation proved the existence of equilibrium in any finite non-cooperative game — a point where no player can improve their outcome by changing strategy alone. The Nash equilibrium is now the central solution concept in game theory.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1994/nash/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 1994", "Nash", "game theory", "Nash equilibrium"]
+  },
+  {
+    "id": "nobel-020",
+    "category": "nobel",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Thomas Schelling, who shared the 2005 Nobel Prize for game theory, applied his ideas most famously to which real-world domain?",
+    "choices": [
+      "Nuclear deterrence and the logic of mutually assured destruction",
+      "Environmental economics and carbon market design",
+      "International trade negotiations and tariff bargaining",
+      "Pension design and retirement savings behaviour"
+    ],
+    "answer": "Nuclear deterrence and the logic of mutually assured destruction",
+    "explanation": "Schelling's 1960 book 'The Strategy of Conflict' analysed how adversaries can credibly commit to retaliatory threats — showing that the ability to destroy your opponent even after a first strike makes nuclear deterrence stable. His concept of 'focal points' (Schelling points) is equally influential.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2005/schelling/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2005", "Schelling", "game theory", "deterrence"]
+  },
+  {
+    "id": "nobel-021",
+    "category": "nobel",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Eugene Fama and Robert Shiller shared the 2013 Nobel Prize, despite holding nearly opposite views about asset markets. Fama is associated with the Efficient Market Hypothesis; Shiller is known for arguing that markets are prone to:",
+    "choices": [
+      "irrational exuberance — bubbles driven by investor psychology",
+      "rational herding — coordinated moves amplifying fundamentals",
+      "regulatory arbitrage — exploiting gaps in financial oversight",
+      "liquidity traps — failure of monetary policy at the zero lower bound"
+    ],
+    "answer": "irrational exuberance — bubbles driven by investor psychology",
+    "explanation": "Shiller's 2000 book 'Irrational Exuberance' warned of a dot-com bubble shortly before the crash. He also predicted the US housing bubble before 2008. The Nobel Committee notably awarded the prize to both Fama and Shiller — whose views on market efficiency are fundamentally at odds.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2013/press-release/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2013", "Fama", "Shiller", "EMH", "behavioural finance"]
+  },
+  {
+    "id": "nobel-022",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Jean Tirole won the 2014 Nobel Prize for his analysis of market power and regulation. His work is particularly influential for how governments should regulate:",
+    "choices": [
+      "firms with natural monopoly characteristics, such as utilities and platform companies",
+      "international currency markets and exchange rate volatility",
+      "labour markets and the setting of minimum wages",
+      "agricultural commodity prices and food security"
+    ],
+    "answer": "firms with natural monopoly characteristics, such as utilities and platform companies",
+    "explanation": "Tirole showed that regulation must be tailored to each industry's specific structure. His work on two-sided markets and platforms has become the framework for thinking about how to regulate Google, Apple, and other tech giants.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2014/tirole/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2014", "Tirole", "regulation", "monopoly", "platform economics"]
+  },
+  {
+    "id": "nobel-023",
+    "category": "nobel",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Oliver Hart and Bengt Holmström shared the 2016 Nobel Prize for contract theory. Hart's contribution focused on 'incomplete contracts' — the idea that contracts cannot specify every contingency. This insight best explains:",
+    "choices": [
+      "why firm ownership (equity) matters — whoever owns the assets has bargaining power in gaps",
+      "why long-term employment contracts always benefit workers over firms",
+      "why governments should never privatise state-owned enterprises",
+      "why insurance markets always collapse without government mandates"
+    ],
+    "answer": "why firm ownership (equity) matters — whoever owns the assets has bargaining power in gaps",
+    "explanation": "Hart showed that when contracts can't cover every future state of the world, asset ownership determines who has the power to make decisions in unforeseen circumstances. This gives a theory of the firm: vertical integration makes sense when hold-up problems are severe.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2016/hart/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2016", "Hart", "incomplete contracts", "theory of the firm"]
+  },
+  {
+    "id": "nobel-024",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "William Nordhaus shared the 2018 Nobel Prize for integrating climate change into long-run economic growth analysis. What is his most famous contribution called?",
+    "choices": [
+      "The DICE model (Dynamic Integrated model of Climate and the Economy)",
+      "The IPCC scenario framework for emissions pathways",
+      "The carbon budget approach to limiting global warming",
+      "The Stern Review on the Economics of Climate Change"
+    ],
+    "answer": "The DICE model (Dynamic Integrated model of Climate and the Economy)",
+    "explanation": "Nordhaus built the DICE model starting in the 1990s, which weighs the economic costs of climate damage against the costs of reducing emissions. It produces an optimal carbon tax path — an approach that has shaped climate policy debates for three decades. The Stern Review is a separate work by Nicholas Stern.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2018/nordhaus/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2018", "Nordhaus", "climate economics", "DICE model"]
+  },
+  {
+    "id": "nobel-025",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Angus Deaton won the 2015 Nobel Prize for his work on consumption, poverty, and welfare. Which of these books, co-authored with Anne Case, brought his ideas to a wide audience?",
+    "choices": [
+      "Deaths of Despair and the Future of Capitalism",
+      "Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty",
+      "The Great Escape: Health, Wealth, and the Origins of Inequality",
+      "The Spirit Level: Why More Equal Societies Almost Always Do Better"
+    ],
+    "answer": "Deaths of Despair and the Future of Capitalism",
+    "explanation": "Deaton and Case's 2020 book documented rising mortality among middle-aged white Americans without college degrees — deaths from drugs, alcohol, and suicide they called 'deaths of despair'. The Great Escape (2013) is an earlier Deaton book about global health and wealth.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2015/deaton/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2015", "Deaton", "welfare", "deaths of despair", "poverty"]
+  },
+  {
+    "id": "nobel-026",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Robert Mundell, who won the 1999 Nobel Prize, is often called the 'father of the euro' because his theory of optimum currency areas provided the intellectual basis for European monetary union.",
+    "answer": true,
+    "explanation": "Mundell's 1961 paper on optimum currency areas identified conditions under which countries benefit from sharing a currency — high labour mobility, trade integration, symmetric shocks. His ideas directly influenced the architects of the eurozone, earning him the nickname.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1999/mundell/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 1999", "Mundell", "euro", "optimum currency area"]
+  },
+  {
+    "id": "nobel-027",
+    "category": "nobel",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "As of 2024, how many women have won the Nobel Memorial Prize in Economics?",
+    "choices": [
+      "3",
+      "1",
+      "5",
+      "7"
+    ],
+    "answer": "3",
+    "explanation": "Only three women have won: Elinor Ostrom (2009), Esther Duflo (2019), and Claudia Goldin (2023). Duflo, at 46, was also the youngest ever winner. The prize has been awarded 56 times to 93 laureates through 2024.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/",
+    "as_of": "2024",
+    "time_sensitive": true,
+    "tags": ["Nobel Prize", "women laureates", "Ostrom", "Duflo", "Goldin"]
+  },
+  {
+    "id": "nobel-028",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "These four economists each received the Nobel Prize. Put them in order from earliest to most recent prize year.",
+    "items": [
+      "Paul Samuelson",
+      "Gary Becker",
+      "Daniel Kahneman",
+      "Richard Thaler"
+    ],
+    "order_by": "year Nobel Prize was awarded",
+    "answer": "Paul Samuelson → Gary Becker → Daniel Kahneman → Richard Thaler",
+    "explanation": "Samuelson: 1970. Becker: 1992. Kahneman: 2002. Thaler: 2017.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel Prize", "chronology", "Samuelson", "Becker", "Kahneman", "Thaler"]
+  },
+  {
+    "id": "nobel-029",
+    "category": "nobel",
+    "difficulty": 3,
+    "format": "order",
+    "prompt": "Rank these Nobel laureates in economics by their prize year, from the oldest winner to the most recent.",
+    "items": [
+      "Friedrich Hayek",
+      "John Nash",
+      "Amartya Sen",
+      "Claudia Goldin"
+    ],
+    "order_by": "year Nobel Prize was awarded",
+    "answer": "Friedrich Hayek → John Nash → Amartya Sen → Claudia Goldin",
+    "explanation": "Hayek: 1974. Nash: 1994. Sen: 1998. Goldin: 2023.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel Prize", "chronology", "Hayek", "Nash", "Sen", "Goldin"]
+  },
+  {
+    "id": "nobel-030",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "In what year did Milton Friedman receive the Nobel Prize in Economics?",
+    "answer": 1976,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "Friedman won in 1976 for his achievements in the fields of consumption analysis, monetary history and theory, and for his demonstration of the complexity of stabilization policy.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1976/friedman/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 1976", "Friedman", "monetarism"]
+  },
+  {
+    "id": "nobel-031",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Elinor Ostrom shared the 2009 Nobel Memorial Prize in Economics with which other institutional economist?",
+    "choices": [
+      "Oliver Williamson",
+      "Jean Tirole",
+      "Oliver Hart",
+      "Bengt Holmström"
+    ],
+    "answer": "Oliver Williamson",
+    "explanation": "Williamson won for his analysis of transaction cost economics — how firms choose to make things in-house versus buying from markets. Together, he and Ostrom showed how institutions beyond both markets and government can govern economic activity.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2009/press-release/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2009", "Ostrom", "Williamson", "transaction costs", "commons"]
+  },
+  {
+    "id": "nobel-032",
+    "category": "nobel",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "The Sveriges Riksbank Prize in Economic Sciences is administered and awarded by the same Nobel Committee that awards the Physics, Chemistry, and Medicine prizes.",
+    "answer": false,
+    "explanation": "The economics prize is awarded by the Royal Swedish Academy of Sciences — the same body that awards Physics and Chemistry. However, the prize was not created by Alfred Nobel and is funded by Sweden's central bank (Riksbank), not the Nobel Foundation itself.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel Prize", "economics", "Royal Swedish Academy", "Riksbank"]
+  },
+  {
+    "id": "nobel-033",
+    "category": "nobel",
+    "difficulty": 3,
+    "format": "tf",
+    "prompt": "Esther Duflo, who won the 2019 Nobel Prize in Economics, is the youngest person ever to receive the prize, at age 46.",
+    "answer": true,
+    "explanation": "Duflo was 46 when she won the 2019 prize alongside Abhijit Banerjee and Michael Kremer, making her the youngest economics laureate. She and Banerjee are also married to each other — one of a handful of Nobel couples.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2019/duflo/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2019", "Duflo", "youngest laureate", "development economics"]
+  },
+  {
+    "id": "nobel-034",
+    "category": "nobel",
+    "difficulty": 1,
+    "format": "short",
+    "prompt": "What two-word term, popularised by Richard Thaler and Cass Sunstein, describes a policy approach that steers people toward better choices without restricting freedom?",
+    "answer": "nudge",
+    "accept": ["nudge", "libertarian paternalism", "nudge theory"],
+    "explanation": "Thaler and Sunstein's 2008 book 'Nudge: Improving Decisions About Health, Wealth, and Happiness' popularised the concept. The UK government established a Behavioural Insights Team ('nudge unit') in 2010 to apply the ideas to public policy.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2017/thaler/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2017", "Thaler", "nudge", "behavioural economics", "libertarian paternalism"]
   }
 ]

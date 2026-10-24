@@ -55,5 +55,456 @@
     "as_of": null,
     "time_sensitive": false,
     "tags": ["New Deal", "FDR", "Great Depression"]
+  },
+  {
+    "id": "usa-004",
+    "category": "usa",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Smoot-Hawley Tariff Act, which sharply raised US import duties and is often blamed for deepening the Great Depression, was signed by which president?",
+    "choices": [
+      "Herbert Hoover",
+      "Franklin D. Roosevelt",
+      "Warren G. Harding",
+      "Calvin Coolidge"
+    ],
+    "answer": "Herbert Hoover",
+    "explanation": "Hoover signed Smoot-Hawley on June 17, 1930 despite a petition from over 1,000 economists urging a veto. US tariffs rose to their highest peacetime levels; trading partners retaliated, US exports collapsed, and the Depression deepened.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Smoot-Hawley", "tariffs", "Great Depression", "Hoover", "trade policy"]
+  },
+  {
+    "id": "usa-005",
+    "category": "usa",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "In August 1971, which US president announced that the dollar would no longer be convertible to gold at a fixed rate — an event often called the 'Nixon shock' that ended the Bretton Woods monetary system?",
+    "choices": [
+      "Richard Nixon",
+      "Lyndon B. Johnson",
+      "Gerald Ford",
+      "Jimmy Carter"
+    ],
+    "answer": "Richard Nixon",
+    "explanation": "On August 15, 1971, Nixon unilaterally closed the 'gold window', ending the US commitment to exchange dollars for gold at $35 per ounce. This suspended the Bretton Woods fixed-exchange-rate system that had governed global finance since 1944 and led to today's era of floating exchange rates.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nixon shock", "gold standard", "Bretton Woods", "1971", "exchange rates"]
+  },
+  {
+    "id": "usa-006",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "To crush double-digit inflation in the late 1970s, Federal Reserve Chair Paul Volcker raised the federal funds rate to nearly 20% — triggering a severe recession but ultimately breaking the inflationary spiral. This episode is known as the:",
+    "choices": [
+      "Volcker disinflation",
+      "Nixon deflation",
+      "Reagan shock",
+      "Carter squeeze"
+    ],
+    "answer": "Volcker disinflation",
+    "explanation": "Volcker was appointed Fed Chair in 1979 and deliberately tightened monetary policy, pushing the federal funds rate to 19.1% by June 1981. The resulting recession drove unemployment above 10%, but inflation fell from 13% to 3% by 1983. Economists credit this as decisive proof that central bank credibility can anchor inflation expectations.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Volcker", "disinflation", "Federal Reserve", "inflation", "1980s"]
+  },
+  {
+    "id": "usa-007",
+    "category": "usa",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "True or false: Although the US imports far more goods than it exports, it consistently runs a surplus in services trade — exporting more services such as finance, education, and tourism than it imports.",
+    "answer": true,
+    "explanation": "The US is the world's largest exporter of services. Its services surplus (roughly $250–300 billion annually) is consistently outweighed by a larger goods deficit, producing an overall current account deficit. Canada by contrast runs a services trade deficit with the US.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["trade deficit", "services trade", "current account", "US economy"]
+  },
+  {
+    "id": "usa-008",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The agreement that succeeded NAFTA in 2020 is called USMCA in the United States. What is its official Canadian name?",
+    "choices": [
+      "CUSMA",
+      "CETA",
+      "CAFTA",
+      "CUFTA"
+    ],
+    "answer": "CUSMA",
+    "explanation": "CUSMA — the Canada-United States-Mexico Agreement (ACEUM in French) — is Canada's name for the renegotiated continental free-trade deal that entered into force on July 1, 2020. In the US it is USMCA; in Mexico, T-MEC. Each country uses its own name first alphabetically.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["NAFTA", "CUSMA", "free trade", "Canada", "Mexico"]
+  },
+  {
+    "id": "usa-009",
+    "category": "usa",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Marshall Plan, which provided roughly US$13 billion in economic aid to rebuild Western European economies after World War II, was named after which US official?",
+    "choices": [
+      "Secretary of State George Marshall",
+      "President Harry Truman",
+      "General Dwight Eisenhower",
+      "Secretary of the Treasury Henry Morgenthau"
+    ],
+    "answer": "Secretary of State George Marshall",
+    "explanation": "George Marshall, former Supreme Allied Commander and then Secretary of State, proposed the European Recovery Program in a Harvard commencement address in June 1947. Truman signed the Economic Cooperation Act into law in April 1948. The plan is credited with underpinning Western Europe's postwar economic miracle.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Marshall Plan", "foreign aid", "postwar", "Europe", "Cold War"]
+  },
+  {
+    "id": "usa-010",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The US Federal Reserve operates under a 'dual mandate', meaning Congress has directed it to pursue two primary goals simultaneously. What are those two goals?",
+    "choices": [
+      "maximum employment and stable prices",
+      "economic growth and a balanced federal budget",
+      "a strong dollar and low unemployment",
+      "financial system stability and fiscal discipline"
+    ],
+    "answer": "maximum employment and stable prices",
+    "explanation": "The Fed's dual mandate comes from the Federal Reserve Reform Act of 1977 and the Full Employment and Balanced Growth Act of 1978. Unlike the European Central Bank, whose sole mandate is price stability, the Fed must also pursue maximum employment — a duality that creates real tradeoffs in monetary policy decisions.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Federal Reserve", "dual mandate", "monetary policy", "employment", "inflation"]
+  },
+  {
+    "id": "usa-011",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Economic Recovery Tax Act of 1981, a centrepiece of 'Reaganomics', cut the US federal top marginal income tax rate from 70% to:",
+    "choices": [
+      "50%",
+      "40%",
+      "35%",
+      "28%"
+    ],
+    "answer": "50%",
+    "explanation": "ERTA slashed the top marginal rate from 70% to 50%. The 1986 Tax Reform Act cut it further to 28%. Supply-side proponents argued lower rates would spur investment and eventually raise tax revenues — a claim that remains fiercely debated among economists.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Reagan", "ERTA", "tax cuts", "supply-side", "1981"]
+  },
+  {
+    "id": "usa-012",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Troubled Asset Relief Program (TARP), enacted in October 2008 to stabilize the US financial system during the global financial crisis, authorized the Treasury to spend up to how much?",
+    "choices": [
+      "$700 billion",
+      "$1 trillion",
+      "$350 billion",
+      "$200 billion"
+    ],
+    "answer": "$700 billion",
+    "explanation": "Signed by President George W. Bush on October 3, 2008, TARP authorized $700 billion. In practice the Treasury deployed about $430 billion, much of which was eventually repaid with interest. The programme stabilized the banking sector but generated enormous public backlash.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["TARP", "financial crisis", "2008", "bailout", "Treasury"]
+  },
+  {
+    "id": "usa-013",
+    "category": "usa",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Dodd-Frank Wall Street Reform and Consumer Protection Act (2010) created a new federal agency specifically tasked with protecting Americans from predatory financial products. What is it called?",
+    "choices": [
+      "Consumer Financial Protection Bureau",
+      "Financial Industry Regulatory Authority",
+      "Office of Financial Research",
+      "Financial Stability Oversight Council"
+    ],
+    "answer": "Consumer Financial Protection Bureau",
+    "explanation": "The CFPB, championed by then-professor Elizabeth Warren, was created by Dodd-Frank to regulate mortgages, credit cards, and payday loans. It has since levied billions in penalties against lenders for deceptive practices. Dodd-Frank also created the Financial Stability Oversight Council (FSOC) and Office of Financial Research (OFR), but the CFPB is its most consumer-facing legacy.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Dodd-Frank", "CFPB", "financial regulation", "consumer protection", "2010"]
+  },
+  {
+    "id": "usa-014",
+    "category": "usa",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Approximately what share of global central bank foreign exchange reserves were held in US dollars as of 2023?",
+    "choices": [
+      "About 60%",
+      "About 40%",
+      "About 80%",
+      "About 20%"
+    ],
+    "answer": "About 60%",
+    "explanation": "According to IMF COFER data, US dollar assets represent roughly 58–60% of disclosed global central bank foreign exchange reserves — a legacy of Bretton Woods and the dollar's dominant reserve-currency status since the 1940s. The euro is a distant second at around 20%.",
+    "source": "https://data.imf.org/?sk=e6a5f467-c14b-4aa8-9f6d-5a09ec4e62a4",
+    "as_of": "2023",
+    "time_sensitive": true,
+    "tags": ["US dollar", "reserve currency", "central banks", "FX reserves"]
+  },
+  {
+    "id": "usa-015",
+    "category": "usa",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "On 'Black Monday' — October 19, 1987 — the Dow Jones Industrial Average suffered the largest single-day percentage loss in its history. By roughly what percentage did it fall in a single trading session?",
+    "choices": [
+      "22%",
+      "12%",
+      "35%",
+      "7%"
+    ],
+    "answer": "22%",
+    "explanation": "The Dow fell 22.6% in a single day — over $500 billion in US market capitalization was wiped out. No single cause was identified; contributing factors included program trading, portfolio insurance strategies, and investor panic. The crash led the NYSE to introduce circuit breakers.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Black Monday", "1987", "stock market", "crash", "Dow Jones"]
+  },
+  {
+    "id": "usa-016",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "In what year did President Nixon announce that the US would suspend the dollar's convertibility to gold, effectively ending the Bretton Woods fixed-exchange-rate system?",
+    "answer": 1971,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "Nixon's August 15, 1971 announcement — made on a Sunday evening TV broadcast — closed the 'gold window'. Until that point, foreign central banks could exchange US dollars for gold at $35 per ounce. The decision launched the modern era of floating exchange rates.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nixon shock", "1971", "gold standard", "Bretton Woods", "exchange rates"]
+  },
+  {
+    "id": "usa-017",
+    "category": "usa",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "From its peak in March 2000 to its trough in October 2002, the NASDAQ Composite index — heavily weighted toward tech stocks — fell by approximately what percentage?",
+    "choices": [
+      "78%",
+      "50%",
+      "35%",
+      "90%"
+    ],
+    "answer": "78%",
+    "explanation": "The NASDAQ peaked at 5,048 on March 10, 2000, and bottomed at roughly 1,114 on October 9, 2002 — a loss of about 78%. It did not surpass its 2000 peak again until 2015. The dot-com bust wiped out trillions in market value and ended the 1990s boom.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["dot-com", "NASDAQ", "2000", "stock market", "tech bubble"]
+  },
+  {
+    "id": "usa-018",
+    "category": "usa",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "True or false: The United States has run an overall current account deficit — importing more in goods and services combined than it exports — in virtually every year since the late 1970s.",
+    "answer": true,
+    "explanation": "The US last ran a current account surplus in 1981. Since then it has imported more than it exports overall each year, financed by foreign investors' willingness to hold US dollar assets. The US goods deficit consistently outweighs its services surplus, producing a persistent overall deficit.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["trade deficit", "current account", "US economy", "imports", "exports"]
+  },
+  {
+    "id": "usa-019",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Affordable Care Act — commonly called 'Obamacare' — significantly expanded US health insurance coverage when President Obama signed it into law. In which year?",
+    "choices": [
+      "2010",
+      "2009",
+      "2012",
+      "2014"
+    ],
+    "answer": "2010",
+    "explanation": "Obama signed the ACA on March 23, 2010. It extended coverage to roughly 20 million previously uninsured Americans through Medicaid expansion, insurance marketplace subsidies, and a mandate to carry coverage — the most significant expansion of the US social safety net since Medicare and Medicaid (1965).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["ACA", "Obamacare", "healthcare", "2010", "insurance"]
+  },
+  {
+    "id": "usa-020",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The CARES Act — the US government's primary initial response to the COVID-19 economic shock, signed in March 2020 — was at roughly $2.2 trillion the largest rescue package in US history at the time. What does CARES stand for?",
+    "choices": [
+      "Coronavirus Aid, Relief, and Economic Security Act",
+      "Congressional Action for Recovery and Economic Stability Act",
+      "COVID-19 Assistance, Relief, and Emergency Support Act",
+      "Crisis Assistance, Recovery, and Emergency Stimulus Act"
+    ],
+    "answer": "Coronavirus Aid, Relief, and Economic Security Act",
+    "explanation": "The CARES Act was signed by President Trump on March 27, 2020. It included $1,200 direct payments to most adults, $600/week enhanced unemployment benefits, $500 billion in corporate loans and grants, and $349 billion in Paycheck Protection Program loans for small businesses.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["CARES Act", "COVID-19", "stimulus", "2020", "fiscal policy"]
+  },
+  {
+    "id": "usa-021",
+    "category": "usa",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'petrodollar' system, which emerged from US-Saudi agreements in the mid-1970s, refers primarily to the arrangement whereby:",
+    "choices": [
+      "crude oil is priced and settled in US dollars in international markets",
+      "Saudi oil revenues are recycled exclusively into US military hardware contracts",
+      "the Saudi riyal is pegged directly to the spot price of a barrel of oil",
+      "IMF emergency credit lines fund oil-importing developing nations"
+    ],
+    "answer": "crude oil is priced and settled in US dollars in international markets",
+    "explanation": "After Nixon ended dollar-gold convertibility in 1971, the US negotiated agreements (notably with Saudi Arabia in 1974–75) under which oil would be denominated and settled in US dollars. This created persistent global demand for dollars, underpinning their continued reserve-currency status after the gold standard was abandoned.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["petrodollar", "US dollar", "Saudi Arabia", "oil", "reserve currency"]
+  },
+  {
+    "id": "usa-022",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "Each of these landmark US economic events happened in a different decade of the 20th century. Rank them from earliest to most recent.",
+    "items": [
+      "Smoot-Hawley Tariff Act signed",
+      "Marshall Plan enacted",
+      "Nixon ends dollar-gold convertibility",
+      "Black Monday stock market crash"
+    ],
+    "order_by": "year of occurrence",
+    "answer": "Smoot-Hawley Tariff Act signed → Marshall Plan enacted → Nixon ends dollar-gold convertibility → Black Monday stock market crash",
+    "explanation": "Smoot-Hawley: 1930. Marshall Plan (Economic Cooperation Act): 1948. Nixon shock: 1971. Black Monday: 1987. Each occurred in a successive decade of the 20th century.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Smoot-Hawley", "Marshall Plan", "Nixon shock", "Black Monday", "chronology"]
+  },
+  {
+    "id": "usa-023",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Alexander Hamilton, the first US Secretary of the Treasury, successfully argued for a national bank to anchor the young republic's finances. The institution he championed, chartered in 1791, was called:",
+    "choices": [
+      "the First Bank of the United States",
+      "the Bank of North America",
+      "the United States National Bank",
+      "the Federal Bank of Philadelphia"
+    ],
+    "answer": "the First Bank of the United States",
+    "explanation": "Hamilton persuaded Congress to charter the First Bank of the United States in 1791, locating it in Philadelphia. It held government deposits, issued bank notes, and helped stabilise the new nation's finances. Its charter lapsed in 1811 after fierce opposition from Jeffersonians who feared concentrated federal financial power.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Hamilton", "First Bank", "banking history", "1791", "US economic history"]
+  },
+  {
+    "id": "usa-024",
+    "category": "usa",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "US consumer price inflation peaked at 9.1% year-on-year in June 2022 — the highest reading since which decade?",
+    "choices": [
+      "the 1980s",
+      "the 1970s",
+      "the 1990s",
+      "the 2000s"
+    ],
+    "answer": "the 1980s",
+    "explanation": "June 2022's 9.1% CPI was the highest since November 1981, when inflation ran at 9.6%. The last time it exceeded 9% before that was during 1980, amid the second oil shock. The Fed responded to the 2022 surge with its fastest rate-hiking cycle since Volcker.",
+    "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "as_of": "2022",
+    "time_sensitive": false,
+    "tags": ["inflation", "CPI", "2022", "Federal Reserve", "US economy"]
+  },
+  {
+    "id": "usa-025",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Heading into 2024, US gross federal debt stood at roughly what percentage of annual GDP?",
+    "choices": [
+      "About 120%",
+      "About 80%",
+      "About 60%",
+      "About 150%"
+    ],
+    "answer": "About 120%",
+    "explanation": "US gross federal debt surpassed $34 trillion in early 2024 against a GDP of roughly $28 trillion, putting the ratio at about 120–125%. This is elevated by historical US standards (below 60% as recently as 2007) but still well under Japan's ~250% debt-to-GDP ratio.",
+    "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
+    "as_of": "2024",
+    "time_sensitive": true,
+    "tags": ["federal debt", "debt-to-GDP", "fiscal policy", "US economy"]
+  },
+  {
+    "id": "usa-026",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "Which was higher: the US unemployment rate at its peak during the 1982 recession, or at its peak during the 2008–09 financial crisis?",
+    "items": ["1982 recession peak", "2008–09 financial crisis peak"],
+    "metric": "US civilian unemployment rate at peak",
+    "answer": "1982 recession peak",
+    "explanation": "US unemployment peaked at 10.8% in November–December 1982 (the Volcker-induced recession) versus 10.0% in October 2009. Despite the 2008 crisis being called the worst since the Depression, the Volcker disinflation deliberately tolerated higher unemployment to break inflation expectations.",
+    "source": "https://fred.stlouisfed.org/series/UNRATE",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["unemployment", "recession", "Volcker", "financial crisis", "1982"]
+  },
+  {
+    "id": "usa-027",
+    "category": "usa",
+    "difficulty": 1,
+    "format": "short",
+    "prompt": "What does the acronym TARP stand for? (The US government programme used to stabilize the financial system during the 2008 financial crisis.)",
+    "answer": "Troubled Asset Relief Program",
+    "accept": ["Troubled Asset Relief Program", "Troubled Assets Relief Program"],
+    "explanation": "TARP (Troubled Asset Relief Program) authorized the US Treasury to purchase or insure up to $700 billion in troubled mortgage-backed securities and bank assets. Signed by President George W. Bush on October 3, 2008.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["TARP", "financial crisis", "2008", "bailout"]
+  },
+  {
+    "id": "usa-028",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Quantitative easing (QE), first used by the Federal Reserve at large scale after the 2008 financial crisis, primarily involves the central bank:",
+    "choices": [
+      "purchasing government bonds and other securities to inject money into the financial system",
+      "sending direct cash transfers to households to stimulate consumer spending",
+      "requiring commercial banks to lend a fixed percentage of their deposits to businesses",
+      "issuing new currency notes to pay down outstanding government debt"
+    ],
+    "answer": "purchasing government bonds and other securities to inject money into the financial system",
+    "explanation": "QE — used when the Fed's key rate was already near zero — involves buying Treasury bonds and mortgage-backed securities in the open market, crediting bank reserves and pushing down long-term interest rates. The Fed's balance sheet expanded from under $1 trillion in 2007 to over $8 trillion by 2022.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["quantitative easing", "QE", "Federal Reserve", "monetary policy", "2008"]
   }
 ]

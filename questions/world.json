@@ -83,5 +83,450 @@
     "as_of": null,
     "time_sensitive": false,
     "tags": ["trilemma", "Mundell", "exchange rate", "monetary policy", "Canada"]
+  },
+  {
+    "id": "world-006",
+    "category": "world",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Which seven countries make up the G7?",
+    "choices": [
+      "Canada, France, Germany, Italy, Japan, UK, USA",
+      "Canada, France, Germany, China, Japan, UK, USA",
+      "Canada, France, Russia, Italy, Japan, UK, USA",
+      "Australia, France, Germany, Italy, Japan, UK, USA"
+    ],
+    "answer": "Canada, France, Germany, Italy, Japan, UK, USA",
+    "explanation": "The G7 consists of Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States — plus the European Union as a non-enumerated member. Russia was a member (G8) from 1998 until its suspension following the annexation of Crimea in 2014.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["G7", "international", "Canada"]
+  },
+  {
+    "id": "world-007",
+    "category": "world",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The G20 was created in 1999 primarily to address what gap in global economic governance?",
+    "choices": [
+      "The G7 excluded major emerging economies like China, India, and Brazil",
+      "The IMF lacked sufficient voting power for developing nations",
+      "The WTO had no enforcement mechanism for trade disputes",
+      "The World Bank was not financing infrastructure in low-income countries"
+    ],
+    "answer": "The G7 excluded major emerging economies like China, India, and Brazil",
+    "explanation": "The G20 was founded in 1999 after the Asian financial crisis revealed that global economic management needed the input of large emerging economies. Its membership covers about 85% of world GDP and two-thirds of the global population.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["G20", "G7", "emerging markets", "international governance"]
+  },
+  {
+    "id": "world-008",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "What does the IMF's Special Drawing Right (SDR) represent?",
+    "choices": [
+      "An international reserve asset whose value is based on a basket of major currencies",
+      "A type of loan the IMF extends to developing countries at preferential rates",
+      "The unit of account used by the World Bank for project financing",
+      "A mechanism for cancelling the external debt of heavily indebted poor countries"
+    ],
+    "answer": "An international reserve asset whose value is based on a basket of major currencies",
+    "explanation": "The SDR (created 1969) is an IMF reserve asset valued against a basket of five currencies: the US dollar, euro, Chinese renminbi, Japanese yen, and British pound. Countries can exchange SDRs for freely usable currencies to supplement their reserves.",
+    "source": "https://www.imf.org/en/About/Factsheets/Sheets/2016/08/01/14/51/Special-Drawing-Right-SDR",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["IMF", "SDR", "reserve currency", "international finance"]
+  },
+  {
+    "id": "world-009",
+    "category": "world",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "What is the key difference between the IMF and the World Bank?",
+    "choices": [
+      "The IMF focuses on macroeconomic stability and balance-of-payments crises; the World Bank funds long-term development projects",
+      "The IMF lends only to rich countries; the World Bank lends only to poor countries",
+      "The IMF manages global trade rules; the World Bank manages international debt",
+      "The IMF is a UN agency; the World Bank is a private institution"
+    ],
+    "answer": "The IMF focuses on macroeconomic stability and balance-of-payments crises; the World Bank funds long-term development projects",
+    "explanation": "The IMF acts as a lender of last resort for countries facing currency or balance-of-payments crises (e.g., Argentina, Greece), while the World Bank finances long-run development — infrastructure, health, education — primarily in low- and middle-income countries.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["IMF", "World Bank", "international development"]
+  },
+  {
+    "id": "world-010",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Purchasing Power Parity (PPP) adjustments tend to make the GDPs of poorer countries look larger relative to market exchange rates. Why?",
+    "choices": [
+      "Non-traded services like haircuts and housing are cheaper in poorer countries, so a dollar goes further",
+      "Poorer countries undercount informal economic activity in their national accounts",
+      "The IMF applies a development bonus to account for unreported agricultural output",
+      "Poorer countries typically have undervalued currencies due to capital controls"
+    ],
+    "answer": "Non-traded services like haircuts and housing are cheaper in poorer countries, so a dollar goes further",
+    "explanation": "PPP compares what a given sum can buy in each country. Non-tradeable goods (services, local food, rent) are far cheaper in low-wage economies, so adjusting for PPP raises their relative GDP. By PPP, China surpassed the United States as the world's largest economy around 2014–2016.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["PPP", "GDP", "purchasing power parity", "international comparison"]
+  },
+  {
+    "id": "world-011",
+    "category": "world",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "By nominal GDP in 2023, which economy was larger: China or the United States?",
+    "items": ["United States", "China"],
+    "metric": "nominal GDP in 2023 (USD)",
+    "answer": "United States",
+    "explanation": "The US recorded approximately $27.4 trillion in nominal GDP in 2023 versus China's $17.7 trillion. However, by purchasing-power-parity (PPP), China has surpassed the US — a difference that matters because PPP better reflects domestic living standards.",
+    "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": ["GDP", "US", "China", "global economy"]
+  },
+  {
+    "id": "world-012",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'Washington Consensus' — a set of market-oriented policy prescriptions for developing economies in the 1980s and 1990s — was associated with which trio of institutions?",
+    "choices": [
+      "IMF, World Bank, and the US Treasury",
+      "WTO, OECD, and the US State Department",
+      "G7, BIS, and the Federal Reserve",
+      "UNCTAD, UN Development Programme, and the World Bank"
+    ],
+    "answer": "IMF, World Bank, and the US Treasury",
+    "explanation": "Economist John Williamson coined 'Washington Consensus' in 1989 to describe a package of reforms — fiscal discipline, trade liberalisation, privatisation, deregulation — promoted by the IMF, World Bank, and US Treasury. Its legacy is contested: Chile saw success; Argentina and others suffered severe crises after following its prescriptions.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Washington Consensus", "IMF", "World Bank", "development economics"]
+  },
+  {
+    "id": "world-013",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 1997–98 Asian financial crisis began when which country's currency collapsed, triggering contagion across the region?",
+    "choices": [
+      "Thailand",
+      "Japan",
+      "South Korea",
+      "Indonesia"
+    ],
+    "answer": "Thailand",
+    "explanation": "The crisis began on 2 July 1997 when Thailand was forced to float the baht after depleting its foreign reserves defending the dollar peg. Currency crises quickly spread to Indonesia, Malaysia, South Korea, and the Philippines, prompting massive IMF bailouts and triggering calls for a new international financial architecture.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Asian financial crisis", "Thailand", "currency crisis", "contagion"]
+  },
+  {
+    "id": "world-014",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "During the European sovereign debt crisis (2010–2012), the term 'PIIGS' referred to five eurozone countries under severe fiscal stress. Which country was NOT part of the PIIGS?",
+    "choices": [
+      "France",
+      "Portugal",
+      "Ireland",
+      "Spain"
+    ],
+    "answer": "France",
+    "explanation": "PIIGS stood for Portugal, Ireland, Italy, Greece, and Spain — the five eurozone members that faced unsustainable borrowing costs during the debt crisis. Greece required three bailouts; Ireland and Portugal also needed IMF/EU rescues. France, though under fiscal pressure, was not among the five.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["PIIGS", "eurozone", "sovereign debt crisis", "Europe"]
+  },
+  {
+    "id": "world-015",
+    "category": "world",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "The United Kingdom joined the eurozone and adopted the euro as its currency when the EU's Economic and Monetary Union launched in 1999.",
+    "answer": false,
+    "explanation": "The UK retained the pound sterling and never joined the eurozone. It negotiated an opt-out from the single currency at the Maastricht Treaty. The UK remained in the EU (as a non-euro member) until Brexit was completed in January 2020.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["UK", "eurozone", "euro", "Brexit"]
+  },
+  {
+    "id": "world-016",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The original BRIC grouping (later BRICS) was coined by Goldman Sachs economist Jim O'Neill in 2001 to describe four large emerging economies with rapid growth potential. Which country was added to form BRICS in 2010?",
+    "choices": [
+      "South Africa",
+      "Mexico",
+      "Indonesia",
+      "Turkey"
+    ],
+    "answer": "South Africa",
+    "explanation": "Jim O'Neill's 2001 paper named Brazil, Russia, India, and China as BRICs. South Africa joined in 2010 to give the group an African voice, making it BRICS. In 2024, several new members joined (Egypt, Ethiopia, Iran, UAE, Saudi Arabia), creating what some call BRICS+.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["BRICS", "emerging markets", "South Africa", "Goldman Sachs"]
+  },
+  {
+    "id": "world-017",
+    "category": "world",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "By purchasing-power-parity (PPP), China overtook the United States as the world's largest economy sometime in the 2010s.",
+    "answer": true,
+    "explanation": "The IMF and World Bank both estimate China surpassed the US in PPP-adjusted GDP around 2014–2016. By nominal GDP, the US remains larger — approximately $27 trillion vs. China's $18 trillion in 2023. The distinction matters: PPP better captures domestic living standards, while nominal GDP is more relevant for international financial comparisons.",
+    "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": ["China", "PPP", "GDP", "global economy"]
+  },
+  {
+    "id": "world-018",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'Dutch disease' describes an economic phenomenon in which the discovery of a natural resource harms a country's other export sectors. What is the main transmission mechanism?",
+    "choices": [
+      "The resource boom appreciates the exchange rate, making non-resource exports less competitive",
+      "Resource revenues reduce the incentive to invest in human capital and education",
+      "Foreign investment floods into the resource sector, crowding out domestic manufacturing finance",
+      "Government royalties from resources are taxed at lower effective rates than manufacturing profits"
+    ],
+    "answer": "The resource boom appreciates the exchange rate, making non-resource exports less competitive",
+    "explanation": "Named after the effects of North Sea gas on the Netherlands in the 1960s–70s: large export revenues from a new resource strengthen the currency, which raises the cost of domestically produced goods abroad and causes manufacturing and agriculture to contract. Canada's heavy reliance on oil exports makes it susceptible to a mild version of Dutch disease.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Dutch disease", "resource curse", "exchange rate", "Canada"]
+  },
+  {
+    "id": "world-019",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Why is crude oil — and most global commodities — priced and traded in US dollars rather than in the currency of the producing country?",
+    "choices": [
+      "The 1970s petrodollar agreement between the US and Saudi Arabia established dollar pricing for OPEC oil, entrenching it globally",
+      "The WTO mandates a single reserve currency for commodity invoicing to reduce exchange-rate disputes",
+      "The US dollar was pegged to gold at Bretton Woods, making it the only stable currency for long-term contracts",
+      "OPEC's founding charter specified the dollar as the unit of account for all member exports"
+    ],
+    "answer": "The 1970s petrodollar agreement between the US and Saudi Arabia established dollar pricing for OPEC oil, entrenching it globally",
+    "explanation": "After the US ended gold convertibility in 1971, the Nixon administration struck a deal with Saudi Arabia: oil would be priced in dollars, and Saudi petrodollar revenues would be recycled into US Treasury securities. This cemented the dollar's role as the global reserve currency and created demand for dollars worldwide.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["petrodollar", "USD", "Saudi Arabia", "OPEC", "reserve currency"]
+  },
+  {
+    "id": "world-020",
+    "category": "world",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "OPEC — the Organisation of the Petroleum Exporting Countries — was founded in 1960. Which of these countries was NOT among OPEC's five founding members?",
+    "choices": [
+      "Russia",
+      "Saudi Arabia",
+      "Iraq",
+      "Iran"
+    ],
+    "answer": "Russia",
+    "explanation": "OPEC was founded in September 1960 in Baghdad by Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela. Russia is a major oil exporter but has never joined OPEC; it participates in the separate OPEC+ cooperation framework (formed 2016) alongside OPEC members.",
+    "source": "https://www.opec.org/opec_web/en/about_us/24.htm",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["OPEC", "oil", "founding", "Russia"]
+  },
+  {
+    "id": "world-021",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "In international economics, 'comparative advantage' argues that countries gain from trade even when one country is more efficient at producing everything. What is the key insight?",
+    "choices": [
+      "Each country should specialise in goods where its opportunity cost is relatively lower, even if another country has an absolute advantage in all goods",
+      "Countries should only trade goods where they have an absolute cost advantage over their trading partners",
+      "Specialisation benefits only the more productive country; the less productive country should protect its industries",
+      "Free trade is only beneficial when countries have similar factor endowments and wage levels"
+    ],
+    "answer": "Each country should specialise in goods where its opportunity cost is relatively lower, even if another country has an absolute advantage in all goods",
+    "explanation": "David Ricardo's 1817 insight: even if Portugal can produce both cloth and wine more efficiently than England, both countries gain if Portugal specialises in wine (its relatively stronger suit) and England in cloth. The gains come from specialising where your relative productivity is highest, not where it's highest in absolute terms.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["comparative advantage", "Ricardo", "trade theory", "opportunity cost"]
+  },
+  {
+    "id": "world-022",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Bank for International Settlements (BIS), sometimes called the 'central bank for central banks,' is headquartered in which city?",
+    "choices": [
+      "Basel, Switzerland",
+      "Geneva, Switzerland",
+      "Frankfurt, Germany",
+      "Amsterdam, Netherlands"
+    ],
+    "answer": "Basel, Switzerland",
+    "explanation": "The BIS was founded in 1930 (originally to handle German WWI reparations) and is headquartered in Basel. It provides banking services to central banks, hosts meetings of central bank governors, and produces influential research and the Basel banking accords (Basel I, II, III) that set global bank capital standards.",
+    "source": "https://www.bis.org/about/index.htm",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["BIS", "central bank", "Basel", "banking regulation"]
+  },
+  {
+    "id": "world-023",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "SWIFT — the messaging network used by banks to send international payment instructions — became newsworthy in 2022 when it was used as a financial sanction. What happened?",
+    "choices": [
+      "Several major Russian banks were disconnected from SWIFT following Russia's invasion of Ukraine",
+      "China launched an alternative to SWIFT and persuaded G20 members to switch",
+      "The US Treasury sanctioned Iran by shutting down SWIFT's servers in Europe",
+      "SWIFT was hacked, and $1 billion was stolen from the Bangladesh central bank"
+    ],
+    "answer": "Several major Russian banks were disconnected from SWIFT following Russia's invasion of Ukraine",
+    "explanation": "Following Russia's full-scale invasion of Ukraine in February 2022, the US, EU, UK, and others cut several major Russian banks (including Sberbank and VTB) off from SWIFT, severely disrupting Russia's ability to process international payments. It was one of the most aggressive financial sanctions in modern history.",
+    "source": null,
+    "as_of": "2022",
+    "time_sensitive": false,
+    "tags": ["SWIFT", "Russia", "sanctions", "Ukraine", "international finance"]
+  },
+  {
+    "id": "world-024",
+    "category": "world",
+    "difficulty": 1,
+    "format": "higher_lower",
+    "prompt": "Norway or Canada: which had the higher GDP per capita (PPP) in 2023?",
+    "items": ["Norway", "Canada"],
+    "metric": "GDP per capita (PPP, international dollars) in 2023",
+    "answer": "Norway",
+    "explanation": "Norway's GDP per capita (PPP) was approximately $82,000–$90,000 in 2023, well above Canada's ~$55,000–$58,000. Norway's oil wealth — managed through the Government Pension Fund Global (the world's largest sovereign wealth fund) — drives its extraordinary per-capita income.",
+    "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": ["Norway", "Canada", "GDP per capita", "PPP"]
+  },
+  {
+    "id": "world-025",
+    "category": "world",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "Starting with the largest, rank these four economies by their nominal GDP in 2023.",
+    "items": ["Germany", "India", "Japan", "United Kingdom"],
+    "order_by": "2023 nominal GDP, largest first",
+    "answer": "Germany → Japan → India → United Kingdom",
+    "explanation": "By 2023 nominal GDP (IMF data): Germany ~$4.4T, Japan ~$4.2T, India ~$3.7T, UK ~$3.1T. Germany edged ahead of Japan partly due to yen depreciation. India surpassed the UK to become the 5th-largest economy in the world.",
+    "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": ["GDP", "global economy", "rankings", "India", "Germany"]
+  },
+  {
+    "id": "world-026",
+    "category": "world",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "Canada's single largest export destination — the country that buys more Canadian exports than any other — is the United States.",
+    "answer": true,
+    "explanation": "The US typically accounts for roughly 75–77% of all Canadian merchandise exports, making it by far Canada's dominant trading partner. This dependence makes US trade policy — including tariffs — an outsized economic risk for Canada, as seen during the 2018–2019 NAFTA renegotiation and the 2025 tariff disputes.",
+    "source": "https://www.international.gc.ca/trade-commerce/trade-data-donnees-commerciales/index.aspx",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": ["Canada", "trade", "US", "exports"]
+  },
+  {
+    "id": "world-027",
+    "category": "world",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Match each country to its official currency.",
+    "pairs": [
+      ["Brazil", "Real"],
+      ["South Korea", "Won"],
+      ["India", "Rupee"],
+      ["South Africa", "Rand"]
+    ],
+    "answer": "Brazil↔Real, South Korea↔Won, India↔Rupee, South Africa↔Rand",
+    "explanation": "The Brazilian real (BRL) replaced the cruzeiro in 1994. The South Korean won (KRW) has been used since 1962. The Indian rupee (INR) dates to the 16th century. The South African rand (ZAR) was introduced in 1961 when South Africa became a republic, named after the Witwatersrand gold-bearing ridge.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["currencies", "emerging markets", "Brazil", "India"]
+  },
+  {
+    "id": "world-028",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Hong Kong dollar has been pegged to the US dollar since 1983. Under this 'linked exchange rate system,' the peg is maintained at roughly what rate?",
+    "choices": [
+      "HK$7.80 per US dollar (within a narrow band of 7.75–7.85)",
+      "HK$5.00 per US dollar (fixed exactly)",
+      "HK$10.00 per US dollar (within a band of 9.50–10.50)",
+      "HK$1.00 per US dollar (one-to-one parity)"
+    ],
+    "answer": "HK$7.80 per US dollar (within a narrow band of 7.75–7.85)",
+    "explanation": "The Hong Kong Monetary Authority maintains the peg within a convertibility undertaking band of HK$7.75–7.85/USD, introduced in 1983 after a currency crisis. The peg has survived the Asian financial crisis, SARS, and the 2008 global financial crisis, and is backed by Hong Kong's substantial foreign exchange reserves.",
+    "source": "https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Hong Kong", "currency peg", "exchange rate", "USD"]
+  },
+  {
+    "id": "world-029",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The OECD (Organisation for Economic Co-operation and Development) is sometimes described as a 'club of rich countries.' Approximately how many member countries does it have as of 2024?",
+    "choices": [
+      "38",
+      "20",
+      "54",
+      "72"
+    ],
+    "answer": "38",
+    "explanation": "The OECD had 38 member countries as of 2024, including all G7 nations plus most of Western Europe, along with Australia, New Zealand, Japan, South Korea, Chile, Mexico, and others. Membership is generally open to market-economy democracies that meet OECD governance standards. Canada is a founding member (1961).",
+    "source": "https://www.oecd.org/about/members-and-partners/",
+    "as_of": "2024",
+    "time_sensitive": true,
+    "tags": ["OECD", "international institutions", "Canada"]
+  },
+  {
+    "id": "world-030",
+    "category": "world",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Match each international institution to its primary role.",
+    "pairs": [
+      ["IMF", "Balance-of-payments crisis lending"],
+      ["World Bank", "Long-term development project financing"],
+      ["WTO", "Multilateral trade rules and dispute settlement"],
+      ["BIS", "Banking standards and central-bank cooperation"]
+    ],
+    "answer": "IMF↔Balance-of-payments crisis lending, World Bank↔Long-term development project financing, WTO↔Multilateral trade rules and dispute settlement, BIS↔Banking standards and central-bank cooperation",
+    "explanation": "Each institution has a distinct mandate: the IMF stabilises countries in financial crisis; the World Bank finances development; the WTO administers trade agreements and adjudicates disputes; the BIS in Basel sets the Basel Accords on bank capital adequacy and hosts central bank governor meetings.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["IMF", "World Bank", "WTO", "BIS", "international institutions"]
   }
 ]
