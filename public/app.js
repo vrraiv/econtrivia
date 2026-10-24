@@ -561,7 +561,13 @@ function buildNumeric(q, c, answered, response, skipped) {
   } else {
     const go = () => { const v = input.value.trim(); if (v !== '') submit(q, v); };
     submitBtn.addEventListener('click', go);
-    input.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
+    input.addEventListener('keydown', e => {
+      if (e.key !== 'Enter' || e.isComposing || e.repeat) return;
+      // Submitting moves focus to the Next button mid-keystroke; without this
+      // the same Enter press then lands on Next and skips the feedback entirely.
+      e.preventDefault();
+      go();
+    });
     setTimeout(() => input.focus(), 50);
   }
 
@@ -836,7 +842,13 @@ function buildShort(q, c, answered, response, skipped) {
   } else {
     const go = () => { const v = input.value.trim(); if (v) submit(q, v); };
     submitBtn.addEventListener('click', go);
-    input.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
+    input.addEventListener('keydown', e => {
+      if (e.key !== 'Enter' || e.isComposing || e.repeat) return;
+      // Submitting moves focus to the Next button mid-keystroke; without this
+      // the same Enter press then lands on Next and skips the feedback entirely.
+      e.preventDefault();
+      go();
+    });
     setTimeout(() => input.focus(), 50);
   }
 
@@ -853,7 +865,14 @@ function buildShort(q, c, answered, response, skipped) {
 // apart. A skipped question is recorded as incorrect in round.answers, which
 // keeps every existing scoring path untouched; the parallel round.skipped array
 // exists only so the UI can tell "got it wrong" from "surrendered".
+// When the answer was last revealed. The Next button appears under the finger or
+// cursor that just submitted, so a double-tap, a held Enter key or an extra press
+// can land on it before the player has seen the feedback.
+let lastReveal = 0;
+const NEXT_GRACE_MS = 400;
+
 function revealAnswer(q, correct, response, wasSkipped) {
+  lastReveal = performance.now();
   round.answers[round.current] = correct;
   if (wasSkipped) (round.skipped ??= [])[round.current] = true;
   (round.responses ??= [])[round.current] = response ?? null;
@@ -930,6 +949,7 @@ function formatAnswer(q) {
 // ═══════════════════════════════════════
 
 function nextQuestion() {
+  if (performance.now() - lastReveal < NEXT_GRACE_MS) return;
   round.current++;
   S.set('round', round);
   if (round.current >= round.ids.length) endRound();
