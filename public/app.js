@@ -7,6 +7,10 @@
 const DIFF_TARGETS = { 1: 4, 2: 5, 3: 3 };
 const MAX_CAT = 2;
 
+// Derived rather than written out again, so the quotas and the round length
+// can never disagree.
+const ROUND_SIZE = Object.values(DIFF_TARGETS).reduce((a, b) => a + b, 0);
+
 const GRADE_LABELS = [
   [11, 'Nobel Laureate'],
   [10, 'Tenured Professor'],
@@ -123,7 +127,13 @@ function pruneSeen() {
 
 function assembleRound() {
   const unseen = unseenQuestions();
-  if (unseen.length < 5) return null;
+  if (unseen.length === 0) return null;
+
+  // Last round. Fewer questions remain than a full round needs, so play out
+  // everything that is left and drop the category cap and difficulty quotas.
+  // Stranding the final few questions behind constraints that can no longer be
+  // satisfied is worse than a short, lopsided round.
+  if (unseen.length <= ROUND_SIZE) return randomShuffle(unseen);
 
   // Degrade quotas if pool is thin
   const byDiff = { 1: [], 2: [], 3: [] };
@@ -143,24 +153,35 @@ function assembleRound() {
   }
 
   const catCount = {};
-  const easy = [], med = [], hard = [];
+  const chosen = [];
+  const taken = new Set();
 
-  for (const [d, bucket] of [[3, hard], [2, med], [1, easy]]) {
+  for (const d of [3, 2, 1]) {
     const pool = randomShuffle(byDiff[d] || []);
     let picked = 0;
     for (const q of pool) {
       if (picked >= targets[d]) break;
       if ((catCount[q.category] || 0) >= MAX_CAT) continue;
       catCount[q.category] = (catCount[q.category] || 0) + 1;
-      bucket.push(q);
+      chosen.push(q);
+      taken.add(q.id);
       picked++;
     }
   }
 
-  // Interleave so difficulty levels are spread across the round, not front-loaded
-  const final = randomShuffle([...easy, ...med, ...hard]);
+  // The two-per-category cap can leave the round short whenever the unseen
+  // pool has bunched into a handful of categories, which is exactly what
+  // happens as the bank runs down. Top up from whatever is left instead of
+  // refusing to start a round the player can see they have questions for.
+  if (chosen.length < ROUND_SIZE) {
+    for (const q of randomShuffle(unseen)) {
+      if (chosen.length >= ROUND_SIZE) break;
+      if (!taken.has(q.id)) { chosen.push(q); taken.add(q.id); }
+    }
+  }
 
-  return final.length >= 5 ? final : null;
+  // Interleave so difficulty levels are spread across the round, not front-loaded
+  return randomShuffle(chosen);
 }
 
 // ═══════════════════════════════════════
@@ -259,14 +280,20 @@ function showLanding() {
   }
 
   const thinEl = document.getElementById('thin-pool-msg');
-  if (remaining < 12) {
-    thinEl.innerHTML = `Only ${remaining} unseen question${remaining !== 1 ? 's' : ''} left.
-      <button class="link-btn" id="btn-reset-inline">Reset history</button> to start fresh.`;
+  if (remaining === 0) {
+    thinEl.innerHTML = `You have seen every question in the bank.
+      <button class="link-btn" id="btn-reset-inline">Reset history</button> to play them again.`;
     thinEl.classList.remove('hidden');
-    document.getElementById('btn-reset-inline')?.addEventListener('click', resetHistory);
+  } else if (remaining < ROUND_SIZE) {
+    // A short round still runs, so this is a heads-up rather than a problem.
+    thinEl.innerHTML = `Only ${remaining} question${remaining !== 1 ? 's' : ''} left, so this
+      round will be short (${remaining} instead of ${ROUND_SIZE}).
+      <button class="link-btn" id="btn-reset-inline">Reset history</button> for a full bank.`;
+    thinEl.classList.remove('hidden');
   } else {
     thinEl.classList.add('hidden');
   }
+  document.getElementById('btn-reset-inline')?.addEventListener('click', resetHistory);
 
   showScreen('screen-landing');
 }
@@ -286,9 +313,11 @@ function startRound() {
 
   const qs = assembleRound();
   if (!qs) {
+    // Only reachable with nothing left at all — a thin pool now yields a short
+    // round rather than a refusal.
     const thinEl = document.getElementById('thin-pool-msg');
-    thinEl.innerHTML = `Not enough unseen questions for a round.
-      <button class="link-btn" id="btn-reset-inline">Reset history</button> to play again.`;
+    thinEl.innerHTML = `You have seen every question in the bank.
+      <button class="link-btn" id="btn-reset-inline">Reset history</button> to play them again.`;
     thinEl.classList.remove('hidden');
     document.getElementById('btn-reset-inline')?.addEventListener('click', resetHistory);
     return;
@@ -766,7 +795,7 @@ function endRound() {
   stats.total   += total;
   S.set('stats', stats);
 
-  const grade = gradeLabel(correct);
+  const grade = gradeLabel(correct, total);
 
   const catMap = {};
   round.ids.forEach((id, i) => {
@@ -817,9 +846,19 @@ function endRound() {
   showScreen('screen-end');
 }
 
-function gradeLabel(score) {
+// Thresholds are calibrated to a full round, so a short final round has to be
+// put on the same footing first — otherwise a perfect 5 out of 5 would come
+// back as "Undergrad".
+function gradeLabel(score, total = ROUND_SIZE) {
+  // Full rounds bypass the arithmetic entirely rather than relying on
+  // (score / 12) * 12 round-tripping exactly in floating point.
+  if (total === ROUND_SIZE) return labelFor(score);
+  return labelFor(total > 0 ? (score / total) * ROUND_SIZE : 0);
+}
+
+function labelFor(scaled) {
   for (const [min, label] of GRADE_LABELS) {
-    if (score >= min) return label;
+    if (scaled >= min) return label;
   }
   return GRADE_LABELS.at(-1)[1];
 }

@@ -128,13 +128,15 @@ body {
   width: 100%;
 }
 
+/* Informational, not an error: a thin pool still produces a playable round,
+   so this is styled as a notice rather than a failure. */
 .thin-msg {
-  background: var(--wrong-bg);
-  border: 1px solid var(--wrong);
+  background: var(--chip-bg);
+  border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 0.75rem 1rem;
   font-size: 0.9rem;
-  color: var(--wrong);
+  color: var(--text-muted);
   text-align: center;
   width: 100%;
 }
