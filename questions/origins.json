@@ -172,14 +172,14 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The term 'boycott' — refusing to deal with a person or business as a form of protest — is named after Captain Charles Boycott. What was his role in 1880s Ireland?",
+    "prompt": "The word 'boycott' comes from Captain Charles Boycott. What was his job in 1880s Ireland?",
     "choices": [
-      "Land agent who refused to reduce tenant rents after a bad harvest",
-      "Factory owner who locked out striking workers in a wage dispute",
-      "Colonial tax collector who doubled customs duties without any notice",
-      "Bank manager who foreclosed on struggling tenant farmers"
+      "Land agent",
+      "Factory owner",
+      "Tax collector",
+      "Bank manager"
     ],
-    "answer": "Land agent who refused to reduce tenant rents after a bad harvest",
+    "answer": "Land agent",
     "explanation": "In 1880, Captain Charles Boycott managed estates in County Mayo, Ireland. After refusing to lower rents following a crop failure, the Irish Land League urged local people to shun him completely — his labourers quit, shops refused him, and his mail went undelivered. Charles Stewart Parnell's movement had coined a new word within months.",
     "source": null,
     "as_of": null,
@@ -237,15 +237,9 @@
     "id": "origins-011",
     "category": "origins",
     "difficulty": 2,
-    "format": "mc",
-    "prompt": "The term 'blue chip' — used to describe large, well-established, financially sound companies — borrowed its meaning from which source?",
-    "choices": [
-      "Poker chips, where blue traditionally had the highest denomination",
-      "The blue ink historically used to record sterling-credit accounts",
-      "The blue colour of the British East India Company's stock certificates",
-      "A blue ribbon awarded at 19th-century US agricultural fairs to champion livestock"
-    ],
-    "answer": "Poker chips, where blue traditionally had the highest denomination",
+    "format": "short",
+    "prompt": "The investing term 'blue chip' is widely thought to come from the highest-value chips in which game?",
+    "answer": "Poker",
     "explanation": "In American poker sets, chips are typically white (lowest), red, and blue (highest value). Oliver Gingold of Dow Jones is credited with first applying 'blue chip' to stocks in 1923 after watching trades in stocks priced at $200 or more. The poker analogy — high value, trustworthy — stuck.",
     "source": null,
     "as_of": null,
@@ -255,6 +249,11 @@
       "etymology",
       "poker",
       "stocks"
+    ],
+    "accept": [
+      "Poker",
+      "poker chips",
+      "Poker chips"
     ]
   },
   {
@@ -262,14 +261,14 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Adam Smith famously used the phrase 'invisible hand' to describe how self-interest guides markets. How many times did Smith use the phrase across all of his surviving writings?",
+    "prompt": "How many times did Adam Smith use the phrase 'invisible hand' in all his published writings?",
     "choices": [
-      "Exactly three times, across three separate works",
-      "Once, in The Wealth of Nations — it was the centrepiece of that book",
-      "Dozens of times — it was his most-used metaphor throughout his career",
-      "Never in print — the phrase was attributed to him posthumously"
+      "Three",
+      "Once",
+      "Seven",
+      "Twelve"
     ],
-    "answer": "Exactly three times, across three separate works",
+    "answer": "Three",
     "explanation": "Smith used 'invisible hand' exactly three times: once in his essay The History of Astronomy (written in the 1750s, published only after his death), once in The Theory of Moral Sentiments (1759), and once in The Wealth of Nations (1776). Only the last concerns markets. It became the centrepiece of free-market ideology long after Smith's death, a prominence he never gave it himself.",
     "source": null,
     "as_of": null,
@@ -286,14 +285,14 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The phrase 'laissez-faire' ('let it be done' / 'leave it alone') entered economic vocabulary from which intellectual tradition?",
+    "prompt": "The phrase 'laissez-faire' is associated with which group of 18th-century French thinkers?",
     "choices": [
-      "The French Physiocrats of the 18th century",
-      "The Scottish Enlightenment philosophers around Adam Smith",
-      "The Manchester School of industrial free traders",
-      "The Austrian School of Menger and Böhm-Bawerk"
+      "Physiocrats",
+      "Mercantilists",
+      "Manchester School",
+      "Austrian School"
     ],
-    "answer": "The French Physiocrats of the 18th century",
+    "answer": "Physiocrats",
     "explanation": "The phrase is often attributed to Vincent de Gournay (~1750s), a French merchant-turned-official who argued that government should stay out of commerce. The Physiocrats — Quesnay, Turgot, and others — used it to oppose mercantilist regulations. It predates Adam Smith by decades, though Smith shared the sentiment.",
     "source": null,
     "as_of": null,
@@ -376,14 +375,14 @@
     "category": "origins",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Tulip mania (Netherlands, 1636–37) is often cited as the first speculative bubble. At the peak in early 1637, a single prized bulb reportedly sold for roughly how much?",
+    "prompt": "At the peak of Dutch tulip mania in 1637, a prized bulb reportedly cost about how much, relative to a skilled craftsman's annual income?",
     "choices": [
-      "About ten times a skilled craftsman's annual income",
-      "About a skilled craftsman's annual income, no more",
-      "About one skilled craftsman's monthly wage, a high price",
-      "About one skilled craftsman's weekly wage, a trivial sum"
+      "About 10 times",
+      "About 2 times",
+      "About half",
+      "About 100 times"
     ],
-    "answer": "About ten times a skilled craftsman's annual income",
+    "answer": "About 10 times",
     "explanation": "At the height of the mania in February 1637, the most prized bulbs — rare 'broken' tulips whose multicoloured patterns were caused by a mosaic virus — reportedly fetched more than ten times a skilled craftsman's annual income (about 300 guilders); a Semper Augustus is said to have reached 10,000 guilders. The market collapsed that month when buyers stopped turning up. Caution: historians such as Anne Goldgar argue the popular story is exaggerated — many of its most dramatic details come from later satirical pamphlets, and only a few dozen buyers spent more than 300 guilders on bulbs.",
     "source": null,
     "as_of": null,
@@ -448,14 +447,14 @@
     "category": "origins",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The dollar sign '$' has a disputed origin, but the most widely accepted scholarly explanation traces it to:",
+    "prompt": "The most widely accepted theory traces the dollar sign '$' to a handwritten abbreviation for which Spanish-American coin?",
     "choices": [
-      "An abbreviation of 'ps' for Spanish/Mexican pesos or piastres, with the P and s overlaid",
-      "The initials 'US' superimposed on each other on early government documents",
-      "A stylized rendition of the Pillars of Hercules on the Spanish coat of arms",
-      "A shorthand for 'shilling' used by Thomas Jefferson in his early financial notes"
+      "Peso",
+      "Pound",
+      "Shilling",
+      "Ducat"
     ],
-    "answer": "An abbreviation of 'ps' for Spanish/Mexican pesos or piastres, with the P and s overlaid",
+    "answer": "Peso",
     "explanation": "The most accepted theory, advanced by historian Florian Cajori, holds that '$' evolved from the handwritten abbreviation 'ps' (for 'pesos') with the P written over the s, the loop of the P eventually dropping away to leave two vertical strokes. The symbol appears in American business correspondence from the 1770s, before the US dollar was officially created in 1792.",
     "source": null,
     "as_of": null,
@@ -661,14 +660,14 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The word 'money' traces through Old French 'moneie' to the Latin 'Moneta', a title given to the Roman goddess Juno. Why was her temple associated with money?",
+    "prompt": "The English word 'money' comes from Latin 'Moneta', a title of which Roman goddess, whose temple housed the mint?",
     "choices": [
-      "The Roman mint was located in or near the Temple of Juno Moneta on the Capitoline Hill",
-      "Roman soldiers prayed to Juno Moneta before receiving their pay (salarium)",
-      "Juno was the goddess of commerce; all market prices were posted on her temple walls",
-      "The first Roman coins bore Juno's image, so her name became associated with currency"
+      "Juno",
+      "Venus",
+      "Minerva",
+      "Ceres"
     ],
-    "answer": "The Roman mint was located in or near the Temple of Juno Moneta on the Capitoline Hill",
+    "answer": "Juno",
     "explanation": "'Moneta' is thought to derive from 'monere' (to warn or advise) — Juno allegedly warned the Romans of an earthquake. The mint operated beside her temple, so the coins produced there were called 'moneta', giving us 'money', 'monetary', and (via mint) 'mint' itself. The 'monere' connection also gives us 'monitor' and 'admonish' — all from the same Latin root.",
     "source": null,
     "as_of": null,
@@ -686,14 +685,14 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The concept of 'opportunity cost' — the value of the next-best foregone alternative — is central to economics, but the term itself is relatively recent. Who is generally credited with first using it in print?",
+    "prompt": "Who is generally credited with first using the term 'opportunity cost' in print, in 1894?",
     "choices": [
-      "David I. Green, an American economist, in 1894",
-      "Alfred Marshall, in his Principles of Economics (1890)",
-      "Paul Samuelson, in his influential 1948 textbook",
-      "Frédéric Bastiat, in 'That Which Is Seen and That Which Is Not Seen' (1850)"
+      "David I. Green",
+      "Alfred Marshall",
+      "Paul Samuelson",
+      "Frederic Bastiat"
     ],
-    "answer": "David I. Green, an American economist, in 1894",
+    "answer": "David I. Green",
     "explanation": "The concept is older: Bastiat's 1850 essay on what is 'seen' and 'not seen' captured the idea, and Friedrich von Wieser developed it within the Austrian school (he is sometimes credited with the term itself). But according to Schumpeter, David I. Green first used the phrase 'opportunity cost' in print in 1894, in the Quarterly Journal of Economics ('Pain-Cost and Opportunity-Cost'). The idea then became ubiquitous in economic teaching through textbooks such as Marshall's and Samuelson's.",
     "source": null,
     "as_of": null,
@@ -734,14 +733,14 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Dutch East India Company (VOC, 1602) is often called the first modern corporation. Unlike earlier ventures that were financed and wound up voyage by voyage, what did it do?",
+    "prompt": "The Dutch East India Company (VOC, 1602) is called the first modern corporation because investors left their capital in permanently but could sell what to others?",
     "choices": [
-      "Kept investors' capital in the company long term while letting them sell their shares to other investors in Amsterdam",
-      "Guaranteed every shareholder a fixed annual dividend, backed by the Dutch state, whatever the voyages earned",
-      "Raised money only from its directors, who each held unlimited personal liability for the company's debts",
-      "Returned each voyage's capital and profits to investors as soon as the ships came home, then closed the books for good"
+      "Shares",
+      "Bonds",
+      "Cargoes",
+      "Charters"
     ],
-    "answer": "Kept investors' capital in the company long term while letting them sell their shares to other investors in Amsterdam",
+    "answer": "Shares",
     "explanation": "The VOC raised capital from thousands of investors. After its first years that capital was effectively permanent: shareholders could not demand their money back, but they could sell their shares to others, and a lively secondary market developed in Amsterdam. Investors' losses were limited to what they had put in, and ownership was separated from day-to-day management. Joint-stock companies existed before — England's Muscovy Company dates to 1555 — but this combination of tradeable shares, limited liability and permanent capital is why the VOC is called the first modern corporation.",
     "source": null,
     "as_of": null,
@@ -832,14 +831,14 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The word 'recession' has no single official definition, but one popular rule of thumb is often cited in the news. What is it?",
+    "prompt": "A common rule of thumb defines a recession as how many consecutive quarters of negative GDP growth?",
     "choices": [
-      "Two consecutive quarters of negative GDP growth",
-      "Unemployment rising more than 2 percentage points in six months",
-      "A peak-to-trough GDP decline of at least 2%",
-      "Twelve months of below-trend growth in all major economic indicators"
+      "Two",
+      "One",
+      "Three",
+      "Four"
     ],
-    "answer": "Two consecutive quarters of negative GDP growth",
+    "answer": "Two",
     "explanation": "The popular definition — two consecutive quarters of negative real GDP — became a common shorthand because it is simple and objective. However, the official US arbiter, the NBER Business Cycle Dating Committee, uses a broader definition: a significant decline in economic activity spread across the economy and lasting more than a few months, judged from employment, income, spending and production as well as GDP. Its judgment does not wait for two negative quarters and can diverge from the popular rule.",
     "source": null,
     "as_of": null,
@@ -928,14 +927,14 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Federal Reserve System was created in 1913 largely in response to a financial panic that had occurred just six years earlier. What was that crisis?",
+    "prompt": "The Federal Reserve was created in 1913 largely in response to which financial panic?",
     "choices": [
-      "The Panic of 1907, when a trust company collapse nearly brought down the entire US banking system",
-      "The Sherman Silver Purchase crisis of 1893, which triggered four years of deflation",
-      "The collapse of Jay Cooke & Company in 1873, which caused a five-year depression",
-      "The gold standard crisis of 1895, when J.P. Morgan bailed out the US Treasury"
+      "Panic of 1907",
+      "Panic of 1893",
+      "Panic of 1873",
+      "Panic of 1857"
     ],
-    "answer": "The Panic of 1907, when a trust company collapse nearly brought down the entire US banking system",
+    "answer": "Panic of 1907",
     "explanation": "The Knickerbocker Trust Company's failure triggered a bank run that spread across New York. J.P. Morgan personally organized a private bailout, lending his own and others' funds to stem the panic — but the episode exposed the US's dangerous lack of a lender of last resort. Congress established the Federal Reserve in December 1913 to provide exactly this function: emergency liquidity to prevent bank runs from cascading into depressions.",
     "source": null,
     "as_of": null,
@@ -953,14 +952,14 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The word 'speculate' — now meaning to take financial risk in hope of gain — originally had what meaning in Latin?",
+    "prompt": "The word 'speculate' comes from the Latin for a watchtower. What is that Latin word?",
     "choices": [
-      "To observe from a watchtower or high place (specula)",
-      "To calculate risk carefully before acting",
-      "To trade in futures contracts on agricultural goods",
-      "To lend money at interest above the legal maximum"
+      "Specula",
+      "Turris",
+      "Vigilia",
+      "Arx"
     ],
-    "answer": "To observe from a watchtower or high place (specula)",
+    "answer": "Specula",
     "explanation": "Latin 'speculari' meant to spy or observe from a high vantage point (specula = watchtower). The connection to financial risk-taking came via the idea of looking ahead into the future — seeing possibilities others didn't. The same Latin root gives us 'spectator', 'inspector', 'spectre', 'spectacular', and 'speculum' (the Latin word for mirror). Financial speculation in the modern sense emerged in 17th-century Amsterdam with the Dutch East India Company's active secondary market.",
     "source": null,
     "as_of": null,
@@ -977,14 +976,14 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The term 'entrepreneur' — borrowed directly from French — was popularized among economists to describe the risk-taking organizer of production mainly by which economist?",
+    "prompt": "Which economist popularized the French word 'entrepreneur' in his 1803 Treatise on Political Economy?",
     "choices": [
-      "Jean-Baptiste Say, in his Treatise on Political Economy (1803)",
-      "Adam Smith, in The Wealth of Nations (1776)",
-      "Joseph Schumpeter, in The Theory of Economic Development (1911)",
-      "John Stuart Mill, who translated the French term for English audiences in the 1840s"
+      "Jean-Baptiste Say",
+      "Adam Smith",
+      "Joseph Schumpeter",
+      "John Stuart Mill"
     ],
-    "answer": "Jean-Baptiste Say, in his Treatise on Political Economy (1803)",
+    "answer": "Jean-Baptiste Say",
     "explanation": "The term 'entrepreneur' exists in French simply to mean 'undertaker' (one who undertakes something). Richard Cantillon was the first to give it an economic role as the risk-bearer, in an essay written around 1730 and published in 1755, but it was Say who popularized it: the person who combines land, labour, and capital in production, bearing the risk and uncertainty. Schumpeter later refined the entrepreneur as the innovator driving creative destruction, distinct from the mere business manager.",
     "source": null,
     "as_of": null,
@@ -1001,14 +1000,14 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The word 'inflation' in its economic sense — a general rise in prices — was not always used this way. What did 'inflation' originally refer to in 19th-century economic discourse?",
+    "prompt": "Before it meant rising prices, 'inflation' originally referred to an increase in what?",
     "choices": [
-      "An increase in the money supply, rather than the resulting rise in prices",
-      "The overinflation of credit by reckless banks",
-      "The expansion of government budget deficits beyond productive use",
-      "Rising prices specifically for imported goods due to currency depreciation"
+      "Money supply",
+      "Wages",
+      "Interest rates",
+      "Government spending"
     ],
-    "answer": "An increase in the money supply, rather than the resulting rise in prices",
+    "answer": "Money supply",
     "explanation": "In 19th-century US economic debate, 'inflation' referred to inflating the currency — issuing more paper money. The effect on prices was called 'high prices' or 'dearness.' The shift in usage from cause (money expansion) to effect (price rise) happened gradually through the 20th century. This history matters: Friedman's 'inflation is always and everywhere a monetary phenomenon' was expressing an older view that the cause (money supply) and the effect (price level) are tightly linked.",
     "source": null,
     "as_of": null,
@@ -1025,14 +1024,14 @@
     "category": "origins",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Black-Scholes options pricing formula (1973) revolutionized finance and earned Myron Scholes and Robert Merton the 1997 Nobel prize. What key insight made the model tractable?",
+    "prompt": "The Black-Scholes formula (1973) rests on continuously adjusting a stock position to remove an option's risk. What is this strategy called?",
     "choices": [
-      "Delta hedging: continuously rebalancing stock against the option makes a risk-free portfolio, which must earn the risk-free rate",
-      "That stock prices follow a perfectly normal distribution over any horizon, which makes expected payoffs directly calculable",
-      "That an option's volatility could be predicted from the volatility of the underlying stock price alone, without market data",
-      "That options markets were systematically mispriced, so arbitrage profits revealed the true pricing formula that markets ignored for decades"
+      "Delta hedging",
+      "Pairs trading",
+      "Dollar-cost averaging",
+      "Carry trading"
     ],
-    "answer": "Delta hedging: continuously rebalancing stock against the option makes a risk-free portfolio, which must earn the risk-free rate",
+    "answer": "Delta hedging",
     "explanation": "The key Black-Scholes breakthrough was that you could hedge away all risk from an option position by holding the right amount of the underlying stock — and since the hedged portfolio has no risk, it must earn the risk-free rate. This no-arbitrage argument pins down the option price uniquely. Robert Merton independently derived the same result (and made the continuous hedging argument rigorous). Fischer Black had died in 1995 and the Nobel is not awarded posthumously, so only Scholes and Merton were honoured, with the citation crediting Black.",
     "source": null,
     "as_of": null,
@@ -1074,14 +1073,14 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The IMF and World Bank were both created at the Bretton Woods conference in 1944. Which institution handles short-term balance-of-payments crises, and which funds long-term development projects?",
+    "prompt": "Which international institution, created at Bretton Woods in 1944, lends to countries facing short-term balance-of-payments crises?",
     "choices": [
-      "IMF: short-term balance-of-payments; World Bank: long-term development",
-      "World Bank: short-term balance-of-payments; IMF: long-term development",
-      "Both handle short-term crises, but the World Bank focuses on private-sector borrowers and the IMF on governments",
-      "They perform identical functions but serve different regions: IMF covers developed countries, World Bank covers developing ones"
+      "IMF",
+      "World Bank",
+      "WTO",
+      "BIS"
     ],
-    "answer": "IMF: short-term balance-of-payments; World Bank: long-term development",
+    "answer": "IMF",
     "explanation": "The IMF's original role was to lend to countries with short-term balance-of-payments problems to prevent currency crises and maintain the Bretton Woods fixed-rate system. The World Bank (formally International Bank for Reconstruction and Development) was to fund long-term infrastructure and development projects, initially for war-ravaged Europe. After Bretton Woods collapsed (1971), both institutions evolved significantly, but the core distinction remains. The convention of a European heading the IMF and an American heading the World Bank persists to this day.",
     "source": null,
     "as_of": null,
@@ -1098,14 +1097,14 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The term 'mercantilism' — describing the 16th–18th century doctrine that national wealth meant accumulating gold and silver — was not used by mercantilist writers themselves. Which economist gave the doctrine its lasting critical label, 'the mercantile system'?",
+    "prompt": "Mercantilist writers never used the label. Which economist attacked 'the mercantile system' in his 1776 masterwork?",
     "choices": [
-      "Adam Smith, in The Wealth of Nations (1776)",
-      "David Hume, in Political Discourses (1752)",
-      "Thomas Mun, in England's Treasure by Foreign Trade (1664)",
-      "Richard Cantillon, in An Essay on the Nature of Commerce (1755)"
+      "Adam Smith",
+      "David Hume",
+      "Thomas Mun",
+      "Jean-Baptiste Colbert"
     ],
-    "answer": "Adam Smith, in The Wealth of Nations (1776)",
+    "answer": "Adam Smith",
     "explanation": "Mercantilist writers (Mun, Colbert, etc.) described their policies as good governance, not by any collective name. Smith attacked what he called the 'mercantile system' or 'commercial system' — the French writer Mirabeau is sometimes said to have used the phrase slightly earlier, but Smith's critique made it famous. His argument — that mercantilist trade restrictions made nations poorer, not richer — became the intellectual foundation of free trade ideology. The word 'mercantilism' as a historical category was first used by German economists in the 19th century.",
     "source": null,
     "as_of": null,
@@ -1147,23 +1146,23 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The word 'bank' in its financial sense traces back to Italian 'banca', meaning a bench. Where did medieval Italian bankers conduct their business?",
+    "prompt": "The Medici family built Europe's most powerful 15th-century bank in which Italian city?",
     "choices": [
-      "At outdoor benches in market squares or near churches",
-      "In fortified counting houses on the ground floors of palazzos",
-      "In church sacristies, which were among the few secure places to store money",
-      "Aboard ships in harbour, where they could quickly flee if debtors pursued them"
+      "Florence",
+      "Venice",
+      "Genoa",
+      "Siena"
     ],
-    "answer": "At outdoor benches in market squares or near churches",
-    "explanation": "Medieval Italian money changers and moneylenders set up benches (banca) in public places — market squares, fairs, and the squares in front of churches — to exchange coins and take deposits. The bench was both a literal workspace and the sign of the trade, which is where 'bank' and 'banker' come from. Traditionally, a banker who failed was said to have had his bench broken (banca rotta, the origin of 'bankrupt'), although literal bench-breaking is unproven. Over time the street-bench money changers of cities such as Genoa, Venice and Florence gave way to larger banking houses such as the Medici.",
+    "answer": "Florence",
+    "explanation": "The Medici Bank was founded in Florence in 1397 by Giovanni di Bicci de' Medici and grew into the largest bank in Europe, with branches from Venice and Rome to Geneva, Bruges and London. It pioneered the holding-company structure and the use of bills of exchange, and its fall in 1494 came after loans to kings went bad. The family's money changers, like those of Genoa and Venice, worked at benches called 'banca', which is where the word bank comes from.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
     "tags": [
-      "bank",
-      "etymology",
-      "Italian",
-      "medieval banking"
+      "Medici",
+      "Florence",
+      "banking history",
+      "Renaissance"
     ]
   },
   {
@@ -1171,14 +1170,14 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Nobel Memorial Prize in Economics is not technically one of Alfred Nobel's original prizes. Which institution created it — and funded it — in 1968 to mark its own 300th anniversary?",
+    "prompt": "Which institution created the Nobel Memorial Prize in Economics in 1968 to mark its own 300th anniversary?",
     "choices": [
-      "Sveriges Riksbank (Bank of Sweden)",
-      "The Royal Swedish Academy of Sciences",
-      "The Swedish government's Ministry of Finance",
-      "The Nobel Foundation itself"
+      "Sveriges Riksbank",
+      "Nobel Foundation",
+      "Royal Swedish Academy",
+      "Karolinska Institute"
     ],
-    "answer": "Sveriges Riksbank (Bank of Sweden)",
+    "answer": "Sveriges Riksbank",
     "explanation": "The full name is the 'Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel.' The Riksbank created and endowed it in 1968 as part of its tricentenary celebrations. Because it was not in Alfred Nobel's will, some purists argue it is not a 'true' Nobel Prize — but it is awarded alongside the original prizes every December 10.",
     "source": null,
     "as_of": null,
@@ -1195,14 +1194,14 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The concept of the 'gold standard' — backing paper money with a guaranteed gold exchange rate — was adopted internationally in the late 19th century. Which major economy first adopted it?",
+    "prompt": "Which major economy was the first to adopt a gold standard?",
     "choices": [
-      "United Kingdom, de facto from 1717, when Isaac Newton set sterling's gold price at the Mint",
-      "Germany, formally in 1871 after the Franco-Prussian War, using French indemnity money",
-      "The United States, in the Gold Standard Act of 1900, after the silver-money debates of the 1890s",
-      "France, after Napoleon stabilized the franc with the Germinal law of 1803 and a fixed metal value"
+      "Britain",
+      "Germany",
+      "France",
+      "United States"
     ],
-    "answer": "United Kingdom, de facto from 1717, when Isaac Newton set sterling's gold price at the Mint",
+    "answer": "Britain",
     "explanation": "Isaac Newton served as Master of the Mint from 1699 to 1727. In 1717, he set the gold price for sterling at £3 17s 10.5d per troy ounce — a rate maintained (with wartime suspensions) for two centuries. This effectively put Britain on a de facto gold standard. The UK formally adopted a legal gold standard in 1816, and after Germany's 1871 adoption sparked a rush, most major economies had joined by 1900.",
     "source": null,
     "as_of": null,

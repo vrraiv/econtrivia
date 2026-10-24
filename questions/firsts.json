@@ -286,14 +286,14 @@
     "category": "firsts",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Britain resumed gold convertibility in 1821, after the Napoleonic Wars. Under a gold standard, a country's currency is:",
+    "prompt": "Which country returned its currency to fixed gold convertibility in 1821, after the Napoleonic Wars, starting the classical gold standard?",
     "choices": [
-      "directly convertible into a fixed quantity of gold",
-      "backed by both gold and silver reserves",
-      "pegged to the US dollar at a fixed rate",
-      "issued only by private banks, not the government"
+      "Britain",
+      "France",
+      "Prussia",
+      "United States"
     ],
-    "answer": "directly convertible into a fixed quantity of gold",
+    "answer": "Britain",
     "explanation": "Under a pure gold standard, the government guarantees to exchange its banknotes for a fixed weight of gold on demand. Britain's return to gold in 1821 followed the Napoleonic Wars. The system provided exchange-rate stability but removed policy flexibility during downturns.",
     "source": null,
     "as_of": null,
@@ -629,14 +629,14 @@
     "category": "firsts",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "In 1716 the Scottish financier John Law founded France's Banque Générale, the start of the system that fuelled the Mississippi Bubble (1719–1720). What was the bank's key innovation?",
+    "prompt": "In 1716 the Scottish financier John Law founded France's Banque Générale, the start of the Mississippi Bubble. What was its signature product?",
     "choices": [
-      "It issued paper banknotes in place of heavy metal coin, later with state backing",
-      "It created the world's first stock exchange, trading shares in French colonial companies",
-      "It issued the first government-backed mortgages, allowing ordinary French households to buy their own homes",
-      "It pegged the French livre to the English pound"
+      "Paper banknotes",
+      "Gold coins",
+      "Insurance policies",
+      "Savings bonds"
     ],
-    "answer": "It issued paper banknotes in place of heavy metal coin, later with state backing",
+    "answer": "Paper banknotes",
     "explanation": "Law's Banque Générale (1716), reorganized as the state-owned Banque Royale in 1718–19, issued paper banknotes that circulated widely in France. Law then merged the trading Mississippi Company with the bank and swapped government debt for company shares, while printing notes to support the share price. When confidence collapsed in 1720 the bubble burst spectacularly and set back French finance for decades. Some economists draw parallels with modern central-bank money creation, though the comparison with quantitative easing is loose.",
     "source": null,
     "as_of": null,
@@ -771,14 +771,14 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Which country created what is widely regarded as the world's first sovereign wealth fund — a state-owned investment fund for managing national savings?",
+    "prompt": "Which country created what is widely regarded as the world's first sovereign wealth fund, in 1953?",
     "choices": [
-      "Kuwait, which established the Kuwait Investment Authority in 1953 to invest oil revenues",
-      "Norway, which created the Government Pension Fund Global in 1990 to invest its oil and gas revenues",
-      "Saudi Arabia, which established SAMA Foreign Holdings in the 1970s to manage its oil surplus",
-      "Singapore, which founded Temasek Holdings in 1974 to manage government-owned companies"
+      "Kuwait",
+      "Norway",
+      "Saudi Arabia",
+      "Singapore"
     ],
-    "answer": "Kuwait, which established the Kuwait Investment Authority in 1953 to invest oil revenues",
+    "answer": "Kuwait",
     "explanation": "The Kuwait Investment Authority (KIA), established in 1953, is the world's first and oldest sovereign wealth fund, predating Norway's GPFG by nearly four decades. Kuwait began investing oil revenues abroad while the oil industry was still nascent, recognizing that oil wealth needed to be saved and invested for future generations. Today it manages roughly $1 trillion. Norway's fund is the largest (about $2 trillion) but not the oldest.",
     "source": null,
     "as_of": null,
@@ -843,14 +843,14 @@
     "category": "firsts",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The first country to introduce a compulsory national unemployment insurance program was:",
+    "prompt": "Which country introduced what is widely regarded as the first compulsory national unemployment insurance scheme, in 1911?",
     "choices": [
-      "United Kingdom (1911, National Insurance Act)",
-      "Germany (1927, Reichsanstalt für Arbeitsvermittlung)",
-      "New Zealand (1938, Social Security Act)",
-      "Sweden (1934, voluntary Ghent system)"
+      "United Kingdom",
+      "Germany",
+      "Sweden",
+      "New Zealand"
     ],
-    "answer": "United Kingdom (1911, National Insurance Act)",
+    "answer": "United Kingdom",
     "explanation": "David Lloyd George's National Insurance Act 1911 introduced Britain's first compulsory unemployment insurance, covering about 2.25 million workers in trades prone to cyclical unemployment (construction, shipbuilding, engineering). Germany had pioneered social insurance earlier (Bismarck's sickness insurance 1883, accident 1884, old age 1889) but a national unemployment insurance program didn't arrive until 1927. The UK's 1911 Act also created the first compulsory health insurance scheme in Britain. Canada followed in 1940 with the Unemployment Insurance Act.",
     "source": null,
     "as_of": null,
@@ -919,12 +919,12 @@
     "format": "mc",
     "prompt": "Which woman has led both the International Monetary Fund and a major central bank?",
     "choices": [
-      "Christine Lagarde, IMF Managing Director (2011–2019) and then European Central Bank President (from 2019)",
-      "Janet Yellen, who chaired the Federal Reserve (2014-2018) and then served as US Treasury Secretary (2021-2025)",
-      "Kristalina Georgieva, who became IMF Managing Director in 2019 after heading the World Bank",
-      "Elvira Nabiullina, who has been Governor of the Bank of Russia since 2013"
+      "Christine Lagarde",
+      "Janet Yellen",
+      "Kristalina Georgieva",
+      "Elvira Nabiullina"
     ],
-    "answer": "Christine Lagarde, IMF Managing Director (2011–2019) and then European Central Bank President (from 2019)",
+    "answer": "Christine Lagarde",
     "explanation": "Lagarde is the first woman to have led both the IMF and a major central bank; she was IMF Managing Director from 2011 to 2019, then became the first woman to be President of the European Central Bank in November 2019. (The first person to do both was a man: Michel Camdessus, Governor of the Banque de France before leading the IMF.) Before the IMF she was France's finance minister. Yellen chaired the Federal Reserve (2014–2018) and later served as Treasury Secretary but never led the IMF.",
     "source": null,
     "as_of": null,
@@ -942,14 +942,14 @@
     "category": "firsts",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Janet Yellen became the first woman to chair the Federal Reserve (2014–2018) and later the first woman to serve as US Treasury Secretary (2021–2025). What was her academic specialization before entering government?",
+    "prompt": "Before entering government, Janet Yellen's academic research focused on which field?",
     "choices": [
-      "Labour economics — her research focused on unemployment, wage rigidity, and efficiency wages (with husband George Akerlof)",
-      "International trade theory — she specialized in comparative advantage and optimal tariff policy",
-      "Monetary theory — she developed the quantity theory of money extension incorporating credit cycles",
-      "Development economics — she researched poverty traps and the role of microcredit in developing countries"
+      "Labour economics",
+      "International trade",
+      "Development economics",
+      "Public finance"
     ],
-    "answer": "Labour economics — her research focused on unemployment, wage rigidity, and efficiency wages (with husband George Akerlof)",
+    "answer": "Labour economics",
     "explanation": "Yellen's academic research was primarily in labour economics. With her husband George Akerlof (2001 Nobel laureate), she developed efficiency wage models — explaining why firms pay above market-clearing wages to reduce turnover, attract better workers, and deter shirking. Their 1990 paper 'The Fair Wage-Effort Hypothesis' is a classic. Yellen served as President of the Federal Reserve Bank of San Francisco before becoming Fed Vice Chair and then Chair.",
     "source": null,
     "as_of": null,
@@ -992,15 +992,15 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Bank of Canada opened in 1934 under its first governor, Graham Towers, who served until 1954. What change in 1938 made the bank different from when it opened?",
+    "prompt": "Who was the Bank of Canada's first governor, serving from its opening in 1934 until 1954?",
     "choices": [
-      "He oversaw the nationalization of the Bank of Canada: the government bought out private shareholders and made it fully publicly owned",
-      "He created Canada's first mortgage-backed securities to fund post-Depression housing recovery and rebuilding",
-      "He implemented Canada's first exchange rate controls to prevent capital flight at the outbreak of World War II and to protect the value of the Canadian dollar",
-      "He became the first central banker to publish the Bank's interest rate decisions in advance of each meeting"
+      "Graham Towers",
+      "James Coyne",
+      "Louis Rasminsky",
+      "Gerald Bouey"
     ],
-    "answer": "He oversaw the nationalization of the Bank of Canada: the government bought out private shareholders and made it fully publicly owned",
-    "explanation": "The Bank of Canada was established in 1934 as a privately owned institution, with shares held by the public and the chartered banks. After the Liberals under Mackenzie King returned to power in 1935 the government moved to bring it under public control, and in 1938 it became wholly owned by the Government of Canada by buying out the remaining private shareholders.",
+    "answer": "Graham Towers",
+    "explanation": "Graham Towers, a Montreal banker, ran the Bank of Canada from its opening in 1934 until 1954 and shaped its early policy through the Depression and the Second World War. The Bank started as a privately owned institution, with shares held by the public and the chartered banks; in 1938, under Mackenzie King's government, it became wholly owned by the Government of Canada. James Coyne (1955-61), Louis Rasminsky (1961-73) and Gerald Bouey (1973-87) were later governors.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1017,14 +1017,14 @@
     "category": "firsts",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Which Canadian province introduced North America's first broad-based, economy-wide carbon tax?",
+    "prompt": "Which Canadian province introduced North America's first broad-based, revenue-neutral carbon tax, in 2008?",
     "choices": [
-      "British Columbia (revenue-neutral carbon tax, 2008)",
-      "Quebec (cap-and-trade linked to California, 2013)",
-      "Alberta (carbon levy on large emitters, 2007)",
-      "Ontario (cap-and-trade, 2017)"
+      "British Columbia",
+      "Quebec",
+      "Alberta",
+      "Ontario"
     ],
-    "answer": "British Columbia (revenue-neutral carbon tax, 2008)",
+    "answer": "British Columbia",
     "explanation": "British Columbia introduced North America's first revenue-neutral carbon tax on July 1, 2008. Starting at $10/tonne CO₂, it rose to $30/tonne by 2012. Revenue-neutral meant all carbon tax revenues were returned to taxpayers through income and business tax cuts. The policy was implemented under the centre-right BC Liberal government. Studies found it reduced fuel consumption and emissions without measurably harming BC's economic growth. It became a model for carbon pricing globally. BC repealed its consumer carbon tax in April 2025; industrial carbon pricing continues.",
     "source": null,
     "as_of": null,
@@ -1042,14 +1042,14 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The first Governor of the Bank of England, appointed when it was founded in 1694, was:",
+    "prompt": "Who served as the first Governor of the Bank of England when it was founded in 1694?",
     "choices": [
-      "Sir John Houblon, a merchant and City of London alderman",
-      "William Paterson, the Scottish merchant who first proposed the Bank's creation",
-      "King William III, as the monarch who chartered the Bank",
-      "Charles Montagu, the Chancellor of the Exchequer who designed the funding scheme"
+      "John Houblon",
+      "William Paterson",
+      "Charles Montagu",
+      "Montagu Norman"
     ],
-    "answer": "Sir John Houblon, a merchant and City of London alderman",
+    "answer": "John Houblon",
     "explanation": "Sir John Houblon was the first Governor of the Bank of England (1694–1697), a prominent merchant of Huguenot descent. He appeared on the Bank of England's £50 note issued from 1994. William Paterson proposed the Bank's creation and was a founding director but did not become Governor. Charles Montagu, as Chancellor, implemented the plan through Parliament.",
     "source": null,
     "as_of": null,
@@ -1067,14 +1067,14 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "In July 2009, which country's central bank first pushed one of its key interest rates below zero?",
+    "prompt": "In July 2009, which country's central bank first set one of its key interest rates below zero?",
     "choices": [
-      "Sweden (the Riksbank cut its deposit rate to −0.25% during the financial crisis)",
-      "Japan (the Bank of Japan, January 2016)",
-      "Denmark (Danmarks Nationalbank cut its certificates of deposit rate below zero in July 2012)",
-      "Switzerland (the Swiss National Bank imposed negative rates in December 2014 to weaken the franc)"
+      "Sweden",
+      "Denmark",
+      "Japan",
+      "Switzerland"
     ],
-    "answer": "Sweden (the Riksbank cut its deposit rate to −0.25% during the financial crisis)",
+    "answer": "Sweden",
     "explanation": "The Riksbank (Sweden's central bank) was technically the first to set a policy rate below zero — it briefly cut the deposit facility rate to -0.25% in July 2009, during the global financial crisis. However, most accounts point to Denmark's National Bank in 2012 as the first to deliberately adopt negative rates as a sustained policy tool (to defend the krone's peg to the euro). The ECB followed in 2014, Switzerland and Sweden in 2015, and Japan in 2016. The Riksbank exited negative rates in December 2019, before the Covid pandemic.",
     "source": null,
     "as_of": null,
@@ -1091,15 +1091,9 @@
     "id": "firsts-047",
     "category": "firsts",
     "difficulty": 2,
-    "format": "mc",
-    "prompt": "What was the first global multilateral trade agreement that substantially reduced tariffs and governed international trade rules?",
-    "choices": [
-      "The General Agreement on Tariffs and Trade (GATT), signed in Geneva in 1947",
-      "The Cobden-Chevalier Treaty (1860) between Britain and France, which cut tariffs on a wide range of goods",
-      "The International Trade Organization charter agreed at Havana in 1948, which never entered into force",
-      "The Bretton Woods trade provisions (1944)"
-    ],
-    "answer": "The General Agreement on Tariffs and Trade (GATT), signed in Geneva in 1947",
+    "format": "short",
+    "prompt": "What 1947 multilateral agreement, signed in Geneva by 23 countries, cut tariffs worldwide and later gave way to the WTO? Give its acronym.",
+    "answer": "GATT",
     "explanation": "GATT was signed on October 30, 1947 by 23 nations as a provisional agreement to reduce tariffs and govern trade while the International Trade Organization (ITO) was being negotiated. The ITO never came into force (the US Senate refused to ratify it), so GATT became the de facto global trade regime. It underwent eight negotiating rounds, most famously the Kennedy Round (1960s) and Uruguay Round (1986–1994), which created the WTO in 1995. The Cobden-Chevalier Treaty (1860) was bilateral, not multilateral.",
     "source": null,
     "as_of": null,
@@ -1110,6 +1104,11 @@
       "trade history",
       "1947",
       "firsts"
+    ],
+    "accept": [
+      "GATT",
+      "the GATT",
+      "General Agreement on Tariffs and Trade"
     ]
   },
   {
@@ -1117,14 +1116,14 @@
     "category": "firsts",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Which country was the first to issue a digital central bank currency (digital currency accessible to the general public, not just banks)?",
+    "prompt": "Which country launched the world's first fully operational retail central bank digital currency, in October 2020?",
     "choices": [
-      "The Bahamas, which launched the Sand Dollar in October 2020",
-      "China, which began testing the digital yuan (e-CNY) in 2020",
-      "Sweden, which ran a Riksbank e-krona pilot from 2020",
-      "Nigeria, which launched the eNaira in October 2021"
+      "The Bahamas",
+      "China",
+      "Nigeria",
+      "Sweden"
     ],
-    "answer": "The Bahamas, which launched the Sand Dollar in October 2020",
+    "answer": "The Bahamas",
     "explanation": "The Bahamas launched the Sand Dollar in October 2020, becoming the first country to issue a fully operational retail CBDC (central bank digital currency available to the general public, not just financial institutions). The motivation: many Bahamian islands had poor banking infrastructure, and a digital currency accessible via mobile phone could improve financial inclusion. China's digital yuan (e-CNY) was in large-scale pilots by 2020 but not yet officially 'launched.' Nigeria's eNaira came in 2021.",
     "source": null,
     "as_of": null,
@@ -1167,14 +1166,14 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The first major citywide congestion pricing scheme — charging drivers to enter a central zone — was implemented in:",
+    "prompt": "Which city introduced the world's first congestion pricing scheme for a central zone, in 1975?",
     "choices": [
-      "Singapore (1975, Electronic Road Pricing predecessor)",
-      "London (2003, Congestion Charge zone)",
-      "Stockholm (2006, trial, permanent 2007)",
-      "Oslo (1990, toll ring but not strictly congestion pricing)"
+      "Singapore",
+      "London",
+      "Stockholm",
+      "Oslo"
     ],
-    "answer": "Singapore (1975, Electronic Road Pricing predecessor)",
+    "answer": "Singapore",
     "explanation": "Singapore introduced the world's first urban road pricing scheme in June 1975 — the Area Licensing Scheme, where drivers had to purchase and display a paper license to enter the Restricted Zone during peak hours. It required a toll collector inspection at entry points. The scheme dramatically reduced central-area congestion. Singapore replaced it with the fully electronic ERP system in 1998. London's Congestion Charge (2003) and Stockholm's pricing trial (2006) are later examples, but Singapore pioneered the concept nearly three decades earlier.",
     "source": null,
     "as_of": null,
@@ -1269,14 +1268,14 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The first country to implement an explicit 'debt brake' — a constitutional limit on government deficits — was:",
+    "prompt": "Which country was first to adopt an explicit constitutional 'debt brake' limiting government deficits, approved by referendum in 2001?",
     "choices": [
-      "Switzerland (2001 constitutional amendment, effective 2003)",
-      "Germany (2009 Grundgesetz amendment, effective 2016 for federal government)",
-      "Sweden (1996 fiscal framework, not constitutional but statutory)",
-      "Austria (2011, as part of EU fiscal compact negotiations)"
+      "Switzerland",
+      "Germany",
+      "Sweden",
+      "Denmark"
     ],
-    "answer": "Switzerland (2001 constitutional amendment, effective 2003)",
+    "answer": "Switzerland",
     "explanation": "Switzerland's Schuldenbremse (debt brake) was approved by referendum in December 2001 and took effect in 2003. It requires the federal government to balance cyclically adjusted revenue and expenditure over a full business cycle. Germany's Schuldenbremse, added to the Basic Law (Grundgesetz) in 2009, limits structural federal deficits to 0.35% of GDP and came fully into force in 2016. Both have been widely cited as models for fiscal rules, though the German brake has been debated amid calls for major defence and infrastructure investment.",
     "source": null,
     "as_of": null,

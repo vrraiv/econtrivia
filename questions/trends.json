@@ -115,14 +115,14 @@
     "category": "trends",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Canada experienced a dramatic surge in population growth starting in 2022. Which driver was primarily responsible for this record growth?",
+    "prompt": "Canada's population grew by over a million people in 2022, the fastest pace since 1957. What drove most of that growth?",
     "choices": [
-      "International immigration and temporary residents",
-      "A post-pandemic baby boom that sharply lifted birth rates",
-      "Canadians returning home from abroad in large numbers",
-      "A steep drop in Canadians leaving the country"
+      "International migration",
+      "Higher birth rate",
+      "Returning Canadians",
+      "Fewer emigrants"
     ],
-    "answer": "International immigration and temporary residents",
+    "answer": "International migration",
     "explanation": "Canada's population grew by over one million people in 2022 — the fastest annual growth since 1957. Record levels of permanent residents, international students, and temporary foreign workers drove the surge. By 2023, Canada had one of the fastest population growth rates among G7 nations. Growth slowed sharply in 2025 as the federal government capped temporary residents.",
     "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/230322/dq230322a-eng.htm",
     "as_of": "2022",
@@ -157,14 +157,14 @@
     "category": "trends",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "At the early-2022 peak, which two Canadian housing markets had MLS benchmark prices (all home types) above $1.2 million?",
+    "prompt": "At the early-2022 peak, which two Canadian housing markets had MLS benchmark prices above $1.2 million?",
     "choices": [
-      "Greater Toronto and Greater Vancouver",
-      "Greater Calgary and Greater Edmonton",
-      "Greater Montréal and the Ottawa-Gatineau region",
-      "Halifax and the Greater Victoria region"
+      "Toronto and Vancouver",
+      "Calgary and Edmonton",
+      "Montréal and Ottawa",
+      "Victoria and Halifax"
     ],
-    "answer": "Greater Toronto and Greater Vancouver",
+    "answer": "Toronto and Vancouver",
     "explanation": "At the peak the benchmark price was about $1.26 million in the Greater Toronto Area (Q1 2022) and about $1.25 million in Greater Vancouver (April 2022) — effectively tied; every other major market, including Victoria, Ottawa, Calgary and Montréal, was well below $1 million. Both have since fallen well below those peaks.",
     "source": "https://www.crea.ca/housing-market-stats/mls-home-price-index/",
     "as_of": "2022",
@@ -320,14 +320,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The post-pandemic 'K-shaped recovery' describes which divergence?",
+    "prompt": "In a pandemic-era 'K-shaped recovery', the economy diverges between:",
     "choices": [
-      "Higher-income workers rebounded quickly while lower-income workers fell further behind",
-      "Inflation rose sharply for food but fell for manufactured goods",
-      "Advanced economies recovered fast while emerging markets lagged for years",
-      "Two quarters of strong growth followed by two quarters of contraction"
+      "Higher and lower earners",
+      "Imports and exports",
+      "Growth and inflation",
+      "Stocks and bonds"
     ],
-    "answer": "Higher-income workers rebounded quickly while lower-income workers fell further behind",
+    "answer": "Higher and lower earners",
     "explanation": "In a K-shaped recovery, the top arm of the K (professionals who could work from home) bounced back quickly, while the bottom arm (hospitality, retail, travel workers) suffered prolonged job losses. The shape of the letter K captures this divergence — and it became one of the defining inequality stories of the pandemic era.",
     "source": "https://www.imf.org/en/Blogs/Articles/2021/02/03/blog020321-how-to-prevent-a-new-lost-decade",
     "as_of": "2020",
@@ -494,14 +494,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "US Treasury Secretary Janet Yellen popularized 'friend-shoring' in 2022. Which of these best describes the concept?",
+    "prompt": "Which 2022 term, popularized by US Treasury Secretary Janet Yellen, means shifting supply chains to allied, trusted countries?",
     "choices": [
-      "Shifting supply chains to allied or trusted countries rather than purely minimizing cost",
-      "Offering trade subsidies to help allied countries develop their own manufacturing sectors",
-      "Replacing imports with domestic production in strategic industries",
-      "Allowing friendly nations duty-free access to the US market under a new trade framework"
+      "Friend-shoring",
+      "Reshoring",
+      "Offshoring",
+      "Near-shoring"
     ],
-    "answer": "Shifting supply chains to allied or trusted countries rather than purely minimizing cost",
+    "answer": "Friend-shoring",
     "explanation": "Friend-shoring means moving supply chains to geopolitically reliable partners — places like Mexico, Canada, India, or South Korea — rather than adversaries like China or Russia. It accepts higher costs in exchange for reduced geopolitical risk and is distinct from reshoring (bringing production home) and nearshoring (moving nearby).",
     "source": "https://home.treasury.gov/news/press-releases/jy0714",
     "as_of": "2022",
@@ -518,14 +518,14 @@
     "category": "trends",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Taylor Rule prescribes what central bank interest rate should be based on two 'gaps.' Which two gaps does it use?",
+    "prompt": "The Taylor Rule sets a central bank's interest rate using two 'gaps'. Which two?",
     "choices": [
-      "The inflation gap (actual vs. target) and the output gap (actual vs. potential GDP)",
-      "The unemployment gap (actual vs. natural rate) and the current account deficit gap",
-      "The fiscal deficit gap and the exchange rate misalignment gap relative to trading partners",
-      "The money supply growth gap and the velocity of money gap relative to trend"
+      "Inflation and output",
+      "Unemployment and trade",
+      "Fiscal and exchange rate",
+      "Money supply and velocity"
     ],
-    "answer": "The inflation gap (actual vs. target) and the output gap (actual vs. potential GDP)",
+    "answer": "Inflation and output",
     "explanation": "John Taylor's 1993 formula: i = r* + π + 0.5(π − π*) + 0.5(y − y*). Higher inflation above target → raise rates; output below potential → cut rates. The Taylor Rule became a benchmark for central bank watchers to judge whether policy was 'too loose' or 'too tight.'",
     "source": "https://www.federalreserve.gov/monetarypolicy/policy-rules-and-how-policymakers-use-them.htm",
     "as_of": null,
@@ -542,14 +542,14 @@
     "category": "trends",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "'Quantitative tightening' (QT) is the reverse of quantitative easing. What is the primary mechanism by which QT shrinks a central bank's balance sheet?",
+    "prompt": "How does 'quantitative tightening' mainly shrink a central bank's balance sheet?",
     "choices": [
-      "The central bank stops reinvesting proceeds when bonds on its balance sheet mature, shrinking its asset holdings",
-      "The central bank sells its foreign currency reserves on currency markets to drain domestic money from circulation",
-      "The central bank raises banks' reserve requirements so that less money circulates through the economy",
-      "The central bank cancels the government bonds it owns, which directly reduces the national debt"
+      "Letting bonds run off",
+      "Selling foreign reserves",
+      "Raising reserve ratios",
+      "Cancelling government debt"
     ],
-    "answer": "The central bank stops reinvesting proceeds when bonds on its balance sheet mature, shrinking its asset holdings",
+    "answer": "Letting bonds run off",
     "explanation": "During QT, maturing bonds are simply allowed to roll off the balance sheet rather than being replaced with new purchases. The Bank of Canada and Fed both pursued passive QT from 2022 alongside rate hikes. It is slower and less visible than rate changes but reduces excess bank reserves created during the QE era. Both have since ended QT: the Bank of Canada in January 2025 and the Fed on 1 December 2025.",
     "source": "https://www.bankofcanada.ca/2022/04/fad-press-release-2022-04-13/",
     "as_of": null,
@@ -566,14 +566,14 @@
     "category": "trends",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The US Inflation Reduction Act (IRA, signed 2022) was primarily a climate bill, but it alarmed Canadian policymakers. What was the main trade concern?",
+    "prompt": "The US Inflation Reduction Act (2022) was mainly a climate bill. What was Canada's main trade worry about it?",
     "choices": [
-      "Generous US clean-energy and EV subsidies could pull battery and auto investment south of the border, away from Canada",
-      "The IRA imposed new carbon border taxes on Canadian energy exports to the United States without any prior WTO consultation",
-      "The IRA subsidized imports of US pharmaceuticals that directly competed with Canadian exporters",
-      "The IRA restricted Canadian energy pipeline access to US refineries and the US market"
+      "Investment shifting south",
+      "Carbon border taxes",
+      "Pharmaceutical imports",
+      "Pipeline restrictions"
     ],
-    "answer": "Generous US clean-energy and EV subsidies could pull battery and auto investment south of the border, away from Canada",
+    "answer": "Investment shifting south",
     "explanation": "The IRA's roughly US$369 billion in climate and clean-energy measures (the original official estimate) — including consumer EV tax credits tied to North American assembly and content — raised fears that investment in batteries, EVs and clean technology would shift to the United States. An earlier draft would have given extra credits for union-built, US-assembled vehicles, which particularly alarmed Ottawa; the final law required North American final assembly, which includes Canada, but the wider subsidy gap remained a worry. Ottawa answered with its own Clean Economy Investment Tax Credits.",
     "source": "https://budget.canada.ca/2023/report-rapport/chap3-en.html",
     "as_of": "2022",
@@ -633,15 +633,9 @@
     "id": "trends-028",
     "category": "trends",
     "difficulty": 3,
-    "format": "mc",
-    "prompt": "A central bank faces 'fiscal dominance' when its inflation-fighting mandate is constrained by:",
-    "choices": [
-      "Government debt so high that raising rates would trigger a debt-sustainability crisis, forcing the bank to hold rates lower than inflation requires",
-      "The finance ministry taking direct control of the central bank's board appointments and its day-to-day operating decisions",
-      "The government setting the central bank's inflation target without consulting it, leaving the bank no say in its own mandate and unable to adjust it when conditions change",
-      "The central bank's balance sheet growing larger than the government's total annual tax revenue, threatening its solvency"
-    ],
-    "answer": "Government debt so high that raising rates would trigger a debt-sustainability crisis, forcing the bank to hold rates lower than inflation requires",
+    "format": "short",
+    "prompt": "What term describes a central bank whose inflation fight is constrained because government debt is so high that raising rates would risk a debt-sustainability crisis?",
+    "answer": "fiscal dominance",
     "explanation": "Fiscal dominance describes the erosion of central bank independence when debt is so large that a credible threat of sovereign default constrains rate decisions. It is most acute in heavily indebted emerging markets but was debated for advanced economies after COVID-era debt surges pushed global public debt above 90% of GDP.",
     "source": "https://en.wikipedia.org/wiki/Fiscal_dominance",
     "as_of": null,
@@ -651,6 +645,10 @@
       "monetary policy",
       "government debt",
       "central bank independence"
+    ],
+    "accept": [
+      "fiscal dominance",
+      "fiscal-dominance"
     ]
   },
   {
@@ -705,14 +703,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Silicon Valley Bank (SVB) collapsed in March 2023 in what was described as the fastest bank run in history. What made the run so fast compared to historical bank runs?",
+    "prompt": "Silicon Valley Bank's March 2023 collapse was called the fastest bank run in history. Roughly how much did depositors pull out in a single day?",
     "choices": [
-      "Depositors coordinated via social media and made digital withdrawals instantly — $42 billion was pulled in one day",
-      "SVB's regulators secretly withdrew the bank's operating licence overnight without public announcement",
-      "A cyberattack disabled SVB's authentication systems, allowing fraudulent withdrawals en masse",
-      "The Federal Reserve raised rates by an emergency 1% overnight, instantly making SVB insolvent"
+      "$4 billion",
+      "$12 billion",
+      "$42 billion",
+      "$420 billion"
     ],
-    "answer": "Depositors coordinated via social media and made digital withdrawals instantly — $42 billion was pulled in one day",
+    "answer": "$42 billion",
     "explanation": "SVB's collapse illustrated 21st-century bank run dynamics: venture capital investors communicated via Twitter, WhatsApp, and Slack groups to pull deposits simultaneously. $42 billion was withdrawn in a single day — impossible in the era of physical bank queues. SVB's failure stemmed from holding long-duration bonds that fell in value when rates rose, combined with a concentrated depositor base of tech startups that all moved at once when panic spread.",
     "source": "https://www.federalreserve.gov/publications/files/svb-review-20230428.pdf",
     "as_of": null,
@@ -731,14 +729,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "When Credit Suisse collapsed in March 2023 and was acquired by UBS, regulators made an unusual decision about AT1 bonds (also called 'CoCos'). What did they do that shocked bond markets globally?",
+    "prompt": "In the March 2023 UBS takeover of Credit Suisse, what happened to about CHF 16 billion of its AT1 ('CoCo') bonds?",
     "choices": [
-      "They wrote down about CHF 16 billion of AT1 bonds to zero while preserving some value for shareholders — the opposite of the normal creditor hierarchy",
-      "They converted all Credit Suisse AT1 bonds into common shares at a premium, diluting all existing shareholders",
-      "They transferred AT1 bonds to the Swiss National Bank's balance sheet, converting them into zero-coupon perpetual bonds",
-      "They voided all AT1 bond contracts, declaring them unenforceable because they were linked to now-illegal business activities"
+      "Written down to zero",
+      "Converted into shares",
+      "Moved to the SNB",
+      "Repaid in full"
     ],
-    "answer": "They wrote down about CHF 16 billion of AT1 bonds to zero while preserving some value for shareholders — the opposite of the normal creditor hierarchy",
+    "answer": "Written down to zero",
     "explanation": "Swiss regulators wiped out AT1 (Additional Tier 1) bondholders completely while UBS shareholders received CHF 3 billion in compensation — reversing the normal insolvency waterfall where bondholders get paid before shareholders. This was technically allowed under the AT1 bond terms (which contained loss-absorption triggers) but shocked global bank bond markets. It raised fears about AT1 bonds at other European banks and briefly widened credit spreads globally. In October 2025 the Swiss Federal Administrative Court ruled the write-down lacked a legal basis; FINMA appealed, and the bonds remain written down pending a Federal Supreme Court ruling.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": null,
@@ -759,12 +757,12 @@
     "format": "mc",
     "prompt": "Container shipping costs — a key indicator of global supply-chain stress — soared in 2020–2021. By roughly how many times did Drewry's World Container Index (the average price of a 40-foot container across major routes) multiply between 2019 and its September 2021 peak?",
     "choices": [
-      "About 7 times — from roughly $1,400 to over $10,000",
-      "About 2 times — a moderate rise consistent with normal market cycles",
-      "About 20 times — from roughly $500 to over $10,000",
-      "About 3 times — but only on routes to North America"
+      "About 7 times",
+      "About 2 times",
+      "About 3 times",
+      "About 20 times"
     ],
-    "answer": "About 7 times — from roughly $1,400 to over $10,000",
+    "answer": "About 7 times",
     "explanation": "Drewry's composite index averaged about $1,420 per 40-foot container in 2019 and peaked at $10,377 in September 2021 — roughly seven times higher; some individual routes rose even more. The surge reflected pandemic disruption at ports, a sudden shift of demand from services to goods, empty containers stranded in the wrong places, and labour shortages. Rates had largely normalized by 2023, but the episode accelerated efforts to reshore and diversify supply chains.",
     "source": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
     "as_of": "2021",
@@ -782,14 +780,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The term 'greenflation' emerged around 2021–2022. Which source of price pressure does it most commonly refer to?",
+    "prompt": "'Greenflation' is most often used for rising prices of which inputs needed for the energy transition?",
     "choices": [
-      "The green energy transition increasing demand for critical minerals (lithium, cobalt, copper) and driving up their prices",
-      "Extreme weather such as droughts and floods pushing up food and agricultural commodity prices around the world, especially in 2021 and 2022",
-      "ESG investing restrictions reducing capital for oil and gas producers, which caused energy prices to spike",
-      "Green paper money becoming less valuable because governments printed too much to fund climate programs"
+      "Copper and lithium",
+      "Wheat and corn",
+      "Natural gas and coal",
+      "Beef and dairy"
     ],
-    "answer": "The green energy transition increasing demand for critical minerals (lithium, cobalt, copper) and driving up their prices",
+    "answer": "Copper and lithium",
     "explanation": "The energy transition requires enormous quantities of critical minerals: EVs use about 6x more minerals than conventional cars; offshore wind turbines need copper; solar panels need silver and polysilicon. As countries race to deploy clean energy infrastructure, demand for these materials has surged, driving up prices. Copper prices hit all-time highs in 2024; lithium prices were extremely volatile. Greenflation poses a challenge: the transition may cause near-term inflation even as it promises long-term energy security.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": null,
@@ -808,14 +806,14 @@
     "category": "trends",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "ChatGPT, launched by OpenAI in November 2022, became one of the fastest-growing consumer applications in history. Which economic question did it immediately raise that dominated 2023 economic debate?",
+    "prompt": "ChatGPT's November 2022 launch sparked a major 2023 economic debate about AI's effect on what?",
     "choices": [
-      "Whether AI would drive a wave of labour displacement or productivity gains — or both",
-      "Whether AI would force governments to introduce a universal basic income within a year",
-      "Whether OpenAI's monopoly on large language models would require immediate antitrust action",
-      "Whether AI energy consumption would cause a global electricity shortage within 5 years"
+      "Jobs and productivity",
+      "Exchange rates",
+      "Housing starts",
+      "Oil supply"
     ],
-    "answer": "Whether AI would drive a wave of labour displacement or productivity gains — or both",
+    "answer": "Jobs and productivity",
     "explanation": "ChatGPT's rapid adoption triggered the largest debate about technology and employment since the industrial revolution. Goldman Sachs estimated in 2023 that AI could automate roughly a quarter of current work tasks in the US and Europe; other economists pointed to the historical pattern of technology creating more jobs than it destroys. Unlike past automation (primarily blue-collar), AI appeared capable of affecting white-collar work: lawyers, programmers, analysts, writers. The term 'technological unemployment' (coined by Keynes in 1930) was revived.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": null,
@@ -833,14 +831,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Canada's government announced significant reductions to immigration targets in late 2024 — a major reversal from years of record intake. What was the primary economic rationale given?",
+    "prompt": "Canada sharply cut immigration targets in late 2024. The main stated reason was that immigration had outpaced what?",
     "choices": [
-      "Immigration had outpaced housing supply and public infrastructure capacity, worsening affordability and straining services",
-      "The labour market had fully recovered from COVID, so far fewer workers were needed from abroad to fill vacancies and the temporary increase in immigration was no longer needed",
-      "Canada's population had reached an optimal size beyond which GDP per capita would inevitably decline",
-      "International students were displacing Canadian graduates from high-skilled jobs and depressing wages"
+      "Housing supply",
+      "Bank lending",
+      "Export growth",
+      "Tax revenue"
     ],
-    "answer": "Immigration had outpaced housing supply and public infrastructure capacity, worsening affordability and straining services",
+    "answer": "Housing supply",
     "explanation": "After breaking immigration records in 2022–2023 (~1 million+ net new residents annually), the federal government cut permanent resident targets for 2025–2026 and capped international student permits. The change reflected growing evidence that population growth had outrun housing construction, with affordability reaching crisis levels in Toronto and Vancouver. The government also reduced the number of temporary foreign workers and non-permanent residents. This marked a significant reversal of Canada's historically generous immigration policy.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": "2024",
@@ -902,14 +900,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Ukraine's grain exports are critical to global food security. Russia's invasion in February 2022 disrupted these flows, triggering what humanitarian concern?",
+    "prompt": "Russia's 2022 invasion of Ukraine most directly spiked global prices of which two goods?",
     "choices": [
-      "Wheat and sunflower oil prices spiked globally, worsening food inflation especially in import-dependent countries in the Middle East and Africa",
-      "Global wheat production fell by 50% because Ukraine and Russia together produce half of the world's wheat supply",
-      "The US and EU immediately halted all food aid to developing countries to redirect supplies to Ukraine and neighbouring countries, which triggered famine in several African states",
-      "Global inflation was driven primarily by food shortages, not by energy prices, in the year following the invasion"
+      "Wheat and sunflower oil",
+      "Rice and cocoa",
+      "Coffee and sugar",
+      "Beef and dairy"
     ],
-    "answer": "Wheat and sunflower oil prices spiked globally, worsening food inflation especially in import-dependent countries in the Middle East and Africa",
+    "answer": "Wheat and sunflower oil",
     "explanation": "Ukraine and Russia together account for roughly 25–30% of global wheat exports and well over half of global sunflower oil exports. The invasion caused wheat futures to jump roughly 50% within weeks and sunflower oil prices to climb sharply. Countries like Egypt, Lebanon, and Kenya — heavily dependent on Black Sea grain — faced acute food inflation. The UN-brokered Black Sea Grain Initiative (2022) partially restored grain flows before Russia withdrew in 2023.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": null,
@@ -928,14 +926,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The 'mortgage cliff' became a major economic concern in Canada from 2023 to 2026. What does this term describe?",
+    "prompt": "Canada's 'mortgage cliff' of 2025–26 refers to a wave of what hitting borrowers?",
     "choices": [
-      "The wave of Canadian mortgages coming up for renewal at dramatically higher interest rates than when they were originally taken out",
-      "The collapse in home prices that would occur if interest rates rose above 5%, wiping out most homeowners' equity",
-      "The maximum ratio of household debt to income beyond which the Bank of Canada is legally required to intervene by raising reserve requirements on the big banks",
-      "The point at which variable-rate mortgage holders face negative amortization because payments no longer cover interest"
+      "Mortgage renewals",
+      "Condo completions",
+      "Rate cuts",
+      "Home listings"
     ],
-    "answer": "The wave of Canadian mortgages coming up for renewal at dramatically higher interest rates than when they were originally taken out",
+    "answer": "Mortgage renewals",
     "explanation": "Canada's mortgage system differs from the US: most mortgages have terms of five years or less and must be renewed. Many Canadians who borrowed at historically low rates in 2020–2021 faced renewals in 2025–2026 at higher rates. The Bank of Canada estimated in 2025 that about 60% of mortgage holders renewing in 2025–2026 would see higher payments — typically 15–20% more for five-year fixed-rate borrowers — while some variable-rate borrowers would see payments fall. Averaged across all renewals, payments were projected to be about 10% higher for 2025 renewals and 6% higher for 2026 renewals compared with December 2024.",
     "source": "https://www.bankofcanada.ca/2025/07/staff-analytical-note-2025-21/",
     "as_of": null,
@@ -953,14 +951,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The 'Great Resignation' of 2021–2022 described an unprecedented surge in voluntary worker departures in the US and other countries. What was the dominant economic explanation?",
+    "prompt": "The 'Great Resignation' of 2021–22 was a record surge in what?",
     "choices": [
-      "COVID-19 prompted workers to reassess work-life balance, leading to mass exits from unrewarding, inflexible, or poorly paid jobs",
-      "Government COVID benefits paid workers more than their jobs, so millions quit until the benefits expired",
-      "Robot adoption made millions of jobs obsolete, forcing voluntary departures before layoffs",
-      "Remote work eliminated geographic constraints, causing workers to simultaneously quit and immediately rejoin the workforce in different roles"
+      "Voluntary quits",
+      "Layoffs",
+      "Strikes",
+      "Retirements"
     ],
-    "answer": "COVID-19 prompted workers to reassess work-life balance, leading to mass exits from unrewarding, inflexible, or poorly paid jobs",
+    "answer": "Voluntary quits",
     "explanation": "Monthly US job quits exceeded 4 million in late 2021 — far above pre-pandemic norms. The pandemic forced a re-evaluation of working conditions: many workers refused to return to inflexible office environments, low-wage service jobs, or roles they found unfulfilling. This created an unusually tight labour market with record job openings. Many economists subsequently argued the 'Great Resignation' was more a 'Great Reshuffle' — workers moving to better-paying or more flexible jobs, often with pay increases.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": null,
@@ -1022,14 +1020,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Post-pandemic, downtown office vacancy rates reached record highs in many North American cities. What structural force has kept them elevated even as COVID-era restrictions ended?",
+    "prompt": "Which structural shift has kept downtown office vacancy rates elevated since COVID restrictions ended?",
     "choices": [
-      "The shift to hybrid and remote work — with employees typically working from home 2–3 days per week — permanently reducing office space needed per worker",
-      "A collapse in financial and tech employment as AI eliminated most white-collar jobs in downtown towers",
-      "High interest rates making new office developments unviable, causing existing landlords to convert their buildings to residential and cutting the available stock of office space",
-      "Workers' preference for suburban coworking spaces over urban centres has permanently emptied downtown cores"
+      "Hybrid and remote work",
+      "AI-driven layoffs",
+      "Suburban coworking",
+      "Rent controls"
     ],
-    "answer": "The shift to hybrid and remote work — with employees typically working from home 2–3 days per week — permanently reducing office space needed per worker",
+    "answer": "Hybrid and remote work",
     "explanation": "Post-COVID hybrid work has become the dominant white-collar norm: most knowledge workers now spend 2–3 days in the office rather than 5. Many firms have cut back the space they lease. Downtown office vacancy in Toronto reached roughly 18% in 2024–25 on CBRE's measure, and San Francisco's was above 30%. The 'doom loop' concern: falling office property values reduce commercial property tax revenues, stressing city budgets and potentially reducing urban services, further discouraging return to offices.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": "2024",
@@ -1047,14 +1045,14 @@
     "category": "trends",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Achieving the 'last mile' of disinflation — getting inflation from 4% to the 2% target — proved more difficult than expected in 2023–2024. Which component of CPI was most stubborn in both Canada and the US?",
+    "prompt": "Getting inflation from 4% to the 2% target proved hard in 2023–24. Which CPI component was most stubborn in both Canada and the US?",
     "choices": [
-      "Shelter (rent and housing costs), which continued rising even as goods and energy inflation normalized",
-      "Food prices, which kept rising due to ongoing supply chain constraints from Ukraine and climate disruption",
-      "Energy prices, which rebounded as OPEC+ cut production in late 2023",
-      "Services excluding shelter, which kept rising as wage growth remained elevated"
+      "Shelter",
+      "Food",
+      "Energy",
+      "Durable goods"
     ],
-    "answer": "Shelter (rent and housing costs), which continued rising even as goods and energy inflation normalized",
+    "answer": "Shelter",
     "explanation": "By 2023–2024, goods inflation had largely normalized in both Canada and the US. The last mile problem was shelter: rent indices lag market rents by months (as official CPI measures apply only when leases are renewed), so shelter inflation stayed elevated long after actual market rents peaked. In Canada, shelter inflation was compounded by surging mortgage interest costs as homeowners renewed at higher rates. Shelter was the single largest contributor to above-target inflation in both countries.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": "2024",
@@ -1074,14 +1072,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "OPEC+ (OPEC plus Russia and other allies) coordinated production cuts throughout 2022–2024. What was the primary economic goal of these cuts?",
+    "prompt": "OPEC+ coordinated production cuts throughout 2022–2024. What was their main goal?",
     "choices": [
-      "Preventing oil prices from falling too far to protect producer revenues as non-OPEC supply (especially US shale) grew",
-      "Punishing Western countries for sanctions on Russia by creating an oil shortage",
-      "Reducing global carbon emissions by restricting fossil fuel production to meet Paris Agreement goals",
-      "Forcing oil-importing countries to accelerate their green energy transitions by keeping prices high"
+      "Support oil prices",
+      "Punish the West",
+      "Cut emissions",
+      "Speed the green shift"
     ],
-    "answer": "Preventing oil prices from falling too far to protect producer revenues as non-OPEC supply (especially US shale) grew",
+    "answer": "Support oil prices",
     "explanation": "The US became the world's largest oil producer around 2018, with shale output growing rapidly. OPEC+ used coordinated cuts to put a floor under prices: most Gulf states need oil above $70–80/barrel to balance their budgets. Saudi Arabia led several rounds of voluntary cuts in 2023–2024. The strategy was partly undermined by rising US production and weaker-than-expected Chinese demand, keeping prices below the level some OPEC+ members needed.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": "2024",
@@ -1125,15 +1123,9 @@
     "id": "trends-048",
     "category": "trends",
     "difficulty": 3,
-    "format": "mc",
-    "prompt": "The 'neutral rate of interest' (R*) became a central debate in central banking in 2022–2024. Why did it matter for the hiking cycle?",
-    "choices": [
-      "If the neutral rate had risen (AI investment, green transition, deficits), a given policy rate was less restrictive than before, so central banks had to hike more to achieve the same tightening",
-      "If the neutral rate had risen, inflation would fall to target on its own without further hikes, because the economy would already be running below its natural pace of growth, making the hikes already delivered unnecessary",
-      "If the neutral rate had fallen, the economy was running too hot and central banks needed emergency hikes to cool it, well beyond what inflation alone justified",
-      "The neutral rate sets the legal deadline for reversing policy, so estimating R* told central banks the mandatory date for their first rate cut after hiking"
-    ],
-    "answer": "If the neutral rate had risen (AI investment, green transition, deficits), a given policy rate was less restrictive than before, so central banks had to hike more to achieve the same tightening",
+    "format": "short",
+    "prompt": "What name do central bankers give the real interest rate that neither stimulates nor restrains the economy, the subject of heated debate during the 2022–24 hiking cycle?",
+    "answer": "neutral rate",
     "explanation": "The neutral rate R* is the real (inflation-adjusted) short-term rate consistent with full employment and stable inflation — neither stimulating nor restricting the economy. If R* has risen (due to structural factors like increased investment demand), then a 5% policy rate (about 3% in real terms) is less tight relative to neutral than it was when R* was widely thought to be near 0.5%. The debate mattered practically: if R* rose, central banks might need higher rates for longer to bring inflation to target, or they might settle at a higher 'new normal' rate after easing.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": null,
@@ -1144,6 +1136,16 @@
       "monetary policy",
       "central banking",
       "inflation"
+    ],
+    "accept": [
+      "neutral rate",
+      "neutral interest rate",
+      "natural rate",
+      "natural rate of interest",
+      "r*",
+      "r star",
+      "r-star",
+      "neutral rate of interest"
     ]
   },
   {
@@ -1151,16 +1153,16 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "AI data centres consume vast amounts of electricity. In 2024, this demand led to which unexpected consequence for energy companies and climate commitments?",
+    "prompt": "In September 2024 Microsoft signed a 20-year deal to buy power from a US nuclear plant being restarted for its AI data centres. Which site?",
     "choices": [
-      "Tech companies signed long-term nuclear power deals (including a plan to restart a Three Mile Island reactor) while some utilities delayed retiring fossil-fuel plants to meet demand",
-      "AI electricity demand caused rolling blackouts in major data centre hubs, forcing tech firms to slow their AI deployment plans for the rest of the year",
-      "Renewable energy became uneconomic because AI created round-the-clock baseload demand that intermittent solar and wind could not meet, so utilities abandoned their wind and solar targets",
-      "AI data centres pushed global CO2 emissions above the IPCC's most pessimistic 2030 scenario, ending net-zero pledges among the world's largest technology companies"
+      "Three Mile Island",
+      "Diablo Canyon",
+      "Palo Verde",
+      "Vogtle"
     ],
-    "answer": "Tech companies signed long-term nuclear power deals (including a plan to restart a Three Mile Island reactor) while some utilities delayed retiring fossil-fuel plants to meet demand",
+    "answer": "Three Mile Island",
     "explanation": "Microsoft agreed in September 2024 to buy power for 20 years from Constellation Energy's Three Mile Island Unit 1 (the undamaged reactor, not the one that melted down in 1979), which is to be restarted. Amazon and Google also struck nuclear deals in 2024, and Meta followed in 2025. Meanwhile some utilities in data-centre corridors postponed planned retirements of coal and gas plants. The irony: companies with aggressive net-zero pledges were driving demand for firm power from nuclear and fossil sources.",
-    "source": "https://www.imf.org/en/Publications/WEO",
+    "source": "https://www.world-nuclear-news.org/articles/constellation-to-restart-three-mile-island-unit-powering-microsoft",
     "as_of": "2024",
     "time_sensitive": false,
     "tags": [
@@ -1196,14 +1198,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The US Inflation Reduction Act (IRA, signed August 2022) triggered a clean-tech subsidy race. What was the European Union's main policy response?",
+    "prompt": "The US Inflation Reduction Act (August 2022) set off a clean-tech subsidy race. What was the EU's main policy response?",
     "choices": [
-      "The Green Deal Industrial Plan, including the Net Zero Industry Act and temporarily relaxed state-aid rules",
-      "Retaliatory tariffs on US clean-technology imports, matched dollar for dollar against the IRA's subsidies",
-      "A new joint EU-US clean-technology subsidy fund financed equally by both sides and open to all member states",
-      "A ban on US-made electric vehicles and solar panels"
+      "Green Deal Industrial Plan",
+      "Retaliatory tariffs",
+      "Joint EU-US subsidy fund",
+      "Ban on US-made EVs"
     ],
-    "answer": "The Green Deal Industrial Plan, including the Net Zero Industry Act and temporarily relaxed state-aid rules",
+    "answer": "Green Deal Industrial Plan",
     "explanation": "The EU worried that the IRA's subsidies and local-content rules would pull clean-tech investment to the US. It responded with the Green Deal Industrial Plan: the Net Zero Industry Act (proposed in March 2023 and in force in 2024) and, from March 2023, a temporary framework relaxing state-aid rules so member states could match US incentives. It did not retaliate with tariffs. Canada (Clean Economy Investment Tax Credits) and Japan (Green Transformation program) also responded with their own incentives.",
     "source": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal/green-deal-industrial-plan_en",
     "as_of": null,
@@ -1222,14 +1224,14 @@
     "category": "trends",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "China's real estate sector faced a severe crisis from 2021 to 2024, with Evergrande and Country Garden defaulting on massive debts. Which structural economic problem did this reveal?",
+    "prompt": "China's property crisis (Evergrande, Country Garden) exposed a heavy reliance on real estate. By widely cited estimates, roughly what share of China's GDP did real estate and related industries account for?",
     "choices": [
-      "China's economy had become dangerously dependent on property development as a store of value and investment vehicle, with real estate around 25-30% of GDP",
-      "Chinese banks had secretly extended roughly 90% of their loan books to property developers without the knowledge or oversight of regulators",
-      "China's one-child policy had created a permanent housing surplus because the population declined much faster than official forecasts predicted",
-      "Western sanctions on Chinese real estate companies forced them to default on their dollar-denominated bonds and locked them out of capital markets for several years"
+      "Roughly 5%",
+      "Roughly 12%",
+      "Roughly 25–30%",
+      "Roughly 45%"
     ],
-    "answer": "China's economy had become dangerously dependent on property development as a store of value and investment vehicle, with real estate around 25-30% of GDP",
+    "answer": "Roughly 25–30%",
     "explanation": "Real estate and related industries accounted for roughly 25–30% of China's GDP. With no mature financial markets offering safe investments, Chinese households put roughly 60–70% of their wealth into property. Developers sold apartments before building them ('pre-sales'), using new deposits to fund construction of earlier projects — a structure that depended on a constant flow of new sales. When the government cracked down on developer leverage ('three red lines' policy in 2020), it triggered a cascade of defaults. Property investment fell roughly 25–30% from peak to 2024.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": null,
@@ -1248,14 +1250,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Downtown office vacancy in Toronto climbed to roughly 18% in 2024, several times its pre-pandemic level. What particular fiscal stress does this create for Toronto and other large Canadian municipalities?",
+    "prompt": "Toronto's downtown office vacancy climbed to roughly 18% in 2024. Which municipal revenue source does that threaten most?",
     "choices": [
-      "Commercial property taxes are a major revenue source for municipalities — falling office values reduce tax receipts, squeezing public services",
-      "Most Canadian infrastructure bonds are backed by commercial property values, so office vacancies trigger bond defaults",
-      "Provincial governments claw back municipal transfers when commercial tax bases fall below a threshold",
-      "Office vacancies force municipalities to take ownership of buildings under abandonment laws, creating enormous maintenance liabilities"
+      "Commercial property taxes",
+      "Income taxes",
+      "Federal transfers",
+      "Water fees"
     ],
-    "answer": "Commercial property taxes are a major revenue source for municipalities — falling office values reduce tax receipts, squeezing public services",
+    "answer": "Commercial property taxes",
     "explanation": "Canadian municipalities depend heavily on property taxes (both residential and commercial). As office building valuations fall, commercial property tax revenues decline. This creates a fiscal 'doom loop': lower revenues force service cuts, which reduce urban amenity and discourage return to office, which further depresses property values. Toronto and Vancouver both faced pressure to shift more of the tax burden from commercial to residential properties.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": "2024",
@@ -1377,14 +1379,14 @@
     "category": "trends",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "In response to the US Inflation Reduction Act (2022), Canada introduced its own 'Clean Economy Investment Tax Credits.' What was the core argument for Canada offering these matching incentives?",
+    "prompt": "Canada's Clean Economy Investment Tax Credits (2022–24) were designed mainly to prevent what?",
     "choices": [
-      "Without matching the US incentives, Canadian clean-tech companies and manufacturers would relocate south of the border, taking jobs and tax revenues with them",
-      "Canada's carbon tax alone was insufficient to reduce emissions to net-zero by 2050 without additional direct subsidies, since carbon pricing could not deliver the investment needed",
-      "The WTO required Canada to match US subsidies dollar for dollar to prevent unfair trade advantages for American producers",
-      "Canadian pension funds needed government backing before they could justify clean-technology investments in their portfolios"
+      "Clean-tech flight south",
+      "WTO retaliation",
+      "Carbon tax repeal",
+      "Pension fund exits"
     ],
-    "answer": "Without matching the US incentives, Canadian clean-tech companies and manufacturers would relocate south of the border, taking jobs and tax revenues with them",
+    "answer": "Clean-tech flight south",
     "explanation": "Canada's ITCs — covering clean electricity, clean hydrogen, clean technology manufacturing, carbon capture, and EV supply chains — were explicitly designed to retain investment that might otherwise go to the US under the IRA. Finance Minister Chrystia Freeland argued that if Canadian clean-tech companies could get larger subsidies in the US, they would move there. The ITCs were also meant to support Canada's existing advantages in clean electricity (70% hydro, nuclear, and renewable) and critical minerals.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": "2024",
@@ -1403,14 +1405,14 @@
     "category": "trends",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The US announced 100% tariffs on Chinese electric vehicles in May 2024 (taking effect in September), and the EU imposed additional duties that autumn. What was the stated concern driving these trade barriers?",
+    "prompt": "The US (100% tariff, 2024) and the EU imposed new duties on Chinese electric vehicles. What was the main stated concern?",
     "choices": [
-      "Chinese EV manufacturers benefit from massive state subsidies that allow them to sell vehicles below cost, threatening Western automakers",
-      "Chinese EVs contained spy software that posed national security risks to civilian infrastructure and connected-vehicle data",
-      "Chinese EV battery technology violated Western patents and needed to be barred until licensing agreements with Western battery makers were reached, a dispute then taken to the WTO",
-      "Chinese EVs had systematic safety defects that did not meet Western crash-test standards and put drivers at risk"
+      "State subsidies",
+      "Patent infringement",
+      "Crash-test failures",
+      "Fuel-economy cheating"
     ],
-    "answer": "Chinese EV manufacturers benefit from massive state subsidies that allow them to sell vehicles below cost, threatening Western automakers",
+    "answer": "State subsidies",
     "explanation": "BYD and other Chinese automakers receive enormous state support through subsidies, cheap loans, land grants, and battery supply chain advantages. In 2023, Chinese EVs were sold domestically at prices that would be unprofitable for Western automakers facing higher labour and regulatory costs. The US and EU argued this represented unfair competition. Chinese EVs could theoretically accelerate decarbonization but would also wipe out domestic EV industries that governments had spent billions to build up. The EU's final duties on Chinese-made EVs ran as high as about 35% on top of its standard 10% tariff, and Canada imposed its own 100% surtax from October 2024.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": "2024",
@@ -1429,14 +1431,14 @@
     "category": "trends",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Which factor best explains why Canada's housing shortage worsened after COVID even though higher interest rates were slowing demand?",
+    "prompt": "Which factor best explains why Canada's housing shortage worsened after COVID even as higher interest rates slowed demand?",
     "choices": [
-      "Population grew much faster than housing supply: Canada added more residents in 2023 than in any other year on record, while housing starts stayed far below what was needed",
-      "Canadian households stopped repaying mortgages in large numbers, forcing the federal housing agency CMHC to bail out lenders and freeze new financing for builders, cutting housing starts to a trickle",
-      "Provincial governments froze all new development permits in 2022, halting residential construction across the country for two years while rules were rewritten",
-      "Rising lumber prices made construction costs unaffordable, causing nearly all new housing projects to be cancelled outright"
+      "Rapid population growth",
+      "Mass mortgage defaults",
+      "Provincial permit freezes",
+      "Soaring lumber costs"
     ],
-    "answer": "Population grew much faster than housing supply: Canada added more residents in 2023 than in any other year on record, while housing starts stayed far below what was needed",
+    "answer": "Rapid population growth",
     "explanation": "Canada's net population grew by roughly 1.27 million in 2023 — a 3.2% growth rate. Housing starts were around 240,000 units — about half what CMHC estimated was needed. The demand-supply gap widened even as higher interest rates slowed transaction volumes. Rent inflation remained elevated because the rental market tightened severely. The fundamental problem: Canada had not built enough housing for decades, and record immigration compressed the timeline of the crisis.",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": "2023",
@@ -1479,25 +1481,24 @@
     "category": "trends",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The term 'fiscal dominance' describes a situation that emerged in some countries during and after COVID. Which scenario best illustrates fiscal dominance constraining central bank independence?",
+    "prompt": "After the Truss government's September 2022 'mini-budget' sent UK bond yields soaring, the Bank of England launched emergency purchases of which asset?",
     "choices": [
-      "A central bank cannot raise rates enough to fight inflation because the government's debt is so large that higher rates would trigger a fiscal crisis, putting debt sustainability ahead of the inflation mandate",
-      "A government refuses to allow its central bank to purchase foreign exchange reserves, limiting the bank's ability to manage the exchange rate and forcing it to let the currency float freely",
-      "A country's parliament votes to lower the inflation target from 2% to 0%, forcing the central bank to adopt deflationary policy even though the economy is already weak, unemployment is rising and businesses are laying off workers",
-      "A central bank governor is dismissed by the president right after the bank raises rates, even though public finances are healthy and inflation is falling"
+      "Long-dated gilts",
+      "Short-dated gilts",
+      "Corporate bonds",
+      "Mortgage bonds"
     ],
-    "answer": "A central bank cannot raise rates enough to fight inflation because the government's debt is so large that higher rates would trigger a fiscal crisis, putting debt sustainability ahead of the inflation mandate",
-    "explanation": "Fiscal dominance occurs when fiscal needs constrain monetary policy: if debt is so large that rate hikes would cause the government's interest costs to explode, the central bank faces pressure — explicit or implicit — to keep rates lower than its inflation mandate requires. Japan's very large public debt (roughly 250% of GDP) is one reason the Bank of Japan maintained near-zero rates and yield curve control long after inflation rose in 2022–2023.",
-    "source": "https://en.wikipedia.org/wiki/Fiscal_dominance",
-    "as_of": null,
+    "answer": "Long-dated gilts",
+    "explanation": "On 28 September 2022, days after the 23 September mini-budget, the Bank of England began temporary, targeted purchases of long-dated UK government bonds (gilts) to restore orderly markets. Yields on long gilts had spiked, and pension funds using liability-driven investment strategies faced forced selling that threatened to feed on itself. At its peak the temporary holding was about £19 billion, and the Bank ended the operation in October 2022.",
+    "source": "https://www.bankofengland.co.uk/markets/market-notices/2022/september/market-notice-28-september-2022-gilt-market-operations",
+    "as_of": "2022",
     "time_sensitive": false,
     "tags": [
-      "fiscal dominance",
-      "central bank independence",
-      "monetary policy",
-      "public debt",
-      "Turkey",
-      "Japan"
+      "Bank of England",
+      "gilts",
+      "mini-budget",
+      "financial stability",
+      "2022"
     ]
   }
 ]

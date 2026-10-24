@@ -226,14 +226,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Canada Mortgage and Housing Corporation (CMHC) is a federal Crown corporation. What is its best-known economic function?",
+    "prompt": "Which federal Crown corporation insures high-ratio mortgages in Canada, letting buyers put down less than 20%?",
     "choices": [
-      "Providing mortgage insurance that lets Canadians buy homes with less than a 20% down payment",
-      "Setting the overnight interest rate that determines how mortgages are priced across the country",
-      "Lending money directly to first-time homebuyers at subsidized rates through its own branches",
-      "Regulating real estate agents and brokers and licensing them across all the provinces"
+      "CMHC",
+      "OSFI",
+      "CDIC",
+      "BDC"
     ],
-    "answer": "Providing mortgage insurance that lets Canadians buy homes with less than a 20% down payment",
+    "answer": "CMHC",
     "explanation": "CMHC insures high-ratio mortgages (down payments below 20%), transferring default risk from lenders to the federal government. This allows banks to offer these mortgages but requires borrowers to pay an insurance premium of up to 4% of the mortgage value.",
     "source": null,
     "as_of": null,
@@ -382,14 +382,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "From 2019 until March 2025, Canada's federal fuel charge — the consumer side of the federal carbon price — was levied on what?",
+    "prompt": "Which federal carbon-pricing mechanism, charged on gasoline, diesel and natural gas at the pump and on heating bills, was set to zero in April 2025?",
     "choices": [
-      "The carbon content of fuels such as gasoline, diesel and natural gas, paid at the pump and on heating bills",
-      "Household electricity use above a set threshold, billed to customers through their monthly utility invoices",
-      "Goods imported from countries that lack an equivalent carbon price, collected at the border as a tariff",
-      "The profits of oil and gas companies, collected by the federal government as a share of annual net income"
+      "Fuel charge",
+      "Output-based pricing system",
+      "Border carbon adjustment",
+      "Clean fuel regulations"
     ],
-    "answer": "The carbon content of fuels such as gasoline, diesel and natural gas, paid at the pump and on heating bills",
+    "answer": "Fuel charge",
     "explanation": "The federal fuel charge applied to the carbon content of gasoline, diesel, natural gas and other fossil fuels, and most of the proceeds were returned to households through the Canada Carbon Rebate. Prime Minister Mark Carney's government set the charge to zero effective April 1, 2025, and the rebate ended; pricing for large industrial emitters continued.",
     "source": null,
     "as_of": null,
@@ -452,15 +452,15 @@
     "category": "canada",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Canadian dollar is sometimes called a 'petro-currency.' Which explanation best captures why the CAD tends to appreciate when global oil prices rise?",
+    "prompt": "The CAD is called a 'petro-currency' because higher oil prices lift Canada's export prices relative to its import prices. What is that ratio called?",
     "choices": [
-      "Canada is a net oil exporter, so higher prices improve Canada's terms of trade and increase global demand for Canadian dollars to pay for its exports",
-      "The Bank of Canada automatically raises interest rates when oil prices rise, attracting foreign capital inflows",
-      "Higher oil prices reduce the cost of Canada's energy imports, directly improving the current account balance",
-      "Canadian oil companies hold US dollars and convert large sums to CAD when their profits rise, directly driving up the exchange rate"
+      "Terms of trade",
+      "Dutch disease",
+      "Purchasing power parity",
+      "Interest rate parity"
     ],
-    "answer": "Canada is a net oil exporter, so higher prices improve Canada's terms of trade and increase global demand for Canadian dollars to pay for its exports",
-    "explanation": "Canada exported a record of roughly 4 million barrels of crude per day in 2023, about 97% of it to the US. Higher oil prices boost Canada's national income and export receipts, raising demand for the Canadian dollar. The link has weakened in recent years, as interest-rate differentials with the US and broader risk sentiment increasingly drive the exchange rate.",
+    "answer": "Terms of trade",
+    "explanation": "Terms of trade is the ratio of export prices to import prices. Canada exported a record of roughly 4 million barrels of crude per day in 2023, about 97% of it to the US. Higher oil prices boost Canada's national income and export receipts, raising demand for the Canadian dollar. The link has weakened in recent years, as interest-rate differentials with the US and broader risk sentiment increasingly drive the exchange rate.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -476,14 +476,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The long-running Canada–US softwood lumber dispute centres on US claims that Canadian lumber is unfairly subsidized. What is the principal subsidy allegation?",
+    "prompt": "In the Canada–US softwood lumber dispute, the US says provinces undercharge for logging rights on Crown land. What are these fees called?",
     "choices": [
-      "Canadian provinces charge below-market stumpage fees for logging rights on Crown land, effectively subsidizing producers",
-      "The federal government pays a direct per-unit subsidy to every Canadian sawmill that exports softwood lumber to the United States",
-      "Canadian exporters avoid US duties by routing lumber through Mexico before it crosses into the United States",
-      "Provincial governments ban US companies from bidding on Canadian timber licences, protecting domestic mills"
+      "Stumpage fees",
+      "Export taxes",
+      "Countervailing duties",
+      "Anti-dumping duties"
     ],
-    "answer": "Canadian provinces charge below-market stumpage fees for logging rights on Crown land, effectively subsidizing producers",
+    "answer": "Stumpage fees",
     "explanation": "About 90% of Canada's forestland is Crown-owned. The US argues that provincially set stumpage fees are below the market rates seen in competitive US timber auctions — effectively a countervailable subsidy. The US also imposes separate anti-dumping duties, alleging sales below cost. Multiple rounds of WTO and NAFTA/CUSMA dispute panels have produced mixed rulings.",
     "source": null,
     "as_of": null,
@@ -500,15 +500,15 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Canada–United States Automotive Products Agreement (Auto Pact) of 1965 had what primary economic effect?",
+    "prompt": "Which US president signed the 1965 Auto Pact with Canadian Prime Minister Lester Pearson, creating duty-free cross-border trade in vehicles and parts?",
     "choices": [
-      "It integrated the two countries' auto industries by removing tariffs on cars and parts, so production could be placed where it was most efficient",
-      "It required US automakers to source at least 60% of components from Canadian suppliers",
-      "It required every vehicle sold in Canada to be assembled in a Canadian factory, protecting domestic jobs by banning auto imports from the US and overseas",
-      "It established a joint Canada–US body to harmonize vehicle emissions and safety standards"
+      "Lyndon B. Johnson",
+      "John F. Kennedy",
+      "Dwight Eisenhower",
+      "Richard Nixon"
     ],
-    "answer": "It integrated the two countries' auto industries by removing tariffs on cars and parts, so production could be placed where it was most efficient",
-    "explanation": "The Auto Pact allowed duty-free cross-border flows of vehicles and parts, subject to production safeguards such as Canadian-content and production-to-sales requirements for automakers. It transformed Ontario into a major auto-manufacturing hub — the sector became Canada's largest export industry for decades. The WTO ruled the safeguards inconsistent with trade rules in 2000, effectively ending the pact.",
+    "answer": "Lyndon B. Johnson",
+    "explanation": "Pearson and Johnson signed the Auto Pact on January 16, 1965, at Johnson's Texas ranch. The Auto Pact allowed duty-free cross-border flows of vehicles and parts, subject to production safeguards such as Canadian-content and production-to-sales requirements for automakers. It transformed Ontario into a major auto-manufacturing hub — the sector became Canada's largest export industry for decades. The WTO ruled the safeguards inconsistent with trade rules in 2000, effectively ending the pact.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -582,14 +582,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Canada's healthcare system is single-payer and publicly funded. Which level of government primarily administers and funds hospital and physician services?",
+    "prompt": "Canada's healthcare system is publicly funded. Which level of government primarily administers and funds hospital and physician services?",
     "choices": [
-      "Provincial and territorial governments",
-      "The federal government through Health Canada",
-      "Municipal governments through regional health authorities",
-      "A joint federal–provincial Crown corporation at arm's length from both"
+      "Provinces and territories",
+      "Federal government",
+      "Municipalities",
+      "Private insurers"
     ],
-    "answer": "Provincial and territorial governments",
+    "answer": "Provinces and territories",
     "explanation": "Under the Canada Health Act, provinces and territories deliver healthcare services and are the primary funders of hospitals and doctors. The federal government contributes through the Canada Health Transfer (CHT) but does not directly operate healthcare. This division produces 13 distinct provincial and territorial systems.",
     "source": null,
     "as_of": null,
@@ -724,14 +724,14 @@
     "category": "canada",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Canadian Wheat Board (CWB) held a legal single-desk marketing monopoly on western Canadian wheat and barley exports for decades. When was this monopoly eliminated, and by which government?",
+    "prompt": "The Canadian Wheat Board held a legal single-desk monopoly on western wheat and barley exports for decades. In what year did the federal government end it?",
     "choices": [
-      "2012, by Stephen Harper's Conservative government",
-      "2003, by Jean Chrétien's Liberal government",
-      "2015, by Justin Trudeau's Liberal government",
-      "1995, as part of NAFTA implementation"
+      "2012",
+      "2008",
+      "2015",
+      "2004"
     ],
-    "answer": "2012, by Stephen Harper's Conservative government",
+    "answer": "2012",
     "explanation": "The Harper government eliminated the CWB's single-desk marketing monopoly in August 2012, arguing it restricted farmers' freedom to sell their grain to the highest bidder. Western grain farmers, cooperatives and some provinces were deeply divided on the change. The CWB continued as a voluntary marketer until 2015, when it was acquired by G3 Global Grain Group, a joint venture of Bunge and Saudi Arabia's SALIC.",
     "source": null,
     "as_of": null,
@@ -748,14 +748,14 @@
     "category": "canada",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Which statement best captures the redistributive effect of Canada's tax and transfer system on income inequality?",
+    "prompt": "Roughly what is Canada's after-tax Gini coefficient according to Statistics Canada (0 = perfect equality, 1 = maximum inequality)?",
     "choices": [
-      "Taxes and transfers cut the Gini coefficient from above 0.40 for market income to about 0.30",
-      "Canada's top federal marginal income tax rate of 33% is the highest in the G7",
-      "The wealthiest 10% of Canadians pay more than 90% of all federal income tax",
-      "Canada's after-tax Gini coefficient is higher than that of the United States"
+      "0.30",
+      "0.20",
+      "0.40",
+      "0.50"
     ],
-    "answer": "Taxes and transfers cut the Gini coefficient from above 0.40 for market income to about 0.30",
+    "answer": "0.30",
     "explanation": "Statistics Canada puts the after-tax Gini coefficient at about 0.30 (0.302 in 2022 and 0.301 in 2023), well below the figure for market income. It is also noticeably lower than the US after-tax Gini of roughly 0.39. Progressive taxes, EI, OAS/GIS, the Canada Child Benefit and provincial transfers together compress market-income inequality. The wealthiest 10% pay roughly half of federal income tax, not 90%, and a 33% top federal rate is far from the highest in the G7 once provincial taxes are added.",
     "source": null,
     "as_of": null,
@@ -913,14 +913,14 @@
     "category": "canada",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Section 35 of the Constitution Act, 1982, which forms a key constitutional basis for Indigenous economic and land rights in Canada, does which of the following?",
+    "prompt": "Which section of the Constitution Act, 1982 recognizes and affirms existing Aboriginal and treaty rights?",
     "choices": [
-      "Recognizes and affirms existing Aboriginal and treaty rights of the Aboriginal peoples of Canada",
-      "Guarantees First Nations full ownership of all natural resources found on reserve land",
-      "Requires federal government consent before any provincial Crown land can be sold or leased",
-      "Creates a formal duty to negotiate land claims within five years of any new resource project"
+      "Section 35",
+      "Section 7",
+      "Section 15",
+      "Section 52"
     ],
-    "answer": "Recognizes and affirms existing Aboriginal and treaty rights of the Aboriginal peoples of Canada",
+    "answer": "Section 35",
     "explanation": "Section 35 constitutionalized existing Aboriginal and treaty rights, giving them strong protection against legislative override. Courts have read a duty to consult and accommodate Indigenous peoples into Section 35, profoundly shaping resource development decisions — pipeline approvals, mining permits, and forestry licences — across Canada.",
     "source": null,
     "as_of": null,
@@ -963,14 +963,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Bank of Canada Governor John Crow (1987–1994) pursued tight monetary policy aimed at 'price stability.' What was the most controversial consequence of his approach?",
+    "prompt": "Bank of Canada Governor John Crow (1987–1994) fought inflation with very tight money, which is blamed for a deep recession in which years?",
     "choices": [
-      "A deep recession in 1990–91 and a sluggish recovery, with unemployment topping 11%",
-      "Hyperinflation in 1988–89 that forced the Bank to abandon its targets",
-      "A collapse of the Canadian dollar to near parity with the Mexican peso",
-      "A housing bubble that burst spectacularly in 1993, wiping out Toronto home values"
+      "1990–91",
+      "1981–82",
+      "1974–75",
+      "2008–09"
     ],
-    "answer": "A deep recession in 1990–91 and a sluggish recovery, with unemployment topping 11%",
+    "answer": "1990–91",
     "explanation": "Crow's 'zero inflation' philosophy required very high real interest rates. The resulting 1990–91 recession — compounded, critics argued, by the GST and the new Canada–US Free Trade Agreement — was followed by a slow recovery, with unemployment above 11% in 1992–93 (the 1981–82 slump had been deeper still). Critics argued the cure was worse than the disease; supporters say it built the low-inflation foundation for the boom of the 1990s–2000s.",
     "source": null,
     "as_of": null,
@@ -988,14 +988,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Bank of Canada Governor Tiff Macklem (2020–present) oversaw the most aggressive rate-hiking cycle in decades. What drove him to raise the overnight rate from 0.25% to 5.00% between March 2022 and July 2023?",
+    "prompt": "Canadian CPI inflation peaked at what rate in June 2022, prompting Tiff Macklem's Bank of Canada to raise the overnight rate from 0.25% to 5.00%?",
     "choices": [
-      "A surge in inflation above 8%, the highest since the early 1980s, driven by post-pandemic supply disruptions and energy prices",
-      "A speculative real estate bubble in Toronto and Vancouver that required emergency monetary tightening to avert a housing-market collapse",
-      "A collapse of the Canadian dollar that required higher rates to attract foreign capital and stabilize the exchange rate",
-      "Pressure from the IMF and the US Federal Reserve to bring Canada's interest rates in line with American rates"
+      "8.1%",
+      "5.9%",
+      "10.3%",
+      "6.8%"
     ],
-    "answer": "A surge in inflation above 8%, the highest since the early 1980s, driven by post-pandemic supply disruptions and energy prices",
+    "answer": "8.1%",
     "explanation": "Canadian CPI inflation peaked at 8.1% in June 2022 — the highest since early 1983. Macklem raised rates by 475 basis points over 16 months to bring inflation back toward the 2% target. He was also criticized for earlier forward guidance signalling that rates would stay near zero for an extended period, shortly before the inflation surge.",
     "source": null,
     "as_of": null,
@@ -1038,14 +1038,14 @@
     "category": "canada",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Bank of Canada Governor Stephen Poloz (2013–2020) made two surprise rate cuts in 2015, calling them 'insurance.' What event prompted these cuts?",
+    "prompt": "Bank of Canada Governor Stephen Poloz made two surprise rate cuts in 2015, calling them 'insurance.' What prompted them?",
     "choices": [
-      "A collapse in global oil prices, from over $100 a barrel in mid-2014 to under $50 by early 2015, that hit Alberta hard",
-      "The Chinese stock market crash of 2015, which threatened to cut global demand for Canadian metals and other commodities",
-      "A sudden spike in the Canadian dollar to parity with the US dollar, which threatened the competitiveness of Canadian exporters",
-      "A US Federal Reserve rate hike in early 2015 that caused capital to flee Canadian bond markets"
+      "Oil price collapse",
+      "Brexit vote",
+      "Loonie at parity",
+      "US housing crash"
     ],
-    "answer": "A collapse in global oil prices, from over $100 a barrel in mid-2014 to under $50 by early 2015, that hit Alberta hard",
+    "answer": "Oil price collapse",
     "explanation": "Oil fell from over $100 in mid-2014 to under $50 by early 2015, and below $30 in early 2016. Alberta's economy contracted sharply. Poloz cut in January 2015 and again in July 2015 to cushion the national impact. Critics warned the cuts would fuel household debt and a housing bubble; supporters say they cushioned the shock to the wider economy.",
     "source": null,
     "as_of": null,
@@ -1087,14 +1087,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Finance Minister Jim Flaherty introduced the Tax-Free Savings Account (TFSA) in which budget, and when did the accounts first become available?",
+    "prompt": "In what year did Canadians first get access to Tax-Free Savings Accounts, announced by Finance Minister Jim Flaherty?",
     "choices": [
-      "2008 budget; accounts available January 1, 2009",
-      "2003 budget; accounts available January 1, 2004",
-      "2011 budget; accounts available January 1, 2012",
-      "2015 budget; accounts available April 1, 2015"
+      "2009",
+      "2006",
+      "2011",
+      "2013"
     ],
-    "answer": "2008 budget; accounts available January 1, 2009",
+    "answer": "2009",
     "explanation": "Flaherty announced the TFSA in the 2008 federal budget; accounts became available on January 1, 2009. The TFSA allows investment income — interest, dividends, capital gains — to grow and be withdrawn completely tax-free. Unlike the RRSP, contributions are not deductible but withdrawals do not affect income-tested benefits like GIS or OAS clawback.",
     "source": null,
     "as_of": null,
@@ -1183,15 +1183,9 @@
     "id": "canada-051",
     "category": "canada",
     "difficulty": 2,
-    "format": "mc",
-    "prompt": "The National Energy Program (NEP), introduced in October 1980 by PM Pierre Trudeau, was bitterly resented in Alberta. Which of the following best explains why?",
-    "choices": [
-      "It capped Canadian oil prices below world market levels and redirected oil revenues from Alberta to the federal government",
-      "It nationalized all Alberta oil companies outright and converted them into federal Crown corporations",
-      "It blocked Alberta from exporting oil to the United States, forcing all output to be sold at regulated domestic prices",
-      "It banned new oil drilling in Alberta until federal environmental reviews were completed"
-    ],
-    "answer": "It capped Canadian oil prices below world market levels and redirected oil revenues from Alberta to the federal government",
+    "format": "short",
+    "prompt": "The 1980 National Energy Program, bitterly resented in Alberta, expanded which federal Crown corporation to buy out foreign-owned oil firms?",
+    "answer": "Petro-Canada",
     "explanation": "The NEP held Canadian oil at below-world prices, claimed a 'federal share' of oil revenues through new taxes, and expanded Petro-Canada to buy out foreign-owned oil firms. Alberta retaliated with oil production cutbacks before an agreement was reached in 1981, and the province's lost revenue is often put in the tens of billions of dollars. Mulroney dismantled the NEP in 1985.",
     "source": null,
     "as_of": null,
@@ -1202,6 +1196,11 @@
       "Alberta",
       "Pierre Trudeau",
       "oil"
+    ],
+    "accept": [
+      "Petro-Canada",
+      "Petro Canada",
+      "PetroCanada"
     ]
   },
   {
@@ -1234,14 +1233,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "British Columbia's position as Canada's Pacific Gateway makes it central to trade with Asia. Which group of commodities best describes BC's exports to Asian markets?",
+    "prompt": "BC's Elk Valley is a major source of which commodity, shipped via Vancouver-area ports to Asian steelmakers?",
     "choices": [
-      "Forest products (lumber, pulp), metallurgical coal, and liquefied natural gas (LNG)",
-      "Automobiles and auto parts manufactured in the Lower Mainland",
-      "Wheat, canola, and other prairie grains re-exported through Vancouver terminals",
-      "Technology hardware manufactured by BC-based semiconductor firms"
+      "Metallurgical coal",
+      "Potash fertilizer",
+      "Uranium oxide",
+      "Iron ore pellets"
     ],
-    "answer": "Forest products (lumber, pulp), metallurgical coal, and liquefied natural gas (LNG)",
+    "answer": "Metallurgical coal",
     "explanation": "The Port of Vancouver — Canada's largest by tonnage — ships BC's forest products, metallurgical coal from the Elk Valley, and liquefied natural gas from the LNG Canada facility in Kitimat, Canada's first large-scale LNG export terminal, which shipped its first cargo in mid-2025. Prairie grain also flows through Vancouver terminals, making BC the gateway for much of Canada's agricultural and commodity exports to Asia.",
     "source": null,
     "as_of": null,
@@ -1356,14 +1355,14 @@
     "category": "canada",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "'Bay Street' in Toronto is Canada's equivalent of 'Wall Street.' Which of the following is located in Toronto's Bay Street financial district?",
+    "prompt": "Toronto's financial district, home to the TSX and the Big Five bank towers, is nicknamed 'Canada's Wall Street' after which street?",
     "choices": [
-      "The Toronto Stock Exchange and main offices of several Big Five banks",
-      "The Bank of Canada's headquarters and the federal Finance Department",
-      "The headquarters of CMHC and the Office of the Superintendent of Financial Institutions",
-      "The main office of the Canada Revenue Agency and Statistics Canada"
+      "Bay Street",
+      "Yonge Street",
+      "Spadina Avenue",
+      "Bloor Street"
     ],
-    "answer": "The Toronto Stock Exchange and main offices of several Big Five banks",
+    "answer": "Bay Street",
     "explanation": "Toronto's Financial District, centred on Bay Street, is home to the TSX and the major towers of TD, CIBC, RBC, BMO, and Scotiabank. The Bank of Canada's main offices are in Ottawa, not Toronto. 'Bay Street' is often used in political discourse as shorthand for powerful financial interests, analogous to 'Wall Street' in American debate.",
     "source": null,
     "as_of": null,
@@ -1486,14 +1485,14 @@
     "category": "canada",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Bank of Canada used large-scale asset purchases (quantitative easing) for the first time in 2020, having avoided them in 2008–09. Which factor is most often cited for why conventional policy was enough in 2008–09?",
+    "prompt": "In 2009 the Bank of Canada cut to 0.25% and made a 'conditional commitment' to hold it there. What is that policy tool generally called?",
     "choices": [
-      "Canada's banks stayed solvent and credit kept flowing, so rate cuts to 0.25% plus forward guidance were enough",
-      "The Bank of Canada's legal mandate explicitly prohibits bond purchases except during declared national emergencies",
-      "Inflation was running well above target in 2009, which ruled out any further stimulus",
-      "Canada's policy rate was still well above zero in 2009, leaving plenty of room for conventional cuts"
+      "Forward guidance",
+      "Yield curve control",
+      "Quantitative easing",
+      "Negative rates"
     ],
-    "answer": "Canada's banks stayed solvent and credit kept flowing, so rate cuts to 0.25% plus forward guidance were enough",
+    "answer": "Forward guidance",
     "explanation": "QE is a tool for when the policy rate is at its floor and more stimulus is needed. In 2008–09 Canada's well-regulated banks stayed solvent and credit kept flowing, so cutting to 0.25% and promising to hold rates there was enough. The COVID-19 shock hit government bond market functioning as well as the economy, making large-scale asset purchases appropriate for the first time.",
     "source": null,
     "as_of": null,
@@ -1511,14 +1510,14 @@
     "category": "canada",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The October 30, 1995 Quebec sovereignty referendum was decided by an extraordinarily narrow margin. By approximately how many votes did the 'No' (Non) side win?",
+    "prompt": "By approximately how many votes did the 'No' side win the October 30, 1995 Quebec sovereignty referendum?",
     "choices": [
-      "About 54,000 votes — less than 1.2% of all ballots cast",
-      "About 250,000 votes — roughly 5% of all ballots cast",
-      "About 500,000 votes — roughly 10% of all ballots cast",
-      "About 1 million votes — roughly 20% of all ballots cast"
+      "54,000",
+      "250,000",
+      "500,000",
+      "1,000,000"
     ],
-    "answer": "About 54,000 votes — less than 1.2% of all ballots cast",
+    "answer": "54,000",
     "explanation": "The final count was 50.58% Non vs. 49.42% Oui — a margin of roughly 54,288 votes out of nearly 4.76 million ballots, with a stunning 93.5% voter turnout. Had the Yes side won, Quebec's government planned to propose a partnership to Canada and declare sovereignty within a year. The near-miss prompted Ottawa to refer the legality of secession to the Supreme Court (1998) and then pass the Clarity Act (2000).",
     "source": null,
     "as_of": null,
@@ -1555,14 +1554,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Canada's dairy, poultry, and egg sectors operate under 'supply management.' Which combination of three mechanisms defines this system?",
+    "prompt": "Canada's dairy, poultry and egg sectors run on production quotas and marketing boards that set farm prices. What is the third pillar of supply management?",
     "choices": [
-      "Production quotas that limit output + import tariffs that block competition + marketing boards that set prices",
-      "Government-set retail prices + direct subsidies to farmers + export promotion funds",
-      "Crown corporation purchasing + mandatory domestic-content rules + graduated export taxes",
-      "Price floors set by federal statute + bilateral quota agreements with the US + provincial marketing boards"
+      "High import tariffs",
+      "Direct farm subsidies",
+      "Export subsidies",
+      "Crown purchasing"
     ],
-    "answer": "Production quotas that limit output + import tariffs that block competition + marketing boards that set prices",
+    "answer": "High import tariffs",
     "explanation": "Supply management's three pillars are: 1) production controls (farmer quota limits — a typical dairy farm's quota can be worth millions of dollars), 2) pricing mechanisms (marketing boards set farm-gate prices above competitive levels), and 3) import controls (tariff-rate quotas with tariffs up to 298.5% on over-quota imports). US dairy exporters demand access; CUSMA granted some, but supply management remains largely intact.",
     "source": null,
     "as_of": null,
@@ -1580,14 +1579,14 @@
     "category": "canada",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Canada's Registered Retirement Savings Plan (RRSP) offers which primary tax advantage?",
+    "prompt": "Which Canadian account lets you deduct contributions from your taxable income and pay tax on the growth only when you withdraw?",
     "choices": [
-      "Contributions reduce taxable income in the year made, and investment growth is tax-deferred until withdrawal",
-      "Contributions are taxed normally, but all withdrawals are completely tax-free at any age and in any amount",
-      "Investment income inside an RRSP is taxed at a special reduced rate of 10% instead of the marginal rate",
-      "The government matches RRSP contributions up to $5,000 per year for lower-income Canadians who file on time"
+      "RRSP",
+      "TFSA",
+      "RESP",
+      "RDSP"
     ],
-    "answer": "Contributions reduce taxable income in the year made, and investment growth is tax-deferred until withdrawal",
+    "answer": "RRSP",
     "explanation": "RRSP contributions are deductible from income, saving taxes in high-earning years. Growth inside the plan is tax-deferred — no tax is paid until you withdraw funds, typically in retirement when your marginal rate is lower. Compare with the TFSA: no upfront deduction, but withdrawals are tax-free. Most financial advisors recommend using both accounts.",
     "source": null,
     "as_of": null,
@@ -1604,14 +1603,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Bank of Canada's 'overnight rate' is its key policy tool. What does it directly set?",
+    "prompt": "What is the name of the interest rate the Bank of Canada targets as its key policy tool, the rate at which major financial institutions lend to each other for one day?",
     "choices": [
-      "The target rate at which major financial institutions lend to each other for one-day (overnight) funds",
-      "The retail prime rate that the Big Five banks charge their most creditworthy borrowers on loans and lines of credit",
-      "The rate of return the government guarantees on treasury bills sold at its regular auctions",
-      "The maximum rate that Canadian banks are permitted to charge on variable-rate mortgages"
+      "Overnight rate",
+      "Prime rate",
+      "Mortgage rate",
+      "Treasury bill yield"
     ],
-    "answer": "The target rate at which major financial institutions lend to each other for one-day (overnight) funds",
+    "answer": "Overnight rate",
     "explanation": "The overnight rate is the target for the rate at which major financial institutions borrow and lend one-day funds among themselves. By setting this rate, the Bank influences all other interest rates in the economy. When the Bank raises the overnight rate, commercial banks typically raise their prime rates within a day, rippling through mortgages, business loans, and savings accounts.",
     "source": null,
     "as_of": null,
@@ -1627,15 +1626,9 @@
     "id": "canada-070",
     "category": "canada",
     "difficulty": 3,
-    "format": "mc",
-    "prompt": "Graham Ford Towers was the Bank of Canada's first Governor (1935–1954). During his tenure, a fundamental change in the Bank's ownership occurred. What was it?",
-    "choices": [
-      "The Bank was nationalized — converted from private shareholding to full public Crown corporation ownership in 1938",
-      "The Bank's shares were listed on the Toronto Stock Exchange in 1940, making it publicly traded",
-      "The Bank merged with the Department of Finance in 1937 to consolidate fiscal and monetary authority",
-      "The Bank was granted formal statutory independence from the federal government by legislation in 1947"
-    ],
-    "answer": "The Bank was nationalized — converted from private shareholding to full public Crown corporation ownership in 1938",
+    "format": "short",
+    "prompt": "Graham Towers was the Bank of Canada's first Governor. Which Prime Minister's government nationalized the Bank in 1938?",
+    "answer": "Mackenzie King",
     "explanation": "When the Bank opened in March 1935, it was privately owned — shares were sold to the public. The Mackenzie King government bought out all outstanding shares in 1938, converting the Bank into a fully publicly owned Crown corporation. Towers served the longest tenure of any Bank of Canada governor and guided the Bank through World War II and the post-war reconstruction era.",
     "source": null,
     "as_of": null,
@@ -1646,6 +1639,12 @@
       "nationalization",
       "history",
       "governors"
+    ],
+    "accept": [
+      "Mackenzie King",
+      "William Lyon Mackenzie King",
+      "King",
+      "W. L. Mackenzie King"
     ]
   },
   {
@@ -1671,15 +1670,15 @@
     "category": "canada",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Investment Canada Act (1985) allows the federal government to review large foreign acquisitions of Canadian businesses. On what grounds can the minister block or impose conditions on a foreign takeover?",
+    "prompt": "Large foreign takeovers of Canadian businesses are reviewed under the Investment Canada Act (1985) against which test?",
     "choices": [
-      "If the investment fails the 'net benefit to Canada' test, meaning it would not bring enough economic, social or employment benefits",
-      "If the foreign company is incorporated in a country that has no bilateral investment treaty with Canada",
-      "If the acquisition would give the foreign buyer more than 25% market share in any Canadian industry or sector",
-      "If the acquiring company's home country imposes restrictions on Canadian investment in comparable sectors, as a matter of strict reciprocity"
+      "Net benefit",
+      "Reciprocity",
+      "Market share",
+      "Treaty status"
     ],
-    "answer": "If the investment fails the 'net benefit to Canada' test, meaning it would not bring enough economic, social or employment benefits",
-    "explanation": "Above dollar-value thresholds, the Act requires a 'net benefit to Canada' assessment covering employment, Canadian participation in management, R&D, productivity, and competition effects. A separate 'national security' review (added 2009) can block any investment threatening security — increasingly invoked for Chinese state-owned enterprise deals in critical minerals, telecoms, and technology.",
+    "answer": "Net benefit",
+    "explanation": "The test is formally 'net benefit to Canada'. Above dollar-value thresholds, the Act requires a 'net benefit to Canada' assessment covering employment, Canadian participation in management, R&D, productivity, and competition effects. A separate 'national security' review (added 2009) can block any investment threatening security — increasingly invoked for Chinese state-owned enterprise deals in critical minerals, telecoms, and technology.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1743,14 +1742,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Standard & Poor's maintains a AAA credit rating for the Government of Canada — the highest possible. Which factor is most commonly cited as underpinning this rating?",
+    "prompt": "Which major credit rating agency cut Canada from AAA to AA+ in 2020?",
     "choices": [
-      "Canada's strong fiscal institutions, track record of deficit reduction, and diversified economy with manageable federal debt",
-      "Canada's status as a G7 country automatically entitles it to AAA from all major rating agencies",
-      "The Bank of Canada's formal independence and its right to purchase unlimited quantities of federal government bonds",
-      "Canada's physical proximity to the United States, which serves as an implicit guarantor of Canadian sovereign debt"
+      "Fitch",
+      "Moody's",
+      "S&P",
+      "DBRS Morningstar"
     ],
-    "answer": "Canada's strong fiscal institutions, track record of deficit reduction, and diversified economy with manageable federal debt",
+    "answer": "Fitch",
     "explanation": "S&P and Moody's both rate Canada at the very top (AAA/Aaa); Fitch cut it one notch to AA+ in 2020. Key factors behind the top ratings include low federal debt relative to peers, a stable banking system, a transparent monetary framework, rule of law, and a diverse resource and services economy. By comparison, S&P downgraded the US from AAA in 2011; the UK is rated AA.",
     "source": null,
     "as_of": null,
@@ -1794,14 +1793,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Which commodity group is Canada's largest merchandise export by value in recent years?",
+    "prompt": "Which commodity is Canada's largest merchandise export by value in recent years?",
     "choices": [
-      "Crude oil and other petroleum products",
-      "Natural gas and liquefied natural gas",
-      "Lumber, pulp and other forest products",
-      "Wheat, canola and other agricultural grains"
+      "Crude oil",
+      "Natural gas",
+      "Lumber",
+      "Wheat"
     ],
-    "answer": "Crude oil and other petroleum products",
+    "answer": "Crude oil",
     "explanation": "Crude oil and petroleum products typically account for about 20–25% of Canada's total merchandise exports by value — by far the single largest commodity category. Almost all Canadian crude exports go to the United States through pipeline networks. Canada is the world's 4th largest oil producer, and the Athabasca oil sands drive a large share of output.",
     "source": null,
     "as_of": null,
@@ -1818,14 +1817,14 @@
     "category": "canada",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The 'Ring of Fire' mineral district in northern Ontario contains significant deposits of chromite, nickel, and other critical minerals. What has been the primary obstacle to its development for over a decade?",
+    "prompt": "What has been the primary obstacle to developing northern Ontario's 'Ring of Fire' mineral district for over a decade?",
     "choices": [
-      "No road or rail connection links the remote James Bay Lowlands region to southern markets",
-      "Federal environmental regulations prohibit chromite mining on boreal lands designated as ecological preserves",
-      "All mineral rights in the area are disputed between Ontario and neighbouring Manitoba",
-      "Global chromite prices have remained too low to justify the capital cost of extraction"
+      "No road or rail",
+      "Low chromite prices",
+      "A federal mining ban",
+      "A boundary dispute"
     ],
-    "answer": "No road or rail connection links the remote James Bay Lowlands region to southern markets",
+    "answer": "No road or rail",
     "explanation": "The Ring of Fire deposits — about 500 km northeast of Thunder Bay — are inaccessible by road or rail. Building infrastructure through muskeg and boreal forest costs billions. Multiple Ontario governments, First Nations communities, and mining companies have been in negotiations since the early 2010s over infrastructure routes, profit-sharing, and environmental terms. As of the mid-2020s the deposits remain largely undeveloped.",
     "source": null,
     "as_of": null,
@@ -1843,14 +1842,14 @@
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "British Columbia adopted a Harmonized Sales Tax (HST) in 2010, then reversed course after a referendum. What was the outcome of the 2011 BC referendum on the HST?",
+    "prompt": "In 2011, voters in which province rejected the HST in a referendum, forcing a return to the GST and PST?",
     "choices": [
-      "54.7% voted to reject the HST and return to the separate GST + PST system",
-      "62.3% voted to keep the HST, but the government reversed course anyway",
-      "The referendum was declared invalid due to low turnout; the government then repealed the HST unilaterally",
-      "51.2% voted to keep the HST, but only after Ottawa agreed to share additional revenues with BC"
+      "British Columbia",
+      "Ontario",
+      "Nova Scotia",
+      "Quebec"
     ],
-    "answer": "54.7% voted to reject the HST and return to the separate GST + PST system",
+    "answer": "British Columbia",
     "explanation": "BC's Liberal government introduced HST on July 1, 2010, without an election mandate. Public backlash was intense; a citizen-initiated petition under BC's Recall and Initiative Act triggered a mail-in referendum. In 2011, 54.7% voted to extinguish the HST. BC reverted to the old GST + PST system in April 2013 — the only province to adopt and then reverse HST.",
     "source": null,
     "as_of": null,

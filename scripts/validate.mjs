@@ -9,6 +9,7 @@ const publicDir = join(__dirname, '..', 'public');
 
 const VALID_FORMATS = ['mc', 'tf', 'numeric', 'order', 'higher_lower', 'match', 'short'];
 const REQUIRE_SOURCE = new Set(['data', 'trends', 'finance']);
+const MAX_AVG_OPTION_CHARS = 35;
 
 const errors = [];
 const warnings = [];
@@ -30,6 +31,13 @@ function validateMC(q) {
     const avgLen = others.reduce((s, c) => s + String(c).length, 0) / others.length;
     if (avgLen > 0 && (ansLen > avgLen * 2.5 || ansLen < avgLen * 0.4))
       warn(q.id, `answer length (${ansLen}) vs distractor avg (${avgLen.toFixed(0)}) — check plausibility`);
+
+    // A real quiz asks for a name, number, year or term of art. Options that are
+    // whole phrases turn a question into a reading-comprehension exercise that
+    // hinges on subtle wording, which is not what players will face on the night.
+    const optAvg = q.choices.reduce((s, c) => s + String(c).length, 0) / q.choices.length;
+    if (optAvg > MAX_AVG_OPTION_CHARS)
+      warn(q.id, `mc options are long (avg ${optAvg.toFixed(0)} chars, limit ${MAX_AVG_OPTION_CHARS}) — prefer short names, terms, numbers or years`);
   }
 }
 

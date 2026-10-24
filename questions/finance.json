@@ -4,14 +4,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The 2008 global financial crisis was most directly triggered by losses on:",
+    "prompt": "The 2008 global financial crisis was most directly triggered by losses on which kind of assets?",
     "choices": [
-      "US subprime mortgage-backed securities",
-      "sovereign debt in the euro zone",
-      "Japanese real-estate derivatives",
-      "commodity-price collapses in emerging markets"
+      "US subprime mortgages",
+      "Eurozone government debt",
+      "Japanese property derivatives",
+      "Emerging-market commodities"
     ],
-    "answer": "US subprime mortgage-backed securities",
+    "answer": "US subprime mortgages",
     "explanation": "Over a trillion dollars of subprime US mortgages were packaged into CDOs and sold globally. When US house prices fell and default rates spiked, many of these securities lost most of their value, transmitting losses through the global financial system.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
@@ -28,14 +28,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Long-Term Capital Management (LTCM), the hedge fund whose 1998 collapse required a Federal Reserve-orchestrated creditor rescue, failed primarily because of:",
+    "prompt": "The 1998 collapse of hedge fund LTCM, which needed a Fed-orchestrated rescue, was triggered by which country's debt default?",
     "choices": [
-      "massive leverage amplifying losses from the Russian government debt default",
-      "fraud and falsification of trading records by its founding partners",
-      "regulatory shutdown after an SEC investigation into market manipulation",
-      "dot-com bubble losses on its technology-sector equity portfolio"
+      "Russia",
+      "Argentina",
+      "Mexico",
+      "Greece"
     ],
-    "answer": "massive leverage amplifying losses from the Russian government debt default",
+    "answer": "Russia",
     "explanation": "LTCM used leverage of roughly 25:1 on assets and held $1.25 trillion in derivatives notional. Russia's August 1998 default caused spreads to blow out, turning small position losses into catastrophic ones. The Fed convened 14 banks to recapitalize the fund.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
@@ -94,14 +94,14 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Black–Scholes option pricing formula (1973) uses five inputs: current stock price, strike price, time to expiry, volatility, and risk-free rate. Which input is notably absent?",
+    "prompt": "Which of these is NOT an input to the Black–Scholes option pricing formula?",
     "choices": [
-      "the stock's expected future rate of return",
-      "the underlying stock's current market price",
-      "the option's remaining time to expiry",
-      "the prevailing risk-free interest rate"
+      "Expected return",
+      "Volatility",
+      "Time to expiry",
+      "Risk-free rate"
     ],
-    "answer": "the stock's expected future rate of return",
+    "answer": "Expected return",
     "explanation": "The formula's key insight is that the stock's expected return drops out under risk-neutral pricing — only volatility (not direction) matters for an option's fair value. Myron Scholes and Robert Merton won the 1997 Nobel Prize for this work; Fischer Black had died in 1995 and was ineligible, but the Nobel committee credited his contribution.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/1997/press-release/",
     "as_of": null,
@@ -208,14 +208,14 @@
     "category": "finance",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "According to decades of performance data, the majority of actively managed equity funds:",
+    "prompt": "Roughly what share of actively managed US large-cap funds underperform the S&P 500 over 15 years, after fees, according to SPIVA?",
     "choices": [
-      "underperform their benchmark index after fees",
-      "outperform their benchmark index after fees",
-      "match their benchmark index precisely",
-      "outperform in bull markets but underperform in bear markets"
+      "90%",
+      "10%",
+      "40%",
+      "60%"
     ],
-    "answer": "underperform their benchmark index after fees",
+    "answer": "90%",
     "explanation": "SPIVA scorecards consistently show that roughly 80–90% of large-cap active funds underperform the S&P 500 over 10–15-year periods after fees. This finding underpins the growth of low-cost index funds pioneered by John Bogle and Vanguard.",
     "source": "https://www.spglobal.com/spdji/en/spiva/",
     "as_of": null,
@@ -280,14 +280,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The US government's $182 billion bailout of insurer AIG in 2008 was primarily necessitated by AIG's exposure to:",
+    "prompt": "Which insurance giant received a roughly $182 billion US government bailout in 2008?",
     "choices": [
-      "credit default swaps on mortgage-backed securities",
-      "direct holdings of subprime mortgage loans",
-      "leveraged buyouts of US auto manufacturers",
-      "foreign currency derivatives tied to European sovereign debt"
+      "AIG",
+      "Chubb",
+      "Aflac",
+      "MetLife"
     ],
-    "answer": "credit default swaps on mortgage-backed securities",
+    "answer": "AIG",
     "explanation": "AIG's financial products division had sold hundreds of billions of dollars of credit default swaps — essentially insurance against MBS default — without holding adequate reserves. When MBS values collapsed, AIG faced catastrophic margin calls it could not meet.",
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/other20080916a.htm",
     "as_of": null,
@@ -325,14 +325,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Volcker Rule, introduced as part of the Dodd-Frank Act (2010), primarily prohibits US banks from:",
+    "prompt": "The Volcker Rule, part of the Dodd-Frank Act (2010), primarily prohibits US banks from engaging in which activity?",
     "choices": [
-      "trading securities with the bank's own money for its own profit, known as proprietary trading",
-      "lending money to foreign governments or state-owned enterprises without prior Treasury approval",
-      "paying dividends to shareholders while holding less than 10% of assets as Tier 1 capital",
-      "acquiring any broker-dealer, insurance or asset-management subsidiary without Federal Reserve consent"
+      "Proprietary trading",
+      "Mortgage lending",
+      "Foreign lending",
+      "Paying dividends"
     ],
-    "answer": "trading securities with the bank's own money for its own profit, known as proprietary trading",
+    "answer": "Proprietary trading",
     "explanation": "Named after former Fed chair Paul Volcker, the rule bans proprietary trading — banks betting their own capital on markets — and restricts their investments in hedge funds and private equity funds. Volcker argued this activity contributed to the 2008 crisis by aligning banks' profits with excessive risk-taking.",
     "source": "https://www.sec.gov/spotlight/dodd-frank/volcker-rule.shtml",
     "as_of": null,
@@ -348,15 +348,9 @@
     "id": "finance-016",
     "category": "finance",
     "difficulty": 3,
-    "format": "mc",
-    "prompt": "A credit default swap (CDS) is best described as a contract in which:",
-    "choices": [
-      "the protection buyer pays periodic premiums and receives a payout if a specified borrower defaults",
-      "two parties swap their floating and fixed interest payments on the same notional principal",
-      "an investor locks in the current yield on a bond for a future delivery date",
-      "a lender sells the right to foreclose on mortgages to a third-party servicer"
-    ],
-    "answer": "the protection buyer pays periodic premiums and receives a payout if a specified borrower defaults",
+    "format": "short",
+    "prompt": "Which derivative works like insurance on a bond: the buyer pays periodic premiums and receives a payout if a specified borrower defaults?",
+    "answer": "Credit default swap",
     "explanation": "A CDS functions like insurance on a bond: the buyer pays a regular 'spread' (premium) and receives the face value of the bond minus recovery if the issuer defaults. AIG sold massive CDS protection on MBS without adequate capital — a key amplifier of the 2008 crisis.",
     "source": "https://www.bis.org/statistics/derstats.htm",
     "as_of": null,
@@ -366,6 +360,12 @@
       "derivatives",
       "credit risk",
       "2008"
+    ],
+    "accept": [
+      "Credit default swap",
+      "CDS",
+      "credit default swaps",
+      "a credit default swap"
     ]
   },
   {
@@ -373,15 +373,15 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "In the securitization chain that led to the 2008 crisis, a collateralized debt obligation (CDO) was created by:",
+    "prompt": "In the run-up to 2008, which product was created by pooling tranches of mortgage-backed securities and repackaging them into new bonds with different risk ratings?",
     "choices": [
-      "pooling tranches of mortgage-backed securities and repackaging them into new bonds with different risk ratings",
-      "having the Federal Reserve purchase non-performing loans directly from commercial banks",
-      "converting individual mortgages into equity stakes in special-purpose housing trusts",
-      "bundling corporate bond payments with interest rate swap contracts into a single instrument"
+      "CDO",
+      "CLO",
+      "CMO",
+      "SIV"
     ],
-    "answer": "pooling tranches of mortgage-backed securities and repackaging them into new bonds with different risk ratings",
-    "explanation": "CDOs took lower-rated tranches of MBS (which couldn't be sold easily) and re-pooled them. Rating agencies gave many CDO tranches AAA ratings, based on models assuming house prices would not fall nationally — a catastrophic error.",
+    "answer": "CDO",
+    "explanation": "A CDO is a collateralized debt obligation. CDOs took lower-rated tranches of MBS (which couldn't be sold easily) and re-pooled them. Rating agencies gave many CDO tranches AAA ratings, based on models assuming house prices would not fall nationally — a catastrophic error.",
     "source": "https://www.federalreserve.gov/pubs/feds/2009/200905/200905pap.pdf",
     "as_of": null,
     "time_sensitive": false,
@@ -398,14 +398,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "A major failure of credit rating agencies (S&P, Moody's, Fitch) in the run-up to 2008 was assigning AAA ratings to:",
+    "prompt": "Before 2008, rating agencies gave many mortgage-backed securities and CDOs which rating, the highest possible?",
     "choices": [
-      "mortgage-backed securities and CDOs that later became nearly worthless",
-      "US Treasury bonds that subsequently lost value during the debt-ceiling crisis",
-      "Greek government bonds that defaulted during the European sovereign debt crisis",
-      "technology company bonds that failed during the dot-com bust"
+      "AAA",
+      "AA",
+      "BBB",
+      "BB"
     ],
-    "answer": "mortgage-backed securities and CDOs that later became nearly worthless",
+    "answer": "AAA",
     "explanation": "Ratings agencies gave the highest 'AAA' rating to complex mortgage securities using models that assumed national US house prices could not fall simultaneously. Their errors — partly driven by fee conflicts with the issuers paying for ratings — were central to the crisis.",
     "source": "https://www.sec.gov/news/studies/2008/craexamination070808.pdf",
     "as_of": null,
@@ -423,14 +423,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "In its post-2008 quantitative easing (QE) programs, the US Federal Reserve primarily purchased which types of assets?",
+    "prompt": "Besides US Treasury bonds, what did the Federal Reserve mainly buy in its post-2008 quantitative easing programs?",
     "choices": [
-      "US Treasury bonds and mortgage-backed securities",
-      "Corporate bonds and bank equity stakes",
-      "State and municipal bonds",
-      "Foreign government bonds to weaken the US dollar"
+      "Mortgage-backed securities",
+      "Corporate bonds",
+      "Municipal bonds",
+      "Foreign currency"
     ],
-    "answer": "US Treasury bonds and mortgage-backed securities",
+    "answer": "Mortgage-backed securities",
     "explanation": "The Fed's QE programs (QE1 through QE3, 2008–2014) bought US Treasuries and agency-backed MBS, expanding its balance sheet from ~$900 billion to over $4 trillion. Purchasing MBS directly helped stabilize the housing market and push down mortgage rates.",
     "source": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
     "as_of": null,
@@ -529,14 +529,14 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "In bond markets, 'duration' (measured in years) is primarily used to express:",
+    "prompt": "In bond markets, what does 'duration' (measured in years) primarily express?",
     "choices": [
-      "a bond's sensitivity to changes in interest rates",
-      "the remaining time until a bond matures",
-      "the average time the issuer has held debt outstanding",
-      "the length of the bond's coupon payment schedule"
+      "Interest-rate sensitivity",
+      "Time to maturity",
+      "Coupon frequency",
+      "Credit quality"
     ],
-    "answer": "a bond's sensitivity to changes in interest rates",
+    "answer": "Interest-rate sensitivity",
     "explanation": "Modified duration approximates the percentage price change of a bond for a 1% change in yield: a bond with duration of 8 loses roughly 8% of its value if yields rise by 1%. A bond's Macaulay duration never exceeds its maturity, and equals it only for zero-coupon bonds.",
     "source": "https://www.bis.org/",
     "as_of": null,
@@ -783,14 +783,14 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Modigliani–Miller theorem (1958), under idealized assumptions of no taxes, no bankruptcy costs, and perfect information, states that a firm's value is:",
+    "prompt": "Which 1958 theorem says that, with no taxes, bankruptcy costs or information gaps, a firm's value is independent of its mix of debt and equity?",
     "choices": [
-      "independent of whether it is financed by debt or equity",
-      "maximized when it uses as much debt as possible",
-      "maximized when it uses no debt at all",
-      "dependent on the maturity of its debt obligations"
+      "Modigliani–Miller",
+      "Arrow–Debreu",
+      "Black–Scholes",
+      "Fisher separation"
     ],
-    "answer": "independent of whether it is financed by debt or equity",
+    "answer": "Modigliani–Miller",
     "explanation": "M-M capital structure irrelevance: in a frictionless world, investors can replicate any leverage effect themselves, so financial structure is irrelevant to firm value. In reality, taxes (debt interest is deductible), bankruptcy costs, and agency problems all make capital structure matter.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/1985/modigliani/facts/",
     "as_of": null,
@@ -899,14 +899,14 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "A yield curve is said to be 'inverted' when:",
+    "prompt": "What is it called when short-term interest rates exceed long-term rates, a classic recession warning?",
     "choices": [
-      "short-term interest rates are higher than long-term interest rates",
-      "long-term interest rates are higher than short-term interest rates",
-      "bond yields are negative across all maturities",
-      "corporate bond yields are lower than government bond yields"
+      "Inverted yield curve",
+      "Steep yield curve",
+      "Flat yield curve",
+      "Normal yield curve"
     ],
-    "answer": "short-term interest rates are higher than long-term interest rates",
+    "answer": "Inverted yield curve",
     "explanation": "An inverted yield curve — where, for example, the 2-year Treasury yield exceeds the 10-year yield — has preceded most US recessions since the 1960s, usually by 6 to 24 months, though it is not a perfect predictor. It suggests markets expect the central bank to cut rates in the future, typically in response to a weakening economy.",
     "source": "https://www.federalreserve.gov/releases/h15/",
     "as_of": null,
@@ -923,14 +923,14 @@
     "category": "finance",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The Federal Reserve has a 'dual mandate' from Congress. What are its two official objectives?",
+    "prompt": "The US Federal Reserve's 'dual mandate' from Congress is maximum employment and what?",
     "choices": [
-      "Maximum employment and stable prices (2% inflation target)",
-      "Maximum employment and a balanced federal budget",
-      "Stable prices and a stable exchange rate for the US dollar",
-      "Economic growth and prevention of financial crises"
+      "Stable prices",
+      "A balanced budget",
+      "A fixed exchange rate",
+      "Rapid GDP growth"
     ],
-    "answer": "Maximum employment and stable prices (2% inflation target)",
+    "answer": "Stable prices",
     "explanation": "Unlike the ECB, whose primary objective is price stability, the Federal Reserve was assigned a 'dual mandate' by Congress in 1977: maximum employment and stable prices. The Fed defines stable prices as 2% inflation over the longer run. This dual mandate sometimes creates tension — fighting inflation may require higher unemployment, and vice versa.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
@@ -974,15 +974,15 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Alan Greenspan served as Federal Reserve Chair from 1987 to 2006. The term 'Greenspan put' described his practice of doing what?",
+    "prompt": "The 'Greenspan put' was the belief that the Fed would cut rates to rescue falling markets. Which crisis was the first test of it for Alan Greenspan as Fed Chair?",
     "choices": [
-      "Cutting interest rates whenever markets fell sharply, effectively insuring investors against severe losses",
-      "Using forward guidance to pre-announce each rate change three months in advance, so markets were never surprised",
-      "Selling gold reserves to support the dollar whenever it weakened sharply against the yen and the mark",
-      "Coordinating with the Treasury to jointly set the prime lending rate that banks charged their best customers"
+      "Black Monday (1987)",
+      "Asian crisis (1997)",
+      "LTCM (1998)",
+      "Dot-com bust (2001)"
     ],
-    "answer": "Cutting interest rates whenever markets fell sharply, effectively insuring investors against severe losses",
-    "explanation": "The 'Greenspan put' (named after the options strategy giving a price floor) referred to the market expectation that the Fed would cut rates to rescue falling markets — as it did after the 1987 crash, LTCM in 1998, the dotcom bust in 2001, and 9/11. Critics argued this created moral hazard, encouraging excessive risk-taking on the assumption that the Fed would always bail out markets.",
+    "answer": "Black Monday (1987)",
+    "explanation": "Greenspan became Fed Chair in August 1987, and the Black Monday crash that October was his first test. The 'Greenspan put' (named after the options strategy giving a price floor) referred to the market expectation that the Fed would cut rates to rescue falling markets — as it did after the 1987 crash, LTCM in 1998, the dotcom bust in 2001, and 9/11. Critics argued this created moral hazard, encouraging excessive risk-taking on the assumption that the Fed would always bail out markets.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
     "time_sensitive": false,
@@ -998,15 +998,9 @@
     "id": "finance-044",
     "category": "finance",
     "difficulty": 2,
-    "format": "mc",
-    "prompt": "Ben Bernanke was nicknamed 'Helicopter Ben' because of a 2002 speech in which he suggested that deflation could always be defeated by what?",
-    "choices": [
-      "Printing money and distributing it broadly — metaphorically dropping it from a helicopter",
-      "Helicoptering in emergency IMF funds to countries facing deflation",
-      "Using military-style 'shock and awe' interest rate cuts of 5% at once",
-      "Issuing government bonds directly to households rather than going through banks"
-    ],
-    "answer": "Printing money and distributing it broadly — metaphorically dropping it from a helicopter",
+    "format": "short",
+    "prompt": "Ben Bernanke was nicknamed 'Helicopter Ben' after a 2002 speech referencing a thought experiment by which economist, of dropping money from a helicopter?",
+    "answer": "Milton Friedman",
     "explanation": "In a 2002 speech, Bernanke referenced Milton Friedman's 'helicopter drop' thought experiment — that a government could always create inflation by printing money and distributing it directly to citizens. The speech was intended to reassure markets that the US would never experience Japanese-style deflation. The nickname 'Helicopter Ben' stuck. Bernanke went on to oversee the Fed's first QE program in 2008–09 and won the 2022 Nobel Prize.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
@@ -1017,6 +1011,11 @@
       "deflation",
       "Federal Reserve",
       "2008 crisis"
+    ],
+    "accept": [
+      "Milton Friedman",
+      "Friedman",
+      "M. Friedman"
     ]
   },
   {
@@ -1042,15 +1041,15 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Mario Draghi, as ECB President in July 2012, made a famous statement that he would do 'whatever it takes' to preserve the euro. What was the immediate effect on European sovereign debt markets?",
+    "prompt": "After Mario Draghi's July 2012 'whatever it takes' speech, which ECB bond-buying program was announced that September?",
     "choices": [
-      "Yields on Italian and Spanish bonds fell sharply, easing the crisis without the ECB having to buy any bonds",
-      "The euro collapsed in value against the dollar, triggering a currency war with the United States and Japan",
-      "Greece was forced to restructure its debt immediately in order to qualify for emergency ECB support",
-      "The ECB immediately committed €1 trillion of newly created money to buy Italian, Spanish and Greek bonds in the open market"
+      "OMT",
+      "LTRO",
+      "PEPP",
+      "APP"
     ],
-    "answer": "Yields on Italian and Spanish bonds fell sharply, easing the crisis without the ECB having to buy any bonds",
-    "explanation": "Draghi's three words — 'whatever it takes' — and the announcement of the OMT (Outright Monetary Transactions) bond-buying program that September were enough to calm markets. Italian 10-year yields fell from about 6.5% in July 2012 to roughly 4.5% by the end of the year. The OMT has never actually been used, demonstrating that central bank credibility alone can be a powerful stabilizing force. Draghi subsequently oversaw the ECB's QE program from 2015.",
+    "answer": "OMT",
+    "explanation": "OMT stands for Outright Monetary Transactions. Draghi's three words — 'whatever it takes' — and the announcement of the OMT (Outright Monetary Transactions) bond-buying program that September were enough to calm markets. Italian 10-year yields fell from about 6.5% in July 2012 to roughly 4.5% by the end of the year. The OMT has never actually been used, demonstrating that central bank credibility alone can be a powerful stabilizing force. Draghi subsequently oversaw the ECB's QE program from 2015.",
     "source": "https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html",
     "as_of": null,
     "time_sensitive": false,
@@ -1091,14 +1090,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Norway's Government Pension Fund Global is the world's largest sovereign wealth fund. What type of assets does it primarily invest in?",
+    "prompt": "Norway's Government Pension Fund Global is the world's largest sovereign wealth fund. Which asset class holds most of its money?",
     "choices": [
-      "Mostly stocks (about 70%), plus bonds (about 27%) and a small slice of unlisted real estate (about 2%)",
-      "Almost entirely Norwegian government bonds and AAA-rated foreign government bonds held to maturity",
-      "Primarily private equity and venture capital stakes in Norwegian start-ups and oil service companies",
-      "Physical commodities, mainly oil, gold and other natural resources held in state-owned storage facilities"
+      "Stocks",
+      "Government bonds",
+      "Private equity",
+      "Real estate"
     ],
-    "answer": "Mostly stocks (about 70%), plus bonds (about 27%) and a small slice of unlisted real estate (about 2%)",
+    "answer": "Stocks",
     "explanation": "At end-2023 the fund held 70.9% equities, 27.1% fixed income, 1.9% unlisted real estate and 0.1% unlisted renewable energy infrastructure. It invests across about 9,000 companies in 70+ countries — averaging about 1.5% ownership of every listed company globally — and its mandate prohibits investing in Norway itself. The fund's stock-heavy approach reflects the government's goal of preserving oil wealth for future generations by converting finite petroleum revenues into diversified financial assets.",
     "source": "https://www.nbim.no/en/",
     "as_of": "2023",
@@ -1115,14 +1114,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "In finance, a 'leveraged buyout' (LBO) is a transaction in which private equity firms acquire a company primarily using what?",
+    "prompt": "In a 'leveraged buyout', private equity firms acquire a company primarily using what?",
     "choices": [
-      "Borrowed money (debt), with the acquired company's assets and cash flows serving as collateral",
-      "The personal equity of the private equity partners, pooled into a single acquisition vehicle",
-      "Government grants and tax incentives offered to companies undertaking a corporate restructuring",
-      "Newly issued stock in the private equity firm itself, sold to the public in an IPO"
+      "Borrowed money",
+      "Retained earnings",
+      "IPO proceeds",
+      "Government grants"
     ],
-    "answer": "Borrowed money (debt), with the acquired company's assets and cash flows serving as collateral",
+    "answer": "Borrowed money",
     "explanation": "In an LBO, private equity firms typically contribute only 20–40% equity and finance the rest with bank loans or high-yield ('junk') bonds, using the target company's assets as collateral and its cash flows to service the debt. If the business performs, returns on equity can be very high due to leverage. If not, the debt load can drive the company into bankruptcy. Famous LBOs include KKR's acquisition of RJR Nabisco (1989) and Blackstone's buy of Hilton Hotels (2007).",
     "source": "https://www.investor.gov/",
     "as_of": null,
@@ -1140,14 +1139,14 @@
     "category": "finance",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "What is the key difference between a 'hedge fund' and a traditional mutual fund?",
+    "prompt": "Hedge funds are typically open only to which kind of investor?",
     "choices": [
-      "Hedge funds can use leverage, short selling and derivatives to pursue returns less tied to market direction; mutual funds face stricter limits",
-      "Hedge funds are open to any retail investor with a bank account, while mutual funds are restricted to accredited investors with high net worth",
-      "Hedge funds invest only in government bonds and cash to guarantee a fixed return, while mutual funds invest only in stocks and bear all the risk",
-      "Hedge funds are regulated by the government and must publish daily prices, while mutual funds are entirely unregulated and self-policing"
+      "Accredited investors",
+      "Any retail investor",
+      "Pension plans only",
+      "Foreign investors only"
     ],
-    "answer": "Hedge funds can use leverage, short selling and derivatives to pursue returns less tied to market direction; mutual funds face stricter limits",
+    "answer": "Accredited investors",
     "explanation": "Hedge funds are private investment vehicles typically open only to accredited investors (institutions and high-net-worth individuals). They can employ complex strategies — short selling, leverage, derivatives, illiquid investments — to profit in both rising and falling markets. They charge high fees (typically '2 and 20': 2% management fee + 20% of profits). Mutual funds face much stricter regulations, limit leverage, and are open to retail investors.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
@@ -1208,14 +1207,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The 'carry trade' in foreign exchange markets involves borrowing money in a country with low interest rates and investing it in a country with higher interest rates. What is the main risk of this strategy?",
+    "prompt": "The 'carry trade' means borrowing in a low-interest-rate currency to invest in a higher-rate one. What is its main risk?",
     "choices": [
-      "The high-rate currency can depreciate sharply, wiping out the interest rate advantage",
-      "Central banks specifically monitor carry trades and confiscate profits above a threshold",
-      "High interest rate countries always have worse credit ratings, making default likely",
-      "The strategy is prohibited by IMF regulations under the Special Drawing Rights protocol"
+      "Exchange-rate losses",
+      "Central bank seizure",
+      "IMF sanctions",
+      "Sovereign default"
     ],
-    "answer": "The high-rate currency can depreciate sharply, wiping out the interest rate advantage",
+    "answer": "Exchange-rate losses",
     "explanation": "If uncovered interest rate parity held perfectly, carry trade profits would always be zero — high-rate currencies would depreciate by exactly the interest rate differential. In practice, UIP often fails in the short run, allowing carry traders to profit. But the trade can 'unwind' suddenly: when markets become risk-averse, investors rush to repay low-rate loans (notably Japanese yen) and sell high-rate currencies, causing swift large losses. The 2007 and 2024 yen carry trade unwinds are textbook examples.",
     "source": "https://www.bis.org/",
     "as_of": null,
@@ -1233,14 +1232,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Sharpe ratio is a widely used measure of investment performance. It measures what?",
+    "prompt": "The Sharpe ratio divides a portfolio's excess return over the risk-free rate by which measure?",
     "choices": [
-      "Excess return per unit of total risk: return minus the risk-free rate, divided by standard deviation",
-      "The probability that a portfolio loses money in any given year, estimated from historical return data",
-      "Total return minus inflation, adjusted for the investor's marginal tax rate, divided by the portfolio's size",
-      "The ratio of winning trades to losing trades, weighted by position size across a trading strategy"
+      "Standard deviation",
+      "Beta",
+      "Market cap",
+      "Expense ratio"
     ],
-    "answer": "Excess return per unit of total risk: return minus the risk-free rate, divided by standard deviation",
+    "answer": "Standard deviation",
     "explanation": "Developed by William Sharpe (1966), the Sharpe ratio = (portfolio return − risk-free rate) / standard deviation. A higher ratio means more return per unit of risk. A ratio above 1.0 is generally considered good; above 2.0 is exceptional. It's widely used to compare fund managers and strategies but has limitations: it treats upside and downside volatility equally and assumes normally distributed returns.",
     "source": "https://www.investor.gov/",
     "as_of": null,
@@ -1257,14 +1256,14 @@
     "category": "finance",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "In investing, 'beta' measures a stock's sensitivity to movements in the overall market. A stock with a beta of 2.0 would be expected to:",
+    "prompt": "In investing, 'beta' measures sensitivity to market moves. If the market rises 1%, a stock with a beta of 2.0 is expected to do what?",
     "choices": [
-      "Rise about 2% when the market rises 1%, and fall about 2% when the market falls 1%",
-      "Double in price every two years regardless of market conditions",
-      "Have exactly twice the dividend yield of the average stock in the index",
-      "Move in the opposite direction of the market with twice the magnitude"
+      "Rise about 2%",
+      "Rise about 0.5%",
+      "Fall about 2%",
+      "Rise about 1%"
     ],
-    "answer": "Rise about 2% when the market rises 1%, and fall about 2% when the market falls 1%",
+    "answer": "Rise about 2%",
     "explanation": "Beta measures systematic (market) risk relative to a benchmark (typically the S&P 500). Beta = 1.0 means the stock moves in line with the market; beta > 1.0 means it amplifies market moves (more volatile); beta < 1.0 means it's less sensitive. A beta of -1.0 would move opposite the market. Utility stocks typically have low betas (~0.5); tech startups often have high betas (>1.5).",
     "source": "https://www.investor.gov/",
     "as_of": null,
@@ -1281,15 +1280,9 @@
     "id": "finance-056",
     "category": "finance",
     "difficulty": 2,
-    "format": "mc",
-    "prompt": "FTX, once one of the world's largest cryptocurrency exchanges, collapsed in November 2022. Its founder Sam Bankman-Fried was subsequently convicted of fraud. What was the core allegation?",
-    "choices": [
-      "FTX secretly used customer funds to finance risky trades at its affiliated trading firm, Alameda Research",
-      "FTX manipulated the price of Bitcoin by secretly issuing billions of unbacked tokens",
-      "Bankman-Fried bribed US regulators to avoid oversight of FTX's leverage ratios",
-      "FTX falsified its trading volumes to attract institutional clients and charge higher fees"
-    ],
-    "answer": "FTX secretly used customer funds to finance risky trades at its affiliated trading firm, Alameda Research",
+    "format": "short",
+    "prompt": "FTX collapsed in November 2022. Sam Bankman-Fried was convicted of fraud for secretly using customer money at which affiliated trading firm?",
+    "answer": "Alameda Research",
     "explanation": "FTX maintained the appearance of a legitimate exchange while secretly lending billions of dollars of customer deposits to Alameda Research — its affiliated hedge fund — which made highly speculative bets. When Alameda's positions deteriorated and a bank run began, FTX could not return customer funds. Over $8 billion in customer funds were lost. Bankman-Fried was convicted on seven counts of fraud and conspiracy in November 2023 and sentenced to 25 years in prison.",
     "source": "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-prison",
     "as_of": null,
@@ -1300,6 +1293,10 @@
       "cryptocurrency",
       "fraud",
       "2022 crypto crash"
+    ],
+    "accept": [
+      "Alameda Research",
+      "Alameda"
     ]
   },
   {
@@ -1307,14 +1304,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "A stablecoin is a type of cryptocurrency designed to maintain a stable value. How does the most common type of stablecoin (like USDT/Tether or USDC) achieve price stability?",
+    "prompt": "Mainstream stablecoins like USDT (Tether) and USDC keep a stable value by holding reserves in what?",
     "choices": [
-      "By maintaining reserves of US dollars (or dollar-equivalent assets) backing each token 1:1",
-      "By using an algorithm that automatically adjusts the token supply based on demand",
-      "By pegging to a basket of commodities including gold, oil, and wheat",
-      "By having central banks agree to redeem stablecoins at par upon request"
+      "US dollars",
+      "Gold bullion",
+      "Bitcoin",
+      "Commodity baskets"
     ],
-    "answer": "By maintaining reserves of US dollars (or dollar-equivalent assets) backing each token 1:1",
+    "answer": "US dollars",
     "explanation": "Asset-backed stablecoins like Tether (USDT) and USD Coin (USDC) aim to hold $1 of reserves for every token in circulation. The 'reserve' can include cash, T-bills, and other short-term instruments. Concerns exist about whether reserves are truly 1:1 and whether stablecoins could trigger a 'run' like a bank run. Algorithmic stablecoins (not backed by reserves) have failed catastrophically — most notably TerraUSD in May 2022.",
     "source": "https://www.bis.org/",
     "as_of": null,
@@ -1332,14 +1329,14 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Value at Risk (VaR) is a widely used risk metric in finance. A 'daily 99% VaR of $10 million' for a portfolio means that:",
+    "prompt": "A 'daily 99% VaR of $10 million' means losses should exceed $10 million on roughly how many days out of 100?",
     "choices": [
-      "On 99 of 100 days losses should stay under $10 million, but on about 1 day in 100 they could exceed it",
-      "The portfolio cannot lose more than $10 million on any single day under any scenario, however extreme",
-      "On any given day there is a 99% probability that the portfolio will gain at least $10 million or more",
-      "The standard deviation of the portfolio's daily returns is exactly $10 million, measured over the past year"
+      "1 day",
+      "5 days",
+      "10 days",
+      "50 days"
     ],
-    "answer": "On 99 of 100 days losses should stay under $10 million, but on about 1 day in 100 they could exceed it",
+    "answer": "1 day",
     "explanation": "VaR answers: 'What is the maximum I expect to lose X% of the time?' A 99% VaR says nothing about the magnitude of the worst 1% of outcomes — these 'tail events' can be catastrophically large. This is VaR's main limitation: it gives false comfort about tail risk. Nassim Taleb and others have argued that VaR contributed to the 2008 crisis by encouraging banks to underestimate tail risks. Conditional VaR (CVaR or Expected Shortfall) addresses this by measuring average loss in the worst X% of scenarios.",
     "source": "https://www.bis.org/",
     "as_of": null,
@@ -1357,14 +1354,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Several major Russian banks were disconnected from the SWIFT international payments messaging network in March 2022 following Russia's invasion of Ukraine. What was the immediate economic consequence?",
+    "prompt": "In March 2022 several major Russian banks were cut off from the SWIFT messaging network. What did that mainly disrupt?",
     "choices": [
-      "Russian banks could no longer easily send or receive international wire transfers, severely disrupting cross-border trade and payments",
-      "The ruble collapsed to zero overnight, making it impossible for Russia to conduct any foreign trade for the rest of the year",
-      "Russian oil exports halted immediately because tankers could not receive payment, and no cargo left Russian ports for months",
-      "Russia's government bonds defaulted instantly on all foreign-currency debt because no coupon payment could be processed through any other channel"
+      "Cross-border payments",
+      "Domestic banking",
+      "Oil drilling",
+      "Tax collection"
     ],
-    "answer": "Russian banks could no longer easily send or receive international wire transfers, severely disrupting cross-border trade and payments",
+    "answer": "Cross-border payments",
     "explanation": "Cutting seven Russian banks off from SWIFT in March 2022 (more followed later) meant they lost access to the secure messaging system that transmits trillions of dollars of payment instructions daily. It disrupted Russian imports and exports, froze those banks out of Western correspondent banking, and complicated payments for energy exports. Russia partly adapted by using bilateral clearing arrangements and China's CIPS system, but the disruption was severe, especially for financial transactions outside the energy sector.",
     "source": "https://www.swift.com/",
     "as_of": null,
@@ -1382,14 +1379,14 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The 'equity premium puzzle' is a famous anomaly in financial economics. What is puzzling about the historical outperformance of stocks over bonds?",
+    "prompt": "The 'equity premium puzzle' (Mehra and Prescott, 1985) says stocks' historical outperformance would require investors to be implausibly what?",
     "choices": [
-      "The premium is so large that, under standard assumptions, investors would need to be implausibly risk-averse to demand it",
-      "Stocks have never actually outperformed bonds over any 30-year period, despite the widespread belief that they do",
-      "The premium should have been arbitraged away long ago by rational investors, so it cannot be a genuine risk premium",
-      "Government bonds carry higher default risk than blue-chip stocks, so stocks should logically yield less, not more, than bonds do"
+      "Risk-averse",
+      "Impatient",
+      "Overconfident",
+      "Wealthy"
     ],
-    "answer": "The premium is so large that, under standard assumptions, investors would need to be implausibly risk-averse to demand it",
+    "answer": "Risk-averse",
     "explanation": "Mehra and Prescott (1985) showed that the historical US equity risk premium (~6–8% per year over T-bills) is far larger than standard economic models predict. To justify this premium using expected utility theory requires implausible levels of risk aversion. The puzzle remains unsolved; proposed explanations include rare disaster risk, liquidity premiums, behavioural biases, and survivorship bias (we only observe the US, which had the best 20th-century returns).",
     "source": "https://doi.org/10.1016/0304-3932(85)90061-3",
     "as_of": null,
@@ -1407,14 +1404,14 @@
     "category": "finance",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Dollar-cost averaging (DCA) means investing a fixed dollar amount at regular intervals regardless of market prices. Compared to trying to 'time the market,' research generally shows that DCA:",
+    "prompt": "Investing a fixed dollar amount at regular intervals, whatever the market price, is called what?",
     "choices": [
-      "Reduces the impact of buying at market peaks by spreading purchases across highs and lows over time",
-      "Always produces higher returns than a lump-sum investment of the same total amount",
-      "Is only suitable for bonds and money market funds — not for stock markets",
-      "Requires a minimum investment of $10,000 per month to be statistically effective"
+      "Dollar-cost averaging",
+      "Market timing",
+      "Rebalancing",
+      "Value investing"
     ],
-    "answer": "Reduces the impact of buying at market peaks by spreading purchases across highs and lows over time",
+    "answer": "Dollar-cost averaging",
     "explanation": "DCA is a disciplined approach that removes the temptation to time the market — since consistently predicting market tops and bottoms is nearly impossible. However, in up-trending markets, research shows that lump-sum investing (investing everything at once) statistically outperforms DCA roughly two-thirds of the time, since money invested earlier benefits from longer compound growth. DCA is primarily valuable as a behavioural tool: it's easier to stick to than market-timing.",
     "source": "https://www.investor.gov/",
     "as_of": null,
@@ -1480,14 +1477,14 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Modigliani-Miller theorem holds that in a perfect capital market, a firm's capital structure (ratio of debt to equity) does not affect its value. When the assumption of 'no taxes' is relaxed, however, what does the model predict?",
+    "prompt": "In the Modigliani–Miller model with corporate taxes added, what benefit makes debt attractive to firms?",
     "choices": [
-      "Firms gain from taking on more debt, because interest is tax-deductible and so creates a valuable 'tax shield'",
-      "Firms should issue only equity, because the bankruptcy risk created by debt always destroys more value than any tax saving",
-      "The optimal debt-to-equity ratio is exactly 50/50 in every industry, regardless of its tax rate or risk",
-      "Tax rules are irrelevant because investors can replicate any capital structure through their own borrowing"
+      "Interest tax shield",
+      "Lower bankruptcy risk",
+      "Higher dividend yield",
+      "Currency hedge"
     ],
-    "answer": "Firms gain from taking on more debt, because interest is tax-deductible and so creates a valuable 'tax shield'",
+    "answer": "Interest tax shield",
     "explanation": "When corporate taxes are introduced, interest payments on debt reduce taxable income, creating a 'tax shield.' In a world with only corporate taxes (no bankruptcy costs), MM predicts firms should maximize leverage. In practice, bankruptcy costs, agency costs, and financial distress create an optimal interior debt level — this is the basis of the 'trade-off theory' of capital structure. The M&M theorem's real value is identifying what does matter (taxes, bankruptcy, information asymmetry) by specifying what doesn't.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/1990/press-release/",
     "as_of": null,
@@ -1548,14 +1545,14 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "In the principal-agent problem applied to CEO pay, a major concern is that executives might manage companies in ways that maximize their own compensation rather than shareholder value. One proposed solution — tying CEO pay to stock prices — was shown to have what unintended consequence?",
+    "prompt": "Tying CEO pay to the stock price aims to align executives with shareholders, but critics say it encourages what?",
     "choices": [
-      "Executives had incentives to boost short-term stock prices via accounting manipulation or buybacks instead of long-term investment",
-      "CEOs became far too risk-averse, since any fall in the stock price would directly reduce their own wealth, so they stopped pursuing growth",
-      "Shareholders began demanding that executives not be paid at all, relying only on altruistic commitment to the firm",
-      "Stock-based pay created legal complications because stock options were treated as corporate expenses by regulators"
+      "Short-termism",
+      "Excess caution",
+      "Lower pay",
+      "Fewer buybacks"
     ],
-    "answer": "Executives had incentives to boost short-term stock prices via accounting manipulation or buybacks instead of long-term investment",
+    "answer": "Short-termism",
     "explanation": "Stock options and equity-based pay, intended to align CEO interests with shareholders, created short-termism incentives. Executives could boost earnings-per-share by using cash for share buybacks instead of R&D. Stock options also created asymmetric payoffs — executives benefited from upside but didn't personally bear full downside losses. The Enron scandal showed how stock-option incentives pushed executives toward aggressive earnings manipulation.",
     "source": "https://www.investor.gov/",
     "as_of": null,

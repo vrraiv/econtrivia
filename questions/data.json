@@ -1105,12 +1105,12 @@
     "format": "mc",
     "prompt": "Norway's Government Pension Fund Global — the world's largest sovereign wealth fund — was built primarily from revenues from which natural resource?",
     "choices": [
-      "Offshore oil and gas (North Sea petroleum)",
-      "Salmon aquaculture and fisheries exports",
-      "Hydroelectric power exports to Europe",
-      "Aluminium smelting from imported bauxite"
+      "Oil and gas",
+      "Salmon exports",
+      "Hydropower",
+      "Aluminium"
     ],
-    "answer": "Offshore oil and gas (North Sea petroleum)",
+    "answer": "Oil and gas",
     "explanation": "Norway discovered North Sea oil in the late 1960s. Rather than spending the windfall, the government established the Government Pension Fund Global in 1990 (the first deposit came in 1996). By 2024, the fund exceeded $1.7 trillion — more than $300,000 per Norwegian citizen — making it the world's largest sovereign wealth fund. Norway's example is frequently cited as a model for managing resource wealth sustainably.",
     "source": "https://data.worldbank.org/",
     "as_of": null,
@@ -1127,14 +1127,14 @@
     "category": "data",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Which country holds the largest single voting share at the International Monetary Fund (IMF), effectively giving it veto power over fundamental changes to the Fund's rules that require an 85% supermajority?",
+    "prompt": "Which country holds the largest single voting share at the International Monetary Fund (IMF), enough to veto fundamental rule changes that need an 85% supermajority?",
     "choices": [
-      "United States (~16.5% of votes, above the 15% blocking level)",
-      "China (~6% of votes, far below the 15% blocking level)",
-      "Japan (~6% of votes, far below the 15% blocking level, too)",
-      "Germany (~5% of votes, far below the 15% blocking level, too)"
+      "United States",
+      "China",
+      "Japan",
+      "Germany"
     ],
-    "answer": "United States (~16.5% of votes, above the 15% blocking level)",
+    "answer": "United States",
     "explanation": "The IMF allocates voting power based on economic quotas. The US holds roughly 16.5% of votes — enough to block any fundamental change requiring an 85% supermajority. This gives the US an effective veto over IMF governance reforms. The IMF managing director is traditionally European, while the World Bank president is traditionally American.",
     "source": "https://www.imf.org/en/About/Factsheets/Sheets/2023/IMF-Quotas",
     "as_of": null,
@@ -1658,15 +1658,15 @@
     "category": "data",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "In 2023, which country overtook Qatar to become the world's largest exporter of liquefied natural gas (LNG)?",
+    "prompt": "Which country was the world’s largest exporter of liquefied natural gas (LNG) in 2023?",
     "choices": [
-      "United States (Gulf Coast terminals)",
-      "Australia (North West Shelf and Gorgon)",
-      "Russia (Yamal and Sakhalin projects)",
-      "Canada (British Columbia coast)"
+      "United States",
+      "Qatar",
+      "Australia",
+      "Russia"
     ],
-    "answer": "United States (Gulf Coast terminals)",
-    "explanation": "The US became the world's top LNG exporter in 2023, exporting a record 91 million tonnes and moving ahead of both Australia and Qatar (Qatar had been first in 2022). The US LNG boom was partly driven by European demand following Russia's invasion of Ukraine in 2022, which caused Europe to diversify away from Russian pipeline gas. US LNG projects expanded rapidly, with more terminals under construction.",
+    "answer": "United States",
+    "explanation": "The US exported a record of roughly 90 million tonnes of LNG in 2023, edging ahead of Australia and Qatar (each roughly 80 million tonnes). The US LNG boom was partly driven by European demand after Russia's 2022 invasion of Ukraine, which pushed Europe to diversify away from Russian pipeline gas. US projects have kept expanding, with more terminals under construction.",
     "source": "https://data.worldbank.org/",
     "as_of": "2023",
     "time_sensitive": false,
@@ -1708,12 +1708,12 @@
     "format": "mc",
     "prompt": "Global military spending reached about $2.4 trillion in 2023. Which country accounted for the single largest share of that spending?",
     "choices": [
-      "United States (~37% of the global total)",
-      "China (~12% of the global total, in second place)",
-      "Russia (~4% of the global total)",
-      "India (~3% of the global total)"
+      "United States",
+      "China",
+      "Russia",
+      "India"
     ],
-    "answer": "United States (~37% of the global total)",
+    "answer": "United States",
     "explanation": "The US spent approximately $916 billion on defence in 2023 — about 37% of all global military spending (SIPRI). China was second (~12%), followed by Russia (~4%), India (~3%), and Saudi Arabia (~3%). The US outspends the next nine countries combined. US defence spending (~3.3% of GDP) exceeds the NATO target of 2% of GDP that many European allies were still short of in 2023.",
     "source": "https://www.sipri.org/",
     "as_of": "2023",
