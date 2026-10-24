@@ -4,7 +4,7 @@
     "indicator": "SP.POP.TOTL",
     "year": 2023,
     "label": "Population, 2023",
-    "alt": "World map where each country's area is resized in proportion to an unnamed statistic",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
     "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
   },
   {
@@ -12,7 +12,7 @@
     "indicator": "NY.GDP.MKTP.CD",
     "year": 2023,
     "label": "Nominal GDP in current US dollars, 2023",
-    "alt": "World map where each country's area is resized in proportion to an unnamed statistic",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
     "source": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
   },
   {
@@ -20,7 +20,145 @@
     "indicator": "EN.GHG.CO2.MT.CE.AR5",
     "year": 2023,
     "label": "Annual CO2 emissions, 2023",
-    "alt": "World map where each country's area is resized in proportion to an unnamed statistic",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
     "source": "https://data.worldbank.org/indicator/EN.GHG.CO2.MT.CE.AR5"
+  },
+  {
+    "id": "gdp-ppp-2023",
+    "indicator": "NY.GDP.MKTP.PP.CD",
+    "year": 2023,
+    "label": "GDP at purchasing power parity, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD"
+  },
+  {
+    "id": "merch-exports-2023",
+    "indicator": "TX.VAL.MRCH.CD.WT",
+    "year": 2023,
+    "label": "Merchandise exports, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/TX.VAL.MRCH.CD.WT"
+  },
+  {
+    "id": "merch-imports-2023",
+    "indicator": "TM.VAL.MRCH.CD.WT",
+    "year": 2023,
+    "label": "Merchandise imports, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/TM.VAL.MRCH.CD.WT"
+  },
+  {
+    "id": "military-spending-2023",
+    "indicator": "MS.MIL.XPND.CD",
+    "year": 2023,
+    "label": "Military expenditure, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+  },
+  {
+    "id": "remittances-2023",
+    "indicator": "BX.TRF.PWKR.CD.DT",
+    "year": 2023,
+    "label": "Personal remittances received, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+  },
+  {
+    "id": "reserves-2023",
+    "indicator": "FI.RES.TOTL.CD",
+    "year": 2023,
+    "label": "Total reserves including gold, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD"
+  },
+  {
+    "id": "forest-area-2022",
+    "indicator": "AG.LND.FRST.K2",
+    "year": 2022,
+    "label": "Forest area, 2022",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/AG.LND.FRST.K2"
+  },
+  {
+    "id": "agricultural-land-2022",
+    "indicator": "AG.LND.AGRI.K2",
+    "year": 2022,
+    "label": "Agricultural land, 2022",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/AG.LND.AGRI.K2"
+  },
+  {
+    "id": "cereal-production-2023",
+    "indicator": "AG.PRD.CREL.MT",
+    "year": 2023,
+    "label": "Cereal production, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/AG.PRD.CREL.MT"
+  },
+  {
+    "id": "urban-population-2023",
+    "indicator": "SP.URB.TOTL",
+    "year": 2023,
+    "label": "Urban population, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/SP.URB.TOTL"
+  },
+  {
+    "id": "population-under-15-2023",
+    "indicator": "SP.POP.0014.TO",
+    "year": 2023,
+    "label": "Population aged 0-14, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/SP.POP.0014.TO"
+  },
+  {
+    "id": "population-over-65-2023",
+    "indicator": "SP.POP.65UP.TO",
+    "year": 2023,
+    "label": "Population aged 65 and over, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/SP.POP.65UP.TO"
+  },
+  {
+    "id": "mobile-subscriptions-2023",
+    "indicator": "IT.CEL.SETS",
+    "year": 2023,
+    "label": "Mobile cellular subscriptions, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/IT.CEL.SETS"
+  },
+  {
+    "id": "manufacturing-2021",
+    "indicator": "NV.IND.MANF.CD",
+    "year": 2021,
+    "label": "Manufacturing value added, 2021",
+    "note": "2022 and 2023 are missing United States data entirely, which would make the map wrong; 2021 is the latest complete year.",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/NV.IND.MANF.CD"
+  },
+  {
+    "id": "high-tech-exports-2023",
+    "indicator": "TX.VAL.TECH.CD",
+    "year": 2023,
+    "label": "High-technology exports, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/TX.VAL.TECH.CD"
+  },
+  {
+    "id": "agriculture-value-2023",
+    "indicator": "NV.AGR.TOTL.CD",
+    "year": 2023,
+    "label": "Agriculture, forestry and fishing value added, 2023",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/NV.AGR.TOTL.CD"
+  },
+  {
+    "id": "land-area-2022",
+    "indicator": "AG.LND.TOTL.K2",
+    "year": 2022,
+    "label": "Land area, 2022",
+    "note": "Uses land area rather than AG.SRF.TOTL.K2, whose surface-area figure for Canada (15.6M km2) is wrong by more than half.",
+    "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+    "source": "https://data.worldbank.org/indicator/AG.LND.TOTL.K2"
   }
 ]

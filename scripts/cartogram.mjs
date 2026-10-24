@@ -46,16 +46,38 @@ const projection = geoEqualEarth().fitSize([WIDTH, HEIGHT], geo);
 // Measurement path (full precision) for area/centroid maths.
 const path = geoPath(projection);
 
-// Output path: identical geometry, but coordinates rounded to one decimal.
-// At this viewBox size that is sub-pixel, and it cuts file size roughly in half.
+// Output path: same geometry, but (a) coordinates rounded to one decimal, which
+// is sub-pixel at this viewBox size, and (b) rings whose bounding box is smaller
+// than MIN_RING_PX are dropped. Those are offshore specks that cannot resolve on
+// screen but carry a lot of vertices. Both are visually lossless here; global
+// simplification is deliberately avoided since 110m outlines are already coarse.
+const MIN_RING_PX = 0.7;
+
 function roundingContext(digits = 1) {
-  let s = '';
+  let out = '';       // completed, kept subpaths
+  let cur = '';       // subpath being built
+  let x0, y0, x1, y1; // bbox of the current subpath
   const r = n => String(+n.toFixed(digits));
+
+  function endRing() {
+    if (!cur) return;
+    if ((x1 - x0) >= MIN_RING_PX || (y1 - y0) >= MIN_RING_PX) out += cur;
+    cur = '';
+  }
+
   return {
-    flush() { const out = s; s = ''; return out; },
-    moveTo(x, y) { s += `M${r(x)},${r(y)}`; },
-    lineTo(x, y) { s += `L${r(x)},${r(y)}`; },
-    closePath() { s += 'Z'; },
+    flush() { endRing(); const s = out; out = ''; return s; },
+    moveTo(x, y) {
+      endRing();
+      cur = `M${r(x)},${r(y)}`;
+      x0 = x1 = x; y0 = y1 = y;
+    },
+    lineTo(x, y) {
+      cur += `L${r(x)},${r(y)}`;
+      if (x < x0) x0 = x; else if (x > x1) x1 = x;
+      if (y < y0) y0 = y; else if (y > y1) y1 = y;
+    },
+    closePath() { cur += 'Z'; },
     arc() {}, // only invoked for point geometry, which we never render
   };
 }
@@ -202,11 +224,17 @@ for (const spec of manifest) {
   const kb = (Buffer.byteLength(svg) / 1024).toFixed(0);
   console.log(`  wrote public/img/cartograms/${spec.id}.svg — ${covered} countries, ${kb} KB`);
 
-  // Top 5 by value, so question explanations can be fact-checked against the
-  // same numbers the map was drawn from.
-  const top = Object.entries(values).sort(([, a], [, b]) => b - a).slice(0, 5)
-    .map(([iso, v]) => `${iso} ${(v / 1e9).toFixed(1)}B`).join(', ');
-  console.log(`  top 5: ${top}`);
+  // Top 8 by value, so question explanations can be fact-checked against the
+  // exact numbers the map was drawn from. Units vary by indicator (dollars,
+  // tonnes, km2, headcounts), so print raw magnitudes rather than assuming.
+  const ranked = Object.entries(values).sort(([, a], [, b]) => b - a);
+  const fmt = v => v >= 1e12 ? `${(v / 1e12).toFixed(2)}T`
+    : v >= 1e9 ? `${(v / 1e9).toFixed(1)}B`
+    : v >= 1e6 ? `${(v / 1e6).toFixed(1)}M`
+    : v.toLocaleString(undefined, { maximumFractionDigits: 0 });
+  console.log(`  top 8: ${ranked.slice(0, 8).map(([k, v]) => `${k} ${fmt(v)}`).join(', ')}`);
+  const sum = ranked.reduce((a, [, v]) => a + v, 0);
+  console.log(`  top-3 share: ${((ranked.slice(0, 3).reduce((a, [, v]) => a + v, 0) / sum) * 100).toFixed(0)}%`);
 }
 
 console.log(`\nDone — ${manifest.length} cartogram(s) in public/img/cartograms/\n`);

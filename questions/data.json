@@ -2032,5 +2032,513 @@
       "World Bank",
       "map"
     ]
+  },
+  {
+    "id": "data-086",
+    "category": "data",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Unusually for a world economic map, China here forms a noticeably bigger block than the United States, and India is a clear third. Which measure produces that ordering?",
+    "image": {
+      "src": "/img/cartograms/gdp-ppp-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "GDP at purchasing power parity",
+      "GDP at market exchange rates",
+      "Total household consumption",
+      "Gross national savings"
+    ],
+    "answer": "GDP at purchasing power parity",
+    "explanation": "Adjusting for what money actually buys locally, China reached about $35.6tn in 2023 against $27.8tn for the United States, and India jumps to roughly $14.2tn — well ahead of Japan ($6.6tn) and Germany ($6.0tn). At market exchange rates the ranking flips back, with the US comfortably first and India only fifth. The gap between the two measures is the single most common source of \"which economy is biggest\" arguments.",
+    "source": "https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "GDP",
+      "PPP",
+      "China",
+      "map"
+    ]
+  },
+  {
+    "id": "data-087",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "A small European country on the North Sea swells to roughly the size of Japan on this map. What are country sizes tracking?",
+    "image": {
+      "src": "/img/cartograms/merch-exports-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Merchandise exports",
+      "Net migration inflows",
+      "Government debt",
+      "Renewable electricity capacity"
+    ],
+    "answer": "Merchandise exports",
+    "explanation": "The outlier is the Netherlands, which shipped about $935bn of goods in 2023 — fourth in the world, ahead of Japan ($717bn) — because Rotterdam is Europe's largest port and vast volumes are re-exported onward through it. China leads overall at $3.38tn, then the United States ($2.02tn) and Germany ($1.70tn).",
+    "source": "https://data.worldbank.org/indicator/TX.VAL.MRCH.CD.WT",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "trade",
+      "exports",
+      "Netherlands",
+      "map"
+    ]
+  },
+  {
+    "id": "data-088",
+    "category": "data",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The United States forms the single largest block here, narrowly ahead of China — the reverse of the equivalent map drawn the other way round. What flow is shown?",
+    "image": {
+      "src": "/img/cartograms/merch-imports-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Merchandise imports",
+      "Merchandise exports",
+      "Inbound foreign direct investment",
+      "Sovereign wealth fund assets"
+    ],
+    "answer": "Merchandise imports",
+    "explanation": "The United States bought about $3.17tn of goods in 2023 against China's $2.56tn — whereas on exports China leads $3.38tn to $2.02tn. That asymmetry is the US goods trade deficit in a single picture. Germany ($1.47tn) and the Netherlands ($844bn) follow, the latter again inflated by Rotterdam acting as a gateway for the rest of Europe.",
+    "source": "https://data.worldbank.org/indicator/TM.VAL.MRCH.CD.WT",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "trade",
+      "imports",
+      "trade deficit",
+      "map"
+    ]
+  },
+  {
+    "id": "data-089",
+    "category": "data",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "One country here is about three times the size of its nearest rival, far more lopsided than any map of output or population. What is being measured?",
+    "image": {
+      "src": "/img/cartograms/military-spending-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Military spending",
+      "Nominal GDP",
+      "Total population",
+      "Electricity generation"
+    ],
+    "answer": "Military spending",
+    "explanation": "The United States spent roughly $916bn in 2023, about three times China's $296bn and more than the next several countries combined. Russia ($109bn) and Saudi Arabia ($78bn) loom far larger here than their economies would suggest, and Ukraine ($65bn) appears in the top ten for obvious reasons. No GDP or population map is anywhere near this concentrated.",
+    "source": "https://data.worldbank.org/indicator/MS.MIL.XPND.CD",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "military",
+      "defence spending",
+      "map"
+    ]
+  },
+  {
+    "id": "data-090",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Mexico towers over its northern neighbour on this map, and the Philippines is far larger than its economy would imply. What is flowing?",
+    "image": {
+      "src": "/img/cartograms/remittances-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Personal remittances received",
+      "Personal remittances sent abroad",
+      "Tourism earnings",
+      "Development aid received"
+    ],
+    "answer": "Personal remittances received",
+    "explanation": "This maps money sent home by workers abroad. India received about $119bn in 2023, Mexico $66bn and the Philippines $39bn. The United States and Canada all but disappear because they are overwhelmingly senders rather than recipients — which is exactly why Mexico dwarfs the US here. For several smaller economies these inflows exceed 20% of GDP.",
+    "source": "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "remittances",
+      "migration",
+      "Mexico",
+      "map"
+    ]
+  },
+  {
+    "id": "data-091",
+    "category": "data",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Switzerland ranks third in the world on whatever this map shows, ahead of the United States. What is it?",
+    "image": {
+      "src": "/img/cartograms/reserves-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Total official reserves including gold",
+      "Nominal GDP",
+      "Commercial bank deposits",
+      "Net exports of services"
+    ],
+    "answer": "Total official reserves including gold",
+    "explanation": "The Swiss National Bank held about $864bn of foreign reserves at end-2023, third behind China ($3.45tn) and Japan ($1.29tn) and ahead of the United States ($773bn). Switzerland accumulated them by selling francs for years to stop the currency appreciating. The US sits comparatively low because the dollar is itself the reserve asset everyone else holds.",
+    "source": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "reserves",
+      "Switzerland",
+      "central banks",
+      "map"
+    ]
+  },
+  {
+    "id": "data-092",
+    "category": "data",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "North Africa, the Arabian peninsula and Central Asia are almost entirely blank here, while Russia, Brazil and Canada dominate. What is being shown?",
+    "image": {
+      "src": "/img/cartograms/forest-area-2022.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2022. Grey outlines show true borders."
+    },
+    "choices": [
+      "Forest area",
+      "Total land area",
+      "Freshwater reserves",
+      "Agricultural output"
+    ],
+    "answer": "Forest area",
+    "explanation": "Russia alone holds about 8.3m km2 of forest, ahead of Brazil (5.0m), Canada (3.7m) and the United States (3.1m); those four account for roughly half the world total. The blank belt across the Sahara, Arabia and Central Asia is the giveaway — those regions have land in abundance but almost no tree cover, so a pure land-area map would look completely different.",
+    "source": "https://data.worldbank.org/indicator/AG.LND.FRST.K2",
+    "as_of": "2022",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "forests",
+      "land use",
+      "environment",
+      "map"
+    ]
+  },
+  {
+    "id": "data-093",
+    "category": "data",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Australia ranks third and Kazakhstan sixth on this map, both far above their economic weight. What does country size represent?",
+    "image": {
+      "src": "/img/cartograms/agricultural-land-2022.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2022. Grey outlines show true borders."
+    },
+    "choices": [
+      "Agricultural land",
+      "Cereal harvested",
+      "Water withdrawn for irrigation",
+      "Farm sector employment"
+    ],
+    "answer": "Agricultural land",
+    "explanation": "Agricultural land counts permanent pasture as well as cropland, which is why arid, sparsely farmed countries score so highly: Australia has about 3.6m km2 and Kazakhstan 2.1m, mostly rangeland carrying very few animals per hectare. The United States (4.2m) and China (3.9m) lead. A map of actual crop output would shrink Australia and Kazakhstan dramatically.",
+    "source": "https://data.worldbank.org/indicator/AG.LND.AGRI.K2",
+    "as_of": "2022",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "agriculture",
+      "land use",
+      "Australia",
+      "map"
+    ]
+  },
+  {
+    "id": "data-094",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Argentina and Ukraine punch well above their economic size on this map, while oil-rich Gulf states barely register. What is being produced?",
+    "image": {
+      "src": "/img/cartograms/cereal-production-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Cereal grains",
+      "Steel",
+      "Electricity",
+      "Cement"
+    ],
+    "answer": "Cereal grains",
+    "explanation": "China harvested about 641m tonnes of cereals in 2023, the United States 463m and India 374m, with Brazil (156m) and Russia (136m) next. Argentina and Ukraine appear far larger than their GDP would suggest because both are major grain exporters, while the desert economies of the Gulf grow almost nothing and import nearly all their food.",
+    "source": "https://data.worldbank.org/indicator/AG.PRD.CREL.MT",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "agriculture",
+      "cereals",
+      "food",
+      "map"
+    ]
+  },
+  {
+    "id": "data-095",
+    "category": "data",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Compared with a straightforward headcount map, Africa shrinks here while Japan and Western Europe grow. Which population is being counted?",
+    "image": {
+      "src": "/img/cartograms/population-over-65-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "People aged 65 and over",
+      "People aged under 15",
+      "People living in cities",
+      "People in paid employment"
+    ],
+    "answer": "People aged 65 and over",
+    "explanation": "China has the largest elderly population in absolute terms at about 202m, then India (100m) and the United States (59m). Japan is fourth at 37m despite a population of only 123m, because roughly 29% of Japanese are over 65 — the highest share on earth. Africa recedes because its median age is under 20, so a continent of 1.4bn people contributes relatively few.",
+    "source": "https://data.worldbank.org/indicator/SP.POP.65UP.TO",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "ageing",
+      "demographics",
+      "Japan",
+      "map"
+    ]
+  },
+  {
+    "id": "data-096",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Nigeria ranks third worldwide on this map and Ethiopia makes the top eight, while Japan and Italy shrivel. Which group is being counted?",
+    "image": {
+      "src": "/img/cartograms/population-under-15-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "People aged under 15",
+      "People aged 65 and over",
+      "People without electricity",
+      "People employed in farming"
+    ],
+    "answer": "People aged under 15",
+    "explanation": "India has about 360m children under 15 and China 234m, but third place goes to Nigeria with 95m — ahead of Pakistan (92m), Indonesia (70m) and the United States (59m). Ethiopia (51m) and the DR Congo (49m) also make the top eight. Ageing societies such as Japan and Italy almost vanish, the exact mirror image of a map of the over-65s.",
+    "source": "https://data.worldbank.org/indicator/SP.POP.0014.TO",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "demographics",
+      "children",
+      "Nigeria",
+      "map"
+    ]
+  },
+  {
+    "id": "data-097",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "China is about 1.8 times India here, and Brazil outranks Japan. What is being counted?",
+    "image": {
+      "src": "/img/cartograms/urban-population-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "People living in urban areas",
+      "Total population",
+      "Internet users",
+      "Registered motor vehicles"
+    ],
+    "answer": "People living in urban areas",
+    "explanation": "China had roughly 924m city dwellers in 2023 against India's 504m — a much wider gap than their near-identical total populations, because China is about 65% urban and India only 37%. Brazil (185m) overtakes Japan (115m) for the same reason: it is nearly 88% urban. On a plain population map India would edge ahead of China.",
+    "source": "https://data.worldbank.org/indicator/SP.URB.TOTL",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "urbanisation",
+      "cities",
+      "demographics",
+      "map"
+    ]
+  },
+  {
+    "id": "data-098",
+    "category": "data",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The totals behind this map exceed the number of people alive in many of the countries shown. What is being counted?",
+    "image": {
+      "src": "/img/cartograms/mobile-subscriptions-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Mobile phone subscriptions",
+      "Bank accounts",
+      "Passports in circulation",
+      "Registered voters"
+    ],
+    "answer": "Mobile phone subscriptions",
+    "explanation": "China recorded about 1.8bn mobile subscriptions in 2023 and India 1.2bn — comfortably more than either country's population, because many people carry a second SIM for work or for cheaper data. Several countries exceed 150 subscriptions per 100 people. That is why subscription counts, unlike bank accounts or passports, can outrun the population itself.",
+    "source": "https://data.worldbank.org/indicator/IT.CEL.SETS",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "mobile phones",
+      "technology",
+      "map"
+    ]
+  },
+  {
+    "id": "data-099",
+    "category": "data",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "South Korea ranks fifth in the world here, ahead of much larger economies, and China is nearly twice the United States. What activity is mapped?",
+    "image": {
+      "src": "/img/cartograms/manufacturing-2021.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2021. Grey outlines show true borders."
+    },
+    "choices": [
+      "Manufacturing value added",
+      "Total exports of goods and services",
+      "Corporate tax revenue",
+      "Electricity consumption by industry"
+    ],
+    "answer": "Manufacturing value added",
+    "explanation": "China added about $4.85tn of manufacturing value in 2021, roughly double the United States at $2.50tn, with Japan ($1.03tn), Germany ($809bn) and South Korea ($510bn) next. Korea is the tell: an economy of 52m people out-manufactures India and Italy on the back of semiconductors, shipbuilding and cars. Note this map uses 2021, the most recent year with complete United States data.",
+    "source": "https://data.worldbank.org/indicator/NV.IND.MANF.CD",
+    "as_of": "2021",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "manufacturing",
+      "industry",
+      "South Korea",
+      "map"
+    ]
+  },
+  {
+    "id": "data-100",
+    "category": "data",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Hong Kong ranks second on this map and Vietnam and Malaysia both make the top eight, while the United States sits only fourth. What is being exported?",
+    "image": {
+      "src": "/img/cartograms/high-tech-exports-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "High-technology goods",
+      "Crude oil and refined fuels",
+      "Financial services",
+      "Pharmaceuticals"
+    ],
+    "answer": "High-technology goods",
+    "explanation": "China exported about $825bn of high-tech goods in 2023 and Hong Kong $369bn — the latter wildly out of proportion to its size because it is a re-export hub for mainland production rather than a manufacturer itself. Germany ($260bn) edges the United States ($209bn), and Vietnam ($133bn) and Malaysia ($127bn) reflect how electronics assembly has shifted across South-East Asia.",
+    "source": "https://data.worldbank.org/indicator/TX.VAL.TECH.CD",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "high-tech",
+      "exports",
+      "Hong Kong",
+      "supply chains",
+      "map"
+    ]
+  },
+  {
+    "id": "data-101",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Nigeria and Indonesia outrank the United States and every European country on this map. Which sector is being measured?",
+    "image": {
+      "src": "/img/cartograms/agriculture-value-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Agriculture, forestry and fishing",
+      "Mining and quarrying",
+      "Construction",
+      "Transport and logistics"
+    ],
+    "answer": "Agriculture, forestry and fishing",
+    "explanation": "China leads at roughly $1.26tn of agricultural value added, then India ($618bn), Indonesia ($172bn), Nigeria ($135bn) and Brazil ($132bn). Rich countries fall away not because they farm badly but because farming is a small slice of a large economy — agriculture is under 1% of US GDP, against roughly a fifth in Nigeria. This is a map of economic structure, not productivity.",
+    "source": "https://data.worldbank.org/indicator/NV.AGR.TOTL.CD",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "agriculture",
+      "economic structure",
+      "Nigeria",
+      "map"
+    ]
+  },
+  {
+    "id": "data-102",
+    "category": "data",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Every nation on this cartogram sits almost exactly on its true outline, so the picture looks like an ordinary atlas. What must it be showing?",
+    "image": {
+      "src": "/img/cartograms/land-area-2022.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2022. Grey outlines show true borders."
+    },
+    "choices": [
+      "Land area",
+      "Population",
+      "Nominal GDP",
+      "Annual rainfall"
+    ],
+    "answer": "Land area",
+    "explanation": "A cartogram resizes each country until its drawn area matches the quantity being mapped, so if the quantity is area itself nothing moves. Russia stays largest at about 16.4m km2, followed by China (9.4m), the United States (9.1m), Canada (8.8m) and Brazil (8.4m). Any other variable — people, output, rainfall — would pull the shapes away from their real borders.",
+    "source": "https://data.worldbank.org/indicator/AG.LND.TOTL.K2",
+    "as_of": "2022",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "land area",
+      "geography",
+      "map"
+    ]
   }
 ]

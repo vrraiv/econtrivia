@@ -111,10 +111,15 @@ function validateImage(q) {
   }
 }
 
+// Function words only. These carry no answer-identifying signal, so matching
+// them against alt text produces false positives — e.g. the answer "People aged
+// 65 and over" collided with "shown over a faint grey reference map".
 const STOPWORDS = new Set([
   'with', 'that', 'this', 'from', 'they', 'them', 'than', 'then', 'were',
   'what', 'when', 'which', 'each', 'into', 'more', 'most', 'some', 'such',
   'only', 'other', 'their', 'there', 'about', 'would', 'could', 'should',
+  'over', 'under', 'above', 'below', 'between', 'across', 'around',
+  'through', 'within', 'been', 'being', 'have', 'having', 'also',
 ]);
 
 const validators = {
