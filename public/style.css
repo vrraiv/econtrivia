@@ -538,6 +538,7 @@ body {
 
 .feedback-badge.correct { background: var(--correct-bg); color: var(--correct); }
 .feedback-badge.wrong   { background: var(--wrong-bg);   color: var(--wrong); }
+.feedback-badge.skipped { background: var(--chip-bg);    color: var(--text-muted); }
 
 .feedback-correct-ans { font-size: 0.95rem; color: var(--text-muted); }
 .feedback-correct-ans strong { color: var(--text); }
@@ -559,6 +560,22 @@ body {
   width: 100%;
   margin-top: 0.75rem;
 }
+
+/* Deliberately quiet: giving up should be findable, not inviting. */
+.btn-skip {
+  display: block;
+  margin: 0.9rem auto 0;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  min-height: var(--tap);
+}
+
+.btn-skip:hover { color: var(--text); }
 
 /* ═══════════════════════════════════════
    END SCREEN
@@ -585,6 +602,11 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--accent);
+}
+
+.end-skipped {
+  font-size: 0.85rem;
+  color: var(--text-muted);
 }
 
 .cat-breakdown {

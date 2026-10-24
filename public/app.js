@@ -101,9 +101,28 @@ function qById(id) { return allQuestions.find(q => q.id === id); }
 // ROUND ASSEMBLY
 // ═══════════════════════════════════════
 
-function assembleRound() {
+// Single source of truth for "what is left to play". The landing counter and
+// the round builder used to work this out two different ways — subtracting the
+// length of the seen list, versus an actual set difference — which disagreed
+// as soon as the stored list held an ID no longer in the bank (a question
+// removed or renumbered between visits). Always derive it from the questions
+// that currently exist, never from a stored count.
+function unseenQuestions() {
   const seen = new Set(S.get('seen', []));
-  const unseen = allQuestions.filter(q => !seen.has(q.id));
+  return allQuestions.filter(q => !seen.has(q.id));
+}
+
+// Drop remembered IDs that are no longer in the bank, so the stored list does
+// not accumulate dead entries across edits to the question set.
+function pruneSeen() {
+  const live = new Set(allQuestions.map(q => q.id));
+  const seen = S.get('seen', []);
+  const kept = seen.filter(id => live.has(id));
+  if (kept.length !== seen.length) S.set('seen', kept);
+}
+
+function assembleRound() {
+  const unseen = unseenQuestions();
   if (unseen.length < 5) return null;
 
   // Degrade quotas if pool is thin
@@ -227,8 +246,7 @@ function showScreen(id) {
 
 function showLanding() {
   const stats = S.get('stats', null);
-  const seenIds = S.get('seen', []);
-  const remaining = allQuestions.length - seenIds.length;
+  const remaining = unseenQuestions().length;
 
   const statsEl = document.getElementById('stats-display');
   if (stats && stats.rounds > 0) {
@@ -314,8 +332,12 @@ function renderQuestion() {
   const alreadyAnswered = round.answers[round.current] !== null;
   buildAnswerUI(q, answerArea, alreadyAnswered);
 
+  const skipBtn = document.getElementById('btn-skip');
+  skipBtn.classList.toggle('hidden', alreadyAnswered);
+
   if (alreadyAnswered) {
-    renderFeedback(q, round.answers[round.current]);
+    renderFeedback(q, round.answers[round.current], undefined,
+      round.skipped?.[round.current]);
     nextBtn.classList.remove('hidden');
   }
 }
@@ -642,9 +664,13 @@ function buildShort(q, c, answered) {
 // SUBMIT & FEEDBACK
 // ═══════════════════════════════════════
 
-function submit(q, response) {
-  const correct = gradeAnswer(q, response);
+// Shared tail for both answering and giving up, so the two can never drift
+// apart. A skipped question is recorded as incorrect in round.answers, which
+// keeps every existing scoring path untouched; the parallel round.skipped array
+// exists only so the UI can tell "got it wrong" from "surrendered".
+function revealAnswer(q, correct, response, wasSkipped) {
   round.answers[round.current] = correct;
+  if (wasSkipped) (round.skipped ??= [])[round.current] = true;
   S.set('round', round);
 
   const seen = new Set(S.get('seen', []));
@@ -656,18 +682,29 @@ function submit(q, response) {
   answerArea.innerHTML = '';
   buildAnswerUI(q, answerArea, true, response);
 
-  renderFeedback(q, correct, response);
+  renderFeedback(q, correct, response, wasSkipped);
+
+  document.getElementById('btn-skip').classList.add('hidden');
   const nextBtn = document.getElementById('btn-next');
   nextBtn.classList.remove('hidden');
   nextBtn.focus();
 }
 
-function renderFeedback(q, correct, response) {
+function submit(q, response) {
+  revealAnswer(q, gradeAnswer(q, response), response, false);
+}
+
+function skipQuestion(q) {
+  revealAnswer(q, false, undefined, true);
+}
+
+function renderFeedback(q, correct, response, wasSkipped) {
   const area = document.getElementById('feedback-area');
   area.classList.remove('hidden');
 
-  const badge = el('div', `feedback-badge ${correct ? 'correct' : 'wrong'}`,
-    correct ? '✓ Correct' : '✗ Wrong');
+  const state = correct ? 'correct' : wasSkipped ? 'skipped' : 'wrong';
+  const label = correct ? '✓ Correct' : wasSkipped ? '→ Skipped' : '✗ Wrong';
+  const badge = el('div', `feedback-badge ${state}`, label);
   area.appendChild(badge);
 
   if (!correct) {
@@ -745,13 +782,18 @@ function endRound() {
     .map(([cat, {c, t}]) => `<span class="cat-result"><strong>${esc(cat)}</strong> ${c}/${t}</span>`)
     .join('');
 
-  const emojiGrid = buildGrid(round.answers);
+  const skippedCount = (round.skipped || []).filter(Boolean).length;
+  const skippedNote = skippedCount
+    ? `<p class="end-skipped">${skippedCount} skipped</p>` : '';
+
+  const emojiGrid = buildGrid(round.answers, round.skipped || []);
   const shareText = `📊 ECON PUB TRIVIA\n${correct}/${total} · ${grade}\n\n${emojiGrid}\n\necontrivia.ca`;
 
   const ec = document.getElementById('end-content');
   ec.innerHTML = `
     <h2 class="end-score">${correct}<span style="font-size:0.45em;font-weight:400;color:var(--text-muted)"> / ${total}</span></h2>
     <p class="end-grade">${esc(grade)}</p>
+    ${skippedNote}
     <div class="cat-breakdown">${catHTML}</div>
     <div class="end-actions">
       <button id="btn-copy" class="btn-secondary">📋 Copy results</button>
@@ -782,8 +824,8 @@ function gradeLabel(score) {
   return GRADE_LABELS.at(-1)[1];
 }
 
-function buildGrid(answers) {
-  const cells = answers.map(a => a ? '🟩' : '🟥');
+function buildGrid(answers, skipped = []) {
+  const cells = answers.map((a, i) => a === true ? '🟩' : skipped[i] ? '⬜' : '🟥');
   const rows = [];
   for (let i = 0; i < cells.length; i += 6) rows.push(cells.slice(i, i + 6).join(''));
   return rows.join('\n');
@@ -820,6 +862,10 @@ document.addEventListener('keydown', e => {
 
 document.getElementById('btn-start').addEventListener('click', startRound);
 document.getElementById('btn-next').addEventListener('click', nextQuestion);
+document.getElementById('btn-skip').addEventListener('click', () => {
+  const q = round && qById(round.ids[round.current]);
+  if (q && round.answers[round.current] === null) skipQuestion(q);
+});
 document.getElementById('btn-reset-history').addEventListener('click', resetHistory);
 
 // ═══════════════════════════════════════
@@ -836,5 +882,6 @@ document.getElementById('btn-reset-history').addEventListener('click', resetHist
       `<p class="error">Could not load questions. Run <code>npm run build</code> first.</p>`;
     return;
   }
+  pruneSeen();
   showLanding();
 }());
