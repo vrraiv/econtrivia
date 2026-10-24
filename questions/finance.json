@@ -12,7 +12,7 @@
       "commodity-price collapses in emerging markets"
     ],
     "answer": "US subprime mortgage-backed securities",
-    "explanation": "Trillions of dollars of subprime US mortgages were packaged into CDOs and sold globally. When US house prices fell and default rates spiked, these securities became worthless, transmitting losses through the global financial system.",
+    "explanation": "Over a trillion dollars of subprime US mortgages were packaged into CDOs and sold globally. When US house prices fell and default rates spiked, many of these securities lost most of their value, transmitting losses through the global financial system.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
     "time_sensitive": false,
@@ -36,7 +36,7 @@
       "dot-com bubble losses on its technology-sector equity portfolio"
     ],
     "answer": "massive leverage amplifying losses from the Russian government debt default",
-    "explanation": "LTCM used leverage of roughly 25:1 on assets and held $1.25 trillion in derivatives notional. Russia's August 1998 default caused spreads to blow out, turning small position losses into catastrophic ones. The Fed convened 14 banks to recapitalise the fund.",
+    "explanation": "LTCM used leverage of roughly 25:1 on assets and held $1.25 trillion in derivatives notional. Russia's August 1998 default caused spreads to blow out, turning small position losses into catastrophic ones. The Fed convened 14 banks to recapitalize the fund.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
     "time_sensitive": false,
@@ -102,7 +102,7 @@
       "the risk-free interest rate"
     ],
     "answer": "the stock's expected future return",
-    "explanation": "The formula's key insight is that the stock's expected return cancels out under risk-neutral pricing — only volatility (not direction) matters for an option's fair value. Merton, Black, and Scholes won the 1997 Nobel Prize for this discovery.",
+    "explanation": "The formula's key insight is that the stock's expected return drops out under risk-neutral pricing — only volatility (not direction) matters for an option's fair value. Myron Scholes and Robert Merton won the 1997 Nobel Prise for this work; Fischer Black had died in 1995 and was ineligible, but the Nobel committee credited his contribution.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/1997/press-release/",
     "as_of": null,
     "time_sensitive": false,
@@ -123,7 +123,7 @@
       "They fall",
       "They rise",
       "They remain unchanged",
-      "They fluctuate randomly with no predictable direction"
+      "They change unpredictably"
     ],
     "answer": "They fall",
     "explanation": "Bond prices and yields move in opposite directions. A bond's coupon is fixed at issuance; when new bonds are issued at higher yields, older bonds with lower coupons become less attractive and must fall in price until their effective yield matches the market rate.",
@@ -191,9 +191,9 @@
     "prompt": "The 'Rule of 72' is a mental shortcut for estimating how long it takes money to double. If an investment earns 6% per year, approximately how many years will it take to double?",
     "answer": 12,
     "unit": "years",
-    "tolerance": 0,
+    "tolerance": 0.5,
     "tolerance_pct": null,
-    "explanation": "Rule of 72: divide 72 by the annual interest rate. 72 ÷ 6 = 12 years exactly. The rule gives surprisingly accurate results for rates between 2% and 15%, making it a useful back-of-the-envelope tool.",
+    "explanation": "Rule of 72: divide 72 by the annual interest rate. 72 ÷ 6 = 12 years. The exact figure is about 11.9 years, so the rule is very close for rates of roughly 6–10% and still useful from about 2% to 15%.",
     "source": "https://www.bis.org/",
     "as_of": null,
     "time_sensitive": false,
@@ -240,7 +240,7 @@
       "Nestlé"
     ],
     "answer": "Coca-Cola",
-    "explanation": "Buffett bought about $1 billion of Coca-Cola in 1988–1989, calling it the perfect business: a global brand with pricing power, no need for heavy capital reinvestment, and predictable demand. Berkshire's Coca-Cola stake is now worth well over $20 billion.",
+    "explanation": "Buffett bought about $1.3 billion of Coca-Cola stock in 1988–1989, calling it the perfect business: a global brand with pricing power, no need for heavy capital reinvestment, and predictable demand. Berkshire's Coca-Cola stake is now worth well over $20 billion.",
     "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=13F",
     "as_of": null,
     "time_sensitive": false,
@@ -264,7 +264,7 @@
       "Citigroup"
     ],
     "answer": "JPMorgan Chase",
-    "explanation": "The Federal Reserve engineered a rescue in which JPMorgan Chase acquired Bear Stearns for $10 per share (initially offered at $2). The Fed provided a $30 billion credit facility to absorb Bear's toxic assets — a template that would later be used in other rescues.",
+    "explanation": "The Federal Reserve engineered a rescue in which JPMorgan Chase acquired Bear Stearns for $10 per share (initially offered at $2). The Fed lent about $29 billion to a special vehicle (Maiden Lane) to take on a portfolio of Bear's assets — a template that would later be used in other rescues.",
     "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20080314a.htm",
     "as_of": null,
     "time_sensitive": false,
@@ -327,13 +327,13 @@
     "format": "mc",
     "prompt": "The Volcker Rule, introduced as part of the Dodd-Frank Act (2010), primarily prohibits US banks from:",
     "choices": [
-      "using customer deposits to trade securities for their own profit",
+      "trading securities with the bank's own money for its own profit (proprietary trading)",
       "lending to foreign governments without Treasury approval",
       "paying dividends while holding less than 10% Tier 1 capital",
       "acquiring any broker-dealer or insurance subsidiary"
     ],
-    "answer": "using customer deposits to trade securities for their own profit",
-    "explanation": "Named after former Fed chair Paul Volcker, the rule bans proprietary trading — banks betting their own (depositor-backed) capital on markets. Volcker argued this activity contributed to the 2008 crisis by aligning banks' profits with excessive risk-taking.",
+    "answer": "trading securities with the bank's own money for its own profit (proprietary trading)",
+    "explanation": "Named after former Fed chair Paul Volcker, the rule bans proprietary trading — banks betting their own capital on markets — and restricts their investments in hedge funds and private equity funds. Volcker argued this activity contributed to the 2008 crisis by aligning banks' profits with excessive risk-taking.",
     "source": "https://www.sec.gov/spotlight/dodd-frank/volcker-rule.shtml",
     "as_of": null,
     "time_sensitive": false,
@@ -373,7 +373,7 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "In the securitisation chain that led to the 2008 crisis, a collateralised debt obligation (CDO) was created by:",
+    "prompt": "In the securitization chain that led to the 2008 crisis, a collateralized debt obligation (CDO) was created by:",
     "choices": [
       "pooling tranches of mortgage-backed securities and repackaging them into new bonds with different risk ratings",
       "having the Federal Reserve purchase non-performing loans directly from commercial banks",
@@ -388,7 +388,7 @@
     "tags": [
       "CDO",
       "MBS",
-      "securitisation",
+      "securitization",
       "2008",
       "structured finance"
     ]
@@ -423,7 +423,7 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "In its post-2008 quantitative easing (QE) programmes, the US Federal Reserve primarily purchased which types of assets?",
+    "prompt": "In its post-2008 quantitative easing (QE) programs, the US Federal Reserve primarily purchased which types of assets?",
     "choices": [
       "US Treasury bonds and mortgage-backed securities",
       "Corporate bonds and bank equity stakes",
@@ -431,7 +431,7 @@
       "Foreign government bonds to weaken the US dollar"
     ],
     "answer": "US Treasury bonds and mortgage-backed securities",
-    "explanation": "The Fed's QE programmes (QE1 through QE3, 2008–2014) bought US Treasuries and agency-backed MBS, expanding its balance sheet from ~$900 billion to over $4 trillion. Purchasing MBS directly helped stabilise the housing market and push down mortgage rates.",
+    "explanation": "The Fed's QE programs (QE1 through QE3, 2008–2014) bought US Treasuries and agency-backed MBS, expanding its balance sheet from ~$900 billion to over $4 trillion. Purchasing MBS directly helped stabilize the housing market and push down mortgage rates.",
     "source": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
     "as_of": null,
     "time_sensitive": false,
@@ -490,7 +490,7 @@
     "unit": "million BTC",
     "tolerance": 0,
     "tolerance_pct": null,
-    "explanation": "The Bitcoin protocol caps total supply at exactly 21 million BTC. This scarcity is enforced by the code: the block reward halves roughly every four years, with the final bitcoin expected to be mined around 2140. By contrast, no such hard cap exists for gold or fiat currencies.",
+    "explanation": "The Bitcoin protocol caps total supply at 21 million BTC (technically just under, because block rewards round down). This scarcity is enforced by the code: the block reward halves roughly every four years, with the final bitcoin expected to be mined around 2140. By contrast, no such hard cap exists for gold or fiat currencies.",
     "source": "https://www.bis.org/research/index.htm",
     "as_of": null,
     "time_sensitive": false,
@@ -513,7 +513,7 @@
       "1 year (every 52,500 blocks)"
     ],
     "answer": "4 years (every 210,000 blocks)",
-    "explanation": "Bitcoin halvings occur every 210,000 blocks. At ~10 minutes per block, that's about 4 years. Halvings reduce the new supply of bitcoin entering circulation, and historically have been associated with significant price increases in the following 12–18 months.",
+    "explanation": "Bitcoin halvings occur every 210,000 blocks. At ~10 minutes per block, that is about 4 years. Halvings reduce the new supply of bitcoin entering circulation; past halvings have been followed by price rallies, though that pattern is not guaranteed.",
     "source": "https://www.bis.org/research/index.htm",
     "as_of": null,
     "time_sensitive": false,
@@ -537,7 +537,7 @@
       "the length of the bond's coupon payment schedule"
     ],
     "answer": "a bond's sensitivity to changes in interest rates",
-    "explanation": "Modified duration approximates the percentage price change of a bond for a 1% change in yield: a bond with duration of 8 loses roughly 8% of its value if yields rise by 1%. A bond's duration is always less than or equal to its maturity — except for zero-coupon bonds, where they are equal.",
+    "explanation": "Modified duration approximates the percentage price change of a bond for a 1% change in yield: a bond with duration of 8 loses roughly 8% of its value if yields rise by 1%. A bond's Macaulay duration never exceeds its maturity, and equals it only for zero-coupon bonds.",
     "source": "https://www.bis.org/",
     "as_of": null,
     "time_sensitive": false,
@@ -553,15 +553,15 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Eugene Fama identified three forms of market efficiency. Which form claims that asset prices already incorporate all information — including private insider knowledge?",
+    "prompt": "Eugene Fama's efficient market hypothesis comes in weak, semi-strong and strong forms. Which kind of information is reflected in prices only if the strong form holds?",
     "choices": [
-      "all information, including private (insider) information",
-      "only publicly available information",
-      "only past price and volume data",
-      "only information contained in audited financial statements"
+      "Private, non-public (insider) information",
+      "Past prices and trading volumes",
+      "Publicly released earnings and news",
+      "Central bank policy announcements"
     ],
-    "answer": "all information, including private (insider) information",
-    "explanation": "Fama's three forms of EMH: weak (prices reflect past prices), semi-strong (prices reflect all public information), and strong (prices reflect ALL information, including insider knowledge). The strong form implies insider trading could not earn abnormal returns — a claim contradicted by evidence and securities law.",
+    "answer": "Private, non-public (insider) information",
+    "explanation": "Fama's three forms of EMH: weak (prices reflect past prices and volumes), semi-strong (prices also reflect all public information), and strong (prices reflect ALL information, including insider knowledge). The strong form implies insider trading could not earn abnormal returns — a claim contradicted by evidence and securities law.",
     "source": "https://www.sec.gov/",
     "as_of": null,
     "time_sensitive": false,
@@ -593,10 +593,10 @@
       ],
       [
         "Japan's Lost Decade (1990s)",
-        "Deflation of overvalued real estate and stocks"
+        "Collapse of an overvalued real estate and stock bubble"
       ]
     ],
-    "answer": "Dot-com crash (2000)→Speculation in loss-making internet companies, Global Financial Crisis (2008)→US subprime mortgage securities collapsing, 1997 Asian Financial Crisis→Speculative attacks on pegged Asian currencies, Japan's Lost Decade (1990s)→Deflation of overvalued real estate and stocks",
+    "answer": "Dot-com crash (2000)→Speculation in loss-making internet companies, Global Financial Crisis (2008)→US subprime mortgage securities collapsing, 1997 Asian Financial Crisis→Speculative attacks on pegged Asian currencies, Japan's Lost Decade (1990s)→Collapse of an overvalued real estate and stock bubble",
     "explanation": "Each crisis had a different immediate catalyst: irrational equity valuations (dot-com), leverage on housing (2008), fixed exchange rate fragility (Asia 1997), and the unwinding of a credit-fuelled asset bubble after the Bank of Japan raised rates sharply in 1989–90 (Japan).",
     "source": "https://www.imf.org/en/Publications/WEO",
     "as_of": null,
@@ -623,7 +623,7 @@
     ],
     "order_by": "typical risk and expected return from lowest to highest",
     "answer": "US Treasury bill (3-month) → Investment-grade corporate bond → High-yield ('junk') bond → Common equity (stocks)",
-    "explanation": "T-bills are effectively risk-free (backed by the US government, short maturity). Investment-grade corporates add credit risk. Junk bonds carry significant default risk — yields 3–5% above Treasuries historically. Equities have no fixed claim and unlimited downside, but the highest long-run expected return.",
+    "explanation": "T-bills are effectively risk-free (backed by the US government, short maturity). Investment-grade corporates add credit risk. Junk bonds carry significant default risk — historically yielding roughly 4–6 percentage points above Treasuries on average. Equities have no fixed claim and can lose their entire value, but have the highest long-run expected return.",
     "source": "https://www.bis.org/",
     "as_of": null,
     "time_sensitive": false,
@@ -647,7 +647,7 @@
     ],
     "metric": "typical yield to maturity",
     "answer": "US investment-grade corporate bond",
-    "explanation": "Corporate bonds carry default (credit) risk that Treasuries do not, so investors demand a higher yield as compensation. This extra yield is called the 'credit spread.' Even the safest corporate bonds (AAA-rated) yield more than equivalent-maturity Treasuries.",
+    "explanation": "Corporate bonds carry default (credit) risk that Treasuries do not, so investors usually demand a higher yield as compensation. This extra yield is called the 'credit spread.' Even the safest corporate bonds typically yield a little more than equivalent-maturity Treasuries.",
     "source": "https://www.federalreserve.gov/releases/h15/",
     "as_of": null,
     "time_sensitive": false,
@@ -664,14 +664,14 @@
     "category": "finance",
     "difficulty": 2,
     "format": "higher_lower",
-    "prompt": "At the end of 2023, which company had the higher stock market capitalisation?",
+    "prompt": "At the end of 2023, which company had the higher stock market capitalization?",
     "items": [
       "Apple (AAPL)",
       "Berkshire Hathaway (BRK)"
     ],
-    "metric": "market capitalisation (end of 2023)",
+    "metric": "market capitalization (end of 2023)",
     "answer": "Apple (AAPL)",
-    "explanation": "At end-2023, Apple's market cap was approximately $3 trillion — briefly the first company ever to reach that milestone. Berkshire Hathaway was valued at roughly $780 billion, making Apple nearly four times larger by market cap.",
+    "explanation": "At end-2023, Apple's market cap was approximately $3 trillion; it had first topped that mark in January 2022, the first company ever to do so. Berkshire Hathaway was valued at roughly $780 billion, making Apple nearly four times larger by market cap.",
     "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K",
     "as_of": "2023",
     "time_sensitive": true,
@@ -687,7 +687,7 @@
     "category": "finance",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "Inflation-linked bonds (called TIPS in the US and Real Return Bonds in Canada) protect investors by adjusting the bond's principal value in line with the inflation rate.",
+    "prompt": "Inflation-linked bonds (called TIPS in the US and Real Return Bonds in Canada, which stopped issuing them in 2022) protect investors by adjusting the bond's principal value in line with the inflation rate.",
     "answer": true,
     "explanation": "The principal of a TIPS or RRB rises with the consumer price index; coupons, which are a fixed percentage of principal, therefore also increase in nominal terms. At maturity the investor receives the inflation-adjusted principal, ensuring the real (inflation-adjusted) return is preserved.",
     "source": "https://www.bankofcanada.ca/rates/bonds/",
@@ -714,7 +714,7 @@
     ],
     "answer": "20% of the home's purchase price",
     "explanation": "Buyers with less than 20% down must purchase mortgage default insurance through CMHC, Sagen, or Canada Guaranty. The premium, added to the mortgage, ranges from 2.8% to 4.0% of the loan. The rule protects lenders from high loan-to-value defaults.",
-    "source": "https://www.bankofcanada.ca/",
+    "source": "https://www.cmhc-schl.gc.ca/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -783,11 +783,11 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Modigliani–Miller theorem (1958), under idealised assumptions of no taxes, no bankruptcy costs, and perfect information, states that a firm's value is:",
+    "prompt": "The Modigliani–Miller theorem (1958), under idealized assumptions of no taxes, no bankruptcy costs, and perfect information, states that a firm's value is:",
     "choices": [
       "independent of whether it is financed by debt or equity",
-      "maximised when it uses as much debt as possible",
-      "maximised when it uses no debt at all",
+      "maximized when it uses as much debt as possible",
+      "maximized when it uses no debt at all",
       "dependent on the maturity of its debt obligations"
     ],
     "answer": "independent of whether it is financed by debt or equity",
@@ -828,7 +828,7 @@
     "prompt": "Which was larger in dollar terms?",
     "items": [
       "Lehman Brothers' reported assets at its 2008 bankruptcy",
-      "The total size of Bernie Madoff's Ponzi scheme"
+      "The reported account balances in Bernie Madoff's Ponzi scheme"
     ],
     "metric": "US dollar value",
     "answer": "Lehman Brothers' reported assets at its 2008 bankruptcy",
@@ -849,7 +849,7 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Among Canada's 'Big Five' banks (RBC, TD, Scotiabank, BMO, CIBC), which has consistently ranked as the largest by total assets?",
+    "prompt": "In 2023, which of Canada's 'Big Five' banks (RBC, TD, Scotiabank, BMO, CIBC) was the largest by total assets?",
     "choices": [
       "Royal Bank of Canada (RBC)",
       "Toronto-Dominion Bank (TD)",
@@ -857,7 +857,7 @@
       "Bank of Montreal (BMO)"
     ],
     "answer": "Royal Bank of Canada (RBC)",
-    "explanation": "RBC has been Canada's largest bank by assets for most of the past decade, with total assets exceeding $2 trillion as of 2023. The Big Five collectively dominate Canadian banking to a degree unusual among major economies — their combined market share in deposits exceeds 85%.",
+    "explanation": "RBC was Canada's largest bank by total assets in 2023, at roughly $2 trillion, just ahead of TD (about $1.9 trillion). The Big Five collectively dominate Canadian banking to a degree unusual among major economies, holding the large majority of the system's assets and deposits.",
     "source": "https://www.bankofcanada.ca/",
     "as_of": "2023",
     "time_sensitive": true,
@@ -883,7 +883,7 @@
       "passive investing",
       "tracker fund"
     ],
-    "explanation": "John Bogle launched the first retail index mutual fund in 1976. Index funds hold every stock in a benchmark like the S&P 500 in proportion to its market cap, minimising trading costs. Their low fees have made them the dominant vehicle for long-term investors over the past two decades.",
+    "explanation": "John Bogle launched the first retail index mutual fund in 1976. Index funds hold every stock in a benchmark like the S&P 500 in proportion to its market cap, minimizing trading costs. Their low fees have made them the dominant vehicle for long-term investors over the past two decades.",
     "source": "https://www.sec.gov/investor/pubs/sec-guide-to-mutual-funds.pdf",
     "as_of": null,
     "time_sensitive": false,
@@ -907,7 +907,7 @@
       "corporate bond yields are lower than government bond yields"
     ],
     "answer": "short-term interest rates are higher than long-term interest rates",
-    "explanation": "An inverted yield curve — where, for example, the 2-year Treasury yield exceeds the 10-year yield — has preceded every US recession since the 1960s with only one false signal. It suggests markets expect the central bank to cut rates sharply in the future, typically in response to a weakening economy.",
+    "explanation": "An inverted yield curve — where, for example, the 2-year Treasury yield exceeds the 10-year yield — has preceded most US recessions since the 1960s, usually by 6 to 24 months, though it is not a perfect predictor. It suggests markets expect the central bank to cut rates in the future, typically in response to a weakening economy.",
     "source": "https://www.federalreserve.gov/releases/h15/",
     "as_of": null,
     "time_sensitive": false,
@@ -931,7 +931,7 @@
       "Economic growth and prevention of financial crises"
     ],
     "answer": "Maximum employment and stable prices (2% inflation target)",
-    "explanation": "Unlike many central banks (including the Bank of Canada and ECB) that have a single inflation mandate, the Federal Reserve was assigned a 'dual mandate' by Congress in 1977: maximum employment and stable prices. The Fed interprets stable prices as 2% average inflation over time. This dual mandate sometimes creates tension — fighting inflation may require higher unemployment, and vice versa.",
+    "explanation": "Unlike the ECB, whose primary objective is price stability, the Federal Reserve was assigned a 'dual mandate' by Congress in 1977: maximum employment and stable prices. The Fed defines stable prices as 2% inflation over the longer run. This dual mandate sometimes creates tension — fighting inflation may require higher unemployment, and vice versa.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
     "time_sensitive": false,
@@ -951,12 +951,12 @@
     "items": [
       "Paul Volcker",
       "Alan Greenspan",
-      "Janet Yellen",
-      "Ben Bernanke"
+      "Ben Bernanke",
+      "Janet Yellen"
     ],
     "order_by": "start of term as Federal Reserve Chair",
     "answer": "Paul Volcker → Alan Greenspan → Ben Bernanke → Janet Yellen",
-    "explanation": "Volcker: 1979–1987 (crushed inflation). Greenspan: 1987–2006 (the 'maestro' era). Bernanke: 2006–2014 (2008 crisis manager). Yellen: 2014–2018 (first woman). Jerome Powell succeeded Yellen in 2018. Bernanke won the 2022 Nobel Prize for his academic research on banking and financial crises.",
+    "explanation": "Volcker: 1979–1987 (crushed inflation). Greenspan: 1987–2006 (the 'maestro' era). Bernanke: 2006–2014 (2008 crisis manager). Yellen: 2014–2018 (first woman). Jerome Powell succeeded Yellen in 2018. Bernanke won the 2022 Nobel Prise for his academic research on banking and financial crises.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
     "time_sensitive": false,
@@ -1007,7 +1007,7 @@
       "Issuing government bonds directly to households rather than going through banks"
     ],
     "answer": "Printing money and distributing it broadly — metaphorically dropping it from a helicopter",
-    "explanation": "In a 2002 speech, Bernanke referenced Milton Friedman's 'helicopter drop' thought experiment — that a government could always create inflation by printing money and distributing it directly to citizens. The speech was intended to reassure markets that the US would never experience Japanese-style deflation. The nickname 'Helicopter Ben' stuck. Bernanke went on to oversee the Fed's first QE programme in 2008–09 and won the 2022 Nobel Prize.",
+    "explanation": "In a 2002 speech, Bernanke referenced Milton Friedman's 'helicopter drop' thought experiment — that a government could always create inflation by printing money and distributing it directly to citizens. The speech was intended to reassure markets that the US would never experience Japanese-style deflation. The nickname 'Helicopter Ben' stuck. Bernanke went on to oversee the Fed's first QE program in 2008–09 and won the 2022 Nobel Prise.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
     "time_sensitive": false,
@@ -1026,7 +1026,7 @@
     "format": "tf",
     "prompt": "Janet Yellen was the first woman to serve as both Chair of the Federal Reserve and as US Secretary of the Treasury.",
     "answer": true,
-    "explanation": "Yellen served as Fed Chair from 2014 to 2018 and then as Treasury Secretary from January 2021 onward — the first person to hold both roles. As Treasury Secretary she championed the global minimum corporate tax of 15% (the Pillar Two framework adopted by 140+ countries) and managed fiscal stimulus during the COVID recovery. She is also a labour economist known for her research on efficiency wages.",
+    "explanation": "Yellen chaired the Fed from 2014 to 2018 and was Treasury Secretary from January 2021 to January 2025, making her the first woman to hold either job. She was not the first person to hold both: G. William Miller chaired the Fed (1978-79) and then led Treasury (1979-81). As Treasury Secretary she championed the 15% global minimum corporate tax (the OECD Pillar Two framework, agreed by roughly 140 countries and jurisdictions) and managed fiscal policy through the COVID recovery. She is also a labour economist known for her research on efficiency wages.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
     "time_sensitive": false,
@@ -1050,8 +1050,8 @@
       "The ECB immediately deployed €1 trillion to buy peripheral eurozone bonds"
     ],
     "answer": "Yields on Italian and Spanish government bonds fell sharply, relieving the sovereign debt crisis without the ECB needing to buy any bonds",
-    "explanation": "Draghi's three words — 'whatever it takes' — and the announcement of the OMT (Outright Monetary Transactions) bond-buying programme were enough to calm markets. Italian 10-year yields fell from above 7% to below 4% within months. The OMT was never actually used in significant size, demonstrating that central bank credibility alone can be a powerful stabilising force. Draghi subsequently oversaw the ECB's QE programme from 2015.",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "Draghi's three words — 'whatever it takes' — and the announcement of the OMT (Outright Monetary Transactions) bond-buying program that September were enough to calm markets. Italian 10-year yields fell from about 6.5% in July 2012 to roughly 4.5% by the end of the year. The OMT has never actually been used, demonstrating that central bank credibility alone can be a powerful stabilizing force. Draghi subsequently oversaw the ECB's QE program from 2015.",
+    "source": "https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1075,8 +1075,8 @@
       "Gordon Thiessen"
     ],
     "answer": "Mark Carney",
-    "explanation": "Mark Carney, who had previously served as Bank of Canada Governor (2008–2013), became the first non-British Governor of the Bank of England in 2013. He guided the BoE through Brexit uncertainty, expanded its macroprudential mandate, and oversaw the introduction of forward guidance. After leaving in 2020, he became a prominent voice on climate finance and later returned to Canadian politics.",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "Mark Carney, who had previously served as Bank of Canada Governor (2008–2013), became the first non-British Governor of the Bank of England in 2013. He guided the BoE through Brexit uncertainty, expanded its macroprudential mandate, and oversaw the introduction of forward guidance. After leaving in 2020, he became a prominent voice on climate finance, and in March 2025 he became Prime Minister of Canada.",
+    "source": "https://www.bankofengland.co.uk/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1093,15 +1093,15 @@
     "format": "mc",
     "prompt": "Norway's Government Pension Fund Global is the world's largest sovereign wealth fund. What type of assets does it primarily invest in?",
     "choices": [
-      "Stocks (about 70%), bonds (about 25%), and real estate (about 5%)",
+      "Stocks (about 70%), bonds (about 27%), and a small slice of real estate (about 2%)",
       "Only Norwegian government bonds and AAA-rated foreign bonds",
       "Primarily private equity and venture capital in Norwegian companies",
       "Physical commodities: oil, gold, and other natural resources"
     ],
-    "answer": "Stocks (about 70%), bonds (about 25%), and real estate (about 5%)",
-    "explanation": "The Government Pension Fund Global invests across ~9,000 companies in 70+ countries — averaging about 1.5% ownership of every listed company globally. Its investment mandate prohibits investing in Norway itself. The fund's diversified stock-heavy approach reflects the Norwegian government's goal of preserving oil wealth for future generations by converting finite petroleum revenues into broadly diversified financial assets.",
-    "source": "https://www.federalreserve.gov/",
-    "as_of": null,
+    "answer": "Stocks (about 70%), bonds (about 27%), and a small slice of real estate (about 2%)",
+    "explanation": "At end-2023 the fund held 70.9% equities, 27.1% fixed income, 1.9% unlisted real estate and 0.1% unlisted renewable energy infrastructure. It invests across about 9,000 companies in 70+ countries — averaging about 1.5% ownership of every listed company globally — and its mandate prohibits investing in Norway itself. The fund's stock-heavy approach reflects the government's goal of preserving oil wealth for future generations by converting finite petroleum revenues into diversified financial assets.",
+    "source": "https://www.nbim.no/en/",
+    "as_of": "2023",
     "time_sensitive": false,
     "tags": [
       "Norway",
@@ -1124,7 +1124,7 @@
     ],
     "answer": "Borrowed money (debt), with the acquired company's assets serving as collateral",
     "explanation": "In an LBO, private equity firms typically contribute only 20–40% equity and finance the rest with bank loans or high-yield ('junk') bonds, using the target company's assets as collateral and its cash flows to service the debt. If the business performs, returns on equity can be very high due to leverage. If not, the debt load can drive the company into bankruptcy. Famous LBOs include KKR's acquisition of RJR Nabisco (1989) and Blackstone's buy of Hilton Hotels (2007).",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.investor.gov/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1142,12 +1142,12 @@
     "format": "mc",
     "prompt": "What is the key difference between a 'hedge fund' and a traditional mutual fund?",
     "choices": [
-      "Hedge funds can use leverage, short selling, and derivatives to generate returns uncorrelated with markets; mutual funds face stricter restrictions",
+      "Hedge funds can use leverage, short selling, and derivatives to pursue returns less tied to market direction; mutual funds face stricter restrictions",
       "Hedge funds are regulated by the government; mutual funds are entirely unregulated",
       "Hedge funds invest only in bonds; mutual funds invest only in stocks",
       "Hedge funds are owned by their investors; mutual funds are owned by the sponsoring bank"
     ],
-    "answer": "Hedge funds can use leverage, short selling, and derivatives to generate returns uncorrelated with markets; mutual funds face stricter restrictions",
+    "answer": "Hedge funds can use leverage, short selling, and derivatives to pursue returns less tied to market direction; mutual funds face stricter restrictions",
     "explanation": "Hedge funds are private investment vehicles typically open only to accredited investors (institutions and high-net-worth individuals). They can employ complex strategies — short selling, leverage, derivatives, illiquid investments — to profit in both rising and falling markets. They charge high fees (typically '2 and 20': 2% management fee + 20% of profits). Mutual funds face much stricter regulations, limit leverage, and are open to retail investors.",
     "source": "https://www.federalreserve.gov/",
     "as_of": null,
@@ -1165,7 +1165,7 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Stock exchanges have 'circuit breakers' that halt trading when prices fall too fast. The New York Stock Exchange triggers a full trading halt when the S&P 500 falls more than what percentage in a single day?",
+    "prompt": "Stock exchanges have market-wide circuit breakers that halt trading when prices fall too fast. The New York Stock Exchange stops trading for the rest of the day when the S&P 500 falls by what percentage?",
     "choices": [
       "20%",
       "7%",
@@ -1173,8 +1173,8 @@
       "30%"
     ],
     "answer": "20%",
-    "explanation": "The NYSE uses a tiered circuit breaker system: a 7% drop halts trading for 15 minutes, a 13% drop halts for another 15 minutes, and a 20% drop shuts down trading for the rest of the day. Circuit breakers were introduced after the 1987 Black Monday crash (Dow fell 22.6% in one day) to prevent panic-selling cascades. The March 2020 COVID crash triggered the 7% halt four times in one week.",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "The NYSE uses a tiered circuit breaker system: a 7% drop halts trading for 15 minutes, a 13% drop halts it for another 15 minutes, and a 20% drop shuts down trading for the rest of the day. Circuit breakers were introduced after the 1987 Black Monday crash (Dow fell 22.6% in one day) to prevent panic-selling cascades. The March 2020 COVID crash triggered the 7% halt four times in the space of ten days.",
+    "source": "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-wide-circuit-breakers",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1193,7 +1193,7 @@
     "prompt": "Insider trading — using material, non-public information to trade in securities — is illegal in most developed countries, including the United States and Canada.",
     "answer": true,
     "explanation": "Insider trading is prohibited in the US (enforced by the SEC), Canada (provincial securities regulators), and most developed-market jurisdictions. It violates the principle of fair markets — insiders with private information can profit at the expense of uninformed investors. Famous cases include Martha Stewart (convicted of lying to investigators about insider trading, 2004), Ivan Boesky (1987), and Raj Rajaratnam/Galleon Group (2011).",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.sec.gov/fast-answers/answersinsiderhtm.html",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1217,7 +1217,7 @@
     ],
     "answer": "The high-rate currency can depreciate sharply, wiping out the interest rate advantage",
     "explanation": "If uncovered interest rate parity held perfectly, carry trade profits would always be zero — high-rate currencies would depreciate by exactly the interest rate differential. In practice, UIP often fails in the short run, allowing carry traders to profit. But the trade can 'unwind' suddenly: when markets become risk-averse, investors rush to repay low-rate loans (notably Japanese yen) and sell high-rate currencies, causing swift large losses. The 2007 and 2024 yen carry trade unwinds are textbook examples.",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.bis.org/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1242,7 +1242,7 @@
     ],
     "answer": "Excess return per unit of total (portfolio) risk — return minus the risk-free rate, divided by standard deviation",
     "explanation": "Developed by William Sharpe (1966), the Sharpe ratio = (portfolio return − risk-free rate) / standard deviation. A higher ratio means more return per unit of risk. A ratio above 1.0 is generally considered good; above 2.0 is exceptional. It's widely used to compare fund managers and strategies but has limitations: it treats upside and downside volatility equally and assumes normally distributed returns.",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.investor.gov/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1266,7 +1266,7 @@
     ],
     "answer": "Rise about 2% when the market rises 1%, and fall about 2% when the market falls 1%",
     "explanation": "Beta measures systematic (market) risk relative to a benchmark (typically the S&P 500). Beta = 1.0 means the stock moves in line with the market; beta > 1.0 means it amplifies market moves (more volatile); beta < 1.0 means it's less sensitive. A beta of -1.0 would move opposite the market. Utility stocks typically have low betas (~0.5); tech startups often have high betas (>1.5).",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.investor.gov/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1291,7 +1291,7 @@
     ],
     "answer": "FTX secretly used customer funds to finance risky trades at its affiliated trading firm, Alameda Research",
     "explanation": "FTX maintained the appearance of a legitimate exchange while secretly lending billions of dollars of customer deposits to Alameda Research — its affiliated hedge fund — which made highly speculative bets. When Alameda's positions deteriorated and a bank run began, FTX could not return customer funds. Over $8 billion in customer funds were lost. Bankman-Fried was convicted on seven counts of fraud and conspiracy in November 2023 and sentenced to 25 years in prison.",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-prison",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1316,7 +1316,7 @@
     ],
     "answer": "By maintaining reserves of US dollars (or dollar-equivalent assets) backing each token 1:1",
     "explanation": "Asset-backed stablecoins like Tether (USDT) and USD Coin (USDC) aim to hold $1 of reserves for every token in circulation. The 'reserve' can include cash, T-bills, and other short-term instruments. Concerns exist about whether reserves are truly 1:1 and whether stablecoins could trigger a 'run' like a bank run. Algorithmic stablecoins (not backed by reserves) have failed catastrophically — most notably TerraUSD in May 2022.",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.bis.org/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1341,7 +1341,7 @@
     ],
     "answer": "On 99 out of 100 trading days, losses will not exceed $10 million — but on roughly 1 in 100 days, losses could exceed that amount",
     "explanation": "VaR answers: 'What is the maximum I expect to lose X% of the time?' A 99% VaR says nothing about the magnitude of the worst 1% of outcomes — these 'tail events' can be catastrophically large. This is VaR's main limitation: it gives false comfort about tail risk. Nassim Taleb and others have argued that VaR contributed to the 2008 crisis by encouraging banks to underestimate tail risks. Conditional VaR (CVaR or Expected Shortfall) addresses this by measuring average loss in the worst X% of scenarios.",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.bis.org/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1357,7 +1357,7 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Russia was disconnected from the SWIFT international payments messaging network in March 2022 following its invasion of Ukraine. What was the immediate economic consequence for Russia?",
+    "prompt": "Several major Russian banks were disconnected from the SWIFT international payments messaging network in March 2022 following Russia's invasion of Ukraine. What was the immediate economic consequence?",
     "choices": [
       "Russian banks could no longer easily send or receive international wire transfers, severely disrupting cross-border trade and financial transactions",
       "The Russian ruble collapsed to zero, making all foreign trade impossible",
@@ -1365,8 +1365,8 @@
       "Russia's government bonds defaulted instantly because coupon payments could not be processed"
     ],
     "answer": "Russian banks could no longer easily send or receive international wire transfers, severely disrupting cross-border trade and financial transactions",
-    "explanation": "Cutting major Russian banks from SWIFT meant they lost access to the secure messaging system that transmits trillions of dollars of payment instructions daily. It disrupted Russian imports and exports, froze Russian banks out of Western correspondent banking, and complicated payments for energy exports. Russia partly adapted by using bilateral clearing arrangements and China's CIPS system, but the disruption was severe, especially for financial transactions outside the energy sector.",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "Cutting seven Russian banks off from SWIFT in March 2022 (more followed later) meant they lost access to the secure messaging system that transmits trillions of dollars of payment instructions daily. It disrupted Russian imports and exports, froze those banks out of Western correspondent banking, and complicated payments for energy exports. Russia partly adapted by using bilateral clearing arrangements and China's CIPS system, but the disruption was severe, especially for financial transactions outside the energy sector.",
+    "source": "https://www.swift.com/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1391,7 +1391,7 @@
     ],
     "answer": "The historical premium is so large that — under standard assumptions about risk aversion — investors would need to be implausibly risk-averse to require such compensation for holding stocks",
     "explanation": "Mehra and Prescott (1985) showed that the historical US equity risk premium (~6–8% per year over T-bills) is far larger than standard economic models predict. To justify this premium using expected utility theory requires implausible levels of risk aversion. The puzzle remains unsolved; proposed explanations include rare disaster risk, liquidity premiums, behavioural biases, and survivorship bias (we only observe the US, which had the best 20th-century returns).",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://doi.org/10.1016/0304-3932(85)90061-3",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1416,7 +1416,7 @@
     ],
     "answer": "Reduces the impact of buying at market peaks by spreading purchases across highs and lows over time",
     "explanation": "DCA is a disciplined approach that removes the temptation to time the market — since consistently predicting market tops and bottoms is nearly impossible. However, in up-trending markets, research shows that lump-sum investing (investing everything at once) statistically outperforms DCA roughly two-thirds of the time, since money invested earlier benefits from longer compound growth. DCA is primarily valuable as a behavioural tool: it's easier to stick to than market-timing.",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.investor.gov/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1441,7 +1441,7 @@
     ],
     "answer": "4%",
     "explanation": "William Bengen's 1994 study found that, historically, a portfolio of 50–75% stocks and 25–50% bonds could sustain 4% annual inflation-adjusted withdrawals for 30 years with a high (but not 100%) success rate across all past market scenarios. The rule has been debated as interest rates fell and valuations rose: some argue the 'safe' rate may be closer to 3–3.5% in a low-return environment. The rule is a guideline, not a guarantee.",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.investor.gov/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1463,8 +1463,8 @@
     ],
     "metric": "total nominal value of government expenditure/commitment",
     "answer": "US COVID-19 fiscal stimulus packages (2020–2021)",
-    "explanation": "TARP (Troubled Asset Relief Program) had a ceiling of $700 billion, of which about $426 billion was actually disbursed, and most was repaid. The COVID-19 fiscal response was far larger: the CARES Act alone was $2.2 trillion (March 2020), followed by additional packages totalling $5+ trillion. The COVID response was roughly 10x the scale of TARP, though the two served very different purposes: TARP was a targeted bank bailout; COVID spending was broad economic support.",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "TARP (Troubled Asset Relief Program) was authorized at $700 billion (later cut to $475 billion), of which about $443 billion was actually disbursed, and almost all of it was recovered. The COVID-19 fiscal response was far larger: the CARES Act alone was $2.2 trillion (March 2020), and with the later packages the total exceeded $5 trillion. That is more than ten times the scale of TARP, though the two served very different purposes: TARP was a targeted bank bailout; COVID spending was broad economic support.",
+    "source": "https://home.treasury.gov/data/troubled-assets-relief-program",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1488,8 +1488,8 @@
       "Tax rules are irrelevant because investors can replicate any capital structure through their own borrowing"
     ],
     "answer": "Firms should take on as much debt as possible, because interest payments are tax-deductible and create a 'tax shield'",
-    "explanation": "When corporate taxes are introduced, interest payments on debt reduce taxable income, creating a 'tax shield.' In a world with only corporate taxes (no bankruptcy costs), MM predicts firms should maximise leverage. In practice, bankruptcy costs, agency costs, and financial distress create an optimal interior debt level — this is the basis of the 'trade-off theory' of capital structure. The M&M theorem's real value is identifying what does matter (taxes, bankruptcy, information asymmetry) by specifying what doesn't.",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "When corporate taxes are introduced, interest payments on debt reduce taxable income, creating a 'tax shield.' In a world with only corporate taxes (no bankruptcy costs), MM predicts firms should maximize leverage. In practice, bankruptcy costs, agency costs, and financial distress create an optimal interior debt level — this is the basis of the 'trade-off theory' of capital structure. The M&M theorem's real value is identifying what does matter (taxes, bankruptcy, information asymmetry) by specifying what doesn't.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1990/press-release/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1504,10 +1504,10 @@
     "category": "finance",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "True or false: When a company conducts an initial public offering (IPO), the money raised goes directly to the company itself, not to the founders or early investors selling their shares.",
+    "prompt": "True or false: In every initial public offering (IPO), all of the money raised goes to the company itself rather than to founders or early investors.",
     "answer": false,
     "explanation": "An IPO can involve two types of share sales: (1) primary shares — newly issued shares where proceeds go to the company; and (2) secondary shares — existing shares sold by founders, employees, or early investors where proceeds go to the sellers, not the company. Many IPOs include both. Large secondary offerings (insiders cashing out) are sometimes viewed negatively by the market, signalling insiders believe the stock is fairly or fully valued. In a pure secondary IPO, the company itself raises nothing.",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.investor.gov/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1531,8 +1531,8 @@
       "Securities Exchange Act of 1934"
     ],
     "answer": "Sarbanes-Oxley Act (SOX)",
-    "explanation": "Sarbanes-Oxley (2002) required public company CEOs and CFOs to personally attest that financial statements are accurate under penalty of up to 20 years in prison. It also required stronger internal controls, independent audit committees, and prohibited accounting firms from providing consulting services to audit clients. SOX dramatically increased compliance costs but improved financial reporting standards. Dodd-Frank (2010) was the response to the 2008 crisis; Gramm-Leach-Bliley (1999) repealed Glass-Steagall.",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "Sarbanes-Oxley (2002) required public company CEOs and CFOs to personally certify that financial statements are accurate, with penalties of up to 20 years in prison for willful false certification. It also required stronger internal controls and independent audit committees, and restricted accounting firms from providing certain consulting services to audit clients. SOX dramatically increased compliance costs but improved financial reporting standards. Dodd-Frank (2010) was the response to the 2008 crisis; Gramm-Leach-Bliley (1999) repealed key provisions of Glass-Steagall.",
+    "source": "https://www.sec.gov/spotlight/sarbanes-oxley.htm",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1548,7 +1548,7 @@
     "category": "finance",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "In the principal-agent problem applied to CEO pay, a major concern is that executives might manage companies in ways that maximise their own compensation rather than shareholder value. One proposed solution — tying CEO pay to stock prices — was shown to have what unintended consequence?",
+    "prompt": "In the principal-agent problem applied to CEO pay, a major concern is that executives might manage companies in ways that maximize their own compensation rather than shareholder value. One proposed solution — tying CEO pay to stock prices — was shown to have what unintended consequence?",
     "choices": [
       "Executives had incentives to boost short-term stock prices through accounting manipulation or share buybacks rather than long-term investment",
       "CEOs became too risk-averse, since a falling stock price would reduce their own wealth",
@@ -1557,7 +1557,7 @@
     ],
     "answer": "Executives had incentives to boost short-term stock prices through accounting manipulation or share buybacks rather than long-term investment",
     "explanation": "Stock options and equity-based pay, intended to align CEO interests with shareholders, created short-termism incentives. Executives could boost earnings-per-share by using cash for share buybacks instead of R&D. Stock options also created asymmetric payoffs — executives benefited from upside but didn't personally bear full downside losses. The Enron scandal showed how stock-option incentives pushed executives toward aggressive earnings manipulation.",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.investor.gov/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1573,7 +1573,7 @@
     "category": "finance",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "What two-word term describes the fee structure under which most hedge funds charge both an annual management fee (typically 2% of assets) and a performance fee (typically 20% of profits)?",
+    "prompt": "What name describes the fee structure under which most hedge funds charge both an annual management fee (typically 2% of assets) and a performance fee (typically 20% of profits)?",
     "choices": [
       "Two and twenty",
       "Fee and carry",
@@ -1581,8 +1581,8 @@
       "Fixed and floating"
     ],
     "answer": "Two and twenty",
-    "explanation": "The '2 and 20' fee structure means investors pay 2% of total assets under management annually regardless of performance, plus 20% of any profits generated. This structure was popularised by early hedge funds and has faced pressure as many hedge funds underperformed simple index funds. Average fees have drifted lower — closer to '1.4 and 16' industry-wide by 2023 — but top performers still command 2 and 20 or even higher (Renaissance Technologies reportedly charges '5 and 44').",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "The '2 and 20' fee structure means investors pay 2% of total assets under management annually regardless of performance, plus 20% of any profits generated. This structure was popularized by early hedge funds and has faced pressure as many hedge funds underperformed simple index funds. Average fees have drifted lower — closer to '1.4 and 16' industry-wide by 2023 — but top performers still command 2 and 20 or even higher (Renaissance Technologies reportedly charges '5 and 44').",
+    "source": "https://www.investor.gov/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1618,7 +1618,7 @@
     ],
     "answer": "Liquidity→ease of buying/selling, Solvency→assets cover liabilities, Leverage→borrowed money amplifying returns, Collateral→asset pledged as security",
     "explanation": "These four concepts are fundamental to financial risk management. A firm can be solvent but illiquid (owns enough assets but can't sell them fast enough to pay debts due now — the classic bank run scenario). Leverage amplifies returns in good times but can accelerate insolvency in bad times. Collateral reduces lender risk; a collateral 'haircut' is the discount applied to its market value for margin calculations.",
-    "source": "https://www.federalreserve.gov/",
+    "source": "https://www.investor.gov/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1634,10 +1634,10 @@
     "category": "finance",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "True or false: Ben Bernanke shared the 2022 Nobel Prize in Economic Sciences, awarded for research on banks and financial crises — research that directly informed his decisions as Federal Reserve Chair during the 2008 crisis.",
+    "prompt": "True or false: Ben Bernanke shared the 2022 Nobel Prise in Economic Sciences, awarded for research on banks and financial crises — research that directly informed his decisions as Federal Reserve Chair during the 2008 crisis.",
     "answer": true,
-    "explanation": "Bernanke shared the 2022 Nobel Prize with Douglas Diamond and Philip Dybvig for their work on banks and financial crises. Bernanke's famous 1983 paper showed that bank failures during the Great Depression didn't just reflect the economic downturn — they actively made it worse by destroying the credit intermediation that businesses depended on. This research directly informed his 2008 decision to prevent large bank failures through aggressive Fed intervention, in contrast to the Fed's passivity in the 1930s.",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "Bernanke shared the 2022 Nobel Prise with Douglas Diamond and Philip Dybvig for their work on banks and financial crises. Bernanke's famous 1983 paper showed that bank failures during the Great Depression didn't just reflect the economic downturn — they actively made it worse by destroying the credit intermediation that businesses depended on. This research directly informed his 2008 decision to prevent large bank failures through aggressive Fed intervention, in contrast to the Fed's passivity in the 1930s.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2022/press-release/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [

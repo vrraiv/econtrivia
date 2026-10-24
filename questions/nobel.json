@@ -4,7 +4,7 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The inaugural Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel (1969) was jointly awarded to Ragnar Frisch and which other economist?",
+    "prompt": "The inaugural Sveriges Riksbank Prise in Economic Sciences in Memory of Alfred Nobel (1969) was jointly awarded to Ragnar Frisch and which other economist?",
     "choices": [
       "Jan Tinbergen",
       "Paul Samuelson",
@@ -28,7 +28,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Paul Krugman won the 2008 Nobel Memorial Prize in Economics primarily for his contributions to:",
+    "prompt": "Paul Krugman won the 2008 Nobel Memorial Prise in Economics primarily for his contributions to:",
     "choices": [
       "new trade theory and economic geography",
       "behavioural economics and prospect theory",
@@ -36,7 +36,7 @@
       "mechanism design and information economics"
     ],
     "answer": "new trade theory and economic geography",
-    "explanation": "Krugman showed why countries trade similar goods and why economic activity clusters geographically — founding 'new trade theory' and 'new economic geography'. His 1979 JPE paper on monopolistic competition and trade is foundational.",
+    "explanation": "Krugman showed why countries trade similar goods and why economic activity clusters geographically, founding 'new trade theory' and 'new economic geography'. His 1979 paper on monopolistic competition and trade, in the Journal of International Economics, is foundational.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/2008/krugman/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -51,7 +51,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Elinor Ostrom became the first woman to win the Nobel Memorial Prize in Economics in which year?",
+    "prompt": "Elinor Ostrom became the first woman to win the Nobel Memorial Prise in Economics in which year?",
     "choices": [
       "2009",
       "1991",
@@ -59,7 +59,7 @@
       "2014"
     ],
     "answer": "2009",
-    "explanation": "Ostrom shared the 2009 prize with Oliver Williamson for her analysis of economic governance, particularly showing that communities can manage common-pool resources without privatisation or government control.",
+    "explanation": "Ostrom shared the 2009 prise with Oliver Williamson for her analysis of economic governance, particularly showing that communities can manage common-pool resources without privatization or government control.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -75,12 +75,12 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The 2024 Nobel Prize in Economics was awarded to Daron Acemoglu, Simon Johnson, and James A. Robinson for demonstrating how:",
+    "prompt": "The 2024 Nobel Prise in Economics was awarded to Daron Acemoglu, Simon Johnson, and James A. Robinson for demonstrating how:",
     "choices": [
       "societal institutions shape whether nations become prosperous or remain poor",
       "auction design can improve the allocation of spectrum and other public resources",
       "carbon pricing and climate policy can be integrated with economic growth models",
-      "randomised controlled trials can measure the causal effects of development programmes"
+      "randomized controlled trials can measure the causal effects of development programs"
     ],
     "answer": "societal institutions shape whether nations become prosperous or remain poor",
     "explanation": "The trio showed that inclusive political and economic institutions — secure property rights, rule of law, checks on power — drive long-run prosperity, while extractive institutions trap countries in poverty. Their work on colonial reversal of fortune is particularly influential.",
@@ -100,7 +100,7 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Milton Friedman won the 1976 Nobel Prize in Economics. He is best known as the intellectual leader of which economic school?",
+    "prompt": "Milton Friedman won the 1976 Nobel Prise in Economics. He is best known as the intellectual leader of which economic school?",
     "choices": [
       "Chicago School",
       "Keynesian School",
@@ -108,7 +108,7 @@
       "Post-Keynesian School"
     ],
     "answer": "Chicago School",
-    "explanation": "Friedman spent most of his career at the University of Chicago, where he championed free markets, monetarism, and limited government. He was awarded the prize for his work on consumption theory and monetary history.",
+    "explanation": "Friedman spent most of his career at the University of Chicago, where he championed free markets, monetarism, and limited government. He was awarded the prise for his work on consumption theory and monetary history.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/1976/friedman/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -124,12 +124,12 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Friedrich Hayek won the 1974 Nobel Prize in Economics, sharing it with Gunnar Myrdal. Hayek is famous for arguing that prices in a market economy serve primarily as:",
+    "prompt": "Friedrich Hayek won the 1974 Nobel Prise in Economics, sharing it with Gunnar Myrdal. Hayek is famous for arguing that prices in a market economy serve primarily as:",
     "choices": [
       "signals that coordinate dispersed knowledge no central planner can possess",
       "tools for government to redistribute income more efficiently",
       "obstacles to optimal resource allocation that require regulation",
-      "measures of social welfare that should be maximised by policy"
+      "measures of social welfare that should be maximized by policy"
     ],
     "answer": "signals that coordinate dispersed knowledge no central planner can possess",
     "explanation": "In his 1945 essay 'The Use of Knowledge in Society', Hayek argued that prices aggregate the scattered, tacit knowledge of millions of individuals — information no central authority could ever gather. This became the foundation of his critique of central planning.",
@@ -148,7 +148,7 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Paul Samuelson, who won the second-ever Nobel Prize in Economics (1970), is credited with writing one of the most influential economics textbooks of the 20th century. What was it called?",
+    "prompt": "Paul Samuelson, who won the second-ever Nobel Prise in Economics (1970), is credited with writing one of the most influential economics textbooks of the 20th century. What was it called?",
     "choices": [
       "Economics",
       "The General Theory",
@@ -172,7 +172,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Robert Solow won the 1987 Nobel Prize for his work on economic growth. His growth model famously found that most long-run economic growth comes not from more capital or labour, but from:",
+    "prompt": "Robert Solow won the 1987 Nobel Prise for his work on economic growth. His research famously found that most of the growth in output per worker comes not from capital accumulation, but from:",
     "choices": [
       "technological progress (the 'Solow residual')",
       "government investment in infrastructure",
@@ -180,7 +180,7 @@
       "population growth and demographic dividends"
     ],
     "answer": "technological progress (the 'Solow residual')",
-    "explanation": "Solow's 1956–57 papers showed that the majority of US economic growth could not be explained by increases in capital or labour — a leftover he called the 'residual', now interpreted as total factor productivity growth driven by technology.",
+    "explanation": "Solow's 1956-57 papers showed that capital accumulation explained only a small part of US growth in output per worker; his 1957 estimate attributed roughly seven-eighths of it to technical change. The unexplained remainder is the 'Solow residual', now interpreted as total factor productivity growth driven by technology.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/1987/solow/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -196,10 +196,10 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Gary Becker won the 1992 Nobel Prize for extending economic analysis to social behaviour. Which of the following is most associated with his work?",
+    "prompt": "Gary Becker won the 1992 Nobel Prise for extending economic analysis to social behaviour. Which of the following is most associated with his work?",
     "choices": [
       "Human capital theory — treating education and training as investments",
-      "Game theory — analysing strategic interactions between firms",
+      "Game theory — analyzing strategic interactions between firms",
       "Real business cycle theory — linking fluctuations to technology shocks",
       "Public choice theory — applying economics to political behaviour"
     ],
@@ -220,7 +220,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Amartya Sen won the 1998 Nobel Prize in Economics. He is particularly well known for his study of famines, concluding that most modern famines result primarily from:",
+    "prompt": "Amartya Sen won the 1998 Nobel Prise in Economics. He is particularly well known for his study of famines, concluding that most modern famines result primarily from:",
     "choices": [
       "failures of entitlement and distribution, not absolute food shortage",
       "overpopulation and Malthusian resource limits",
@@ -245,7 +245,7 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Daniel Kahneman won the 2002 Nobel Prize in Economics despite being a psychologist, not an economist. He shared the prize for work on:",
+    "prompt": "Daniel Kahneman won the 2002 Nobel Prise in Economics despite being a psychologist, not an economist. He shared the prise for work on:",
     "choices": [
       "prospect theory and decision-making under uncertainty",
       "auction design and mechanism theory",
@@ -253,7 +253,7 @@
       "voting theory and social choice"
     ],
     "answer": "prospect theory and decision-making under uncertainty",
-    "explanation": "Kahneman and his long-time collaborator Amos Tversky (who had died in 1996 and so could not share the prize) showed that people systematically deviate from rational expected utility maximisation — especially by feeling losses more acutely than equivalent gains.",
+    "explanation": "Kahneman and his long-time collaborator Amos Tversky (who had died in 1996 and so could not share the prise) showed that people systematically deviate from rational expected utility maximization — especially by feeling losses more acutely than equivalent gains.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -269,9 +269,9 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "Amos Tversky, who co-developed prospect theory with Daniel Kahneman, shared the 2002 Nobel Prize in Economics with Kahneman.",
+    "prompt": "Amos Tversky, who co-developed prospect theory with Daniel Kahneman, shared the 2002 Nobel Prise in Economics with Kahneman.",
     "answer": false,
-    "explanation": "Tversky died of cancer in July 1996, six years before the prize was awarded in 2002. The Nobel Prize is not awarded posthumously (with one narrow exception in 2011 for medicine). Kahneman acknowledged that Tversky would certainly have shared the prize had he lived.",
+    "explanation": "Tversky died of cancer in June 1996, six years before the prise was awarded in 2002. Nobel statutes bar posthumous awards (the 2011 medicine prise to Ralph Steinman, who died days before the announcement, was a famous edge case). Kahneman acknowledged that Tversky would certainly have shared the prise had he lived.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -287,7 +287,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "George Akerlof's 1970 paper 'The Market for Lemons', which contributed to his 2001 Nobel Prize, used the used-car market to illustrate which economic concept?",
+    "prompt": "George Akerlof's 1970 paper 'The Market for Lemons', which contributed to his 2001 Nobel Prise, used the used-car market to illustrate which economic concept?",
     "choices": [
       "Adverse selection caused by information asymmetry",
       "Moral hazard in insurance markets",
@@ -311,7 +311,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Michael Spence shared the 2001 Nobel Prize for his theory of market signalling. In his model, why do workers get university degrees even if the education itself teaches nothing useful?",
+    "prompt": "Michael Spence shared the 2001 Nobel Prise for his theory of market signalling. In his model, why do workers get university degrees even if the education itself teaches nothing useful?",
     "choices": [
       "Completing a degree signals to employers that the worker has high ability",
       "Degrees improve social connections and access to professional networks",
@@ -335,7 +335,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Richard Thaler won the 2017 Nobel Prize for behavioural economics. His 'nudge' concept recommends that governments improve decisions by:",
+    "prompt": "Richard Thaler won the 2017 Nobel Prise for behavioural economics. His best-known policy idea, developed with Cass Sunstein, recommends that governments improve decisions by:",
     "choices": [
       "changing default options to make the socially desirable choice the path of least resistance",
       "imposing taxes and penalties on harmful behaviours",
@@ -360,15 +360,15 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Abhijit Banerjee and Esther Duflo shared the 2019 Nobel Prize (with Michael Kremer) for pioneering which research method in development economics?",
+    "prompt": "Abhijit Banerjee and Esther Duflo shared the 2019 Nobel Prise (with Michael Kremer) for pioneering which research method in development economics?",
     "choices": [
-      "Randomised controlled trials (RCTs) to measure causal effects of anti-poverty programmes",
+      "Randomized controlled trials (RCTs) to measure causal effects of anti-poverty programs",
       "Satellite imagery to track economic activity in remote regions",
       "Agent-based models simulating household decision-making",
       "Difference-in-differences analysis of natural experiments"
     ],
-    "answer": "Randomised controlled trials (RCTs) to measure causal effects of anti-poverty programmes",
-    "explanation": "Banerjee and Duflo's J-PAL lab at MIT pioneered using RCTs — like those used in medical drug trials — to test which development interventions actually reduce poverty. Their approach transformed development economics from armchair theorising to evidence-based policy.",
+    "answer": "Randomized controlled trials (RCTs) to measure causal effects of anti-poverty programs",
+    "explanation": "Banerjee and Duflo's J-PAL lab at MIT pioneered using RCTs — like those used in medical drug trials — to test which development interventions actually reduce poverty. Their approach transformed development economics from armchair theorizing to evidence-based policy.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/2019/banerjee/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -385,7 +385,7 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Claudia Goldin won the 2023 Nobel Prize in Economics for her research on women in the labour market. She found that the largest remaining source of the gender pay gap today is:",
+    "prompt": "Claudia Goldin won the 2023 Nobel Prise in Economics for her research on women in the labour market. She found that the largest part of the remaining gender pay gap comes from:",
     "choices": [
       "the wage penalty for workers — disproportionately women — who need flexible or part-time hours",
       "direct discrimination by employers paying women less for identical work",
@@ -409,9 +409,9 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "The Nobel Prize in Economics is one of the original prizes established in Alfred Nobel's will of 1895.",
+    "prompt": "The Nobel Prise in Economics is one of the original prises established in Alfred Nobel's will of 1895.",
     "answer": false,
-    "explanation": "Alfred Nobel's 1895 will specified five prizes: Physics, Chemistry, Physiology or Medicine, Literature, and Peace. The economics prize — officially the 'Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel' — was created in 1968 by Sweden's central bank and first awarded in 1969.",
+    "explanation": "Alfred Nobel's 1895 will specified five prises: Physics, Chemistry, Physiology or Medicine, Literature, and Peace. The economics prise — officially the 'Sveriges Riksbank Prise in Economic Sciences in Memory of Alfred Nobel' — was created in 1968 by Sweden's central bank and first awarded in 1969.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/",
     "as_of": null,
     "time_sensitive": false,
@@ -427,7 +427,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "John Nash, whose life was depicted in the film 'A Beautiful Mind', shared the 1994 Nobel Prize in Economics for his contribution to:",
+    "prompt": "John Nash, whose life was depicted in the film 'A Beautiful Mind', shared the 1994 Nobel Prise in Economics for his contribution to:",
     "choices": [
       "non-cooperative game theory and the Nash equilibrium",
       "cooperative bargaining theory and coalition formation",
@@ -451,7 +451,7 @@
     "category": "nobel",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Thomas Schelling, who shared the 2005 Nobel Prize for game theory, applied his ideas most famously to which real-world domain?",
+    "prompt": "Thomas Schelling, who shared the 2005 Nobel Prise for game theory, applied his ideas most famously to which real-world domain?",
     "choices": [
       "Nuclear deterrence and the logic of mutually assured destruction",
       "Environmental economics and carbon market design",
@@ -459,7 +459,7 @@
       "Pension design and retirement savings behaviour"
     ],
     "answer": "Nuclear deterrence and the logic of mutually assured destruction",
-    "explanation": "Schelling's 1960 book 'The Strategy of Conflict' analysed how adversaries can credibly commit to retaliatory threats — showing that the ability to destroy your opponent even after a first strike makes nuclear deterrence stable. His concept of 'focal points' (Schelling points) is equally influential.",
+    "explanation": "Schelling's 1960 book 'The Strategy of Conflict' analyzed how adversaries can credibly commit to retaliatory threats — showing that the ability to destroy your opponent even after a first strike makes nuclear deterrence stable. His concept of 'focal points' (Schelling points) is equally influential.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/2005/schelling/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -475,7 +475,7 @@
     "category": "nobel",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Eugene Fama and Robert Shiller shared the 2013 Nobel Prize, despite holding nearly opposite views about asset markets. Fama is associated with the Efficient Market Hypothesis; Shiller is known for arguing that markets are prone to:",
+    "prompt": "Eugene Fama and Robert Shiller shared the 2013 Nobel Prise (with Lars Peter Hansen), despite holding nearly opposite views about asset markets. Fama is associated with the Efficient Market Hypothesis; Shiller is known for arguing that markets are prone to:",
     "choices": [
       "irrational exuberance — bubbles driven by investor psychology",
       "rational herding — coordinated moves amplifying fundamentals",
@@ -483,7 +483,7 @@
       "liquidity traps — failure of monetary policy at the zero lower bound"
     ],
     "answer": "irrational exuberance — bubbles driven by investor psychology",
-    "explanation": "Shiller's 2000 book 'Irrational Exuberance' warned of a dot-com bubble shortly before the crash. He also predicted the US housing bubble before 2008. The Nobel Committee notably awarded the prize to both Fama and Shiller — whose views on market efficiency are fundamentally at odds.",
+    "explanation": "Shiller's 2000 book 'Irrational Exuberance' warned of a dot-com bubble shortly before the crash. He also predicted the US housing bubble before 2008. The Nobel Committee notably awarded the prise to both Fama and Shiller — whose views on market efficiency are fundamentally at odds.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/2013/press-release/",
     "as_of": null,
     "time_sensitive": false,
@@ -500,7 +500,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Jean Tirole won the 2014 Nobel Prize for his analysis of market power and regulation. His work is particularly influential for how governments should regulate:",
+    "prompt": "Jean Tirole won the 2014 Nobel Prise for his analysis of market power and regulation. His work is particularly influential for how governments should regulate:",
     "choices": [
       "firms with natural monopoly characteristics, such as utilities and platform companies",
       "international currency markets and exchange rate volatility",
@@ -525,11 +525,11 @@
     "category": "nobel",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Oliver Hart and Bengt Holmström shared the 2016 Nobel Prize for contract theory. Hart's contribution focused on 'incomplete contracts' — the idea that contracts cannot specify every contingency. This insight best explains:",
+    "prompt": "Oliver Hart and Bengt Holmström shared the 2016 Nobel Prise for contract theory. Hart's contribution focused on 'incomplete contracts' — the idea that contracts cannot specify every contingency. This insight best explains:",
     "choices": [
       "why firm ownership (equity) matters — whoever owns the assets has bargaining power in gaps",
       "why long-term employment contracts always benefit workers over firms",
-      "why governments should never privatise state-owned enterprises",
+      "why governments should never privatize state-owned enterprises",
       "why insurance markets always collapse without government mandates"
     ],
     "answer": "why firm ownership (equity) matters — whoever owns the assets has bargaining power in gaps",
@@ -549,7 +549,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "William Nordhaus shared the 2018 Nobel Prize for integrating climate change into long-run economic growth analysis. What is his most famous contribution called?",
+    "prompt": "William Nordhaus shared the 2018 Nobel Prise for integrating climate change into long-run economic growth analysis. What is his most famous contribution called?",
     "choices": [
       "The DICE model (Dynamic Integrated model of Climate and the Economy)",
       "The IPCC scenario framework for emissions pathways",
@@ -573,7 +573,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Angus Deaton won the 2015 Nobel Prize for his work on consumption, poverty, and welfare. Which of these books, co-authored with Anne Case, brought his ideas to a wide audience?",
+    "prompt": "Angus Deaton won the 2015 Nobel Prise for his work on consumption, poverty, and welfare. Which of these books, co-authored with Anne Case, brought his ideas to a wide audience?",
     "choices": [
       "Deaths of Despair and the Future of Capitalism",
       "Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty",
@@ -598,7 +598,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "Robert Mundell, who won the 1999 Nobel Prize, is often called the 'father of the euro' because his theory of optimum currency areas provided the intellectual basis for European monetary union.",
+    "prompt": "Robert Mundell, who won the 1999 Nobel Prise, is often called the 'father of the euro' because his theory of optimum currency areas provided the intellectual basis for European monetary union.",
     "answer": true,
     "explanation": "Mundell's 1961 paper on optimum currency areas identified conditions under which countries benefit from sharing a currency — high labour mobility, trade integration, symmetric shocks. His ideas directly influenced the architects of the eurozone, earning him the nickname.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/1999/mundell/facts/",
@@ -616,7 +616,7 @@
     "category": "nobel",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "As of 2024, how many women have won the Nobel Memorial Prize in Economics?",
+    "prompt": "As of the 2026 prise, how many women have won the Nobel Memorial Prise in Economics?",
     "choices": [
       "3",
       "1",
@@ -624,9 +624,9 @@
       "7"
     ],
     "answer": "3",
-    "explanation": "Only three women have won: Elinor Ostrom (2009), Esther Duflo (2019), and Claudia Goldin (2023). Duflo, at 46, was also the youngest ever winner. The prize has been awarded 56 times to 93 laureates through 2024.",
-    "source": "https://www.nobelprize.org/prizes/economic-sciences/",
-    "as_of": "2024",
+    "explanation": "Only three women have won: Elinor Ostrom (2009), Esther Duflo (2019) and Claudia Goldin (2023). Duflo, at 46, is also the youngest laureate of any gender. Through the 2026 prise, 101 laureates have been honoured across 58 awards.",
+    "source": "https://www.nobelprize.org/prizes/facts/facts-on-the-prize-in-economic-sciences/",
+    "as_of": "2026",
     "time_sensitive": true,
     "tags": [
       "Nobel Prize",
@@ -641,14 +641,14 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "order",
-    "prompt": "These four economists each received the Nobel Prize. Put them in order from earliest to most recent prize year.",
+    "prompt": "These four economists each received the Nobel Prise. Put them in order from earliest to most recent prise year.",
     "items": [
       "Paul Samuelson",
       "Gary Becker",
       "Daniel Kahneman",
       "Richard Thaler"
     ],
-    "order_by": "year Nobel Prize was awarded",
+    "order_by": "year Nobel Prise was awarded",
     "answer": "Paul Samuelson → Gary Becker → Daniel Kahneman → Richard Thaler",
     "explanation": "Samuelson: 1970. Becker: 1992. Kahneman: 2002. Thaler: 2017.",
     "source": null,
@@ -668,14 +668,14 @@
     "category": "nobel",
     "difficulty": 3,
     "format": "order",
-    "prompt": "Rank these Nobel laureates in economics by their prize year, from the oldest winner to the most recent.",
+    "prompt": "Put these four laureates in order of the year each won the economics prise, earliest first.",
     "items": [
       "Friedrich Hayek",
       "John Nash",
       "Amartya Sen",
       "Claudia Goldin"
     ],
-    "order_by": "year Nobel Prize was awarded",
+    "order_by": "year Nobel Prise was awarded",
     "answer": "Friedrich Hayek → John Nash → Amartya Sen → Claudia Goldin",
     "explanation": "Hayek: 1974. Nash: 1994. Sen: 1998. Goldin: 2023.",
     "source": null,
@@ -695,7 +695,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "numeric",
-    "prompt": "In what year did Milton Friedman receive the Nobel Prize in Economics?",
+    "prompt": "In what year did Milton Friedman receive the Nobel Prise in Economics?",
     "answer": 1976,
     "unit": "",
     "tolerance": 0,
@@ -714,7 +714,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Elinor Ostrom shared the 2009 Nobel Memorial Prize in Economics with which other institutional economist?",
+    "prompt": "Elinor Ostrom shared the 2009 Nobel Memorial Prise in Economics with which other institutional economist?",
     "choices": [
       "Oliver Williamson",
       "Jean Tirole",
@@ -739,9 +739,9 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "The Sveriges Riksbank Prize in Economic Sciences is administered and awarded by the same Nobel Committee that awards the Physics, Chemistry, and Medicine prizes.",
-    "answer": false,
-    "explanation": "The economics prize is awarded by the Royal Swedish Academy of Sciences — the same body that awards Physics and Chemistry. However, the prize was not created by Alfred Nobel and is funded by Sweden's central bank (Riksbank), not the Nobel Foundation itself.",
+    "prompt": "The Nobel Memorial Prise in Economics is awarded by the Royal Swedish Academy of Sciences, the same institution that awards the Nobel Prises in Physics and Chemistry.",
+    "answer": true,
+    "explanation": "The Academy selects and announces the economics laureates just as it does for Physics and Chemistry. The prise was not created by Alfred Nobel, though: Sweden's central bank (the Riksbank) established it in 1968 and funds the prise money. The other prises are awarded elsewhere: Medicine by the Nobel Assembly at the Karolinska Institute, Literature by the Swedish Academy, and Peace by a committee appointed by the Norwegian Parliament.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/",
     "as_of": null,
     "time_sensitive": false,
@@ -757,9 +757,9 @@
     "category": "nobel",
     "difficulty": 3,
     "format": "tf",
-    "prompt": "Esther Duflo, who won the 2019 Nobel Prize in Economics, is the youngest person ever to receive the prize, at age 46.",
+    "prompt": "Esther Duflo, who won the 2019 Nobel Prise in Economics, is the youngest person ever to receive the prise, at age 46.",
     "answer": true,
-    "explanation": "Duflo was 46 when she won the 2019 prize alongside Abhijit Banerjee and Michael Kremer, making her the youngest economics laureate. She and Banerjee are also married to each other — one of a handful of Nobel couples.",
+    "explanation": "Duflo was 46 when she won the 2019 prise alongside Abhijit Banerjee and Michael Kremer, making her the youngest economics laureate. She and Banerjee are also married to each other — one of a handful of Nobel couples.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/2019/duflo/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -775,14 +775,15 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "short",
-    "prompt": "What two-word term, popularised by Richard Thaler and Cass Sunstein, describes a policy approach that steers people toward better choices without restricting freedom?",
+    "prompt": "What one-word term, popularized by Richard Thaler and Cass Sunstein, describes a policy approach that steers people toward better choices without restricting freedom?",
     "answer": "nudge",
     "accept": [
       "nudge",
-      "libertarian paternalism",
-      "nudge theory"
+      "nudges",
+      "nudge theory",
+      "libertarian paternalism"
     ],
-    "explanation": "Thaler and Sunstein's 2008 book 'Nudge: Improving Decisions About Health, Wealth, and Happiness' popularised the concept. The UK government established a Behavioural Insights Team ('nudge unit') in 2010 to apply the ideas to public policy.",
+    "explanation": "Thaler and Sunstein's 2008 book 'Nudge: Improving Decisions About Health, Wealth, and Happiness' popularized the concept. The UK government established a Behavioural Insights Team ('nudge unit') in 2010 to apply the ideas to public policy.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/2017/thaler/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -799,15 +800,15 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Ben Bernanke, Douglas Diamond, and Philip Dybvig shared the 2022 Nobel Prize in Economics. Diamond and Dybvig are best known for a 1983 model that explains why:",
+    "prompt": "Ben Bernanke, Douglas Diamond, and Philip Dybvig shared the 2022 Nobel Prise in Economics. Diamond and Dybvig are best known for a 1983 model that explains why:",
     "choices": [
       "Bank runs are self-fulfilling: if depositors believe a bank will fail, it's rational to withdraw immediately — and mass withdrawals cause the failure they expected",
-      "Banks are inherently fragile because they hold illiquid assets (loans) funded by liquid liabilities (deposits)",
+      "Banks only fail when their loans go bad, so a run is a symptom of insolvency rather than a cause of failure",
       "Deposit insurance eliminates moral hazard in banking, making the financial system safer overall",
       "Central bank lender-of-last-resort facilities only work if they're credibly committed in advance of a crisis"
     ],
     "answer": "Bank runs are self-fulfilling: if depositors believe a bank will fail, it's rational to withdraw immediately — and mass withdrawals cause the failure they expected",
-    "explanation": "The Diamond-Dybvig model (1983) shows that banks offer maturity transformation (short-term deposits funding long-term loans), which is socially valuable but creates fragility. The model has two Nash equilibria: (1) all depositors are patient, the bank is fine; (2) everyone runs, the bank fails. Both are rational — the bad equilibrium is self-fulfilling. This formalized the case for deposit insurance: if depositors know their deposits are guaranteed, there's no incentive to run. The policy implication informed every bank crisis response since.",
+    "explanation": "The Diamond-Dybvig model (1983) shows that banks offer maturity transformation (short-term deposits funding long-term loans), which is socially valuable but creates fragility. The model has two equilibria: (1) depositors stay calm and the bank is fine; (2) everyone runs and the bank fails. Both are rational, so the bad equilibrium is self-fulfilling. This formalized the case for deposit insurance: if depositors know their deposits are guaranteed, there is no incentive to run. It has shaped how policymakers think about deposit insurance and lender-of-last-resort support ever since.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -824,7 +825,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Robert Lucas won the 1995 Nobel Prize for his 'Lucas critique' and rational expectations work. What does the Lucas critique warn about?",
+    "prompt": "Robert Lucas won the 1995 Nobel Prise for his 'Lucas critique' and rational expectations work. What does the Lucas critique warn about?",
     "choices": [
       "Econometric models built on historical policy relationships will break down if the policy changes, because agents will adjust their behaviour in response to the new policy",
       "Macroeconomic models that assume irrational expectations systematically underestimate inflation",
@@ -848,7 +849,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "James Tobin won the 1981 Nobel Prize for his portfolio balance theory. His most famous metric, 'Tobin's q', is used to assess investment decisions. What does it measure?",
+    "prompt": "James Tobin won the 1981 Nobel Prise for his portfolio balance theory. His most famous metric, 'Tobin's q', is used to assess investment decisions. What does it measure?",
     "choices": [
       "The ratio of a firm's market value to the replacement cost of its assets — if q > 1, the firm is worth more than its assets cost, so it should invest more",
       "The ratio of stock returns to bond returns, measuring the equity premium at any point in time",
@@ -872,7 +873,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Edward Prescott and Finn Kydland shared the 2004 Nobel Prize for two contributions: real business cycle theory and time-inconsistency in monetary policy. What does 'time-inconsistency' mean in their framework?",
+    "prompt": "Edward Prescott and Finn Kydland shared the 2004 Nobel Prise for two contributions: real business cycle theory and time-inconsistency in monetary policy. What does 'time-inconsistency' mean in their framework?",
     "choices": [
       "A policymaker who announces low inflation will later be tempted to inflate (gaining short-run output) — creating a credibility problem that pushes actual inflation above the optimal level unless the policymaker can credibly commit",
       "Economic models are inconsistent across time because agents update their expectations when new information arrives",
@@ -897,15 +898,15 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Joseph Stiglitz shared the 2001 Nobel Prize (with Akerlof and Spence) for information economics. He is also well known for his role in which real-world policy debate?",
+    "prompt": "Joseph Stiglitz shared the 2001 Nobel Prise (with Akerlof and Spence) for information economics. He is also well known for his role in which real-world policy debate?",
     "choices": [
-      "Criticising IMF austerity conditions imposed on developing countries during the 1990s East Asian financial crisis, arguing they deepened recessions unnecessarily",
+      "Criticizing IMF austerity conditions imposed on developing countries during the 1990s East Asian financial crisis, arguing they deepened recessions unnecessarily",
       "Advocating for market-based carbon pricing as the most efficient response to climate change",
       "Defending the Washington Consensus as an evidence-based development strategy for emerging markets",
       "Arguing that income inequality in the US should be addressed through skills training rather than redistribution"
     ],
-    "answer": "Criticising IMF austerity conditions imposed on developing countries during the 1990s East Asian financial crisis, arguing they deepened recessions unnecessarily",
-    "explanation": "Stiglitz served as Chief Economist of the World Bank (1997–2000) and publicly broke with the IMF over its prescription for the 1997–98 East Asian crisis (raising interest rates, cutting budgets, restructuring banks simultaneously). He argued this Hoover-era medicine was contractionary during a recession and undermined recovery. His book Globalisation and Its Discontents (2002) broadened the critique to IMF conditionality in general. He remains one of the most prominent left-of-centre economists in public discourse.",
+    "answer": "Criticizing IMF austerity conditions imposed on developing countries during the 1990s East Asian financial crisis, arguing they deepened recessions unnecessarily",
+    "explanation": "Stiglitz served as Chief Economist of the World Bank (1997-2000) and publicly broke with the IMF over its prescription for the 1997-98 East Asian crisis (raising interest rates, cutting budgets and restructuring banks all at once). He argued this austerity-style medicine deepened the recession and undermined recovery. His book Globalization and Its Discontents (2002) broadened the critique to IMF conditionality in general, and he is widely known as a leading critic of the Washington Consensus.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -922,15 +923,15 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Edmund Phelps won the 2006 Nobel Prize for his work on long-run inflation-unemployment dynamics. His contribution modified the original Phillips curve by introducing which concept?",
+    "prompt": "Edmund Phelps won the 2006 Nobel Prise for his analysis of inflation-unemployment tradeoffs. Together with Milton Friedman, what did he argue about the long-run Phillips curve?",
     "choices": [
-      "The natural rate of unemployment (NAIRU): there is no long-run tradeoff — attempts to push unemployment below the natural rate only produce ever-accelerating inflation",
-      "Adaptive expectations: workers form inflation expectations based on past inflation, causing wage spirals when policymakers try to exploit the Phillips curve",
-      "The sacrifice ratio: reducing inflation by one percentage point permanently requires sacrificing a known fixed amount of output",
-      "Hysteresis: high unemployment from recessions permanently raises the natural rate, leaving lasting scars on the labour market"
+      "There is no lasting tradeoff: once expectations adjust, unemployment returns to its natural rate whatever the inflation rate",
+      "The tradeoff is permanent, so governments can hold unemployment low indefinitely by tolerating steady inflation",
+      "The tradeoff runs the other way: higher inflation permanently raises unemployment",
+      "Inflation has no effect on unemployment at any horizon, so the original Phillips curve never held even in the short run"
     ],
-    "answer": "The natural rate of unemployment (NAIRU): there is no long-run tradeoff — attempts to push unemployment below the natural rate only produce ever-accelerating inflation",
-    "explanation": "Phelps (1967) and Friedman (1968) independently showed that the original Phillips curve assumed money illusion — workers don't adjust for inflation. Once workers incorporate inflation expectations into wage demands, the curve shifts. Attempts to keep unemployment below the natural rate require ever-accelerating inflation to maintain the illusion. The long-run Phillips curve is vertical. This insight, confirmed by 1970s stagflation, ended the era of demand management targeting below-natural unemployment. NAIRU = Non-Accelerating Inflation Rate of Unemployment.",
+    "answer": "There is no lasting tradeoff: once expectations adjust, unemployment returns to its natural rate whatever the inflation rate",
+    "explanation": "Phelps (1967) and Friedman (1968) independently showed that the original Phillips curve assumed money illusion: workers do not adjust for inflation. Once workers build inflation expectations into wage demands, the curve shifts, and keeping unemployment below the 'natural rate' requires ever-accelerating inflation. The long-run Phillips curve is therefore vertical. This insight, confirmed by the stagflation of the 1970s, ended the era of demand management aimed at pushing unemployment below its natural level. (NAIRU, the Non-Accelerating Inflation Rate of Unemployment, is a closely related concept.)",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -947,7 +948,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Peter Diamond, Dale Mortensen, and Christopher Pissarides shared the 2010 Nobel Prize for search and matching theory. What economic phenomenon does their theory explain?",
+    "prompt": "Peter Diamond, Dale Mortensen, and Christopher Pissarides shared the 2010 Nobel Prise for search and matching theory. What economic phenomenon does their theory explain?",
     "choices": [
       "Why unemployment persists even when many jobs are available — it takes time for workers and employers to find each other (search friction), producing unemployment even in a healthy economy",
       "Why stock markets have high volatility despite the efficiency of information processing",
@@ -955,7 +956,7 @@
       "Why workers in identical jobs at different firms are paid differently"
     ],
     "answer": "Why unemployment persists even when many jobs are available — it takes time for workers and employers to find each other (search friction), producing unemployment even in a healthy economy",
-    "explanation": "Diamond-Mortensen-Pissarides (DMP) models explain 'frictional unemployment': even in booms, matching workers to jobs takes time. The model generates equilibrium unemployment from search and matching frictions — the Beveridge curve (negative relationship between unemployment and vacancy rates) is a key empirical implication. The theory has been used to analyse minimum wages, unemployment insurance generosity (longer benefits = higher reservation wages = more frictional unemployment), and hiring subsidies.",
+    "explanation": "Diamond-Mortensen-Pissarides (DMP) models explain 'frictional unemployment': even in booms, matching workers to jobs takes time. The model generates equilibrium unemployment from search and matching frictions — the Beveridge curve (negative relationship between unemployment and vacancy rates) is a key empirical implication. The theory has been used to analyze minimum wages, unemployment insurance generosity (longer benefits = higher reservation wages = more frictional unemployment), and hiring subsidies.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -976,7 +977,7 @@
     "prompt": "Jean Tirole (2014 Nobel) is best known for his analysis of market power and optimal regulation. What is his key insight about regulating natural monopolies (like electricity grids)?",
     "choices": [
       "Regulators should use asymmetric information tools — since firms know their own costs and regulators don't, regulation should create incentives for firms to reveal this information, e.g., offering menu contracts",
-      "Natural monopolies should always be nationalised because private ownership produces monopoly prices",
+      "Natural monopolies should always be nationalized because private ownership produces monopoly prices",
       "Natural monopolies are best regulated by breaking them up into competing units, regardless of scale economy losses",
       "The optimal regulation of natural monopolies requires setting prices equal to long-run marginal cost, regardless of fixed costs"
     ],
@@ -996,13 +997,13 @@
   {
     "id": "nobel-043",
     "category": "nobel",
-    "difficulty": 1,
+    "difficulty": 3,
     "format": "mc",
-    "prompt": "Joshua Angrist and Guido Imbens shared the 2021 Nobel Prize (with David Card) for their methodological contributions. What is their main contribution to economic research?",
+    "prompt": "Joshua Angrist and Guido Imbens shared the 2021 Nobel Prise (with David Card) for their methodological contributions. What is their main contribution to economic research?",
     "choices": [
       "Developing the LATE framework — Local Average Treatment Effect — which clarifies what causal effects are estimated by natural experiments and instrumental variables",
       "Creating regression discontinuity design as a causal identification strategy",
-      "Showing that randomised controlled trials can be used to study labour market policy",
+      "Showing that randomized controlled trials can be used to study labour market policy",
       "Introducing the synthetic control method for policy evaluation"
     ],
     "answer": "Developing the LATE framework — Local Average Treatment Effect — which clarifies what causal effects are estimated by natural experiments and instrumental variables",
@@ -1023,15 +1024,15 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "David Card won the 2021 Nobel Prize for empirical labour economics. His most famous study, with Alan Krueger, challenged the standard prediction that minimum wage increases cause unemployment. What was their methodology?",
+    "prompt": "David Card won the 2021 Nobel Prise for empirical labour economics. His most famous study, with Alan Krueger, challenged the standard prediction that minimum wage increases cause unemployment. What was their methodology?",
     "choices": [
       "A natural experiment: New Jersey raised its minimum wage while neighbouring Pennsylvania did not — comparing fast food employment in both states before and after the change",
-      "A randomised controlled trial: randomly assigning minimum wage increases to different towns in New Jersey",
+      "A randomized controlled trial: randomly assigning minimum wage increases to different towns in New Jersey",
       "A meta-analysis: aggregating all published minimum wage studies and correcting for publication bias",
       "A regression discontinuity: comparing workers just above and below the minimum wage threshold"
     ],
     "answer": "A natural experiment: New Jersey raised its minimum wage while neighbouring Pennsylvania did not — comparing fast food employment in both states before and after the change",
-    "explanation": "Card and Krueger (1994) surveyed fast food restaurants in New Jersey and Pennsylvania before and after NJ raised its minimum wage from $4.25 to $5.05 in 1992. PA was the control group. They found no significant employment fall — and if anything, slightly higher employment in NJ. The paper transformed the minimum wage debate and helped launch the natural experiment revolution in economics. Card received the 2021 Nobel; Krueger, who died in 2019, was ineligible as the prize is not awarded posthumously.",
+    "explanation": "Card and Krueger (1994) surveyed fast food restaurants in New Jersey and Pennsylvania before and after NJ raised its minimum wage from $4.25 to $5.05 in 1992. PA was the control group. They found no significant employment fall — and if anything, slightly higher employment in NJ. The paper transformed the minimum wage debate and helped launch the natural experiment revolution in economics. Card received the 2021 Nobel; Krueger, who died in 2019, was ineligible as the prise is not awarded posthumously.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1048,15 +1049,15 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Myron Scholes and Robert Merton shared the 1997 Nobel Prize for the Black-Scholes-Merton options pricing formula. Fischer Black was not included because he had died in 1995. Shortly after winning the prize, what happened to the firm Scholes and Merton founded?",
+    "prompt": "Myron Scholes and Robert Merton shared the 1997 Nobel Prise for the Black-Scholes-Merton options pricing formula; Fischer Black was not included because he had died in 1995. Shortly after the prise, what happened to the hedge fund where Scholes and Merton were partners?",
     "choices": [
       "Long-Term Capital Management (LTCM) collapsed in 1998, requiring a $3.6 billion Fed-brokered private bailout — showing the limits of financial models in the face of correlated market crises",
-      "Salomon Brothers, where Black worked, merged with Goldman Sachs using a valuation methodology derived from their Nobel work",
-      "Their hedge fund became the world's largest and most profitable, vindicating the Black-Scholes formula's practical use",
-      "They founded a regulatory consultancy that helped design the Basel II framework for bank risk management"
+      "It merged into Goldman Sachs in 1998 at a premium valuation, a deal widely seen as vindicating their formula",
+      "It became the world's largest and most profitable hedge fund, vindicating the Black-Scholes formula's practical use",
+      "It became a regulatory consultancy that helped design the Basel II framework for bank risk management"
     ],
     "answer": "Long-Term Capital Management (LTCM) collapsed in 1998, requiring a $3.6 billion Fed-brokered private bailout — showing the limits of financial models in the face of correlated market crises",
-    "explanation": "LTCM's collapse (1998) became one of the most famous cautionary tales in finance. Using massive leverage (at times 25:1) and complex arbitrage strategies relying on historical correlations, LTCM lost 90% of its capital in weeks when the 1998 Russia default and Asian crisis caused correlations that their models assumed were near zero to spike simultaneously. The Fed organised a $3.6B private rescue to prevent a cascade of counterparty failures. The irony of Nobel Prize winners nearly triggering a financial crisis shaped subsequent risk management thinking.",
+    "explanation": "LTCM, founded in 1994 by John Meriwether with Scholes and Merton as partners, collapsed in 1998 and became one of the most famous cautionary tales in finance. Using massive leverage (at times about 25:1) and complex arbitrage strategies that relied on historical correlations, it lost most of its capital in weeks when the 1998 Russian default made correlations that its models assumed were low spike together. The New York Fed organized a $3.6 billion private rescue by a group of banks to prevent a cascade of counterparty failures.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1074,24 +1075,24 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Amartya Sen (1998 Nobel) is famous for his research on famines. His core finding, based on historical famines in India and Africa, was:",
+    "prompt": "In a famous 1990 essay, Amartya Sen estimated that more than 100 million women were 'missing' from the world's population. What did he mean?",
     "choices": [
-      "Most modern famines occur not due to a shortage of food but because certain groups lose the 'entitlements' (income, purchasing power) to buy available food",
-      "Colonial agricultural policies systematically depleted food stocks in developing countries, making famines inevitable",
-      "Famines are always caused by drought or crop failure — the food availability decline is the primary cause",
-      "Democratic governments are equally prone to famines as authoritarian ones, contrary to popular belief"
+      "The shortfall of women implied by higher female mortality and sex-selective abortion, compared with what equal care would produce",
+      "Women who emigrated from developing countries and were never counted in their home censuses",
+      "Women in unpaid or informal work who are left out of official labour-force statistics",
+      "The gap between expected and actual births as countries industrialized and fertility fell"
     ],
-    "answer": "Most modern famines occur not due to a shortage of food but because certain groups lose the 'entitlements' (income, purchasing power) to buy available food",
-    "explanation": "Sen's Poverty and Famines (1981) examined the Bengal famine of 1943, the Ethiopian famine of 1973, and others. He found that total food availability did not fall drastically in most cases — instead, specific groups (landless labourers, artisans) lost their economic power to command food. His 'entitlement approach' shifted famine policy from supply-side interventions (shipping food) to protecting people's command over food (cash transfers, employment guarantees). He also argued that famines have never occurred in functioning democracies, where political accountability forces government response.",
+    "answer": "The shortfall of women implied by higher female mortality and sex-selective abortion, compared with what equal care would produce",
+    "explanation": "In 'More Than 100 Million Women Are Missing' (New York Review of Books, 1990), Sen compared the ratio of women to men in parts of Asia and North Africa with the ratio in Europe and North America, where women normally outnumber men. The shortfall reflects excess female mortality from neglect in health care and nutrition and, later, sex-selective abortion. Later demographers refined the numbers, but the term 'missing women' stuck.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
     "tags": [
+      "Nobel 1998",
       "Sen",
-      "1998 Nobel",
-      "famine",
-      "entitlement approach",
-      "capabilities"
+      "missing women",
+      "gender",
+      "demography"
     ]
   },
   {
@@ -1099,7 +1100,7 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Oliver Williamson shared the 2009 Nobel Prize (with Elinor Ostrom) for his work on transaction cost economics. What is his central question about firms?",
+    "prompt": "Oliver Williamson shared the 2009 Nobel Prise (with Elinor Ostrom) for his work on transaction cost economics. What is his central question about firms?",
     "choices": [
       "Why do firms exist at all rather than contracting everything through markets — and what determines the boundary between what a firm does internally versus what it outsources?",
       "How do firms set prices when they have market power in the presence of price-sensitive consumers?",
@@ -1107,7 +1108,7 @@
       "What determines whether a firm's production function exhibits increasing or decreasing returns to scale?"
     ],
     "answer": "Why do firms exist at all rather than contracting everything through markets — and what determines the boundary between what a firm does internally versus what it outsources?",
-    "explanation": "Following Coase's 1937 'The Nature of the Firm', Williamson developed transaction cost economics: firms internalise activities when market transactions involve high 'transaction costs' — especially when contracts are incomplete (not all contingencies can be written down) and one party makes relationship-specific investments that can be 'held up' by the other. Highly specific, complex transactions should be done within firms; standardised, well-specified transactions can be safely outsourced. This framework informs vertical integration decisions in business strategy.",
+    "explanation": "Following Coase's 1937 'The Nature of the Firm', Williamson developed transaction cost economics: firms internalize activities when market transactions involve high 'transaction costs' — especially when contracts are incomplete (not all contingencies can be written down) and one party makes relationship-specific investments that can be 'held up' by the other. Highly specific, complex transactions should be done within firms; standardized, well-specified transactions can be safely outsourced. This framework informs vertical integration decisions in business strategy.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1124,15 +1125,15 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Leonid Hurwicz, Eric Maskin, and Roger Myerson shared the 2007 Nobel Prize for mechanism design theory. What fundamental question does mechanism design address?",
+    "prompt": "Leonid Hurwicz, Eric Maskin, and Roger Myerson shared the 2007 Nobel Prise for mechanism design theory. What fundamental question does mechanism design address?",
     "choices": [
       "How to design rules (a 'mechanism' or game) so that when self-interested agents play it, the equilibrium outcome is socially desirable — even when the designer doesn't know private information agents hold",
       "How market mechanisms should be designed to allocate resources efficiently without government intervention",
       "How financial market regulations should be designed to prevent manipulation and ensure price discovery",
-      "How international trade agreements should be designed to maximise global welfare given countries' self-interest"
+      "How international trade agreements should be designed to maximize global welfare given countries' self-interest"
     ],
     "answer": "How to design rules (a 'mechanism' or game) so that when self-interested agents play it, the equilibrium outcome is socially desirable — even when the designer doesn't know private information agents hold",
-    "explanation": "Mechanism design is 'reverse game theory': instead of analysing the equilibrium of an existing game, you design the game to achieve a desired outcome. Key concept: incentive compatibility — agents voluntarily reveal their private information or behave as desired because it's in their self-interest. Applications include auction design (FCC spectrum auctions), matching markets (kidney exchange, medical residency), optimal taxation (Mirrlees), and regulatory design (Tirole). The 2012 Nobel to Roth and Shapley extended this to practical matching market design.",
+    "explanation": "Mechanism design is 'reverse game theory': instead of analyzing the equilibrium of an existing game, you design the game to achieve a desired outcome. Key concept: incentive compatibility — agents voluntarily reveal their private information or behave as desired because it's in their self-interest. Applications include auction design (FCC spectrum auctions), matching markets (kidney exchange, medical residency), optimal taxation (Mirrlees), and regulatory design (Tirole). The 2012 Nobel to Roth and Shapley extended this to practical matching market design.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1150,15 +1151,15 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Alvin Roth and Lloyd Shapley shared the 2012 Nobel Prize for matching market theory. What practical problem did Roth apply Shapley's theory to redesign?",
+    "prompt": "Alvin Roth and Lloyd Shapley shared the 2012 Nobel Prise for matching market theory. Which of these real-world markets did Roth help redesign using Shapley-style stable matching?",
     "choices": [
-      "The US National Residency Matching Program (NRMP) for matching medical students to hospital residencies — and later kidney exchange matching",
-      "The US Treasury spectrum auctions for mobile telephone licenses",
-      "School choice programmes in New York and Boston, using stable matching algorithms to place students",
-      "Both school choice programmes and kidney exchange — two distinct real-world applications"
+      "The US system that matches medical graduates to hospital residencies (the NRMP)",
+      "The US auctions of radio spectrum licences for mobile telephones",
+      "The US Treasury system for auctioning government bonds",
+      "The opening-price auctions on major stock exchanges"
     ],
-    "answer": "Both school choice programmes and kidney exchange — two distinct real-world applications",
-    "explanation": "Roth applied Shapley's stable matching algorithms to multiple real markets. He redesigned the Boston and New York City school choice systems to use the Deferred Acceptance algorithm (which produces stable matchings). He also helped create kidney exchange networks where donors who are incompatible with their intended recipients can swap, enabling transplants that would otherwise be impossible. Roth and Shapley's work established 'market design' as a field where economists engineer actual institutions — earning the nickname 'economic engineering'.",
+    "answer": "The US system that matches medical graduates to hospital residencies (the NRMP)",
+    "explanation": "Roth redesigned the National Resident Matching Program in the late 1990s around a stable-matching (deferred acceptance) algorithm, and later applied the same ideas to school choice in New York City and Boston and to kidney exchange networks, where incompatible donor-recipient pairs swap donors. Spectrum auctions were designed by other economists (Milgrom and Wilson, who won in 2020). Roth and Shapley's work established 'market design' as a field in which economists engineer real institutions.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1176,7 +1177,7 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Which Nobel Prize-winning economist developed the 'capabilities approach' to human development, arguing that poverty should be measured not by income but by people's ability to live a fully human life?",
+    "prompt": "Which Nobel Prise-winning economist developed the 'capabilities approach' to human development, arguing that poverty should be measured not by income but by people's ability to live a fully human life?",
     "choices": [
       "Amartya Sen",
       "Angus Deaton",
@@ -1201,15 +1202,15 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "George Akerlof (2001 Nobel) coined the term 'phishing for phools' to describe markets that exploit psychological biases. Which of his earlier, more famous concepts shares the same intellectual theme of information asymmetry?",
+    "prompt": "George Akerlof (2001 Nobel) co-wrote 'Phishing for Phools' with Robert Shiller, a book about markets that exploit human weaknesses. Which of his other best-known ideas centres on information asymmetry?",
     "choices": [
       "The market for lemons — when sellers know more about quality than buyers, the market can unravel as only bad quality survives",
-      "Efficiency wages — paying workers above market rates to induce effort and reduce turnover",
+      "Identity economics — how a sense of social identity shapes economic choices",
       "Menu costs — small costs of changing prices that cause nominal price stickiness",
       "Animal spirits — fluctuations in business confidence driving macroeconomic cycles"
     ],
     "answer": "The market for lemons — when sellers know more about quality than buyers, the market can unravel as only bad quality survives",
-    "explanation": "Akerlof's 'Market for Lemons' (1970) is perhaps the most cited economics paper of the 20th century. It showed that asymmetric information about quality can destroy markets entirely: used car sellers know whether their car is a 'lemon' (bad) or 'peach' (good); buyers don't. Knowing this, buyers offer only average prices; high-quality sellers withdraw; average quality falls; buyers lower offers; more sellers withdraw — a death spiral. The same logic applies to insurance (adverse selection), labour markets (employer uncertainty about worker quality), and financial markets.",
+    "explanation": "Akerlof's 'Market for Lemons' (1970) is one of the most cited economics papers ever written. It showed that asymmetric information about quality can destroy markets: used car sellers know whether their car is a 'lemon' (bad) or a 'peach' (good), but buyers do not. Knowing this, buyers offer only average prices; high-quality sellers withdraw; average quality falls; buyers lower their offers; more sellers withdraw, a death spiral. The same logic applies to insurance (adverse selection), labour markets and financial markets.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1226,14 +1227,14 @@
     "category": "nobel",
     "difficulty": 3,
     "format": "order",
-    "prompt": "Put these Nobel Prize-winning economists in order from the earliest to the latest prize year.",
+    "prompt": "Sort these laureates by the year they won the economics prise, earliest first.",
     "items": [
       "Paul Samuelson",
       "Gary Becker",
       "Robert Lucas",
       "Claudia Goldin"
     ],
-    "order_by": "Nobel Prize year",
+    "order_by": "Nobel Prise year",
     "answer": "Samuelson (1970) → Becker (1992) → Lucas (1995) → Goldin (2023)",
     "explanation": "Paul Samuelson — 1970 (second-ever economics Nobel, for mathematical methods and Keynesian synthesis). Gary Becker — 1992 (for extending economics to social behaviour: crime, marriage, discrimination). Robert Lucas — 1995 (for rational expectations and business cycle theory). Claudia Goldin — 2023 (for research on women's labour market outcomes and the gender wage gap).",
     "source": null,
@@ -1253,11 +1254,11 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "William Vickrey shared the 1996 Nobel Prize (awarded posthumously to James Mirrlees as well). Vickrey's most famous contribution was the second-price sealed-bid auction. Why does bidding your true value dominate in a Vickrey auction?",
+    "prompt": "William Vickrey shared the 1996 Nobel Prise with James Mirrlees and died just days after the award was announced. Vickrey's most famous contribution was the second-price sealed-bid auction. Why does bidding your true value dominate in a Vickrey auction?",
     "choices": [
       "You pay only the second-highest bid if you win — so there's no incentive to shade your bid downward, and bidding your true value is weakly dominant regardless of what others bid",
       "The auctioneer reveals all bids to all participants, making strategic bidding impossible",
-      "In a second-price auction, the winner always profits, making underbidding a dominated strategy",
+      "Because you pay your own bid, any shading below your true value costs you the item without saving you money",
       "The Vickrey design only works for government procurement auctions where competitive bidding is legally required"
     ],
     "answer": "You pay only the second-highest bid if you win — so there's no incentive to shade your bid downward, and bidding your true value is weakly dominant regardless of what others bid",
@@ -1278,7 +1279,7 @@
     "category": "nobel",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Richard Thaler won the 2017 Nobel Prize for behavioural economics. Which of the following is Thaler's concept, distinct from Daniel Kahneman's?",
+    "prompt": "Richard Thaler won the 2017 Nobel Prise for behavioural economics. Which of the following is Thaler's concept, distinct from Daniel Kahneman's?",
     "choices": [
       "Mental accounting — people separate money into mental 'buckets' and treat it differently depending on its source or intended use, violating the fungibility of money",
       "Prospect theory — the S-shaped value function showing loss aversion and diminishing sensitivity",
@@ -1286,7 +1287,7 @@
       "The representativeness heuristic — judging probability by how similar something is to a prototype"
     ],
     "answer": "Mental accounting — people separate money into mental 'buckets' and treat it differently depending on its source or intended use, violating the fungibility of money",
-    "explanation": "Mental accounting is Thaler's concept: people treat a $100 tax rebate differently from $100 of regular salary, spend a lottery win differently from earned income, and won't dip into an emergency fund even while carrying credit card debt. Rationally, money is fungible — a dollar is a dollar regardless of source. Thaler also developed the endowment effect (valuing owned objects more), the hot-hand fallacy research (with Gilovich and Vallone), and 'SMarT' (Save More Tomorrow) — a retirement savings nudge using mental accounting.",
+    "explanation": "Mental accounting is Thaler's concept: people treat a $100 tax rebate differently from $100 of regular salary, spend a lottery win differently from earned income, and won't dip into an emergency fund even while carrying credit card debt. Rationally, money is fungible: a dollar is a dollar regardless of source. Thaler also named the endowment effect (valuing owned objects more, later tested with Kahneman and Knetsch) and, with Shlomo Benartzi, designed 'Save More Tomorrow', a retirement-savings nudge that uses mental accounting.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1302,15 +1303,15 @@
     "category": "nobel",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Christopher Sims and Thomas Sargent shared the 2011 Nobel Prize for empirical macroeconomics. Sims is best known for developing which technique?",
+    "prompt": "Christopher Sims and Thomas Sargent shared the 2011 Nobel Prise for empirical macroeconomics. Sims is best known for developing which technique?",
     "choices": [
       "Vector autoregression (VAR) — a system of equations where each variable is regressed on its own past values and past values of all other variables, without imposing strong theoretical restrictions",
-      "Generalised method of moments (GMM) — a flexible estimator that uses moment conditions derived from economic theory",
+      "Generalized method of moments (GMM) — a flexible estimator that uses moment conditions derived from economic theory",
       "Structural break tests — identifying sudden changes in macroeconomic relationships caused by policy regime changes",
       "Bayesian DSGE estimation — combining prior beliefs about parameters with macroeconomic data"
     ],
     "answer": "Vector autoregression (VAR) — a system of equations where each variable is regressed on its own past values and past values of all other variables, without imposing strong theoretical restrictions",
-    "explanation": "Sims (1980) developed VAR models as an alternative to large structural macroeconomic models that imposed many controversial theoretical restrictions. His critique: 'all the restrictions in macroeconomic models are incredible.' VAR lets the data speak. Key application: structural VARs identify monetary policy shocks (how does output respond to an unexpected interest rate rise?) using identifying assumptions about the error structure. Sargent's complementary contribution was rational expectations econometrics — testing whether macroeconomic data was consistent with agents having rational expectations.",
+    "explanation": "Sims (1980) developed VAR models as an alternative to large structural macroeconomic models that imposed many controversial theoretical restrictions, which he called 'incredible'. VARs let the data speak. A key application is the structural VAR, which identifies monetary policy shocks (how does output respond to an unexpected interest rate rise?) using identifying assumptions about the error structure. Sargent's complementary contribution was rational expectations econometrics: testing whether macroeconomic data was consistent with agents having rational expectations.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,

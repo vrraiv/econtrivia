@@ -16,14 +16,17 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["general equilibrium", "SMD"]
+    "tags": [
+      "general equilibrium",
+      "SMD"
+    ]
   },
   {
     "id": "theory-002",
     "category": "theory",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Arrow's Impossibility Theorem proves that any rank-order voting system satisfying Pareto efficiency and independence of irrelevant alternatives must be:",
+    "prompt": "Arrow's Impossibility Theorem proves that, with three or more options and unrestricted preferences, any rank-order voting system satisfying Pareto efficiency and independence of irrelevant alternatives must be:",
     "choices": [
       "a dictatorship",
       "utilitarian",
@@ -35,7 +38,10 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["social choice", "Arrow"]
+    "tags": [
+      "social choice",
+      "Arrow"
+    ]
   },
   {
     "id": "theory-003",
@@ -48,7 +54,10 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["game theory", "Nash"]
+    "tags": [
+      "game theory",
+      "Nash"
+    ]
   },
   {
     "id": "theory-004",
@@ -60,14 +69,17 @@
       "Pareto efficient",
       "Rawlsian fair",
       "utilitarian optimal",
-      "Kaldor–Hicks efficient"
+      "egalitarian (equal incomes for all)"
     ],
     "answer": "Pareto efficient",
-    "explanation": "The First Welfare Theorem says competitive equilibria are Pareto efficient — no one can be made better off without making someone worse off. It requires no externalities, complete markets, and rational agents.",
+    "explanation": "The First Welfare Theorem says competitive equilibria are Pareto efficient — no one can be made better off without making someone worse off. It requires conditions such as no externalities, complete markets, price-taking, and non-satiated preferences. It says nothing about whether the outcome is fair or equal.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["welfare economics", "Pareto"]
+    "tags": [
+      "welfare economics",
+      "Pareto"
+    ]
   },
   {
     "id": "theory-005",
@@ -86,7 +98,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Coase", "externalities", "property rights", "transaction costs"]
+    "tags": [
+      "Coase",
+      "externalities",
+      "property rights",
+      "transaction costs"
+    ]
   },
   {
     "id": "theory-006",
@@ -105,7 +122,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["adverse selection", "Akerlof", "information asymmetry", "lemons"]
+    "tags": [
+      "adverse selection",
+      "Akerlof",
+      "information asymmetry",
+      "lemons"
+    ]
   },
   {
     "id": "theory-007",
@@ -118,7 +140,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["moral hazard", "principal-agent", "insurance"]
+    "tags": [
+      "moral hazard",
+      "principal-agent",
+      "insurance"
+    ]
   },
   {
     "id": "theory-008",
@@ -133,25 +159,41 @@
       "government provision (it must be supplied by the state)"
     ],
     "answer": "non-rivalry (one person's use does not reduce availability to others)",
-    "explanation": "National defence, lighthouses, and public fireworks are classic examples. Because both properties hold simultaneously, markets undersupply public goods — private producers cannot exclude free-riders, so they cannot recover costs through user charges.",
+    "explanation": "National defence, clean air, and public fireworks are classic examples. Because both properties hold simultaneously, markets tend to undersupply public goods — private producers cannot exclude free-riders, so they cannot recover costs through user charges.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["public goods", "non-rivalry", "non-excludability", "free rider"]
+    "tags": [
+      "public goods",
+      "non-rivalry",
+      "non-excludability",
+      "free rider"
+    ]
   },
   {
     "id": "theory-009",
     "category": "theory",
     "difficulty": 1,
     "format": "short",
-    "prompt": "A tax set equal to the marginal social damage of a negative externality — designed to make the polluter 'internalise' the cost imposed on others — is named after which British economist?",
+    "prompt": "A tax set equal to the marginal social damage of a negative externality — designed to make the polluter 'internalize' the cost imposed on others — is named after which British economist?",
     "answer": "Arthur Pigou",
-    "accept": ["Pigou", "Arthur Pigou", "A.C. Pigou", "A. C. Pigou", "Arthur Cecil Pigou"],
-    "explanation": "Arthur Pigou formalised the corrective tax in The Economics of Welfare (1920). His mentor Alfred Marshall had introduced externalities; Pigou showed the government could restore efficiency with a tax equal to marginal external cost. The modern carbon tax is the most prominent application.",
+    "accept": [
+      "Pigou",
+      "Arthur Pigou",
+      "A.C. Pigou",
+      "A. C. Pigou",
+      "Arthur Cecil Pigou"
+    ],
+    "explanation": "Arthur Pigou formalized the corrective tax in The Economics of Welfare (1920). His mentor Alfred Marshall had introduced externalities; Pigou showed the government could restore efficiency with a tax equal to marginal external cost. The modern carbon tax is the most prominent application.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Pigou", "externalities", "carbon tax", "welfare economics"]
+    "tags": [
+      "Pigou",
+      "externalities",
+      "carbon tax",
+      "welfare economics"
+    ]
   },
   {
     "id": "theory-010",
@@ -160,11 +202,16 @@
     "format": "tf",
     "prompt": "The 'tragedy of the commons,' as described by Garrett Hardin (1968), holds that an open-access shared resource will be over-exploited because each user captures the full benefit of using it but bears only a fraction of the total cost.",
     "answer": true,
-    "explanation": "Hardin's classic example: a shared pasture. Each herder gains fully from adding another animal but shares the overgrazing cost with everyone. Elinor Ostrom later showed many communities manage commons sustainably through norms and institutions — work that earned her the 2009 Nobel Prize.",
+    "explanation": "Hardin's classic example: a shared pasture. Each herder gains fully from adding another animal but shares the overgrazing cost with everyone. Elinor Ostrom later showed many communities manage commons sustainably through norms and institutions — work that earned her the 2009 Nobel Prise.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["tragedy of the commons", "Hardin", "common-pool resources", "Ostrom"]
+    "tags": [
+      "tragedy of the commons",
+      "Hardin",
+      "common-pool resources",
+      "Ostrom"
+    ]
   },
   {
     "id": "theory-011",
@@ -179,11 +226,16 @@
       "bid the average of their value and expected rivals' bids"
     ],
     "answer": "bid their true value for the item",
-    "explanation": "Because the winner pays the second-highest bid — not their own — overbidding risks paying more than the item is worth, while underbidding risks losing a worthwhile purchase. The unique equilibrium is truthful bidding regardless of others' values. This incentive-compatibility property made Vickrey auctions central to mechanism design theory.",
+    "explanation": "Because the winner pays the second-highest bid — not their own — overbidding risks paying more than the item is worth, while underbidding risks losing a worthwhile purchase. Bidding your true value is a weakly dominant strategy: it does at least as well as any other bid, whatever rivals do. (Other equilibria exist, but truthful bidding is the only strategy that requires no guesses about rivals.) This incentive-compatibility property made Vickrey auctions central to mechanism design theory.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Vickrey", "auction", "dominant strategy", "mechanism design"]
+    "tags": [
+      "Vickrey",
+      "auction",
+      "dominant strategy",
+      "mechanism design"
+    ]
   },
   {
     "id": "theory-012",
@@ -195,14 +247,19 @@
       "acquiring the credential is less costly (in time or effort) for high-ability workers than for low-ability workers",
       "education directly raises worker productivity by the same amount for all ability types",
       "employers cannot observe whether workers have completed their degrees",
-      "governments subsidise tuition to make the signal universally accessible"
+      "governments subsidize tuition to make the signal universally accessible"
     ],
     "answer": "acquiring the credential is less costly (in time or effort) for high-ability workers than for low-ability workers",
-    "explanation": "Spence's key insight is that education can constitute a separating equilibrium even if it raises no one's productivity — provided it is sufficiently cheaper for high-ability types. This 'single-crossing' condition prevents low-ability workers from profitably mimicking the signal. Spence shared the 2001 Nobel Prize with Stiglitz and Akerlof.",
+    "explanation": "Spence's key insight is that education can constitute a separating equilibrium even if it raises no one's productivity — provided it is sufficiently cheaper for high-ability types. This 'single-crossing' condition prevents low-ability workers from profitably mimicking the signal. Spence shared the 2001 Nobel Prise with Stiglitz and Akerlof.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Spence", "signalling", "information asymmetry", "education"]
+    "tags": [
+      "Spence",
+      "signalling",
+      "information asymmetry",
+      "education"
+    ]
   },
   {
     "id": "theory-013",
@@ -217,11 +274,17 @@
       "diminishing marginal utility based solely on absolute wealth levels"
     ],
     "answer": "loss aversion: losses loom roughly twice as large as equivalent gains",
-    "explanation": "Prospect theory proposes that people evaluate outcomes relative to a reference point, weight losses about twice as heavily as equal gains, and overweight small probabilities. Kahneman won the 2002 Nobel Prize in Economics (Tversky had died in 1996 and prizes are not awarded posthumously).",
+    "explanation": "Prospect theory proposes that people evaluate outcomes relative to a reference point, weight losses about twice as heavily as equal gains, and overweight small probabilities. Kahneman won the 2002 Nobel Prise in Economics (Tversky had died in 1996 and prises are not awarded posthumously).",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Kahneman", "Tversky", "prospect theory", "loss aversion", "behavioural economics"]
+    "tags": [
+      "Kahneman",
+      "Tversky",
+      "prospect theory",
+      "loss aversion",
+      "behavioural economics"
+    ]
   },
   {
     "id": "theory-014",
@@ -230,11 +293,16 @@
     "format": "tf",
     "prompt": "Richard Thaler and Cass Sunstein coined the term 'libertarian paternalism' to describe policies that steer people toward better choices (e.g. through default options) while preserving full freedom to opt out.",
     "answer": true,
-    "explanation": "Their 2008 book Nudge popularised 'choice architecture': changing default enrolment for pensions, organ donation, and green energy so that inertia works in people's favour. Thaler won the 2017 Nobel Prize for contributions to behavioural economics.",
+    "explanation": "Their 2008 book Nudge popularized 'choice architecture': changing default enrolment for pensions, organ donation, and green energy so that inertia works in people's favour. Thaler won the 2017 Nobel Prise for contributions to behavioural economics.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Thaler", "nudge", "libertarian paternalism", "behavioural economics"]
+    "tags": [
+      "Thaler",
+      "nudge",
+      "libertarian paternalism",
+      "behavioural economics"
+    ]
   },
   {
     "id": "theory-015",
@@ -243,11 +311,17 @@
     "format": "tf",
     "prompt": "A national park with free open access is an example of a 'club good' — that is, it is both excludable and non-rival in consumption.",
     "answer": false,
-    "explanation": "A freely accessible park is non-excludable (anyone can enter) and, up to congestion, non-rival — making it closer to a public good or common-pool resource. Club goods (Netflix, toll roads, private gyms) are excludable but non-rival up to capacity. Buchanan (1965) formalised club goods theory.",
+    "explanation": "A freely accessible park is non-excludable (anyone can enter) and, up to congestion, non-rival — making it closer to a public good or common-pool resource. Club goods (Netflix, toll roads, private gyms) are excludable but non-rival up to capacity. Buchanan (1965) formalized club goods theory.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["club goods", "public goods", "Buchanan", "excludability", "non-rivalry"]
+    "tags": [
+      "club goods",
+      "public goods",
+      "Buchanan",
+      "excludability",
+      "non-rivalry"
+    ]
   },
   {
     "id": "theory-016",
@@ -266,7 +340,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["EMH", "Fama", "efficient markets", "semi-strong"]
+    "tags": [
+      "EMH",
+      "Fama",
+      "efficient markets",
+      "semi-strong"
+    ]
   },
   {
     "id": "theory-017",
@@ -285,7 +364,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Phillips curve", "unemployment", "inflation", "stagflation"]
+    "tags": [
+      "Phillips curve",
+      "unemployment",
+      "inflation",
+      "stagflation"
+    ]
   },
   {
     "id": "theory-018",
@@ -294,24 +378,28 @@
     "format": "mc",
     "prompt": "The Second Fundamental Theorem of Welfare Economics states that:",
     "choices": [
-      "any Pareto-efficient allocation can be decentralised as a competitive equilibrium following an appropriate lump-sum redistribution of endowments",
+      "any Pareto-efficient allocation can be decentralized as a competitive equilibrium following an appropriate lump-sum redistribution of endowments",
       "every competitive equilibrium is Pareto efficient",
       "governments can always improve on market outcomes through redistribution",
       "externalities are the only barrier to competitive equilibria being efficient"
     ],
-    "answer": "any Pareto-efficient allocation can be decentralised as a competitive equilibrium following an appropriate lump-sum redistribution of endowments",
+    "answer": "any Pareto-efficient allocation can be decentralized as a competitive equilibrium following an appropriate lump-sum redistribution of endowments",
     "explanation": "The Second Welfare Theorem separates efficiency from equity: pick any Pareto-efficient outcome as your social goal, redistribute initial endowments via lump-sum transfers, and markets will deliver it. The practical problem is that lump-sum taxes are generally not feasible — real taxes distort incentives.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Second Welfare Theorem", "Pareto efficiency", "lump-sum redistribution"]
+    "tags": [
+      "Second Welfare Theorem",
+      "Pareto efficiency",
+      "lump-sum redistribution"
+    ]
   },
   {
     "id": "theory-019",
     "category": "theory",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Ricardian equivalence (formalised by Barro in 1974) implies that deficit-financed tax cuts will not raise aggregate demand because:",
+    "prompt": "Ricardian equivalence (formalized by Barro in 1974) implies that deficit-financed tax cuts will not raise aggregate demand because:",
     "choices": [
       "rational, forward-looking households save the full tax cut, anticipating higher future taxes to repay the debt",
       "higher government borrowing crowds out private investment through rising interest rates",
@@ -319,25 +407,40 @@
       "fiscal multipliers are zero whenever the central bank targets a nominal interest rate"
     ],
     "answer": "rational, forward-looking households save the full tax cut, anticipating higher future taxes to repay the debt",
-    "explanation": "Barro argued that under perfect capital markets and rational expectations, a government deficit today implies future tax liabilities of equal present value. Households internalise this and save exactly the amount needed to pay those taxes — leaving consumption and aggregate demand unchanged. Critics note the result requires no liquidity constraints and operative bequest motives.",
+    "explanation": "Barro argued that under perfect capital markets and rational expectations, a government deficit today implies future tax liabilities of equal present value. Households internalize this and save exactly the amount needed to pay those taxes — leaving consumption and aggregate demand unchanged. Critics note the result requires no liquidity constraints and operative bequest motives.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Ricardian equivalence", "Barro", "fiscal policy", "rational expectations"]
+    "tags": [
+      "Ricardian equivalence",
+      "Barro",
+      "fiscal policy",
+      "rational expectations"
+    ]
   },
   {
     "id": "theory-020",
     "category": "theory",
     "difficulty": 2,
     "format": "short",
-    "prompt": "What does the acronym DSGE stand for — the class of macroeconomic models used by central banks to analyse and forecast the economy?",
+    "prompt": "What does the acronym DSGE stand for — the class of macroeconomic models used by central banks to analyze and forecast the economy?",
     "answer": "Dynamic Stochastic General Equilibrium",
-    "accept": ["Dynamic Stochastic General Equilibrium", "dynamic stochastic general equilibrium", "Dynamic Stochastic General Equillibrium", "dynamic stochastic general equillibrium"],
-    "explanation": "DSGE models combine optimising households and firms (microfoundations), stochastic shocks (e.g. technology, demand), and general equilibrium. They became the workhorse of central bank modelling in the 2000s but were widely criticised for failing to incorporate financial frictions before the 2008 crisis.",
+    "accept": [
+      "Dynamic Stochastic General Equilibrium",
+      "dynamic stochastic general equilibrium",
+      "Dynamic Stochastic General Equillibrium",
+      "dynamic stochastic general equillibrium"
+    ],
+    "explanation": "DSGE models combine optimizing households and firms (microfoundations), stochastic shocks (e.g. technology, demand), and general equilibrium. They became the workhorse of central bank modelling in the 2000s but were widely criticized for failing to incorporate financial frictions before the 2008 crisis.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["DSGE", "macroeconomics", "central bank", "models"]
+    "tags": [
+      "DSGE",
+      "macroeconomics",
+      "central bank",
+      "models"
+    ]
   },
   {
     "id": "theory-021",
@@ -352,11 +455,16 @@
       "the unique stable matching regardless of which side proposes"
     ],
     "answer": "their best possible stable matching",
-    "explanation": "Gale–Shapley is proposer-optimal: the proposing side gets the best outcome across all stable matchings, while the receiving side gets the worst. Medical residency programmes that use deferred acceptance — where hospitals or programmes propose — are programme-optimal rather than applicant-optimal. Roth and Shapley won the 2012 Nobel for this work.",
+    "explanation": "Gale–Shapley is proposer-optimal: the proposing side gets its best outcome across all stable matchings, while the receiving side gets its worst. This is why the design choice matters in practice: the US medical residency match originally had hospitals propose, and switched in 1998 to an applicant-proposing version, so applicants receive their best stable outcome. Roth and Shapley won the 2012 Nobel for their work on stable allocations and market design.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Gale-Shapley", "stable matching", "mechanism design", "Roth"]
+    "tags": [
+      "Gale-Shapley",
+      "stable matching",
+      "mechanism design",
+      "Roth"
+    ]
   },
   {
     "id": "theory-022",
@@ -364,14 +472,22 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "In a market with two firms selling an identical product, which mode of competition leads to higher equilibrium prices for consumers?",
-    "items": ["Bertrand competition (firms simultaneously choose prices)", "Cournot competition (firms simultaneously choose quantities)"],
+    "items": [
+      "Bertrand competition (firms simultaneously choose prices)",
+      "Cournot competition (firms simultaneously choose quantities)"
+    ],
     "metric": "equilibrium market price in a homogeneous-good duopoly",
     "answer": "Cournot competition (firms simultaneously choose quantities)",
     "explanation": "The Bertrand paradox: two price-competing firms undercut each other until price equals marginal cost — the competitive outcome, with zero profits. In Cournot competition, each firm treats the other's quantity as fixed, leading to prices above marginal cost and positive profits. Cournot prices also exceed perfect competition but fall below monopoly.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bertrand", "Cournot", "oligopoly", "competition"]
+    "tags": [
+      "Bertrand",
+      "Cournot",
+      "oligopoly",
+      "competition"
+    ]
   },
   {
     "id": "theory-023",
@@ -390,7 +506,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Giffen good", "demand", "income effect", "substitution effect"]
+    "tags": [
+      "Giffen good",
+      "demand",
+      "income effect",
+      "substitution effect"
+    ]
   },
   {
     "id": "theory-024",
@@ -403,7 +524,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Veblen good", "conspicuous consumption", "status goods", "demand"]
+    "tags": [
+      "Veblen good",
+      "conspicuous consumption",
+      "status goods",
+      "demand"
+    ]
   },
   {
     "id": "theory-025",
@@ -422,7 +548,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Hotelling", "exhaustible resources", "resource economics", "r percent rule"]
+    "tags": [
+      "Hotelling",
+      "exhaustible resources",
+      "resource economics",
+      "r percent rule"
+    ]
   },
   {
     "id": "theory-026",
@@ -441,7 +572,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["hyperbolic discounting", "present bias", "time inconsistency", "behavioural economics"]
+    "tags": [
+      "hyperbolic discounting",
+      "present bias",
+      "time inconsistency",
+      "behavioural economics"
+    ]
   },
   {
     "id": "theory-027",
@@ -460,7 +596,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Lucas critique", "rational expectations", "macroeconomics", "DSGE"]
+    "tags": [
+      "Lucas critique",
+      "rational expectations",
+      "macroeconomics",
+      "DSGE"
+    ]
   },
   {
     "id": "theory-028",
@@ -469,17 +610,22 @@
     "format": "mc",
     "prompt": "The revelation principle in mechanism design states that for any mechanism that achieves a given outcome, there exists an equivalent direct mechanism in which:",
     "choices": [
-      "truthful reporting of private information is a dominant strategy and achieves the same outcome",
+      "truthful reporting of private information is an equilibrium, and the outcome is unchanged",
       "all agents voluntarily participate without any outside option",
       "information asymmetry is eliminated through competitive bidding among agents",
       "the principal can directly observe every agent's private type"
     ],
-    "answer": "truthful reporting of private information is a dominant strategy and achieves the same outcome",
-    "explanation": "The revelation principle (Myerson and others, late 1970s) vastly simplifies mechanism design: rather than searching over all possible game forms, designers can restrict attention to direct truthful mechanisms. It underpins the theory of optimal auctions, efficient resource allocation under asymmetric information, and regulatory design.",
+    "answer": "truthful reporting of private information is an equilibrium, and the outcome is unchanged",
+    "explanation": "The revelation principle (Gibbard, Dasgupta–Hammond–Maskin, and Myerson, 1970s) vastly simplifies mechanism design: rather than searching over all possible game forms, designers can restrict attention to direct mechanisms in which agents report their private information and truthful reporting is an equilibrium. It underpins the theory of optimal auctions, efficient resource allocation under asymmetric information, and regulatory design.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["revelation principle", "mechanism design", "Myerson", "incentive compatibility"]
+    "tags": [
+      "revelation principle",
+      "mechanism design",
+      "Myerson",
+      "incentive compatibility"
+    ]
   },
   {
     "id": "theory-029",
@@ -488,17 +634,36 @@
     "format": "match",
     "prompt": "Match each economist to the concept or theory most closely associated with them.",
     "pairs": [
-      ["Ronald Coase", "Transaction costs and property rights"],
-      ["George Akerlof", "Market for lemons (adverse selection)"],
-      ["Robert Lucas", "Rational expectations and the critique of policy models"],
-      ["Daniel Kahneman", "Prospect theory and loss aversion"]
+      [
+        "Ronald Coase",
+        "Transaction costs and property rights"
+      ],
+      [
+        "George Akerlof",
+        "Market for lemons (adverse selection)"
+      ],
+      [
+        "Robert Lucas",
+        "Rational expectations and the critique of policy models"
+      ],
+      [
+        "Daniel Kahneman",
+        "Prospect theory and loss aversion"
+      ]
     ],
     "answer": "Coase→Transaction costs; Akerlof→Lemons; Lucas→Rational expectations; Kahneman→Prospect theory",
-    "explanation": "All four won the Nobel Prize in Economics: Coase (1991), Akerlof (2001), Lucas (1995), and Kahneman (2002, shared with Vernon Smith). Their contributions span institutional, information, macro, and behavioural economics.",
+    "explanation": "All four won the Nobel Prise in Economics: Coase (1991), Akerlof (2001), Lucas (1995), and Kahneman (2002, shared with Vernon Smith). Their contributions span institutional, information, macro, and behavioural economics.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Coase", "Akerlof", "Lucas", "Kahneman", "Nobel", "economists"]
+    "tags": [
+      "Coase",
+      "Akerlof",
+      "Lucas",
+      "Kahneman",
+      "Nobel",
+      "economists"
+    ]
   },
   {
     "id": "theory-030",
@@ -518,7 +683,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Smith", "Jevons", "Keynes", "Kahneman", "history of economic thought"]
+    "tags": [
+      "Smith",
+      "Jevons",
+      "Keynes",
+      "Kahneman",
+      "history of economic thought"
+    ]
   },
   {
     "id": "theory-031",
@@ -537,7 +708,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["endowment effect", "Kahneman", "Thaler", "behavioural economics", "reference point"]
+    "tags": [
+      "endowment effect",
+      "Kahneman",
+      "Thaler",
+      "behavioural economics",
+      "reference point"
+    ]
   },
   {
     "id": "theory-032",
@@ -556,7 +733,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["anchoring", "behavioural economics", "Kahneman", "heuristics and biases"]
+    "tags": [
+      "anchoring",
+      "behavioural economics",
+      "Kahneman",
+      "heuristics and biases"
+    ]
   },
   {
     "id": "theory-033",
@@ -569,7 +751,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["mental accounting", "Thaler", "behavioural economics", "fungibility"]
+    "tags": [
+      "mental accounting",
+      "Thaler",
+      "behavioural economics",
+      "fungibility"
+    ]
   },
   {
     "id": "theory-034",
@@ -582,7 +769,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["winner's curse", "auction theory", "common value", "information"]
+    "tags": [
+      "winner's curse",
+      "auction theory",
+      "common value",
+      "information"
+    ]
   },
   {
     "id": "theory-035",
@@ -597,11 +789,15 @@
       "sells to the highest bidder at the second-highest bid price"
     ],
     "answer": "steadily lowers it until a buyer accepts — the first bidder to accept wins at that price",
-    "explanation": "Dutch auctions are used in flower markets in the Netherlands, Treasury bill auctions, and initial public offerings. Because each bidder must decide when to 'stop the clock', they must bid based on their valuation and expectations of rivals — unlike English ascending auctions, where staying in the room reveals information about rivals' values.",
+    "explanation": "Dutch auctions are used in the Dutch flower markets, and the name is also applied loosely to uniform-price auctions of Treasury bills and some IPOs. Because each bidder must decide when to 'stop the clock', they must bid based on their valuation and expectations of rivals — unlike English ascending auctions, where staying in the room reveals information about rivals' values.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Dutch auction", "auction theory", "price discovery"]
+    "tags": [
+      "Dutch auction",
+      "auction theory",
+      "price discovery"
+    ]
   },
   {
     "id": "theory-036",
@@ -620,7 +816,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["principal-agent", "incentives", "contract theory", "information asymmetry"]
+    "tags": [
+      "principal-agent",
+      "incentives",
+      "contract theory",
+      "information asymmetry"
+    ]
   },
   {
     "id": "theory-037",
@@ -635,11 +836,16 @@
       "the gap between a country's growth rate and the global average"
     ],
     "answer": "the portion of economic growth not explained by increases in capital or labour — typically attributed to technological progress",
-    "explanation": "Robert Solow's 1957 paper decomposed US growth since 1909 and found that roughly 87% came from the residual — not from capital accumulation. This 'measure of our ignorance' (as Abramovitz called it) motivated endogenous growth theory to explain technological progress rather than simply assume it.",
+    "explanation": "Robert Solow's 1957 paper decomposed US growth over 1909–1949 and found that roughly seven-eighths of the rise in output per worker-hour came from the residual — not from capital accumulation. This 'measure of our ignorance' (as Abramovitz called it) motivated endogenous growth theory to explain technological progress rather than simply assume it.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Solow residual", "total factor productivity", "TFP", "growth accounting"]
+    "tags": [
+      "Solow residual",
+      "total factor productivity",
+      "TFP",
+      "growth accounting"
+    ]
   },
   {
     "id": "theory-038",
@@ -648,17 +854,23 @@
     "format": "mc",
     "prompt": "Paul Romer's endogenous growth theory (1986–1990) departs from the Solow model mainly by treating ideas and technology as:",
     "choices": [
-      "non-rival inputs whose use by one firm does not prevent use by another, allowing their returns to not diminish with use",
+      "non-rival inputs: one firm's use does not prevent another's, so returns to knowledge need not diminish with use",
       "a fixed endowment that determines each country's long-run growth trajectory",
       "a pure public good freely available to all firms at no cost",
       "a rival, excludable input whose price is set by competitive markets"
     ],
-    "answer": "non-rival inputs whose use by one firm does not prevent use by another, allowing their returns to not diminish with use",
-    "explanation": "Ideas (blueprints, software, formulas) are non-rival: Ford using a production technique doesn't prevent Toyota from using the same technique. This non-rivalry means knowledge can generate increasing returns and sustain long-run growth — unlike physical capital, which faces diminishing returns. Romer won the 2018 Nobel Prize.",
+    "answer": "non-rival inputs: one firm's use does not prevent another's, so returns to knowledge need not diminish with use",
+    "explanation": "Ideas (blueprints, software, formulas) are non-rival: Ford using a production technique doesn't prevent Toyota from using the same technique. This non-rivalry means knowledge can generate increasing returns and sustain long-run growth — unlike physical capital, which faces diminishing returns. Romer won the 2018 Nobel Prise.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["endogenous growth", "Romer", "ideas", "non-rival", "increasing returns"]
+    "tags": [
+      "endogenous growth",
+      "Romer",
+      "ideas",
+      "non-rival",
+      "increasing returns"
+    ]
   },
   {
     "id": "theory-039",
@@ -671,7 +883,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["convergence", "growth theory", "Solow", "Barro", "steady state"]
+    "tags": [
+      "convergence",
+      "growth theory",
+      "Solow",
+      "Barro",
+      "steady state"
+    ]
   },
   {
     "id": "theory-040",
@@ -682,7 +900,7 @@
     "choices": [
       "spending resources to capture a larger share of existing wealth through lobbying or litigation rather than creating new value",
       "real-estate investors bidding up property rents in supply-constrained urban markets",
-      "firms investing in R&D to monopolise an innovation through patents",
+      "firms investing in R&D to monopolize an innovation through patents",
       "workers holding out for higher wages rather than accepting the market-clearing wage"
     ],
     "answer": "spending resources to capture a larger share of existing wealth through lobbying or litigation rather than creating new value",
@@ -690,7 +908,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["rent-seeking", "public choice", "Tullock", "Krueger", "lobbying"]
+    "tags": [
+      "rent-seeking",
+      "public choice",
+      "Tullock",
+      "Krueger",
+      "lobbying"
+    ]
   },
   {
     "id": "theory-041",
@@ -699,17 +923,23 @@
     "format": "mc",
     "prompt": "The median voter theorem predicts that in a simple majority election between two candidates on a one-dimensional policy spectrum, both candidates will rationally converge toward the position of:",
     "choices": [
-      "the voter whose preferred policy sits exactly at the midpoint of the distribution",
+      "the median voter, whose preferred policy has half of all voters on each side",
       "the average voter, weighted by donation intensity and turnout likelihood",
-      "the most extreme voters on either end, who are most reliably mobilised",
+      "the most extreme voters on either end, who are most reliably mobilized",
       "the voter whose income equals the country's mean income"
     ],
-    "answer": "the voter whose preferred policy sits exactly at the midpoint of the distribution",
+    "answer": "the median voter, whose preferred policy has half of all voters on each side",
     "explanation": "Proven by Duncan Black (1948) and extended by Downs (1957): any candidate who moves toward the median gains more voters from that side than they lose from the extreme, making the median the unique Nash equilibrium. It explains why parties often seem similar on many issues — drifting from the median loses elections.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["median voter theorem", "public choice", "Downs", "voting", "political economy"]
+    "tags": [
+      "median voter theorem",
+      "public choice",
+      "Downs",
+      "voting",
+      "political economy"
+    ]
   },
   {
     "id": "theory-042",
@@ -718,12 +948,21 @@
     "format": "short",
     "prompt": "What single word describes a labour market dominated by a single buyer of labour — giving that employer power to pay wages below the competitive level?",
     "answer": "monopsony",
-    "accept": ["monopsony", "monopsonist", "monopsony power"],
-    "explanation": "Monopsony is the buyer-side analogue of monopoly. Classic examples include company towns, some rural hospital markets, and — controversially — large employers like Amazon in certain regions. A monopsonist hires fewer workers and pays less than a competitive market would, creating a deadweight loss. The term was coined by Joan Robinson in 1933.",
+    "accept": [
+      "monopsony",
+      "monopsonist",
+      "monopsony power"
+    ],
+    "explanation": "Monopsony is the buyer-side analogue of monopoly. Classic examples include company towns, some rural hospital markets, and — controversially — large employers like Amazon in certain regions. A monopsonist hires fewer workers and pays less than a competitive market would, creating a deadweight loss. The concept was popularized by Joan Robinson in The Economics of Imperfect Competition (1933); the word itself was suggested to her by the classicist Bertrand Hallward.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["monopsony", "labour market", "Joan Robinson", "market power"]
+    "tags": [
+      "monopsony",
+      "labour market",
+      "Joan Robinson",
+      "market power"
+    ]
   },
   {
     "id": "theory-043",
@@ -738,26 +977,37 @@
       "workers with higher wages spend more, expanding aggregate demand for the firm's products"
     ],
     "answer": "higher wages reduce shirking, lower costly turnover, and attract higher-ability applicants",
-    "explanation": "Shapiro and Stiglitz (1984) formalised the shirking version: if workers caught slacking lose a premium wage, they work harder. Akerlof (1982) stressed a 'gift exchange' norm. Efficiency wages explain why wages don't fall to clear labour markets during recessions, contributing to involuntary unemployment.",
+    "explanation": "Shapiro and Stiglitz (1984) formalized the shirking version: if workers caught slacking lose a premium wage, they work harder. Akerlof (1982) stressed a 'gift exchange' norm. Efficiency wages explain why wages don't fall to clear labour markets during recessions, contributing to involuntary unemployment.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["efficiency wages", "Shapiro-Stiglitz", "labour market", "unemployment"]
+    "tags": [
+      "efficiency wages",
+      "Shapiro-Stiglitz",
+      "labour market",
+      "unemployment"
+    ]
   },
   {
     "id": "theory-044",
     "category": "theory",
     "difficulty": 1,
     "format": "numeric",
-    "prompt": "In what year did Gary Becker publish 'Human Capital', the book that formalised the theory of investment in education and skills?",
+    "prompt": "In what year did Gary Becker publish 'Human Capital', the book that formalized the theory of investment in education and skills?",
     "answer": 1964,
     "unit": "",
     "tolerance": 0,
-    "explanation": "Becker's Human Capital (1964) treated schooling and on-the-job training as investments that raise future earnings. The return on education is analogous to the return on physical capital. Becker won the Nobel Prize in 1992. The framework underpins cost-benefit analysis of education policy worldwide.",
+    "explanation": "Becker's Human Capital (1964) treated schooling and on-the-job training as investments that raise future earnings. The return on education is analogous to the return on physical capital. Becker won the Nobel Prise in 1992. The framework underpins cost-benefit analysis of education policy worldwide.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["human capital", "Becker", "education", "investment", "labour economics"]
+    "tags": [
+      "human capital",
+      "Becker",
+      "education",
+      "investment",
+      "labour economics"
+    ]
   },
   {
     "id": "theory-045",
@@ -772,11 +1022,16 @@
       "set a two-part tariff: a fixed access fee plus a per-unit charge"
     ],
     "answer": "charge each consumer their maximum willingness to pay, capturing all consumer surplus as producer profit",
-    "explanation": "Perfect price discrimination is theoretically efficient (output equals the competitive level) but transfers all surplus to the seller. In practice it is rare since sellers cannot perfectly observe each buyer's valuation. Personalised dynamic pricing in e-commerce is a partial real-world approximation. Third-degree discrimination (different prices to groups) is common; second-degree (quantity discounts) is intermediate.",
+    "explanation": "Perfect price discrimination is theoretically efficient (output equals the competitive level) but transfers all surplus to the seller. In practice it is rare since sellers cannot perfectly observe each buyer's valuation. Personalized dynamic pricing in e-commerce is a partial real-world approximation. Third-degree discrimination (different prices to groups) is common; second-degree (quantity discounts) is intermediate.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["price discrimination", "monopoly", "consumer surplus", "market power"]
+    "tags": [
+      "price discrimination",
+      "monopoly",
+      "consumer surplus",
+      "market power"
+    ]
   },
   {
     "id": "theory-046",
@@ -789,7 +1044,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["network effects", "platform economics", "winner-take-all", "externality"]
+    "tags": [
+      "network effects",
+      "platform economics",
+      "winner-take-all",
+      "externality"
+    ]
   },
   {
     "id": "theory-047",
@@ -801,14 +1061,19 @@
       "a single firm can produce the market's entire output more cheaply than two or more firms",
       "one firm has acquired all key inputs and legally excluded competitors",
       "government regulation has licensed only one firm to serve the market",
-      "economies of scope make multi-product bundling more profitable than specialisation"
+      "economies of scope make multi-product bundling more profitable than specialization"
     ],
     "answer": "a single firm can produce the market's entire output more cheaply than two or more firms",
     "explanation": "High fixed costs and low marginal costs produce downward-sloping average cost curves over large output ranges. Water distribution, electricity grids, and rail networks are classic examples. Regulators face a dilemma: pricing at marginal cost (efficient) leads to losses for the firm; pricing to cover costs (average-cost pricing) reduces efficiency.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["natural monopoly", "economies of scale", "regulation", "utilities"]
+    "tags": [
+      "natural monopoly",
+      "economies of scale",
+      "regulation",
+      "utilities"
+    ]
   },
   {
     "id": "theory-048",
@@ -823,30 +1088,41 @@
       "forward guidance loses credibility when central banks publish inflation targets"
     ],
     "answer": "once wages and prices are set based on low-inflation expectations, a surprise inflation boost can temporarily raise output — but the gain vanishes once workers update expectations",
-    "explanation": "The time-inconsistency result says the optimal ex-ante policy (commit to zero inflation) is not optimal ex-post (once wages are fixed, inflate for a short-run boost). Anticipating this, workers demand higher wages, producing an inflationary equilibrium with no output gain. The solution — independent central banks with credible mandates — became the post-1980s consensus. Kydland and Prescott won the 2004 Nobel Prize.",
+    "explanation": "The time-inconsistency result says the optimal ex-ante policy (commit to zero inflation) is not optimal ex-post (once wages are fixed, inflate for a short-run boost). Anticipating this, workers demand higher wages, producing an inflationary equilibrium with no output gain. The solution — independent central banks with credible mandates — became the post-1980s consensus. Kydland and Prescott won the 2004 Nobel Prise.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Kydland-Prescott", "time inconsistency", "central bank credibility", "monetary policy"]
+    "tags": [
+      "Kydland-Prescott",
+      "time inconsistency",
+      "central bank credibility",
+      "monetary policy"
+    ]
   },
   {
     "id": "theory-049",
     "category": "theory",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The quantity theory of money, summarised as MV = PY, predicts that if money supply (M) doubles while velocity (V) and real output (Y) remain constant, the price level (P) will:",
+    "prompt": "The quantity theory of money, summarized as MV = PY, predicts that if the money supply (M) rises by 10% while velocity (V) and real output (Y) stay constant, the price level (P) will:",
     "choices": [
-      "double",
-      "rise, but by less than double",
+      "rise by 10%",
+      "rise by less than 10%",
       "remain unchanged",
       "fall"
     ],
-    "answer": "double",
-    "explanation": "With V and Y fixed, P must rise proportionally with M — a one-for-one relationship between money growth and inflation. This 'quantity theory' dates to David Hume and was formalised by Irving Fisher. Milton Friedman's monetarism rested on a stable money-demand (and thus velocity) assumption, though V proved unstable in practice during the 1980s.",
+    "answer": "rise by 10%",
+    "explanation": "With V and Y fixed, P must rise in proportion to M, a one-for-one link between money growth and inflation. This quantity theory dates to David Hume and was formalized by Irving Fisher. Milton Friedman's monetarism rested on a stable money-demand (and thus velocity) assumption, though V proved unstable in practice during the 1980s.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["quantity theory of money", "MV=PY", "monetarism", "Friedman", "Fisher"]
+    "tags": [
+      "quantity theory of money",
+      "MV=PY",
+      "monetarism",
+      "Friedman",
+      "Fisher"
+    ]
   },
   {
     "id": "theory-050",
@@ -865,7 +1141,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["IS-LM", "Hicks", "Keynesian", "money market", "macroeconomics"]
+    "tags": [
+      "IS-LM",
+      "Hicks",
+      "Keynesian",
+      "money market",
+      "macroeconomics"
+    ]
   },
   {
     "id": "theory-051",
@@ -878,14 +1160,19 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["rational expectations", "Muth", "Lucas", "macroeconomics"]
+    "tags": [
+      "rational expectations",
+      "Muth",
+      "Lucas",
+      "macroeconomics"
+    ]
   },
   {
     "id": "theory-052",
     "category": "theory",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "David Ricardo's principle of comparative advantage implies that a country should specialise in and export goods in which it has:",
+    "prompt": "David Ricardo's principle of comparative advantage implies that a country should specialize in and export goods in which it has:",
     "choices": [
       "a lower opportunity cost of production relative to other goods, even if it is absolutely less efficient at everything",
       "an absolute productivity advantage over all trading partners",
@@ -893,11 +1180,16 @@
       "the highest domestic consumer demand, signalling competitive home-market conditions"
     ],
     "answer": "a lower opportunity cost of production relative to other goods, even if it is absolutely less efficient at everything",
-    "explanation": "Ricardo showed in 1817 that even if England produced both cloth and wine less efficiently than Portugal, both countries could gain from trade if England's comparative disadvantage was smaller in cloth. The insight — that opportunity costs, not absolute productivity, drive specialisation — remains the bedrock of trade theory.",
+    "explanation": "Ricardo showed in 1817 that even if England produced both cloth and wine less efficiently than Portugal, both countries could gain from trade if England's comparative disadvantage was smaller in cloth. The insight — that opportunity costs, not absolute productivity, drive specialization — remains the bedrock of trade theory.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["comparative advantage", "Ricardo", "trade theory", "opportunity cost"]
+    "tags": [
+      "comparative advantage",
+      "Ricardo",
+      "trade theory",
+      "opportunity cost"
+    ]
   },
   {
     "id": "theory-053",
@@ -916,7 +1208,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Heckscher-Ohlin", "factor endowments", "trade theory", "comparative advantage"]
+    "tags": [
+      "Heckscher-Ohlin",
+      "factor endowments",
+      "trade theory",
+      "comparative advantage"
+    ]
   },
   {
     "id": "theory-054",
@@ -931,11 +1228,17 @@
       "countries whose governments have negotiated bilateral preferential tariff agreements"
     ],
     "answer": "similar countries exchanging similar goods, driven by economies of scale and consumers' love of variety",
-    "explanation": "The US and Germany both produce and trade cars — not because of comparative advantage in factor endowments, but because scale economies reward specialisation in particular varieties and consumers want both German and American models. Krugman won the 2008 Nobel Prize partly for this work, which also explained geographic concentration of industries.",
+    "explanation": "The US and Germany both produce and trade cars — not because of comparative advantage in factor endowments, but because scale economies reward specialization in particular varieties and consumers want both German and American models. Krugman won the 2008 Nobel Prise partly for this work, which also explained geographic concentration of industries.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["new trade theory", "Krugman", "economies of scale", "intra-industry trade", "variety"]
+    "tags": [
+      "new trade theory",
+      "Krugman",
+      "economies of scale",
+      "intra-industry trade",
+      "variety"
+    ]
   },
   {
     "id": "theory-055",
@@ -955,7 +1258,14 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["trade theory", "Ricardo", "Heckscher-Ohlin", "Krugman", "Melitz", "chronology"]
+    "tags": [
+      "trade theory",
+      "Ricardo",
+      "Heckscher-Ohlin",
+      "Krugman",
+      "Melitz",
+      "chronology"
+    ]
   },
   {
     "id": "theory-056",
@@ -965,16 +1275,21 @@
     "prompt": "The 'double dividend' hypothesis for environmental taxes claims that a revenue-neutral carbon tax can deliver two benefits simultaneously: reducing emissions and:",
     "choices": [
       "allowing cuts to other distortionary taxes (like those on labour or capital), potentially improving overall economic efficiency",
-      "funding direct investment in green infrastructure that accelerates decarbonisation",
+      "funding direct investment in green infrastructure that accelerates decarbonization",
       "eliminating the need for a separate emissions trading scheme or cap-and-trade system",
-      "achieving full Pareto efficiency by internalising all negative externalities at once"
+      "achieving full Pareto efficiency by internalizing all negative externalities at once"
     ],
     "answer": "allowing cuts to other distortionary taxes (like those on labour or capital), potentially improving overall economic efficiency",
     "explanation": "The first dividend is environmental (fewer emissions). The second dividend is economic: recycling carbon-tax revenues to cut income or payroll taxes reduces the distortions those taxes create in labour and capital markets. Whether the second dividend is reliable is debated — the result depends on pre-existing tax structures and how the revenue is used.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["double dividend", "carbon tax", "environmental economics", "tax reform"]
+    "tags": [
+      "double dividend",
+      "carbon tax",
+      "environmental economics",
+      "tax reform"
+    ]
   },
   {
     "id": "theory-057",
@@ -989,7 +1304,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Myerson-Satterthwaite", "mechanism design", "bilateral trade", "impossibility"]
+    "tags": [
+      "Myerson-Satterthwaite",
+      "mechanism design",
+      "bilateral trade",
+      "impossibility"
+    ]
   },
   {
     "id": "theory-058",
@@ -997,14 +1317,23 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "In a typical credit-card platform, which side bears higher per-transaction fees?",
-    "items": ["Merchants (businesses accepting the card)", "Cardholders (consumers using the card)"],
+    "items": [
+      "Merchants (businesses accepting the card)",
+      "Cardholders (consumers using the card)"
+    ],
     "metric": "per-transaction fee paid to the card network or issuing bank",
     "answer": "Merchants (businesses accepting the card)",
-    "explanation": "Credit-card networks (Visa, Mastercard) charge merchants interchange fees — typically 1.5–3% of the transaction — while cardholders often pay zero per-transaction fees and may even earn rewards. This is a classic two-sided platform pricing strategy: subsidise the side (consumers) that is more price-sensitive or whose participation generates more value for the other side.",
+    "explanation": "Credit-card networks (Visa, Mastercard) charge merchants interchange fees — typically 1.5–3% of the transaction — while cardholders often pay zero per-transaction fees and may even earn rewards. This is a classic two-sided platform pricing strategy: subsidize the side (consumers) that is more price-sensitive or whose participation generates more value for the other side.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["two-sided markets", "platform economics", "credit cards", "Rochet-Tirole", "interchange fee"]
+    "tags": [
+      "two-sided markets",
+      "platform economics",
+      "credit cards",
+      "Rochet-Tirole",
+      "interchange fee"
+    ]
   },
   {
     "id": "theory-059",
@@ -1023,7 +1352,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Kaldor-Hicks", "efficiency", "welfare economics", "cost-benefit analysis"]
+    "tags": [
+      "Kaldor-Hicks",
+      "efficiency",
+      "welfare economics",
+      "cost-benefit analysis"
+    ]
   },
   {
     "id": "theory-060",
@@ -1032,16 +1366,36 @@
     "format": "match",
     "prompt": "Match each economist to their primary contribution to auction theory or market design.",
     "pairs": [
-      ["William Vickrey", "Proved that bidding true value is dominant in a second-price auction"],
-      ["Paul Milgrom", "Designed the FCC's simultaneous multiple-round spectrum auctions"],
-      ["Alvin Roth", "Redesigned medical residency matching and kidney exchange programmes"],
-      ["Jean Tirole", "Developed the theory of regulation and two-sided platform markets"]
+      [
+        "William Vickrey",
+        "Proved that bidding true value is dominant in a second-price auction"
+      ],
+      [
+        "Paul Milgrom",
+        "Designed the FCC's simultaneous multiple-round spectrum auctions"
+      ],
+      [
+        "Alvin Roth",
+        "Redesigned medical residency matching and kidney exchange programs"
+      ],
+      [
+        "Jean Tirole",
+        "Developed the theory of regulation and two-sided platform markets"
+      ]
     ],
     "answer": "Vickrey→second-price auction, Milgrom→FCC spectrum auctions, Roth→market design and matching, Tirole→regulation and platforms",
-    "explanation": "Vickrey (Nobel 1996) founded incentive-compatible auctions. Milgrom and Wilson (Nobel 2020) designed US spectrum auctions generating over $60 billion. Roth (Nobel 2012, shared with Shapley) applied matching theory to real markets. Tirole (Nobel 2014) created the modern theory of platform regulation.",
+    "explanation": "Vickrey (Nobel 1996) founded incentive-compatible auctions. Milgrom and Wilson (Nobel 2020) helped design the US spectrum auctions, which have raised well over $100 billion. Roth (Nobel 2012, shared with Shapley) applied matching theory to real markets. Tirole (Nobel 2014) created the modern theory of platform regulation.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Vickrey", "Milgrom", "Roth", "Tirole", "auction theory", "market design", "Nobel"]
+    "tags": [
+      "Vickrey",
+      "Milgrom",
+      "Roth",
+      "Tirole",
+      "auction theory",
+      "market design",
+      "Nobel"
+    ]
   }
 ]

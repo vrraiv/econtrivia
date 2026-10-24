@@ -16,7 +16,10 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["PMs", "Confederation"]
+    "tags": [
+      "PMs",
+      "Confederation"
+    ]
   },
   {
     "id": "canada-002",
@@ -29,7 +32,10 @@
     "source": "https://www.bankofcanada.ca/about/history/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "monetary policy"]
+    "tags": [
+      "Bank of Canada",
+      "monetary policy"
+    ]
   },
   {
     "id": "canada-003",
@@ -45,7 +51,11 @@
     "source": "https://www.canada.ca/en/revenue-agency/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["taxation", "income tax", "WWI"]
+    "tags": [
+      "taxation",
+      "income tax",
+      "WWI"
+    ]
   },
   {
     "id": "canada-004",
@@ -53,14 +63,22 @@
     "difficulty": 2,
     "format": "order",
     "prompt": "Place these four provinces in the order they joined Canadian Confederation (earliest first).",
-    "items": ["Manitoba", "British Columbia", "Saskatchewan", "Newfoundland and Labrador"],
+    "items": [
+      "Manitoba",
+      "British Columbia",
+      "Saskatchewan",
+      "Newfoundland and Labrador"
+    ],
     "order_by": "year of joining Confederation",
     "answer": "Manitoba → British Columbia → Saskatchewan → Newfoundland and Labrador",
     "explanation": "Manitoba joined in 1870; British Columbia in 1871; Saskatchewan was carved from the Northwest Territories in 1905; Newfoundland and Labrador was the last to join, in 1949.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Confederation", "provinces"]
+    "tags": [
+      "Confederation",
+      "provinces"
+    ]
   },
   {
     "id": "canada-005",
@@ -69,17 +87,33 @@
     "format": "match",
     "prompt": "Match each Canadian province to its capital city.",
     "pairs": [
-      ["Ontario", "Toronto"],
-      ["Quebec", "Quebec City"],
-      ["Alberta", "Edmonton"],
-      ["British Columbia", "Victoria"]
+      [
+        "Ontario",
+        "Toronto"
+      ],
+      [
+        "Quebec",
+        "Quebec City"
+      ],
+      [
+        "Alberta",
+        "Edmonton"
+      ],
+      [
+        "British Columbia",
+        "Victoria"
+      ]
     ],
     "answer": "Ontario→Toronto, Quebec→Quebec City, Alberta→Edmonton, British Columbia→Victoria",
     "explanation": "Note that British Columbia's capital is Victoria, not Vancouver — a common mix-up. Alberta's capital is Edmonton, not Calgary.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["provinces", "capitals", "geography"]
+    "tags": [
+      "provinces",
+      "capitals",
+      "geography"
+    ]
   },
   {
     "id": "canada-006",
@@ -94,11 +128,15 @@
       "0% to 2%"
     ],
     "answer": "1% to 3%",
-    "explanation": "Canada has maintained a 1–3% inflation-control target since 1991, with 2% as the midpoint. The target is jointly agreed upon by the Bank of Canada and the federal government and is renewed every five years.",
+    "explanation": "Canada has had an inflation-control target since 1991. Since the end of 1995 it has been the 2% midpoint of a 1–3% control range. The target is set jointly by the Bank of Canada and the federal government and is renewed every five years; the most recent renewal (December 2021) runs through 2026.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "inflation targeting", "monetary policy"]
+    "tags": [
+      "Bank of Canada",
+      "inflation targeting",
+      "monetary policy"
+    ]
   },
   {
     "id": "canada-007",
@@ -117,7 +155,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["OAS", "CPP", "pension", "social insurance"]
+    "tags": [
+      "OAS",
+      "CPP",
+      "pension",
+      "social insurance"
+    ]
   },
   {
     "id": "canada-008",
@@ -126,17 +169,33 @@
     "format": "match",
     "prompt": "Match each abbreviation to the corresponding Big Five Canadian bank's full legal name.",
     "pairs": [
-      ["RBC", "Royal Bank of Canada"],
-      ["TD", "Toronto-Dominion Bank"],
-      ["BMO", "Bank of Montreal"],
-      ["CIBC", "Canadian Imperial Bank of Commerce"]
+      [
+        "RBC",
+        "Royal Bank of Canada"
+      ],
+      [
+        "TD",
+        "Toronto-Dominion Bank"
+      ],
+      [
+        "BMO",
+        "Bank of Montreal"
+      ],
+      [
+        "CIBC",
+        "Canadian Imperial Bank of Commerce"
+      ]
     ],
     "answer": "RBC→Royal Bank of Canada, TD→Toronto-Dominion Bank, BMO→Bank of Montreal, CIBC→Canadian Imperial Bank of Commerce",
-    "explanation": "Canada's Big Five banks (the fifth being Scotiabank / The Bank of Nova Scotia) collectively control roughly 90% of the country's banking assets. BMO, though operationally headquartered in Toronto, was founded in Montreal in 1817 — making it Canada's oldest bank.",
+    "explanation": "Canada's Big Five banks (the fifth being Scotiabank, formally The Bank of Nova Scotia; adding National Bank makes the 'Big Six') dominate the system, holding the large majority of the country's banking assets. BMO, though its executive offices are in Toronto, was founded in Montreal in 1817 — making it Canada's oldest bank.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Big Five", "banks", "financial services"]
+    "tags": [
+      "Big Five",
+      "banks",
+      "financial services"
+    ]
   },
   {
     "id": "canada-009",
@@ -151,22 +210,27 @@
       "Manitoba"
     ],
     "answer": "Alberta",
-    "explanation": "The Athabasca oil sands near Fort McMurray, Alberta, contain an estimated 166 billion barrels of proven reserves, making Canada the world's fourth-largest oil reserve holder. The oil sands produce roughly 3 million barrels per day, accounting for the vast majority of Canada's oil output.",
+    "explanation": "The Athabasca oil sands near Fort McMurray are the largest of Alberta's three oil sands deposits (with Cold Lake and Peace River). Alberta's oil sands hold roughly 160 billion barrels of established reserves, which places Canada among the world's top four reserve holders. Oil sands output is roughly 3 million barrels per day, well over half of Canada's crude oil production.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["oil sands", "Alberta", "energy", "natural resources"]
+    "tags": [
+      "oil sands",
+      "Alberta",
+      "energy",
+      "natural resources"
+    ]
   },
   {
     "id": "canada-010",
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Canada Mortgage and Housing Corporation (CMHC) is a federal Crown corporation. What is its primary economic function?",
+    "prompt": "Canada Mortgage and Housing Corporation (CMHC) is a federal Crown corporation. What is its best-known economic function?",
     "choices": [
       "Providing mortgage insurance that allows Canadians to buy homes with less than 20% down payment",
       "Setting the overnight interest rate that governs mortgage pricing",
-      "Directly lending money to first-time homebuyers at subsidised rates",
+      "Directly lending money to first-time homebuyers at subsidized rates",
       "Regulating real estate agents and brokers across the provinces"
     ],
     "answer": "Providing mortgage insurance that allows Canadians to buy homes with less than 20% down payment",
@@ -174,7 +238,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["CMHC", "housing", "mortgage insurance"]
+    "tags": [
+      "CMHC",
+      "housing",
+      "mortgage insurance"
+    ]
   },
   {
     "id": "canada-011",
@@ -187,7 +255,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["CUSMA", "USMCA", "NAFTA", "trade agreement"]
+    "tags": [
+      "CUSMA",
+      "USMCA",
+      "NAFTA",
+      "trade agreement"
+    ]
   },
   {
     "id": "canada-012",
@@ -202,11 +275,16 @@
       "About 90%"
     ],
     "answer": "About 75%",
-    "explanation": "The United States consistently absorbs roughly 75% of Canadian goods exports, making Canada one of the world's most trade-concentrated economies. This deep dependence on a single market drives Canadian interest in trade diversification and sensitive trade negotiations.",
+    "explanation": "The United States consistently absorbs roughly three-quarters (about 75–77%) of Canadian goods exports, making Canada one of the world's most trade-concentrated economies. This deep dependence on a single market drives Canadian interest in trade diversification and makes trade negotiations especially sensitive.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["trade", "exports", "Canada-US", "trading partners"]
+    "tags": [
+      "trade",
+      "exports",
+      "Canada-US",
+      "trading partners"
+    ]
   },
   {
     "id": "canada-013",
@@ -221,11 +299,15 @@
       "Manitoba"
     ],
     "answer": "Quebec",
-    "explanation": "Quebec consistently receives the largest share of equalization payments in absolute dollars — over $14 billion annually in recent years — largely because of its large population. On a per-capita basis, smaller maritime provinces often receive more. The formula equalises fiscal capacity (tax revenue potential) rather than measuring need directly.",
+    "explanation": "Quebec consistently receives the largest share of equalization in absolute dollars — about $13 billion in 2024–25, roughly half of the $25.3 billion total — largely because of its large population. On a per-capita basis, smaller Maritime provinces often receive more. The formula equalizes fiscal capacity (tax revenue potential) rather than measuring need directly.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["equalization", "fiscal federalism", "transfers"]
+    "tags": [
+      "equalization",
+      "fiscal federalism",
+      "transfers"
+    ]
   },
   {
     "id": "canada-014",
@@ -241,7 +323,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["CPR", "railway", "Confederation", "1885"]
+    "tags": [
+      "CPR",
+      "railway",
+      "Confederation",
+      "1885"
+    ]
   },
   {
     "id": "canada-015",
@@ -260,7 +347,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["GST", "taxation", "Mulroney"]
+    "tags": [
+      "GST",
+      "taxation",
+      "Mulroney"
+    ]
   },
   {
     "id": "canada-016",
@@ -279,42 +370,57 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["FTA", "free trade", "Canada-US", "1989"]
+    "tags": [
+      "FTA",
+      "free trade",
+      "Canada-US",
+      "1989"
+    ]
   },
   {
     "id": "canada-017",
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Canada's federal carbon pricing backstop creates a financial incentive to reduce greenhouse gas emissions by taxing what?",
+    "prompt": "From 2019 until March 2025, Canada's federal fuel charge — the consumer side of the federal carbon price — was levied on what?",
     "choices": [
-      "The carbon content of fossil fuels at the point of sale",
-      "Electricity consumption above a provincial threshold",
+      "The carbon content of fuels such as gasoline, diesel and natural gas",
+      "Household electricity use above a set threshold",
       "Goods imported from countries without an equivalent carbon price",
-      "Corporate profits in the oil and gas sector"
+      "The profits of oil and gas companies"
     ],
-    "answer": "The carbon content of fossil fuels at the point of sale",
-    "explanation": "The federal backstop is a fuel charge applied to the carbon content of gasoline, diesel, natural gas, and other fossil fuels. Most of the revenue is returned to households as the Canada Carbon Rebate. Provinces with their own equivalent pricing systems are exempt from the federal backstop.",
+    "answer": "The carbon content of fuels such as gasoline, diesel and natural gas",
+    "explanation": "The federal fuel charge applied to the carbon content of gasoline, diesel, natural gas and other fossil fuels, and most of the proceeds were returned to households through the Canada Carbon Rebate. Prime Minister Mark Carney's government set the charge to zero effective April 1, 2025, and the rebate ended; pricing for large industrial emitters continued.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["carbon tax", "carbon pricing", "climate policy"]
+    "tags": [
+      "carbon pricing",
+      "fuel charge",
+      "climate policy",
+      "Carney"
+    ]
   },
   {
     "id": "canada-018",
     "category": "canada",
     "difficulty": 1,
     "format": "numeric",
-    "prompt": "Canada became only the second country in the world to federally legalise recreational cannabis. In what year did legalisation take effect?",
+    "prompt": "Canada became only the second country in the world to federally legalize recreational cannabis. In what year did legalization take effect?",
     "answer": 2018,
     "unit": null,
     "tolerance": 0,
     "tolerance_pct": null,
-    "explanation": "The Cannabis Act came into force on October 17, 2018, making Canada the second country after Uruguay to legalise recreational cannabis at the national level. The federal excise tax on cannabis generated hundreds of millions of dollars annually, though the black market remained larger than anticipated in early years.",
+    "explanation": "The Cannabis Act came into force on October 17, 2018, making Canada the second country after Uruguay to legalize recreational cannabis at the national level. The federal excise tax on cannabis generated hundreds of millions of dollars annually, though the black market remained larger than anticipated in early years.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["cannabis", "legalisation", "excise tax", "2018"]
+    "tags": [
+      "cannabis",
+      "legalization",
+      "excise tax",
+      "2018"
+    ]
   },
   {
     "id": "canada-019",
@@ -322,14 +428,24 @@
     "difficulty": 2,
     "format": "order",
     "prompt": "Rank these four Canadian provinces from most to least populous, based on the 2021 census.",
-    "items": ["Ontario", "Quebec", "British Columbia", "Alberta"],
+    "items": [
+      "Ontario",
+      "Quebec",
+      "British Columbia",
+      "Alberta"
+    ],
     "order_by": "2021 census population, most to least populous",
     "answer": "Ontario → Quebec → British Columbia → Alberta",
     "explanation": "2021 census counts: Ontario 14.2 million, Quebec 8.5 million, British Columbia 5.0 million, Alberta 4.3 million. Alberta's population fluctuates with energy-sector cycles; it has been closing the gap with BC in recent years.",
     "source": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/index-eng.cfm",
     "as_of": "2021",
     "time_sensitive": true,
-    "tags": ["population", "provinces", "census", "demographics"]
+    "tags": [
+      "population",
+      "provinces",
+      "census",
+      "demographics"
+    ]
   },
   {
     "id": "canada-020",
@@ -344,30 +460,40 @@
       "Canadian oil companies hold US dollars and convert large sums to CAD when their profits rise, directly driving up the exchange rate"
     ],
     "answer": "Canada is a net oil exporter, so higher prices improve Canada's terms of trade and increase global demand for Canadian dollars to pay for its exports",
-    "explanation": "Canada exports roughly 3 million barrels of crude per day, mostly to the US. Higher oil prices boost Canada's national income and export receipts, raising demand for the Canadian dollar. The correlation has weakened somewhat since 2014 as US shale production turned the US into a net exporter, reducing its purchases of Canadian crude.",
+    "explanation": "Canada exported a record of roughly 4 million barrels of crude per day in 2023, about 97% of it to the US. Higher oil prices boost Canada's national income and export receipts, raising demand for the Canadian dollar. The link has weakened in recent years, as interest-rate differentials with the US and broader risk sentiment increasingly drive the exchange rate.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Canadian dollar", "exchange rate", "petrodollar", "oil"]
+    "tags": [
+      "Canadian dollar",
+      "exchange rate",
+      "petrodollar",
+      "oil"
+    ]
   },
   {
     "id": "canada-021",
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The long-running Canada–US softwood lumber dispute centres on US claims that Canadian exports are unfairly subsidised. What is the core US allegation?",
+    "prompt": "The long-running Canada–US softwood lumber dispute centres on US claims that Canadian lumber is unfairly subsidized. What is the principal subsidy allegation?",
     "choices": [
-      "Canadian provinces charge below-market stumpage fees for logging rights on Crown land, effectively subsidising lumber producers",
+      "Canadian provinces charge below-market stumpage fees for logging rights on Crown land, effectively subsidizing lumber producers",
       "The Canadian government directly pays per-unit subsidies to sawmill operators",
-      "Canadian exporters dump lumber below production cost to drive US competitors out of business",
+      "Canadian exporters avoid US tariffs by routing lumber through Mexico before it reaches the border",
       "Provincial governments ban US companies from bidding on Canadian timber licences"
     ],
-    "answer": "Canadian provinces charge below-market stumpage fees for logging rights on Crown land, effectively subsidising lumber producers",
-    "explanation": "About 90% of Canada's productive forestland is Crown-owned. The US argues that provincially set stumpage fees are below market rates compared to competitive US timber auctions — effectively a countervailable subsidy. Multiple rounds of WTO and NAFTA/CUSMA dispute panels have produced mixed rulings.",
+    "answer": "Canadian provinces charge below-market stumpage fees for logging rights on Crown land, effectively subsidizing lumber producers",
+    "explanation": "About 90% of Canada's forestland is Crown-owned. The US argues that provincially set stumpage fees are below the market rates seen in competitive US timber auctions — effectively a countervailable subsidy. The US also imposes separate anti-dumping duties, alleging sales below cost. Multiple rounds of WTO and NAFTA/CUSMA dispute panels have produced mixed rulings.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["softwood lumber", "trade dispute", "stumpage fees", "forestry"]
+    "tags": [
+      "softwood lumber",
+      "trade dispute",
+      "stumpage fees",
+      "forestry"
+    ]
   },
   {
     "id": "canada-022",
@@ -378,56 +504,78 @@
     "choices": [
       "It integrated the two countries' auto industries by eliminating tariffs on cars and parts, allowing production to be concentrated where it was most efficient",
       "It required US automakers to source at least 60% of components from Canadian suppliers",
-      "It prevented Japanese and European automakers from selling vehicles in Canada below a set price floor",
-      "It established a joint Canada–US body to harmonise vehicle emissions and safety standards"
+      "It required every vehicle sold in Canada to be assembled in a Canadian factory",
+      "It established a joint Canada–US body to harmonize vehicle emissions and safety standards"
     ],
     "answer": "It integrated the two countries' auto industries by eliminating tariffs on cars and parts, allowing production to be concentrated where it was most efficient",
-    "explanation": "The Auto Pact allowed duty-free cross-border flows of vehicles and parts, subject to production safeguards. It transformed Ontario into a major auto-manufacturing hub — the sector became Canada's largest export industry for decades. The WTO ruled the production safeguards inconsistent with trade rules in 2000, effectively ending the pact.",
+    "explanation": "The Auto Pact allowed duty-free cross-border flows of vehicles and parts, subject to production safeguards such as Canadian-content and production-to-sales requirements for automakers. It transformed Ontario into a major auto-manufacturing hub — the sector became Canada's largest export industry for decades. The WTO ruled the safeguards inconsistent with trade rules in 2000, effectively ending the pact.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Auto Pact", "automotive", "manufacturing", "Canada-US trade"]
+    "tags": [
+      "Auto Pact",
+      "automotive",
+      "manufacturing",
+      "Canada-US trade"
+    ]
   },
   {
     "id": "canada-023",
     "category": "canada",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "During the 2008 global financial crisis, Canada's major banks did not require direct government capital injections or emergency bailouts, unlike banks in the United States and United Kingdom.",
+    "prompt": "During the 2008 global financial crisis, none of Canada's major banks received direct government capital injections, unlike banks in the United States and United Kingdom.",
     "answer": true,
-    "explanation": "Canada's Big Five banks remained profitable throughout the 2008–09 crisis and required no government capital injections. Their conservative leverage, stricter domestic regulations, and large books of CMHC-insured mortgages shielded them from the subprime losses that devastated US and UK banks.",
+    "explanation": "Canada's Big Five banks stayed profitable through the 2008–09 crisis and received no government capital injections. The federal government did give indirect support — buying about $69 billion of insured mortgages through CMHC's Insured Mortgage Purchase Program, while the Bank of Canada widened its liquidity facilities — but there were no equity bailouts. Conservative leverage, stricter domestic regulation and limited exposure to subprime lending shielded the banks from the losses that devastated US and UK lenders.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["2008 crisis", "Canadian banks", "financial stability"]
+    "tags": [
+      "2008 crisis",
+      "Canadian banks",
+      "financial stability"
+    ]
   },
   {
     "id": "canada-024",
     "category": "canada",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "In 2021, Shopify briefly surpassed the Royal Bank of Canada (RBC) to become Canada's most valuable publicly traded company by market capitalisation.",
+    "prompt": "In 2020, Shopify surpassed the Royal Bank of Canada (RBC) to become Canada's most valuable publicly traded company by market capitalization.",
     "answer": true,
-    "explanation": "Shopify's market cap briefly exceeded RBC's in mid-2021, making the Ottawa-based e-commerce platform Canada's most valuable company. Shopify's subsequent sharp decline in 2022 — as tech valuations collapsed with rising interest rates — illustrated the volatility of high-growth stock valuations.",
+    "explanation": "Shopify first overtook RBC on May 6, 2020, as pandemic lockdowns boosted online shopping, making the Ottawa-based e-commerce platform Canada's most valuable company; it led again at times in 2021. Its sharp decline in 2022 — as tech valuations fell with rising interest rates — illustrated the volatility of high-growth stock valuations.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Shopify", "tech sector", "market cap", "RBC"]
+    "tags": [
+      "Shopify",
+      "tech sector",
+      "market cap",
+      "RBC"
+    ]
   },
   {
     "id": "canada-025",
     "category": "canada",
     "difficulty": 1,
     "format": "higher_lower",
-    "prompt": "Which province has the larger nominal GDP?",
-    "items": ["Ontario", "Quebec"],
+    "prompt": "Between Ontario and Quebec, whose economy was bigger in 2023 by nominal output?",
+    "items": [
+      "Ontario",
+      "Quebec"
+    ],
     "metric": "nominal provincial GDP",
     "answer": "Ontario",
     "explanation": "Ontario accounts for roughly 37–38% of Canada's total GDP — far larger than any other province. Quebec is second, contributing about 20%. Ontario's dominance reflects its large population, the Bay Street financial hub in Toronto, and a major manufacturing and services base.",
     "source": null,
-    "as_of": null,
+    "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["GDP", "Ontario", "Quebec", "provincial economy"]
+    "tags": [
+      "GDP",
+      "Ontario",
+      "Quebec",
+      "provincial economy"
+    ]
   },
   {
     "id": "canada-026",
@@ -446,7 +594,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["healthcare", "single-payer", "fiscal federalism", "Canada Health Act"]
+    "tags": [
+      "healthcare",
+      "single-payer",
+      "fiscal federalism",
+      "Canada Health Act"
+    ]
   },
   {
     "id": "canada-027",
@@ -458,11 +611,16 @@
     "unit": "years old",
     "tolerance": 0,
     "tolerance_pct": null,
-    "explanation": "The standard OAS eligibility age is 65, though recipients can voluntarily defer up to age 70 for a 0.6% monthly increase per month of deferral. The Harper government legislated a gradual increase to age 67, but the Trudeau government reversed this before it took effect.",
+    "explanation": "The standard OAS eligibility age is 65, though recipients can voluntarily defer up to age 70 for a 0.6% increase for each month of deferral (up to 36% in total). The Harper government legislated a gradual increase to age 67, but the Trudeau government reversed this in 2016, before it took effect.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["OAS", "retirement", "pension", "social security"]
+    "tags": [
+      "OAS",
+      "retirement",
+      "pension",
+      "social security"
+    ]
   },
   {
     "id": "canada-028",
@@ -475,7 +633,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["productivity", "labour market", "competitiveness", "Canada-US comparison"]
+    "tags": [
+      "productivity",
+      "labour market",
+      "competitiveness",
+      "Canada-US comparison"
+    ]
   },
   {
     "id": "canada-029",
@@ -484,32 +647,56 @@
     "format": "match",
     "prompt": "In Canada, the provincial capital is not always the biggest city. Pair these provinces with their most populous city.",
     "pairs": [
-      ["Ontario", "Toronto"],
-      ["Saskatchewan", "Saskatoon"],
-      ["Manitoba", "Winnipeg"],
-      ["Nova Scotia", "Halifax"]
+      [
+        "Ontario",
+        "Toronto"
+      ],
+      [
+        "Saskatchewan",
+        "Saskatoon"
+      ],
+      [
+        "Manitoba",
+        "Winnipeg"
+      ],
+      [
+        "Nova Scotia",
+        "Halifax"
+      ]
     ],
     "answer": "Ontario→Toronto, Saskatchewan→Saskatoon, Manitoba→Winnipeg, Nova Scotia→Halifax",
-    "explanation": "The trickiest pairing is Saskatchewan: Saskatoon (metro ~300,000) is the province's most populous city, while Regina (~250,000) is the provincial capital — a common mix-up. Halifax is both Nova Scotia's largest city and its capital.",
+    "explanation": "The trickiest pairing is Saskatchewan: Saskatoon (about 317,000 in the metro area in 2021) is the province's most populous city, while Regina (about 249,000) is the provincial capital — a common mix-up. Halifax is both Nova Scotia's largest city and its capital.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["provinces", "cities", "geography"]
+    "tags": [
+      "provinces",
+      "cities",
+      "geography"
+    ]
   },
   {
     "id": "canada-030",
     "category": "canada",
     "difficulty": 2,
     "format": "higher_lower",
-    "prompt": "Which destination receives a larger share of Canada's goods exports?",
-    "items": ["United States", "China"],
+    "prompt": "In 2023, which destination received a larger share of Canada's goods exports?",
+    "items": [
+      "United States",
+      "China"
+    ],
     "metric": "share of total Canadian goods exports",
     "answer": "United States",
-    "explanation": "The United States receives roughly 75% of Canadian goods exports. China is Canada's second-largest export market but at only about 5–6% of total goods exports — roughly one-thirteenth the US share. Diversifying trade beyond the US has been a persistent but elusive Canadian policy goal.",
+    "explanation": "The United States receives roughly three-quarters of Canadian goods exports (about 76–77% in 2023). China is one of Canada's largest export markets after the US but takes only about 4% — less than one-tenth of the US share. Diversifying trade beyond the US has been a persistent but elusive Canadian policy goal.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["exports", "trade", "China", "United States"]
+    "tags": [
+      "exports",
+      "trade",
+      "China",
+      "United States"
+    ]
   },
   {
     "id": "canada-031",
@@ -525,7 +712,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Trans Mountain", "pipeline", "energy", "Crown corporation"]
+    "tags": [
+      "Trans Mountain",
+      "pipeline",
+      "energy",
+      "Crown corporation"
+    ]
   },
   {
     "id": "canada-032",
@@ -540,11 +732,16 @@
       "1995, as part of NAFTA implementation"
     ],
     "answer": "2012, by Stephen Harper's Conservative government",
-    "explanation": "The Harper government eliminated the CWB's single-desk marketing monopoly in August 2012, arguing it restricted farmers' freedom to sell their grain to the highest bidder. Western grain farmers, cooperatives, and some provinces were deeply divided on the change. The CWB continued as a voluntary marketing organisation before being acquired by a Saudi-owned group in 2015.",
+    "explanation": "The Harper government eliminated the CWB's single-desk marketing monopoly in August 2012, arguing it restricted farmers' freedom to sell their grain to the highest bidder. Western grain farmers, cooperatives and some provinces were deeply divided on the change. The CWB continued as a voluntary marketer until 2015, when it was acquired by G3 Global Grain Group, a joint venture of Bunge and Saudi Arabia's SALIC.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Wheat Board", "agriculture", "Harper", "grain marketing"]
+    "tags": [
+      "Wheat Board",
+      "agriculture",
+      "Harper",
+      "grain marketing"
+    ]
   },
   {
     "id": "canada-033",
@@ -553,46 +750,70 @@
     "format": "mc",
     "prompt": "Which statement best captures the redistributive effect of Canada's tax and transfer system on income inequality?",
     "choices": [
-      "The Gini coefficient for market income is around 0.43, but falls to roughly 0.30 after taxes and transfers",
+      "Taxes and transfers cut the Gini coefficient from above 0.40 for market income to about 0.30",
       "Canada's top federal marginal income tax rate of 33% is the highest in the G7",
       "The wealthiest 10% of Canadians pay more than 90% of all federal income tax",
-      "Provincial equalization payments reduce inter-regional income gaps by more than 50%"
+      "Canada's after-tax Gini coefficient is higher than that of the United States"
     ],
-    "answer": "The Gini coefficient for market income is around 0.43, but falls to roughly 0.30 after taxes and transfers",
-    "explanation": "Statistics Canada data consistently shows that Canada's pre-tax, pre-transfer Gini coefficient (~0.43) is similar to the United States, but the after-tax-and-transfer Gini (~0.30) is substantially lower than the US after-tax Gini (~0.39). Progressive taxes, EI, OAS/GIS, the Canada Child Benefit, and provincial transfers together achieve significant compression of market-income inequality.",
+    "answer": "Taxes and transfers cut the Gini coefficient from above 0.40 for market income to about 0.30",
+    "explanation": "Statistics Canada puts the after-tax Gini coefficient at about 0.30 (0.302 in 2022 and 0.301 in 2023), well below the figure for market income. It is also noticeably lower than the US after-tax Gini of roughly 0.39. Progressive taxes, EI, OAS/GIS, the Canada Child Benefit and provincial transfers together compress market-income inequality. The wealthiest 10% pay roughly half of federal income tax, not 90%, and a 33% top federal rate is far from the highest in the G7 once provincial taxes are added.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Gini coefficient", "inequality", "redistribution", "tax and transfer"]
+    "tags": [
+      "Gini coefficient",
+      "inequality",
+      "redistribution",
+      "tax and transfer"
+    ]
   },
   {
     "id": "canada-034",
     "category": "canada",
     "difficulty": 2,
     "format": "short",
-    "prompt": "What was the name PM John A. Macdonald gave to his 1879 platform of high protective tariffs, a transcontinental railway, and western settlement — three pillars designed to bind Canada's economy from east to west?",
+    "prompt": "What was the name PM John A. Macdonald gave to his late-1870s platform of high protective tariffs, a transcontinental railway, and western settlement — three pillars designed to bind Canada's economy from east to west?",
     "answer": "National Policy",
-    "accept": ["National Policy", "national policy", "the National Policy", "Macdonald's National Policy"],
-    "explanation": "The National Policy (1879) imposed tariffs of 17–35% on manufactured goods to protect Canadian industry from cheaper US competition. Together with the CPR and immigration to the prairies, it aimed to forge an east–west economic axis and consolidate a uniquely Canadian economy distinct from the United States.",
+    "accept": [
+      "National Policy",
+      "national policy",
+      "the National Policy",
+      "Macdonald's National Policy"
+    ],
+    "explanation": "The National Policy, which Macdonald campaigned on in 1878 and put into effect with the 1879 tariff, sharply raised tariffs on imported manufactured goods to protect Canadian industry from cheaper US competition. Together with the CPR and immigration to the prairies, it aimed to forge an east–west economic axis and consolidate a uniquely Canadian economy distinct from the United States.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["National Policy", "Macdonald", "tariffs", "Confederation"]
+    "tags": [
+      "National Policy",
+      "Macdonald",
+      "tariffs",
+      "Confederation"
+    ]
   },
   {
     "id": "canada-035",
     "category": "canada",
     "difficulty": 1,
     "format": "order",
-    "prompt": "These four Canadian tax and trade events each happened in a different decade. Put them in order from earliest to latest.",
-    "items": ["Income War Tax Act", "Canada–US Auto Pact", "GST introduced", "NAFTA enters force"],
+    "prompt": "Put these four Canadian tax and trade events in order from earliest to latest.",
+    "items": [
+      "Income War Tax Act",
+      "Canada–US Auto Pact",
+      "GST introduced",
+      "NAFTA enters force"
+    ],
     "order_by": "year of enactment or entry into force",
     "answer": "Income War Tax Act → Canada–US Auto Pact → GST introduced → NAFTA enters force",
     "explanation": "Income War Tax Act: 1917. Canada–US Auto Pact: January 16, 1965. GST: January 1, 1991. NAFTA: January 1, 1994. Each represented a turning point in how Canada taxed its citizens or structured its trade relationships.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["economic history", "policy milestones", "chronology"]
+    "tags": [
+      "economic history",
+      "policy milestones",
+      "chronology"
+    ]
   },
   {
     "id": "canada-036",
@@ -603,15 +824,20 @@
     "choices": [
       "Maternity and parental leave",
       "Annual paid vacation",
-      "Sick days within the same employer",
+      "Paid statutory holidays",
       "Study leave for full-time education"
     ],
     "answer": "Maternity and parental leave",
-    "explanation": "Beyond regular benefits for job loss, EI pays special benefits for maternity (up to 15 weeks), parental leave (up to 35 weeks standard or 61 weeks extended at a lower rate), illness (up to 26 weeks), and compassionate care. These special benefits make EI a central pillar of Canada's social safety net far beyond traditional unemployment insurance.",
+    "explanation": "Beyond regular benefits for job loss, EI pays special benefits for maternity (up to 15 weeks), parental leave (up to 35 weeks standard or 61 weeks extended at a lower rate), illness (up to 26 weeks), and compassionate care. (Quebec residents receive maternity and parental benefits through the Quebec Parental Insurance Plan instead.) These special benefits make EI a central pillar of Canada's social safety net far beyond traditional unemployment insurance.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Employment Insurance", "EI", "parental leave", "social insurance"]
+    "tags": [
+      "Employment Insurance",
+      "EI",
+      "parental leave",
+      "social insurance"
+    ]
   },
   {
     "id": "canada-037",
@@ -630,7 +856,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "monetary policy", "interest rate", "Governing Council"]
+    "tags": [
+      "Bank of Canada",
+      "monetary policy",
+      "interest rate",
+      "Governing Council"
+    ]
   },
   {
     "id": "canada-038",
@@ -646,22 +877,36 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["mortgage", "stress test", "B-20", "housing", "OSFI"]
+    "tags": [
+      "mortgage",
+      "stress test",
+      "B-20",
+      "housing",
+      "OSFI"
+    ]
   },
   {
     "id": "canada-039",
     "category": "canada",
     "difficulty": 3,
     "format": "higher_lower",
-    "prompt": "Which country spends a larger share of GDP on total government expenditure (all levels of government combined)?",
-    "items": ["Canada", "United States"],
+    "prompt": "In 2023, which country spent a larger share of GDP on total government expenditure (all levels of government combined)?",
+    "items": [
+      "Canada",
+      "United States"
+    ],
     "metric": "total government spending as a percentage of GDP",
     "answer": "Canada",
     "explanation": "Total Canadian government spending (federal + provincial + local) typically runs around 40–42% of GDP, compared to roughly 35–38% for the United States. Canada's higher relative spending reflects its publicly funded healthcare system and broader social transfers. This is partially offset by Canada spending significantly less on defence (~1.4% of GDP vs the US at ~3.5%).",
     "source": null,
-    "as_of": null,
+    "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["government spending", "fiscal policy", "Canada-US comparison", "GDP"]
+    "tags": [
+      "government spending",
+      "fiscal policy",
+      "Canada-US comparison",
+      "GDP"
+    ]
   },
   {
     "id": "canada-040",
@@ -670,17 +915,23 @@
     "format": "mc",
     "prompt": "Section 35 of the Constitution Act, 1982, which forms a key constitutional basis for Indigenous economic and land rights in Canada, does which of the following?",
     "choices": [
-      "Recognises and affirms existing Aboriginal and treaty rights of the Aboriginal peoples of Canada",
+      "Recognizes and affirms existing Aboriginal and treaty rights of the Aboriginal peoples of Canada",
       "Guarantees First Nations full ownership of all natural resources found on reserve land",
       "Requires federal government consent before any provincial Crown land can be sold or leased",
       "Creates a formal duty to negotiate land claims within five years of any new resource project"
     ],
-    "answer": "Recognises and affirms existing Aboriginal and treaty rights of the Aboriginal peoples of Canada",
-    "explanation": "Section 35 constitutionalised existing Aboriginal and treaty rights, giving them strong protection against legislative override. Courts have read a duty to consult and accommodate Indigenous peoples into Section 35, profoundly shaping resource development decisions — pipeline approvals, mining permits, and forestry licences — across Canada.",
+    "answer": "Recognizes and affirms existing Aboriginal and treaty rights of the Aboriginal peoples of Canada",
+    "explanation": "Section 35 constitutionalized existing Aboriginal and treaty rights, giving them strong protection against legislative override. Courts have read a duty to consult and accommodate Indigenous peoples into Section 35, profoundly shaping resource development decisions — pipeline approvals, mining permits, and forestry licences — across Canada.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Section 35", "Indigenous rights", "Constitution", "land rights", "reconciliation"]
+    "tags": [
+      "Section 35",
+      "Indigenous rights",
+      "Constitution",
+      "land rights",
+      "reconciliation"
+    ]
   },
   {
     "id": "canada-041",
@@ -699,7 +950,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "Mark Carney", "2008 crisis", "Bank of England", "governors"]
+    "tags": [
+      "Bank of Canada",
+      "Mark Carney",
+      "2008 crisis",
+      "Bank of England",
+      "governors"
+    ]
   },
   {
     "id": "canada-042",
@@ -708,24 +965,30 @@
     "format": "mc",
     "prompt": "Bank of Canada Governor John Crow (1987–1994) pursued tight monetary policy aimed at 'price stability.' What was the most controversial consequence of his approach?",
     "choices": [
-      "A severe recession in 1990–91, pushing unemployment above 11% — the worst since the 1930s",
+      "A deep recession in 1990–91 and a sluggish recovery, with unemployment topping 11%",
       "Hyperinflation in 1988–89 that forced the Bank to abandon its targets",
       "A collapse of the Canadian dollar to near parity with the Mexican peso",
       "A housing bubble that burst spectacularly in 1993, wiping out Toronto home values"
     ],
-    "answer": "A severe recession in 1990–91, pushing unemployment above 11% — the worst since the 1930s",
-    "explanation": "Crow's 'zero inflation' philosophy required very high real interest rates. The 1990–91 recession — compounded by the GST introduction and the new Canada–US Free Trade Agreement — was Canada's worst since the Great Depression at that time. Critics argued the cure was worse than the disease; supporters say it built the low-inflation foundation for the boom of the 1990s–2000s.",
+    "answer": "A deep recession in 1990–91 and a sluggish recovery, with unemployment topping 11%",
+    "explanation": "Crow's 'zero inflation' philosophy required very high real interest rates. The resulting 1990–91 recession — compounded, critics argued, by the GST and the new Canada–US Free Trade Agreement — was followed by a slow recovery, with unemployment above 11% in 1992–93 (the 1981–82 slump had been deeper still). Critics argued the cure was worse than the disease; supporters say it built the low-inflation foundation for the boom of the 1990s–2000s.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "John Crow", "inflation targeting", "recession", "governors"]
+    "tags": [
+      "Bank of Canada",
+      "John Crow",
+      "inflation targeting",
+      "recession",
+      "governors"
+    ]
   },
   {
     "id": "canada-043",
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Bank of Canada Governor Tiff Macklem (2020–present) oversaw the fastest rate-hiking cycle in Bank of Canada history. What drove him to raise the overnight rate from 0.25% to 5.00% between March 2022 and July 2023?",
+    "prompt": "Bank of Canada Governor Tiff Macklem (2020–present) oversaw the most aggressive rate-hiking cycle in decades. What drove him to raise the overnight rate from 0.25% to 5.00% between March 2022 and July 2023?",
     "choices": [
       "A surge in inflation above 8% — the highest since the early 1980s — driven by post-pandemic supply disruptions and energy prices",
       "A speculative real estate bubble requiring emergency monetary tightening",
@@ -733,11 +996,17 @@
       "Pressure from the IMF to bring Canada's rates in line with the US Federal Reserve"
     ],
     "answer": "A surge in inflation above 8% — the highest since the early 1980s — driven by post-pandemic supply disruptions and energy prices",
-    "explanation": "Canadian CPI peaked above 8% in mid-2022 — the highest since the Crow era. Macklem raised rates by 475 basis points over 16 months to bring inflation back toward the 2% target. He was also criticised for his 2020 statement that rates would stay low 'for a long time,' shortly before the inflation surge.",
+    "explanation": "Canadian CPI inflation peaked at 8.1% in June 2022 — the highest since early 1983. Macklem raised rates by 475 basis points over 16 months to bring inflation back toward the 2% target. He was also criticized for earlier forward guidance signalling that rates would stay near zero for an extended period, shortly before the inflation surge.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "Tiff Macklem", "inflation", "interest rates", "governors"]
+    "tags": [
+      "Bank of Canada",
+      "Tiff Macklem",
+      "inflation",
+      "interest rates",
+      "governors"
+    ]
   },
   {
     "id": "canada-044",
@@ -745,14 +1014,24 @@
     "difficulty": 2,
     "format": "order",
     "prompt": "These four Bank of Canada Governors each served in consecutive terms. Rank them from the one who started earliest to the most recent.",
-    "items": ["Mark Carney", "Gordon Thiessen", "John Crow", "David Dodge"],
+    "items": [
+      "John Crow",
+      "Gordon Thiessen",
+      "David Dodge",
+      "Mark Carney"
+    ],
     "order_by": "start of term as Bank of Canada Governor",
     "answer": "John Crow → Gordon Thiessen → David Dodge → Mark Carney",
     "explanation": "Crow: February 1987. Thiessen: February 1994. Dodge: February 2001. Carney: February 2008. Each served approximately 5–7 years before handing off to the next. Stephen Poloz (2013) and Tiff Macklem (2020) continued the sequence.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "governors", "chronology", "monetary policy"]
+    "tags": [
+      "Bank of Canada",
+      "governors",
+      "chronology",
+      "monetary policy"
+    ]
   },
   {
     "id": "canada-045",
@@ -761,24 +1040,30 @@
     "format": "mc",
     "prompt": "Bank of Canada Governor Stephen Poloz (2013–2020) made two surprise rate cuts in 2015, calling them 'insurance.' What event prompted these cuts?",
     "choices": [
-      "A collapse in global oil prices from over $100/barrel to below $30/barrel that tipped Alberta into recession",
+      "A collapse in global oil prices — from over $100 a barrel in mid-2014 to under $50 by early 2015 — that tipped Alberta into recession",
       "The Chinese stock market crash of 2015, which threatened to reduce demand for Canadian commodities",
       "A sudden spike in the Canadian dollar threatening the competitiveness of Canadian exporters",
       "A US Federal Reserve rate hike that caused capital to flee Canadian bond markets"
     ],
-    "answer": "A collapse in global oil prices from over $100/barrel to below $30/barrel that tipped Alberta into recession",
-    "explanation": "Oil fell from over $100 in mid-2014 to below $30 in early 2016. Alberta contracted sharply. Poloz cut in January 2015 and again in July 2015 to cushion the national impact. Critics warned the cuts would fuel household debt and a housing bubble; supporters note Canada narrowly avoided a national recession.",
+    "answer": "A collapse in global oil prices — from over $100 a barrel in mid-2014 to under $50 by early 2015 — that tipped Alberta into recession",
+    "explanation": "Oil fell from over $100 in mid-2014 to under $50 by early 2015, and below $30 in early 2016. Alberta's economy contracted sharply. Poloz cut in January 2015 and again in July 2015 to cushion the national impact. Critics warned the cuts would fuel household debt and a housing bubble; supporters say they cushioned the shock to the wider economy.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "Stephen Poloz", "oil prices", "Alberta", "governors"]
+    "tags": [
+      "Bank of Canada",
+      "Stephen Poloz",
+      "oil prices",
+      "Alberta",
+      "governors"
+    ]
   },
   {
     "id": "canada-046",
     "category": "canada",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Which Finance Minister, serving under PM Jean Chrétien, implemented the 'Program Review' spending cuts that eliminated Canada's $36 billion federal deficit and produced the first surplus in 27 years by 1997–98?",
+    "prompt": "Which Finance Minister, serving under PM Jean Chrétien, implemented the 'Program Review' spending cuts that eliminated a federal deficit which had peaked at about $42 billion and produced the first surplus since 1969–70, in 1997–98?",
     "choices": [
       "Paul Martin",
       "Michael Wilson",
@@ -786,11 +1071,16 @@
       "John Manley"
     ],
     "answer": "Paul Martin",
-    "explanation": "Martin's landmark 1995 budget cut federal program spending by roughly $17 billion over three years — the largest reduction in Canadian history. He turned deficits into surpluses by 1997–98 and paid down over $90 billion in debt, building the fiscal cushion that helped Canada weather the 2008 crisis with relatively light damage.",
+    "explanation": "Martin's landmark 1995 budget made direct spending cuts of about $25 billion over three years — roughly 20% across government departments. The deficit gave way to a surplus by 1997–98, and federal debt then fell sharply relative to the size of the economy, building the fiscal cushion that helped Canada weather the 2008 crisis with relatively light damage.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Paul Martin", "federal deficit", "fiscal policy", "finance ministers"]
+    "tags": [
+      "Paul Martin",
+      "federal deficit",
+      "fiscal policy",
+      "finance ministers"
+    ]
   },
   {
     "id": "canada-047",
@@ -809,7 +1099,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Jim Flaherty", "TFSA", "tax policy", "finance ministers"]
+    "tags": [
+      "Jim Flaherty",
+      "TFSA",
+      "tax policy",
+      "finance ministers"
+    ]
   },
   {
     "id": "canada-048",
@@ -818,11 +1113,16 @@
     "format": "tf",
     "prompt": "Chrystia Freeland, appointed Deputy Prime Minister and Finance Minister in August 2020, was the first woman to serve as Canada's federal Finance Minister.",
     "answer": true,
-    "explanation": "Freeland became Canada's first female Finance Minister when appointed by PM Justin Trudeau in August 2020. She oversaw unprecedented COVID-19 support spending (CERB, CEWS, CEBA totalling hundreds of billions), the renegotiation of CUSMA, a national childcare programme, and the introduction of the global minimum corporate tax in Canada.",
+    "explanation": "Freeland became Canada's first female Finance Minister when appointed by PM Justin Trudeau in August 2020. She oversaw the later phases of pandemic support spending, the launch of a national child-care program, and the enactment of Canada's global minimum tax. (She had earlier led the NAFTA renegotiation as Foreign Affairs Minister.) She resigned from cabinet in December 2024.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Chrystia Freeland", "finance ministers", "women in government", "COVID-19"]
+    "tags": [
+      "Chrystia Freeland",
+      "finance ministers",
+      "women in government",
+      "COVID-19"
+    ]
   },
   {
     "id": "canada-049",
@@ -831,17 +1131,34 @@
     "format": "match",
     "prompt": "Match each Finance Minister to the Prime Minister they served under.",
     "pairs": [
-      ["Paul Martin", "Jean Chrétien"],
-      ["Jim Flaherty", "Stephen Harper"],
-      ["Chrystia Freeland", "Justin Trudeau"],
-      ["Michael Wilson", "Brian Mulroney"]
+      [
+        "Paul Martin",
+        "Jean Chrétien"
+      ],
+      [
+        "Jim Flaherty",
+        "Stephen Harper"
+      ],
+      [
+        "Chrystia Freeland",
+        "Justin Trudeau"
+      ],
+      [
+        "Michael Wilson",
+        "Brian Mulroney"
+      ]
     ],
     "answer": "Paul Martin→Jean Chrétien, Jim Flaherty→Stephen Harper, Chrystia Freeland→Justin Trudeau, Michael Wilson→Brian Mulroney",
-    "explanation": "Michael Wilson introduced the GST under Mulroney. Paul Martin eliminated the deficit under Chrétien. Jim Flaherty navigated the 2008 crisis and introduced the TFSA under Harper. Chrystia Freeland managed COVID spending and CUSMA under Trudeau. Each FM left a lasting mark on Canadian fiscal policy.",
+    "explanation": "Michael Wilson introduced the GST under Mulroney. Paul Martin eliminated the deficit under Chrétien. Jim Flaherty navigated the 2008 crisis and introduced the TFSA under Harper. Chrystia Freeland oversaw pandemic-recovery spending under Trudeau. Each FM left a lasting mark on Canadian fiscal policy.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["finance ministers", "prime ministers", "fiscal policy", "Canadian government"]
+    "tags": [
+      "finance ministers",
+      "prime ministers",
+      "fiscal policy",
+      "Canadian government"
+    ]
   },
   {
     "id": "canada-050",
@@ -854,7 +1171,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Alberta", "provincial sales tax", "PST", "HST", "taxation"]
+    "tags": [
+      "Alberta",
+      "provincial sales tax",
+      "PST",
+      "HST",
+      "taxation"
+    ]
   },
   {
     "id": "canada-051",
@@ -864,16 +1187,22 @@
     "prompt": "The National Energy Program (NEP), introduced in October 1980 by PM Pierre Trudeau, was bitterly resented in Alberta. Which of the following best explains why?",
     "choices": [
       "It capped Canadian oil prices below world market levels and redirected oil revenues from Alberta to the federal government",
-      "It nationalised all Alberta oil companies outright and converted them into federal Crown corporations",
+      "It nationalized all Alberta oil companies outright and converted them into federal Crown corporations",
       "It blocked Alberta from exporting oil to the United States, forcing all output to be sold at regulated domestic prices",
-      "It imposed a windfall profits tax on Alberta natural gas exports without sharing proceeds with the province"
+      "It banned new oil drilling in Alberta until federal environmental reviews were completed"
     ],
     "answer": "It capped Canadian oil prices below world market levels and redirected oil revenues from Alberta to the federal government",
-    "explanation": "The NEP held Canadian oil at below-world prices, allocated a 'federal share' of oil revenues, and funded Petro-Canada to buy out foreign-owned oil firms. Alberta estimated it lost $50–100 billion in foregone revenues. Premier Peter Lougheed called it 'the most discriminatory action taken by a federal government against a particular province.' Mulroney dismantled it in 1985.",
+    "explanation": "The NEP held Canadian oil at below-world prices, claimed a 'federal share' of oil revenues through new taxes, and expanded Petro-Canada to buy out foreign-owned oil firms. Alberta retaliated with oil production cutbacks before an agreement was reached in 1981, and the province's lost revenue is often put in the tens of billions of dollars. Mulroney dismantled the NEP in 1985.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["National Energy Program", "NEP", "Alberta", "Pierre Trudeau", "oil"]
+    "tags": [
+      "National Energy Program",
+      "NEP",
+      "Alberta",
+      "Pierre Trudeau",
+      "oil"
+    ]
   },
   {
     "id": "canada-052",
@@ -892,14 +1221,20 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["QPP", "CPP", "Quebec", "pension", "provincial policy"]
+    "tags": [
+      "QPP",
+      "CPP",
+      "Quebec",
+      "pension",
+      "provincial policy"
+    ]
   },
   {
     "id": "canada-053",
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "British Columbia's position as Canada's Pacific Gateway makes it central to trade with Asia. Which commodity most defines BC's export profile to Asian markets?",
+    "prompt": "British Columbia's position as Canada's Pacific Gateway makes it central to trade with Asia. Which group of commodities best describes BC's exports to Asian markets?",
     "choices": [
       "Forest products (lumber, pulp), metallurgical coal, and liquefied natural gas (LNG)",
       "Automobiles and auto parts manufactured in the Lower Mainland",
@@ -907,11 +1242,18 @@
       "Technology hardware manufactured by BC-based semiconductor firms"
     ],
     "answer": "Forest products (lumber, pulp), metallurgical coal, and liquefied natural gas (LNG)",
-    "explanation": "The Port of Vancouver — Canada's largest by tonnage — ships BC's forest products, metallurgical coal from the Elk Valley, and LNG from the $18-billion LNG Canada facility in Kitimat (Canada's first major LNG export terminal, first cargo shipped 2025). Prairie grain also flows through Vancouver terminals, making BC the gateway for much of Canada's agricultural and commodity exports to Asia.",
+    "explanation": "The Port of Vancouver — Canada's largest by tonnage — ships BC's forest products, metallurgical coal from the Elk Valley, and liquefied natural gas from the LNG Canada facility in Kitimat, Canada's first large-scale LNG export terminal, which shipped its first cargo in mid-2025. Prairie grain also flows through Vancouver terminals, making BC the gateway for much of Canada's agricultural and commodity exports to Asia.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["British Columbia", "exports", "Asia", "Pacific Gateway", "LNG", "forestry"]
+    "tags": [
+      "British Columbia",
+      "exports",
+      "Asia",
+      "Pacific Gateway",
+      "LNG",
+      "forestry"
+    ]
   },
   {
     "id": "canada-054",
@@ -930,7 +1272,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Saskatchewan", "potash", "potassium", "agriculture", "mining"]
+    "tags": [
+      "Saskatchewan",
+      "potash",
+      "potassium",
+      "agriculture",
+      "mining"
+    ]
   },
   {
     "id": "canada-055",
@@ -945,11 +1293,16 @@
       "Montréal Exchange (MX)"
     ],
     "answer": "Toronto Stock Exchange (TSX)",
-    "explanation": "The TSX is Canada's senior equities market, listing about 1,500–1,600 companies with a combined market capitalisation of roughly $3–4 trillion. It is part of TMX Group, which also operates the TSX-V (for smaller growth companies) and the Montréal Exchange (financial derivatives). By total market cap, the TSX ranks among the world's top 10 exchanges.",
+    "explanation": "The TSX is Canada's senior equities market, listing about 1,500–1,600 companies with a combined market capitalization of roughly $3–4 trillion. It is part of TMX Group, which also operates the TSX-V (for smaller growth companies) and the Montréal Exchange (financial derivatives). By total market cap, the TSX ranks among the world's top 10 exchanges.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Toronto Stock Exchange", "TSX", "capital markets", "Toronto"]
+    "tags": [
+      "Toronto Stock Exchange",
+      "TSX",
+      "capital markets",
+      "Toronto"
+    ]
   },
   {
     "id": "canada-056",
@@ -964,11 +1317,16 @@
       "Manitoba"
     ],
     "answer": "Alberta",
-    "explanation": "Alberta's oil wealth generates far more fiscal capacity per capita than the national average, making it a consistent 'have' province that contributes to — but never receives from — the equalization system. Nova Scotia, New Brunswick, Manitoba, Quebec, and PEI typically receive equalization. Ontario has occasionally slipped into 'have-not' status during economic downturns.",
+    "explanation": "Alberta's oil wealth generates far more fiscal capacity per capita than the national average, making it a consistent 'have' province that contributes to the equalization system through federal taxes but receives nothing from it. Nova Scotia, New Brunswick, Manitoba, Quebec and PEI typically receive equalization. Ontario has moved in and out of eligibility depending on economic conditions.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Alberta", "equalization", "fiscal federalism", "have province"]
+    "tags": [
+      "Alberta",
+      "equalization",
+      "fiscal federalism",
+      "have province"
+    ]
   },
   {
     "id": "canada-057",
@@ -976,14 +1334,22 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "Both driven by energy and natural resources — but which provincial economy is larger?",
-    "items": ["Alberta", "Saskatchewan"],
+    "items": [
+      "Alberta",
+      "Saskatchewan"
+    ],
     "metric": "nominal provincial GDP (2023)",
     "answer": "Alberta",
-    "explanation": "Alberta's GDP of roughly $430–470 billion (2023) makes it Canada's 4th largest provincial economy, behind only Ontario, Quebec, and BC. Saskatchewan's GDP is roughly $95–110 billion. While both provinces depend heavily on energy and agriculture, Alberta's oil sands, Calgary-based corporate sector, and larger population give it a much larger economic footprint.",
+    "explanation": "Alberta's GDP of roughly $450 billion (2023) makes it Canada's third-largest provincial economy, behind only Ontario and Quebec and just ahead of British Columbia. Saskatchewan's GDP is roughly $113 billion. While both provinces depend heavily on energy and agriculture, Alberta's oil sands, Calgary-based corporate sector, and larger population give it a much larger economic footprint.",
     "source": null,
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Alberta", "Saskatchewan", "provincial GDP", "energy"]
+    "tags": [
+      "Alberta",
+      "Saskatchewan",
+      "provincial GDP",
+      "energy"
+    ]
   },
   {
     "id": "canada-058",
@@ -1002,7 +1368,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bay Street", "Toronto", "financial district", "TSX", "banks"]
+    "tags": [
+      "Bay Street",
+      "Toronto",
+      "financial district",
+      "TSX",
+      "banks"
+    ]
   },
   {
     "id": "canada-059",
@@ -1015,7 +1387,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Vancouver", "housing", "affordability", "real estate"]
+    "tags": [
+      "Vancouver",
+      "housing",
+      "affordability",
+      "real estate"
+    ]
   },
   {
     "id": "canada-060",
@@ -1023,14 +1400,23 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "Two major western Canadian cities — one driven by tech and trade, the other by oil. Which has the higher average residential home price?",
-    "items": ["Calgary", "Vancouver"],
+    "items": [
+      "Calgary",
+      "Vancouver"
+    ],
     "metric": "benchmark/average residential home price (2023–24)",
     "answer": "Vancouver",
     "explanation": "Vancouver's benchmark home price (~$1.1–1.4 million) consistently runs roughly double Calgary's (~$560–650,000). Calgary's prices are volatile — they spike during oil booms and dip during busts. Vancouver's structural supply constraints (geography, zoning) and persistent demand maintain prices at a structurally higher level regardless of the energy cycle.",
     "source": null,
     "as_of": "2024",
     "time_sensitive": false,
-    "tags": ["Calgary", "Vancouver", "housing", "real estate", "cities"]
+    "tags": [
+      "Calgary",
+      "Vancouver",
+      "housing",
+      "real estate",
+      "cities"
+    ]
   },
   {
     "id": "canada-061",
@@ -1041,11 +1427,16 @@
     "answer": 100000,
     "unit": "CAD",
     "tolerance": 0,
-    "explanation": "CDIC protects up to $100,000 per depositor per coverage category. Categories include: deposits in one name, joint deposits, RRSP deposits, RRIF deposits, TFSA deposits, trust deposits, FHSA deposits, and RESP deposits — so a single depositor could be protected for $100,000 × 8 categories at one institution. CDIC increased coverage from $60,000 to $100,000 in 2005.",
-    "source": null,
-    "as_of": null,
-    "time_sensitive": false,
-    "tags": ["CDIC", "deposit insurance", "banking", "financial safety"]
+    "explanation": "CDIC protects up to $100,000 per depositor per coverage category. Categories include deposits in one name, joint deposits, trust deposits, and registered plans such as RRSPs, RRIFs, TFSAs, RESPs, RDSPs and FHSAs — so a single depositor can be covered for well over $100,000 at one institution by spreading deposits across categories. CDIC increased coverage from $60,000 to $100,000 in 2005, and a 2025 federal review considered raising it again.",
+    "source": "https://www.cdic.ca/depositors/whats-covered/",
+    "as_of": "2026",
+    "time_sensitive": true,
+    "tags": [
+      "CDIC",
+      "deposit insurance",
+      "banking",
+      "financial safety"
+    ]
   },
   {
     "id": "canada-062",
@@ -1060,11 +1451,16 @@
       "1.00%"
     ],
     "answer": "0.25%",
-    "explanation": "The Bank cut the overnight rate from 1.75% to 0.25% in three steps (March 4, March 13, and March 27, 2020) — the fastest rate-cutting cycle in Bank of Canada history. The 0.25% level was considered the 'effective lower bound' — the Bank judged that going to zero or negative would create distortions without meaningful additional stimulus. Rates remained at 0.25% until March 2022.",
+    "explanation": "The Bank cut the overnight rate from 1.75% to 0.25% in three steps (March 4, March 13, and March 27, 2020) — among the fastest rate-cutting cycles in its history. The 0.25% level was considered the 'effective lower bound' — the Bank judged that going lower would create distortions without meaningful additional stimulus. Rates remained at 0.25% until March 2022.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "COVID-19", "overnight rate", "monetary policy"]
+    "tags": [
+      "Bank of Canada",
+      "COVID-19",
+      "overnight rate",
+      "monetary policy"
+    ]
   },
   {
     "id": "canada-063",
@@ -1077,26 +1473,38 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["CPP", "pension", "Bill Morneau", "social insurance", "CPP enhancement"]
+    "tags": [
+      "CPP",
+      "pension",
+      "Bill Morneau",
+      "social insurance",
+      "CPP enhancement"
+    ]
   },
   {
     "id": "canada-064",
     "category": "canada",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Bank of Canada launched a large-scale asset purchase programme (quantitative easing) for the first time in its history in 2020. Why had the Bank never needed to use QE before, even during the 2008–09 global financial crisis?",
+    "prompt": "The Bank of Canada used large-scale asset purchases (quantitative easing) for the first time in 2020, having avoided them in 2008–09. Which factor is most often cited for why conventional policy was enough in 2008–09?",
     "choices": [
-      "Canada's banking system remained solvent and credit continued to flow normally in 2008–09, unlike in the US and UK where bank failures froze credit markets",
+      "Canada's banks stayed solvent and credit kept flowing, so rate cuts to 0.25% plus forward guidance were enough",
       "The Bank of Canada's legal mandate explicitly prohibits bond purchases except during declared national emergencies",
-      "Canada's fiscal stimulus in 2009 was large enough that monetary stimulus through QE was unnecessary",
-      "The Bank chose conventional rate cuts to zero in 2009 rather than QE, as rates had further to fall than in 2020"
+      "Inflation was running well above target in 2009, which ruled out any further stimulus",
+      "Canada's policy rate was still well above zero in 2009, leaving plenty of room for conventional cuts"
     ],
-    "answer": "Canada's banking system remained solvent and credit continued to flow normally in 2008–09, unlike in the US and UK where bank failures froze credit markets",
-    "explanation": "QE is primarily used when the banking system stops transmitting monetary policy — i.e., when banks won't lend even at near-zero rates. Canada's well-regulated banks stayed solvent in 2008–09, so conventional rate cuts were sufficient. The COVID-19 crisis involved a different kind of market seizure (liquidity, not bank solvency), making QE appropriate for the first time.",
+    "answer": "Canada's banks stayed solvent and credit kept flowing, so rate cuts to 0.25% plus forward guidance were enough",
+    "explanation": "QE is a tool for when the policy rate is at its floor and more stimulus is needed. In 2008–09 Canada's well-regulated banks stayed solvent and credit kept flowing, so cutting to 0.25% and promising to hold rates there was enough. The COVID-19 shock hit government bond market functioning as well as the economy, making large-scale asset purchases appropriate for the first time.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "QE", "quantitative easing", "COVID-19", "monetary policy"]
+    "tags": [
+      "Bank of Canada",
+      "QE",
+      "quantitative easing",
+      "COVID-19",
+      "monetary policy"
+    ]
   },
   {
     "id": "canada-065",
@@ -1111,11 +1519,16 @@
       "About 1 million votes — roughly 20% of all ballots cast"
     ],
     "answer": "About 54,000 votes — less than 1.2% of all ballots cast",
-    "explanation": "The final count was 50.58% Non vs. 49.42% Oui — a margin of roughly 54,288 votes out of nearly 4.76 million ballots, with a stunning 93.5% voter turnout. Had the Yes side won, Quebec would have issued a declaration of sovereignty and begun negotiations with Canada. The near-miss prompted the federal government to pass the Clarity Act (2000) and the reference to the Supreme Court on Quebec secession.",
+    "explanation": "The final count was 50.58% Non vs. 49.42% Oui — a margin of roughly 54,288 votes out of nearly 4.76 million ballots, with a stunning 93.5% voter turnout. Had the Yes side won, Quebec's government planned to propose a partnership to Canada and declare sovereignty within a year. The near-miss prompted Ottawa to refer the legality of secession to the Supreme Court (1998) and then pass the Clarity Act (2000).",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Quebec referendum", "1995", "sovereignty", "Canadian politics"]
+    "tags": [
+      "Quebec referendum",
+      "1995",
+      "sovereignty",
+      "Canadian politics"
+    ]
   },
   {
     "id": "canada-066",
@@ -1130,7 +1543,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["TFSA", "tax policy", "savings", "Jim Flaherty"]
+    "tags": [
+      "TFSA",
+      "tax policy",
+      "savings",
+      "Jim Flaherty"
+    ]
   },
   {
     "id": "canada-067",
@@ -1145,11 +1563,17 @@
       "Price floors set by federal statute + bilateral quota agreements with the US + provincial marketing boards"
     ],
     "answer": "Production quotas that limit output + import tariffs that block competition + marketing boards that set prices",
-    "explanation": "Supply management's three pillars are: 1) production controls (farmer quota limits — quota units can trade for hundreds of thousands of dollars), 2) pricing mechanisms (marketing boards set farm-gate prices above competitive levels), and 3) import controls (tariff-rate quotas with tariffs up to 298.5% on over-quota imports). US dairy exporters demand access; CUSMA granted some, but supply management remains largely intact.",
+    "explanation": "Supply management's three pillars are: 1) production controls (farmer quota limits — a typical dairy farm's quota can be worth millions of dollars), 2) pricing mechanisms (marketing boards set farm-gate prices above competitive levels), and 3) import controls (tariff-rate quotas with tariffs up to 298.5% on over-quota imports). US dairy exporters demand access; CUSMA granted some, but supply management remains largely intact.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["supply management", "dairy", "agriculture", "trade policy", "CUSMA"]
+    "tags": [
+      "supply management",
+      "dairy",
+      "agriculture",
+      "trade policy",
+      "CUSMA"
+    ]
   },
   {
     "id": "canada-068",
@@ -1168,7 +1592,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["RRSP", "tax policy", "retirement savings", "Canada"]
+    "tags": [
+      "RRSP",
+      "tax policy",
+      "retirement savings",
+      "Canada"
+    ]
   },
   {
     "id": "canada-069",
@@ -1187,7 +1616,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "overnight rate", "monetary policy", "interest rates"]
+    "tags": [
+      "Bank of Canada",
+      "overnight rate",
+      "monetary policy",
+      "interest rates"
+    ]
   },
   {
     "id": "canada-070",
@@ -1196,30 +1630,41 @@
     "format": "mc",
     "prompt": "Graham Ford Towers was the Bank of Canada's first Governor (1935–1954). During his tenure, a fundamental change in the Bank's ownership occurred. What was it?",
     "choices": [
-      "The Bank was nationalised — converted from private shareholding to full public Crown corporation ownership in 1938",
+      "The Bank was nationalized — converted from private shareholding to full public Crown corporation ownership in 1938",
       "The Bank's shares were listed on the Toronto Stock Exchange in 1940, making it publicly traded",
       "The Bank merged with the Department of Finance in 1937 to consolidate fiscal and monetary authority",
       "The Bank was granted formal statutory independence from the federal government by legislation in 1947"
     ],
-    "answer": "The Bank was nationalised — converted from private shareholding to full public Crown corporation ownership in 1938",
+    "answer": "The Bank was nationalized — converted from private shareholding to full public Crown corporation ownership in 1938",
     "explanation": "When the Bank opened in March 1935, it was privately owned — shares were sold to the public. The Mackenzie King government bought out all outstanding shares in 1938, converting the Bank into a fully publicly owned Crown corporation. Towers served the longest tenure of any Bank of Canada governor and guided the Bank through World War II and the post-war reconstruction era.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "Graham Towers", "nationalisation", "history", "governors"]
+    "tags": [
+      "Bank of Canada",
+      "Graham Towers",
+      "nationalization",
+      "history",
+      "governors"
+    ]
   },
   {
     "id": "canada-071",
     "category": "canada",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "Under Finance Minister Paul Martin, Canada recorded its first federal budget surplus in 27 years in fiscal year 1997–98, and maintained consecutive surpluses for the next several years.",
+    "prompt": "Under Finance Minister Paul Martin, Canada recorded its first federal budget surplus since 1969–70 in fiscal year 1997–98, and went on to post consecutive surpluses for about a decade.",
     "answer": true,
-    "explanation": "Martin's 1995 Program Review budget cuts produced a surplus in FY1997–98 — the first since 1969–70. Surpluses continued through the Chrétien and early Trudeau years, running through about FY2007–08 before the 2008 crisis caused a return to deficit. Canada reduced its federal debt-to-GDP ratio from a peak of ~68% in 1995–96 to under 30% by the late 2000s.",
+    "explanation": "Martin's 1995 Program Review budget cuts produced a surplus in FY1997–98 — the first since 1969–70. Surpluses continued through the Chrétien, Martin and early Harper years, running through FY2007–08 before the 2008 crisis caused a return to deficit. The federal debt-to-GDP ratio fell from a peak of about two-thirds in the mid-1990s to under 30% by the late 2000s.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Paul Martin", "federal deficit", "surpluses", "fiscal policy"]
+    "tags": [
+      "Paul Martin",
+      "federal deficit",
+      "surpluses",
+      "fiscal policy"
+    ]
   },
   {
     "id": "canada-072",
@@ -1238,22 +1683,35 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Investment Canada Act", "foreign investment", "national security", "trade policy"]
+    "tags": [
+      "Investment Canada Act",
+      "foreign investment",
+      "national security",
+      "trade policy"
+    ]
   },
   {
     "id": "canada-073",
     "category": "canada",
     "difficulty": 3,
     "format": "higher_lower",
-    "prompt": "Comparing only federal government debt (not provincial): which country carries the heavier debt burden relative to its economy?",
-    "items": ["Canada (federal only)", "United States (federal only)"],
-    "metric": "federal government gross debt as a percentage of GDP (2023)",
-    "answer": "United States (federal only)",
-    "explanation": "The US federal government's gross debt was approximately 120–123% of GDP in 2023, partly enabled by the US dollar's reserve-currency status. Canada's federal government gross debt was roughly 42–47% of GDP — much lower, reflecting decades of deficit reduction. When all levels of government are included, Canada's total public debt-to-GDP rises toward 85–90%, still well below the US total.",
+    "prompt": "Counting all levels of government, which country carried the heavier gross debt burden relative to GDP in 2023, according to the IMF?",
+    "items": [
+      "Canada",
+      "United States"
+    ],
+    "metric": "general government gross debt as a percentage of GDP (IMF, 2023)",
+    "answer": "United States",
+    "explanation": "The IMF estimates US general government gross debt at about 120% of GDP in 2023, against about 105% for Canada. Canada's total is lower despite sizeable provincial borrowing because its federal debt is moderate by G7 standards — but the gap is narrower than many Canadians assume, and Canada's debt ratio has risen since the pandemic.",
     "source": null,
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["federal debt", "GDP", "Canada-US comparison", "fiscal policy"]
+    "tags": [
+      "federal debt",
+      "GDP",
+      "Canada-US comparison",
+      "fiscal policy"
+    ]
   },
   {
     "id": "canada-074",
@@ -1272,7 +1730,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Montreal", "Toronto", "financial history", "Quebec", "cities"]
+    "tags": [
+      "Montreal",
+      "Toronto",
+      "financial history",
+      "Quebec",
+      "cities"
+    ]
   },
   {
     "id": "canada-075",
@@ -1287,33 +1751,50 @@
       "Canada's physical proximity to the United States, which serves as an implicit guarantor of Canadian sovereign debt"
     ],
     "answer": "Canada's strong fiscal institutions, track record of deficit reduction, and diversified economy with manageable federal debt",
-    "explanation": "S&P, Moody's, and Fitch all rate Canada at or near the top tier. Key factors include low federal debt relative to peers, a stable banking system, a transparent monetary framework, rule of law, and a diverse resource and services economy. By comparison, the US lost its S&P AAA rating in 2011; the UK is rated AA.",
+    "explanation": "S&P and Moody's both rate Canada at the very top (AAA/Aaa); Fitch cut it one notch to AA+ in 2020. Key factors behind the top ratings include low federal debt relative to peers, a stable banking system, a transparent monetary framework, rule of law, and a diverse resource and services economy. By comparison, S&P downgraded the US from AAA in 2011; the UK is rated AA.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["credit rating", "AAA", "fiscal policy", "Canada finances"]
+    "tags": [
+      "credit rating",
+      "AAA",
+      "fiscal policy",
+      "Canada finances"
+    ]
   },
   {
     "id": "canada-076",
     "category": "canada",
     "difficulty": 2,
     "format": "order",
-    "prompt": "Each of these pillars of Canada's economic and social safety net was created in a different decade. Order them from the one established first to the most recently created.",
-    "items": ["Bank of Canada opens for business", "Old Age Security payments begin", "Canada Pension Plan established", "Goods and Services Tax takes effect"],
+    "prompt": "Each of these Canadian economic and fiscal institutions was created in a different decade. Order them from the one established first to the most recently created.",
+    "items": [
+      "Bank of Canada opens for business",
+      "Old Age Security payments begin",
+      "Canada Pension Plan established",
+      "Goods and Services Tax takes effect"
+    ],
     "order_by": "year of first operation or entry into force",
     "answer": "Bank of Canada opens for business → Old Age Security payments begin → Canada Pension Plan established → Goods and Services Tax takes effect",
-    "explanation": "Bank of Canada opened: March 11, 1935. OAS payments began: January 1952. CPP established and began collecting contributions: January 1966. GST took effect: January 1, 1991. Each milestone expanded Canada's economic institutions or social safety net in a different decade.",
+    "explanation": "Bank of Canada opened: March 11, 1935. OAS payments began: January 1952. CPP established in 1965 and began collecting contributions in January 1966. GST took effect: January 1, 1991. Each milestone expanded Canada's economic institutions or social safety net in a different decade.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "OAS", "CPP", "GST", "economic history", "chronology"]
+    "tags": [
+      "Bank of Canada",
+      "OAS",
+      "CPP",
+      "GST",
+      "economic history",
+      "chronology"
+    ]
   },
   {
     "id": "canada-077",
     "category": "canada",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Canada's top merchandise export commodity by value is consistently in which sector?",
+    "prompt": "Which commodity group is Canada's largest merchandise export by value in recent years?",
     "choices": [
       "Crude oil and petroleum products",
       "Natural gas",
@@ -1325,7 +1806,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["exports", "crude oil", "natural resources", "Canada trade"]
+    "tags": [
+      "exports",
+      "crude oil",
+      "natural resources",
+      "Canada trade"
+    ]
   },
   {
     "id": "canada-078",
@@ -1340,11 +1826,17 @@
       "Global chromite prices have remained too low to justify the capital cost of extraction"
     ],
     "answer": "No road or rail connection links the remote James Bay Lowlands region to southern markets",
-    "explanation": "The Ring of Fire deposits — about 500 km northeast of Thunder Bay — are inaccessible by road or rail. Building infrastructure through muskeg and boreal forest costs billions. Multiple Ontario governments, First Nations communities, and mining companies have been in negotiations since the early 2010s over infrastructure routes, profit-sharing, and environmental terms. As of 2024 the deposits remain largely undeveloped.",
+    "explanation": "The Ring of Fire deposits — about 500 km northeast of Thunder Bay — are inaccessible by road or rail. Building infrastructure through muskeg and boreal forest costs billions. Multiple Ontario governments, First Nations communities, and mining companies have been in negotiations since the early 2010s over infrastructure routes, profit-sharing, and environmental terms. As of the mid-2020s the deposits remain largely undeveloped.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Ring of Fire", "Ontario", "mining", "critical minerals", "infrastructure"]
+    "tags": [
+      "Ring of Fire",
+      "Ontario",
+      "mining",
+      "critical minerals",
+      "infrastructure"
+    ]
   },
   {
     "id": "canada-079",
@@ -1363,7 +1855,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["British Columbia", "HST", "PST", "taxation", "referendum"]
+    "tags": [
+      "British Columbia",
+      "HST",
+      "PST",
+      "taxation",
+      "referendum"
+    ]
   },
   {
     "id": "canada-080",
@@ -1378,10 +1876,16 @@
       "Sir Robert Borden"
     ],
     "answer": "Sir John A. Macdonald",
-    "explanation": "Macdonald appeared on the Canadian $10 bill in the polymer Frontier series (2011). The new vertical Viola Desmond $10 began circulating in November 2018. Desmond was a Black Nova Scotian businesswoman who refused to leave the whites-only section of a New Glasgow cinema in 1946 — a precursor to civil rights activism in Canada. The choice was part of the Bank's initiative to better represent Canada's diversity on its currency.",
+    "explanation": "Macdonald appeared on the Canadian $10 bill in the polymer Frontier series (introduced in 2013). The new vertical Viola Desmond $10 began circulating in November 2018. Desmond was a Black Nova Scotian businesswoman who refused to leave the whites-only section of a New Glasgow cinema in 1946 — a precursor to civil rights activism in Canada. The choice was part of the Bank's initiative to better represent Canada's diversity on its currency.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Viola Desmond", "Bank of Canada", "banknotes", "currency", "Macdonald"]
+    "tags": [
+      "Viola Desmond",
+      "Bank of Canada",
+      "banknotes",
+      "currency",
+      "Macdonald"
+    ]
   }
 ]

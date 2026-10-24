@@ -145,10 +145,11 @@
     "source": "https://data.worldbank.org/indicator/TX.VAL.TECH.CD"
   },
   {
-    "id": "agriculture-value-2023",
+    "id": "agriculture-value-2021",
     "indicator": "NV.AGR.TOTL.CD",
-    "year": 2023,
-    "label": "Agriculture, forestry and fishing value added, 2023",
+    "year": 2021,
+    "label": "Agriculture, forestry and fishing value added, 2021",
+    "note": "2022 has no United States figure and 2023 omits both the United States and Canada, so a later year would draw a map missing the world's third-largest agricultural economy. 2021 is the latest complete year.",
     "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
     "source": "https://data.worldbank.org/indicator/NV.AGR.TOTL.CD"
   },

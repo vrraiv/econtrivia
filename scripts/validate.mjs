@@ -47,11 +47,45 @@ function validateNumeric(q) {
     err(q.id, 'numeric: requires tolerance or tolerance_pct');
 }
 
+const orderTokens = s => new Set(
+  String(s).toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(/\s+/).filter(t => t.length > 1)
+);
+
+// The app grades an order question by comparing the player's sequence with
+// q.items and shuffles items for display, so q.items MUST be stored in the
+// correct order. The human-readable `answer` string is never read by the app, so
+// if the two disagree a correct submission is marked wrong and the wrong
+// "correct answer" is shown. Cross-check them here.
 function validateOrder(q) {
-  if (!Array.isArray(q.items) || q.items.length !== 4)
+  if (!Array.isArray(q.items) || q.items.length !== 4) {
     err(q.id, 'order: requires exactly 4 items');
+    return;
+  }
   if (!q.order_by)
     err(q.id, 'order: requires order_by field');
+
+  const segs = String(q.answer).split(/\s*→\s*/);
+  if (segs.length !== q.items.length) {
+    warn(q.id, `order: answer string has ${segs.length} segments, expected ${q.items.length}`);
+    return;
+  }
+
+  // Match each answer segment to the item it shares the most words with.
+  const itemToks = q.items.map(orderTokens);
+  const matched = segs.map(seg => {
+    const st = orderTokens(seg);
+    const scores = itemToks.map(it => [...st].filter(t => it.has(t)).length);
+    const best = Math.max(...scores);
+    return best > 0 && scores.filter(s => s === best).length === 1 ? scores.indexOf(best) : -1;
+  });
+
+  if (matched.includes(-1) || new Set(matched).size !== matched.length) {
+    warn(q.id, 'order: could not match answer string to items to verify their order');
+    return;
+  }
+  if (!matched.every((idx, pos) => idx === pos))
+    err(q.id, `order: items are not stored in the order given by "answer" ` +
+      `(answer implies item order ${matched.map(i => i + 1).join(',')}); grading would mark a correct response wrong`);
 }
 
 function validateHigherLower(q) {

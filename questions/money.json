@@ -12,11 +12,15 @@
       "Medium of exchange, unit of account, and standard of living"
     ],
     "answer": "Medium of exchange, unit of account, and store of value",
-    "explanation": "Every introductory economics textbook lists these three functions. 'Medium of exchange' means money is accepted in payment; 'unit of account' means prices are quoted in it; 'store of value' means it holds purchasing power over time. Some add a fourth — standard of deferred payment — but the classic trio is universally recognised.",
+    "explanation": "The classic trio is medium of exchange (money is accepted in payment), unit of account (prices are quoted in it) and store of value (it holds purchasing power over time). Many textbooks add a fourth function, standard of deferred payment, but the three listed here are the ones almost every introductory text gives.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["functions of money", "monetary theory", "fundamentals"]
+    "tags": [
+      "functions of money",
+      "monetary theory",
+      "fundamentals"
+    ]
   },
   {
     "id": "money-002",
@@ -31,11 +35,15 @@
       "Each party must have equal quantities of goods to swap"
     ],
     "answer": "Each party must want exactly what the other has to offer, at the same time",
-    "explanation": "In a barter economy, a wheat farmer who wants shoes must find a shoemaker who happens to want wheat — right now. Money solves this: the farmer sells wheat for money, then buys shoes separately. William Stanley Jevons (1875) formalised this argument for why barter was unworkable beyond small communities.",
+    "explanation": "In a barter economy, a wheat farmer who wants shoes must find a shoemaker who happens to want wheat — right now. Money solves this: the farmer sells wheat for money, then buys shoes separately. William Stanley Jevons (1875) formalized this argument for why barter was unworkable beyond small communities.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["barter", "double coincidence of wants", "monetary origins"]
+    "tags": [
+      "barter",
+      "double coincidence of wants",
+      "monetary origins"
+    ]
   },
   {
     "id": "money-003",
@@ -48,7 +56,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["fiat money", "monetary history", "gold standard"]
+    "tags": [
+      "fiat money",
+      "monetary history",
+      "gold standard"
+    ]
   },
   {
     "id": "money-004",
@@ -67,7 +79,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bitcoin", "cryptocurrency", "supply", "digital currency"]
+    "tags": [
+      "Bitcoin",
+      "cryptocurrency",
+      "supply",
+      "digital currency"
+    ]
   },
   {
     "id": "money-005",
@@ -75,14 +92,22 @@
     "difficulty": 1,
     "format": "higher_lower",
     "prompt": "In the standard monetary aggregates, which measure of the money supply is larger?",
-    "items": ["M1", "M2"],
+    "items": [
+      "M1",
+      "M2"
+    ],
     "metric": "breadth of monetary aggregate (includes more types of money)",
     "answer": "M2",
-    "explanation": "M2 is always larger than M1 because it is a superset: M2 = M1 + savings deposits + small time deposits + money market accounts. M1 covers the most liquid money (currency + demand deposits). M2 captures a broader slice of 'near-money.'",
+    "explanation": "M2 is always larger than M1 because it contains everything in M1 plus 'near-money' such as small time deposits and retail money market funds. M1 covers the most liquid money: currency plus chequing-type deposits. (Under older definitions M2 also added savings deposits; the Fed moved savings deposits into M1 in 2020, but M2 remains the broader measure.)",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["M1", "M2", "money supply", "monetary aggregates"]
+    "tags": [
+      "M1",
+      "M2",
+      "money supply",
+      "monetary aggregates"
+    ]
   },
   {
     "id": "money-006",
@@ -97,11 +122,16 @@
       "The Dollar Devaluation"
     ],
     "answer": "The Nixon Shock",
-    "explanation": "On August 15, 1971, Nixon suspended the dollar's gold convertibility — at $35 per ounce — in a live TV address. The decision ended the post-war fixed-exchange-rate system, freed the dollar to float, and ushered in the current era of fiat currencies worldwide.",
+    "explanation": "On August 15, 1971, Nixon suspended the dollar's convertibility into gold, at $35 per ounce, in a televised address. That ended the post-war Bretton Woods system of fixed exchange rates. A brief attempt to re-peg currencies (the Smithsonian Agreement, December 1971) failed, and by 1973 the major currencies were floating, ushering in today's era of fiat money.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Nixon Shock", "gold standard", "Bretton Woods", "1971"]
+    "tags": [
+      "Nixon Shock",
+      "gold standard",
+      "Bretton Woods",
+      "1971"
+    ]
   },
   {
     "id": "money-007",
@@ -120,7 +150,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["hyperinflation", "Weimar Germany", "1923", "monetary history"]
+    "tags": [
+      "hyperinflation",
+      "Weimar Germany",
+      "1923",
+      "monetary history"
+    ]
   },
   {
     "id": "money-008",
@@ -129,12 +164,22 @@
     "format": "short",
     "prompt": "In the quantity theory of money equation MV = PQ, what does the letter V represent?",
     "answer": "velocity",
-    "accept": ["velocity", "velocity of money", "velocity of circulation", "the velocity of money"],
-    "explanation": "V is the velocity of money — how many times a unit of currency changes hands per period. M is money supply, P is price level, Q is real output (transactions). During the 2008 crisis and COVID, velocity dropped sharply as people and banks hoarded cash, limiting the inflationary effect of massive QE programmes.",
+    "accept": [
+      "velocity",
+      "velocity of money",
+      "velocity of circulation",
+      "the velocity of money"
+    ],
+    "explanation": "V is the velocity of money — how many times a unit of currency changes hands per period. M is money supply, P is price level, Q is real output (transactions). During the 2008 crisis and COVID, velocity dropped sharply as people and banks hoarded cash, limiting the inflationary effect of massive QE programs.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["quantity theory", "MV=PQ", "velocity", "monetary theory"]
+    "tags": [
+      "quantity theory",
+      "MV=PQ",
+      "velocity",
+      "monetary theory"
+    ]
   },
   {
     "id": "money-009",
@@ -147,7 +192,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["money creation", "fractional reserve banking", "endogenous money", "commercial banks"]
+    "tags": [
+      "money creation",
+      "fractional reserve banking",
+      "endogenous money",
+      "commercial banks"
+    ]
   },
   {
     "id": "money-010",
@@ -156,12 +206,22 @@
     "format": "short",
     "prompt": "What is the term for the profit a government or central bank earns from issuing currency — specifically the difference between the face value of the money issued and the cost of producing it?",
     "answer": "seigniorage",
-    "accept": ["seigniorage", "seignorage", "seniorage", "money creation profit"],
+    "accept": [
+      "seigniorage",
+      "seignorage",
+      "seniorage",
+      "money creation profit"
+    ],
     "explanation": "Seigniorage is the revenue from money creation. A central bank that prints a $100 bill costing $0.10 to produce earns $99.90 in seigniorage. Historically this was a major source of government revenue; today, through central bank remittances to treasuries, it remains economically significant.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["seigniorage", "money creation", "central bank", "monetary theory"]
+    "tags": [
+      "seigniorage",
+      "money creation",
+      "central bank",
+      "monetary theory"
+    ]
   },
   {
     "id": "money-011",
@@ -176,11 +236,17 @@
       "Voters reject the austerity measures needed to maintain the peg in a referendum"
     ],
     "answer": "Speculators sell the currency faster than the central bank can buy it, draining its foreign reserves to zero",
-    "explanation": "In a first-generation currency crisis (Krugman 1979), a country running fiscal deficits must eventually monetise debt, making a fixed peg unsustainable. Speculators front-run the collapse, selling the currency en masse until reserves run out. George Soros's 1992 bet against the British pound — earning $1 billion in a day — is the most famous example.",
+    "explanation": "In a first-generation currency crisis (Krugman, 1979), a government running deficits financed by money creation must eventually let a fixed peg go. Speculators, anticipating this, attack and buy up the remaining reserves just before the peg would have collapsed anyway. The 1992 attack on the pound, in which George Soros reportedly made about $1 billion, is the best-known real-world attack, although economists usually classify the ERM crisis as 'second-generation': the UK abandoned the peg because defending it had become too costly.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["currency crisis", "speculative attack", "exchange rate", "Soros", "Krugman"]
+    "tags": [
+      "currency crisis",
+      "speculative attack",
+      "exchange rate",
+      "Soros",
+      "Krugman"
+    ]
   },
   {
     "id": "money-012",
@@ -189,11 +255,17 @@
     "format": "tf",
     "prompt": "When a central bank conducts quantitative easing (QE) by buying government bonds, it directly increases reserve balances held by commercial banks at the central bank.",
     "answer": true,
-    "explanation": "In QE, the central bank buys bonds from commercial banks and credits their reserve accounts — electronically creating 'high-powered money.' This is why QE expands the monetary base without immediately expanding broader money supply; the excess reserves sit at the central bank unless banks choose to lend them out.",
+    "explanation": "In QE, the central bank buys bonds from sellers (typically through their commercial banks) and pays by crediting the banks' reserve accounts at the central bank, electronically creating 'high-powered money'. This is why QE expands the monetary base without immediately expanding broader money: the extra reserves sit at the central bank unless banks choose to lend them out.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["QE", "quantitative easing", "reserves", "monetary base", "central bank"]
+    "tags": [
+      "QE",
+      "quantitative easing",
+      "reserves",
+      "monetary base",
+      "central bank"
+    ]
   },
   {
     "id": "money-013",
@@ -202,12 +274,22 @@
     "format": "short",
     "prompt": "The IMF issues a reserve asset that member countries can use to supplement their official foreign reserves. What is the name of this asset, created in 1969?",
     "answer": "Special Drawing Right",
-    "accept": ["Special Drawing Right", "SDR", "SDRs", "Special Drawing Rights"],
+    "accept": [
+      "Special Drawing Right",
+      "SDR",
+      "SDRs",
+      "Special Drawing Rights"
+    ],
     "explanation": "SDRs (Special Drawing Rights) are an international reserve asset allocated to IMF member countries based on their quota. They are not a currency but can be exchanged for freely usable currencies among members. In 2021, the IMF allocated $650 billion in new SDRs to help countries cope with the COVID-19 pandemic.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["SDR", "IMF", "reserve asset", "international finance"]
+    "tags": [
+      "SDR",
+      "IMF",
+      "reserve asset",
+      "international finance"
+    ]
   },
   {
     "id": "money-014",
@@ -216,11 +298,17 @@
     "format": "tf",
     "prompt": "The 'optimum currency area' theory — which analyses when countries benefit from sharing a currency — was developed by Canadian economist Robert Mundell.",
     "answer": true,
-    "explanation": "Robert Mundell, born in Kingston, Ontario, developed OCA theory in a landmark 1961 paper asking when it pays to give up a national currency. His criteria (labour mobility, economic symmetry, fiscal transfers) underpin debates about the euro zone to this day. Mundell won the 1999 Nobel Prize — and is sometimes called the 'father of the euro.'",
+    "explanation": "Robert Mundell, born in Kingston, Ontario, developed OCA theory in a landmark 1961 paper asking when it pays to give up a national currency. His criteria (labour mobility, economic symmetry, fiscal transfers) underpin debates about the euro zone to this day. Mundell won the 1999 Nobel Prise — and is sometimes called the 'father of the euro.'",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["optimum currency area", "Mundell", "OCA", "euro", "Canadian economist"]
+    "tags": [
+      "optimum currency area",
+      "Mundell",
+      "OCA",
+      "euro",
+      "Canadian economist"
+    ]
   },
   {
     "id": "money-015",
@@ -229,17 +317,36 @@
     "format": "match",
     "prompt": "Match each monetary aggregate to its correct definition.",
     "pairs": [
-      ["M0 (monetary base)", "Physical currency in circulation plus commercial bank reserves held at the central bank"],
-      ["M1", "Physical currency in circulation plus demand deposits (chequing accounts)"],
-      ["M2", "M1 plus savings accounts, small time deposits, and retail money market funds"],
-      ["M3", "M2 plus large time deposits, institutional money market funds, and repurchase agreements"]
+      [
+        "M0 (monetary base)",
+        "Physical currency in circulation plus commercial bank reserves held at the central bank"
+      ],
+      [
+        "M1",
+        "Physical currency in circulation plus demand deposits (chequing accounts)"
+      ],
+      [
+        "M2",
+        "M1 plus savings accounts, small time deposits, and retail money market funds"
+      ],
+      [
+        "M3",
+        "M2 plus large time deposits, institutional money market funds, and repurchase agreements"
+      ]
     ],
     "answer": "M0→Physical currency + central bank reserves, M1→Physical currency + demand deposits, M2→M1 + savings and small time deposits, M3→M2 + large institutional deposits",
-    "explanation": "The M-aggregates build on each other: M0 is the narrowest ('high-powered money'); M3 is broadest. The Fed stopped publishing M3 in 2006, judging it redundant. The Bank of Canada uses M1+, M2, M2+, and M3 with slightly different definitions than the US.",
+    "explanation": "The M-aggregates build on each other: M0 is the narrowest ('high-powered money') and M3 the broadest. The Fed stopped publishing M3 in 2006, judging it redundant. Definitions differ by country: the Bank of Canada, for example, tracks its own measures such as M1+, M2 and M2++.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["M0", "M1", "M2", "M3", "monetary aggregates", "money supply"]
+    "tags": [
+      "M0",
+      "M1",
+      "M2",
+      "M3",
+      "monetary aggregates",
+      "money supply"
+    ]
   },
   {
     "id": "money-016",
@@ -258,7 +365,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["liquidity trap", "zero lower bound", "Keynes", "monetary policy"]
+    "tags": [
+      "liquidity trap",
+      "zero lower bound",
+      "Keynes",
+      "monetary policy"
+    ]
   },
   {
     "id": "money-017",
@@ -277,7 +389,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["debt deflation", "deflation", "Fisher", "monetary theory", "1933"]
+    "tags": [
+      "debt deflation",
+      "deflation",
+      "Fisher",
+      "monetary theory",
+      "1933"
+    ]
   },
   {
     "id": "money-018",
@@ -289,15 +407,21 @@
       "Weimar Germany (mark collapses to 4.2 trillion per dollar)",
       "Hungary (worst hyperinflation in recorded history — prices double every 15 hours)",
       "Zimbabwe (100 trillion dollar notes printed)",
-      "Venezuela (annual inflation exceeds 1,000,000%)"
+      "Venezuela (annual inflation in the tens of thousands of percent, or worse)"
     ],
     "order_by": "year the hyperinflation peaked",
-    "answer": "Weimar Germany (mark collapses to 4.2 trillion per dollar) → Hungary (worst hyperinflation in recorded history — prices double every 15 hours) → Zimbabwe (100 trillion dollar notes printed) → Venezuela (annual inflation exceeds 1,000,000%)",
-    "explanation": "Germany: peaked November 1923. Hungary: peaked July 1946 — still the worst recorded hyperinflation, with a daily rate exceeding 200%. Zimbabwe: peaked November 2008, with notes up to 100 trillion dollars. Venezuela: peaked around 2018–2019 at over 1,000,000% annual inflation.",
+    "answer": "Weimar Germany (mark collapses to 4.2 trillion per dollar) → Hungary (worst hyperinflation in recorded history — prices double every 15 hours) → Zimbabwe (100 trillion dollar notes printed) → Venezuela (annual inflation in the tens of thousands of percent, or worse)",
+    "explanation": "Germany: peaked November 1923. Hungary: peaked July 1946, still the worst recorded hyperinflation, with a daily rate above 200%. Zimbabwe: monthly inflation peaked in November 2008, and notes of up to 100 trillion dollars followed in January 2009. Venezuela: hyperinflation peaked around 2018-2019; estimates of the annual rate range from tens of thousands to over a million percent, depending on the source (the IMF projected 1,000,000% for 2018).",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["hyperinflation", "Germany", "Hungary", "Zimbabwe", "Venezuela"]
+    "tags": [
+      "hyperinflation",
+      "Germany",
+      "Hungary",
+      "Zimbabwe",
+      "Venezuela"
+    ]
   },
   {
     "id": "money-019",
@@ -305,14 +429,23 @@
     "difficulty": 3,
     "format": "higher_lower",
     "prompt": "Which currency has a stronger historical track record as a 'safe haven' — appreciating during global financial crises as investors flee to safety?",
-    "items": ["Swiss franc", "Australian dollar"],
+    "items": [
+      "Swiss franc",
+      "Australian dollar"
+    ],
     "metric": "historical tendency to appreciate during global risk-off episodes and financial crises",
     "answer": "Swiss franc",
-    "explanation": "The Swiss franc is the archetypal safe-haven currency, appreciating sharply during crises (2008, 2011 euro zone, 2020 COVID). Switzerland's political neutrality, current-account surplus, sound institutions, and independent central bank underpin this status. The Australian dollar is the opposite — a 'risk-on' commodity currency that typically falls during crises.",
+    "explanation": "The Swiss franc is the archetypal safe-haven currency, appreciating in crises such as 2008 and the 2011 euro zone turmoil. Switzerland's political neutrality, current-account surplus, sound institutions and independent central bank underpin this status. The Australian dollar is the opposite: a 'risk-on' commodity currency that typically falls during crises.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Swiss franc", "safe haven", "Australian dollar", "currency", "risk-off"]
+    "tags": [
+      "Swiss franc",
+      "safe haven",
+      "Australian dollar",
+      "currency",
+      "risk-off"
+    ]
   },
   {
     "id": "money-020",
@@ -331,7 +464,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["central bank independence", "inflation", "monetary policy", "Alesina", "institutions"]
+    "tags": [
+      "central bank independence",
+      "inflation",
+      "monetary policy",
+      "Alesina",
+      "institutions"
+    ]
   },
   {
     "id": "money-021",
@@ -346,11 +485,17 @@
       "William Miller"
     ],
     "answer": "Paul Volcker",
-    "explanation": "Volcker became Fed Chair in 1979 under Jimmy Carter. His brutal monetary tightening — rates peaked near 20% in June 1981 — caused two recessions but broke the inflationary cycle. Inflation fell from 13.5% in 1980 to 3.2% by 1983. He is widely considered the most consequential Fed Chair of the 20th century.",
+    "explanation": "Volcker became Fed Chair in 1979 under Jimmy Carter. His brutal monetary tightening, with the federal funds rate close to 20% in mid-1981, caused two recessions but broke the inflationary cycle. Inflation fell from 13.5% in 1980 to 3.2% by 1983. He is widely regarded as one of the most consequential Fed Chairs of the 20th century.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Volcker", "Federal Reserve", "inflation", "monetary policy", "1980s"]
+    "tags": [
+      "Volcker",
+      "Federal Reserve",
+      "inflation",
+      "monetary policy",
+      "1980s"
+    ]
   },
   {
     "id": "money-022",
@@ -365,11 +510,15 @@
       "10 years (1996–2006)"
     ],
     "answer": "18 years (1987–2006)",
-    "explanation": "Greenspan served from August 1987 to January 2006 — nearly 18.5 years, the longest tenure of any Fed Chair in history. Appointed by Reagan and reappointed by three more presidents, his reputation was later tarnished by criticism that loose monetary policy contributed to the 2008 financial crisis.",
+    "explanation": "Greenspan served from August 1987 to January 2006, about 18.5 years. That is the second-longest tenure of any Fed Chair, behind William McChesney Martin (1951-1970, about 18.8 years). Appointed by Reagan and reappointed by three more presidents, his reputation was later tarnished by criticism that loose monetary policy contributed to the 2008 financial crisis.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Greenspan", "Federal Reserve", "monetary policy"]
+    "tags": [
+      "Greenspan",
+      "Federal Reserve",
+      "monetary policy"
+    ]
   },
   {
     "id": "money-023",
@@ -378,24 +527,29 @@
     "format": "mc",
     "prompt": "Janet Yellen made two historic firsts in US economic policy. Which of the following correctly describes both?",
     "choices": [
-      "First woman to chair the Federal Reserve, and first person to serve as both Fed Chair and Treasury Secretary",
-      "First woman to chair the Federal Reserve, and first Fed Chair to implement negative interest rates",
-      "First economist to serve as both Treasury Secretary and World Bank president",
-      "First woman to chair the Federal Reserve, and first Fed Chair to raise rates after the 2008 crisis"
+      "First woman to chair the Federal Reserve, and first woman to serve as US Treasury Secretary",
+      "First woman to chair the Federal Reserve, and first Fed Chair to introduce negative interest rates",
+      "First woman to lead the International Monetary Fund, and first woman to chair the Federal Reserve",
+      "First woman to chair the Council of Economic Advisers, and first woman to chair the Federal Reserve"
     ],
-    "answer": "First woman to chair the Federal Reserve, and first person to serve as both Fed Chair and Treasury Secretary",
-    "explanation": "Yellen chaired the Fed from 2014–2018, the first woman to do so. She became US Treasury Secretary in January 2021 under Biden — the first person ever to hold both positions. As Treasury Secretary she championed a global minimum corporate tax deal and oversaw massive COVID stimulus.",
+    "answer": "First woman to chair the Federal Reserve, and first woman to serve as US Treasury Secretary",
+    "explanation": "Yellen chaired the Fed from 2014 to 2018, the first woman to do so, and served as US Treasury Secretary from January 2021 to January 2025, the first woman in that job. She is also the first person to have led the Fed, the Treasury and the Council of Economic Advisers. (She is not the first person to chair the Fed and later run the Treasury: G. William Miller did both in 1978-81.) Lagarde, not Yellen, was the first woman to lead the IMF, and Laura Tyson chaired the CEA before Yellen did.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Yellen", "Federal Reserve", "Treasury", "first woman"]
+    "tags": [
+      "Yellen",
+      "Federal Reserve",
+      "Treasury",
+      "first woman"
+    ]
   },
   {
     "id": "money-024",
     "category": "money",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Mark Carney is the only person to have governed two G7 central banks. Which two institutions did he lead?",
+    "prompt": "Mark Carney has governed two G7 central banks, a rare feat. Which two institutions did he lead?",
     "choices": [
       "Bank of Canada (2008–2013) and Bank of England (2013–2020)",
       "Bank of Canada (2006–2012) and US Federal Reserve (2014–2018)",
@@ -403,11 +557,17 @@
       "Bank of Canada (2004–2010) and Bank of England (2011–2018)"
     ],
     "answer": "Bank of Canada (2008–2013) and Bank of England (2013–2020)",
-    "explanation": "Carney, an Ottawa native and Goldman Sachs alumnus, led the Bank of Canada through the 2008 financial crisis (Canada emerged relatively unscathed) then moved to London to steer the Bank of England through Brexit. He became Canada's Finance Minister in 2025.",
+    "explanation": "Carney, born in Fort Smith, Northwest Territories, raised in Edmonton and a Goldman Sachs alumnus, led the Bank of Canada through the 2008 financial crisis (Canada emerged relatively unscathed), then moved to London to steer the Bank of England through Brexit, the first non-Briton to head it since its founding in 1694. He became Canada's Prime Minister in March 2025.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Carney", "Bank of Canada", "Bank of England", "G7", "central bank governors"]
+    "tags": [
+      "Carney",
+      "Bank of Canada",
+      "Bank of England",
+      "G7",
+      "central bank governors"
+    ]
   },
   {
     "id": "money-025",
@@ -426,7 +586,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Lagarde", "ECB", "IMF", "central bank governors", "first woman"]
+    "tags": [
+      "Lagarde",
+      "ECB",
+      "IMF",
+      "central bank governors",
+      "first woman"
+    ]
   },
   {
     "id": "money-026",
@@ -441,11 +607,17 @@
       "4.25%"
     ],
     "answer": "5.00%",
-    "explanation": "Macklem raised the overnight rate from 0.25% to 5.00% between March 2022 and July 2023 — the fastest hiking cycle in the Bank of Canada's history. His 2021 forward guidance that rates would stay low became politically controversial as many Canadians locked in variable-rate mortgages before the surge.",
+    "explanation": "Macklem raised the overnight rate from 0.25% to 5.00% between March 2022 and July 2023, among the fastest hiking cycles in the Bank of Canada's history. The rate stayed at 5.00% until the first cut in June 2024. His 2021 forward guidance that rates would stay low became politically controversial as many Canadians locked in variable-rate mortgages before the surge.",
     "source": null,
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Macklem", "Bank of Canada", "inflation", "interest rates", "central bank governors"]
+    "tags": [
+      "Macklem",
+      "Bank of Canada",
+      "inflation",
+      "interest rates",
+      "central bank governors"
+    ]
   },
   {
     "id": "money-027",
@@ -454,12 +626,22 @@
     "format": "short",
     "prompt": "What is the name of the monetary principle, attributed to 16th-century English merchant Thomas Gresham, that states 'bad money drives out good money' in circulation?",
     "answer": "Gresham's Law",
-    "accept": ["Gresham's Law", "Gresham's law", "Gresham law", "Greshams law"],
+    "accept": [
+      "Gresham's Law",
+      "Gresham's law",
+      "Gresham law",
+      "Greshams law"
+    ],
     "explanation": "Gresham observed that when two coins are both legal tender but one is more valuable (e.g., a full-weight gold coin vs a clipped or debased one), people spend the 'bad' coin and hoard the 'good' one. The same observation appeared in ancient Greece and was formally named 'Gresham's Law' by Henry Dunning Macleod in 1858.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Gresham's Law", "monetary history", "currency", "bimetallism"]
+    "tags": [
+      "Gresham's Law",
+      "monetary history",
+      "currency",
+      "bimetallism"
+    ]
   },
   {
     "id": "money-028",
@@ -472,14 +654,20 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "1935", "Great Depression", "central bank history", "Canada"]
+    "tags": [
+      "Bank of Canada",
+      "1935",
+      "Great Depression",
+      "central bank history",
+      "Canada"
+    ]
   },
   {
     "id": "money-029",
     "category": "money",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The European Central Bank (ECB), based in Frankfurt, was established in June 1998 — one year before the euro was introduced to financial markets. Which transitional institution did it replace?",
+    "prompt": "The European Central Bank (ECB), based in Frankfurt, was established in June 1998, the year before the euro was introduced to financial markets. Which transitional institution did it replace?",
     "choices": [
       "European Monetary Institute (EMI)",
       "Bank of Europe",
@@ -491,14 +679,19 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["ECB", "euro", "European Monetary Institute", "central bank history"]
+    "tags": [
+      "ECB",
+      "euro",
+      "European Monetary Institute",
+      "central bank history"
+    ]
   },
   {
     "id": "money-030",
     "category": "money",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Central banks' main day-to-day tool for managing short-term interest rates is 'open market operations.' What do these involve?",
+    "prompt": "Central banks' traditional tool for managing short-term interest rates is 'open market operations.' What do these involve?",
     "choices": [
       "Buying or selling government securities to adjust the amount of bank reserves in the system",
       "Setting the minimum reserve ratio commercial banks must hold against deposits",
@@ -506,18 +699,23 @@
       "Directly lending to commercial banks at the central bank's policy rate"
     ],
     "answer": "Buying or selling government securities to adjust the amount of bank reserves in the system",
-    "explanation": "When a central bank buys bonds, it injects reserves into the banking system, pushing short-term rates down. Selling bonds drains reserves, pushing rates up. This is the primary daily tool most modern central banks use to keep overnight lending rates near their policy target.",
+    "explanation": "When a central bank buys bonds, it injects reserves into the banking system, pushing short-term rates down. Selling bonds drains reserves, pushing rates up. This was the primary day-to-day tool for decades; since 2008 many central banks, including the Fed and the Bank of Canada, have flooded the system with reserves and steer overnight rates mainly through the rates they pay on those reserves and charge at their standing facilities.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["open market operations", "central bank", "monetary policy tools", "reserves"]
+    "tags": [
+      "open market operations",
+      "central bank",
+      "monetary policy tools",
+      "reserves"
+    ]
   },
   {
     "id": "money-031",
     "category": "money",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Bank of England Governor Haruhiko Kuroda led the Bank of Japan from 2013 to 2023 and pioneered 'yield curve control' (YCC). What did YCC involve?",
+    "prompt": "Bank of Japan Governor Haruhiko Kuroda led the Bank of Japan from 2013 to 2023 and pioneered 'yield curve control' (YCC). What did YCC involve?",
     "choices": [
       "Targeting not just short-term rates but also pinning the 10-year government bond yield at a specific level (near 0%)",
       "Buying corporate bonds to directly reduce long-term borrowing costs for Japanese companies",
@@ -529,7 +727,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Kuroda", "Bank of Japan", "yield curve control", "YCC", "Abenomics"]
+    "tags": [
+      "Kuroda",
+      "Bank of Japan",
+      "yield curve control",
+      "YCC",
+      "Abenomics"
+    ]
   },
   {
     "id": "money-032",
@@ -542,7 +746,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Japan", "negative interest rates", "monetary policy", "Japan"]
+    "tags": [
+      "Bank of Japan",
+      "negative interest rates",
+      "monetary policy",
+      "Japan"
+    ]
   },
   {
     "id": "money-033",
@@ -561,14 +770,20 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of England", "Gordon Brown", "central bank independence", "UK", "1997"]
+    "tags": [
+      "Bank of England",
+      "Gordon Brown",
+      "central bank independence",
+      "UK",
+      "1997"
+    ]
   },
   {
     "id": "money-034",
     "category": "money",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "What is the 'bank rate' (called the 'discount rate' in the US) charged by a central bank — and how does it differ from the overnight rate that commercial banks charge each other?",
+    "prompt": "In Canada and the US, what is the 'bank rate' (called the 'discount rate' in the US) charged by the central bank, and how does it differ from the overnight rate that commercial banks charge each other?",
     "choices": [
       "It is the emergency lending rate for banks borrowing directly from the central bank — set higher than market rates so it serves as a backstop, not a primary funding source",
       "It is always set 1% below the overnight rate to encourage banks to borrow from the central bank rather than each other",
@@ -576,11 +791,17 @@
       "It is the published target rate that the central bank uses to communicate its monetary policy stance"
     ],
     "answer": "It is the emergency lending rate for banks borrowing directly from the central bank — set higher than market rates so it serves as a backstop, not a primary funding source",
-    "explanation": "The bank rate (Canada, UK) or discount rate (US) is the 'lender of last resort' rate. It's set above the target overnight rate so banks prefer to fund themselves in the interbank market and only turn to the central bank in emergencies. The Bank of Canada sets its bank rate at the top of the target overnight rate operating band (0.25% above the midpoint target).",
+    "explanation": "In Canada the bank rate (and in the US the discount rate) is the 'lender of last resort' rate. It is set above the target overnight rate so that banks prefer to fund themselves in the interbank market and turn to the central bank only in emergencies. The Bank of Canada sets its bank rate at the top of its operating band, 0.25 percentage points above the target overnight rate. (The UK's 'Bank Rate' is different: it is the Bank of England's main policy rate.)",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["bank rate", "discount rate", "central bank", "monetary policy tools", "lender of last resort"]
+    "tags": [
+      "bank rate",
+      "discount rate",
+      "central bank",
+      "monetary policy tools",
+      "lender of last resort"
+    ]
   },
   {
     "id": "money-035",
@@ -599,7 +820,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["reserve requirements", "central bank", "monetary policy tools", "banking regulation"]
+    "tags": [
+      "reserve requirements",
+      "central bank",
+      "monetary policy tools",
+      "banking regulation"
+    ]
   },
   {
     "id": "money-036",
@@ -614,24 +840,36 @@
       "He banned foreign currency accounts to prevent capital flight from Turkish banks"
     ],
     "answer": "He pressured the central bank to cut, not raise, interest rates — claiming that high rates cause inflation",
-    "explanation": "Erdoğan holds the heterodox (and widely discredited) view that cutting rates reduces inflation. He repeatedly fired central bank governors who raised rates; in late 2021 the bank cut rates even as inflation surged past 80%. The lira lost 44% against the dollar in 2021. After elections in 2023, Turkey reversed course and raised rates sharply to orthodox levels.",
+    "explanation": "Erdoğan holds the heterodox (and widely discredited) view that cutting rates reduces inflation. He repeatedly replaced central bank governors who raised rates. The bank cut its policy rate from 19% to 14% in late 2021 as inflation climbed past 35%, and cut again in 2022, to 9%, with inflation above 80%. The lira lost about 44% against the dollar in 2021. After the 2023 elections, Turkey reversed course and raised rates sharply, to 50% by March 2024.",
     "source": null,
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["Turkey", "Erdogan", "inflation", "currency crisis", "central bank independence"]
+    "tags": [
+      "Turkey",
+      "Erdogan",
+      "inflation",
+      "currency crisis",
+      "central bank independence"
+    ]
   },
   {
     "id": "money-037",
     "category": "money",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "Argentina has defaulted on its sovereign debt more times than any other country in the modern era, and experienced annual inflation above 200% in 2023.",
+    "prompt": "Argentina has defaulted on its sovereign debt nine times, most recently in 2020, and experienced annual inflation above 200% in 2023.",
     "answer": true,
-    "explanation": "Argentina has defaulted nine times, most recently in 2020. Annual inflation hit 211% in 2023. The peso has been chronically devalued since the 2001-2002 crisis. President Javier Milei, elected in late 2023, proposed dollarisation — replacing the peso with the US dollar — as a radical solution to chronic monetary instability.",
+    "explanation": "By the usual count Argentina has defaulted nine times since independence, most recently in 2020. Annual inflation hit 211% in 2023. The peso has been chronically devalued since the 2001-2002 crisis. President Javier Milei, elected in late 2023, campaigned on dollarization, replacing the peso with the US dollar, as a radical fix for chronic monetary instability, although he did not carry it out.",
     "source": null,
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Argentina", "default", "hyperinflation", "peso", "sovereign debt"]
+    "tags": [
+      "Argentina",
+      "default",
+      "hyperinflation",
+      "peso",
+      "sovereign debt"
+    ]
   },
   {
     "id": "money-038",
@@ -642,7 +880,7 @@
     "choices": [
       "Central banks signal their expected future policy path to influence long-term interest rates and market expectations",
       "The Fed chair holds mandatory press conferences after every rate decision to explain the reasoning to markets",
-      "A central bank commits to a specific rate level until a precise economic target (e.g., 2% inflation) is met",
+      "A central bank buys long-term bonds in large quantities to push down long-term yields directly",
       "Central banks pre-announce the exact dates and sizes of future rate changes to eliminate market uncertainty"
     ],
     "answer": "Central banks signal their expected future policy path to influence long-term interest rates and market expectations",
@@ -650,7 +888,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["forward guidance", "monetary policy", "central bank", "zero lower bound"]
+    "tags": [
+      "forward guidance",
+      "monetary policy",
+      "central bank",
+      "zero lower bound"
+    ]
   },
   {
     "id": "money-039",
@@ -660,16 +903,22 @@
     "prompt": "China has been at the forefront of developing a Central Bank Digital Currency (CBDC). What is the official name of China's CBDC, widely piloted since 2020?",
     "choices": [
       "Digital yuan (e-CNY)",
-      "Digital renminbi (RMB token)",
+      "e-HKD (Digital Hong Kong dollar)",
       "ChinaCoin (CCOIN)",
       "People's Digital Dollar"
     ],
     "answer": "Digital yuan (e-CNY)",
-    "explanation": "The People's Bank of China launched its e-CNY (digital yuan) pilot in several major cities in 2020, making it the most advanced CBDC programme among major economies. Unlike Bitcoin, the digital yuan is fully centralized — the government can track transactions and even program money to expire. Canada's Bank of Canada has been researching a potential digital Canadian dollar but had not launched one as of 2024.",
+    "explanation": "The People's Bank of China launched its e-CNY (digital yuan) pilot in several major cities in 2020, making it the most advanced CBDC program among major economies. Unlike Bitcoin, the digital yuan is centrally issued and controlled, and its design allows features such as programmable money. The Bank of Canada researched a digital Canadian dollar for years but in September 2024 announced it was scaling back that work, with no plans to issue one.",
     "source": null,
-    "as_of": "2024",
+    "as_of": "2025",
     "time_sensitive": false,
-    "tags": ["CBDC", "digital yuan", "e-CNY", "China", "digital currency"]
+    "tags": [
+      "CBDC",
+      "digital yuan",
+      "e-CNY",
+      "China",
+      "digital currency"
+    ]
   },
   {
     "id": "money-040",
@@ -678,26 +927,38 @@
     "format": "tf",
     "prompt": "El Salvador became the first country in the world to adopt Bitcoin as legal tender, passing its Bitcoin Law in June 2021.",
     "answer": true,
-    "explanation": "El Salvador's President Nayib Bukele signed the Bitcoin Law in June 2021, requiring all businesses to accept Bitcoin. The move was controversial — the IMF urged reversal, and many Salvadorans avoided the government's Chivo wallet. El Salvador later softened the requirement to voluntary acceptance, a condition of a 2024 IMF loan deal.",
+    "explanation": "El Salvador's President Nayib Bukele signed the Bitcoin Law in June 2021 (in force September 2021), requiring businesses to accept Bitcoin. The move was controversial: the IMF urged reversal, and many Salvadorans avoided the government's Chivo wallet. After a $1.4 billion IMF deal in December 2024, El Salvador amended the law in January 2025 so that acceptance is voluntary for private businesses.",
     "source": null,
     "as_of": "2021",
     "time_sensitive": false,
-    "tags": ["El Salvador", "Bitcoin", "legal tender", "cryptocurrency", "firsts"]
+    "tags": [
+      "El Salvador",
+      "Bitcoin",
+      "legal tender",
+      "cryptocurrency",
+      "firsts"
+    ]
   },
   {
     "id": "money-041",
     "category": "money",
     "difficulty": 2,
     "format": "numeric",
-    "prompt": "At its peak in June 1981, the US Federal Reserve's target federal funds rate reached approximately what percentage — the highest in the institution's history?",
-    "answer": 20,
+    "prompt": "At its peak in 1981, the US federal funds rate (monthly average) reached roughly what percentage, the highest since the data series began in 1954?",
+    "answer": 19,
     "unit": "%",
     "tolerance": 1,
-    "explanation": "The target federal funds rate briefly touched 20% in June 1981 under Chair Paul Volcker. The effective rate peaked near 19.1%. This extreme tightening caused two recessions in 1980 and 1981-82 but succeeded in breaking double-digit inflation, paving the way for the long expansion of the 1980s-90s.",
-    "source": null,
+    "explanation": "The effective federal funds rate averaged 19.1% in June 1981, the highest monthly figure on record, under Chair Paul Volcker; daily rates briefly went higher and the target was often quoted as 20%. This extreme tightening caused two recessions, in 1980 and 1981-82, but succeeded in breaking double-digit inflation and paved the way for the long expansion of the 1980s and 1990s.",
+    "source": "https://fred.stlouisfed.org/series/FEDFUNDS",
     "as_of": "1981",
     "time_sensitive": false,
-    "tags": ["Volcker", "Federal Reserve", "interest rates", "1981", "inflation"]
+    "tags": [
+      "Volcker",
+      "Federal Reserve",
+      "interest rates",
+      "1981",
+      "inflation"
+    ]
   },
   {
     "id": "money-042",
@@ -717,7 +978,14 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Federal Reserve", "Volcker", "Greenspan", "Bernanke", "Powell", "central bank governors"]
+    "tags": [
+      "Federal Reserve",
+      "Volcker",
+      "Greenspan",
+      "Bernanke",
+      "Powell",
+      "central bank governors"
+    ]
   },
   {
     "id": "money-043",
@@ -725,14 +993,23 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "During the 2022-2023 post-COVID inflation-fighting cycle, which central bank raised rates to a higher peak: the European Central Bank or the US Federal Reserve?",
-    "items": ["European Central Bank", "US Federal Reserve"],
+    "items": [
+      "European Central Bank",
+      "US Federal Reserve"
+    ],
     "metric": "peak policy/deposit rate reached during the 2022-2023 hiking cycle",
     "answer": "US Federal Reserve",
     "explanation": "The Fed raised the federal funds rate to 5.25-5.50% by July 2023. The ECB raised its deposit facility rate to 4.0% by September 2023 — also a record for the euro era, but lower than the Fed's peak. Both began cutting rates in 2024 as inflation subsided.",
     "source": null,
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["ECB", "Federal Reserve", "interest rates", "inflation", "monetary policy"]
+    "tags": [
+      "ECB",
+      "Federal Reserve",
+      "interest rates",
+      "inflation",
+      "monetary policy"
+    ]
   },
   {
     "id": "money-044",
@@ -743,24 +1020,35 @@
     "answer": 2009,
     "unit": "",
     "tolerance": 0,
-    "explanation": "The Reserve Bank of Zimbabwe issued the Z$100 trillion note in January 2009 — but by then it was worth roughly US$0.30. Zimbabwe abandoned its dollar in 2009 and adopted foreign currencies (USD, rand). The notes are now collectors' items worth far more than their face value.",
+    "explanation": "The Reserve Bank of Zimbabwe issued the Z$100 trillion note in January 2009, but by then it was worth well under one US dollar. Zimbabwe abandoned its own currency in 2009 and adopted foreign currencies (the US dollar, the rand). The notes are now collectors' items that sell for far more than their face value was ever worth.",
     "source": null,
     "as_of": "2009",
     "time_sensitive": false,
-    "tags": ["Zimbabwe", "hyperinflation", "banknote", "currency"]
+    "tags": [
+      "Zimbabwe",
+      "hyperinflation",
+      "banknote",
+      "currency"
+    ]
   },
   {
     "id": "money-045",
     "category": "money",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "True or false: Ben Bernanke won the Nobel Prize in Economics for his academic research on banks and financial crises — work that directly shaped his response to the 2008 financial crisis as Fed Chair.",
+    "prompt": "True or false: Ben Bernanke won the Nobel Prise in Economics for his academic research on banks and financial crises — work that directly shaped his response to the 2008 financial crisis as Fed Chair.",
     "answer": true,
-    "explanation": "Bernanke won the 2022 Nobel Memorial Prize in Economics (shared with Diamond and Dybvig) for research showing how bank failures can amplify economic downturns — far beyond the direct losses involved. His academic work on the Great Depression's bank panics explicitly informed his aggressive policy response in 2008: flooding the financial system with liquidity to prevent a cascade of bank failures.",
+    "explanation": "Bernanke won the 2022 Nobel Memorial Prise in Economics (shared with Diamond and Dybvig) for research showing how bank failures can amplify economic downturns — far beyond the direct losses involved. His academic work on the Great Depression's bank panics explicitly informed his aggressive policy response in 2008: flooding the financial system with liquidity to prevent a cascade of bank failures.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bernanke", "Nobel Prize", "Federal Reserve", "2008", "financial crisis"]
+    "tags": [
+      "Bernanke",
+      "Nobel Prize",
+      "Federal Reserve",
+      "2008",
+      "financial crisis"
+    ]
   },
   {
     "id": "money-046",
@@ -779,7 +1067,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Modern Monetary Theory", "MMT", "fiscal policy", "monetary theory", "inflation"]
+    "tags": [
+      "Modern Monetary Theory",
+      "MMT",
+      "fiscal policy",
+      "monetary theory",
+      "inflation"
+    ]
   },
   {
     "id": "money-047",
@@ -788,17 +1082,23 @@
     "format": "mc",
     "prompt": "Bank of Japan Governor Kazuo Ueda made headlines in March 2024 for which historic policy change?",
     "choices": [
-      "Ending negative interest rates for the first time since 2016, raising the policy rate from -0.1% to 0–0.1%",
+      "Ending eight years of negative interest rates, raising the policy rate from -0.1% to 0–0.1%",
       "Introducing yield curve control at a 0% target for 10-year bonds to fight persistent deflation",
       "Announcing a 3% inflation target to accelerate economic growth",
       "Raising rates to 1% — the highest in Japan since 1994 — in a single meeting"
     ],
-    "answer": "Ending negative interest rates for the first time since 2016, raising the policy rate from -0.1% to 0–0.1%",
+    "answer": "Ending eight years of negative interest rates, raising the policy rate from -0.1% to 0–0.1%",
     "explanation": "In March 2024, the Bank of Japan raised its policy rate from -0.1% to a 0-0.1% range and abandoned YCC, ending eight years of negative rates. The trigger was Japan's largest wage increases in three decades at the 2024 shunto negotiations, signalling that reflation had finally taken hold after decades of deflation.",
     "source": null,
     "as_of": "2024",
     "time_sensitive": false,
-    "tags": ["Ueda", "Bank of Japan", "negative interest rates", "YCC", "2024"]
+    "tags": [
+      "Ueda",
+      "Bank of Japan",
+      "negative interest rates",
+      "YCC",
+      "2024"
+    ]
   },
   {
     "id": "money-048",
@@ -813,11 +1113,17 @@
       "Paul Krugman"
     ],
     "answer": "Milton Friedman",
-    "explanation": "Friedman used the helicopter metaphor in his 1969 essay 'The Optimum Quantity of Money': imagine a helicopter dropping $1,000 bills over a community. Unlike QE (which swaps assets), true helicopter money permanently increases the money supply without a corresponding liability. Bernanke's citation earned him the nickname; pure helicopter money has never actually been deployed by a major central bank.",
+    "explanation": "Friedman used the helicopter metaphor in his 1969 essay 'The Optimum Quantity of Money': imagine a helicopter dropping $1,000 bills over a community. Bernanke cited the idea in his November 2002 speech on deflation, which earned him the nickname 'Helicopter Ben'. Unlike QE, which swaps one asset for another, true helicopter money permanently increases the money supply without a matching liability; no major central bank has used it in its pure form.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["helicopter money", "Bernanke", "Friedman", "monetary theory", "QE"]
+    "tags": [
+      "helicopter money",
+      "Bernanke",
+      "Friedman",
+      "monetary theory",
+      "QE"
+    ]
   },
   {
     "id": "money-049",
@@ -836,7 +1142,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Volcker Rule", "Dodd-Frank", "banking regulation", "proprietary trading", "2008 crisis"]
+    "tags": [
+      "Volcker Rule",
+      "Dodd-Frank",
+      "banking regulation",
+      "proprietary trading",
+      "2008 crisis"
+    ]
   },
   {
     "id": "money-050",
@@ -851,11 +1163,17 @@
       "A derogatory term for Greenspan's tendency to postpone dealing with asset bubbles"
     ],
     "answer": "An options contract giving the right to sell — here, the Fed's implicit guarantee acts like insurance against falling markets",
-    "explanation": "A put option profits when an asset falls — it's insurance against a decline. The 'Greenspan put' was the market's belief that the Fed would always bail out equity markets with rate cuts (1987, 1994, 1997, 1998, 2001). Critics argued this encouraged excessive risk-taking (moral hazard). The concept evolved into 'Fed put' after Greenspan's tenure.",
+    "explanation": "A put option profits when an asset falls, so it works as insurance against a decline. The 'Greenspan put' was the market's belief that the Fed would rescue falling equity markets with easier policy, as it did after the 1987 crash, during the 1998 LTCM crisis and after the dot-com bust in 2001. Critics argued this encouraged excessive risk-taking (moral hazard). The idea later became the 'Fed put'.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Greenspan put", "Fed put", "monetary policy", "moral hazard", "options"]
+    "tags": [
+      "Greenspan put",
+      "Fed put",
+      "monetary policy",
+      "moral hazard",
+      "options"
+    ]
   },
   {
     "id": "money-051",
@@ -874,7 +1192,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["currency board", "Hong Kong", "exchange rate", "monetary policy", "reserves"]
+    "tags": [
+      "currency board",
+      "Hong Kong",
+      "exchange rate",
+      "monetary policy",
+      "reserves"
+    ]
   },
   {
     "id": "money-052",
@@ -883,11 +1207,17 @@
     "format": "tf",
     "prompt": "True or false: The US Federal Reserve began paying interest on commercial bank reserves in 2008, a change that significantly weakened the traditional money multiplier mechanism.",
     "answer": true,
-    "explanation": "Congress authorised paying interest on reserves (IOR) as part of the Emergency Economic Stabilization Act of 2008. Before IOR, banks had incentive to lend out excess reserves (earning nothing on idle reserves). With IOR, banks can earn a return by holding reserves at the Fed, weakening the textbook multiplier: QE-created reserves no longer automatically multiply into loans.",
+    "explanation": "Congress first authorized the Fed to pay interest on reserves in 2006, with a start date of 2011. The Emergency Economic Stabilization Act of 2008 moved that forward, and the Fed began paying interest on reserves in October 2008. Before then banks had an incentive to lend out excess reserves, since idle reserves earned nothing. With interest on reserves, banks can earn a return by holding reserves at the Fed, weakening the textbook multiplier: QE-created reserves no longer automatically multiply into loans.",
     "source": null,
     "as_of": "2008",
     "time_sensitive": false,
-    "tags": ["interest on reserves", "IOR", "money multiplier", "Federal Reserve", "QE"]
+    "tags": [
+      "interest on reserves",
+      "IOR",
+      "money multiplier",
+      "Federal Reserve",
+      "QE"
+    ]
   },
   {
     "id": "money-053",
@@ -902,11 +1232,17 @@
       "Monetary expansion benefits the financial sector more because banks capture most of the seigniorage"
     ],
     "answer": "Those who receive newly created money first (close to the source) benefit most before prices rise, at the expense of those who receive it later",
-    "explanation": "Richard Cantillon (1680s–1734) observed in his Essai that the sequence of money injection matters: early recipients spend new money before prices adjust, gaining real purchasing power. Those further from the money's source face higher prices without corresponding income increases. The Cantillon effect became prominent in post-2008 debates: QE inflated asset prices (benefiting wealthy asset-holders) before wages rose, arguably widening inequality.",
+    "explanation": "Richard Cantillon (c. 1680-1734) argued in his Essai sur la nature du commerce en général (written around 1730, published in 1755) that the sequence of money injection matters: early recipients spend new money before prices adjust, gaining real purchasing power. Those further from the money's source face higher prices without matching income increases. The Cantillon effect became prominent in post-2008 debates: QE inflated asset prices, benefiting asset-holders before wages rose, arguably widening inequality.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Cantillon effect", "monetary theory", "inequality", "QE", "inflation"]
+    "tags": [
+      "Cantillon effect",
+      "monetary theory",
+      "inequality",
+      "QE",
+      "inflation"
+    ]
   },
   {
     "id": "money-054",
@@ -922,25 +1258,39 @@
     ],
     "order_by": "year they first became Bank of Canada Governor (earliest first)",
     "answer": "Gerald Bouey → John Crow → Mark Carney → Tiff Macklem",
-    "explanation": "Bouey: 1973–1987 (battled Canadian inflation in the 1970s). Crow: 1987–1994 (the 'zero inflation' governor who introduced inflation targeting). Carney: 2008–2013 (steered Canada through the global financial crisis). Macklem: 2020–present (navigated COVID stimulus and subsequent rate hikes to 5%).",
+    "explanation": "Bouey: 1973-1987 (battled Canadian inflation in the 1970s). Crow: 1987-1994 (the 'zero inflation' governor, under whom inflation targets were adopted in 1991). Carney: 2008-2013 (steered Canada through the global financial crisis). Macklem: 2020 onward (navigated COVID stimulus and the subsequent rate hikes to 5%).",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "Bouey", "Crow", "Carney", "Macklem", "central bank governors", "Canada"]
+    "tags": [
+      "Bank of Canada",
+      "Bouey",
+      "Crow",
+      "Carney",
+      "Macklem",
+      "central bank governors",
+      "Canada"
+    ]
   },
   {
     "id": "money-055",
     "category": "money",
     "difficulty": 3,
     "format": "numeric",
-    "prompt": "In 1990, New Zealand became the world's first country to formally adopt an explicit inflation target. What was the original annual inflation target range set by the Reserve Bank of New Zealand?",
-    "answer": 2,
-    "unit": "% (midpoint of 0–2% target range)",
+    "prompt": "In what year did New Zealand become the first country in the world to formally adopt an explicit inflation target for its central bank?",
+    "answer": 1990,
+    "unit": "",
     "tolerance": 1,
-    "explanation": "The Reserve Bank of New Zealand Act 1989 introduced the world's first formal inflation-targeting framework, with an initial target of 0–2% CPI inflation. This spawned a global wave of adoption: Canada adopted inflation targeting in 1991 (initially 3% dropping to 2%), the UK in 1992, Sweden in 1993, and eventually most major central banks. The 2% midpoint became the global standard.",
+    "explanation": "The Reserve Bank of New Zealand Act 1989 introduced the world's first formal inflation-targeting framework, and the first Policy Targets Agreement was signed in March 1990, aiming to bring CPI inflation down to 0-2%. This spawned a global wave of adoption: Canada adopted inflation targets in 1991 (initially 3%, falling to 2%), the UK in 1992, Sweden in 1993, and eventually most major central banks. Today a 2% target is the global norm.",
     "source": null,
     "as_of": "1990",
     "time_sensitive": false,
-    "tags": ["inflation targeting", "New Zealand", "Reserve Bank", "monetary policy", "firsts"]
+    "tags": [
+      "inflation targeting",
+      "New Zealand",
+      "Reserve Bank",
+      "monetary policy",
+      "firsts"
+    ]
   }
 ]

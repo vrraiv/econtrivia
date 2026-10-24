@@ -85,6 +85,18 @@ function shuffled(arr, seed) {
   return a;
 }
 
+// Same stable shuffle, but never hands back an arrangement that is already
+// solved (or one swap from solved). A fixed seed can land on the right order by
+// chance, which turns an order question into "just press Submit". Seed 0 is the
+// plain shuffle, so questions that were already fine keep their familiar order.
+function shuffleNotSolved(arr, seed) {
+  for (let n = 0; n < 50; n++) {
+    const s = shuffled(arr, n ? `${seed}#${n}` : seed);
+    if (s.filter((x, i) => x === arr[i]).length <= 1) return s;
+  }
+  return [...arr].reverse();
+}
+
 function randomShuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -568,7 +580,7 @@ function buildOrder(q, c, answered, response, skipped) {
   _order = {
     items: answered
       ? (hasOwn ? [...response] : [...q.items])
-      : shuffled(q.items, q.id + '_order'),
+      : shuffleNotSolved(q.items, q.id + '_order'),
   };
 
   const wrap = el('div', 'order-wrap');
@@ -707,7 +719,7 @@ function buildMatch(q, c, answered, response, skipped) {
   _match = { selectedLeft: null, pairs: [] };
 
   const leftItems = q.pairs.map(([l]) => l);
-  const rightItems = shuffled(q.pairs.map(([, r]) => r), q.id + '_match');
+  const rightItems = shuffleNotSolved(q.pairs.map(([, r]) => r), q.id + '_match');
 
   const wrap = el('div', 'match-wrap');
   const grid = el('div', 'match-grid');

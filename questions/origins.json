@@ -12,7 +12,7 @@
       "Alfred Marshall"
     ],
     "answer": "Henry George",
-    "explanation": "Lizzie Magie patented The Landlord's Game in 1903 to demonstrate Henry George's single-tax philosophy from Progress and Poverty (1879). Parker Brothers later commercialised a variant as Monopoly in 1935, stripping out most of the progressive message.",
+    "explanation": "Lizzie Magie patented The Landlord's Game in 1904 (after applying in 1903) to demonstrate Henry George's single-tax philosophy from Progress and Poverty (1879). Parker Brothers later commercialized a variant as Monopoly in 1935, stripping out most of the progressive message.",
     "source": "https://www.loc.gov/",
     "as_of": null,
     "time_sensitive": false,
@@ -78,13 +78,13 @@
     "category": "origins",
     "difficulty": 1,
     "format": "short",
-    "prompt": "What English word for one's regular pay comes from the Latin 'salarium', which may refer to an allowance paid to Roman soldiers in salt?",
+    "prompt": "Which English word for regular pay comes from the Latin 'salarium', a word the Roman writer Pliny linked to 'sal', salt?",
     "answer": "salary",
     "accept": [
       "salary",
       "salaries"
     ],
-    "explanation": "The Latin 'salarium' is linked to 'sal' (salt). Whether soldiers were literally paid in salt or merely given a salt-purchasing allowance is debated, but the connection stuck. The word passed through Old French into English as 'salary' — and Roman soldiers who didn't earn their allowance were said to be 'not worth their salt'.",
+    "explanation": "'Salarium' is linked to 'sal' (salt), and Pliny the Elder made the connection explicit in the first century CE. Whether Roman soldiers were literally paid in salt is doubtful: most historians think it was at most an allowance for buying salt, and no ancient source clearly says so. The word passed through Old French into English as 'salary'. The English idiom 'worth one's salt' is often tied to this story, but that link is itself speculative.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -108,7 +108,7 @@
       "sunken ship"
     ],
     "answer": "broken bench",
-    "explanation": "Medieval Italian money changers conducted business on a wooden bench (banca). When a money changer failed, creditors or authorities literally broke the bench — banca rotta. The phrase entered English as 'bankrupt' via French and Latin. This is also the origin of the word 'bank' itself.",
+    "explanation": "Medieval Italian money changers worked at a bench (banca). In the usual telling, when one failed his bench was broken — banca rotta — though whether benches were literally smashed is unproven. The phrase reached English via French 'banqueroute'. The word 'bank' itself comes from the same 'banca'.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -132,7 +132,7 @@
       "iron contract"
     ],
     "answer": "dead pledge",
-    "explanation": "'Mortgage' combines 'mort' (dead) and 'gage' (pledge). The 'death' referred to two things: the pledge dies when the debt is paid off, and the land is 'dead' (lost) to the borrower if they default. Legal scholar Glanvill described the concept in 12th-century England.",
+    "explanation": "'Mortgage' combines 'mort' (dead) and 'gage' (pledge). The English jurist Sir Edward Coke (1628) explained the name: if the borrower fails to repay on the due date, the land is lost to them for ever and is 'dead' to them; if they do repay, the pledge itself is dead. The idea of a 'dead pledge' was already being discussed in 12th-century English law.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -156,7 +156,7 @@
       "a sealed decree"
     ],
     "answer": "a small leather bag",
-    "explanation": "The UK Chancellor of the Exchequer traditionally arrived at Parliament carrying a locked leather bag (bougette) containing the financial proposals. 'Opening the budget' originally meant opening this bag. The first recorded use of 'budget' to mean financial plan is from the 1760s.",
+    "explanation": "'Budget' comes from Old French 'bougette', a little leather bag or wallet. The financial sense dates to 1733, when a satirical pamphlet, 'The Budget Opened', mocked Sir Robert Walpole as a quack opening his bag of tricks. 'Opening the budget' then became the phrase for a minister presenting the government's finances to Parliament.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -204,7 +204,7 @@
       "Commodity warehouse receipts"
     ],
     "answer": "International postal reply coupons",
-    "explanation": "Ponzi claimed he could buy international reply coupons in countries with weak currencies (like post-WWI Spain or Italy) and redeem them in the US for more stamps than he paid, pocketing the arbitrage. The scheme was mathematically real but practically impossible at scale. He raised $15 million (roughly $250 million today) before it collapsed.",
+    "explanation": "Ponzi claimed he could buy international reply coupons in countries with weak currencies (like post-WWI Spain or Italy) and redeem them in the US for more stamps than he paid, pocketing the arbitrage. The scheme was mathematically real but practically impossible at scale. He took in roughly $15 million (well over $200 million in today's money) before it collapsed in August 1920.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -262,7 +262,7 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Adam Smith famously used the phrase 'invisible hand' to describe how self-interest guides markets. How many times did Smith use the phrase across all of his published writings?",
+    "prompt": "Adam Smith famously used the phrase 'invisible hand' to describe how self-interest guides markets. How many times did Smith use the phrase across all of his surviving writings?",
     "choices": [
       "Exactly three times, across three separate works",
       "Once, in The Wealth of Nations — it was the centrepiece of that book",
@@ -270,7 +270,7 @@
       "Never in print — the phrase was attributed to him posthumously"
     ],
     "answer": "Exactly three times, across three separate works",
-    "explanation": "Smith used 'invisible hand' exactly three times: once in The History of Astronomy (written in the 1750s, unpublished in his lifetime), once in The Theory of Moral Sentiments (1759), and once in The Wealth of Nations (1776). It became the centrepiece of free-market ideology long after Smith's death, a prominence he never gave it himself.",
+    "explanation": "Smith used 'invisible hand' exactly three times: once in his essay The History of Astronomy (written in the 1750s, published only after his death), once in The Theory of Moral Sentiments (1759), and once in The Wealth of Nations (1776). Only the last concerns markets. It became the centrepiece of free-market ideology long after Smith's death, a prominence he never gave it himself.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -318,7 +318,7 @@
       "the study of markets"
     ],
     "answer": "household management",
-    "explanation": "'Oikonomia' combines 'oikos' (household) and 'nomos' (law or rule). Xenophon's 'Oeconomicus' (~400 BCE) and Aristotle's 'Oeconomica' were literally books about running a household and estate. The modern sense of studying national and market economies came much later — the word 'economics' in its modern usage was popularised in the late 19th century.",
+    "explanation": "'Oikonomia' combines 'oikos' (household) and 'nomos' (law or rule). Xenophon's 'Oeconomicus' (c. 360 BCE) and the 'Oeconomica' traditionally attributed to Aristotle were literally books about running a household and estate. The modern sense of studying national and market economies came much later — the word 'economics' in its modern usage was popularized in the late 19th century.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -334,7 +334,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The terms 'macroeconomics' and 'microeconomics' were first introduced into the economics literature by which Norwegian economist?",
+    "prompt": "Which economist is usually credited with introducing the terms 'macroeconomics' and 'microeconomics' in 1933?",
     "choices": [
       "Ragnar Frisch",
       "Jan Tinbergen",
@@ -342,7 +342,7 @@
       "Trygve Haavelmo"
     ],
     "answer": "Ragnar Frisch",
-    "explanation": "Ragnar Frisch coined both terms in a 1933 article in the journal Econometrica, which he also co-founded. 'Macro' from the Greek for 'large' and 'micro' from 'small' captured the distinction between economy-wide analysis and the behaviour of individual agents. Frisch shared the first Nobel in Economics in 1969.",
+    "explanation": "Ragnar Frisch drew the distinction in his 1933 essay 'Propagation Problems and Impulse Problems in Dynamic Economics', which speaks of 'macro-dynamic' and 'micro-dynamic' analysis — the origin of today's macro/micro split. 'Macro' comes from the Greek for 'large' and 'micro' from 'small'. Frisch was also a founding editor of Econometrica, launched the same year, and shared the first Nobel in Economics in 1969.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -358,9 +358,9 @@
     "category": "origins",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "In economics, 'Black Friday' originally referred to a financial catastrophe in 1869, not to the post-Thanksgiving retail shopping day.",
+    "prompt": "In economic history, 'Black Friday' was already the name of a financial panic in 1869 — long before it became the label for the post-Thanksgiving shopping day.",
     "answer": true,
-    "explanation": "The original Black Friday was September 24, 1869, when financiers Jay Gould and James Fisk tried to corner the US gold market. When President Grant released Treasury gold to break the corner, gold prices collapsed and markets panicked. The retail shopping meaning — biggest shopping day of the year — didn't become standard until the 1980s.",
+    "explanation": "The original Black Friday was September 24, 1869, when financiers Jay Gould and James Fisk tried to corner the US gold market. When President Grant had the Treasury release gold to break the corner, prices collapsed and markets panicked. The shopping sense is unrelated: it comes from Philadelphia police and traffic officers in the early 1960s, who used it for the chaotic day after Thanksgiving, and it spread nationally later.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -376,15 +376,15 @@
     "category": "origins",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Tulip mania (Netherlands, 1636–37) is often cited as history's first recorded speculative bubble. At the peak, the most prized tulip bulb contracts were reportedly worth the equivalent of:",
+    "prompt": "Tulip mania (Netherlands, 1636–37) is often cited as the first speculative bubble. At the peak in early 1637, a single prised bulb reportedly sold for roughly how much?",
     "choices": [
-      "Several years' wages for a skilled craftsman",
-      "About a week's wages for a merchant",
-      "A modest house in Amsterdam",
-      "A single gold sovereign"
+      "About ten times a skilled craftsman's annual income",
+      "About a skilled craftsman's annual income",
+      "About a skilled craftsman's monthly wage",
+      "About a skilled craftsman's weekly wage"
     ],
-    "answer": "Several years' wages for a skilled craftsman",
-    "explanation": "At the height of mania, rare 'broken' tulip bulbs (their multicoloured patterns caused by a mosaic virus) fetched extraordinary prices. One Semper Augustus bulb reportedly sold for 10,000 guilders — roughly 10–12 times a skilled craftsman's annual income. The market collapsed in February 1637 when buyers simply stopped appearing.",
+    "answer": "About ten times a skilled craftsman's annual income",
+    "explanation": "At the height of the mania in February 1637, the most prised bulbs — rare 'broken' tulips whose multicoloured patterns were caused by a mosaic virus — reportedly fetched more than ten times a skilled craftsman's annual income (about 300 guilders); a Semper Augustus is said to have reached 10,000 guilders. The market collapsed that month when buyers stopped turning up. Caution: historians such as Anne Goldgar argue the popular story is exaggerated — many of its most dramatic details come from later satirical pamphlets, and only a few dozen buyers spent more than 300 guilders on bulbs.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -424,7 +424,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Paper money was invented centuries before it arrived in Europe. Which civilisation issued the earliest known government-backed paper currency, around 1000 CE?",
+    "prompt": "Paper money was invented centuries before it arrived in Europe. Which civilization issued the earliest known government-backed paper currency, around 1000 CE?",
     "choices": [
       "Song dynasty China",
       "Abbasid Caliphate",
@@ -452,7 +452,7 @@
     "choices": [
       "An abbreviation of 'ps' for Spanish/Mexican pesos or piastres, with the P and s overlaid",
       "The initials 'US' superimposed on each other on early government documents",
-      "A stylised rendition of the Pillars of Hercules on the Spanish coat of arms",
+      "A stylized rendition of the Pillars of Hercules on the Spanish coat of arms",
       "A shorthand for 'shilling' used by Thomas Jefferson in his early financial notes"
     ],
     "answer": "An abbreviation of 'ps' for Spanish/Mexican pesos or piastres, with the P and s overlaid",
@@ -496,7 +496,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "The 'Laffer curve' — illustrating that cutting taxes can sometimes increase revenue — was first sketched by Arthur Laffer on a cocktail napkin at a Washington restaurant in 1974.",
+    "prompt": "According to the best-known account, the 'Laffer curve' — illustrating that cutting taxes can sometimes increase revenue — was first sketched by Arthur Laffer on a napkin at a Washington restaurant in December 1974.",
     "answer": true,
     "explanation": "According to accounts by journalist Jude Wanniski (who was present), Laffer drew the curve on a napkin at the Two Continents restaurant in Washington, D.C., to explain to Dick Cheney and Donald Rumsfeld why the Ford administration's tax increase might backfire. Laffer himself doesn't remember the napkin, but the story has entered economic lore. The underlying insight — that both 0% and 100% tax rates yield zero revenue — predates Laffer.",
     "source": null,
@@ -546,7 +546,7 @@
       "US $5,000"
     ],
     "answer": "US $27",
-    "explanation": "In 1974, Yunus lent the equivalent of US $27 (from his own pocket) to 42 stool-makers in Jobra village who were trapped in debt bondage to traders. The experiment proved small loans at fair rates could be commercially viable and transform lives. Grameen Bank was formally established in 1983 and has since extended billions in microloans. Yunus won the Nobel Peace Prize in 2006.",
+    "explanation": "In the mid-1970s (the loan is usually dated 1974 or 1976), Yunus lent the equivalent of US $27 from his own pocket to 42 stool-makers in Jobra village, who were trapped in debt to moneylenders and traders. The experiment proved small loans at fair rates could be commercially viable and transform lives. Grameen Bank was formally established in 1983 and has since extended billions in microloans. Yunus and Grameen Bank shared the Nobel Peace Prise in 2006.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -562,7 +562,7 @@
     "category": "origins",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The term 'quantitative easing' — creating central bank reserves to purchase assets — was coined in the early 2000s by a Western academic advising which central bank?",
+    "prompt": "Which central bank first adopted 'quantitative easing' — creating reserves to buy assets — as an official policy and label, in March 2001?",
     "choices": [
       "The Bank of Japan",
       "The US Federal Reserve",
@@ -570,7 +570,7 @@
       "The European Central Bank"
     ],
     "answer": "The Bank of Japan",
-    "explanation": "Economist Richard Werner coined 'quantitative easing' (quantitative Lockerung in German) and advocated the policy for Japan in the 1990s to combat deflation. The Bank of Japan officially adopted the term when it launched its QE programme in March 2001 — the first central bank to do so. The Fed, Bank of England, and ECB adopted the approach after 2008.",
+    "explanation": "The Bank of Japan introduced quantitative easing in March 2001, flooding the banking system with reserves to fight deflation, and was the first major central bank to do so under that name. The economist Richard Werner says he coined the term in a 1995 Nikkei article proposing the policy for Japan. The Fed, Bank of England and ECB turned to large-scale asset purchases after 2008.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -586,7 +586,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Phillips curve — describing a tradeoff between unemployment and inflation — is named after A.W. Phillips, who discovered the relationship by analysing which country's historical data?",
+    "prompt": "The Phillips curve — describing a tradeoff between unemployment and inflation — is named after A.W. Phillips, who discovered the relationship by analyzing which country's historical data?",
     "choices": [
       "United Kingdom",
       "United States",
@@ -618,7 +618,7 @@
       "grain"
     ],
     "answer": "head",
-    "explanation": "'Caput' means head in Latin, and wealth in ancient societies was often counted in heads of cattle. 'Capitale' in medieval Latin referred to livestock as the primary form of moveable wealth. From there the word migrated to money and accumulated assets. The same root gives us 'cattle', 'chattel', and 'capital' — all originally about the same thing: livestock as wealth.",
+    "explanation": "'Capital' comes from Latin 'caput' (head) via medieval Latin 'capitale', meaning a principal sum or stock of funds. The same root gives 'cattle' and 'chattel' — movable property, originally often livestock, which really was counted by the head. From there the word migrated to money and accumulated assets, and 'chief' shares the root too.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -686,15 +686,15 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The concept of 'opportunity cost' — the value of the next-best foregone alternative — is central to economics but the term itself was coined relatively recently. Who is generally credited with introducing the term into economic language?",
+    "prompt": "The concept of 'opportunity cost' — the value of the next-best foregone alternative — is central to economics, but the term itself is relatively recent. Who is generally credited with first using it in print?",
     "choices": [
-      "David Green, an American economist, in 1894",
+      "David I. Green, an American economist, in 1894",
       "Alfred Marshall, in his Principles of Economics (1890)",
       "Paul Samuelson, in his influential 1948 textbook",
-      "Frédéric Bastiat, in his 1850 essay 'The Broken Window'"
+      "Frédéric Bastiat, in 'That Which Is Seen and That Which Is Not Seen' (1850)"
     ],
-    "answer": "David Green, an American economist, in 1894",
-    "explanation": "The concept predates the term: Bastiat (1850) captured the idea with his 'unseen' costs, and classical economists reasoned about trade-offs implicitly. But David Green first used the specific term 'opportunity cost' in print in 1894 in a Journal of Political Economy article. The concept subsequently became ubiquitous in economic teaching through Alfred Marshall's and then Paul Samuelson's textbooks.",
+    "answer": "David I. Green, an American economist, in 1894",
+    "explanation": "The concept is older: Bastiat's 1850 essay on what is 'seen' and 'not seen' captured the idea, and Friedrich von Wieser developed it within the Austrian school (he is sometimes credited with the term itself). But according to Schumpeter, David I. Green first used the phrase 'opportunity cost' in print in 1894, in the Quarterly Journal of Economics ('Pain-Cost and Opportunity-Cost'). The idea then became ubiquitous in economic teaching through textbooks such as Marshall's and Samuelson's.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -718,7 +718,7 @@
       "1919"
     ],
     "answer": "1936",
-    "explanation": "Keynes published 'The General Theory' in February 1936, in the depths of the Great Depression. It argued that aggregate demand — not supply — determined output and employment in the short run, and that government spending could stimulate a depressed economy. The book revolutionised macroeconomics and laid the intellectual groundwork for post-war economic policy.",
+    "explanation": "Keynes published 'The General Theory' in February 1936, in the depths of the Great Depression. It argued that aggregate demand — not supply — determined output and employment in the short run, and that government spending could stimulate a depressed economy. The book revolutionized macroeconomics and laid the intellectual groundwork for post-war economic policy.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -734,15 +734,15 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Dutch East India Company (VOC), founded in 1602, is generally considered the world's first modern company with which landmark financial innovation?",
+    "prompt": "The Dutch East India Company (VOC, 1602) is often called the first modern corporation. Unlike earlier ventures that were financed and wound up voyage by voyage, what did it do?",
     "choices": [
-      "Publicly traded shares on an organised stock exchange, with limited liability for investors",
-      "A corporate charter granting the right to trade in perpetuity",
-      "A central board of directors separate from the owners of the enterprise",
-      "The first use of double-entry bookkeeping to consolidate accounts across branch offices"
+      "Kept investors' capital in the company for the long term, while letting them sell their shares to other investors in Amsterdam",
+      "Guaranteed every shareholder a fixed annual dividend, backed by the Dutch state",
+      "Raised money only from its directors, who held unlimited personal liability",
+      "Returned each voyage's capital and profits to investors as soon as the ships came home"
     ],
-    "answer": "Publicly traded shares on an organised stock exchange, with limited liability for investors",
-    "explanation": "The VOC issued shares to the public through the Amsterdam Stock Exchange (also founded 1602), the world's first such exchange. Investors had limited liability — they could lose only what they invested, not their personal fortunes. This separated ownership from day-to-day management and allowed capital to be pooled from thousands of investors for enterprises too large for any one person to finance. These innovations — joint-stock company, limited liability, tradeable shares — define the modern corporation.",
+    "answer": "Kept investors' capital in the company for the long term, while letting them sell their shares to other investors in Amsterdam",
+    "explanation": "The VOC raised capital from thousands of investors. After its first years that capital was effectively permanent: shareholders could not demand their money back, but they could sell their shares to others, and a lively secondary market developed in Amsterdam. Investors' losses were limited to what they had put in, and ownership was separated from day-to-day management. Joint-stock companies existed before — England's Muscovy Company dates to 1555 — but this combination of tradeable shares, limited liability and permanent capital is why the VOC is called the first modern corporation.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -791,7 +791,7 @@
       "About 35%"
     ],
     "answer": "About 25%",
-    "explanation": "US unemployment peaked at approximately 24–25% in 1932–33, meaning one in four workers was unemployed. Industrial production fell by nearly 50%, and real GDP dropped by about 30% from peak to trough (1929–1933). The Depression lasted until World War II's mobilisation; it was the shock that inspired Keynesian economics and fundamentally changed governments' acceptance of responsibility for managing the economy.",
+    "explanation": "US unemployment peaked at approximately 24–25% in 1932–33, meaning one in four workers was unemployed. Industrial production fell by nearly 50%, and real GDP dropped by more than a quarter from peak to trough (1929–1933). The Depression lasted until World War II's mobilization; it was the shock that inspired Keynesian economics and fundamentally changed governments' acceptance of responsibility for managing the economy.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -832,7 +832,7 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The term 'recession' has a specific technical definition used by journalists and some economists. In the US, what is the most commonly cited rule of thumb?",
+    "prompt": "The word 'recession' has no single official definition, but one popular rule of thumb is often cited in the news. What is it?",
     "choices": [
       "Two consecutive quarters of negative GDP growth",
       "Unemployment rising more than 2 percentage points in six months",
@@ -840,7 +840,7 @@
       "Twelve months of below-trend growth in all major economic indicators"
     ],
     "answer": "Two consecutive quarters of negative GDP growth",
-    "explanation": "The popular definition — two consecutive quarters of negative real GDP — became standard in part because it is simple and objective. However, the official US arbiter, the NBER Business Cycle Dating Committee, uses a broader definition (a significant decline in economic activity lasting more than a few months, across multiple indicators). The NBER's definition sometimes diverges from the popular rule — for example, declaring a recession even when only one quarter was technically negative.",
+    "explanation": "The popular definition — two consecutive quarters of negative real GDP — became a common shorthand because it is simple and objective. However, the official US arbiter, the NBER Business Cycle Dating Committee, uses a broader definition: a significant decline in economic activity spread across the economy and lasting more than a few months, judged from employment, income, spending and production as well as GDP. Its judgment does not wait for two negative quarters and can diverge from the popular rule.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -859,7 +859,7 @@
     "prompt": "The South Sea Bubble (1720) is one of history's most famous financial crashes. The South Sea Company's nominal reason for existing was to trade with which region?",
     "choices": [
       "Spanish South America",
-      "West Africa (slave trade)",
+      "The Baltic (timber and naval stores)",
       "The East Indies (spices)",
       "The Caribbean sugar islands"
     ],
@@ -880,7 +880,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Comparative advantage — the principle that countries benefit from specialising in what they produce at lower relative cost — is attributed to which economist?",
+    "prompt": "Comparative advantage — the principle that countries benefit from specializing in what they produce at lower relative cost — is attributed to which economist?",
     "choices": [
       "David Ricardo",
       "Adam Smith",
@@ -888,7 +888,7 @@
       "John Stuart Mill"
     ],
     "answer": "David Ricardo",
-    "explanation": "Ricardo presented the theory in Principles of Political Economy and Taxation (1817), using the famous England-Portugal cloth-wine example. Even if Portugal was absolutely better at producing both cloth and wine, both countries gained by Portugal specialising in wine (comparative advantage) and England in cloth. The model remains the most cited economic argument for free trade, though it is often confusingly attributed to Adam Smith, who established absolute advantage but not comparative advantage.",
+    "explanation": "Ricardo presented the theory in Principles of Political Economy and Taxation (1817), though Robert Torrens had set out a similar idea two years earlier, using the famous England-Portugal cloth-wine example. Even if Portugal was absolutely better at producing both cloth and wine, both countries gained by Portugal specializing in wine (comparative advantage) and England in cloth. The model remains the most cited economic argument for free trade, though it is often confusingly attributed to Adam Smith, who established absolute advantage but not comparative advantage.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -904,7 +904,7 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The concept of 'creative destruction' — capitalism's process of constantly destroying old economic structures and creating new ones — was coined by which economist?",
+    "prompt": "The concept of 'creative destruction' — capitalism's process of constantly destroying old economic structures and creating new ones — was popularized by which economist?",
     "choices": [
       "Joseph Schumpeter",
       "Karl Marx",
@@ -912,7 +912,7 @@
       "John Maynard Keynes"
     ],
     "answer": "Joseph Schumpeter",
-    "explanation": "Schumpeter introduced 'creative destruction' in Capitalism, Socialism and Democracy (1942), describing it as 'the essential fact about capitalism.' He drew partly on Marx, who described capitalism's constant revolutionising of production, but Schumpeter emphasised innovation and the entrepreneur as the engine of growth. He saw the destruction of old industries not as a failure of capitalism but as its defining feature.",
+    "explanation": "Schumpeter made 'creative destruction' famous in Capitalism, Socialism and Democracy (1942), describing it as 'the essential fact about capitalism.' The German phrase had been used earlier by Werner Sombart (1913), and Marx had described capitalism's constant revolutionizing of production, but Schumpeter put innovation and the entrepreneur at the centre as the engine of growth. He saw the destruction of old industries not as a failure of capitalism but as its defining feature.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -936,7 +936,7 @@
       "The gold standard crisis of 1895, when J.P. Morgan bailed out the US Treasury"
     ],
     "answer": "The Panic of 1907, when a trust company collapse nearly brought down the entire US banking system",
-    "explanation": "The Knickerbocker Trust Company's failure triggered a bank run that spread across New York. J.P. Morgan personally organised a private bailout, lending his own and others' funds to stem the panic — but the episode exposed the US's dangerous lack of a lender of last resort. Congress established the Federal Reserve in December 1913 to provide exactly this function: emergency liquidity to prevent bank runs from cascading into depressions.",
+    "explanation": "The Knickerbocker Trust Company's failure triggered a bank run that spread across New York. J.P. Morgan personally organized a private bailout, lending his own and others' funds to stem the panic — but the episode exposed the US's dangerous lack of a lender of last resort. Congress established the Federal Reserve in December 1913 to provide exactly this function: emergency liquidity to prevent bank runs from cascading into depressions.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -961,7 +961,7 @@
       "To lend money at interest above the legal maximum"
     ],
     "answer": "To observe from a watchtower or high place (specula)",
-    "explanation": "Latin 'speculari' meant to spy or observe from a high vantage point (specula = watchtower). The connection to financial risk-taking came via the idea of looking ahead into the future — seeing possibilities others didn't. The same Latin root gives us 'spectator', 'inspector', 'spectre', 'spectacular', and 'mirror' (speculum). Financial speculation in the modern sense emerged in 17th-century Amsterdam with the Dutch East India Company's active secondary market.",
+    "explanation": "Latin 'speculari' meant to spy or observe from a high vantage point (specula = watchtower). The connection to financial risk-taking came via the idea of looking ahead into the future — seeing possibilities others didn't. The same Latin root gives us 'spectator', 'inspector', 'spectre', 'spectacular', and 'speculum' (the Latin word for mirror). Financial speculation in the modern sense emerged in 17th-century Amsterdam with the Dutch East India Company's active secondary market.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -977,7 +977,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The term 'entrepreneur' — borrowed directly from French — was introduced into economics primarily by which economist to describe the role of the risk-taking organiser of production?",
+    "prompt": "The term 'entrepreneur' — borrowed directly from French — was popularized among economists to describe the risk-taking organizer of production mainly by which economist?",
     "choices": [
       "Jean-Baptiste Say, in his Treatise on Political Economy (1803)",
       "Adam Smith, in The Wealth of Nations (1776)",
@@ -985,7 +985,7 @@
       "John Stuart Mill, who translated the French term for English audiences in the 1840s"
     ],
     "answer": "Jean-Baptiste Say, in his Treatise on Political Economy (1803)",
-    "explanation": "The term 'entrepreneur' exists in French simply to mean 'undertaker' (one who undertakes something). But it was Say who gave it a specific economic meaning: the person who combines land, labour, and capital in production, bearing the risk and uncertainty. Earlier economists including Richard Cantillon had written about the concept. Schumpeter later refined the entrepreneur as the innovator driving creative destruction, distinct from the mere business manager.",
+    "explanation": "The term 'entrepreneur' exists in French simply to mean 'undertaker' (one who undertakes something). Richard Cantillon was the first to give it an economic role as the risk-bearer, in an essay written around 1730 and published in 1755, but it was Say who popularized it: the person who combines land, labour, and capital in production, bearing the risk and uncertainty. Schumpeter later refined the entrepreneur as the innovator driving creative destruction, distinct from the mere business manager.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1025,7 +1025,7 @@
     "category": "origins",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Black-Scholes options pricing formula (1973) revolutionised finance and won the 1997 Nobel prize. What did Fischer Black and Myron Scholes discover that made their model tractable?",
+    "prompt": "The Black-Scholes options pricing formula (1973) revolutionized finance and earned Myron Scholes and Robert Merton the 1997 Nobel prise. What key insight made the model tractable?",
     "choices": [
       "A delta-hedging insight: by continuously adjusting the ratio of stock to option, you can create a risk-free portfolio — and a risk-free portfolio must earn the risk-free rate, giving you the option price",
       "That stock prices follow a perfectly normal distribution over any time period, making expected payoffs calculable",
@@ -1033,7 +1033,7 @@
       "That options markets were systematically mispriced, allowing arbitrage profits that revealed the true pricing formula"
     ],
     "answer": "A delta-hedging insight: by continuously adjusting the ratio of stock to option, you can create a risk-free portfolio — and a risk-free portfolio must earn the risk-free rate, giving you the option price",
-    "explanation": "The key Black-Scholes breakthrough was that you could hedge away all risk from an option position by holding the right amount of the underlying stock — and since the hedged portfolio has no risk, it must earn the risk-free rate. This no-arbitrage argument pins down the option price uniquely. Robert Merton independently derived the same result (and made the continuous hedging argument rigorous). All three won the 1997 Nobel; Black had died in 1995.",
+    "explanation": "The key Black-Scholes breakthrough was that you could hedge away all risk from an option position by holding the right amount of the underlying stock — and since the hedged portfolio has no risk, it must earn the risk-free rate. This no-arbitrage argument pins down the option price uniquely. Robert Merton independently derived the same result (and made the continuous hedging argument rigorous). Fischer Black had died in 1995 and the Nobel is not awarded posthumously, so only Scholes and Merton were honoured, with the citation crediting Black.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1050,7 +1050,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The term 'shock doctrine' — the idea that crises are exploited to implement radical free-market reforms before opposition can mobilise — was coined by which Canadian journalist and author?",
+    "prompt": "The term 'shock doctrine' — the idea that crises are exploited to implement radical free-market reforms before opposition can mobilize — was coined by which Canadian journalist and author?",
     "choices": [
       "Naomi Klein",
       "Malcolm Gladwell",
@@ -1058,7 +1058,7 @@
       "Margaret Atwood"
     ],
     "answer": "Naomi Klein",
-    "explanation": "Naomi Klein coined 'shock doctrine' in her 2007 book of the same name, arguing that Chicago School economists and policymakers used crises (coups, disasters, financial collapses) to implement deregulation, privatisation, and cuts before affected populations could organise resistance. Her case studies included Chile after Pinochet's 1973 coup, Iraq after 2003 invasion, and New Orleans after Hurricane Katrina. The book was controversial among economists but influential in public debate.",
+    "explanation": "Naomi Klein coined 'shock doctrine' in her 2007 book of the same name, arguing that Chicago School economists and policymakers used crises (coups, disasters, financial collapses) to implement deregulation, privatization, and cuts before affected populations could organize resistance. Her case studies included Chile after Pinochet's 1973 coup, Iraq after 2003 invasion, and New Orleans after Hurricane Katrina. The book was controversial among economists but influential in public debate.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1098,7 +1098,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The term 'mercantilism' — describing the 16th–18th century doctrine that national wealth meant accumulating gold and silver — was not used by mercantilist writers themselves. Who coined the critical label?",
+    "prompt": "The term 'mercantilism' — describing the 16th–18th century doctrine that national wealth meant accumulating gold and silver — was not used by mercantilist writers themselves. Which economist gave the doctrine its lasting critical label, 'the mercantile system'?",
     "choices": [
       "Adam Smith, in The Wealth of Nations (1776)",
       "David Hume, in Political Discourses (1752)",
@@ -1106,7 +1106,7 @@
       "Richard Cantillon, in An Essay on the Nature of Commerce (1755)"
     ],
     "answer": "Adam Smith, in The Wealth of Nations (1776)",
-    "explanation": "Mercantilist writers (Mun, Colbert, etc.) described their policies as good governance, not by any collective name. Smith coined 'mercantile system' or 'commercial system' as a critical label for the whole body of thought he was attacking. His critique — that mercantilist trade restrictions made nations poorer, not richer — became the intellectual foundation of free trade ideology. The word 'mercantilism' as a historical category was first used by German economists in the 19th century.",
+    "explanation": "Mercantilist writers (Mun, Colbert, etc.) described their policies as good governance, not by any collective name. Smith attacked what he called the 'mercantile system' or 'commercial system' — the French writer Mirabeau is sometimes said to have used the phrase slightly earlier, but Smith's critique made it famous. His argument — that mercantilist trade restrictions made nations poorer, not richer — became the intellectual foundation of free trade ideology. The word 'mercantilism' as a historical category was first used by German economists in the 19th century.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1130,7 +1130,7 @@
       "David Ricardo and Thomas Malthus"
     ],
     "answer": "Richard Cobden and John Bright",
-    "explanation": "The Anti-Corn Law League (founded 1838) was led by Manchester manufacturer Richard Cobden and MP John Bright. They argued the Corn Laws kept bread prices artificially high, benefiting landowners at the expense of workers and manufacturers. Prime Minister Robert Peel ultimately repealed the Corn Laws in 1846 (partly responding to the Irish Famine), splitting the Conservative Party. The repeal is seen as a milestone in British free trade liberalisation.",
+    "explanation": "The Anti-Corn Law League (founded 1838) was led by Manchester manufacturer Richard Cobden and MP John Bright. They argued the Corn Laws kept bread prices artificially high, benefiting landowners at the expense of workers and manufacturers. Prime Minister Robert Peel ultimately repealed the Corn Laws in 1846 (partly responding to the Irish Famine), splitting the Conservative Party. The repeal is seen as a milestone in British free trade liberalization.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1155,7 +1155,7 @@
       "Aboard ships in harbour, where they could quickly flee if debtors pursued them"
     ],
     "answer": "At outdoor benches in market squares or near churches",
-    "explanation": "Medieval Italian money changers and moneylenders set up benches (banca) in public market spaces — often near church squares or commercial fairs — where merchants could exchange currencies and deposit valuables. The bench was both literal workspace and the sign of their trade. When a banker failed, creditors broke the bench (banca rotta = bankrupt). Florence's Bardi and Peruzzi families operated this way before evolving into more sophisticated banking houses.",
+    "explanation": "Medieval Italian money changers and moneylenders set up benches (banca) in public places — market squares, fairs, and the squares in front of churches — to exchange coins and take deposits. The bench was both a literal workspace and the sign of the trade, which is where 'bank' and 'banker' come from. Traditionally, a banker who failed was said to have had his bench broken (banca rotta, the origin of 'bankrupt'), although literal bench-breaking is unproven. Over time the street-bench money changers of cities such as Genoa, Venice and Florence gave way to larger banking houses such as the Medici.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1171,7 +1171,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Nobel Memorial Prize in Economics is not technically one of Alfred Nobel's original prizes. Which institution created it — and funded it — in 1968 to mark its own 300th anniversary?",
+    "prompt": "The Nobel Memorial Prise in Economics is not technically one of Alfred Nobel's original prises. Which institution created it — and funded it — in 1968 to mark its own 300th anniversary?",
     "choices": [
       "Sveriges Riksbank (Bank of Sweden)",
       "The Royal Swedish Academy of Sciences",
@@ -1179,7 +1179,7 @@
       "The Nobel Foundation itself"
     ],
     "answer": "Sveriges Riksbank (Bank of Sweden)",
-    "explanation": "The full name is the 'Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel.' The Riksbank created and endowed it in 1968 as part of its tricentenary celebrations. Because it was not in Alfred Nobel's will, some purists argue it is not a 'true' Nobel Prize — but it is awarded alongside the original prizes every December 10.",
+    "explanation": "The full name is the 'Sveriges Riksbank Prise in Economic Sciences in Memory of Alfred Nobel.' The Riksbank created and endowed it in 1968 as part of its tricentenary celebrations. Because it was not in Alfred Nobel's will, some purists argue it is not a 'true' Nobel Prise — but it is awarded alongside the original prises every December 10.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1200,7 +1200,7 @@
       "United Kingdom, de facto from 1717 when Isaac Newton (as Master of the Mint) set the gold price for sterling",
       "Germany, formally in 1871 after the Franco-Prussian War",
       "The United States, in the Gold Standard Act of 1900",
-      "France, after Napoleon stabilised the franc in 1803"
+      "France, after Napoleon stabilized the franc in 1803"
     ],
     "answer": "United Kingdom, de facto from 1717 when Isaac Newton (as Master of the Mint) set the gold price for sterling",
     "explanation": "Isaac Newton served as Master of the Mint from 1699 to 1727. In 1717, he set the gold price for sterling at £3 17s 10.5d per troy ounce — a rate maintained (with wartime suspensions) for two centuries. This effectively put Britain on a de facto gold standard. The UK formally adopted a legal gold standard in 1816, and after Germany's 1871 adoption sparked a rush, most major economies had joined by 1900.",

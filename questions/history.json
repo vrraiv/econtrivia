@@ -5,13 +5,23 @@
     "difficulty": 2,
     "format": "mc",
     "prompt": "The Corn Laws, which imposed tariffs on imported grain to protect British landowners, were repealed in:",
-    "choices": ["1846", "1832", "1815", "1869"],
+    "choices": [
+      "1846",
+      "1832",
+      "1815",
+      "1869"
+    ],
     "answer": "1846",
     "explanation": "Prime Minister Robert Peel repealed the Corn Laws in 1846, partly driven by the Irish Famine and the lobbying of the Anti-Corn Law League (Cobden and Bright). Repeal marked Britain's embrace of free trade and weakened the political power of landed aristocracy.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Corn Laws", "free trade", "UK", "1846"]
+    "tags": [
+      "Corn Laws",
+      "free trade",
+      "UK",
+      "1846"
+    ]
   },
   {
     "id": "history-002",
@@ -19,13 +29,24 @@
     "difficulty": 1,
     "format": "mc",
     "prompt": "NAFTA — the North American Free Trade Agreement linking Canada, the US, and Mexico — came into force on January 1 of which year?",
-    "choices": ["1994", "1988", "2000", "1991"],
+    "choices": [
+      "1994",
+      "1988",
+      "2000",
+      "1991"
+    ],
     "answer": "1994",
     "explanation": "NAFTA was signed in 1992 and entered into force on January 1, 1994. It was replaced by the Canada–United States–Mexico Agreement (CUSMA/USMCA) on July 1, 2020.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["NAFTA", "CUSMA", "trade", "Canada", "Mexico"]
+    "tags": [
+      "NAFTA",
+      "CUSMA",
+      "trade",
+      "Canada",
+      "Mexico"
+    ]
   },
   {
     "id": "history-003",
@@ -36,15 +57,19 @@
     "choices": [
       "accumulating gold and silver through a trade surplus",
       "free exchange of goods with all trading partners",
-      "maximising agricultural output through enclosure",
-      "securing monopoly rents from colonial territories"
+      "maximizing agricultural output through enclosure",
+      "minimizing state involvement in foreign trade"
     ],
     "answer": "accumulating gold and silver through a trade surplus",
     "explanation": "Mercantilist states believed wealth was finite and zero-sum: exports earned precious metals, imports spent them. Adam Smith's The Wealth of Nations (1776) demolished this view, arguing wealth comes from productive capacity, not gold stockpiles.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["mercantilism", "trade", "Smith"]
+    "tags": [
+      "mercantilism",
+      "trade",
+      "Smith"
+    ]
   },
   {
     "id": "history-004",
@@ -57,14 +82,18 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Luddites", "Industrial Revolution", "labour"]
+    "tags": [
+      "Luddites",
+      "Industrial Revolution",
+      "labour"
+    ]
   },
   {
     "id": "history-005",
     "category": "history",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The Sherman Antitrust Act of 1890, the first major US competition law, was most directly inspired by the dominance of which company?",
+    "prompt": "The Sherman Antitrust Act of 1890 was the first major US federal competition law. Which company's trust became the most famous symbol of the monopoly power it targeted?",
     "choices": [
       "Standard Oil",
       "Carnegie Steel",
@@ -72,11 +101,16 @@
       "American Tobacco"
     ],
     "answer": "Standard Oil",
-    "explanation": "John D. Rockefeller's Standard Oil controlled roughly 90% of US oil refining by 1880, using secret railroad rebates and predatory pricing to crush rivals. Public outrage over its tactics drove Congress to pass the Sherman Act; Standard Oil itself was broken up by the Supreme Court in 1911.",
+    "explanation": "John D. Rockefeller's Standard Oil controlled roughly 90% of US oil refining by about 1880, using secret railroad rebates and predatory pricing to crush rivals. Public outrage at the trusts, Standard Oil above all, drove Congress to pass the Sherman Act; Standard Oil itself was broken up by the Supreme Court in 1911.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Standard Oil", "antitrust", "Sherman Act", "Rockefeller"]
+    "tags": [
+      "Standard Oil",
+      "antitrust",
+      "Sherman Act",
+      "Rockefeller"
+    ]
   },
   {
     "id": "history-006",
@@ -85,17 +119,22 @@
     "format": "mc",
     "prompt": "Keynes's 1919 book 'The Economic Consequences of the Peace' argued that the post-WWI reparations imposed on Germany at Versailles were:",
     "choices": [
-      "so harsh they would destabilise Europe and sow the seeds of future conflict",
+      "so harsh they would destabilize Europe and sow the seeds of future conflict",
       "insufficient to compensate France and Belgium for wartime destruction",
       "fair provided Germany was given 50 years to pay",
       "unnecessary because Germany could simply inflate away the debt"
     ],
-    "answer": "so harsh they would destabilise Europe and sow the seeds of future conflict",
-    "explanation": "Keynes resigned from the British delegation at Versailles and predicted the reparations — set at 132 billion gold marks — would impoverish Germany and fuel resentment. The hyperinflation of 1923 and eventual rise of Nazism are often cited as vindication of his warning.",
+    "answer": "so harsh they would destabilize Europe and sow the seeds of future conflict",
+    "explanation": "Keynes resigned from the British delegation at Versailles and predicted that the reparations would impoverish Germany and fuel resentment; the total was later fixed at 132 billion gold marks in 1921. The hyperinflation of 1923 and the eventual rise of Nazism are often cited as vindication of his warning.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Keynes", "WWI", "Versailles", "reparations"]
+    "tags": [
+      "Keynes",
+      "WWI",
+      "Versailles",
+      "reparations"
+    ]
   },
   {
     "id": "history-007",
@@ -106,15 +145,20 @@
     "choices": [
       "triggering retaliatory tariffs that deepened the Great Depression",
       "successfully protecting American manufacturing jobs during the Depression",
-      "driving Canada and the UK into a bilateral trade agreement that excluded the US",
+      "forcing the United States off the gold standard in 1930",
       "being struck down by the Supreme Court as unconstitutional"
     ],
     "answer": "triggering retaliatory tariffs that deepened the Great Depression",
-    "explanation": "Over 60 countries retaliated with their own tariffs, and US exports fell by more than half between 1930 and 1932. Most economists view Smoot-Hawley as a factor that worsened and prolonged the Depression, though the crash had already begun before it passed.",
+    "explanation": "Dozens of countries protested and many, including Canada, retaliated with tariffs of their own. US exports fell by more than half between 1930 and 1932, though much of that fall reflected the Depression itself. Most economists view Smoot-Hawley as a factor that worsened and prolonged the slump, though the crash had already begun before the act passed.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Smoot-Hawley", "tariffs", "Great Depression", "trade war"]
+    "tags": [
+      "Smoot-Hawley",
+      "tariffs",
+      "Great Depression",
+      "trade war"
+    ]
   },
   {
     "id": "history-008",
@@ -129,11 +173,16 @@
       "Harry Hopkins"
     ],
     "answer": "George Marshall",
-    "explanation": "George Marshall announced the plan in a speech at Harvard in June 1947. Between 1948 and 1952, the US provided roughly $13 billion (about $170 billion today) to 17 European countries. Marshall won the Nobel Peace Prize in 1953 for the initiative.",
+    "explanation": "George Marshall announced the plan in a speech at Harvard in June 1947. Between 1948 and 1952, the US provided roughly $13 billion (well over $100 billion in today's money) to Western European countries. Marshall won the Nobel Peace Prise in 1953 for the initiative.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Marshall Plan", "postwar", "Europe", "US aid"]
+    "tags": [
+      "Marshall Plan",
+      "postwar",
+      "Europe",
+      "US aid"
+    ]
   },
   {
     "id": "history-009",
@@ -152,7 +201,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Nixon shock", "Bretton Woods", "gold standard", "exchange rate"]
+    "tags": [
+      "Nixon shock",
+      "Bretton Woods",
+      "gold standard",
+      "exchange rate"
+    ]
   },
   {
     "id": "history-010",
@@ -171,20 +225,30 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["oil shock", "OPEC", "1973", "stagflation"]
+    "tags": [
+      "oil shock",
+      "OPEC",
+      "1973",
+      "stagflation"
+    ]
   },
   {
     "id": "history-011",
     "category": "history",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "Stagflation — the combination of high inflation and high unemployment — was considered theoretically impossible under the original Phillips Curve framework.",
+    "prompt": "True or false: Stagflation, meaning high inflation and high unemployment at the same time, contradicted the simple Phillips Curve tradeoff, which implied inflation and unemployment should move in opposite directions.",
     "answer": true,
-    "explanation": "The original Phillips Curve (1958) showed an inverse relationship between unemployment and inflation, implying you could not have both high at the same time. The stagflation of the 1970s shattered this model and led to the expectations-augmented Phillips Curve of Friedman and Phelps.",
+    "explanation": "The Phillips Curve (A.W. Phillips in 1958 for wages, and Samuelson and Solow in 1960 for inflation) suggested a stable inverse relationship between unemployment and inflation. The stagflation of the 1970s broke that pattern and led to the expectations-augmented Phillips Curve of Friedman and Phelps.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["stagflation", "Phillips Curve", "inflation", "unemployment"]
+    "tags": [
+      "stagflation",
+      "Phillips Curve",
+      "inflation",
+      "unemployment"
+    ]
   },
   {
     "id": "history-012",
@@ -196,14 +260,19 @@
       "converting open common land to privately owned and fenced fields",
       "building protective tariff walls around domestic manufacturing",
       "concentrating merchant guild privileges in Crown-chartered companies",
-      "nationalising canals and turnpikes under Parliamentary authority"
+      "nationalizing canals and turnpikes under Parliamentary authority"
     ],
     "answer": "converting open common land to privately owned and fenced fields",
     "explanation": "Enclosure stripped peasants of rights to common land for grazing and gathering, pushing them into urban wage labour and fuelling the Industrial Revolution's factory workforce. Marx called it 'primitive accumulation'; modern historians debate whether it raised or lowered rural living standards.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["enclosure", "Industrial Revolution", "land", "commons"]
+    "tags": [
+      "enclosure",
+      "Industrial Revolution",
+      "land",
+      "commons"
+    ]
   },
   {
     "id": "history-013",
@@ -218,11 +287,16 @@
       "1880s"
     ],
     "answer": "1840s",
-    "explanation": "In 1844–1846 Parliament authorised over 9,000 miles of new railway lines; share prices doubled and then collapsed. Thousands of investors were ruined, though many lines were actually built, permanently transforming British transport and accelerating industrialisation.",
+    "explanation": "Between 1844 and 1847 Parliament authorized roughly 9,000 miles of new railway lines; share prices soared and then collapsed. Thousands of investors were ruined, though many lines were actually built, permanently transforming British transport and accelerating industrialization.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Railway Mania", "speculative bubble", "UK", "1840s"]
+    "tags": [
+      "Railway Mania",
+      "speculative bubble",
+      "UK",
+      "1840s"
+    ]
   },
   {
     "id": "history-014",
@@ -237,18 +311,23 @@
       "The federal government through land sales"
     ],
     "answer": "Merchants selling supplies to miners",
-    "explanation": "Prices for basic goods in gold-rush California were absurdly inflated: eggs went for $1 each (weeks' wages), shovels for $36. Merchants like Levi Strauss (who sold canvas trousers) and Samuel Brannan (who bought all the shovels before announcing the rush) made fortunes. The average miner barely broke even.",
+    "explanation": "Prices for basic goods in gold-rush California were wildly inflated: a single egg could cost a dollar and pans and shovels sold for many times their normal price. Merchants such as Levi Strauss (who arrived in San Francisco in 1853 selling dry goods and later made riveted work trousers) and Samuel Brannan (who reputedly bought up the shovels before announcing the strike) made fortunes. The average miner barely broke even.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["gold rush", "California", "merchants", "speculation"]
+    "tags": [
+      "gold rush",
+      "California",
+      "merchants",
+      "speculation"
+    ]
   },
   {
     "id": "history-015",
     "category": "history",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Social Security Act of 1935 was a New Deal programme that created which two major social insurance systems in the United States?",
+    "prompt": "The Social Security Act of 1935 was a New Deal program that created which two major social insurance systems in the United States?",
     "choices": [
       "Old-age pensions and unemployment insurance",
       "Universal healthcare and disability benefits",
@@ -256,43 +335,58 @@
       "Bank deposit insurance and mortgage guarantees"
     ],
     "answer": "Old-age pensions and unemployment insurance",
-    "explanation": "The Act created federal old-age insurance (what Americans today call Social Security) and a federal-state unemployment insurance system. It was the first time the US federal government took direct responsibility for income security — previously considered a state or private matter.",
+    "explanation": "The Act created federal old-age insurance (what Americans today call Social Security) and a federal-state unemployment insurance system. It was the first permanent national system of income security in the United States, an area previously left largely to the states and private charity.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Social Security", "New Deal", "FDR", "welfare state"]
+    "tags": [
+      "Social Security",
+      "New Deal",
+      "FDR",
+      "welfare state"
+    ]
   },
   {
     "id": "history-016",
     "category": "history",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Reaganomics, the supply-side economic programme of the early 1980s, was underpinned by the 'Laffer Curve' — the idea that cutting tax rates could:",
+    "prompt": "Reaganomics, the supply-side economic program of the early 1980s, was underpinned by the 'Laffer Curve' — the idea that cutting tax rates could:",
     "choices": [
-      "increase total tax revenue if rates were above the revenue-maximising point",
+      "increase total tax revenue if rates were above the revenue-maximizing point",
       "directly reduce inflation by shrinking the money supply",
       "stimulate exports by cheapening the dollar through capital outflows",
       "eliminate the budget deficit by reducing government borrowing costs"
     ],
-    "answer": "increase total tax revenue if rates were above the revenue-maximising point",
-    "explanation": "Arthur Laffer sketched his curve on a napkin in 1974. Reagan cut the top marginal income tax rate from 70% to 28%, arguing this would unleash growth and actually raise revenues. In practice, deficits tripled during his presidency — critics dubbed the theory 'trickle-down economics'.",
+    "answer": "increase total tax revenue if rates were above the revenue-maximizing point",
+    "explanation": "Arthur Laffer reportedly sketched his curve on a napkin in 1974. Reagan cut the top marginal income tax rate from 70% to 50% in 1981 and to 28% by 1988, arguing this would unleash growth and raise revenues. In practice the national debt nearly tripled during his presidency, and critics derided the approach as 'trickle-down economics'.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Reaganomics", "Laffer Curve", "supply-side", "tax cuts"]
+    "tags": [
+      "Reaganomics",
+      "Laffer Curve",
+      "supply-side",
+      "tax cuts"
+    ]
   },
   {
     "id": "history-017",
     "category": "history",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "Margaret Thatcher's government privatised British Telecom, British Gas, and British Airways — all state-owned companies — during the 1980s.",
+    "prompt": "Margaret Thatcher's government privatized British Telecom, British Gas, and British Airways — all state-owned companies — during the 1980s.",
     "answer": true,
-    "explanation": "Thatcher's privatisation programme was the most extensive in the Western world at the time: BT (1984), British Gas (1986), British Airways (1987), water and electricity utilities (1989–90). The programme raised billions and transformed public attitudes toward share ownership, though critics argued essential services were sold below value.",
+    "explanation": "Thatcher's privatization program was the most extensive in the Western world at the time: BT (1984), British Gas (1986), British Airways (1987), then water (1989) and electricity (1990-91). The program raised billions and transformed public attitudes toward share ownership, though critics argued essential services were sold below value.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Thatcher", "privatisation", "UK", "1980s"]
+    "tags": [
+      "Thatcher",
+      "privatisation",
+      "UK",
+      "1980s"
+    ]
   },
   {
     "id": "history-018",
@@ -311,7 +405,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Japan", "MITI", "industrial policy", "economic miracle"]
+    "tags": [
+      "Japan",
+      "MITI",
+      "industrial policy",
+      "economic miracle"
+    ]
   },
   {
     "id": "history-019",
@@ -326,11 +425,16 @@
       "The Pacific Slump"
     ],
     "answer": "The Lost Decade",
-    "explanation": "Japanese stock prices fell roughly 80% from their 1989 peak, and property prices collapsed. Banks sat on mountains of non-performing loans, zombie companies survived on credit, and GDP growth averaged near zero for over a decade — a template that worried Western economists during the 2008 crisis.",
+    "explanation": "Japanese stock prices fell roughly 80% from their 1989 peak, and property prices collapsed. Banks sat on mountains of non-performing loans, zombie companies survived on credit, and growth stayed weak for well over a decade, averaging barely 1% a year in the 1990s, a template that worried Western economists during the 2008 crisis.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Japan", "Lost Decade", "asset bubble", "deflation"]
+    "tags": [
+      "Japan",
+      "Lost Decade",
+      "asset bubble",
+      "deflation"
+    ]
   },
   {
     "id": "history-020",
@@ -345,11 +449,16 @@
       "Malaysia"
     ],
     "answer": "Thailand",
-    "explanation": "The Thai baht had been pegged to the US dollar, masking a current-account deficit financed by hot money. When speculators attacked and Thailand's reserves ran out, the baht was floated on July 2, 1997, losing half its value. The crisis rapidly spread to Indonesia, South Korea, and Malaysia.",
+    "explanation": "The Thai baht had been pegged to the US dollar, masking a current-account deficit financed by hot money. When speculators attacked and Thailand's reserves ran out, the baht was floated on July 2, 1997, eventually losing roughly half its value. The crisis rapidly spread to Indonesia, South Korea, and Malaysia.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Asian crisis", "Thailand", "currency", "contagion"]
+    "tags": [
+      "Asian crisis",
+      "Thailand",
+      "currency",
+      "contagion"
+    ]
   },
   {
     "id": "history-021",
@@ -368,7 +477,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["dot-com", "NASDAQ", "tech bubble", "2000"]
+    "tags": [
+      "dot-com",
+      "NASDAQ",
+      "tech bubble",
+      "2000"
+    ]
   },
   {
     "id": "history-022",
@@ -383,11 +497,16 @@
       "Ireland"
     ],
     "answer": "Greece",
-    "explanation": "Greece received three successive bailouts totalling over €260 billion from the EU, ECB, and IMF — by far the largest in history. In exchange it accepted severe austerity: pensions cut, wages slashed, public services privatised. GDP fell about 25% and unemployment peaked above 27%.",
+    "explanation": "Greece received three successive bailouts from the EU, ECB, and IMF worth well over €250 billion in total, by far the largest sovereign rescue in history. In exchange it accepted severe austerity: pensions cut, wages slashed, public services privatized. GDP fell about 25% and unemployment peaked above 27%.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["eurozone crisis", "Greece", "austerity", "bailout"]
+    "tags": [
+      "eurozone crisis",
+      "Greece",
+      "austerity",
+      "bailout"
+    ]
   },
   {
     "id": "history-023",
@@ -406,7 +525,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["China", "WTO", "globalisation", "trade"]
+    "tags": [
+      "China",
+      "WTO",
+      "globalisation",
+      "trade"
+    ]
   },
   {
     "id": "history-024",
@@ -425,7 +549,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Malthus", "population", "subsistence", "trap"]
+    "tags": [
+      "Malthus",
+      "population",
+      "subsistence",
+      "trap"
+    ]
   },
   {
     "id": "history-025",
@@ -445,7 +574,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["crises", "timeline", "history"]
+    "tags": [
+      "crises",
+      "timeline",
+      "history"
+    ]
   },
   {
     "id": "history-026",
@@ -464,20 +597,30 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["TVA", "New Deal", "FDR", "infrastructure"]
+    "tags": [
+      "TVA",
+      "New Deal",
+      "FDR",
+      "infrastructure"
+    ]
   },
   {
     "id": "history-027",
     "category": "history",
     "difficulty": 3,
     "format": "tf",
-    "prompt": "The German hyperinflation of 1923, at its peak, saw prices roughly double every day.",
+    "prompt": "True or false: At its peak in late 1923, German prices were roughly doubling every few days.",
     "answer": true,
-    "explanation": "By November 1923, the exchange rate reached 4.2 trillion marks per US dollar. At the peak, prices were doubling every 3–4 days. Workers were paid twice daily and rushed to spend wages before they lost value. The Rentenmark, introduced in November 1923, ended the hyperinflation almost overnight.",
+    "explanation": "Monthly inflation peaked at roughly 29,500% in October 1923, which works out to prices doubling about every 3 to 4 days. By late November the exchange rate reached 4.2 trillion marks per US dollar. Workers were sometimes paid more than once a day and rushed to spend wages before they lost value. The Rentenmark, introduced in November 1923, ended the hyperinflation almost overnight.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["hyperinflation", "Germany", "Weimar", "1923"]
+    "tags": [
+      "hyperinflation",
+      "Germany",
+      "Weimar",
+      "1923"
+    ]
   },
   {
     "id": "history-028",
@@ -492,11 +635,16 @@
       "stayed permanently, founding what became Canada's largest western city"
     ],
     "answer": "arrived too late and found little gold, while merchants and transport companies profited",
-    "explanation": "By the time the news broke and 100,000 prospectors set out, most claims had been staked. The steamship lines, outfitters like the NWMP suppliers, and retailers in Dawson City made the reliable fortunes. The rush did spur Canadian government investment in the Yukon and accelerated the push for railways.",
+    "explanation": "By the time the news broke and some 100,000 prospectors set out, most good claims had been staked, and only a fraction of the travellers ever reached Dawson City. The Mounties required each newcomer to bring about a ton of supplies, which enriched outfitters in Seattle and Vancouver and merchants in Dawson City. The rush did spur Canadian government investment in the Yukon and accelerated the push for railways.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Klondike", "gold rush", "Yukon", "Canada"]
+    "tags": [
+      "Klondike",
+      "gold rush",
+      "Yukon",
+      "Canada"
+    ]
   },
   {
     "id": "history-029",
@@ -511,18 +659,23 @@
       "The Soviet invasion of Afghanistan cutting Central Asian pipeline routes"
     ],
     "answer": "The Iranian Revolution, which disrupted Iranian oil exports",
-    "explanation": "The overthrow of the Shah of Iran and the subsequent hostage crisis caused Iranian oil output to plummet from 5.5 to 1.5 million barrels per day. Oil prices doubled to $35/barrel by 1980, triggering a deep recession and cementing the era of stagflation that Volcker's Fed eventually broke.",
+    "explanation": "The overthrow of the Shah of Iran in early 1979 sharply cut Iranian oil output, and the Iran-Iraq war that began in 1980 reduced it further. Oil prices roughly doubled to about $35 a barrel by 1980, triggering a deep recession and cementing the era of stagflation that Volcker's Fed eventually broke.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["oil shock", "Iran", "1979", "stagflation"]
+    "tags": [
+      "oil shock",
+      "Iran",
+      "1979",
+      "stagflation"
+    ]
   },
   {
     "id": "history-030",
     "category": "history",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Which British Prime Minister introduced the 'poll tax' (Community Charge) in the late 1980s, a flat per-person local tax that triggered widespread riots and contributed to her downfall?",
+    "prompt": "Which British Prime Minister introduced the 'poll tax' (Community Charge) in the late 1980s, a flat per-person local tax that triggered widespread riots and contributed to the prime minister's downfall?",
     "choices": [
       "Margaret Thatcher",
       "John Major",
@@ -534,26 +687,36 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Thatcher", "poll tax", "UK", "1990"]
+    "tags": [
+      "Thatcher",
+      "poll tax",
+      "UK",
+      "1990"
+    ]
   },
   {
     "id": "history-031",
     "category": "history",
-    "difficulty": 3,
+    "difficulty": 2,
     "format": "mc",
-    "prompt": "The 'Washington Consensus', a set of economic policy prescriptions promoted by the IMF and World Bank for developing countries in crisis during the 1980s-90s, did NOT typically include:",
+    "prompt": "The 'Washington Consensus', a set of market-oriented policy prescriptions associated with the IMF, World Bank and US Treasury for crisis-hit developing countries in the 1980s-90s, did NOT typically include:",
     "choices": [
-      "expansion of social spending to protect the poor from adjustment",
+      "nationalization of strategic industries",
       "fiscal discipline and deficit reduction",
-      "privatisation of state-owned enterprises",
-      "trade liberalisation"
+      "privatization of state-owned enterprises",
+      "trade liberalization"
     ],
-    "answer": "expansion of social spending to protect the poor from adjustment",
-    "explanation": "John Williamson's 1989 list of consensus policies — fiscal discipline, tax reform, trade and capital liberalisation, privatisation, deregulation — notably excluded protecting social safety nets. Critics like Stiglitz argued this omission caused the social costs of structural adjustment in Latin America and Africa to fall disproportionately on the poor.",
+    "answer": "nationalization of strategic industries",
+    "explanation": "John Williamson's 1989 list of ten policies included fiscal discipline, redirecting public spending toward health, education and infrastructure, tax reform, competitive exchange rates, trade liberalization, openness to foreign investment, privatization, deregulation and secure property rights. State ownership ran in the opposite direction. Critics such as Stiglitz argued that the package paid too little attention to the social costs of adjustment in Latin America and Africa.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Washington Consensus", "IMF", "World Bank", "development"]
+    "tags": [
+      "Washington Consensus",
+      "IMF",
+      "World Bank",
+      "development"
+    ]
   },
   {
     "id": "history-032",
@@ -562,24 +725,41 @@
     "format": "match",
     "prompt": "Match each major economic crisis to the decade in which it peaked or broke.",
     "pairs": [
-      ["Great Depression", "1930s"],
-      ["Stagflation crisis", "1970s"],
-      ["Savings and Loan crisis (USA)", "1980s"],
-      ["Global Financial Crisis", "2000s"]
+      [
+        "Great Depression",
+        "1930s"
+      ],
+      [
+        "Stagflation crisis",
+        "1970s"
+      ],
+      [
+        "Savings and Loan crisis (USA)",
+        "1980s"
+      ],
+      [
+        "Global Financial Crisis",
+        "2000s"
+      ]
     ],
     "answer": "Great Depression→1930s, Stagflation→1970s, S&L crisis→1980s, GFC→2000s",
     "explanation": "The Depression followed the 1929 crash; stagflation peaked 1973–1979; the US S&L crisis peaked in the late 1980s with hundreds of thrift failures; Lehman Brothers collapsed in September 2008.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["crises", "timeline", "match", "history"]
+    "tags": [
+      "crises",
+      "timeline",
+      "match",
+      "history"
+    ]
   },
   {
     "id": "history-033",
     "category": "history",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The term 'stagflation' — combining stagnation with inflation — was popularised in the 1970s. Which UK politician is credited with first coining the term in a 1965 parliamentary speech?",
+    "prompt": "The term 'stagflation' — combining stagnation with inflation — was popularized in the 1970s. Which UK politician is credited with first coining the term in a 1965 parliamentary speech?",
     "choices": [
       "Iain Macleod",
       "Harold Wilson",
@@ -591,20 +771,30 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["stagflation", "UK", "Macleod", "etymology"]
+    "tags": [
+      "stagflation",
+      "UK",
+      "Macleod",
+      "etymology"
+    ]
   },
   {
     "id": "history-034",
     "category": "history",
-    "difficulty": 1,
+    "difficulty": 2,
     "format": "tf",
-    "prompt": "The Great Depression saw global GDP fall by more than 15% between 1929 and 1932.",
+    "prompt": "True or false: US real GDP fell by more than a quarter between 1929 and 1933.",
     "answer": true,
-    "explanation": "Global GDP fell roughly 15% between 1929 and 1932, with much steeper drops in countries like the US (~30%) and Germany. World trade collapsed by two-thirds. Unemployment in the US peaked at about 25%, and in some countries never fully recovered until WWII mobilisation.",
+    "explanation": "US real GDP fell by roughly 26 to 27% between 1929 and 1933. Unemployment peaked at about 25% in 1933, and the value of world trade collapsed by roughly two-thirds between 1929 and 1934. Many countries did not fully recover until WWII mobilization.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Great Depression", "GDP", "unemployment", "1930s"]
+    "tags": [
+      "Great Depression",
+      "GDP",
+      "unemployment",
+      "1930s"
+    ]
   },
   {
     "id": "history-035",
@@ -623,7 +813,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Volcker", "Federal Reserve", "inflation", "interest rates"]
+    "tags": [
+      "Volcker",
+      "Federal Reserve",
+      "inflation",
+      "interest rates"
+    ]
   },
   {
     "id": "history-036",
@@ -642,7 +837,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Paul Martin", "Canada", "fiscal policy", "budget surplus", "finance minister"]
+    "tags": [
+      "Paul Martin",
+      "Canada",
+      "fiscal policy",
+      "budget surplus",
+      "finance minister"
+    ]
   },
   {
     "id": "history-037",
@@ -661,14 +862,20 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Hamilton", "Jefferson", "US Treasury", "industrial policy", "founding era"]
+    "tags": [
+      "Hamilton",
+      "Jefferson",
+      "US Treasury",
+      "industrial policy",
+      "founding era"
+    ]
   },
   {
     "id": "history-038",
     "category": "history",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "West Germany's postwar Wirtschaftswunder (economic miracle) was set in motion in 1948 when Finance Minister Ludwig Erhard introduced a new currency and simultaneously lifted wartime price controls. The new currency that replaced the worthless Reichsmark was the:",
+    "prompt": "West Germany's postwar Wirtschaftswunder (economic miracle) is usually dated from 1948, when a currency reform and Ludwig Erhard's abolition of most wartime price controls took effect. What new currency replaced the worthless Reichsmark?",
     "choices": [
       "Deutsche Mark",
       "Rentenmark",
@@ -676,18 +883,24 @@
       "Bundesmark"
     ],
     "answer": "Deutsche Mark",
-    "explanation": "The Deutsche Mark launched on June 21, 1948 — and almost overnight, goods reappeared on shelves that had been empty under rationing. The currency reform wiped out wartime debts and savings alike, but gave West Germany a credible monetary foundation. West Germany's GDP surpassed pre-war levels by 1955.",
+    "explanation": "The Deutsche Mark launched on June 20-21, 1948, and almost overnight goods reappeared on shelves that had been empty under rationing. The currency reform largely wiped out wartime debts and savings alike, but gave West Germany a credible monetary foundation. Output had passed pre-war levels by the early 1950s.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Deutsche Mark", "Erhard", "West Germany", "Wirtschaftswunder", "economic miracle"]
+    "tags": [
+      "Deutsche Mark",
+      "Erhard",
+      "West Germany",
+      "Wirtschaftswunder",
+      "economic miracle"
+    ]
   },
   {
     "id": "history-039",
     "category": "history",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "In September 1992, speculator George Soros famously made approximately $1 billion in a single day by short-selling the currency of a country forced to withdraw from the European Exchange Rate Mechanism. Which country?",
+    "prompt": "On 'Black Wednesday' (16 September 1992), George Soros famously made about $1 billion in a single day by betting against whose currency, which was forced out of the European Exchange Rate Mechanism?",
     "choices": [
       "United Kingdom",
       "France",
@@ -695,18 +908,24 @@
       "Sweden"
     ],
     "answer": "United Kingdom",
-    "explanation": "On 'Black Wednesday' (September 16, 1992), the UK tried and failed to defend the pound's ERM parity by raising interest rates to 15% and spending £27 billion in reserves. Soros's Quantum Fund netted roughly $1 billion. The UK suspended ERM membership, the pound fell sharply — and subsequently the UK economy recovered faster than its ERM-constrained neighbours.",
+    "explanation": "On Black Wednesday the UK tried and failed to defend the pound's ERM parity by raising interest rates to 15% and spending a reported £27 billion or so of reserves. Soros's Quantum Fund netted roughly $1 billion. The UK suspended ERM membership, the pound fell sharply, and the UK economy subsequently recovered faster than its ERM-constrained neighbours. Italy left the mechanism the next day.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Soros", "ERM", "Black Wednesday", "pound", "UK"]
+    "tags": [
+      "Soros",
+      "ERM",
+      "Black Wednesday",
+      "pound",
+      "UK"
+    ]
   },
   {
     "id": "history-040",
     "category": "history",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Plaza Accord of September 1985, signed by the G5 at the Plaza Hotel in New York, was an agreement to deliberately weaken which currency that the others felt was dangerously overvalued and fuelling US trade deficits?",
+    "prompt": "The Plaza Accord of September 1985, agreed by the G5 at the Plaza Hotel in New York, committed the signatories to coordinated currency-market intervention designed to bring down which currency?",
     "choices": [
       "The US dollar",
       "The Japanese yen",
@@ -718,7 +937,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Plaza Accord", "G5", "US dollar", "exchange rate", "1985"]
+    "tags": [
+      "Plaza Accord",
+      "G5",
+      "US dollar",
+      "exchange rate",
+      "1985"
+    ]
   },
   {
     "id": "history-041",
@@ -737,14 +962,20 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Latin America", "debt crisis", "Mexico", "1982", "IMF"]
+    "tags": [
+      "Latin America",
+      "debt crisis",
+      "Mexico",
+      "1982",
+      "IMF"
+    ]
   },
   {
     "id": "history-042",
     "category": "history",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Long-Term Capital Management (LTCM), the hedge fund whose 1998 collapse required a Fed-orchestrated private bailout, was notable because two of its founding partners had won the Nobel Prize in Economics just a year earlier (1997). They were:",
+    "prompt": "Long-Term Capital Management (LTCM), the hedge fund whose 1998 collapse required a Fed-orchestrated private bailout, was notable because two of its founding partners had won the Nobel Prise in Economics just a year earlier (1997). They were:",
     "choices": [
       "Robert Merton and Myron Scholes",
       "Paul Samuelson and Robert Solow",
@@ -756,7 +987,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["LTCM", "Merton", "Scholes", "hedge fund", "1998"]
+    "tags": [
+      "LTCM",
+      "Merton",
+      "Scholes",
+      "hedge fund",
+      "1998"
+    ]
   },
   {
     "id": "history-043",
@@ -771,7 +1008,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["euro", "eurozone", "currency", "2002"]
+    "tags": [
+      "euro",
+      "eurozone",
+      "currency",
+      "2002"
+    ]
   },
   {
     "id": "history-044",
@@ -790,7 +1032,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["NEP", "Alberta", "Trudeau", "western alienation", "oil"]
+    "tags": [
+      "NEP",
+      "Alberta",
+      "Trudeau",
+      "western alienation",
+      "oil"
+    ]
   },
   {
     "id": "history-045",
@@ -801,15 +1049,21 @@
     "choices": [
       "Eliminating tariffs on cars and parts between the two countries, subject to minimum Canadian production requirements",
       "Creating a jointly owned Canada-US Crown corporation for automobile manufacturing",
-      "Requiring all cars sold in Canada to contain at least 60% Canadian-made components",
+      "Requiring all cars sold in Canada to be assembled in Ontario plants",
       "Merging the UAW and Canadian auto workers' unions into a single continental bargaining unit"
     ],
     "answer": "Eliminating tariffs on cars and parts between the two countries, subject to minimum Canadian production requirements",
-    "explanation": "The Auto Pact created a continental market for vehicles, guaranteed Canada a share of North American production proportional to its sales, and transformed Windsor and Oshawa into major manufacturing hubs. Canada's auto sector grew rapidly — by the 1990s autos were Canada's single largest export. The WTO ruled the production requirements violated trade rules in 2000, but NAFTA/CUSMA preserved the integrated industry.",
+    "explanation": "The Auto Pact created a continental market for vehicles, guaranteed Canada a share of North American production proportional to its sales, and transformed Windsor and Oshawa into major manufacturing hubs. By the 1990s autos were Canada's single largest export category. The WTO ruled in 2000 that the pact's safeguards violated trade rules and Canada ended it in 2001, but the integrated industry carried on under NAFTA.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Auto Pact", "Canada", "Ontario", "manufacturing", "trade"]
+    "tags": [
+      "Auto Pact",
+      "Canada",
+      "Ontario",
+      "manufacturing",
+      "trade"
+    ]
   },
   {
     "id": "history-046",
@@ -824,18 +1078,24 @@
       "Invasive jellyfish species introduced by ballast water from Soviet vessels"
     ],
     "answer": "Decades of overfishing, accelerated by large-scale offshore trawlers using sonar and bottom-dragging technology",
-    "explanation": "The fisheries science had been warning of dangerously low cod stocks for years, but political pressure from fishing communities delayed action. The 1992 moratorium threw 30,000 Newfoundlanders out of work overnight — the largest layoff in Canadian history at that time. The cod stocks have never fully recovered.",
+    "explanation": "Inshore fishers had warned for years that catches were shrinking, but official stock assessments overestimated the cod population and political pressure from fishing communities delayed action. The 1992 moratorium put roughly 30,000 Newfoundland fishers and plant workers out of work almost overnight, among the largest layoffs in Canadian history. The cod stocks have never fully recovered.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["cod moratorium", "Newfoundland", "fisheries", "overfishing", "Canada"]
+    "tags": [
+      "cod moratorium",
+      "Newfoundland",
+      "fisheries",
+      "overfishing",
+      "Canada"
+    ]
   },
   {
     "id": "history-047",
     "category": "history",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Quebec's 'Quiet Revolution' (Révolution tranquille) of the 1960s is associated with the provincial government asserting control over the economy. Which crown corporation, nationalized in 1962 under Premier Jean Lesage, became the symbol of Quebec's economic self-assertion?",
+    "prompt": "Quebec's 'Quiet Revolution' (Révolution tranquille) of the 1960s saw the provincial government take a much larger role in the economy. Which Crown corporation absorbed the province's private electricity companies in 1962-63 under Premier Jean Lesage, becoming the symbol of Quebec's economic self-assertion?",
     "choices": [
       "Hydro-Québec",
       "Caisse de dépôt et placement du Québec",
@@ -843,11 +1103,17 @@
       "Bombardier"
     ],
     "answer": "Hydro-Québec",
-    "explanation": "The 1962 nationalization of private electricity companies into Hydro-Québec gave the provincial government control of a strategic resource and was seen as Quebec 'maîtres chez nous' (masters in our own house). Hydro-Québec later built the massive James Bay hydroelectric project, one of the largest in the world.",
+    "explanation": "The 1962-63 takeover of the private electricity companies by Hydro-Québec gave the provincial government control of a strategic resource and embodied Lesage's 'maîtres chez nous' (masters in our own house) slogan. Hydro-Québec later built the massive James Bay hydroelectric project, one of the largest in the world.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Quebec", "Quiet Revolution", "Hydro-Québec", "Lesage", "nationalization"]
+    "tags": [
+      "Quebec",
+      "Quiet Revolution",
+      "Hydro-Québec",
+      "Lesage",
+      "nationalization"
+    ]
   },
   {
     "id": "history-048",
@@ -856,30 +1122,41 @@
     "format": "mc",
     "prompt": "The Canada–US Free Trade Agreement of 1989, negotiated under Prime Minister Brian Mulroney, was deeply controversial in Canada. The most common fear expressed by opponents was that free trade would:",
     "choices": [
-      "Erode Canada's social programmes and draw it into closer economic and political integration with the US",
+      "Erode Canada's social programs and draw it into closer economic and political integration with the US",
       "Destroy Canada's agricultural sector by exposing it to US farm subsidies",
       "Force Canada to adopt the US dollar within a decade",
       "Transfer control of Canada's natural resources to American corporations"
     ],
-    "answer": "Erode Canada's social programmes and draw it into closer economic and political integration with the US",
-    "explanation": "The 1988 federal election became a single-issue referendum on free trade. Critics like the NDP and prominent cultural figures warned that free trade would lead to harmonization with US social standards — lower minimum wages, reduced health care. Mulroney won a majority and the FTA took effect January 1, 1989.",
+    "answer": "Erode Canada's social programs and draw it into closer economic and political integration with the US",
+    "explanation": "The 1988 federal election became a single-issue referendum on free trade. Critics including the NDP, John Turner's Liberals and prominent cultural figures warned that free trade would lead to harmonization with US social standards, such as lower minimum wages and reduced health care. Mulroney won a majority and the FTA took effect January 1, 1989.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["FTA", "Mulroney", "Canada-US", "free trade", "1989"]
+    "tags": [
+      "FTA",
+      "Mulroney",
+      "Canada-US",
+      "free trade",
+      "1989"
+    ]
   },
   {
     "id": "history-049",
     "category": "history",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "True or false: Canada's banking system did not suffer a single bank failure during the Great Depression of the 1930s, in sharp contrast to the United States where thousands of banks collapsed.",
+    "prompt": "True or false: During the Great Depression Canada did not experience the waves of bank failures that hit the United States, where thousands of banks collapsed.",
     "answer": true,
-    "explanation": "Canada's highly concentrated system of large chartered banks with nationwide branch networks was far more resilient than the US system of thousands of small, undiversified unit banks. This structural difference — the legacy of early 19th-century banking regulation — contributed to Canada's comparatively milder Depression and again to its stability during the 2008 global financial crisis.",
+    "explanation": "Canada's highly concentrated system of a few large chartered banks with nationwide branch networks was far more resilient than the US system of thousands of small, undiversified unit banks. One tiny bank, the Weyburn Security Bank, was absorbed by the Imperial Bank in 1931 before it could fail, but nothing remotely like the US wave of some 9,000 bank failures occurred. This structural difference contributed to Canada's comparatively milder Depression and again to its stability during the 2008 global financial crisis.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Canada", "banking", "Great Depression", "bank failures"]
+    "tags": [
+      "Canada",
+      "banking",
+      "Great Depression",
+      "bank failures"
+    ]
   },
   {
     "id": "history-050",
@@ -898,7 +1175,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Rust Belt", "manufacturing", "Detroit", "deindustrialisation", "US"]
+    "tags": [
+      "Rust Belt",
+      "manufacturing",
+      "Detroit",
+      "deindustrialisation",
+      "US"
+    ]
   },
   {
     "id": "history-051",
@@ -913,11 +1196,17 @@
       "Canada's trade deficit exceeding 10% of GDP"
     ],
     "answer": "Federal debt approaching 70% of GDP, with credit rating agencies threatening a downgrade",
-    "explanation": "By 1994-95, Canada's federal debt was roughly 68% of GDP and the federal deficit was running at $42 billion. Moody's had already downgraded Canadian federal debt; a further downgrade was feared. Finance Minister Paul Martin's 1995 budget introduced the most sweeping spending cuts in Canadian peacetime history, averting the crisis.",
+    "explanation": "By 1994-95 Canada's federal debt was roughly 68% of GDP, and the federal deficit, which peaked at about $42 billion in 1993-94, was still near $40 billion. Moody's had already cut Canada from Aaa to Aa1 in 1994 and cut it again in April 1995. Finance Minister Paul Martin's February 1995 budget introduced the deepest federal spending cuts in decades, averting the crisis.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Canada", "fiscal crisis", "Paul Martin", "debt", "1995"]
+    "tags": [
+      "Canada",
+      "fiscal crisis",
+      "Paul Martin",
+      "debt",
+      "1995"
+    ]
   },
   {
     "id": "history-052",
@@ -932,11 +1221,17 @@
       "Have the Federal Reserve purchase mortgage bonds to prop up real estate values"
     ],
     "answer": "'Liquidate labor, liquidate stocks, liquidate the farmers' — let bad investments purge themselves",
-    "explanation": "Hoover later recalled Mellon's 'liquidationist' advice as a major policy error that deepened the Depression. This approach — letting recessions run their course to purge excesses — was the orthodox view before Keynes. Mellon believed the slump would be short and self-correcting. It was not.",
+    "explanation": "In his memoirs Hoover recalled Mellon's 'liquidationist' advice and said he had rejected it, though historians dispute both the exact quote and how far Hoover followed that philosophy. The approach of letting recessions run their course to purge excesses was the orthodox view before Keynes. Mellon believed the slump would be short and self-correcting. It was not.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Mellon", "US Treasury", "Great Depression", "liquidationist", "Hoover"]
+    "tags": [
+      "Mellon",
+      "US Treasury",
+      "Great Depression",
+      "liquidationist",
+      "Hoover"
+    ]
   },
   {
     "id": "history-053",
@@ -945,11 +1240,17 @@
     "format": "tf",
     "prompt": "Russia's 1998 financial crisis included a sovereign debt default and a ruble devaluation — events that helped trigger the collapse of the US hedge fund Long-Term Capital Management.",
     "answer": true,
-    "explanation": "Russia's August 1998 default on its domestic GKO bonds sent shockwaves through global financial markets. LTCM, which held positions predicated on convergence trades across many markets, found that correlations broke down and liquidity evaporated simultaneously. The New York Fed organised a private sector rescue of LTCM in September 1998.",
+    "explanation": "Russia's August 1998 default on its domestic GKO bonds sent shockwaves through global financial markets. LTCM, which held positions predicated on convergence trades across many markets, found that correlations broke down and liquidity evaporated simultaneously. The New York Fed organized a private sector rescue of LTCM in September 1998.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Russia", "default", "1998", "LTCM", "contagion"]
+    "tags": [
+      "Russia",
+      "default",
+      "1998",
+      "LTCM",
+      "contagion"
+    ]
   },
   {
     "id": "history-054",
@@ -964,30 +1265,41 @@
       "1940s"
     ],
     "answer": "1950s",
-    "explanation": "Between 1950 and 1960, West Germany's real GDP roughly doubled, growing at an average of over 8% per year. By 1958, Germany's industrial production had surpassed its pre-war level. This spectacular recovery, from a bombed-out economy to Europe's industrial powerhouse, was driven by currency reform, Marshall Plan aid, pent-up consumer demand, and Ludwig Erhard's social market economy.",
+    "explanation": "Between 1950 and 1960, West Germany's real GDP roughly doubled, growing at an average of over 8% per year. By the early 1950s industrial production had already passed its pre-war level. This spectacular recovery, from a bombed-out economy to Europe's industrial powerhouse, was driven by currency reform, Marshall Plan aid, pent-up consumer demand, and Ludwig Erhard's social market economy.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["West Germany", "Wirtschaftswunder", "economic miracle", "1950s"]
+    "tags": [
+      "West Germany",
+      "Wirtschaftswunder",
+      "economic miracle",
+      "1950s"
+    ]
   },
   {
     "id": "history-055",
     "category": "history",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Argentina's economic collapse of 2001–2002 — which included the largest sovereign debt default in history at the time (~$100 billion) — was immediately triggered by the collapse of:",
+    "prompt": "Argentina's 2001-02 crisis included what was then the largest sovereign default in history (about US$100 billion). It is most closely tied to the failure of which policy?",
     "choices": [
-      "The peso's fixed 1:1 peg to the US dollar (the Convertibility Plan)",
-      "The Argentine central bank's foreign exchange reserves after a speculative attack",
+      "The Convertibility Plan's fixed 1:1 peg of the peso to the US dollar",
       "Argentina's membership in the Mercosur customs union",
-      "A series of corruption scandals that paralysed the federal government"
+      "The nationalization of the banking system in 1999",
+      "A series of corruption scandals that paralyzed the federal government"
     ],
-    "answer": "The peso's fixed 1:1 peg to the US dollar (the Convertibility Plan)",
-    "explanation": "Carlos Menem's Convertibility Plan of 1991 pegged the peso 1:1 to the dollar, ending hyperinflation but making Argentina increasingly uncompetitive. When the peg collapsed in early 2002, the peso fell by 75% and bank deposits (converted to pesos) were frozen. Five presidents came and went in two weeks. Argentina has defaulted on its sovereign debt multiple times since.",
+    "answer": "The Convertibility Plan's fixed 1:1 peg of the peso to the US dollar",
+    "explanation": "The Convertibility Plan of 1991, designed by Economy Minister Domingo Cavallo under President Carlos Menem, pegged the peso 1:1 to the dollar, ending hyperinflation but making Argentina increasingly uncompetitive. The peg was abandoned in early 2002 after the default; the peso then lost about 70% of its value and bank deposits were frozen and converted to pesos. Five presidents held office in under two weeks. Argentina has defaulted again since, most recently in 2020.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Argentina", "default", "Convertibility Plan", "peso", "2001"]
+    "tags": [
+      "Argentina",
+      "default",
+      "Convertibility Plan",
+      "peso",
+      "2001"
+    ]
   },
   {
     "id": "history-056",
@@ -996,29 +1308,47 @@
     "format": "match",
     "prompt": "Match each Finance Minister or Treasury Secretary to their country.",
     "pairs": [
-      ["Paul Martin", "Canada"],
-      ["Alexander Hamilton", "United States"],
-      ["Gordon Brown", "United Kingdom"],
-      ["Wolfgang Schäuble", "Germany"]
+      [
+        "Paul Martin",
+        "Canada"
+      ],
+      [
+        "Alexander Hamilton",
+        "United States"
+      ],
+      [
+        "Gordon Brown",
+        "United Kingdom"
+      ],
+      [
+        "Wolfgang Schäuble",
+        "Germany"
+      ]
     ],
     "answer": "Paul Martin↔Canada, Alexander Hamilton↔United States, Gordon Brown↔United Kingdom, Wolfgang Schäuble↔Germany",
     "explanation": "Paul Martin was Canada's FM 1993–2002, then PM. Hamilton was the first US Treasury Secretary (1789–1795). Gordon Brown was UK Chancellor 1997–2007, then PM. Wolfgang Schäuble was Germany's Finance Minister 2009–2017, leading eurozone austerity policy during the Greek debt crisis.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["finance ministers", "Paul Martin", "Hamilton", "Gordon Brown", "Schäuble"]
+    "tags": [
+      "finance ministers",
+      "Paul Martin",
+      "Hamilton",
+      "Gordon Brown",
+      "Schäuble"
+    ]
   },
   {
     "id": "history-057",
     "category": "history",
     "difficulty": 2,
     "format": "order",
-    "prompt": "These four post-WWII economic milestones each happened in a different decade. Put them in chronological order, earliest first.",
+    "prompt": "Which came first? Arrange these four twentieth-century episodes from the oldest to the newest.",
     "items": [
       "West Germany's Deutsche Mark currency reform",
+      "Plaza Accord signed in New York",
       "Japan's Nikkei 225 stock index peak",
-      "Asian Financial Crisis begins in Thailand",
-      "Plaza Accord signed in New York"
+      "Asian Financial Crisis begins in Thailand"
     ],
     "order_by": "year of occurrence",
     "answer": "West Germany's Deutsche Mark currency reform → Plaza Accord signed in New York → Japan's Nikkei 225 stock index peak → Asian Financial Crisis begins in Thailand",
@@ -1026,7 +1356,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["postwar", "Plaza Accord", "Japan", "Asia", "timeline"]
+    "tags": [
+      "postwar",
+      "Plaza Accord",
+      "Japan",
+      "Asia",
+      "timeline"
+    ]
   },
   {
     "id": "history-058",
@@ -1035,11 +1371,17 @@
     "format": "tf",
     "prompt": "True or false: Saskatchewan, under Premier Tommy Douglas, was the first province — and the first jurisdiction in North America — to introduce universal hospital insurance.",
     "answer": true,
-    "explanation": "Saskatchewan introduced universal publicly funded hospital insurance in 1947, and universal medical care insurance in 1962 — both under CCF/NDP governments led at different times by Tommy Douglas. The federal Medical Care Act of 1966 extended the Saskatchewan model nationally. Douglas was voted 'The Greatest Canadian' in a 2004 CBC poll.",
+    "explanation": "Saskatchewan introduced universal publicly funded hospital insurance in 1947 under Premier Tommy Douglas, and universal medical care insurance in 1962 under his successor, Woodrow Lloyd, after Douglas had made it the centrepiece of the 1960 election. The federal Medical Care Act of 1966 extended the Saskatchewan model nationally. Douglas was voted 'The Greatest Canadian' in a 2004 CBC poll.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Saskatchewan", "Tommy Douglas", "Medicare", "healthcare", "Canada"]
+    "tags": [
+      "Saskatchewan",
+      "Tommy Douglas",
+      "Medicare",
+      "healthcare",
+      "Canada"
+    ]
   },
   {
     "id": "history-059",
@@ -1054,11 +1396,17 @@
       "Bay Street anticipated the move and markets were largely unmoved"
     ],
     "answer": "Income trust share prices collapsed, wiping out roughly $25 billion in market value in a single day",
-    "explanation": "The 'Halloween Massacre' erased an estimated $25 billion of market value on the Toronto Stock Exchange in a single session. Flaherty argued income trusts were costing the government billions in lost corporate tax revenue; critics pointed out he had previously promised not to tax trusts. The controversy dogged the Conservatives but the policy stood.",
+    "explanation": "The 'Halloween Massacre' erased an estimated $25 billion of market value on the Toronto Stock Exchange in a single session. Flaherty argued income trusts were costing the government billions in lost corporate tax revenue; critics pointed out that Stephen Harper's Conservatives had promised during the 2005-06 campaign never to tax them. The controversy dogged the government but the policy stood.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Jim Flaherty", "income trusts", "Canada", "TSX", "2006"]
+    "tags": [
+      "Jim Flaherty",
+      "income trusts",
+      "Canada",
+      "TSX",
+      "2006"
+    ]
   },
   {
     "id": "history-060",
@@ -1077,14 +1425,20 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Saskatchewan", "Dirty Thirties", "Dust Bowl", "wheat", "Great Depression"]
+    "tags": [
+      "Saskatchewan",
+      "Dirty Thirties",
+      "Dust Bowl",
+      "wheat",
+      "Great Depression"
+    ]
   },
   {
     "id": "history-061",
     "category": "history",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Britain returned to the gold standard in 1925 at its pre-WWI parity (a decision Keynes called 'a serious miscalculation') and was forced to abandon it again in September 1931. Who was the British Prime Minister when Britain left the gold standard?",
+    "prompt": "Britain returned to the gold standard in 1925 at its pre-WWI parity (a decision Keynes sharply criticized) and was forced to abandon it again in September 1931. Who was the British Prime Minister when Britain left the gold standard?",
     "choices": [
       "Ramsay MacDonald",
       "Stanley Baldwin",
@@ -1092,30 +1446,42 @@
       "Winston Churchill"
     ],
     "answer": "Ramsay MacDonald",
-    "explanation": "The National Government under Ramsay MacDonald — a coalition formed after the Labour government collapsed over cuts demanded by international creditors — abandoned gold convertibility on September 21, 1931. The pound fell 25% against the dollar. Britain's subsequent recovery was faster than gold-standard adherents like France and the US, suggesting the devaluation helped. Ironically, Churchill had been Chancellor when Britain rejoined gold in 1925.",
+    "explanation": "The National Government under Ramsay MacDonald, a coalition formed after the Labour government collapsed over cuts demanded by international creditors, abandoned gold convertibility on September 21, 1931. The pound fell roughly a quarter against the dollar. Britain's subsequent recovery was faster than that of countries that stayed on gold longer, such as France, suggesting the devaluation helped. Ironically, Churchill had been Chancellor when Britain rejoined gold in 1925.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["gold standard", "UK", "MacDonald", "1931", "Great Depression"]
+    "tags": [
+      "gold standard",
+      "UK",
+      "MacDonald",
+      "1931",
+      "Great Depression"
+    ]
   },
   {
     "id": "history-062",
     "category": "history",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Following Nixon's 1971 suspension of dollar-gold convertibility, the US secured a new source of global dollar demand through agreements with Saudi Arabia in 1974–75. Under these arrangements, Saudi Arabia agreed to:",
+    "prompt": "After Nixon suspended dollar-gold convertibility in 1971, the US reached arrangements with Saudi Arabia in 1974-75 that are often called the 'petrodollar' deal. In broad terms, what did Saudi Arabia agree to?",
     "choices": [
-      "Price its oil exclusively in US dollars and recycle surplus oil revenues through US financial markets",
-      "Buy US Treasury bonds equivalent to its entire annual oil export revenue",
-      "Peg the Saudi riyal to the dollar at a fixed rate guaranteed by the US military",
-      "Grant the US first-refusal rights on 30% of Saudi oil production"
+      "To keep pricing its oil in US dollars and invest its surplus oil revenue in US Treasury securities",
+      "To buy US Treasury bonds equal to its entire annual oil export revenue",
+      "To peg the riyal to the dollar at a rate guaranteed by the US military",
+      "To grant the US first-refusal rights on 30% of Saudi oil production"
     ],
-    "answer": "Price its oil exclusively in US dollars and recycle surplus oil revenues through US financial markets",
-    "explanation": "The petrodollar system emerged from secret agreements between the US Treasury's William Simon and Saudi officials. By pricing oil in dollars and recycling oil profits through US banks and Treasury bonds, Saudi Arabia (and OPEC broadly) maintained global demand for US dollars — underpinning dollar hegemony after the gold standard ended.",
+    "answer": "To keep pricing its oil in US dollars and invest its surplus oil revenue in US Treasury securities",
+    "explanation": "The arrangements were negotiated by US Treasury officials led by William Simon in exchange for US security and military support. Saudi Arabia (and OPEC broadly) kept pricing oil in dollars and recycled oil profits into Treasury bonds and US banks, sustaining global demand for dollars after the gold standard ended. Dollar pricing was more a convention than a formal legal obligation, and historians debate how binding the arrangement really was.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["petrodollar", "Saudi Arabia", "US dollar", "OPEC", "Nixon"]
+    "tags": [
+      "petrodollar",
+      "Saudi Arabia",
+      "US dollar",
+      "OPEC",
+      "Nixon"
+    ]
   },
   {
     "id": "history-063",
@@ -1134,7 +1500,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Morgenthau", "Bretton Woods", "IMF", "World Bank", "WWII"]
+    "tags": [
+      "Morgenthau",
+      "Bretton Woods",
+      "IMF",
+      "World Bank",
+      "WWII"
+    ]
   },
   {
     "id": "history-064",
@@ -1146,26 +1518,37 @@
       "Balancing the budget through spending cuts and staying on the gold standard",
       "Raising tariffs on all manufactured imports to protect British industry",
       "Devaluing the pound immediately to boost exports",
-      "Nationalising the Bank of England to directly control credit expansion"
+      "Nationalizing the Bank of England to directly control credit expansion"
     ],
     "answer": "Balancing the budget through spending cuts and staying on the gold standard",
     "explanation": "Snowden's insistence on fiscal orthodoxy and gold-standard discipline deepened Britain's slump. His determination to cut unemployment benefits triggered the collapse of the Labour government in 1931 and the formation of the National Government. Within weeks of the National Government's formation, Britain left the gold standard anyway — the very outcome Snowden's cuts had been meant to prevent.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Snowden", "UK", "Great Depression", "gold standard", "austerity"]
+    "tags": [
+      "Snowden",
+      "UK",
+      "Great Depression",
+      "gold standard",
+      "austerity"
+    ]
   },
   {
     "id": "history-065",
     "category": "history",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "True or false: Canada's province of Alberta has no provincial sales tax, and has never had one — making it unique among Canadian provinces.",
+    "prompt": "True or false: Alberta is the only Canadian province with no provincial sales tax.",
     "answer": true,
-    "explanation": "Alberta is the only Canadian province without a provincial sales tax (PST), a distinction it has maintained throughout its history. This is made possible by Alberta's oil and gas royalty revenues, which historically reduced its need for broader consumer taxation. When oil prices fall sharply, the lack of a PST becomes a fiscal vulnerability, fuelling periodic debates about introducing one.",
+    "explanation": "Alberta is the only Canadian province without a provincial sales tax (PST). It did briefly have one: Premier William Aberhart's Social Credit government introduced a 2% sales tax in 1936 and suspended it in 1937 after a public backlash, making Alberta the first province to adopt a sales tax and the first to repeal one. Oil and gas royalty revenues have since reduced the need for broader consumer taxation, but when oil prices fall sharply the lack of a PST becomes a fiscal vulnerability, fuelling periodic debates about introducing one.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Alberta", "sales tax", "Canada", "provincial finance"]
+    "tags": [
+      "Alberta",
+      "sales tax",
+      "Canada",
+      "provincial finance"
+    ]
   }
 ]

@@ -16,7 +16,11 @@
     "source": "https://www.federalreserve.gov/aboutthefed/fedact.htm",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Federal Reserve", "central bank", "Wilson"]
+    "tags": [
+      "Federal Reserve",
+      "central bank",
+      "Wilson"
+    ]
   },
   {
     "id": "usa-002",
@@ -35,14 +39,18 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Glass-Steagall", "banking regulation", "New Deal"]
+    "tags": [
+      "Glass-Steagall",
+      "banking regulation",
+      "New Deal"
+    ]
   },
   {
     "id": "usa-003",
     "category": "usa",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The New Deal programmes — including the FDIC, SEC, Social Security, and the TVA — were created under which US president?",
+    "prompt": "The New Deal programs — including the FDIC, SEC, Social Security, and the TVA — were created under which US president?",
     "choices": [
       "Franklin D. Roosevelt",
       "Herbert Hoover",
@@ -54,7 +62,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["New Deal", "FDR", "Great Depression"]
+    "tags": [
+      "New Deal",
+      "FDR",
+      "Great Depression"
+    ]
   },
   {
     "id": "usa-004",
@@ -73,14 +85,20 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Smoot-Hawley", "tariffs", "Great Depression", "Hoover", "trade policy"]
+    "tags": [
+      "Smoot-Hawley",
+      "tariffs",
+      "Great Depression",
+      "Hoover",
+      "trade policy"
+    ]
   },
   {
     "id": "usa-005",
     "category": "usa",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "In August 1971, which US president announced that the dollar would no longer be convertible to gold at a fixed rate — an event often called the 'Nixon shock' that ended the Bretton Woods monetary system?",
+    "prompt": "Which US president unilaterally ended the dollar's fixed convertibility into gold, bringing the Bretton Woods monetary system to an end?",
     "choices": [
       "Richard Nixon",
       "Lyndon B. Johnson",
@@ -88,30 +106,42 @@
       "Jimmy Carter"
     ],
     "answer": "Richard Nixon",
-    "explanation": "On August 15, 1971, Nixon unilaterally closed the 'gold window', ending the US commitment to exchange dollars for gold at $35 per ounce. This suspended the Bretton Woods fixed-exchange-rate system that had governed global finance since 1944 and led to today's era of floating exchange rates.",
+    "explanation": "On August 15, 1971, Nixon unilaterally closed the 'gold window', ending the US commitment to exchange dollars for gold at $35 per ounce. This suspended the Bretton Woods fixed-exchange-rate system that had governed global finance since 1944 and led to today's era of floating exchange rates (an event often called the 'Nixon shock').",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Nixon shock", "gold standard", "Bretton Woods", "1971", "exchange rates"]
+    "tags": [
+      "Nixon shock",
+      "gold standard",
+      "Bretton Woods",
+      "1971",
+      "exchange rates"
+    ]
   },
   {
     "id": "usa-006",
     "category": "usa",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "To crush double-digit inflation in the late 1970s, Federal Reserve Chair Paul Volcker raised the federal funds rate to nearly 20% — triggering a severe recession but ultimately breaking the inflationary spiral. This episode is known as the:",
+    "prompt": "To crush double-digit inflation, the Federal Reserve pushed the federal funds rate to nearly 20% in 1981 — triggering a severe recession but ultimately breaking the inflationary spiral. Which Fed chair led this policy?",
     "choices": [
-      "Volcker disinflation",
-      "Nixon deflation",
-      "Reagan shock",
-      "Carter squeeze"
+      "Paul Volcker",
+      "Arthur Burns",
+      "Alan Greenspan",
+      "G. William Miller"
     ],
-    "answer": "Volcker disinflation",
-    "explanation": "Volcker was appointed Fed Chair in 1979 and deliberately tightened monetary policy, pushing the federal funds rate to 19.1% by June 1981. The resulting recession drove unemployment above 10%, but inflation fell from 13% to 3% by 1983. Economists credit this as decisive proof that central bank credibility can anchor inflation expectations.",
+    "answer": "Paul Volcker",
+    "explanation": "Volcker, appointed Fed Chair by President Carter in 1979 and reappointed by Reagan, deliberately tightened monetary policy, pushing the federal funds rate to about 19% (monthly average) by mid-1981. The resulting recession drove unemployment above 10%, but inflation fell from roughly 13.5% in 1980 to about 3% by 1983. Economists credit this as decisive proof that central bank credibility can anchor inflation expectations. His predecessors Arthur Burns and G. William Miller presided over the 1970s inflation.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Volcker", "disinflation", "Federal Reserve", "inflation", "1980s"]
+    "tags": [
+      "Volcker",
+      "disinflation",
+      "Federal Reserve",
+      "inflation",
+      "1980s"
+    ]
   },
   {
     "id": "usa-007",
@@ -120,11 +150,16 @@
     "format": "tf",
     "prompt": "True or false: Although the US imports far more goods than it exports, it consistently runs a surplus in services trade — exporting more services such as finance, education, and tourism than it imports.",
     "answer": true,
-    "explanation": "The US is the world's largest exporter of services. Its services surplus (roughly $250–300 billion annually) is consistently outweighed by a larger goods deficit, producing an overall current account deficit. Canada by contrast runs a services trade deficit with the US.",
+    "explanation": "The US is the world's largest exporter of services. Its services surplus (roughly $250–300 billion annually) is consistently outweighed by a larger goods deficit, producing an overall trade deficit.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["trade deficit", "services trade", "current account", "US economy"]
+    "tags": [
+      "trade deficit",
+      "services trade",
+      "current account",
+      "US economy"
+    ]
   },
   {
     "id": "usa-008",
@@ -139,11 +174,17 @@
       "CUFTA"
     ],
     "answer": "CUSMA",
-    "explanation": "CUSMA — the Canada-United States-Mexico Agreement (ACEUM in French) — is Canada's name for the renegotiated continental free-trade deal that entered into force on July 1, 2020. In the US it is USMCA; in Mexico, T-MEC. Each country uses its own name first alphabetically.",
+    "explanation": "CUSMA — the Canada-United States-Mexico Agreement (ACEUM in French) — is Canada's name for the renegotiated continental free-trade deal that entered into force on July 1, 2020. In the US it is USMCA; in Mexico, T-MEC. Each country puts its own name first.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["NAFTA", "CUSMA", "free trade", "Canada", "Mexico"]
+    "tags": [
+      "NAFTA",
+      "CUSMA",
+      "free trade",
+      "Canada",
+      "Mexico"
+    ]
   },
   {
     "id": "usa-009",
@@ -158,11 +199,17 @@
       "Secretary of the Treasury Henry Morgenthau"
     ],
     "answer": "Secretary of State George Marshall",
-    "explanation": "George Marshall, former Supreme Allied Commander and then Secretary of State, proposed the European Recovery Program in a Harvard commencement address in June 1947. Truman signed the Economic Cooperation Act into law in April 1948. The plan is credited with underpinning Western Europe's postwar economic miracle.",
+    "explanation": "George Marshall, wartime Army Chief of Staff and then Secretary of State, proposed the European Recovery Program in a Harvard commencement address in June 1947. Truman signed the Economic Cooperation Act into law in April 1948. The plan is credited with underpinning Western Europe's postwar economic miracle.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Marshall Plan", "foreign aid", "postwar", "Europe", "Cold War"]
+    "tags": [
+      "Marshall Plan",
+      "foreign aid",
+      "postwar",
+      "Europe",
+      "Cold War"
+    ]
   },
   {
     "id": "usa-010",
@@ -177,11 +224,17 @@
       "financial system stability and fiscal discipline"
     ],
     "answer": "maximum employment and stable prices",
-    "explanation": "The Fed's dual mandate comes from the Federal Reserve Reform Act of 1977 and the Full Employment and Balanced Growth Act of 1978. Unlike the European Central Bank, whose sole mandate is price stability, the Fed must also pursue maximum employment — a duality that creates real tradeoffs in monetary policy decisions.",
+    "explanation": "The Fed's dual mandate comes from the Federal Reserve Reform Act of 1977 (which also lists moderate long-term interest rates) and the Full Employment and Balanced Growth Act of 1978. Unlike the European Central Bank, whose primary objective is price stability, the Fed must also pursue maximum employment — a duality that creates real tradeoffs in monetary policy decisions.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Federal Reserve", "dual mandate", "monetary policy", "employment", "inflation"]
+    "tags": [
+      "Federal Reserve",
+      "dual mandate",
+      "monetary policy",
+      "employment",
+      "inflation"
+    ]
   },
   {
     "id": "usa-011",
@@ -200,7 +253,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Reagan", "ERTA", "tax cuts", "supply-side", "1981"]
+    "tags": [
+      "Reagan",
+      "ERTA",
+      "tax cuts",
+      "supply-side",
+      "1981"
+    ]
   },
   {
     "id": "usa-012",
@@ -215,11 +274,17 @@
       "$200 billion"
     ],
     "answer": "$700 billion",
-    "explanation": "Signed by President George W. Bush on October 3, 2008, TARP authorized $700 billion. In practice the Treasury deployed about $430 billion, much of which was eventually repaid with interest. The programme stabilized the banking sector but generated enormous public backlash.",
+    "explanation": "Signed by President George W. Bush on October 3, 2008, TARP authorized $700 billion. In practice the Treasury disbursed about $440 billion, most of which was eventually repaid with interest. The program stabilized the banking sector but generated enormous public backlash.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["TARP", "financial crisis", "2008", "bailout", "Treasury"]
+    "tags": [
+      "TARP",
+      "financial crisis",
+      "2008",
+      "bailout",
+      "Treasury"
+    ]
   },
   {
     "id": "usa-013",
@@ -238,7 +303,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Dodd-Frank", "CFPB", "financial regulation", "consumer protection", "2010"]
+    "tags": [
+      "Dodd-Frank",
+      "CFPB",
+      "financial regulation",
+      "consumer protection",
+      "2010"
+    ]
   },
   {
     "id": "usa-014",
@@ -257,7 +328,12 @@
     "source": "https://data.imf.org/?sk=e6a5f467-c14b-4aa8-9f6d-5a09ec4e62a4",
     "as_of": "2023",
     "time_sensitive": true,
-    "tags": ["US dollar", "reserve currency", "central banks", "FX reserves"]
+    "tags": [
+      "US dollar",
+      "reserve currency",
+      "central banks",
+      "FX reserves"
+    ]
   },
   {
     "id": "usa-015",
@@ -276,7 +352,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Black Monday", "1987", "stock market", "crash", "Dow Jones"]
+    "tags": [
+      "Black Monday",
+      "1987",
+      "stock market",
+      "crash",
+      "Dow Jones"
+    ]
   },
   {
     "id": "usa-016",
@@ -291,7 +373,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Nixon shock", "1971", "gold standard", "Bretton Woods", "exchange rates"]
+    "tags": [
+      "Nixon shock",
+      "1971",
+      "gold standard",
+      "Bretton Woods",
+      "exchange rates"
+    ]
   },
   {
     "id": "usa-017",
@@ -310,20 +398,32 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["dot-com", "NASDAQ", "2000", "stock market", "tech bubble"]
+    "tags": [
+      "dot-com",
+      "NASDAQ",
+      "2000",
+      "stock market",
+      "tech bubble"
+    ]
   },
   {
     "id": "usa-018",
     "category": "usa",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "True or false: The United States has run an overall current account deficit — importing more in goods and services combined than it exports — in virtually every year since the late 1970s.",
+    "prompt": "True or false: The United States has imported more goods and services than it has exported in almost every year since the mid-1970s.",
     "answer": true,
-    "explanation": "The US last ran a current account surplus in 1981. Since then it has imported more than it exports overall each year, financed by foreign investors' willingness to hold US dollar assets. The US goods deficit consistently outweighs its services surplus, producing a persistent overall deficit.",
+    "explanation": "The US has run a deficit on goods and services trade every year since 1976, financed by foreign investors' willingness to hold US dollar assets. Its broader current account (which also counts investment income and transfers) was in surplus only in 1981 and 1991. The goods deficit consistently outweighs the services surplus.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["trade deficit", "current account", "US economy", "imports", "exports"]
+    "tags": [
+      "trade deficit",
+      "current account",
+      "US economy",
+      "imports",
+      "exports"
+    ]
   },
   {
     "id": "usa-019",
@@ -342,7 +442,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["ACA", "Obamacare", "healthcare", "2010", "insurance"]
+    "tags": [
+      "ACA",
+      "Obamacare",
+      "healthcare",
+      "2010",
+      "insurance"
+    ]
   },
   {
     "id": "usa-020",
@@ -361,7 +467,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["CARES Act", "COVID-19", "stimulus", "2020", "fiscal policy"]
+    "tags": [
+      "CARES Act",
+      "COVID-19",
+      "stimulus",
+      "2020",
+      "fiscal policy"
+    ]
   },
   {
     "id": "usa-021",
@@ -376,11 +488,17 @@
       "IMF emergency credit lines fund oil-importing developing nations"
     ],
     "answer": "crude oil is priced and settled in US dollars in international markets",
-    "explanation": "After Nixon ended dollar-gold convertibility in 1971, the US negotiated agreements (notably with Saudi Arabia in 1974–75) under which oil would be denominated and settled in US dollars. This created persistent global demand for dollars, underpinning their continued reserve-currency status after the gold standard was abandoned.",
+    "explanation": "After Nixon ended dollar-gold convertibility in 1971, the US negotiated agreements (notably with Saudi Arabia in 1974–75) under which oil would be denominated and settled in US dollars. Oil was already largely dollar-priced before then, so historians debate how much the deal added, but it reinforced persistent global demand for dollars, underpinning their continued reserve-currency status after the gold standard was abandoned.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["petrodollar", "US dollar", "Saudi Arabia", "oil", "reserve currency"]
+    "tags": [
+      "petrodollar",
+      "US dollar",
+      "Saudi Arabia",
+      "oil",
+      "reserve currency"
+    ]
   },
   {
     "id": "usa-022",
@@ -396,11 +514,17 @@
     ],
     "order_by": "year of occurrence",
     "answer": "Smoot-Hawley Tariff Act signed → Marshall Plan enacted → Nixon ends dollar-gold convertibility → Black Monday stock market crash",
-    "explanation": "Smoot-Hawley: 1930. Marshall Plan (Economic Cooperation Act): 1948. Nixon shock: 1971. Black Monday: 1987. Each occurred in a successive decade of the 20th century.",
+    "explanation": "Smoot-Hawley: 1930. Marshall Plan (Economic Cooperation Act): 1948. Nixon shock: 1971. Black Monday: 1987. Each occurred in a different decade (the 1930s, 1940s, 1970s and 1980s).",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Smoot-Hawley", "Marshall Plan", "Nixon shock", "Black Monday", "chronology"]
+    "tags": [
+      "Smoot-Hawley",
+      "Marshall Plan",
+      "Nixon shock",
+      "Black Monday",
+      "chronology"
+    ]
   },
   {
     "id": "usa-023",
@@ -415,11 +539,17 @@
       "the Federal Bank of Philadelphia"
     ],
     "answer": "the First Bank of the United States",
-    "explanation": "Hamilton persuaded Congress to charter the First Bank of the United States in 1791, locating it in Philadelphia. It held government deposits, issued bank notes, and helped stabilise the new nation's finances. Its charter lapsed in 1811 after fierce opposition from Jeffersonians who feared concentrated federal financial power.",
+    "explanation": "Hamilton persuaded Congress to charter the First Bank of the United States in 1791, locating it in Philadelphia. It held government deposits, issued bank notes, and helped stabilize the new nation's finances. Its charter lapsed in 1811 after fierce opposition from Jeffersonians who feared concentrated federal financial power.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Hamilton", "First Bank", "banking history", "1791", "US economic history"]
+    "tags": [
+      "Hamilton",
+      "First Bank",
+      "banking history",
+      "1791",
+      "US economic history"
+    ]
   },
   {
     "id": "usa-024",
@@ -434,11 +564,17 @@
       "the 2000s"
     ],
     "answer": "the 1980s",
-    "explanation": "June 2022's 9.1% CPI was the highest since November 1981, when inflation ran at 9.6%. The last time it exceeded 9% before that was during 1980, amid the second oil shock. The Fed responded to the 2022 surge with its fastest rate-hiking cycle since Volcker.",
+    "explanation": "June 2022's 9.1% CPI was the highest since November 1981, when inflation ran at 9.6%. Inflation last exceeded 9% in 1981, as it fell back from its 14.8% peak in March 1980 amid the second oil shock. The Fed responded to the 2022 surge with its fastest rate-hiking cycle since Volcker.",
     "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["inflation", "CPI", "2022", "Federal Reserve", "US economy"]
+    "tags": [
+      "inflation",
+      "CPI",
+      "2022",
+      "Federal Reserve",
+      "US economy"
+    ]
   },
   {
     "id": "usa-025",
@@ -453,11 +589,16 @@
       "About 150%"
     ],
     "answer": "About 120%",
-    "explanation": "US gross federal debt surpassed $34 trillion in early 2024 against a GDP of roughly $28 trillion, putting the ratio at about 120–125%. This is elevated by historical US standards (below 60% as recently as 2007) but still well under Japan's ~250% debt-to-GDP ratio.",
+    "explanation": "US gross federal debt surpassed $34 trillion in early 2024 against a GDP of roughly $28 trillion, putting the ratio at about 120–125%. This is elevated by historical US standards (about 60% in 2007) but still well under Japan's ~250% debt-to-GDP ratio.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2024",
     "time_sensitive": true,
-    "tags": ["federal debt", "debt-to-GDP", "fiscal policy", "US economy"]
+    "tags": [
+      "federal debt",
+      "debt-to-GDP",
+      "fiscal policy",
+      "US economy"
+    ]
   },
   {
     "id": "usa-026",
@@ -465,28 +606,45 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "Which was higher: the US unemployment rate at its peak during the 1982 recession, or at its peak during the 2008–09 financial crisis?",
-    "items": ["1982 recession peak", "2008–09 financial crisis peak"],
+    "items": [
+      "1982 recession peak",
+      "2008–09 financial crisis peak"
+    ],
     "metric": "US civilian unemployment rate at peak",
     "answer": "1982 recession peak",
     "explanation": "US unemployment peaked at 10.8% in November–December 1982 (the Volcker-induced recession) versus 10.0% in October 2009. Despite the 2008 crisis being called the worst since the Depression, the Volcker disinflation deliberately tolerated higher unemployment to break inflation expectations.",
     "source": "https://fred.stlouisfed.org/series/UNRATE",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["unemployment", "recession", "Volcker", "financial crisis", "1982"]
+    "tags": [
+      "unemployment",
+      "recession",
+      "Volcker",
+      "financial crisis",
+      "1982"
+    ]
   },
   {
     "id": "usa-027",
     "category": "usa",
     "difficulty": 1,
     "format": "short",
-    "prompt": "What does the acronym TARP stand for? (The US government programme used to stabilize the financial system during the 2008 financial crisis.)",
+    "prompt": "What does the acronym TARP stand for? (The US government program used to stabilize the financial system during the 2008 financial crisis.)",
     "answer": "Troubled Asset Relief Program",
-    "accept": ["Troubled Asset Relief Program", "Troubled Assets Relief Program"],
+    "accept": [
+      "Troubled Asset Relief Program",
+      "Troubled Assets Relief Program"
+    ],
     "explanation": "TARP (Troubled Asset Relief Program) authorized the US Treasury to purchase or insure up to $700 billion in troubled mortgage-backed securities and bank assets. Signed by President George W. Bush on October 3, 2008.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["TARP", "financial crisis", "2008", "bailout"]
+    "tags": [
+      "TARP",
+      "financial crisis",
+      "2008",
+      "bailout"
+    ]
   },
   {
     "id": "usa-028",
@@ -505,7 +663,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["quantitative easing", "QE", "Federal Reserve", "monetary policy", "2008"]
+    "tags": [
+      "quantitative easing",
+      "QE",
+      "Federal Reserve",
+      "monetary policy",
+      "2008"
+    ]
   },
   {
     "id": "usa-029",
@@ -524,7 +688,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Janet Yellen", "Federal Reserve", "first woman", "Fed chair"]
+    "tags": [
+      "Janet Yellen",
+      "Federal Reserve",
+      "first woman",
+      "Fed chair"
+    ]
   },
   {
     "id": "usa-030",
@@ -543,29 +712,40 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bernanke", "Friedman", "helicopter money", "deflation", "Federal Reserve"]
+    "tags": [
+      "Bernanke",
+      "Friedman",
+      "helicopter money",
+      "deflation",
+      "Federal Reserve"
+    ]
   },
   {
     "id": "usa-031",
     "category": "usa",
     "difficulty": 2,
     "format": "numeric",
-    "prompt": "In what year did Alan Greenspan begin his record-setting tenure as Chair of the Federal Reserve?",
+    "prompt": "In what year did Alan Greenspan begin his 18½-year tenure as Chair of the Federal Reserve?",
     "answer": 1987,
     "unit": "",
     "tolerance": 0,
-    "explanation": "Alan Greenspan was sworn in as Fed Chair on August 11, 1987, replacing Paul Volcker. He served until January 31, 2006 — approximately 18.5 years, the longest tenure of any Fed Chair. He was appointed by President Reagan and reappointed by Presidents Bush Sr., Clinton, and Bush Jr.",
+    "explanation": "Alan Greenspan was sworn in as Fed Chair on August 11, 1987, replacing Paul Volcker. He served until January 31, 2006 — about 18.5 years, the second-longest tenure of any Fed Chair, behind only William McChesney Martin (1951–1970). He was appointed by President Reagan and reappointed by Presidents Bush Sr., Clinton, and Bush Jr.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Alan Greenspan", "Federal Reserve", "Fed chair", "1987"]
+    "tags": [
+      "Alan Greenspan",
+      "Federal Reserve",
+      "Fed chair",
+      "1987"
+    ]
   },
   {
     "id": "usa-032",
     "category": "usa",
     "difficulty": 2,
     "format": "order",
-    "prompt": "These four Federal Reserve Chairs each took office in a different decade. Put them in order, from the earliest to the most recent.",
+    "prompt": "Put these four Federal Reserve Chairs in the order in which they took office, earliest first.",
     "items": [
       "Alan Greenspan",
       "Ben Bernanke",
@@ -574,11 +754,18 @@
     ],
     "order_by": "start of Fed Chair term (earliest first)",
     "answer": "Alan Greenspan → Ben Bernanke → Janet Yellen → Jerome Powell",
-    "explanation": "Greenspan: August 1987. Bernanke: February 2006. Yellen: February 2014. Powell: February 2018. Together they span nearly four decades of US monetary policy, from the post-Volcker era through post-COVID inflation.",
+    "explanation": "Greenspan: August 1987. Bernanke: February 2006. Yellen: February 2014. Powell: February 2018. Together they span three decades of US monetary policy, from the post-Volcker era through post-COVID inflation.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Federal Reserve", "Fed chair", "Greenspan", "Bernanke", "Yellen", "Powell"]
+    "tags": [
+      "Federal Reserve",
+      "Fed chair",
+      "Greenspan",
+      "Bernanke",
+      "Yellen",
+      "Powell"
+    ]
   },
   {
     "id": "usa-033",
@@ -587,17 +774,22 @@
     "format": "mc",
     "prompt": "Janet Yellen holds a unique distinction in US economic history. What is it?",
     "choices": [
-      "She is the only person to have served as both Federal Reserve Chair and US Treasury Secretary",
+      "She is the only person to have led the Council of Economic Advisers, the Federal Reserve, and the US Treasury",
       "She was the first Fed Chair to hold a PhD in economics",
       "She is the only person to have served on the Federal Reserve Board five separate times",
       "She was the first Fed Chair to publicly endorse a fiscal stimulus package"
     ],
-    "answer": "She is the only person to have served as both Federal Reserve Chair and US Treasury Secretary",
-    "explanation": "Yellen served as Fed Chair from 2014 to 2018, then became US Secretary of the Treasury under President Biden starting in January 2021 — making her the first person to hold both top US economic policy posts. She was also the first woman in both roles.",
+    "answer": "She is the only person to have led the Council of Economic Advisers, the Federal Reserve, and the US Treasury",
+    "explanation": "Yellen chaired the Council of Economic Advisers (1997–99), then the Federal Reserve (2014–2018), then served as US Treasury Secretary (2021–2025) — the only person to have headed all three. She was also the first woman to chair the Fed and the first woman to lead the Treasury. (G. William Miller was Fed Chair and then Treasury Secretary in 1978–81, but never chaired the CEA.)",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Janet Yellen", "Treasury Secretary", "Fed chair", "first woman"]
+    "tags": [
+      "Janet Yellen",
+      "Federal Reserve",
+      "Treasury",
+      "Council of Economic Advisers"
+    ]
   },
   {
     "id": "usa-034",
@@ -606,17 +798,23 @@
     "format": "mc",
     "prompt": "If California were a separate country, which national economy would it most closely resemble in nominal GDP size (as of 2023)?",
     "choices": [
-      "India (~$3.7T)",
-      "Canada (~$2.1T)",
+      "India (~$3.5T)",
+      "Canada (~$2.2T)",
       "Australia (~$1.7T)",
-      "France (~$3.0T)"
+      "France (~$3.1T)"
     ],
-    "answer": "India (~$3.7T)",
-    "explanation": "California's GDP of roughly $3.5–3.6 trillion in 2023 is comparable to India's $3.7 trillion — making it the 5th or 6th largest economy in the world if it were a country. This comparison illustrates both California's staggering economic weight and India's recent rise in global rankings.",
+    "answer": "India (~$3.5T)",
+    "explanation": "California's GDP was about $3.9 trillion in 2023 (US Bureau of Economic Analysis), just above India's roughly $3.5 trillion and below Japan's roughly $4.4 trillion — which would make it the fifth-largest economy in the world if it were a country. This comparison illustrates both California's staggering economic weight and India's recent rise in global rankings.",
     "source": null,
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["California", "US states", "GDP", "India", "global economy"]
+    "tags": [
+      "California",
+      "US states",
+      "GDP",
+      "India",
+      "global economy"
+    ]
   },
   {
     "id": "usa-035",
@@ -624,14 +822,23 @@
     "difficulty": 1,
     "format": "higher_lower",
     "prompt": "California or Texas: which US state has the larger nominal GDP?",
-    "items": ["California", "Texas"],
+    "items": [
+      "California",
+      "Texas"
+    ],
     "metric": "2023 nominal state GDP",
     "answer": "California",
-    "explanation": "California's GDP of roughly $3.5 trillion dwarfs Texas at approximately $2.0 trillion. California's economy is driven by technology (Silicon Valley), entertainment (Hollywood), agriculture, and trade. Texas benefits from energy, finance (Dallas), and a large manufacturing base.",
+    "explanation": "California's GDP of roughly $3.9 trillion dwarfs Texas's roughly $2.6 trillion (US Bureau of Economic Analysis, 2023). California's economy is driven by technology (Silicon Valley), entertainment (Hollywood), agriculture, and trade. Texas benefits from energy, finance (Dallas), and a large manufacturing base.",
     "source": null,
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["California", "Texas", "US states", "GDP", "Sun Belt"]
+    "tags": [
+      "California",
+      "Texas",
+      "US states",
+      "GDP",
+      "Sun Belt"
+    ]
   },
   {
     "id": "usa-036",
@@ -650,14 +857,20 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Detroit", "bankruptcy", "auto industry", "Rust Belt", "municipal finance"]
+    "tags": [
+      "Detroit",
+      "bankruptcy",
+      "auto industry",
+      "Rust Belt",
+      "municipal finance"
+    ]
   },
   {
     "id": "usa-037",
     "category": "usa",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The New York Stock Exchange traces its founding to a 1792 agreement signed by 24 brokers meeting under a buttonwood tree on Wall Street. What is this founding document called?",
+    "prompt": "The New York Stock Exchange traces its founding to a May 1792 pact signed by 24 brokers on Wall Street. What is this founding agreement called?",
     "choices": [
       "The Buttonwood Agreement",
       "The Wall Street Compact",
@@ -669,7 +882,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["NYSE", "Wall Street", "Buttonwood Agreement", "1792", "stock exchange"]
+    "tags": [
+      "NYSE",
+      "Wall Street",
+      "Buttonwood Agreement",
+      "1792",
+      "stock exchange"
+    ]
   },
   {
     "id": "usa-038",
@@ -688,7 +907,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["TCJA", "corporate tax", "Trump", "2017", "tax reform"]
+    "tags": [
+      "TCJA",
+      "corporate tax",
+      "Trump",
+      "2017",
+      "tax reform"
+    ]
   },
   {
     "id": "usa-039",
@@ -701,14 +926,19 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["debt ceiling", "fiscal policy", "Congress", "US government finance"]
+    "tags": [
+      "debt ceiling",
+      "fiscal policy",
+      "Congress",
+      "US government finance"
+    ]
   },
   {
     "id": "usa-040",
     "category": "usa",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Social Security — the US federal retirement benefit programme created in 1935 — is primarily funded through:",
+    "prompt": "Social Security — the US federal retirement benefit program created in 1935 — is primarily funded through:",
     "choices": [
       "payroll taxes on wages, split equally between employees and employers",
       "general income tax revenues allocated by Congress each year",
@@ -716,18 +946,24 @@
       "mandatory contributions from state governments based on their populations"
     ],
     "answer": "payroll taxes on wages, split equally between employees and employers",
-    "explanation": "Social Security (and Medicare Part A) are funded by FICA (Federal Insurance Contributions Act) payroll taxes. In 2024, the Social Security portion is 6.2% from the employee and 6.2% from the employer, on wages up to $168,600. Self-employed people pay both halves (15.3% combined with Medicare). Unlike most government programmes, it has a dedicated funding stream.",
+    "explanation": "Social Security (and Medicare Part A) are funded by FICA (Federal Insurance Contributions Act) payroll taxes. In 2024, the Social Security portion is 6.2% from the employee and 6.2% from the employer, on wages up to $168,600. Self-employed people pay both halves (15.3% combined with Medicare). Unlike most government programs, it has a dedicated funding stream.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Social Security", "payroll tax", "FICA", "retirement", "New Deal"]
+    "tags": [
+      "Social Security",
+      "payroll tax",
+      "FICA",
+      "retirement",
+      "New Deal"
+    ]
   },
   {
     "id": "usa-041",
     "category": "usa",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Medicare (health insurance for Americans aged 65+) and Medicaid (health coverage for low-income Americans) were both created during which president's administration as part of the 'Great Society' programme?",
+    "prompt": "Medicare (health insurance for Americans aged 65+) and Medicaid (health coverage for low-income Americans) were both created in 1965 during which president's administration?",
     "choices": [
       "Lyndon B. Johnson",
       "John F. Kennedy",
@@ -735,11 +971,18 @@
       "Franklin D. Roosevelt"
     ],
     "answer": "Lyndon B. Johnson",
-    "explanation": "LBJ signed the Social Security Amendments of 1965 — establishing Medicare and Medicaid — on July 30, 1965, in Independence, Missouri, with former president Truman present. Truman, who had unsuccessfully proposed universal health insurance in 1945, received the first Medicare card. Together they form the largest component of the US federal budget after Social Security.",
+    "explanation": "LBJ signed the Social Security Amendments of 1965 — establishing Medicare and Medicaid as part of his 'Great Society' program — on July 30, 1965, in Independence, Missouri, with former president Truman present. Truman, who had unsuccessfully proposed universal health insurance in 1945, received the first Medicare card. Together with Social Security, they are among the largest components of the US federal budget.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Medicare", "Medicaid", "LBJ", "Great Society", "healthcare", "1965"]
+    "tags": [
+      "Medicare",
+      "Medicaid",
+      "LBJ",
+      "Great Society",
+      "healthcare",
+      "1965"
+    ]
   },
   {
     "id": "usa-042",
@@ -754,20 +997,30 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Federal Reserve", "regional banks", "monetary policy", "central banking"]
+    "tags": [
+      "Federal Reserve",
+      "regional banks",
+      "monetary policy",
+      "central banking"
+    ]
   },
   {
     "id": "usa-043",
     "category": "usa",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "True or false: The US stock market (by total market capitalization) accounts for roughly 60% of the total global equity market, even though the US represents only about 4% of the world's population.",
+    "prompt": "True or false: At the end of 2023, US companies made up more than 60% of the weight of MSCI's global stock index (MSCI ACWI), even though the US has only about 4% of the world's population.",
     "answer": true,
-    "explanation": "The US consistently accounts for 55–65% of total global stock market capitalization, dominated by the S&P 500 and tech giants like Apple, Microsoft, Nvidia, Amazon, and Alphabet. This reflects the depth of US capital markets, the dominance of US corporations globally, and investors' preference for dollar assets.",
-    "source": null,
+    "explanation": "US stocks accounted for about 62.6% of the MSCI All Country World Index at the end of 2023, dominated by the S&P 500 and tech giants like Apple, Microsoft, Nvidia, Amazon, and Alphabet. The share depends on the measure used — it is lower if you count all listed companies rather than only freely traded shares — but it reflects the depth of US capital markets and the dominance of US corporations globally.",
+    "source": "https://www.msci.com/",
     "as_of": "2023",
-    "time_sensitive": false,
-    "tags": ["US stock market", "market capitalization", "global finance", "equity markets"]
+    "time_sensitive": true,
+    "tags": [
+      "US stock market",
+      "market capitalization",
+      "global finance",
+      "equity markets"
+    ]
   },
   {
     "id": "usa-044",
@@ -782,11 +1035,17 @@
       "\"tulip mania\""
     ],
     "answer": "\"irrational exuberance\"",
-    "explanation": "Greenspan's December 5, 1996 speech to the American Enterprise Institute asked: 'How do we know when irrational exuberance has unduly escalated asset values?' Global markets fell as much as 2% the following morning, then recovered. Ironically, the NASDAQ rose another 150% before the dot-com crash, and Greenspan kept rates low for years — contributing to both the tech bubble and the housing bubble.",
+    "explanation": "Greenspan's December 5, 1996 speech to the American Enterprise Institute asked: 'How do we know when irrational exuberance has unduly escalated asset values?' Stock markets in Asia and Europe fell by roughly 2–4% the next day, then recovered. Ironically, the NASDAQ nearly quadrupled before the dot-com crash, and Greenspan kept rates low for years — contributing to both the tech bubble and the housing bubble.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Greenspan", "irrational exuberance", "Federal Reserve", "asset bubbles", "1996"]
+    "tags": [
+      "Greenspan",
+      "irrational exuberance",
+      "Federal Reserve",
+      "asset bubbles",
+      "1996"
+    ]
   },
   {
     "id": "usa-045",
@@ -805,22 +1064,34 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bernanke", "Great Depression", "Federal Reserve", "2008", "academic research"]
+    "tags": [
+      "Bernanke",
+      "Great Depression",
+      "Federal Reserve",
+      "2008",
+      "academic research"
+    ]
   },
   {
     "id": "usa-046",
     "category": "usa",
     "difficulty": 2,
     "format": "numeric",
-    "prompt": "In what year did the Federal Reserve launch its first large-scale quantitative easing programme (QE1) by announcing it would purchase mortgage-backed securities?",
+    "prompt": "In what year did the Federal Reserve announce its first large-scale quantitative easing program (QE1), under which it would buy mortgage-backed securities?",
     "answer": 2008,
     "unit": "",
     "tolerance": 0,
-    "explanation": "The Fed announced its first QE programme on November 25, 2008, pledging to buy $600 billion in agency mortgage-backed securities. This marked a fundamental shift in central banking — the Fed had never previously bought private-sector assets at scale. The balance sheet subsequently expanded from under $1 trillion to over $8 trillion by 2022.",
+    "explanation": "The Fed announced its first QE program on November 25, 2008, pledging to buy $100 billion of agency debt and $500 billion of agency mortgage-backed securities; the purchases began in January 2009. This marked a fundamental shift in central banking — the Fed had never previously bought assets on this scale. The balance sheet subsequently expanded from under $1 trillion to over $8 trillion by 2022.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["quantitative easing", "QE", "Federal Reserve", "2008", "monetary policy"]
+    "tags": [
+      "quantitative easing",
+      "QE",
+      "Federal Reserve",
+      "2008",
+      "monetary policy"
+    ]
   },
   {
     "id": "usa-047",
@@ -839,7 +1110,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Silicon Valley", "California", "technology", "venture capital", "Stanford"]
+    "tags": [
+      "Silicon Valley",
+      "California",
+      "technology",
+      "venture capital",
+      "Stanford"
+    ]
   },
   {
     "id": "usa-048",
@@ -858,7 +1135,14 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Rust Belt", "deindustrialization", "manufacturing", "Michigan", "Ohio", "Sun Belt"]
+    "tags": [
+      "Rust Belt",
+      "deindustrialization",
+      "manufacturing",
+      "Michigan",
+      "Ohio",
+      "Sun Belt"
+    ]
   },
   {
     "id": "usa-049",
@@ -867,11 +1151,17 @@
     "format": "tf",
     "prompt": "True or false: Texas has no state-level personal income tax, making it one of only a handful of US states that rely on other revenue sources such as property taxes and sales taxes.",
     "answer": true,
-    "explanation": "As of 2025, nine US states impose no broad personal income tax: Alaska, Florida, Nevada, New Hampshire (investment income only), South Dakota, Tennessee, Texas, Washington (capital gains only since 2022), and Wyoming. Texas offsets this with relatively high property taxes (among the highest in the US) and a 6.25% state sales tax. The absence of income tax is a major draw for businesses relocating from California.",
+    "explanation": "As of 2025, nine US states impose no broad personal income tax: Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington (which taxes only capital gains), and Wyoming. Texas offsets this with relatively high property taxes (among the highest in the US) and a 6.25% state sales tax. The absence of income tax is a major draw for businesses relocating from California.",
     "source": null,
     "as_of": "2025",
     "time_sensitive": false,
-    "tags": ["Texas", "state income tax", "US states", "fiscal policy", "California"]
+    "tags": [
+      "Texas",
+      "state income tax",
+      "US states",
+      "fiscal policy",
+      "California"
+    ]
   },
   {
     "id": "usa-050",
@@ -890,7 +1180,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Hamilton", "debt assumption", "Compromise of 1790", "Washington DC", "US history"]
+    "tags": [
+      "Hamilton",
+      "debt assumption",
+      "Compromise of 1790",
+      "Washington DC",
+      "US history"
+    ]
   },
   {
     "id": "usa-051",
@@ -900,7 +1196,7 @@
     "prompt": "Fannie Mae and Freddie Mac — the government-sponsored enterprises that became central figures in the 2008 housing crisis — primarily functioned by:",
     "choices": [
       "buying mortgages from originating banks and packaging them into securities sold to investors",
-      "directly lending mortgage money to home buyers at subsidised government rates",
+      "directly lending mortgage money to home buyers at subsidized government rates",
       "insuring bank deposits up to $250,000 per account against bank failure",
       "setting the maximum loan-to-value ratios banks were permitted to offer home buyers"
     ],
@@ -909,22 +1205,37 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Fannie Mae", "Freddie Mac", "mortgage-backed securities", "housing crisis", "GSE"]
+    "tags": [
+      "Fannie Mae",
+      "Freddie Mac",
+      "mortgage-backed securities",
+      "housing crisis",
+      "GSE"
+    ]
   },
   {
     "id": "usa-052",
     "category": "usa",
     "difficulty": 2,
     "format": "higher_lower",
-    "prompt": "California's economy is so large it is often compared to entire countries. In 2023, did California's nominal GDP exceed the United Kingdom's?",
-    "items": ["California", "United Kingdom"],
+    "prompt": "California is often compared to entire countries. Which had the larger nominal GDP in 2023: California or the United Kingdom?",
+    "items": [
+      "California",
+      "United Kingdom"
+    ],
     "metric": "2023 nominal GDP in current USD",
     "answer": "California",
-    "explanation": "California's GDP of roughly $3.5–3.6 trillion in 2023 surpassed the United Kingdom's ~$3.1 trillion, making a single US state larger than a G7 nation and a permanent member of the UN Security Council. California would rank roughly 5th in the world economy if it were a country.",
+    "explanation": "California's GDP of roughly $3.9 trillion in 2023 surpassed the United Kingdom's ~$3.3–3.4 trillion, making a single US state larger than a G7 nation and a permanent member of the UN Security Council. California would rank fifth in the world economy if it were a country.",
     "source": null,
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["California", "UK", "GDP", "US states", "global economy"]
+    "tags": [
+      "California",
+      "UK",
+      "GDP",
+      "US states",
+      "global economy"
+    ]
   },
   {
     "id": "usa-053",
@@ -943,7 +1254,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["FOMC", "Federal Reserve", "monetary policy", "regional banks", "interest rates"]
+    "tags": [
+      "FOMC",
+      "Federal Reserve",
+      "monetary policy",
+      "regional banks",
+      "interest rates"
+    ]
   },
   {
     "id": "usa-054",
@@ -962,7 +1279,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Glass-Steagall", "Gramm-Leach-Bliley", "Clinton", "banking deregulation", "1999"]
+    "tags": [
+      "Glass-Steagall",
+      "Gramm-Leach-Bliley",
+      "Clinton",
+      "banking deregulation",
+      "1999"
+    ]
   },
   {
     "id": "usa-055",
@@ -975,7 +1298,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["fiscal year", "US government", "budget", "Congress"]
+    "tags": [
+      "fiscal year",
+      "US government",
+      "budget",
+      "Congress"
+    ]
   },
   {
     "id": "usa-056",
@@ -984,17 +1312,36 @@
     "format": "match",
     "prompt": "Match each Federal Reserve Chair to their best-known legacy.",
     "pairs": [
-      ["Paul Volcker", "Raised rates to ~20% to break double-digit inflation"],
-      ["Alan Greenspan", "Coined 'irrational exuberance' and served a record ~18 years as chair"],
-      ["Ben Bernanke", "Pioneered large-scale quantitative easing in response to the 2008 crisis"],
-      ["Janet Yellen", "First woman to serve as both Fed Chair and US Treasury Secretary"]
+      [
+        "Paul Volcker",
+        "Raised rates to ~20% to break double-digit inflation"
+      ],
+      [
+        "Alan Greenspan",
+        "Coined 'irrational exuberance' and served ~18½ years as chair"
+      ],
+      [
+        "Ben Bernanke",
+        "Led the Fed's large-scale QE response to the 2008 crisis"
+      ],
+      [
+        "Janet Yellen",
+        "First woman to chair the Federal Reserve"
+      ]
     ],
-    "answer": "Paul Volcker↔Raised rates to ~20% to break double-digit inflation, Alan Greenspan↔Coined 'irrational exuberance' and served a record ~18 years as chair, Ben Bernanke↔Pioneered large-scale quantitative easing in response to the 2008 crisis, Janet Yellen↔First woman to serve as both Fed Chair and US Treasury Secretary",
-    "explanation": "Volcker's disinflation (1979–83), Greenspan's long tenure and famous speech (1987–2006), Bernanke's QE innovation (2006–14), and Yellen's historic firsts (2014–18 as Fed Chair; 2021–present as Treasury Secretary) are the defining legacies of four pivotal figures in US monetary policy.",
+    "answer": "Paul Volcker→Raised rates to ~20% to break double-digit inflation, Alan Greenspan→Coined 'irrational exuberance' and served ~18½ years as chair, Ben Bernanke→Led the Fed's large-scale QE response to the 2008 crisis, Janet Yellen→First woman to chair the Federal Reserve",
+    "explanation": "Volcker's disinflation (1979–83), Greenspan's long tenure and famous speech (1987–2006), Bernanke's QE response (2006–14), and Yellen's historic first (Fed Chair 2014–18; later Treasury Secretary 2021–25) are the defining legacies of four pivotal figures in US monetary policy.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Federal Reserve", "Fed chairs", "Volcker", "Greenspan", "Bernanke", "Yellen"]
+    "tags": [
+      "Federal Reserve",
+      "Fed chairs",
+      "Volcker",
+      "Greenspan",
+      "Bernanke",
+      "Yellen"
+    ]
   },
   {
     "id": "usa-057",
@@ -1009,11 +1356,17 @@
       "2.00–2.25%"
     ],
     "answer": "5.25–5.50%",
-    "explanation": "The FOMC raised the fed funds rate from 0.00–0.25% in March 2022 to 5.25–5.50% by July 2023 — 11 consecutive hikes totalling 525 basis points in 17 months. This was the fastest tightening cycle since Volcker. US headline CPI fell from its 9.1% peak (June 2022) to below 3% by mid-2023.",
+    "explanation": "The FOMC raised the fed funds rate from 0.00–0.25% in March 2022 to 5.25–5.50% by July 2023 — 11 hikes totalling 525 basis points in about 16 months. This was the fastest tightening cycle since Volcker. US headline CPI fell from its 9.1% peak (June 2022) to about 3% by mid-2023.",
     "source": null,
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Jerome Powell", "Federal Reserve", "interest rates", "inflation", "2023"]
+    "tags": [
+      "Jerome Powell",
+      "Federal Reserve",
+      "interest rates",
+      "inflation",
+      "2023"
+    ]
   },
   {
     "id": "usa-058",
@@ -1032,7 +1385,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["New York City", "financial centre", "Wall Street", "NYSE", "investment banks"]
+    "tags": [
+      "New York City",
+      "financial centre",
+      "Wall Street",
+      "NYSE",
+      "investment banks"
+    ]
   },
   {
     "id": "usa-059",
@@ -1051,7 +1410,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Council of Economic Advisers", "Employment Act", "1946", "US economic policy"]
+    "tags": [
+      "Council of Economic Advisers",
+      "Employment Act",
+      "1946",
+      "US economic policy"
+    ]
   },
   {
     "id": "usa-060",
@@ -1060,11 +1424,24 @@
     "format": "short",
     "prompt": "What is the commonly used short name for the shortest-term US government debt securities, which mature in one year or less and are sold at a discount to face value?",
     "answer": "T-bill",
-    "accept": ["T-bill", "T-bills", "Treasury bill", "Treasury bills", "t-bill", "t-bills"],
-    "explanation": "Treasury bills (T-bills) are issued with maturities of 4, 8, 13, 17, 26, or 52 weeks. They are sold at a discount (e.g., you pay $980 and receive $1,000 at maturity) rather than paying a coupon. Because they are backed by the US government's full faith and credit, T-bills are considered the closest thing to a risk-free asset and serve as the global benchmark for short-term interest rates.",
+    "accept": [
+      "T-bill",
+      "T-bills",
+      "Treasury bill",
+      "Treasury bills",
+      "t-bill",
+      "t-bills"
+    ],
+    "explanation": "Treasury bills (T-bills) are issued with maturities of 4, 6, 8, 13, 17, 26, or 52 weeks. They are sold at a discount (e.g., you pay $980 and receive $1,000 at maturity) rather than paying a coupon. Because they are backed by the US government's full faith and credit, T-bills are considered the closest thing to a risk-free asset and serve as the global benchmark for short-term interest rates.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["T-bill", "Treasury bill", "US government debt", "risk-free rate", "money markets"]
+    "tags": [
+      "T-bill",
+      "Treasury bill",
+      "US government debt",
+      "risk-free rate",
+      "money markets"
+    ]
   }
 ]
