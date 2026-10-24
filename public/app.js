@@ -220,29 +220,41 @@ function normalise(s) {
     .replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+// Edit distance where swapping two adjacent letters counts as ONE slip. Plain
+// Levenshtein counts a swap as two, so "Freidman" for "Friedman" (the most common
+// way people mistype a name) cost the player a mark.
 function levenshtein(a, b) {
   const m = a.length, n = b.length;
   if (m === 0) return n;
   if (n === 0) return m;
-  const row = Array.from({ length: n + 1 }, (_, i) => i);
+  const d = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) d[i][0] = i;
+  for (let j = 0; j <= n; j++) d[0][j] = j;
   for (let i = 1; i <= m; i++) {
-    let prev = i;
     for (let j = 1; j <= n; j++) {
-      const curr = a[i-1] === b[j-1] ? row[j-1] : 1 + Math.min(row[j-1], row[j], prev);
-      row[j-1] = prev;
-      prev = curr;
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost);
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1])
+        d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + 1);
     }
-    row[n] = prev;
   }
-  return row[n];
+  return d[m][n];
 }
 
+// Forgive typos in names and terms, but never let a slip turn one real thing into
+// another. Short answers are where that happens: one letter separates RICE from
+// DICE, ATE from LATE, GATS (a different WTO treaty) from GATT. So:
+//   4 letters or fewer  exact match only
+//   5 to 9 letters      one slip, and the first letter must be right (real
+//                       typos rarely change it; look-alike terms often do)
+//   10 or more          two slips
 function fuzzyMatch(input, target) {
   const a = normalise(input), b = normalise(target);
   if (a === b) return true;
   const maxLen = Math.max(a.length, b.length);
-  if (maxLen < 4) return false;
-  return levenshtein(a, b) <= (maxLen < 8 ? 1 : 2);
+  if (maxLen <= 4) return false;
+  if (maxLen >= 10) return levenshtein(a, b) <= 2;
+  return a[0] === b[0] && levenshtein(a, b) <= 1;
 }
 
 function gradeAnswer(q, response) {
