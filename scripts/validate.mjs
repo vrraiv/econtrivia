@@ -1,10 +1,11 @@
 #!/usr/bin/env node
-import { readFileSync, readdirSync } from 'fs';
+import { readFileSync, readdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const questionsDir = join(__dirname, '..', 'questions');
+const publicDir = join(__dirname, '..', 'public');
 
 const VALID_FORMATS = ['mc', 'tf', 'numeric', 'order', 'higher_lower', 'match', 'short'];
 const REQUIRE_SOURCE = new Set(['data', 'trends', 'finance']);
@@ -81,6 +82,41 @@ function validateShort(q) {
     err(q.id, 'short: answer must appear in accept[]');
 }
 
+// Optional q.image — supported on any format. Catches broken asset paths at
+// build time, and flags alt text that would hand a screen-reader user the
+// answer to a "what is this chart showing" question.
+function validateImage(q) {
+  const img = q.image;
+  if (!img) return;
+
+  if (typeof img !== 'object' || Array.isArray(img))
+    return err(q.id, 'image: must be an object { src, alt, caption? }');
+  if (!img.src)
+    return err(q.id, 'image: requires a src path');
+  if (!img.src.startsWith('/'))
+    err(q.id, `image: src must be site-absolute (got "${img.src}")`);
+  else if (!existsSync(join(publicDir, img.src.slice(1))))
+    err(q.id, `image: file not found at public${img.src}`);
+
+  if (!img.alt)
+    err(q.id, 'image: requires alt text for screen readers');
+  else {
+    const alt = img.alt.toLowerCase();
+    const answerWords = String(q.answer).toLowerCase()
+      .replace(/[^a-z0-9 ]/g, ' ').split(/\s+/)
+      .filter(w => w.length > 3 && !STOPWORDS.has(w));
+    const leaked = answerWords.filter(w => alt.includes(w));
+    if (leaked.length)
+      warn(q.id, `image: alt text may reveal the answer (contains "${leaked.join('", "')}")`);
+  }
+}
+
+const STOPWORDS = new Set([
+  'with', 'that', 'this', 'from', 'they', 'them', 'than', 'then', 'were',
+  'what', 'when', 'which', 'each', 'into', 'more', 'most', 'some', 'such',
+  'only', 'other', 'their', 'there', 'about', 'would', 'could', 'should',
+]);
+
 const validators = {
   mc: validateMC, tf: validateTF, numeric: validateNumeric,
   order: validateOrder, higher_lower: validateHigherLower,
@@ -130,6 +166,7 @@ for (const file of files) {
       idsSeen.set(q.id, file);
 
     validators[q.format]?.(q);
+    validateImage(q);
     allQuestions.push(q);
   }
 }

@@ -95,6 +95,28 @@ body {
 .tagline { color: var(--text); text-align: center; font-size: 1.1rem; font-weight: 500; margin-bottom: 0.25rem; }
 .tagline-sub { color: var(--text-muted); text-align: center; font-size: 0.95rem; margin-bottom: 0.25rem; max-width: 34ch; margin-left: auto; margin-right: auto; line-height: 1.5; }
 
+/* Question image (cartograms and any future chart questions) */
+.question-image {
+  margin: 0 0 0.9rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem;
+  box-shadow: var(--shadow);
+}
+.question-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.question-image-caption {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
 .stats-banner {
   background: var(--bg-card);
   border: 1px solid var(--border);

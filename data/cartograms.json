@@ -1,0 +1,26 @@
+[
+  {
+    "id": "population-2023",
+    "indicator": "SP.POP.TOTL",
+    "year": 2023,
+    "label": "Population, 2023",
+    "alt": "World map where each country's area is resized in proportion to an unnamed statistic",
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  {
+    "id": "gdp-nominal-2023",
+    "indicator": "NY.GDP.MKTP.CD",
+    "year": 2023,
+    "label": "Nominal GDP in current US dollars, 2023",
+    "alt": "World map where each country's area is resized in proportion to an unnamed statistic",
+    "source": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
+  },
+  {
+    "id": "co2-emissions-2023",
+    "indicator": "EN.GHG.CO2.MT.CE.AR5",
+    "year": 2023,
+    "label": "Annual CO2 emissions, 2023",
+    "alt": "World map where each country's area is resized in proportion to an unnamed statistic",
+    "source": "https://data.worldbank.org/indicator/EN.GHG.CO2.MT.CE.AR5"
+  }
+]

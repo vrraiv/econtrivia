@@ -300,6 +300,7 @@ function renderQuestion() {
   diffChip.className = `chip diff-${q.difficulty}`;
 
   document.getElementById('question-prompt').textContent = q.prompt;
+  renderQuestionImage(q);
 
   const answerArea = document.getElementById('answer-area');
   answerArea.innerHTML = '';
@@ -316,6 +317,35 @@ function renderQuestion() {
   if (alreadyAnswered) {
     renderFeedback(q, round.answers[round.current]);
     nextBtn.classList.remove('hidden');
+  }
+}
+
+// ── Question image (e.g. cartograms) ────
+// Optional q.image: { src, alt, caption? }. Alt text is deliberately written to
+// describe the chart type without naming the quantity, so screen-reader users
+// get the same puzzle as everyone else rather than the answer.
+
+function renderQuestionImage(q) {
+  const fig = document.getElementById('question-image');
+  const img = document.getElementById('question-image-img');
+  const cap = document.getElementById('question-image-caption');
+
+  if (!q.image || !q.image.src) {
+    fig.classList.add('hidden');
+    img.removeAttribute('src');
+    return;
+  }
+
+  img.src = q.image.src;
+  img.alt = q.image.alt || '';
+  fig.classList.remove('hidden');
+
+  if (q.image.caption) {
+    cap.textContent = q.image.caption;
+    cap.classList.remove('hidden');
+  } else {
+    cap.textContent = '';
+    cap.classList.add('hidden');
   }
 }
 

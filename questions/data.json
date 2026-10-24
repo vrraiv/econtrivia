@@ -1941,5 +1941,96 @@
       "Germany",
       "UK"
     ]
+  },
+  {
+    "id": "data-083",
+    "category": "data",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "On this world map every country has been stretched or shrunk so that its area reflects a single underlying quantity. What is being measured?",
+    "image": {
+      "src": "/img/cartograms/population-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Population",
+      "Nominal GDP",
+      "Total electricity generation",
+      "Annual CO2 emissions"
+    ],
+    "answer": "Population",
+    "explanation": "The giveaway is the pair of giants in Asia: India (1.44 billion) and China (1.41 billion) swell to dominate the map, with Indonesia (281m), Pakistan (248m) and Nigeria (228m) also conspicuous. Equally telling is what shrinks — Russia, Canada and Australia are vast in land area but hold relatively few people, so they collapse to slivers. A GDP map would do the opposite, inflating Japan and Western Europe while Nigeria all but vanished.",
+    "source": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "population",
+      "demographics",
+      "World Bank",
+      "map"
+    ]
+  },
+  {
+    "id": "data-084",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Each nation on this cartogram has been resized so that its area is proportional to one economic statistic. Which statistic is it?",
+    "image": {
+      "src": "/img/cartograms/gdp-nominal-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Nominal GDP",
+      "Population",
+      "Share of global merchandise exports",
+      "Foreign exchange reserves"
+    ],
+    "answer": "Nominal GDP",
+    "explanation": "Africa is the tell: a continent of roughly 1.4 billion people nearly disappears, which rules out anything population-driven. Meanwhile Japan ($4.38tn) and Germany ($4.56tn) balloon far beyond their modest populations and land areas, and the United States ($27.8tn) forms the single largest block — bigger than China ($18.3tn). An export-share map would instead put China first and inflate trade hubs such as the Netherlands and Singapore.",
+    "source": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "GDP",
+      "global economy",
+      "World Bank",
+      "map"
+    ]
+  },
+  {
+    "id": "data-085",
+    "category": "data",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Country sizes here track how much of one thing each nation puts out every year. Given that the largest country is roughly two and a half times the second largest, what is being shown?",
+    "image": {
+      "src": "/img/cartograms/co2-emissions-2023.svg",
+      "alt": "World map in which each country's outline has been resized in proportion to an unnamed statistic, shown over a faint grey reference map of true borders.",
+      "caption": "World Bank data, 2023. Grey outlines show true borders."
+    },
+    "choices": [
+      "Annual CO2 emissions",
+      "Nominal GDP",
+      "Crude oil production",
+      "Manufacturing value added"
+    ],
+    "answer": "Annual CO2 emissions",
+    "explanation": "China emitted about 13,021 megatonnes of CO2 in 2023 against 4,618 for the United States — a gap of roughly 2.8 to 1 that no GDP map would show, since the United States out-earns China by a wide margin. India sits third (3,015 Mt), far larger here than its economy alone would justify, and coal-heavy Russia (1,948 Mt) and Iran (816 Mt) are both outsized relative to their GDP. An oil-production map would be dominated instead by Saudi Arabia and the Gulf.",
+    "source": "https://data.worldbank.org/indicator/EN.GHG.CO2.MT.CE.AR5",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "cartogram",
+      "CO2",
+      "emissions",
+      "climate",
+      "World Bank",
+      "map"
+    ]
   }
 ]

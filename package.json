@@ -5,10 +5,18 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
+    "cartograms": "node scripts/cartogram.mjs",
+    "cartograms:refresh": "node scripts/cartogram.mjs --refresh",
+    "cartograms:preview": "node scripts/preview-cartograms.mjs",
     "dev": "npm run build && npx wrangler dev",
     "deploy": "npm run build && npx wrangler deploy"
   },
   "devDependencies": {
+    "d3-geo": "^3.1.1",
+    "i18n-iso-countries": "^7.14.0",
+    "sharp": "^0.35.5",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2",
     "wrangler": "^3.0.0"
   }
 }
