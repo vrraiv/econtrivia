@@ -657,6 +657,172 @@ body {
 }
 
 /* ═══════════════════════════════════════
+   ANSWER STATES (right / wrong / skipped)
+   Colour is never the only signal: every result also carries a ✓ or ✗.
+═══════════════════════════════════════ */
+
+.mc-option.wrong, .tf-option.wrong, .hl-option.wrong {
+  background: var(--wrong-bg);
+  border-color: var(--wrong);
+  color: var(--wrong);
+  font-weight: 600;
+}
+
+.mc-option.correct::after, .tf-option.correct::after, .hl-option.correct::after { content: '  ✓'; }
+.mc-option.wrong::after,   .tf-option.wrong::after,   .hl-option.wrong::after   { content: '  ✗'; }
+
+.mc-option:disabled, .tf-option:disabled, .hl-option:disabled { cursor: default; }
+
+/* Disabled inputs keep the player's text readable and show how they did. */
+.numeric-input:disabled, .short-input:disabled {
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+  cursor: default;
+}
+.numeric-input.is-correct, .short-input.is-correct { border-color: var(--correct); background: var(--correct-bg); color: var(--correct); }
+.numeric-input.is-wrong,   .short-input.is-wrong   { border-color: var(--wrong);   background: var(--wrong-bg);   color: var(--wrong); }
+
+.order-item.revealed-pos { border-style: dashed; }
+
+.result-mark { font-weight: 800; flex-shrink: 0; }
+.order-item .result-mark { margin-left: auto; padding-left: 0.5rem; }
+.order-item.correct-pos .result-mark { color: var(--correct); }
+.order-item.wrong-pos   .result-mark { color: var(--wrong); }
+
+/* ═══════════════════════════════════════
+   MATCH — numbered pairing + result rows
+═══════════════════════════════════════ */
+
+.match-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+.match-text { flex: 0 1 auto; }
+
+.match-badge {
+  flex-shrink: 0;
+  min-width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  background: var(--chip-bg);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Paired is not "correct": it must not borrow the green of a right answer. */
+.match-item.paired { border-color: var(--accent); background: var(--chip-bg); opacity: 1; }
+.match-item.paired .match-badge { background: var(--accent); color: #fff; }
+.match-item.selected {
+  border-color: var(--accent);
+  background: var(--bg-card);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.match-result { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+
+.match-result-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.7rem 0.85rem;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+.match-result-row.correct { border-color: var(--correct); background: var(--correct-bg); }
+.match-result-row.wrong   { border-color: var(--wrong);   background: var(--wrong-bg); }
+.match-result-row.revealed { border-style: dashed; }
+
+.match-result-left { font-weight: 600; overflow-wrap: anywhere; }
+.match-result-right { display: flex; flex-direction: column; gap: 0.2rem; overflow-wrap: anywhere; }
+.match-result-row.correct .match-result-right { flex-direction: row; align-items: baseline; gap: 0.4rem; }
+.match-result-row.correct .result-mark { color: var(--correct); }
+.match-result-row.wrong .result-mark   { color: var(--wrong); }
+.match-given-wrong { color: var(--wrong); display: flex; align-items: baseline; gap: 0.4rem; }
+.match-correct-partner { color: var(--text); font-weight: 600; }
+
+/* ═══════════════════════════════════════
+   ROUND HEADER / HOME
+═══════════════════════════════════════ */
+
+.round-meta-left { display: flex; align-items: center; gap: 0.75rem; }
+
+.home-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0.35rem 0.5rem 0.35rem 0;
+  min-height: 32px;
+}
+.home-btn:hover { color: var(--text); }
+
+.prompt:focus { outline: none; }
+
+/* ═══════════════════════════════════════
+   LANDING POLISH
+═══════════════════════════════════════ */
+
+#screen-landing {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, color-mix(in srgb, #7c3aed 14%, transparent), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 15% 100%, color-mix(in srgb, #2563eb 10%, transparent), transparent 70%);
+}
+
+.category-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  max-width: 420px;
+}
+.category-chips:empty { display: none; }
+.category-chips .chip { text-transform: none; }
+
+.stats-banner { box-shadow: var(--shadow); }
+
+/* ═══════════════════════════════════════
+   ACCESSIBILITY
+═══════════════════════════════════════ */
+
+/* Keep a visible ring for keyboard users without showing it on mouse clicks. */
+button:focus-visible, a:focus-visible, input:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+.numeric-input:focus-visible, .short-input:focus-visible { outline-offset: 0; }
+
+/* White on the lighter dark-mode blue is only ~2.5:1; use dark text there. */
+@media (prefers-color-scheme: dark) {
+  .btn-primary:not(.btn-large) { color: #0b1220; }
+  .order-move-btn:hover:not(:disabled) { color: #0b1220; }
+  .match-item.paired .match-badge { color: #0b1220; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Slightly larger touch targets for the ▲ ▼ reorder buttons. */
+.order-move-btn { width: 40px; height: 24px; }
+
+/* ═══════════════════════════════════════
    DESKTOP TWEAKS (≥640px)
 ═══════════════════════════════════════ */
 

@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Econ Pub Trivia</title>
+  <meta name="description" content="Practice economics trivia for pub quiz night: 1,000+ questions on Canadian and global economics, money, markets and history.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f5f0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%8A%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +22,9 @@
         <p class="tagline-sub">1,000+ questions across 16 categories — get 12 random ones each round, submit your answers, and see how you stack up.</p>
         <div id="stats-display" class="stats-banner hidden"></div>
         <button id="btn-start" class="btn-primary btn-large">Start Round</button>
+        <button id="btn-discard-round" class="link-btn hidden">Discard this round</button>
         <div id="thin-pool-msg" class="thin-msg hidden"></div>
+        <div id="category-chips" class="category-chips" aria-label="Categories covered"></div>
         <button id="btn-reset-history" class="link-btn">Reset my history</button>
       </div>
     </div>
@@ -25,11 +32,15 @@
     <!-- ── Round ── -->
     <div id="screen-round" class="screen hidden">
       <header class="round-header">
-        <div class="progress-track" role="progressbar" aria-label="Round progress">
+        <div id="progress-track" class="progress-track" role="progressbar" aria-label="Round progress"
+             aria-valuemin="1" aria-valuenow="1" aria-valuemax="12">
           <div id="progress-bar" class="progress-fill" style="width:0%"></div>
         </div>
         <div class="round-meta">
-          <span id="q-counter" class="q-counter"></span>
+          <div class="round-meta-left">
+            <button id="btn-home" class="home-btn" aria-label="Back to the start screen (your round is saved)">← Home</button>
+            <span id="q-counter" class="q-counter"></span>
+          </div>
           <div class="chips">
             <span id="chip-category" class="chip chip-cat"></span>
             <span id="chip-difficulty" class="chip"></span>
@@ -38,7 +49,7 @@
       </header>
 
       <main class="question-area">
-        <p id="question-prompt" class="prompt"></p>
+        <p id="question-prompt" class="prompt" tabindex="-1"></p>
         <figure id="question-image" class="question-image hidden">
           <img id="question-image-img" alt="">
           <figcaption id="question-image-caption" class="question-image-caption hidden"></figcaption>

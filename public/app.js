@@ -22,6 +22,15 @@ const GRADE_LABELS = [
 
 const DIFF_NAMES = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
 
+// CSS capitalisation turns "usa" into "Usa", so label categories explicitly.
+const CATEGORY_LABELS = {
+  data: 'Data', canada: 'Canada', wildcard: 'Wildcard', finance: 'Finance',
+  history: 'History', economists: 'Economists', trends: 'Trends', world: 'World',
+  theory: 'Theory', usa: 'USA', firsts: 'Firsts', money: 'Money', nobel: 'Nobel',
+  math: 'Math', origins: 'Origins', pop: 'Pop econ',
+};
+const catLabel = c => CATEGORY_LABELS[c] || c;
+
 // ═══════════════════════════════════════
 // STORAGE (try/catch — app works if blocked)
 // ═══════════════════════════════════════
@@ -47,11 +56,16 @@ const S = {
 
 let allQuestions = [];
 
-// round = { ids: string[], answers: (boolean|null)[], current: number }
+// round = {
+//   ids: string[], answers: (boolean|null)[], current: number,
+//   skipped?: boolean[],   // which answers were surrenders rather than wrong guesses
+//   responses?: any[]      // what the player actually submitted, so a reload can
+//                          // show their answer rather than just the right one
+// }
 let round = null;
 
 // Per-render mutable state for interactive formats
-let _order = { items: [], selected: null };
+let _order = { items: [] };
 let _match = { selectedLeft: null, pairs: [] };  // pairs: [left, right][]
 
 // ═══════════════════════════════════════
@@ -295,7 +309,37 @@ function showLanding() {
   }
   document.getElementById('btn-reset-inline')?.addEventListener('click', resetHistory);
 
+  // A round in progress survives a reload or a trip back here, so say so
+  // rather than showing "Start Round" and silently resuming.
+  const saved = S.get('round', null);
+  const startBtn = document.getElementById('btn-start');
+  const discardBtn = document.getElementById('btn-discard-round');
+  if (saved?.ids?.length) {
+    const done = (saved.answers || []).filter(a => a !== null).length;
+    startBtn.textContent = `Resume round (${done}/${saved.ids.length} answered)`;
+    discardBtn.classList.remove('hidden');
+  } else {
+    startBtn.textContent = 'Start Round';
+    discardBtn.classList.add('hidden');
+  }
+
+  renderCategoryChips();
   showScreen('screen-landing');
+}
+
+function renderCategoryChips() {
+  const box = document.getElementById('category-chips');
+  const cats = [...new Set(allQuestions.map(q => q.category))]
+    .sort((a, b) => catLabel(a).localeCompare(catLabel(b)));
+  box.innerHTML = '';
+  cats.forEach(c => box.appendChild(el('span', 'chip chip-cat', catLabel(c))));
+}
+
+function discardRound() {
+  if (!confirm('Discard this round? Questions you already answered stay marked as seen.')) return;
+  S.del('round');
+  round = null;
+  showLanding();
 }
 
 // ═══════════════════════════════════════
@@ -339,15 +383,26 @@ function renderQuestion() {
 
   const pct = (round.current / round.ids.length) * 100;
   document.getElementById('progress-bar').style.width = pct + '%';
+  const track = document.getElementById('progress-track');
+  track.setAttribute('aria-valuenow', String(round.current + 1));
+  track.setAttribute('aria-valuemax', String(round.ids.length));
   document.getElementById('q-counter').textContent = `${round.current + 1} / ${round.ids.length}`;
-  document.getElementById('chip-category').textContent = q.category;
+  document.getElementById('chip-category').textContent = catLabel(q.category);
 
   const diffChip = document.getElementById('chip-difficulty');
   diffChip.textContent = DIFF_NAMES[q.difficulty] || q.difficulty;
   diffChip.className = `chip diff-${q.difficulty}`;
 
-  document.getElementById('question-prompt').textContent = q.prompt;
+  const promptEl = document.getElementById('question-prompt');
+  promptEl.textContent = q.prompt;
   renderQuestionImage(q);
+
+  // Without this the previous question's scroll position carries over, so on a
+  // phone the next question can open below the fold. Moving focus to the prompt
+  // also gives keyboard and screen-reader users a sensible starting point
+  // (the Next button that held focus has just been hidden).
+  window.scrollTo(0, 0);
+  promptEl.focus({ preventScroll: true });
 
   const answerArea = document.getElementById('answer-area');
   answerArea.innerHTML = '';
@@ -359,14 +414,15 @@ function renderQuestion() {
   nextBtn.classList.add('hidden');
 
   const alreadyAnswered = round.answers[round.current] !== null;
-  buildAnswerUI(q, answerArea, alreadyAnswered);
+  const response = round.responses?.[round.current] ?? undefined;
+  const wasSkipped = !!round.skipped?.[round.current];
+  buildAnswerUI(q, answerArea, alreadyAnswered, response, wasSkipped);
 
   const skipBtn = document.getElementById('btn-skip');
   skipBtn.classList.toggle('hidden', alreadyAnswered);
 
   if (alreadyAnswered) {
-    renderFeedback(q, round.answers[round.current], undefined,
-      round.skipped?.[round.current]);
+    renderFeedback(q, round.answers[round.current], response, wasSkipped);
     nextBtn.classList.remove('hidden');
   }
 }
@@ -404,30 +460,40 @@ function renderQuestionImage(q) {
 // ANSWER UI BUILDERS
 // ═══════════════════════════════════════
 
-function buildAnswerUI(q, container, answered, submittedResponse) {
+// `response` is what the player submitted (undefined if they skipped) and
+// `skipped` says they surrendered. Both only matter once `answered` is true,
+// where they let each format show the player's own answer next to the right one.
+function buildAnswerUI(q, container, answered, response, skipped) {
   switch (q.format) {
-    case 'mc':           buildMC(q, container, answered); break;
-    case 'tf':           buildTF(q, container, answered); break;
-    case 'numeric':      buildNumeric(q, container, answered); break;
-    case 'order':        buildOrder(q, container, answered, submittedResponse); break;
-    case 'higher_lower': buildHL(q, container, answered); break;
-    case 'match':        buildMatch(q, container, answered); break;
-    case 'short':        buildShort(q, container, answered); break;
+    case 'mc':           buildMC(q, container, answered, response, skipped); break;
+    case 'tf':           buildTF(q, container, answered, response, skipped); break;
+    case 'numeric':      buildNumeric(q, container, answered, response, skipped); break;
+    case 'order':        buildOrder(q, container, answered, response, skipped); break;
+    case 'higher_lower': buildHL(q, container, answered, response, skipped); break;
+    case 'match':        buildMatch(q, container, answered, response, skipped); break;
+    case 'short':        buildShort(q, container, answered, response, skipped); break;
   }
+}
+
+// Shared by the single-pick formats: right answer green, the player's wrong
+// pick red, everything else faded.
+function markPick(b, isAnswer, isPick) {
+  b.disabled = true;
+  if (isAnswer) b.classList.add('correct');
+  else if (isPick) b.classList.add('wrong');
+  else b.classList.add('dim');
 }
 
 // ── MC ──────────────────────────────────
 
-function buildMC(q, c, answered) {
+function buildMC(q, c, answered, response, skipped) {
   const choices = shuffled(q.choices, q.id);
   const ul = el('ul', 'mc-list');
   choices.forEach(choice => {
     const li = el('li');
     const b = el('button', 'mc-option', choice);
-    b.setAttribute('aria-label', choice);
     if (answered) {
-      b.disabled = true;
-      b.classList.add(choice === q.answer ? 'correct' : 'dim');
+      markPick(b, choice === q.answer, !skipped && choice === response);
     } else {
       b.addEventListener('click', () => submit(q, choice));
     }
@@ -439,13 +505,12 @@ function buildMC(q, c, answered) {
 
 // ── TF ──────────────────────────────────
 
-function buildTF(q, c, answered) {
+function buildTF(q, c, answered, response, skipped) {
   const wrap = el('div', 'tf-wrap');
   [['True', true], ['False', false]].forEach(([label, val]) => {
     const b = el('button', 'tf-option', label);
     if (answered) {
-      b.disabled = true;
-      b.classList.add(val === q.answer ? 'correct' : 'dim');
+      markPick(b, val === q.answer, !skipped && val === response);
     } else {
       b.addEventListener('click', () => submit(q, val));
     }
@@ -456,7 +521,7 @@ function buildTF(q, c, answered) {
 
 // ── NUMERIC ─────────────────────────────
 
-function buildNumeric(q, c, answered) {
+function buildNumeric(q, c, answered, response, skipped) {
   const wrap = el('div', 'numeric-wrap');
 
   if (q.unit) {
@@ -468,8 +533,15 @@ function buildNumeric(q, c, answered) {
   input.type = 'number';
   input.className = 'numeric-input';
   input.placeholder = 'Enter a number…';
+  input.step = 'any';
   input.setAttribute('aria-label', 'Your numeric answer');
-  if (answered) { input.value = q.answer; input.disabled = true; }
+  if (answered) {
+    // Show what they typed, not the right answer (that is in the feedback).
+    input.value = skipped || response === undefined ? '' : response;
+    if (skipped) input.placeholder = '(skipped)';
+    input.disabled = true;
+    if (!skipped) input.classList.add(gradeAnswer(q, response) ? 'is-correct' : 'is-wrong');
+  }
 
   const submitBtn = el('button', 'btn-primary', 'Submit');
   if (answered) {
@@ -488,13 +560,14 @@ function buildNumeric(q, c, answered) {
 
 // ── ORDER (▲/▼ move buttons) ─────────────
 
-function buildOrder(q, c, answered, submittedItems) {
-  // When re-rendering after submit, show what the user actually submitted
-  // so they can see exactly which positions were right or wrong.
-  // On resume (submittedItems unavailable), fall back to correct order.
+function buildOrder(q, c, answered, response, skipped) {
+  // After submitting, show the player's own arrangement so they can see which
+  // positions were right. A skip has no arrangement, so show the correct order
+  // in a neutral style instead of marking it all green.
+  const hasOwn = answered && !skipped && Array.isArray(response);
   _order = {
     items: answered
-      ? (Array.isArray(submittedItems) ? [...submittedItems] : [...q.items])
+      ? (hasOwn ? [...response] : [...q.items])
       : shuffled(q.items, q.id + '_order'),
   };
 
@@ -508,8 +581,12 @@ function buildOrder(q, c, answered, submittedItems) {
       const li = el('li', 'order-item');
 
       if (answered) {
-        const isCorrect = q.items[idx] === item;
-        li.classList.add(isCorrect ? 'correct-pos' : 'wrong-pos');
+        if (hasOwn) {
+          const isCorrect = q.items[idx] === item;
+          li.classList.add(isCorrect ? 'correct-pos' : 'wrong-pos');
+        } else {
+          li.classList.add('revealed-pos');
+        }
       } else {
         // ▲ / ▼ move buttons
         const moveBtns = el('div', 'order-move-btns');
@@ -548,6 +625,14 @@ function buildOrder(q, c, answered, submittedItems) {
       li.appendChild(posNum);
       li.appendChild(text);
 
+      // Colour alone must not carry the result (colour-blind players).
+      if (answered && hasOwn) {
+        const ok = q.items[idx] === item;
+        const mark = el('span', 'result-mark', ok ? '✓' : '✗');
+        mark.setAttribute('aria-label', ok ? 'correct position' : 'wrong position');
+        li.appendChild(mark);
+      }
+
       list.appendChild(li);
     });
   }
@@ -565,14 +650,13 @@ function buildOrder(q, c, answered, submittedItems) {
 
 // ── HIGHER / LOWER ──────────────────────
 
-function buildHL(q, c, answered) {
+function buildHL(q, c, answered, response, skipped) {
   const wrap = el('div', 'hl-wrap');
   wrap.appendChild(el('p', 'hl-metric', `Which is higher? ${q.metric}`));
   shuffled(q.items, q.id + '_hl').forEach(item => {
     const b = el('button', 'hl-option', item);
     if (answered) {
-      b.disabled = true;
-      b.classList.add(item === q.answer ? 'correct' : 'dim');
+      markPick(b, item === q.answer, !skipped && item === response);
     } else {
       b.addEventListener('click', () => submit(q, item));
     }
@@ -583,12 +667,44 @@ function buildHL(q, c, answered) {
 
 // ── MATCH ───────────────────────────────
 
-function buildMatch(q, c, answered) {
-  if (!answered) {
-    _match = { selectedLeft: null, pairs: [] };
-  } else {
-    _match = { selectedLeft: null, pairs: [...q.pairs] };
-  }
+// After answering: one row per left item showing what the player paired it with
+// (struck through when wrong) beside the right partner. Previously both columns
+// just turned green, which hid the player's own attempt and read as "all correct".
+function buildMatchResult(q, c, response, skipped) {
+  const wrap = el('div', 'match-wrap');
+  const list = el('ul', 'match-result');
+  q.pairs.forEach(([left, right]) => {
+    const given = !skipped && Array.isArray(response)
+      ? response.find(([l]) => l === left)?.[1] : undefined;
+    const state = given === undefined ? 'revealed' : given === right ? 'correct' : 'wrong';
+
+    const li = el('li', `match-result-row ${state}`);
+    li.appendChild(el('span', 'match-result-left', left));
+
+    const rightBox = el('span', 'match-result-right');
+    if (state === 'revealed') {
+      rightBox.appendChild(el('span', '', right));
+    } else if (state === 'correct') {
+      rightBox.appendChild(el('span', 'result-mark', '✓'));
+      rightBox.appendChild(el('span', '', right));
+    } else {
+      const wrong = el('span', 'match-given-wrong');
+      wrong.appendChild(el('span', 'result-mark', '✗'));
+      wrong.appendChild(el('s', '', given));
+      rightBox.appendChild(wrong);
+      rightBox.appendChild(el('span', 'match-correct-partner', `→ ${right}`));
+    }
+    li.appendChild(rightBox);
+    list.appendChild(li);
+  });
+  wrap.appendChild(list);
+  c.appendChild(wrap);
+}
+
+function buildMatch(q, c, answered, response, skipped) {
+  if (answered) { buildMatchResult(q, c, response, skipped); return; }
+
+  _match = { selectedLeft: null, pairs: [] };
 
   const leftItems = q.pairs.map(([l]) => l);
   const rightItems = shuffled(q.pairs.map(([, r]) => r), q.id + '_match');
@@ -602,41 +718,62 @@ function buildMatch(q, c, answered) {
     leftCol.innerHTML = '';
     rightCol.innerHTML = '';
 
-    leftItems.forEach(item => {
+    // Left items are always numbered; a right item shows the number of the left
+    // item it is paired with. That makes the mapping readable at a glance, which
+    // a shared "paired" colour could not do with four pairs in play.
+    leftItems.forEach((item, i) => {
       const paired = _match.pairs.find(([l]) => l === item);
-      const b = el('button', 'match-item match-left', item);
-      if (answered)      { b.disabled = true; b.classList.add('correct'); }
-      else if (paired)   { b.classList.add('paired'); }
-      if (_match.selectedLeft === item) b.classList.add('selected');
-      if (!answered) {
-        b.addEventListener('click', () => {
-          if (_match.pairs.find(([l]) => l === item)) {
-            _match.pairs = _match.pairs.filter(([l]) => l !== item);
-            _match.selectedLeft = null;
-          } else {
-            _match.selectedLeft = _match.selectedLeft === item ? null : item;
-          }
-          redraw(); updateSubmitBtn();
-        });
+      const b = el('button', 'match-item match-left');
+      b.appendChild(el('span', 'match-badge', String(i + 1)));
+      b.appendChild(el('span', 'match-text', item));
+      if (paired) {
+        b.classList.add('paired');
+        b.setAttribute('aria-label', `${i + 1}. ${item}, paired with ${paired[1]}. Tap to unpair.`);
+      } else {
+        b.setAttribute('aria-label', `${i + 1}. ${item}`);
       }
+      if (_match.selectedLeft === item) {
+        b.classList.add('selected');
+        b.setAttribute('aria-pressed', 'true');
+      }
+      b.addEventListener('click', () => {
+        if (paired) {
+          _match.pairs = _match.pairs.filter(([l]) => l !== item);
+          _match.selectedLeft = null;
+        } else {
+          _match.selectedLeft = _match.selectedLeft === item ? null : item;
+        }
+        redraw(); updateSubmitBtn();
+      });
       leftCol.appendChild(b);
     });
 
     rightItems.forEach(item => {
-      const pairedLeft = _match.pairs.find(([, r]) => r === item);
-      const b = el('button', 'match-item match-right', item);
-      if (answered)       { b.disabled = true; b.classList.add('correct'); }
-      else if (pairedLeft){ b.classList.add('paired'); }
-      if (!answered) {
-        b.addEventListener('click', () => {
-          if (!_match.selectedLeft) return;
-          const left = _match.selectedLeft;
-          _match.pairs = _match.pairs.filter(([l]) => l !== left).filter(([, r]) => r !== item);
-          _match.pairs.push([left, item]);
-          _match.selectedLeft = null;
-          redraw(); updateSubmitBtn();
-        });
+      const pairedPair = _match.pairs.find(([, r]) => r === item);
+      const b = el('button', 'match-item match-right');
+      if (pairedPair) {
+        const n = leftItems.indexOf(pairedPair[0]) + 1;
+        b.classList.add('paired');
+        b.appendChild(el('span', 'match-badge', String(n)));
+        b.setAttribute('aria-label', `${item}, paired with ${pairedPair[0]}. Tap to unpair.`);
       }
+      b.appendChild(el('span', 'match-text', item));
+      b.addEventListener('click', () => {
+        if (!_match.selectedLeft) {
+          // Nothing selected: tapping an already-paired right item undoes it,
+          // so a pairing can be reversed from either side.
+          if (pairedPair) {
+            _match.pairs = _match.pairs.filter(([, r]) => r !== item);
+            redraw(); updateSubmitBtn();
+          }
+          return;
+        }
+        const left = _match.selectedLeft;
+        _match.pairs = _match.pairs.filter(([l]) => l !== left).filter(([, r]) => r !== item);
+        _match.pairs.push([left, item]);
+        _match.selectedLeft = null;
+        redraw(); updateSubmitBtn();
+      });
       rightCol.appendChild(b);
     });
   }
@@ -646,14 +783,13 @@ function buildMatch(q, c, answered) {
   grid.appendChild(rightCol);
   wrap.appendChild(grid);
 
-  if (!answered) {
-    wrap.appendChild(el('p', 'match-hint', 'Tap a left item, then the matching right item.'));
-    const submitBtn = el('button', 'btn-primary match-submit', 'Submit matches');
-    submitBtn.id = 'match-submit-btn';
-    submitBtn.disabled = true;
-    submitBtn.addEventListener('click', () => submit(q, [..._match.pairs]));
-    wrap.appendChild(submitBtn);
-  }
+  wrap.appendChild(el('p', 'match-hint',
+    'Tap an item on the left, then its match on the right. Tap a pairing to undo it.'));
+  const submitBtn = el('button', 'btn-primary match-submit', 'Submit matches');
+  submitBtn.id = 'match-submit-btn';
+  submitBtn.disabled = true;
+  submitBtn.addEventListener('click', () => submit(q, [..._match.pairs]));
+  wrap.appendChild(submitBtn);
 
   c.appendChild(wrap);
 }
@@ -665,14 +801,22 @@ function updateSubmitBtn() {
 
 // ── SHORT ────────────────────────────────
 
-function buildShort(q, c, answered) {
+function buildShort(q, c, answered, response, skipped) {
   const wrap = el('div', 'short-wrap');
   const input = el('input');
   input.type = 'text';
   input.className = 'short-input';
   input.placeholder = 'Type your answer…';
+  input.autocomplete = 'off';
+  input.autocapitalize = 'off';
+  input.spellcheck = false;
   input.setAttribute('aria-label', 'Short answer');
-  if (answered) { input.value = q.answer; input.disabled = true; }
+  if (answered) {
+    input.value = skipped || response === undefined ? '' : response;
+    if (skipped) input.placeholder = '(skipped)';
+    input.disabled = true;
+    if (!skipped) input.classList.add(gradeAnswer(q, response) ? 'is-correct' : 'is-wrong');
+  }
 
   const submitBtn = el('button', 'btn-primary', 'Submit');
   if (answered) {
@@ -700,6 +844,7 @@ function buildShort(q, c, answered) {
 function revealAnswer(q, correct, response, wasSkipped) {
   round.answers[round.current] = correct;
   if (wasSkipped) (round.skipped ??= [])[round.current] = true;
+  (round.responses ??= [])[round.current] = response ?? null;
   S.set('round', round);
 
   const seen = new Set(S.get('seen', []));
@@ -709,7 +854,7 @@ function revealAnswer(q, correct, response, wasSkipped) {
   // Rebuild answer area in answered state to show correct options highlighted
   const answerArea = document.getElementById('answer-area');
   answerArea.innerHTML = '';
-  buildAnswerUI(q, answerArea, true, response);
+  buildAnswerUI(q, answerArea, true, response, wasSkipped);
 
   renderFeedback(q, correct, response, wasSkipped);
 
@@ -737,14 +882,13 @@ function renderFeedback(q, correct, response, wasSkipped) {
   area.appendChild(badge);
 
   if (!correct) {
-    if (q.format === 'order' && Array.isArray(response)) {
-      const userAns = el('p', 'feedback-correct-ans');
-      userAns.innerHTML = `Your order: <strong>${esc(response.join(' → '))}</strong>`;
-      area.appendChild(userAns);
+    // The match result rows already show every correct partner beside the
+    // player's own attempt, so repeating them as a paragraph is just noise.
+    if (q.format !== 'match') {
+      const ans = el('p', 'feedback-correct-ans');
+      ans.innerHTML = `Correct answer: <strong>${esc(formatAnswer(q))}</strong>`;
+      area.appendChild(ans);
     }
-    const ans = el('p', 'feedback-correct-ans');
-    ans.innerHTML = `Correct answer: <strong>${esc(formatAnswer(q))}</strong>`;
-    area.appendChild(ans);
   }
 
   area.appendChild(el('p', 'feedback-explanation', q.explanation));
@@ -808,7 +952,7 @@ function endRound() {
 
   const catHTML = Object.entries(catMap)
     .sort(([, a], [, b]) => b.c / b.t - a.c / a.t)
-    .map(([cat, {c, t}]) => `<span class="cat-result"><strong>${esc(cat)}</strong> ${c}/${t}</span>`)
+    .map(([cat, {c, t}]) => `<span class="cat-result"><strong>${esc(catLabel(cat))}</strong> ${c}/${t}</span>`)
     .join('');
 
   const skippedCount = (round.skipped || []).filter(Boolean).length;
@@ -816,7 +960,9 @@ function endRound() {
     ? `<p class="end-skipped">${skippedCount} skipped</p>` : '';
 
   const emojiGrid = buildGrid(round.answers, round.skipped || []);
-  const shareText = `📊 ECON PUB TRIVIA\n${correct}/${total} · ${grade}\n\n${emojiGrid}\n\necontrivia.ca`;
+  // Link back to wherever this is actually hosted rather than a hard-coded
+  // domain that may not be ours.
+  const shareText = `📊 ECON PUB TRIVIA\n${correct}/${total} · ${grade}\n\n${emojiGrid}\n\n${location.origin}`;
 
   const ec = document.getElementById('end-content');
   ec.innerHTML = `
@@ -833,9 +979,16 @@ function endRound() {
 
   document.getElementById('btn-copy').addEventListener('click', () => {
     const copyBtn = document.getElementById('btn-copy');
-    navigator.clipboard?.writeText(shareText)
-      .then(() => { copyBtn.textContent = '✓ Copied!'; })
-      .catch(() => { copyBtn.textContent = '✗ Try again'; });
+    const flash = text => {
+      copyBtn.textContent = text;
+      setTimeout(() => { copyBtn.textContent = '📋 Copy results'; }, 2200);
+    };
+    // The clipboard API is absent on insecure origins and some embedded
+    // browsers; previously the button then did nothing at all.
+    if (!navigator.clipboard) { flash('Copy not available here'); return; }
+    navigator.clipboard.writeText(shareText)
+      .then(() => flash('✓ Copied!'))
+      .catch(() => flash('✗ Copy failed'));
   });
 
   document.getElementById('btn-play-again').addEventListener('click', () => {
@@ -906,6 +1059,8 @@ document.getElementById('btn-skip').addEventListener('click', () => {
   if (q && round.answers[round.current] === null) skipQuestion(q);
 });
 document.getElementById('btn-reset-history').addEventListener('click', resetHistory);
+document.getElementById('btn-discard-round').addEventListener('click', discardRound);
+document.getElementById('btn-home').addEventListener('click', showLanding);
 
 // ═══════════════════════════════════════
 // INIT
@@ -922,5 +1077,15 @@ document.getElementById('btn-reset-history').addEventListener('click', resetHist
     return;
   }
   pruneSeen();
+
+  // A round saved before the question bank changed may reference questions that
+  // no longer exist. Resuming it would end the round early on the first missing
+  // question and record a partial score, so discard it instead.
+  const savedRound = S.get('round', null);
+  if (savedRound && (!Array.isArray(savedRound.ids) || !Array.isArray(savedRound.answers)
+      || savedRound.ids.some(id => !qById(id)))) {
+    S.del('round');
+  }
+
   showLanding();
 }());
