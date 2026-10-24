@@ -16,7 +16,11 @@
     "source": "https://www.wto.org/english/res_e/booksp_e/trade_outlook25_e.pdf",
     "as_of": "2023",
     "time_sensitive": true,
-    "tags": ["trade", "exports", "China"]
+    "tags": [
+      "trade",
+      "exports",
+      "China"
+    ]
   },
   {
     "id": "data-002",
@@ -24,14 +28,22 @@
     "difficulty": 1,
     "format": "higher_lower",
     "prompt": "Which had the larger population in Canada's 2021 census?",
-    "items": ["Ontario", "Quebec"],
+    "items": [
+      "Ontario",
+      "Quebec"
+    ],
     "metric": "population counted in Canada's 2021 census",
     "answer": "Ontario",
     "explanation": "Ontario recorded 14,223,942 people in the 2021 census versus Quebec's 8,501,833 — Ontario is Canada's most populous province by a large margin.",
     "source": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm",
     "as_of": "2021",
     "time_sensitive": false,
-    "tags": ["Canada", "population", "census", "StatCan"]
+    "tags": [
+      "Canada",
+      "population",
+      "census",
+      "StatCan"
+    ]
   },
   {
     "id": "data-003",
@@ -46,7 +58,12 @@
     "source": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm",
     "as_of": "2021",
     "time_sensitive": false,
-    "tags": ["Canada", "population", "census", "StatCan"]
+    "tags": [
+      "Canada",
+      "population",
+      "census",
+      "StatCan"
+    ]
   },
   {
     "id": "data-004",
@@ -54,14 +71,22 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "Which country had the larger nominal GDP in 2023?",
-    "items": ["Germany", "United Kingdom"],
+    "items": [
+      "Germany",
+      "United Kingdom"
+    ],
     "metric": "nominal GDP in 2023 (IMF World Economic Outlook data, USD)",
     "answer": "Germany",
     "explanation": "Germany's nominal GDP in 2023 was approximately US $4.6 trillion, compared with the UK's US $3.4 trillion. Germany is the largest economy in Europe and the third largest in the world.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["GDP", "Germany", "UK", "Europe"]
+    "tags": [
+      "GDP",
+      "Germany",
+      "UK",
+      "Europe"
+    ]
   },
   {
     "id": "data-005",
@@ -69,14 +94,22 @@
     "difficulty": 1,
     "format": "higher_lower",
     "prompt": "The United States vs. China: which had the bigger economy in nominal dollar terms in 2023?",
-    "items": ["United States", "China"],
+    "items": [
+      "United States",
+      "China"
+    ],
     "metric": "nominal GDP in 2023 (IMF World Economic Outlook, current USD)",
     "answer": "United States",
     "explanation": "The United States recorded approximately US $27.4 trillion in nominal GDP in 2023, compared with China's $17.7 trillion. Despite decades of rapid growth, China has not yet overtaken the US in nominal dollar terms.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["GDP", "US", "China", "global economy"]
+    "tags": [
+      "GDP",
+      "US",
+      "China",
+      "global economy"
+    ]
   },
   {
     "id": "data-006",
@@ -95,7 +128,12 @@
     "source": "https://www.statcan.gc.ca/en/subjects-start/international_trade",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Canada", "trade", "exports", "US"]
+    "tags": [
+      "Canada",
+      "trade",
+      "exports",
+      "US"
+    ]
   },
   {
     "id": "data-007",
@@ -114,7 +152,13 @@
     "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["US", "inflation", "CPI", "2022", "Federal Reserve"]
+    "tags": [
+      "US",
+      "inflation",
+      "CPI",
+      "2022",
+      "Federal Reserve"
+    ]
   },
   {
     "id": "data-008",
@@ -133,7 +177,12 @@
     "source": "https://www.un.org/development/desa/pd/content/world-population-prospects-2022",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["population", "India", "China", "demographics"]
+    "tags": [
+      "population",
+      "India",
+      "China",
+      "demographics"
+    ]
   },
   {
     "id": "data-009",
@@ -152,7 +201,12 @@
     "source": "https://natural-resources.canada.ca/energy-sources/fossil-fuels/crude-oil-industry-overview",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Canada", "exports", "energy", "oil sands"]
+    "tags": [
+      "Canada",
+      "exports",
+      "energy",
+      "oil sands"
+    ]
   },
   {
     "id": "data-010",
@@ -165,7 +219,11 @@
     "source": "https://www.bankofcanada.ca/core-functions/monetary-policy/inflation/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "inflation targeting", "monetary policy"]
+    "tags": [
+      "Bank of Canada",
+      "inflation targeting",
+      "monetary policy"
+    ]
   },
   {
     "id": "data-011",
@@ -173,14 +231,23 @@
     "difficulty": 1,
     "format": "higher_lower",
     "prompt": "Which country spends a higher share of its GDP on healthcare?",
-    "items": ["United States", "Canada"],
+    "items": [
+      "United States",
+      "Canada"
+    ],
     "metric": "total healthcare spending as a percentage of GDP",
     "answer": "United States",
     "explanation": "The US spends roughly 17–18% of GDP on healthcare — by far the highest in the OECD — compared with Canada's 12–13%. Despite higher spending, the US does not achieve better health outcomes on most standard measures.",
     "source": "https://stats.oecd.org/",
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["healthcare", "spending", "US", "Canada", "OECD"]
+    "tags": [
+      "healthcare",
+      "spending",
+      "US",
+      "Canada",
+      "OECD"
+    ]
   },
   {
     "id": "data-012",
@@ -193,7 +260,12 @@
     "source": "https://www.statcan.gc.ca/en/subjects-start/international_trade",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Canada", "China", "trade", "trading partners"]
+    "tags": [
+      "Canada",
+      "China",
+      "trade",
+      "trading partners"
+    ]
   },
   {
     "id": "data-013",
@@ -212,7 +284,13 @@
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Japan", "debt", "GDP", "G7", "fiscal"]
+    "tags": [
+      "Japan",
+      "debt",
+      "GDP",
+      "G7",
+      "fiscal"
+    ]
   },
   {
     "id": "data-014",
@@ -220,14 +298,22 @@
     "difficulty": 1,
     "format": "higher_lower",
     "prompt": "Which country has the larger population?",
-    "items": ["India", "Canada"],
+    "items": [
+      "India",
+      "Canada"
+    ],
     "metric": "total population (2023 estimates)",
     "answer": "India",
     "explanation": "India's population reached approximately 1.44 billion in 2023, making it the world's most populous country. Canada's population was around 40 million — meaning India has roughly 35 times as many people as Canada.",
     "source": "https://www.un.org/development/desa/pd/content/world-population-prospects-2022",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["India", "Canada", "population", "demographics"]
+    "tags": [
+      "India",
+      "Canada",
+      "population",
+      "demographics"
+    ]
   },
   {
     "id": "data-015",
@@ -246,7 +332,12 @@
     "source": "https://www.worldbank.org/en/topic/poverty/brief/global-poverty-line-faq",
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["poverty", "World Bank", "global", "development"]
+    "tags": [
+      "poverty",
+      "World Bank",
+      "global",
+      "development"
+    ]
   },
   {
     "id": "data-016",
@@ -259,7 +350,13 @@
     "source": "https://www.who.int/data/gho/publications/world-health-statistics",
     "as_of": "2021",
     "time_sensitive": false,
-    "tags": ["life expectancy", "COVID-19", "demographics", "global health", "WHO"]
+    "tags": [
+      "life expectancy",
+      "COVID-19",
+      "demographics",
+      "global health",
+      "WHO"
+    ]
   },
   {
     "id": "data-017",
@@ -267,14 +364,19 @@
     "difficulty": 2,
     "format": "numeric",
     "prompt": "The Bank of Canada's benchmark overnight rate reached its peak in July 2023, completing the most aggressive tightening cycle in the bank's modern history. What was that peak rate?",
-    "answer": 5.0,
+    "answer": 5,
     "unit": "% per year",
     "tolerance": 0.05,
     "explanation": "The Bank of Canada raised its overnight rate to 5.00% on July 12, 2023 — a 22-year high. It had been at 0.25% in early 2022. The bank began cutting in June 2024, responding to falling inflation and a softening economy.",
     "source": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "interest rates", "overnight rate", "2023"]
+    "tags": [
+      "Bank of Canada",
+      "interest rates",
+      "overnight rate",
+      "2023"
+    ]
   },
   {
     "id": "data-018",
@@ -282,14 +384,23 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "Which province has the higher GDP per capita?",
-    "items": ["Alberta", "Ontario"],
+    "items": [
+      "Alberta",
+      "Ontario"
+    ],
     "metric": "GDP per capita (Statistics Canada, 2022)",
     "answer": "Alberta",
     "explanation": "Alberta's GDP per capita (around $95,000–$100,000 CAD) exceeds Ontario's (around $65,000–$70,000 CAD) due to its large energy sector. Alberta's fortunes rise and fall with oil prices, making it the wealthiest province during booms.",
     "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610022201",
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["Alberta", "Ontario", "GDP per capita", "Canada", "provinces"]
+    "tags": [
+      "Alberta",
+      "Ontario",
+      "GDP per capita",
+      "Canada",
+      "provinces"
+    ]
   },
   {
     "id": "data-019",
@@ -308,7 +419,13 @@
     "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/220720/dq220720a-eng.htm",
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["Canada", "inflation", "CPI", "2022", "Bank of Canada"]
+    "tags": [
+      "Canada",
+      "inflation",
+      "CPI",
+      "2022",
+      "Bank of Canada"
+    ]
   },
   {
     "id": "data-020",
@@ -316,14 +433,24 @@
     "difficulty": 2,
     "format": "order",
     "prompt": "Rank these four countries from largest to smallest by nominal GDP in 2023.",
-    "items": ["United States", "China", "Germany", "Japan"],
+    "items": [
+      "United States",
+      "China",
+      "Germany",
+      "Japan"
+    ],
     "order_by": "nominal GDP in 2023 from largest to smallest (USD)",
     "answer": "United States → China → Germany → Japan",
     "explanation": "US ~$27.4T, China ~$17.7T, Germany ~$4.5T, Japan ~$4.2T. Notably, Germany overtook Japan for the 3rd spot in 2023 due to yen depreciation. Japan has been the world's 3rd-largest economy for most of the 2000s–2010s.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": true,
-    "tags": ["GDP", "global economy", "rankings", "2023"]
+    "tags": [
+      "GDP",
+      "global economy",
+      "rankings",
+      "2023"
+    ]
   },
   {
     "id": "data-021",
@@ -331,14 +458,23 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "United States or Canada: which country has the more unequal income distribution, as measured by the Gini coefficient?",
-    "items": ["United States", "Canada"],
+    "items": [
+      "United States",
+      "Canada"
+    ],
     "metric": "Gini coefficient of disposable income inequality (OECD data)",
     "answer": "United States",
     "explanation": "The US has a Gini coefficient of around 0.39–0.41 for disposable income, compared with Canada's ~0.30–0.31. The US has significantly higher pre-tax inequality and also does less redistribution through its tax-and-transfer system than Canada.",
     "source": "https://stats.oecd.org/",
     "as_of": "2021",
     "time_sensitive": false,
-    "tags": ["Gini", "inequality", "US", "Canada", "OECD"]
+    "tags": [
+      "Gini",
+      "inequality",
+      "US",
+      "Canada",
+      "OECD"
+    ]
   },
   {
     "id": "data-022",
@@ -357,7 +493,13 @@
     "source": "https://natural-resources.canada.ca/energy-sources/fossil-fuels/crude-oil-industry-overview",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Canada", "oil", "oil sands", "Alberta", "production"]
+    "tags": [
+      "Canada",
+      "oil",
+      "oil sands",
+      "Alberta",
+      "production"
+    ]
   },
   {
     "id": "data-023",
@@ -370,7 +512,13 @@
     "source": "https://www.worldbank.org/en/country/china/overview",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["China", "Japan", "GDP", "economic history", "2010"]
+    "tags": [
+      "China",
+      "Japan",
+      "GDP",
+      "economic history",
+      "2010"
+    ]
   },
   {
     "id": "data-024",
@@ -385,7 +533,13 @@
     "source": "https://www.crea.ca/housing-market-stats/canadian-housing-market-stats/",
     "as_of": "2024",
     "time_sensitive": true,
-    "tags": ["Canada", "housing", "real estate", "CREA", "home prices"]
+    "tags": [
+      "Canada",
+      "housing",
+      "real estate",
+      "CREA",
+      "home prices"
+    ]
   },
   {
     "id": "data-025",
@@ -404,7 +558,13 @@
     "source": "https://www.statcan.gc.ca/en/subjects-start/international_trade",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Canada", "trade", "exports", "US", "CUSMA"]
+    "tags": [
+      "Canada",
+      "trade",
+      "exports",
+      "US",
+      "CUSMA"
+    ]
   },
   {
     "id": "data-026",
@@ -412,14 +572,23 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "Which asset class had the higher total market capitalisation in 2023?",
-    "items": ["Gold (all mined gold)", "Bitcoin (total supply)"],
+    "items": [
+      "Gold (all mined gold)",
+      "Bitcoin (total supply)"
+    ],
     "metric": "estimated total market capitalisation at year-end 2023 (USD)",
     "answer": "Gold (all mined gold)",
     "explanation": "All above-ground gold is worth roughly $12–14 trillion at end-2023 prices, dwarfing Bitcoin's market cap of approximately $850 billion at year-end. Bitcoin bulls often cite 'catching gold' as a long-term price target, which would require roughly a 15× increase from 2023 levels.",
     "source": "https://www.gold.org/goldhub/data/above-ground-stocks",
     "as_of": "2023",
     "time_sensitive": true,
-    "tags": ["Bitcoin", "gold", "market cap", "crypto", "comparison"]
+    "tags": [
+      "Bitcoin",
+      "gold",
+      "market cap",
+      "crypto",
+      "comparison"
+    ]
   },
   {
     "id": "data-027",
@@ -438,7 +607,12 @@
     "source": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Canada", "corporate tax", "fiscal policy", "Harper"]
+    "tags": [
+      "Canada",
+      "corporate tax",
+      "fiscal policy",
+      "Harper"
+    ]
   },
   {
     "id": "data-028",
@@ -451,7 +625,13 @@
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Germany", "Japan", "GDP", "rankings", "2023"]
+    "tags": [
+      "Germany",
+      "Japan",
+      "GDP",
+      "rankings",
+      "2023"
+    ]
   },
   {
     "id": "data-029",
@@ -470,7 +650,13 @@
     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/supplementary-immigration-levels-2024-2026.html",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Canada", "immigration", "demographics", "G7", "labour market"]
+    "tags": [
+      "Canada",
+      "immigration",
+      "demographics",
+      "G7",
+      "labour market"
+    ]
   },
   {
     "id": "data-030",
@@ -478,14 +664,22 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "Comparing an emerging market giant with a G7 member: in 2023, did India or Canada record the bigger nominal GDP?",
-    "items": ["India", "Canada"],
+    "items": [
+      "India",
+      "Canada"
+    ],
     "metric": "nominal GDP in 2023 (IMF World Economic Outlook, USD)",
     "answer": "India",
     "explanation": "India's nominal GDP reached approximately $3.7 trillion in 2023, compared with Canada's $2.1 trillion, making India the 5th largest economy globally. India is projected to overtake Japan and Germany within the next decade.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["India", "Canada", "GDP", "global economy"]
+    "tags": [
+      "India",
+      "Canada",
+      "GDP",
+      "global economy"
+    ]
   },
   {
     "id": "data-031",
@@ -494,17 +688,34 @@
     "format": "match",
     "prompt": "Match each country to its approximate nominal GDP in 2023.",
     "pairs": [
-      ["United States", "~$27 trillion"],
-      ["Germany", "~$4.5 trillion"],
-      ["Canada", "~$2.1 trillion"],
-      ["Spain", "~$1.6 trillion"]
+      [
+        "United States",
+        "~$27 trillion"
+      ],
+      [
+        "Germany",
+        "~$4.5 trillion"
+      ],
+      [
+        "Canada",
+        "~$2.1 trillion"
+      ],
+      [
+        "Spain",
+        "~$1.6 trillion"
+      ]
     ],
     "answer": "United States→~$27 trillion; Germany→~$4.5 trillion; Canada→~$2.1 trillion; Spain→~$1.6 trillion",
     "explanation": "These figures illustrate the vast scale differences even within wealthy nations. The US economy is roughly 13 times Canada's size and 17 times Spain's. Canada's economy, though often overlooked, is the 9th or 10th largest in the world.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["GDP", "global economy", "comparison", "2023"]
+    "tags": [
+      "GDP",
+      "global economy",
+      "comparison",
+      "2023"
+    ]
   },
   {
     "id": "data-032",
@@ -517,7 +728,12 @@
     "source": "https://www.bis.org/statistics/rpfx22.htm",
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["US dollar", "foreign exchange", "BIS", "reserve currency"]
+    "tags": [
+      "US dollar",
+      "foreign exchange",
+      "BIS",
+      "reserve currency"
+    ]
   },
   {
     "id": "data-033",
@@ -536,7 +752,13 @@
     "source": "https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["US", "federal deficit", "fiscal", "budget", "GDP"]
+    "tags": [
+      "US",
+      "federal deficit",
+      "fiscal",
+      "budget",
+      "GDP"
+    ]
   },
   {
     "id": "data-034",
@@ -544,14 +766,23 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "Which country ran a larger government budget deficit as a percentage of GDP in 2023?",
-    "items": ["United States", "Canada"],
+    "items": [
+      "United States",
+      "Canada"
+    ],
     "metric": "general government fiscal balance as a percentage of GDP in 2023",
     "answer": "United States",
     "explanation": "The US ran a federal deficit of roughly 6% of GDP in fiscal year 2023, while Canada's federal deficit was much smaller at about 1.5% of GDP. Canada's comparatively lower deficit reflected higher commodity revenues and a faster post-pandemic revenue recovery.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["US", "Canada", "deficit", "fiscal", "comparison"]
+    "tags": [
+      "US",
+      "Canada",
+      "deficit",
+      "fiscal",
+      "comparison"
+    ]
   },
   {
     "id": "data-035",
@@ -570,7 +801,13 @@
     "source": "https://stats.oecd.org/",
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["OECD", "hours worked", "labour", "Mexico", "productivity"]
+    "tags": [
+      "OECD",
+      "hours worked",
+      "labour",
+      "Mexico",
+      "productivity"
+    ]
   },
   {
     "id": "data-036",
@@ -585,7 +822,13 @@
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Japan", "debt", "GDP", "fiscal", "OECD"]
+    "tags": [
+      "Japan",
+      "debt",
+      "GDP",
+      "fiscal",
+      "OECD"
+    ]
   },
   {
     "id": "data-037",
@@ -593,14 +836,23 @@
     "difficulty": 3,
     "format": "higher_lower",
     "prompt": "Canada or Germany: which country scores higher on the Gini coefficient for disposable income inequality?",
-    "items": ["Canada", "Germany"],
+    "items": [
+      "Canada",
+      "Germany"
+    ],
     "metric": "Gini coefficient of disposable income inequality (OECD data, ~2020)",
     "answer": "Canada",
     "explanation": "Canada's Gini coefficient of disposable income is approximately 0.31, while Germany's is around 0.29. Both are significantly more equal than the US (~0.39) and significantly less equal than the Nordic countries (~0.26–0.28).",
     "source": "https://stats.oecd.org/",
     "as_of": "2020",
     "time_sensitive": false,
-    "tags": ["Gini", "inequality", "Canada", "Germany", "OECD"]
+    "tags": [
+      "Gini",
+      "inequality",
+      "Canada",
+      "Germany",
+      "OECD"
+    ]
   },
   {
     "id": "data-038",
@@ -619,7 +871,13 @@
     "source": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/supplementary-immigration-levels-2024-2026.html",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Canada", "immigration", "permanent residents", "2023", "levels plan"]
+    "tags": [
+      "Canada",
+      "immigration",
+      "permanent residents",
+      "2023",
+      "levels plan"
+    ]
   },
   {
     "id": "data-039",
@@ -634,7 +892,13 @@
     "source": "https://www.wto.org/english/res_e/statis_e/its2024_e/its24_toc_e.htm",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Canada", "trade", "exports", "global share", "WTO"]
+    "tags": [
+      "Canada",
+      "trade",
+      "exports",
+      "global share",
+      "WTO"
+    ]
   },
   {
     "id": "data-040",
@@ -653,7 +917,13 @@
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2014",
     "time_sensitive": false,
-    "tags": ["China", "US", "GDP", "PPP", "global economy"]
+    "tags": [
+      "China",
+      "US",
+      "GDP",
+      "PPP",
+      "global economy"
+    ]
   },
   {
     "id": "data-041",
@@ -672,7 +942,13 @@
     "source": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/",
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["US", "national debt", "fiscal", "2022", "trillion"]
+    "tags": [
+      "US",
+      "national debt",
+      "fiscal",
+      "2022",
+      "trillion"
+    ]
   },
   {
     "id": "data-042",
@@ -681,17 +957,35 @@
     "format": "match",
     "prompt": "Match each country to its approximate Gini coefficient for disposable income inequality.",
     "pairs": [
-      ["United States", "~0.39"],
-      ["Canada", "~0.31"],
-      ["Denmark", "~0.28"],
-      ["South Africa", "~0.63"]
+      [
+        "United States",
+        "~0.39"
+      ],
+      [
+        "Canada",
+        "~0.31"
+      ],
+      [
+        "Denmark",
+        "~0.28"
+      ],
+      [
+        "South Africa",
+        "~0.63"
+      ]
     ],
     "answer": "United States→~0.39; Canada→~0.31; Denmark→~0.28; South Africa→~0.63",
     "explanation": "A higher Gini indicates more inequality (0 = perfect equality, 1 = total inequality). South Africa has one of the world's highest Gini coefficients due to its apartheid legacy. Denmark's Nordic model produces one of the lowest. The US is notably more unequal than other wealthy democracies.",
     "source": "https://stats.oecd.org/",
     "as_of": "2020",
     "time_sensitive": false,
-    "tags": ["Gini", "inequality", "OECD", "comparison", "global"]
+    "tags": [
+      "Gini",
+      "inequality",
+      "OECD",
+      "comparison",
+      "global"
+    ]
   },
   {
     "id": "data-043",
@@ -699,14 +993,23 @@
     "difficulty": 3,
     "format": "higher_lower",
     "prompt": "Australia and the United States are both wealthy advanced economies. Which country had the larger GDP per capita in current USD in 2023?",
-    "items": ["United States", "Australia"],
+    "items": [
+      "United States",
+      "Australia"
+    ],
     "metric": "GDP per capita in 2023 (IMF data, current USD)",
     "answer": "United States",
     "explanation": "The US had GDP per capita of approximately $80,000 USD in 2023 versus Australia's ~$65,000. Both are well above the OECD average of roughly $50,000. Australia's high income per capita reflects its combination of commodity wealth and a highly educated workforce.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["GDP per capita", "US", "Australia", "comparison", "wealth"]
+    "tags": [
+      "GDP per capita",
+      "US",
+      "Australia",
+      "comparison",
+      "wealth"
+    ]
   },
   {
     "id": "data-044",
@@ -725,6 +1028,918 @@
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Canada", "debt", "GDP", "fiscal", "provincial"]
+    "tags": [
+      "Canada",
+      "debt",
+      "GDP",
+      "fiscal",
+      "provincial"
+    ]
+  },
+  {
+    "id": "data-045",
+    "category": "data",
+    "difficulty": 1,
+    "format": "numeric",
+    "prompt": "The United States Federal Reserve System consists of how many regional Federal Reserve Banks spread across the country?",
+    "answer": 12,
+    "unit": "",
+    "tolerance": 0,
+    "tolerance_pct": null,
+    "explanation": "The Fed has 12 regional Reserve Banks in Boston, New York, Philadelphia, Cleveland, Richmond, Atlanta, Chicago, St. Louis, Minneapolis, Kansas City, Dallas, and San Francisco. The New York Fed is by far the most powerful, managing open-market operations and serving as the primary interface with Wall Street.",
+    "source": "https://data.worldbank.org/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Federal Reserve",
+      "US monetary policy",
+      "central bank structure"
+    ]
+  },
+  {
+    "id": "data-046",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "California is often described as one of the world's largest economies on its own. Which of the following best approximates California's nominal GDP in 2023?",
+    "choices": [
+      "About $3.9 trillion — larger than Germany",
+      "About $1.5 trillion — similar to Canada",
+      "About $800 billion — comparable to the Netherlands",
+      "About $6 trillion — rivalling Japan"
+    ],
+    "answer": "About $3.9 trillion — larger than Germany",
+    "explanation": "California's nominal GDP of roughly $3.9 trillion (2023) makes it the 5th largest economy in the world if treated as a country — just ahead of Germany (~$4.5T). California alone produces roughly 14–15% of total US GDP, driven by Silicon Valley, aerospace, entertainment, and agriculture.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "US states",
+      "California",
+      "GDP",
+      "subnational economy"
+    ]
+  },
+  {
+    "id": "data-047",
+    "category": "data",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "The United States consistently runs the world's largest current account deficit in absolute dollar terms — importing far more goods and services than it exports.",
+    "answer": true,
+    "explanation": "The US current account deficit exceeded $900 billion in 2022 — the largest in absolute dollar terms of any country. This is partly a function of the dollar's reserve currency status (foreigners willingly accumulate dollars), the US attracting global investment, and American consumers' appetite for imports. Germany and China typically run the largest surpluses.",
+    "source": "https://data.worldbank.org/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "current account",
+      "trade deficit",
+      "US economy",
+      "balance of payments"
+    ]
+  },
+  {
+    "id": "data-048",
+    "category": "data",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Norway's Government Pension Fund Global — the world's largest sovereign wealth fund — was built primarily from revenues from which natural resource?",
+    "choices": [
+      "Offshore oil and gas (North Sea petroleum)",
+      "Salmon aquaculture and fisheries exports",
+      "Hydroelectric power exports to Europe",
+      "Aluminium smelting from imported bauxite"
+    ],
+    "answer": "Offshore oil and gas (North Sea petroleum)",
+    "explanation": "Norway discovered North Sea oil in the late 1960s. Rather than spending the windfall, the government began saving oil revenues in the Government Pension Fund Global in 1990. By 2024, the fund exceeded $1.7 trillion — more than $300,000 per Norwegian citizen — making it the world's largest sovereign wealth fund. Norway's example is frequently cited as a model for managing resource wealth sustainably.",
+    "source": "https://data.worldbank.org/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Norway",
+      "sovereign wealth fund",
+      "oil",
+      "petroleum"
+    ]
+  },
+  {
+    "id": "data-049",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which country holds the largest single voting share at the International Monetary Fund (IMF), effectively giving it veto power over fundamental changes to the Fund's rules that require an 85% supermajority?",
+    "choices": [
+      "United States (~17% of votes)",
+      "China (~6% of votes)",
+      "Japan (~6% of votes)",
+      "Germany (~5% of votes)"
+    ],
+    "answer": "United States (~17% of votes)",
+    "explanation": "The IMF allocates voting power based on economic quotas. The US holds roughly 17% of votes — enough to block any fundamental change requiring an 85% supermajority. This gives the US an effective veto over IMF governance reforms. The IMF managing director is traditionally European, while the World Bank president is traditionally American.",
+    "source": "https://www.imf.org/en/About/Factsheets/Sheets/2023/IMF-Quotas",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "IMF",
+      "voting shares",
+      "US",
+      "global governance"
+    ]
+  },
+  {
+    "id": "data-050",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The US dollar has been the dominant global reserve currency since World War II. As of 2023, approximately what share of global foreign exchange reserves were held in US dollars?",
+    "choices": [
+      "About 58–60%",
+      "About 80–85%",
+      "About 40–45%",
+      "About 25–30%"
+    ],
+    "answer": "About 58–60%",
+    "explanation": "The dollar's share of global reserves has gradually declined from about 70% in the 1990s to roughly 58–60% by 2023, as central banks diversified into euros, yen, sterling, and renminbi. Despite this erosion, the dollar remains by far the dominant reserve currency — the euro is a distant second at around 20%. The renminbi's share remains under 3%.",
+    "source": "https://data.imf.org/COFER",
+    "as_of": "2023",
+    "time_sensitive": true,
+    "tags": [
+      "US dollar",
+      "reserve currency",
+      "foreign exchange reserves",
+      "dedollarization"
+    ]
+  },
+  {
+    "id": "data-051",
+    "category": "data",
+    "difficulty": 1,
+    "format": "higher_lower",
+    "prompt": "Both represent large international financial flows. Which is larger in total dollar value?",
+    "items": [
+      "Global remittances to developing countries",
+      "Official Development Aid (foreign aid) from rich countries"
+    ],
+    "metric": "total annual dollar value (2022–2023)",
+    "answer": "Global remittances to developing countries",
+    "explanation": "Global remittances to low- and middle-income countries reached a record ~$669 billion in 2023 — more than three times total official development assistance (ODA) from all rich-country donors (~$211 billion in 2022). India receives the most remittances (~$125 billion/year), followed by Mexico and China. Remittances are a more stable and larger flow than foreign aid.",
+    "source": "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "remittances",
+      "foreign aid",
+      "ODA",
+      "development finance",
+      "India"
+    ]
+  },
+  {
+    "id": "data-052",
+    "category": "data",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "Comparing two major English-speaking economies — which has the higher federal minimum wage in Canadian-dollar terms?",
+    "items": [
+      "Canada federal minimum wage",
+      "US federal minimum wage"
+    ],
+    "metric": "federal minimum wage in equivalent Canadian dollars (2024)",
+    "answer": "Canada federal minimum wage",
+    "explanation": "Canada's federal minimum wage reached $17.30 CAD/hour in April 2024. The US federal minimum wage is $7.25 USD/hour — equivalent to roughly $9.80–10.00 CAD at typical exchange rates. The US federal minimum wage has not been raised since 2009, the longest freeze in history. Many US states set higher minimums; many Canadian provinces also exceed the federal rate.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2024",
+    "time_sensitive": true,
+    "tags": [
+      "minimum wage",
+      "Canada",
+      "United States",
+      "labour policy",
+      "comparison"
+    ]
+  },
+  {
+    "id": "data-053",
+    "category": "data",
+    "difficulty": 1,
+    "format": "short",
+    "prompt": "The Big Mac Index — a lighthearted way to measure purchasing power parity using the price of a McDonald's hamburger — has been published annually since 1986 by which British magazine?",
+    "answer": "The Economist",
+    "accept": [
+      "The Economist",
+      "the economist",
+      "Economist"
+    ],
+    "explanation": "The Economist's Big Mac Index was invented by journalist Pam Woodall and first published in September 1986. It uses the theory that exchange rates should move toward the level that equalises the price of a Big Mac in different countries. If a Big Mac costs more in Switzerland than in the US at the prevailing exchange rate, the Swiss franc is 'overvalued.'",
+    "source": "https://data.worldbank.org/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Big Mac Index",
+      "PPP",
+      "The Economist",
+      "exchange rates"
+    ]
+  },
+  {
+    "id": "data-054",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Norway's Government Pension Fund Global surpassed which total asset threshold for the first time in 2024, making it by far the world's largest sovereign wealth fund?",
+    "choices": [
+      "$1.7 trillion",
+      "$800 billion",
+      "$3 trillion",
+      "$500 billion"
+    ],
+    "answer": "$1.7 trillion",
+    "explanation": "The fund crossed $1.7 trillion in assets in 2024, driven by record oil revenues and strong equity market returns. The fund is so large it owns on average about 1.5% of every publicly listed company in the world. Its management is often held up as a model of transparent, rules-based sovereign wealth management.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2024",
+    "time_sensitive": true,
+    "tags": [
+      "Norway",
+      "sovereign wealth fund",
+      "Government Pension Fund Global",
+      "GPFG"
+    ]
+  },
+  {
+    "id": "data-055",
+    "category": "data",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Which country holds the world's largest foreign exchange reserves — the stockpile of foreign currencies a central bank holds to defend its exchange rate or pay international obligations?",
+    "choices": [
+      "China (~$3.2 trillion)",
+      "Japan (~$1.3 trillion)",
+      "United States (~$700 billion)",
+      "Germany (~$300 billion)"
+    ],
+    "answer": "China (~$3.2 trillion)",
+    "explanation": "China's foreign exchange reserves peaked at nearly $4 trillion in 2014 and stabilised around $3.1–3.3 trillion, by far the world's largest. Japan is second. The US actually holds relatively small reserves because the dollar is the reserve currency — other countries hold dollars, not the other way around. China accumulated reserves primarily through decades of current account surpluses and capital inflows.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2024",
+    "time_sensitive": true,
+    "tags": [
+      "foreign exchange reserves",
+      "China",
+      "central bank",
+      "international finance"
+    ]
+  },
+  {
+    "id": "data-056",
+    "category": "data",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "Two advanced economies — one a small Alpine neutral state, one the world's largest economy. Which runs the larger current account surplus as a share of its own GDP?",
+    "items": [
+      "Switzerland",
+      "United States"
+    ],
+    "metric": "current account balance as a percentage of GDP",
+    "answer": "Switzerland",
+    "explanation": "Switzerland consistently runs one of the world's largest current account surpluses relative to GDP — typically 5–10% of its GDP — driven by its giant financial services sector, pharmaceutical exports, and enormous investment income from Swiss-held foreign assets. The US runs a large current account deficit. Switzerland's global banking presence means it earns extraordinary returns on overseas investments.",
+    "source": "https://data.worldbank.org/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Switzerland",
+      "current account surplus",
+      "balance of payments",
+      "comparison"
+    ]
+  },
+  {
+    "id": "data-057",
+    "category": "data",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "According to the UBS Global Wealth Report, approximately what share of total global wealth did the wealthiest 1% of adults own in 2023?",
+    "choices": [
+      "About 45%",
+      "About 25%",
+      "About 60%",
+      "About 15%"
+    ],
+    "answer": "About 45%",
+    "explanation": "The UBS Global Wealth Report estimates the top 1% own roughly 44–47% of all global wealth — a share that has risen over recent decades as asset prices (stocks, property) appreciated faster than wage income. The bottom 50% of the world's population own less than 1% of global wealth. Thomas Piketty's capital-accumulation thesis (r > g) is the leading theoretical explanation for this widening.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "global inequality",
+      "wealth distribution",
+      "top 1%",
+      "Piketty"
+    ]
+  },
+  {
+    "id": "data-058",
+    "category": "data",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "Both are advanced economies with high living standards. Which has the higher GDP per capita in purchasing-power-parity terms?",
+    "items": [
+      "Singapore",
+      "Canada"
+    ],
+    "metric": "GDP per capita (PPP, 2023)",
+    "answer": "Singapore",
+    "explanation": "Singapore's GDP per capita (PPP) is around $130,000–140,000 — one of the highest in the world — reflecting its role as a major global financial centre, trade hub, and home to Asia-Pacific headquarters of many multinationals. Canada's GDP per capita (PPP) is approximately $56,000–60,000. Singapore's world-class infrastructure and low tax regime attract talent and capital from across Asia.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "Singapore",
+      "Canada",
+      "GDP per capita",
+      "PPP",
+      "comparison"
+    ]
+  },
+  {
+    "id": "data-059",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "South Korea is Asia's 4th largest economy. Its nominal GDP of roughly $1.7 trillion places it at a similar level to which other G20 country's economy?",
+    "choices": [
+      "Canada",
+      "Australia",
+      "Mexico",
+      "Saudi Arabia"
+    ],
+    "answer": "Canada",
+    "explanation": "Both South Korea and Canada had nominal GDPs of approximately $1.7–2.1 trillion in 2023, making them comparable in size — both are G20 members. South Korea and Canada are often compared as similarly sized advanced industrialised economies. South Korea's economy is dominated by large conglomerates (chaebol) like Samsung, Hyundai, and LG.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "South Korea",
+      "Canada",
+      "GDP",
+      "comparison",
+      "G20"
+    ]
+  },
+  {
+    "id": "data-060",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "By total assets, the world's four largest commercial banks are all headquartered in the same country. Which country?",
+    "choices": [
+      "China",
+      "United States",
+      "Japan",
+      "United Kingdom"
+    ],
+    "answer": "China",
+    "explanation": "The four largest banks by total assets — ICBC, China Construction Bank, Agricultural Bank of China, and Bank of China — are all Chinese state-owned banks. ICBC alone has assets exceeding $6 trillion. Chinese banks grew to dominate global rankings as China's economy expanded. JPMorgan Chase is the largest non-Chinese bank, typically ranking 5th–7th globally by assets.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "banks",
+      "China",
+      "ICBC",
+      "global banking",
+      "assets"
+    ]
+  },
+  {
+    "id": "data-061",
+    "category": "data",
+    "difficulty": 1,
+    "format": "numeric",
+    "prompt": "The US federal minimum wage of $7.25 per hour has not been increased since which year — the longest federal minimum wage freeze in US history?",
+    "answer": 2009,
+    "unit": "",
+    "tolerance": 0,
+    "tolerance_pct": null,
+    "explanation": "The last increase to the US federal minimum wage took effect on July 24, 2009 — from $6.55 to $7.25. By 2024, that $7.25 was worth substantially less in real terms due to inflation. More than half of US states have set higher state minimum wages; some cities (Seattle, New York) exceed $17/hour. Every congressional attempt to raise the federal minimum since 2009 has failed.",
+    "source": "https://data.worldbank.org/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "minimum wage",
+      "United States",
+      "labour policy",
+      "wage stagnation"
+    ]
+  },
+  {
+    "id": "data-062",
+    "category": "data",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: According to the International Energy Agency (IEA), global investment in clean energy (solar, wind, EVs, grids) in 2023 exceeded global investment in new fossil fuel supply for the first time.",
+    "answer": true,
+    "explanation": "The IEA's 2023 World Energy Investment report showed clean energy investment reaching approximately $1.8 trillion, compared with about $1 trillion for fossil fuels. Solar power alone attracted more investment than all fossil fuel sources combined. This shift reflects falling costs for renewables, policy support (IRA, EU Green Deal), and rising carbon prices.",
+    "source": "https://www.iea.org/reports/world-energy-investment-2023",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "clean energy",
+      "energy investment",
+      "IEA",
+      "climate",
+      "fossil fuels"
+    ]
+  },
+  {
+    "id": "data-063",
+    "category": "data",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Which country accounts for the largest share of global electric vehicle (EV) sales, consistently purchasing more than half of all new EVs sold worldwide?",
+    "choices": [
+      "China",
+      "United States",
+      "Germany",
+      "Norway"
+    ],
+    "answer": "China",
+    "explanation": "China accounted for roughly 55–60% of global EV sales annually. In 2023, over 8 million EVs were sold in China, compared to about 1.5 million in the US and 3 million across Europe. China's dominance reflects massive government subsidies, competitive domestic manufacturers like BYD, and strong consumer preference for domestic brands. Norway leads on EV market share as a percentage of all new cars sold (above 80%).",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "electric vehicles",
+      "EV",
+      "China",
+      "energy transition",
+      "automotive"
+    ]
+  },
+  {
+    "id": "data-064",
+    "category": "data",
+    "difficulty": 3,
+    "format": "higher_lower",
+    "prompt": "Both have engaged in large-scale asset purchases. Which central bank has a larger balance sheet relative to its country's GDP?",
+    "items": [
+      "Bank of Japan",
+      "US Federal Reserve"
+    ],
+    "metric": "central bank balance sheet as a percentage of GDP (2023)",
+    "answer": "Bank of Japan",
+    "explanation": "The Bank of Japan's balance sheet exceeded 120% of Japan's GDP by 2023 — by far the highest ratio among major central banks — after decades of quantitative easing, zero interest rates, and yield curve control. The Fed's balance sheet peaked at about 35% of US GDP in 2022 before shrinking through quantitative tightening. The BoJ's scale means it owns a majority of Japan's government bond market.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "Bank of Japan",
+      "Federal Reserve",
+      "QE",
+      "balance sheet",
+      "central bank"
+    ]
+  },
+  {
+    "id": "data-065",
+    "category": "data",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: Germany's economy — Europe's largest — contracted in 2023, making it the only G7 economy to shrink that year.",
+    "answer": true,
+    "explanation": "Germany's GDP contracted by roughly 0.3% in 2023, largely due to the energy crisis triggered by the loss of cheap Russian natural gas. Germany had been unusually dependent on Russian gas for its industrial base (especially steel, chemicals, and manufacturing). High energy costs squeezed profit margins and triggered a wave of industrial plant closures or relocations.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "Germany",
+      "recession",
+      "G7",
+      "energy crisis",
+      "deindustrialisation"
+    ]
+  },
+  {
+    "id": "data-066",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Canada's combined federal and provincial corporate income taxes make it somewhat competitive internationally. The federal rate alone is 15%. What is the typical combined federal-plus-provincial corporate statutory rate across most of Canada?",
+    "choices": [
+      "23% to 31%",
+      "15% to 20%",
+      "35% to 45%",
+      "10% to 15%"
+    ],
+    "answer": "23% to 31%",
+    "explanation": "Provincial corporate tax rates range from about 8% (Alberta) to about 16% (Prince Edward Island). Combined with the 15% federal rate, total statutory corporate tax rates run from roughly 23% (Alberta) to 31% (PEI). By comparison, the US combined (federal 21% + state average ~5%) is about 26%, placing Canada and the US in a similar range.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2024",
+    "time_sensitive": false,
+    "tags": [
+      "corporate tax",
+      "Canada",
+      "taxation",
+      "provincial tax"
+    ]
+  },
+  {
+    "id": "data-067",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Canada's housing shortage has grown into one of the country's most pressing economic challenges. Housing starts in 2023 were roughly how many units — far short of what economists estimated is needed annually?",
+    "choices": [
+      "About 240,000 units — versus an estimated need of 500,000+",
+      "About 500,000 units — roughly matching demand",
+      "About 100,000 units — the lowest in 30 years",
+      "About 400,000 units — close to but slightly below target"
+    ],
+    "answer": "About 240,000 units — versus an estimated need of 500,000+",
+    "explanation": "Canada built about 240,000 new housing units in 2023, while CMHC estimated roughly 3.5 million additional homes are needed by 2030 to restore affordability — requiring over 500,000 annual starts. The shortfall reflects restrictive zoning, slow permitting, labour shortages in construction, and high financing costs. Canada's record population growth in 2022–2023 exacerbated the gap between supply and demand.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "Canada",
+      "housing",
+      "housing starts",
+      "housing shortage",
+      "CMHC"
+    ]
+  },
+  {
+    "id": "data-068",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Canada set a record for population growth in 2023, driven overwhelmingly by immigration and non-permanent residents. By approximately how many people did Canada's population grow in 2023?",
+    "choices": [
+      "About 1.2 million",
+      "About 400,000",
+      "About 700,000",
+      "About 2 million"
+    ],
+    "answer": "About 1.2 million",
+    "explanation": "Canada's population grew by approximately 1.27 million people in 2023 — the fastest annual growth rate (~3.2%) since the 1950s. About 97% was driven by immigration and non-permanent residents (international students, foreign workers). This scale of population growth amplified housing demand while housing supply barely budged, deepening the affordability crisis.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": true,
+    "tags": [
+      "Canada",
+      "population growth",
+      "immigration",
+      "demographics",
+      "housing"
+    ]
+  },
+  {
+    "id": "data-069",
+    "category": "data",
+    "difficulty": 3,
+    "format": "match",
+    "prompt": "Match each central bank to its approximate balance sheet size as a percentage of its country's GDP (around 2022–2023).",
+    "pairs": [
+      [
+        "Bank of Japan",
+        "~120% of GDP"
+      ],
+      [
+        "European Central Bank",
+        "~60% of GDP"
+      ],
+      [
+        "US Federal Reserve",
+        "~30% of GDP"
+      ],
+      [
+        "Bank of Canada",
+        "~10% of GDP"
+      ]
+    ],
+    "answer": "Bank of Japan→~120% of GDP, ECB→~60% of GDP, Federal Reserve→~30% of GDP, Bank of Canada→~10% of GDP",
+    "explanation": "The BoJ's extraordinary balance sheet (120%+ of GDP) reflects its decades-long experiment with quantitative and qualitative easing. The ECB's balance sheet swelled to ~60% of eurozone GDP after its PEPP and PSPP programmes. The Fed's peaked at ~35% after COVID purchases. The Bank of Canada's balance sheet peaked at about 25% of GDP during COVID QE, then shrank rapidly through quantitative tightening by 2023.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "central bank",
+      "balance sheet",
+      "QE",
+      "Bank of Japan",
+      "Federal Reserve",
+      "ECB"
+    ]
+  },
+  {
+    "id": "data-070",
+    "category": "data",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "Both are major English-speaking G7 economies. Which one has the larger nominal GDP?",
+    "items": [
+      "United Kingdom",
+      "Canada"
+    ],
+    "metric": "nominal GDP in USD (2023)",
+    "answer": "United Kingdom",
+    "explanation": "The UK's nominal GDP was approximately $3.1 trillion in 2023, compared with Canada's $2.1 trillion. Both are G7 members. The UK economy is dominated by financial services, pharmaceuticals, and creative industries. Despite being larger nominally, the UK has a lower GDP per capita than Canada due to its larger population (~67 million vs ~40 million).",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "United Kingdom",
+      "Canada",
+      "GDP",
+      "comparison",
+      "G7"
+    ]
+  },
+  {
+    "id": "data-071",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In 2023, which country overtook Qatar to become the world's largest exporter of liquefied natural gas (LNG)?",
+    "choices": [
+      "United States",
+      "Australia",
+      "Russia",
+      "Canada"
+    ],
+    "answer": "United States",
+    "explanation": "The US became the world's top LNG exporter in 2023, exporting about 91 billion cubic metres. The US LNG boom was partly driven by European demand following Russia's invasion of Ukraine in 2022, which caused Europe to diversify away from Russian pipeline gas. US LNG projects expanded rapidly, with more terminals under construction.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "LNG",
+      "natural gas",
+      "United States",
+      "Qatar",
+      "energy exports"
+    ]
+  },
+  {
+    "id": "data-072",
+    "category": "data",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The OECD (Organisation for Economic Co-operation and Development) is often called the 'club of rich democracies.' As of 2024, it had approximately how many member countries?",
+    "choices": [
+      "38",
+      "20",
+      "50",
+      "28"
+    ],
+    "answer": "38",
+    "explanation": "The OECD had 38 member countries as of 2024. Members are predominantly high-income democracies: North America, Western Europe, Japan, South Korea, Australia, New Zealand, and Chile, among others. Costa Rica, Colombia, and Lithuania joined in 2021. The OECD produces widely-used economic data and policy research, including the PISA education rankings and the Base Erosion and Profit Shifting (BEPS) framework on corporate tax.",
+    "source": "https://www.oecd.org/about/members-and-partners/",
+    "as_of": "2024",
+    "time_sensitive": false,
+    "tags": [
+      "OECD",
+      "international organisations",
+      "membership"
+    ]
+  },
+  {
+    "id": "data-073",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Global military spending first exceeded $2 trillion per year in 2023. Which country accounted for the single largest share of that spending?",
+    "choices": [
+      "United States (~37% of the global total)",
+      "China (~12%)",
+      "Russia (~4%)",
+      "India (~3%)"
+    ],
+    "answer": "United States (~37% of the global total)",
+    "explanation": "The US spent approximately $916 billion on defence in fiscal year 2023 — about 37% of all global military spending. China was second (~12%), followed by Russia (~4%), India (~3%), and Saudi Arabia (~3%). The US outspends the next 10 countries combined. US defence spending (~3.5% of GDP) far exceeds the NATO target of 2% of GDP that most European allies fall short of.",
+    "source": "https://www.sipri.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "military spending",
+      "United States",
+      "defence",
+      "SIPRI",
+      "geopolitics"
+    ]
+  },
+  {
+    "id": "data-074",
+    "category": "data",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "Both are major oil-producing G20 nations. Which country produces more crude oil per day?",
+    "items": [
+      "Canada",
+      "Saudi Arabia"
+    ],
+    "metric": "crude oil production (barrels per day, 2023)",
+    "answer": "Saudi Arabia",
+    "explanation": "Saudi Arabia produces approximately 9–12 million barrels per day (including OPEC+ voluntary cuts), compared to Canada's ~5.5 million barrels per day. However, Canada has the world's third-largest proven reserves. Most Canadian oil comes from oil sands in Alberta, which are more expensive to produce than Saudi light crude but support a large industrial base.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "oil production",
+      "Canada",
+      "Saudi Arabia",
+      "OPEC",
+      "energy"
+    ]
+  },
+  {
+    "id": "data-075",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Canada spends approximately what share of its GDP on national defence — well below the NATO target of 2% of GDP?",
+    "choices": [
+      "About 1.3–1.4%",
+      "About 2.0% — right at NATO target",
+      "About 3.0% — above NATO target",
+      "About 0.5%"
+    ],
+    "answer": "About 1.3–1.4%",
+    "explanation": "Canada has consistently spent about 1.3–1.5% of GDP on defence — a persistent source of friction with NATO allies and the US. Canada has pledged to increase spending toward 2% but timelines have repeatedly slipped. By comparison, the UK (~2.3%), Germany (~2.1%), and Poland (~4%) all meet or exceed the 2% target.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2024",
+    "time_sensitive": false,
+    "tags": [
+      "Canada",
+      "defence spending",
+      "NATO",
+      "military",
+      "GDP"
+    ]
+  },
+  {
+    "id": "data-076",
+    "category": "data",
+    "difficulty": 3,
+    "format": "numeric",
+    "prompt": "The Texas economy — the second-largest US state economy — had a nominal GDP of approximately how many trillion dollars in 2023, making it comparable to Canada's total economy?",
+    "answer": 2,
+    "unit": "trillion USD",
+    "tolerance": null,
+    "tolerance_pct": 15,
+    "explanation": "Texas's GDP reached approximately $2.0–2.1 trillion in 2023, narrowly comparable to Canada's $2.1 trillion. Texas is larger than all but about 9 countries in the world, powered by oil and gas, technology (Austin), aerospace, finance, and agriculture. If Texas were an independent country, it would rank around the 8th–9th largest economy globally.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "Texas",
+      "US states",
+      "subnational economy",
+      "GDP",
+      "comparison"
+    ]
+  },
+  {
+    "id": "data-077",
+    "category": "data",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: Argentina experienced annual inflation above 100% in 2023 — the highest rate among G20 countries — with prices more than doubling over the course of the year.",
+    "answer": true,
+    "explanation": "Argentina's annual CPI inflation reached approximately 211% in 2023 — and accelerated toward 300% by early 2024. This was the result of decades of fiscal deficits funded by money printing, currency controls, and loss of central bank credibility. The economic crisis drove the election of President Javier Milei, who ran on a radical platform of dollarisation and elimination of the central bank.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "Argentina",
+      "hyperinflation",
+      "Latin America",
+      "G20",
+      "Milei"
+    ]
+  },
+  {
+    "id": "data-078",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "By 2023, the total market capitalisation of all cryptocurrencies combined had recovered from its 2022 crash to approximately which level?",
+    "choices": [
+      "About $1.5 trillion",
+      "About $300 billion",
+      "About $5 trillion",
+      "About $10 trillion"
+    ],
+    "answer": "About $1.5 trillion",
+    "explanation": "After peaking at roughly $3 trillion in November 2021, the crypto market cap collapsed to about $800 billion following the FTX collapse (November 2022). By late 2023, it recovered to about $1.5 trillion, and surged to $2–3 trillion again in 2024 after Bitcoin ETF approvals in the US. Bitcoin alone typically accounts for about 45–55% of total crypto market cap.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": true,
+    "tags": [
+      "cryptocurrency",
+      "Bitcoin",
+      "market cap",
+      "FTX",
+      "crypto market"
+    ]
+  },
+  {
+    "id": "data-079",
+    "category": "data",
+    "difficulty": 1,
+    "format": "numeric",
+    "prompt": "The Economist published its first Big Mac Index — measuring hamburger prices to proxy purchasing power parity — in what year?",
+    "answer": 1986,
+    "unit": "",
+    "tolerance": 0,
+    "tolerance_pct": null,
+    "explanation": "The Big Mac Index was invented by journalist Pam Woodall and first appeared in The Economist in September 1986. It was intended as a lighthearted guide to whether currencies are at their 'correct' level. Over the decades it has become a widely cited real-world illustration of PPP theory in economics education.",
+    "source": "https://data.worldbank.org/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Big Mac Index",
+      "PPP",
+      "The Economist",
+      "exchange rates",
+      "1986"
+    ]
+  },
+  {
+    "id": "data-080",
+    "category": "data",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Canada's federal gross debt-to-GDP ratio peaked at roughly 68% in the mid-1990s before Paul Martin's deficit elimination. After COVID-19 emergency spending, it rose from a pre-pandemic low back to approximately which level?",
+    "choices": [
+      "About 45%",
+      "About 65%",
+      "About 30%",
+      "About 80%"
+    ],
+    "answer": "About 45%",
+    "explanation": "Canada's federal gross debt-to-GDP ratio fell from ~68% in 1996–97 to about 29% by 2019–20 — the result of two decades of surpluses and growth. COVID emergency spending (CERB, CEWS, CEBA, etc.) added roughly $300–400 billion, pushing the ratio back to approximately 42–47% of GDP. While higher than the pre-pandemic low, Canada's federal fiscal position remains among the strongest in the G7.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "Canada",
+      "federal debt",
+      "GDP",
+      "fiscal policy",
+      "COVID-19"
+    ]
+  },
+  {
+    "id": "data-081",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which country is the world's largest recipient of remittances — money sent home by workers living abroad — receiving over $100 billion per year?",
+    "choices": [
+      "India",
+      "Mexico",
+      "China",
+      "Philippines"
+    ],
+    "answer": "India",
+    "explanation": "India consistently leads the world in remittance receipts — over $125 billion in 2023 — driven by its large diaspora in the US, UK, Gulf states, Canada, and Australia. Mexico is second (~$65 billion), largely from workers in the US. Remittances to developing countries as a whole far exceed official development aid and are a critical source of foreign exchange, household income, and poverty reduction.",
+    "source": "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "India",
+      "remittances",
+      "diaspora",
+      "development finance",
+      "labour migration"
+    ]
+  },
+  {
+    "id": "data-082",
+    "category": "data",
+    "difficulty": 3,
+    "format": "order",
+    "prompt": "Rank these four countries from largest to smallest by total nominal GDP in 2023.",
+    "items": [
+      "United States",
+      "China",
+      "Germany",
+      "United Kingdom"
+    ],
+    "order_by": "nominal GDP in USD, largest to smallest (2023)",
+    "answer": "United States → China → Germany → United Kingdom",
+    "explanation": "Approximate 2023 nominal GDPs: US ~$27.4T, China ~$17.7T, Germany ~$4.5T, UK ~$3.1T. The US remains the world's largest nominal GDP; China is second but still about 65% of US size. Germany is Europe's largest economy. The UK remains in the top 6 globally — India overtook the UK as the world's 5th largest economy in 2022.",
+    "source": "https://data.worldbank.org/",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "GDP",
+      "global economies",
+      "ranking",
+      "US",
+      "China",
+      "Germany",
+      "UK"
+    ]
   }
 ]

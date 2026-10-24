@@ -16,7 +16,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["price discrimination", "captive market", "two-part pricing"]
+    "tags": [
+      "price discrimination",
+      "captive market",
+      "two-part pricing"
+    ]
   },
   {
     "id": "wildcard-002",
@@ -35,7 +39,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["overbooking", "airlines", "expected value", "pricing"]
+    "tags": [
+      "overbooking",
+      "airlines",
+      "expected value",
+      "pricing"
+    ]
   },
   {
     "id": "wildcard-003",
@@ -54,7 +63,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["diamond-water paradox", "marginal utility", "value theory"]
+    "tags": [
+      "diamond-water paradox",
+      "marginal utility",
+      "value theory"
+    ]
   },
   {
     "id": "wildcard-004",
@@ -73,7 +86,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["cobra effect", "perverse incentives", "policy backfire", "Goodhart's Law"]
+    "tags": [
+      "cobra effect",
+      "perverse incentives",
+      "policy backfire",
+      "Goodhart's Law"
+    ]
   },
   {
     "id": "wildcard-005",
@@ -82,12 +100,24 @@
     "format": "short",
     "prompt": "Goodhart's Law states: 'When a measure becomes a target, it ceases to be a good measure.' What is the name for the broader phenomenon where hitting a metric by gaming or distorting behaviour — rather than improving the underlying reality — makes the metric useless?",
     "answer": "Goodhart's Law",
-    "accept": ["Goodhart's Law", "Goodhart's law", "Goodharts Law", "Goodhart law", "the cobra effect", "teaching to the test"],
+    "accept": [
+      "Goodhart's Law",
+      "Goodhart's law",
+      "Goodharts Law",
+      "Goodhart law",
+      "the cobra effect",
+      "teaching to the test"
+    ],
     "explanation": "Charles Goodhart, a Bank of England economist, observed this in monetary policy: once the Bank targeted M3 money supply, banks found ways to hit the target without affecting the economy as intended. The principle now explains everything from hospital waiting-time targets to school exam scores to Soviet production quotas.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Goodhart's Law", "metrics", "policy", "perverse incentives"]
+    "tags": [
+      "Goodhart's Law",
+      "metrics",
+      "policy",
+      "perverse incentives"
+    ]
   },
   {
     "id": "wildcard-006",
@@ -106,7 +136,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bastiat", "broken window", "seen vs unseen", "fallacy"]
+    "tags": [
+      "Bastiat",
+      "broken window",
+      "seen vs unseen",
+      "fallacy"
+    ]
   },
   {
     "id": "wildcard-007",
@@ -119,7 +154,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["choice architecture", "supermarket", "nudge", "retail economics"]
+    "tags": [
+      "choice architecture",
+      "supermarket",
+      "nudge",
+      "retail economics"
+    ]
   },
   {
     "id": "wildcard-008",
@@ -138,7 +178,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["anchoring", "decoy effect", "menu psychology", "restaurant economics"]
+    "tags": [
+      "anchoring",
+      "decoy effect",
+      "menu psychology",
+      "restaurant economics"
+    ]
   },
   {
     "id": "wildcard-009",
@@ -157,7 +202,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["price signal", "quality", "wine", "behavioural economics", "Plassmann"]
+    "tags": [
+      "price signal",
+      "quality",
+      "wine",
+      "behavioural economics",
+      "Plassmann"
+    ]
   },
   {
     "id": "wildcard-010",
@@ -176,7 +227,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["prisoner's dilemma", "game theory", "Nash equilibrium", "cooperation"]
+    "tags": [
+      "prisoner's dilemma",
+      "game theory",
+      "Nash equilibrium",
+      "cooperation"
+    ]
   },
   {
     "id": "wildcard-011",
@@ -195,7 +251,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["zero price effect", "Ariely", "free", "behavioural economics"]
+    "tags": [
+      "zero price effect",
+      "Ariely",
+      "free",
+      "behavioural economics"
+    ]
   },
   {
     "id": "wildcard-012",
@@ -214,7 +275,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["surge pricing", "Uber", "dynamic pricing", "market clearing"]
+    "tags": [
+      "surge pricing",
+      "Uber",
+      "dynamic pricing",
+      "market clearing"
+    ]
   },
   {
     "id": "wildcard-013",
@@ -227,7 +293,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["tipping", "game theory", "repeated game", "Japan", "norms"]
+    "tags": [
+      "tipping",
+      "game theory",
+      "repeated game",
+      "Japan",
+      "norms"
+    ]
   },
   {
     "id": "wildcard-014",
@@ -246,7 +318,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["dollar auction", "Shubik", "escalation of commitment", "game theory"]
+    "tags": [
+      "dollar auction",
+      "Shubik",
+      "escalation of commitment",
+      "game theory"
+    ]
   },
   {
     "id": "wildcard-015",
@@ -265,7 +342,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["left-digit anchoring", "pricing psychology", "99 cents", "retail"]
+    "tags": [
+      "left-digit anchoring",
+      "pricing psychology",
+      "99 cents",
+      "retail"
+    ]
   },
   {
     "id": "wildcard-016",
@@ -284,7 +366,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["two-sided market", "platform economics", "Facebook", "Google", "attention economy"]
+    "tags": [
+      "two-sided market",
+      "platform economics",
+      "Facebook",
+      "Google",
+      "attention economy"
+    ]
   },
   {
     "id": "wildcard-017",
@@ -303,7 +391,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["assortative mating", "inequality", "household income", "Gini"]
+    "tags": [
+      "assortative mating",
+      "inequality",
+      "household income",
+      "Gini"
+    ]
   },
   {
     "id": "wildcard-018",
@@ -322,7 +415,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["economies of scale", "shipping", "globalisation", "containerisation"]
+    "tags": [
+      "economies of scale",
+      "shipping",
+      "globalisation",
+      "containerisation"
+    ]
   },
   {
     "id": "wildcard-019",
@@ -335,7 +433,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["lottery", "expected value", "utility", "risk-loving"]
+    "tags": [
+      "lottery",
+      "expected value",
+      "utility",
+      "risk-loving"
+    ]
   },
   {
     "id": "wildcard-020",
@@ -354,7 +457,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Becker", "marriage economics", "assortative mating", "household"]
+    "tags": [
+      "Becker",
+      "marriage economics",
+      "assortative mating",
+      "household"
+    ]
   },
   {
     "id": "wildcard-021",
@@ -373,7 +481,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["seigniorage", "money printing", "inflation tax", "monetary policy"]
+    "tags": [
+      "seigniorage",
+      "money printing",
+      "inflation tax",
+      "monetary policy"
+    ]
   },
   {
     "id": "wildcard-022",
@@ -392,7 +505,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["immigration", "labour economics", "endogeneity", "Card", "Mariel Boatlift"]
+    "tags": [
+      "immigration",
+      "labour economics",
+      "endogeneity",
+      "Card",
+      "Mariel Boatlift"
+    ]
   },
   {
     "id": "wildcard-023",
@@ -411,7 +530,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Veblen good", "conspicuous consumption", "luxury", "status"]
+    "tags": [
+      "Veblen good",
+      "conspicuous consumption",
+      "luxury",
+      "status"
+    ]
   },
   {
     "id": "wildcard-024",
@@ -430,7 +554,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["immigration", "labour complementarity", "labour economics"]
+    "tags": [
+      "immigration",
+      "labour complementarity",
+      "labour economics"
+    ]
   },
   {
     "id": "wildcard-025",
@@ -449,7 +577,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["dynamic pricing", "scalping", "concerts", "market clearing"]
+    "tags": [
+      "dynamic pricing",
+      "scalping",
+      "concerts",
+      "market clearing"
+    ]
   },
   {
     "id": "wildcard-026",
@@ -469,7 +602,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["perverse incentives", "unintended consequences", "cobra effect", "Goodhart's Law"]
+    "tags": [
+      "perverse incentives",
+      "unintended consequences",
+      "cobra effect",
+      "Goodhart's Law"
+    ]
   },
   {
     "id": "wildcard-027",
@@ -488,7 +626,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Coase theorem", "transaction costs", "externalities", "property rights"]
+    "tags": [
+      "Coase theorem",
+      "transaction costs",
+      "externalities",
+      "property rights"
+    ]
   },
   {
     "id": "wildcard-028",
@@ -501,7 +644,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["GDP", "war", "national accounts", "Bastiat", "Keynes"]
+    "tags": [
+      "GDP",
+      "war",
+      "national accounts",
+      "Bastiat",
+      "Keynes"
+    ]
   },
   {
     "id": "wildcard-029",
@@ -510,17 +659,35 @@
     "format": "match",
     "prompt": "Match each everyday phenomenon to the economics concept it best illustrates.",
     "pairs": [
-      ["Selling milk at a loss to attract shoppers", "Loss leader pricing"],
-      ["Job applicants getting degrees to signal ability, not just learn", "Signalling theory (Spence)"],
-      ["Everyone in an office taking too many sick days because it's 'not their money'", "Moral hazard"],
-      ["Only bad used cars get listed for sale because sellers know more than buyers", "Adverse selection (Akerlof)"]
+      [
+        "Selling milk at a loss to attract shoppers",
+        "Loss leader pricing"
+      ],
+      [
+        "Job applicants getting degrees to signal ability, not just learn",
+        "Signalling theory (Spence)"
+      ],
+      [
+        "Everyone in an office taking too many sick days because it's 'not their money'",
+        "Moral hazard"
+      ],
+      [
+        "Only bad used cars get listed for sale because sellers know more than buyers",
+        "Adverse selection (Akerlof)"
+      ]
     ],
     "answer": "Milk at a loss→Loss leader; Degrees→Signalling; Sick days→Moral hazard; Used cars→Adverse selection",
     "explanation": "These four concepts are cornerstones of applied microeconomics. Loss leaders recoup profit elsewhere. Spence's signalling: education is costly for low-ability workers to fake, so it credibly signals ability even if it teaches nothing useful. Moral hazard: insured behaviour changes. Akerlof's lemons: hidden quality drives good products out of markets.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["loss leader", "signalling", "moral hazard", "adverse selection", "Akerlof"]
+    "tags": [
+      "loss leader",
+      "signalling",
+      "moral hazard",
+      "adverse selection",
+      "Akerlof"
+    ]
   },
   {
     "id": "wildcard-030",
@@ -539,6 +706,1173 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["snob effect", "positional goods", "exclusivity", "luxury", "Veblen"]
+    "tags": [
+      "snob effect",
+      "positional goods",
+      "exclusivity",
+      "luxury",
+      "Veblen"
+    ]
+  },
+  {
+    "id": "wildcard-031",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "In the 'ultimatum game,' one player proposes how to split $100, and the second player can either accept (both get the amounts proposed) or reject (both get nothing). Rational self-interest predicts the second player should accept any positive offer. What actually happens in experiments?",
+    "choices": [
+      "Offers below 30–40% are typically rejected even though rejection means getting nothing",
+      "Offers below 10% are rejected but offers of 10–49% are usually accepted",
+      "People always accept any positive amount, confirming the rational self-interest prediction",
+      "Only economists accept low offers; most people reject anything below 50%"
+    ],
+    "answer": "Offers below 30–40% are typically rejected even though rejection means getting nothing",
+    "explanation": "Across hundreds of cultures, offers below 25–30% of the total are rejected about 50% of the time, and offers below 20% are almost always rejected. People are willing to pay a real cost to punish perceived unfairness. This violates the assumption of self-interested rationality but reveals that humans have strong preferences for fairness that cannot be 'traded away' for small material gains. The result helped launch behavioural economics.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "ultimatum game",
+      "behavioural economics",
+      "fairness",
+      "rationality"
+    ]
+  },
+  {
+    "id": "wildcard-032",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Why do US dollar coins fail to circulate — even though they're cheaper for the government to produce than paper bills, which wear out quickly?",
+    "choices": [
+      "Gresham's Law: the paper dollar that people are used to 'drives out' the equally valuable coin — people hoard or ignore coins when bills do the same job",
+      "The US Mint never produces enough coins; there's a permanent shortage that keeps them out of commerce",
+      "Dollar coins are heavier than most people prefer to carry, causing rational substitution to lighter paper currency",
+      "Vending machine operators lobby to keep paper dollars in circulation because their machines don't accept coins"
+    ],
+    "answer": "Gresham's Law: the paper dollar that people are used to 'drives out' the equally valuable coin — people hoard or ignore coins when bills do the same job",
+    "explanation": "Gresham's Law ('bad money drives out good') was originally about debasement — people hoard good coins and circulate debased ones. Applied loosely here: the 'bad' money (paper dollar that wears out) keeps circulating because it's familiar and accepted everywhere, while dollar coins get stuffed in jars. The US has introduced multiple dollar coins ($1 Susan B. Anthony, Sacagawea, Presidential) — all have failed to circulate despite being legal tender.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Gresham's Law",
+      "currency",
+      "US dollar coin",
+      "monetary history"
+    ]
+  },
+  {
+    "id": "wildcard-033",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Braess's paradox shows that adding a new road to a congested network can actually make everyone's travel times worse. Why?",
+    "choices": [
+      "The new road attracts traffic that previously spread across multiple routes, concentrating it on one faster link — until congestion makes the new route slower than the old system",
+      "New roads encourage more people to drive who previously took public transit, generating new traffic demand",
+      "Road construction disrupts existing traffic patterns for years before the new road provides any benefit",
+      "Mathematical modelling always overestimates new road capacity because it ignores driver behaviour"
+    ],
+    "answer": "The new road attracts traffic that previously spread across multiple routes, concentrating it on one faster link — until congestion makes the new route slower than the old system",
+    "explanation": "Braess's paradox arises because individual drivers choose routes to minimise their own travel time (Nash equilibrium), but this collective selfishness produces an outcome worse than if everyone cooperated. Adding a shortcut that looks faster individually ends up worse for everyone. The paradox has been demonstrated in real cities: removing roads in Seoul and Stuttgart actually reduced congestion. It illustrates how game theory can produce counterintuitive policy conclusions.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Braess's paradox",
+      "traffic",
+      "game theory",
+      "network effects",
+      "Nash equilibrium"
+    ]
+  },
+  {
+    "id": "wildcard-034",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Efficiency wage theory explains why some employers voluntarily pay above the market-clearing wage. Which of the following is NOT one of the efficiency wage mechanisms?",
+    "choices": [
+      "Workers paid above market rates save the employer money in healthcare costs, since high wages correlate with better health insurance",
+      "Higher wages reduce turnover, saving hiring and training costs",
+      "Higher wages make workers afraid of losing their job, so they work harder to keep it",
+      "Higher wages attract a better pool of applicants, improving average worker quality (adverse selection)"
+    ],
+    "answer": "Workers paid above market rates save the employer money in healthcare costs, since high wages correlate with better health insurance",
+    "explanation": "The four main efficiency wage mechanisms are: (1) shirking reduction — well-paid workers fear job loss; (2) turnover reduction — high wages reduce quits, saving recruitment costs; (3) adverse selection — higher wages attract better applicants; (4) nutritional efficiency wages — in very poor countries, better-fed workers are more productive. Healthcare cost savings is not one of the core mechanisms. Efficiency wages help explain why wages don't always fall to clear labour markets during recessions.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "efficiency wages",
+      "labour economics",
+      "Yellen",
+      "Akerlof",
+      "unemployment"
+    ]
+  },
+  {
+    "id": "wildcard-035",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The 'paradox of thrift' — identified by Keynes — describes a situation where an individually rational decision becomes collectively harmful. What is the paradox?",
+    "choices": [
+      "When everyone tries to save more simultaneously, aggregate spending falls, reducing incomes and making everyone poorer — individual prudence is collectively self-defeating",
+      "High savings rates cause inflation because banks lend out all deposits, creating too much money",
+      "Countries with high savings rates always develop trade surpluses that cause trade wars with their partners",
+      "Households that save more live longer, which eventually bankrupts pension systems designed for shorter retirements"
+    ],
+    "answer": "When everyone tries to save more simultaneously, aggregate spending falls, reducing incomes and making everyone poorer — individual prudence is collectively self-defeating",
+    "explanation": "For an individual, saving more is rational prudence. But if everyone saves more at the same time, total consumption falls, businesses face less demand, cut production and workers, and incomes fall — making the initial goal of saving impossible. One person's spending is another's income. This is the 'fallacy of composition' in macroeconomics: what is true for one is not true for all. It's why Keynesian economics argues for government spending to offset private saving surges during recessions.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "paradox of thrift",
+      "Keynes",
+      "aggregate demand",
+      "fallacy of composition",
+      "macroeconomics"
+    ]
+  },
+  {
+    "id": "wildcard-036",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Organ donation rates differ enormously across countries with similar cultures and incomes. Research by Eric Johnson and Daniel Goldstein found this is largely explained by what?",
+    "choices": [
+      "Whether the country uses opt-in or opt-out default rules — opt-out countries have near-100% donation rates; opt-in countries have 10–30%",
+      "Whether organ donation is financially compensated — markets clear the shortage when donors are paid",
+      "Religious exemptions — countries with Catholic majorities have lower donation rates due to Church policy",
+      "Healthcare system capacity — countries with more hospital beds per capita have higher donation rates"
+    ],
+    "answer": "Whether the country uses opt-in or opt-out default rules — opt-out countries have near-100% donation rates; opt-in countries have 10–30%",
+    "explanation": "Countries like Germany and Denmark (opt-in) had donation rates of 12–17%; Austria and France (opt-out) had rates above 99% — despite very similar cultural profiles. The difference is entirely the default: most people never actively register or de-register, so they follow whatever the default is. This is Richard Thaler's 'nudge' in action: changing the default is a 'libertarian paternalist' intervention that preserves choice but dramatically changes outcomes.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "organ donation",
+      "default rules",
+      "nudge",
+      "behavioural economics",
+      "opt-in opt-out"
+    ]
+  },
+  {
+    "id": "wildcard-037",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Hotels often charge separately for parking but include the pool and gym free. In contrast, budget motels often advertise 'free parking.' Why do luxury hotels unbundle parking?",
+    "choices": [
+      "Luxury hotel guests have more varied needs — some don't have cars — so bundling parking into the room rate would force non-drivers to subsidise drivers",
+      "Parking is always more expensive to provide than pools, so luxury hotels charge to recover capital costs",
+      "Hotel chains are legally required to separate parking fees from room rates in most jurisdictions",
+      "Luxury hotels target business travellers who expense parking but not room rates, allowing tax optimisation"
+    ],
+    "answer": "Luxury hotel guests have more varied needs — some don't have cars — so bundling parking into the room rate would force non-drivers to subsidise drivers",
+    "explanation": "Price discrimination and customer heterogeneity explain the pattern. Luxury hotel guests arrive by many means (car, taxi, train); some need parking, others don't. Charging separately allows the hotel to extract value from those who use it without raising prices for those who don't. Budget motels typically cater to road-trippers with cars, so everyone wants parking — bundling it in is efficient. This also illustrates how 'free' things are never truly free: they're either bundled into the base price or subsidised by others.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "price discrimination",
+      "bundling",
+      "hotel economics",
+      "pricing strategy"
+    ]
+  },
+  {
+    "id": "wildcard-038",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Professional sports leagues operate as cartels — they restrict competition among teams for players, broadcasters, and locations. Why is this generally tolerated by antitrust regulators?",
+    "choices": [
+      "A league needs some cooperation among teams — sharing revenues, coordinating schedules — to produce the product (competitive games); a sports league is fundamentally different from a cartel in other industries",
+      "Sports leagues are exempt from antitrust law under all national jurisdictions because of their cultural importance",
+      "Teams are so small individually that no single team has market power, so cartel law does not apply",
+      "Antitrust regulators have no jurisdiction over privately organised sporting competitions"
+    ],
+    "answer": "A league needs some cooperation among teams — sharing revenues, coordinating schedules — to produce the product (competitive games); a sports league is fundamentally different from a cartel in other industries",
+    "explanation": "The economic argument for tolerating sports league cooperation is that team quality is a complement, not a substitute: the Yankees need competitive opponents to produce a valuable product. Revenue sharing, draft systems, and salary caps help maintain competitive balance. Without some coordination, wealthy teams would dominate, reducing uncertainty and fan interest. However, sports leagues have been found to abuse their market power in broadcasting and stadium construction — the exemption is not unlimited.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "sports economics",
+      "cartel",
+      "antitrust",
+      "competitive balance",
+      "revenue sharing"
+    ]
+  },
+  {
+    "id": "wildcard-039",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'winner's curse' applies to competitive auctions. Why does the winner of an auction often overpay for an oil field, a company, or a sports franchise?",
+    "choices": [
+      "Among many bidders with uncertain valuations, the highest bid tends to reflect the most optimistic (and probably wrong) estimate — winning means you overestimated value",
+      "Auction formats legally obligate winners to pay the next-highest bid, systematically exceeding fair value",
+      "Emotional attachment to winning causes bidders to bid beyond rational valuation in all competitive contexts",
+      "Auction participants always have access to the same information as the seller, so any overpayment reflects negotiating incompetence"
+    ],
+    "answer": "Among many bidders with uncertain valuations, the highest bid tends to reflect the most optimistic (and probably wrong) estimate — winning means you overestimated value",
+    "explanation": "If an oil field's true value is uncertain and 20 companies each independently estimate it, the estimates will vary. The highest bidder won because their estimate is the most optimistic — but that optimism is statistically more likely to be wrong than right. Sophisticated bidders account for this and 'shade' their bids below their estimates. The winner's curse appears in M&A (acquiring companies overpay), radio spectrum auctions, and IPOs. It was first documented studying US offshore oil lease auctions in the 1970s.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "winner's curse",
+      "auction theory",
+      "M&A",
+      "oil bidding",
+      "information economics"
+    ]
+  },
+  {
+    "id": "wildcard-040",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Why do companies sometimes hire new graduates at salaries exceeding those of loyal employees who have worked there for years?",
+    "choices": [
+      "Wage compression: companies set entry wages based on competitive market rates, but raise internal wages more slowly — loyal employees would need to threaten to quit to reset to market wages",
+      "New graduates have more current knowledge from their degrees than older employees with outdated skills",
+      "Labour laws in most countries require companies to pay new employees at the industry rate but allow them to pay long-term employees less",
+      "Loyal employees are less productive than new hires because they become complacent over time"
+    ],
+    "answer": "Wage compression: companies set entry wages based on competitive market rates, but raise internal wages more slowly — loyal employees would need to threaten to quit to reset to market wages",
+    "explanation": "Wage compression is a well-documented phenomenon: competitive hiring for new entrants pushes starting salaries up, while incumbent employees get incremental raises below market growth. The cost of turnover (interviewing, hiring, training) keeps incumbents from immediately demanding market-rate renegotiations. The fix is to switch jobs: most economists find that workers who switch employers earn significantly more than those who stay with the same employer — the 'job tenure premium' has weakened in modern labour markets.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "wage compression",
+      "labour market",
+      "salary",
+      "job switching",
+      "tenure"
+    ]
+  },
+  {
+    "id": "wildcard-041",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Rent control — maximum price regulations on residential rents — is intended to help tenants afford housing. Standard economic theory predicts which long-run consequence?",
+    "choices": [
+      "Lower housing supply, as landlords convert rental units to condos, reduce maintenance, or don't build new rentals — worsening the shortage rent control was meant to address",
+      "Lower rents for all renters, including new entrants to the market, since landlords cannot price-gouge",
+      "Higher housing quality, because landlords must compete on quality rather than price to attract tenants",
+      "Reduced residential mobility, as tenants leave controlled units less often, freeing up supply for newcomers"
+    ],
+    "answer": "Lower housing supply, as landlords convert rental units to condos, reduce maintenance, or don't build new rentals — worsening the shortage rent control was meant to address",
+    "explanation": "A price ceiling below market rent reduces the return on rental housing. Landlords respond by: converting units to condos; reducing maintenance (why invest if you can't raise rent?); not building new rental units; and informal discrimination (choosing preferred tenants among many applicants). Stanford economists found that San Francisco's rent control reduced the city's rental supply by 15% — exactly the opposite of its goal. The economic consensus is that rent control protects existing tenants but harms those seeking housing.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "rent control",
+      "housing supply",
+      "price ceilings",
+      "unintended consequences"
+    ]
+  },
+  {
+    "id": "wildcard-042",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'resource curse' (also called the 'paradox of plenty') describes why countries with abundant natural resources often have worse economic outcomes than resource-poor neighbours. Which mechanism is NOT part of the standard resource curse explanation?",
+    "choices": [
+      "Resource-rich countries attract skilled immigrants who displace local workers from high-productivity sectors",
+      "Dutch disease: resource revenues appreciate the currency, hurting manufacturing exports",
+      "Rent-seeking: elites fight over resource revenues rather than creating productive businesses",
+      "Weak institutions: resource revenues reduce governments' need to tax citizens, reducing accountability"
+    ],
+    "answer": "Resource-rich countries attract skilled immigrants who displace local workers from high-productivity sectors",
+    "explanation": "The standard resource curse mechanisms are: (1) Dutch disease — currency appreciation destroys manufacturing; (2) rent-seeking — fighting over oil rents rather than building productive businesses; (3) volatility — commodity prices are volatile, causing boom-bust cycles; (4) weak institutions — governments with oil revenues don't need taxes ('no taxation, no representation' — in reverse). Skilled immigration driving out local workers is not a standard resource curse mechanism; if anything, resource booms tend to attract labour inflows.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "resource curse",
+      "Dutch disease",
+      "rent-seeking",
+      "natural resources",
+      "development"
+    ]
+  },
+  {
+    "id": "wildcard-043",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The 'Lipstick Effect' — a recession phenomenon first noted by Estée Lauder's Leonard Lauder after 9/11 — describes which consumer behaviour?",
+    "choices": [
+      "Sales of small affordable luxuries (lipstick, nail polish, premium chocolate) rise during downturns as consumers substitute for bigger unaffordable luxuries",
+      "Cosmetics advertising increases during recessions as companies compete harder for fewer consumer dollars",
+      "Women's makeup spending rises while men's grooming spending falls, shifting cosmetics market share",
+      "Luxury fashion brands see demand increase during recessions as wealthy consumers display status more visibly"
+    ],
+    "answer": "Sales of small affordable luxuries (lipstick, nail polish, premium chocolate) rise during downturns as consumers substitute for bigger unaffordable luxuries",
+    "explanation": "When people can't afford new cars or vacations, they treat themselves to small luxuries instead — lipstick, artisan coffee, premium chocolate, cinema tickets. This is sometimes called 'trading up in small categories while trading down overall.' The empirical evidence is mixed: some recessions show the effect, others don't. It relates to the broader economic concept of inferior goods and substitution effects.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Lipstick Effect",
+      "consumer behaviour",
+      "recession",
+      "luxury goods",
+      "small indulgences"
+    ]
+  },
+  {
+    "id": "wildcard-044",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'Peltzman effect' — named after economist Sam Peltzman — is a form of which economic phenomenon?",
+    "choices": [
+      "Moral hazard: people take more risks when they feel protected, potentially offsetting the safety benefit of regulations",
+      "Adverse selection: safety regulations drive out safe products, leaving only dangerous ones on the market",
+      "Regulatory capture: safety agencies eventually serve the industries they regulate rather than consumers",
+      "The ratchet effect: safety standards only increase over time and can never be lowered regardless of costs"
+    ],
+    "answer": "Moral hazard: people take more risks when they feel protected, potentially offsetting the safety benefit of regulations",
+    "explanation": "Peltzman (1975) studied mandatory seatbelt laws and found that drivers who felt safer wore seatbelts but drove faster and more aggressively — potentially increasing pedestrian deaths even while reducing driver deaths. This illustrates moral hazard in safety policy: the perception of protection changes behaviour. Similar effects appear in financial regulation (banks take more risk because deposits are insured), healthcare (insured patients demand more treatment), and ski helmets (skiers attempt more dangerous runs).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Peltzman effect",
+      "moral hazard",
+      "risk compensation",
+      "regulation",
+      "seatbelt"
+    ]
+  },
+  {
+    "id": "wildcard-045",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'crowding out' effect suggests that government borrowing raises interest rates, which reduces private investment. Under what conditions is crowding out likely to be SMALL or ZERO?",
+    "choices": [
+      "When the economy is in a recession with high unemployment and spare capacity — government borrowing doesn't compete with private borrowers for scarce funds",
+      "When the central bank is actively raising interest rates to fight inflation",
+      "When the government borrows from foreign investors rather than domestic ones",
+      "When government spending is on consumption goods rather than infrastructure investment"
+    ],
+    "answer": "When the economy is in a recession with high unemployment and spare capacity — government borrowing doesn't compete with private borrowers for scarce funds",
+    "explanation": "Crowding out is most relevant when the economy is at full capacity and funds are scarce. In a recession with idle savings and banks reluctant to lend anyway, government borrowing simply activates money that would otherwise have sat idle — there's no competition with private investment. This is the Keynesian case for fiscal stimulus: in a liquidity trap or severe recession, the government's borrowing doesn't raise interest rates or crowd out private investment, making fiscal multipliers large.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "crowding out",
+      "fiscal policy",
+      "government borrowing",
+      "recession",
+      "Keynesian economics"
+    ]
+  },
+  {
+    "id": "wildcard-046",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Why does your insurance premium often go up after you file a claim, even if the accident wasn't your fault?",
+    "choices": [
+      "Adverse selection: people who file claims are statistically more likely to file future claims — prior claims reveal information about underlying risk",
+      "Insurance companies are legally required to raise premiums after any claim to maintain solvency ratios",
+      "Filing a claim reveals the full value of your insured assets, allowing insurers to price future coverage more accurately",
+      "Claiming reveals that you are a high-risk driver; insurers legally cannot refuse renewal but can raise premiums"
+    ],
+    "answer": "Adverse selection: people who file claims are statistically more likely to file future claims — prior claims reveal information about underlying risk",
+    "explanation": "Prior claims are a powerful predictor of future claims. People who file claims may be higher-risk drivers, may live in higher-risk areas, or may simply be more 'insurance-aware' (filing claims others would absorb). Even if a specific accident wasn't your fault, your claims history reveals information about your underlying risk profile. This is adverse selection and information asymmetry in insurance markets — exactly the kind of asymmetric information that Akerlof studied in 'The Market for Lemons.'",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "insurance",
+      "adverse selection",
+      "information asymmetry",
+      "Akerlof",
+      "risk pricing"
+    ]
+  },
+  {
+    "id": "wildcard-047",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Defensive medicine — doctors ordering unnecessary tests and procedures to protect themselves from malpractice lawsuits — is an example of which economic problem?",
+    "choices": [
+      "Moral hazard: when someone other than the decision-maker bears the cost, they over-consume — doctors bear malpractice risk but patients (or insurers) pay for tests",
+      "Adverse selection: high-risk patients disproportionately seek out the most defensive doctors",
+      "Price discrimination: tests are priced higher for insured patients than cash-paying ones",
+      "The principal-agent problem where doctors are agents of patients but optimise for their own liability protection"
+    ],
+    "answer": "Moral hazard: when someone other than the decision-maker bears the cost, they over-consume — doctors bear malpractice risk but patients (or insurers) pay for tests",
+    "explanation": "Defensive medicine combines moral hazard with the principal-agent problem. Doctors order extra tests not because they're medically necessary but to reduce their legal liability. Since patients (or insurers, not the doctors) pay for these tests, the doctor externalises the cost. Estimates suggest defensive medicine costs the US $45–200 billion annually. It illustrates how liability law and third-party payment (insurance) together can create systematic over-consumption.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "defensive medicine",
+      "moral hazard",
+      "principal-agent",
+      "healthcare economics"
+    ]
+  },
+  {
+    "id": "wildcard-048",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Central banks target 2% inflation rather than 0% for several reasons. Which of the following is the strongest argument for a positive inflation target?",
+    "choices": [
+      "A small positive buffer protects against deflation — once you fall into deflation, real debt burdens rise and it's very difficult to escape (as Japan showed for 25+ years)",
+      "Governments benefit from inflation as it erodes the real value of government debt, effectively taxing bondholders",
+      "Workers are less resistant to real wage cuts if they come through inflation than through nominal pay cuts",
+      "Inflation keeps consumers spending rather than waiting for prices to fall, maintaining aggregate demand"
+    ],
+    "answer": "A small positive buffer protects against deflation — once you fall into deflation, real debt burdens rise and it's very difficult to escape (as Japan showed for 25+ years)",
+    "explanation": "While all four options are real arguments for positive inflation, the 'deflation buffer' is the primary rationale offered by most central banks. When a central bank targets exactly 0%, any negative shock could tip the economy into deflation. Once deflation sets in, it's self-reinforcing: consumers delay purchases expecting prices to fall further; real debt burdens rise, reducing spending; and the zero lower bound limits how much central banks can cut rates. Japan's 'lost decades' of near-deflation are the cautionary tale.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "inflation target",
+      "2% target",
+      "deflation",
+      "central bank",
+      "Japan"
+    ]
+  },
+  {
+    "id": "wildcard-049",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The 'money illusion' — a concept studied by Irving Fisher and later behavioural economists — describes people's tendency to do what?",
+    "choices": [
+      "Think in nominal (face value) rather than real (inflation-adjusted) terms — preferring a 2% wage rise in 5% inflation to a 0% rise in 0% inflation, even though they're worse off in real terms",
+      "Overestimate the amount of money they have because credit cards feel less real than cash",
+      "Believe that wealthy people are 'creating' wealth rather than redistributing existing wealth",
+      "Confuse the price level (inflation) with the exchange rate between currencies"
+    ],
+    "answer": "Think in nominal (face value) rather than real (inflation-adjusted) terms — preferring a 2% wage rise in 5% inflation to a 0% rise in 0% inflation, even though they're worse off in real terms",
+    "explanation": "In real terms, a 2% raise with 5% inflation is a 3% pay cut; a 0% raise with 0% inflation leaves purchasing power unchanged. But workers typically prefer the nominal raise — the '0% raise' feels like a pay cut even if it's better in real terms. Money illusion is why firms find it easier to achieve real wage flexibility through inflation than through nominal cuts: workers resist nominal reductions far more strongly. This helps explain why a 2% inflation target has practical value for labour markets.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "money illusion",
+      "behavioural economics",
+      "nominal vs real",
+      "wages",
+      "inflation"
+    ]
+  },
+  {
+    "id": "wildcard-050",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Why do airlines charge business class passengers sometimes 5–10 times more than economy for the same flight, even though the aircraft cost is identical?",
+    "choices": [
+      "Price discrimination: business travellers (especially those expensing it) have inelastic demand — they need to travel regardless of price — while leisure travellers are price-sensitive",
+      "First-class seats cost airlines much more to provide due to higher fuel consumption from carrying heavier seats",
+      "Business travellers book closer to departure, when fewer seats remain, so scarcity drives prices up",
+      "Regulatory requirements mandate minimum business-class prices equal to the operating cost of the aircraft divided by business seats"
+    ],
+    "answer": "Price discrimination: business travellers (especially those expensing it) have inelastic demand — they need to travel regardless of price — while leisure travellers are price-sensitive",
+    "explanation": "Airlines engage in third-degree price discrimination by identifying and separating customer segments with different price elasticities. Business travellers (flying for work, often expensing costs) have less elastic demand — they'll pay whatever it takes. Leisure travellers have more elastic demand — they'll compare prices and fly the cheapest option. Airlines use many mechanisms to separate the groups: advance purchase requirements, Saturday night stays, and flexible vs. non-refundable tickets. Extracting surplus from business travellers cross-subsidises cheaper economy fares.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "price discrimination",
+      "airline pricing",
+      "elasticity",
+      "business travel"
+    ]
+  },
+  {
+    "id": "wildcard-051",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: According to prospect theory, a gain of $1,000 makes the average person feel roughly as good as a loss of $1,000 makes them feel bad.",
+    "answer": false,
+    "explanation": "Kahneman and Tversky's prospect theory shows that losses feel roughly 2–2.5 times worse than equivalent gains feel good. Losing $1,000 is psychologically about as painful as gaining $2,000–2,500 is pleasurable. This 'loss aversion' causes people to make risk-averse choices with gains (taking the sure thing) and risk-seeking choices with losses (gambling to avoid a certain loss). It's why people hold losing investments too long and sell winning ones too early (the disposition effect).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "prospect theory",
+      "loss aversion",
+      "Kahneman",
+      "Tversky",
+      "behavioural economics"
+    ]
+  },
+  {
+    "id": "wildcard-052",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Why does paying someone to do a task they previously did voluntarily sometimes cause them to stop doing it voluntarily — even after the payment is removed?",
+    "choices": [
+      "Intrinsic motivation gets 'crowded out' by extrinsic rewards — once you're paid for something you did for love, the intrinsic enjoyment is undermined",
+      "People realise their time is worth money and calculate that unpaid activities are economically irrational",
+      "The payment signals that the activity is risky or unpleasant, reducing the volunteer's willingness to do it",
+      "Social norms prohibit mixing commercial transactions with activities previously governed by social reciprocity"
+    ],
+    "answer": "Intrinsic motivation gets 'crowded out' by extrinsic rewards — once you're paid for something you did for love, the intrinsic enjoyment is undermined",
+    "explanation": "Uri Gneezy and Aldo Rustichini demonstrated this 'motivation crowding' in a famous study of an Israeli daycare. When parents were charged a fine for picking up children late, late pickups INCREASED — turning a moral norm (don't inconvenience teachers) into a financial transaction. Parents felt they were now paying for a service and acted accordingly. When the fine was removed, late pickups stayed high — the moral norm had been permanently replaced by a transactional mindset.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "intrinsic motivation",
+      "motivation crowding",
+      "Gneezy",
+      "behavioural economics",
+      "daycare fine"
+    ]
+  },
+  {
+    "id": "wildcard-053",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The public goods problem explains why markets systematically under-provide certain goods like national defence, lighthouses, and public health surveillance. What two characteristics define a public good?",
+    "choices": [
+      "Non-excludable (you can't stop people benefiting) and non-rival (one person's use doesn't reduce availability for others)",
+      "Provided by the government and priced below marginal cost",
+      "Available to everyone and not traded on any market",
+      "Financed by taxes and free at the point of use"
+    ],
+    "answer": "Non-excludable (you can't stop people benefiting) and non-rival (one person's use doesn't reduce availability for others)",
+    "explanation": "A lighthouse is a classic example: non-excludable (you can't stop ships from seeing it) and non-rival (one ship benefiting doesn't reduce the light available to others). Because you can't exclude free-riders, no private firm can profitably charge for the service, so it's under-provided by markets. The free-rider problem means everyone prefers that someone else pay for the public good. Note: many things provided by governments (roads, post) are NOT public goods by this definition — they can be made excludable.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "public goods",
+      "non-excludable",
+      "non-rival",
+      "free-rider problem",
+      "market failure"
+    ]
+  },
+  {
+    "id": "wildcard-054",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Why does the 'hot hand' belief in basketball — that a player on a streak is more likely to score the next shot — persist despite statistical evidence that previous shots are largely independent?",
+    "choices": [
+      "Humans are pattern-seeking animals who find it very difficult to perceive sequences of independent events — we see streaks as meaningful even when they're random",
+      "Players genuinely gain confidence from recent success, which measurably improves their performance on the very next shot",
+      "The hot hand is statistically real at the team level, even though it doesn't apply to individual players",
+      "Basketball coaches reinforce the belief by giving the hot player more possession, creating a self-fulfilling prophecy"
+    ],
+    "answer": "Humans are pattern-seeking animals who find it very difficult to perceive sequences of independent events — we see streaks as meaningful even when they're random",
+    "explanation": "Gilovich, Vallone, and Tversky's famous 1985 study found that NBA shooting sequences are essentially random — hits and misses show no meaningful correlation with the previous shot. Yet players, coaches, and fans firmly believe in the hot hand. This illustrates the 'representativeness heuristic': we judge probability by how much a sequence resembles our mental model of 'random,' but random sequences include long streaks that look non-random to us. Recent research has refined this — there may be small real hot-hand effects — but the cognitive bias is large.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "hot hand fallacy",
+      "representativeness heuristic",
+      "cognitive bias",
+      "behavioural economics",
+      "statistics"
+    ]
+  },
+  {
+    "id": "wildcard-055",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'Laffer curve' illustrates that tax revenue first rises then falls as the tax rate increases — implying a revenue-maximising tax rate below 100%. What is the most important practical implication?",
+    "choices": [
+      "Cutting taxes from very high rates can increase tax revenue, but the revenue-maximising rate is an empirical question — and cutting taxes from moderate rates almost always reduces revenue",
+      "Tax rates should always be set at the revenue-maximising rate to fund the maximum amount of public services",
+      "Higher tax rates always reduce revenue — the correct policy is always to cut taxes",
+      "Tax rates above 50% are unconstitutional in most democracies because they imply the government takes more than the individual"
+    ],
+    "answer": "Cutting taxes from very high rates can increase tax revenue, but the revenue-maximising rate is an empirical question — and cutting taxes from moderate rates almost always reduces revenue",
+    "explanation": "The Laffer curve is logically correct at the extremes: a 0% rate and a 100% rate both yield zero revenue. The insight that cutting rates from very high levels might raise revenue is valid. However, the supply-side claim that US top marginal rates in the 1980s were above the revenue-maximising rate, so Reagan tax cuts would 'pay for themselves,' was not supported empirically. Economists broadly believe the revenue-maximising rate for most taxes is well above current levels in rich countries.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Laffer curve",
+      "tax policy",
+      "supply-side economics",
+      "revenue maximising",
+      "Reaganomics"
+    ]
+  },
+  {
+    "id": "wildcard-056",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "When countries subsidise their domestic agriculture — keeping food cheap for citizens — what global side effect does this create for farmers in developing countries?",
+    "choices": [
+      "Rich-country subsidies depress world food prices, undercutting poor-country farmers who must compete against artificially cheap imports",
+      "Poor countries receive higher aid transfers to compensate for lost agricultural income",
+      "Developing countries are encouraged to specialise in manufactured exports rather than food, improving global efficiency",
+      "Rich-country farm subsidies fund food security stockpiles that developing countries can draw on in emergencies"
+    ],
+    "answer": "Rich-country subsidies depress world food prices, undercutting poor-country farmers who must compete against artificially cheap imports",
+    "explanation": "The EU's Common Agricultural Policy and US farm subsidies generate surpluses of wheat, sugar, cotton, and dairy that are sold on world markets below production cost. This undercuts African and Asian farmers who have lower productivity but no subsidies. Oxfam and others called this 'dumping.' The WTO's Doha Development Round (launched 2001) collapsed partly over inability to agree on agricultural subsidy reform. The same countries preaching free trade to developing nations protect their own farmers most vigorously.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "agricultural subsidies",
+      "developing countries",
+      "WTO",
+      "Doha Round",
+      "food policy"
+    ]
+  },
+  {
+    "id": "wildcard-057",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Housing markets show 'sticky' downward prices — sellers resist cutting prices below what they paid. Which economic concept best explains this rigidity?",
+    "choices": [
+      "Loss aversion: selling below purchase price is experienced as a painful loss, so sellers hold out hoping for a better price — sometimes leaving their house unsold for years",
+      "Rational expectations: sellers correctly anticipate that prices will recover, so waiting is always optimal",
+      "Price floors: governments set minimum housing prices to prevent market crashes that would destabilise banks",
+      "Sticky wages theory: just as wages don't fall easily, rents and prices have analogous downward rigidity due to unionisation"
+    ],
+    "answer": "Loss aversion: selling below purchase price is experienced as a painful loss, so sellers hold out hoping for a better price — sometimes leaving their house unsold for years",
+    "explanation": "Loss aversion creates 'nominal loss aversion' in housing: sellers anchor to their purchase price and refuse to sell at a loss even when the price is fair given current market conditions. This 'housing market stickiness' means that when demand falls, transaction volumes collapse (because sellers won't cut) rather than prices immediately clearing — markets can freeze up. Behavioural economists Genesove and Mayer documented this empirically in Boston condo markets.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "housing market",
+      "loss aversion",
+      "sticky prices",
+      "behavioural economics",
+      "anchoring"
+    ]
+  },
+  {
+    "id": "wildcard-058",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "A monopoly creates deadweight loss — lost social value that no one captures. What is the source of this welfare loss compared to a competitive market?",
+    "choices": [
+      "The monopolist restricts output below the competitive level and charges a higher price, so transactions that would have been mutually beneficial at competitive prices simply don't happen",
+      "The monopolist earns higher profits, which are purely redistributed from consumers to shareholders with no net loss",
+      "Monopolies invest less in R&D than competitive firms because they have no need to innovate to attract customers",
+      "Monopolist workers earn higher wages, which cause labour market distortions in other industries"
+    ],
+    "answer": "The monopolist restricts output below the competitive level and charges a higher price, so transactions that would have been mutually beneficial at competitive prices simply don't happen",
+    "explanation": "In competitive markets, output expands until price equals marginal cost — every mutually beneficial transaction occurs. A profit-maximising monopolist sets price above marginal cost (MR = MC < P), restricting output. Some customers who value the good above its cost to produce don't buy it — these lost transactions are the deadweight loss. The monopolist captures some of the consumer surplus as profit (redistribution, not loss), but the forgone transactions are a pure social waste.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "monopoly",
+      "deadweight loss",
+      "market power",
+      "welfare economics",
+      "antitrust"
+    ]
+  },
+  {
+    "id": "wildcard-059",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Match each pricing or market phenomenon to the economics concept it illustrates.",
+    "pairs": [
+      [
+        "A taxi becomes free on New Year's Eve when everyone needs one",
+        "Surge pricing (dynamic pricing)"
+      ],
+      [
+        "Shoppers pay different prices for the same flight based on when they booked",
+        "Price discrimination"
+      ],
+      [
+        "A company charges $0.99 instead of $1.00",
+        "Left-digit bias (psychological pricing)"
+      ],
+      [
+        "People value a mug they've been given more than the same mug if asked to buy it",
+        "Endowment effect"
+      ]
+    ],
+    "answer": "Free taxi→surge pricing, different flight prices→price discrimination, $0.99 pricing→left-digit bias, mug valuation→endowment effect",
+    "explanation": "Surge pricing: prices rise when demand spikes to clear the market. Price discrimination: different prices for the same good based on willingness to pay. Left-digit bias: $0.99 feels much cheaper than $1.00 because we read left-to-right and anchor to the first digit. Endowment effect: ownership increases perceived value — shown by Kahneman/Thaler's coffee mug experiments where people demanded far more to give up a mug than they'd pay to acquire an identical one.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "pricing",
+      "behavioural economics",
+      "price discrimination",
+      "endowment effect",
+      "surge pricing"
+    ]
+  },
+  {
+    "id": "wildcard-060",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Imagine a drug company has spent $1 billion developing a drug that is now in its final trial stage. The trial so far shows the drug is no more effective than a placebo, but the CEO argues 'we've invested too much to abandon it now.' This is an example of:",
+    "choices": [
+      "The sunk cost fallacy — the $1 billion is gone regardless; the decision should depend only on whether completing the trial and bringing the drug to market is expected to generate future returns",
+      "Rational updating — new information (that the drug doesn't work so far) increases the probability of eventual success, justifying continued investment",
+      "Option value — the drug might still succeed, so continuing is like holding a call option",
+      "Anchoring bias — the CEO is anchored to the original $1 billion investment target"
+    ],
+    "answer": "The sunk cost fallacy — the $1 billion is gone regardless; the decision should depend only on whether completing the trial and bringing the drug to market is expected to generate future returns",
+    "explanation": "The sunk cost fallacy occurs when past (irrecoverable) expenditure influences current decisions. The $1 billion is gone whether the trial continues or stops. The rational question is forward-looking: given what the current evidence shows, does continuing the trial have positive expected value? If the drug is ineffective, no amount of prior investment makes future investment worthwhile. Sunk costs affect government policy too: countries continue wars partly because 'we can't let our soldiers have died in vain.'",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "sunk cost fallacy",
+      "behavioural economics",
+      "rational decision-making",
+      "pharmaceutical"
+    ]
+  },
+  {
+    "id": "wildcard-061",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Why do some economists argue that free trade with low-wage countries benefits consumers in rich countries but can harm workers in specific industries — and how does standard trade theory address this tension?",
+    "choices": [
+      "The Stolper-Samuelson theorem: trade benefits the abundant factor (capital in rich countries) and harms the scarce factor (low-skilled labour in rich countries) — so trade creates winners and losers even while raising average welfare",
+      "The Heckscher-Ohlin theorem: trade between countries with similar factor endowments harms both countries by reducing intra-industry trade specialisation",
+      "Comparative advantage theory: whenever wages differ across countries, trade must harm the high-wage country's workers",
+      "The factor price equalisation theorem: trade between rich and poor countries always equalises wages globally, benefiting rich-country workers"
+    ],
+    "answer": "The Stolper-Samuelson theorem: trade benefits the abundant factor (capital in rich countries) and harms the scarce factor (low-skilled labour in rich countries) — so trade creates winners and losers even while raising average welfare",
+    "explanation": "The Stolper-Samuelson theorem (1941) proved that in a two-factor model, trade benefits the country's abundant factor and harms the scarce one. For rich countries with abundant capital: trade with labour-abundant poor countries raises returns to capital and lowers returns to low-skilled labour. This gives trade a specific distributional prediction: it makes a country richer on average but shifts income from workers to capital owners. Trade adjustment assistance and redistribution are the economic response — but politically these have often been inadequate.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Stolper-Samuelson",
+      "free trade",
+      "inequality",
+      "labour",
+      "trade theory"
+    ]
+  },
+  {
+    "id": "wildcard-062",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'equity premium puzzle' — why stocks have historically earned 6–8% more per year than safe government bonds — has no fully agreed explanation. Which explanation do most economists consider most promising?",
+    "choices": [
+      "Rare disaster risk: investors demand a high premium to compensate for the small but real probability of a catastrophic economic collapse where stocks lose 50%+ and bonds remain safe",
+      "Stock markets are irrational and the premium simply reflects historical luck rather than any rational risk factor",
+      "Regulatory constraints prevent institutional investors from holding enough stocks, creating artificial undersupply that inflates returns",
+      "Capital gains taxes on stocks reduce their after-tax return to near the bond return, explaining why the pre-tax premium must be high"
+    ],
+    "answer": "Rare disaster risk: investors demand a high premium to compensate for the small but real probability of a catastrophic economic collapse where stocks lose 50%+ and bonds remain safe",
+    "explanation": "Robert Barro developed the rare disaster hypothesis as one leading explanation: the historical data lacks enough catastrophic events (world wars, depressions) to calibrate tail risk properly. If investors rationally fear scenarios like the Great Depression, WWI/WWII equity wipeouts, or hyperinflation that destroyed stocks, they would demand high compensation for holding stocks even if these events didn't occur in the specific sample observed. Other explanations include habit formation, limited stock market participation, and behavioural overestimation of risk.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "equity premium puzzle",
+      "rare disaster",
+      "stock market",
+      "risk",
+      "behavioural finance"
+    ]
+  },
+  {
+    "id": "wildcard-063",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "higher_lower",
+    "prompt": "Both represent types of international financial flows into a country. Which is typically larger for developing countries?",
+    "items": [
+      "Remittances from diaspora workers abroad",
+      "Foreign direct investment (FDI) by multinationals"
+    ],
+    "metric": "annual inflow for low- and middle-income countries combined (2022–2023)",
+    "answer": "Remittances from diaspora workers abroad",
+    "explanation": "Global remittances to developing countries exceeded $650 billion in 2023, compared with FDI inflows of roughly $400–500 billion. Remittances are also more stable than FDI: they don't dry up in recessions (workers abroad keep sending money home) and are less affected by political risk. For countries like Philippines, El Salvador, and Honduras, remittances exceed 20% of GDP. FDI comes with more conditions and is more concentrated in a few large host countries.",
+    "source": null,
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "remittances",
+      "FDI",
+      "developing countries",
+      "capital flows",
+      "comparison"
+    ]
+  },
+  {
+    "id": "wildcard-064",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Why are doctors' house calls so rare today compared to a century ago, when doctors routinely visited patients at home?",
+    "choices": [
+      "Baumol's cost disease: doctors' time has become relatively much more expensive as productivity in the rest of the economy has risen, making home visits economically impractical",
+      "Medical technology now requires patients to come to hospitals, making house calls clinically inferior",
+      "Malpractice liability makes home visits legally risky without hospital equipment available",
+      "Insurance companies explicitly prohibit reimbursement for house calls to prevent overutilisation"
+    ],
+    "answer": "Baumol's cost disease: doctors' time has become relatively much more expensive as productivity in the rest of the economy has risen, making home visits economically impractical",
+    "explanation": "A house call takes perhaps 2 hours including travel; a clinic visit takes 15 minutes. In 1900, when a doctor's alternative uses of time were less lucrative and transport was slow for everyone, this difference was less economically significant. Today, a doctor's time is worth far more (due to productivity gains elsewhere raising wages), and patients can travel quickly. Baumol's cost disease explains why services with fixed time inputs (therapy, music lessons, surgery) become relatively more expensive over time even without quality changes.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Baumol's cost disease",
+      "healthcare",
+      "productivity",
+      "services",
+      "doctor"
+    ]
+  },
+  {
+    "id": "wildcard-065",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: Research consistently shows that people who win large lottery jackpots are significantly happier long-term than before they won, demonstrating that money does buy lasting happiness.",
+    "answer": false,
+    "explanation": "The famous Brickman, Coates, and Janoff-Bulman (1978) study found that lottery winners and accident victims reverted toward a happiness baseline after 12 months. More recent work by Stevenson and Wolfers finds a positive correlation between income and wellbeing — but hedonic adaptation means people adjust to new wealth. The 'hedonic treadmill' concept suggests that consumption increases provide only temporary boosts; people quickly reset to their previous happiness set-point. The lesson: wealth above a comfortable living standard adds less to wellbeing than most people expect.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "hedonic treadmill",
+      "happiness economics",
+      "lottery",
+      "wellbeing",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "wildcard-066",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Why does pouring more government money into a failing weapons programme or expensive government IT project often continue despite mounting evidence of failure?",
+    "choices": [
+      "The sunk cost fallacy combined with political incentives: cancelling means admitting failure (political cost) while continuing preserves jobs in key constituencies",
+      "Contract law requires the government to complete projects once they've been awarded to private contractors",
+      "Programme managers rationally calculate that completion probability rises with each additional dollar spent",
+      "Budget accounting rules classify incomplete programmes as larger losses than completed ones, creating perverse incentives to finish"
+    ],
+    "answer": "The sunk cost fallacy combined with political incentives: cancelling means admitting failure (political cost) while continuing preserves jobs in key constituencies",
+    "explanation": "Government programmes suffer from 'escalation of commitment' — the same bias as throwing good money after bad. Politicians who cancel a programme absorb the political blame for the entire failed investment. Contractors employed on the programme lobby for continuation. Bureaucrats whose careers are tied to the project fight for it. The UK's NHS IT programme (ultimately scrapped at £10 billion loss) and many US defence systems illustrate this. The economic recommendation is to evaluate programmes on future marginal value — ignoring sunk costs — but political economy makes this very difficult.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "sunk cost",
+      "government programmes",
+      "escalation of commitment",
+      "political economy"
+    ]
+  },
+  {
+    "id": "wildcard-067",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'iceberg model of trade costs' argues that visible tariff barriers are actually a small portion of the total cost of trading internationally. Which cost is typically the largest hidden trade cost?",
+    "choices": [
+      "Information and contract enforcement costs — finding reliable foreign suppliers, verifying quality, and enforcing contracts across legal systems",
+      "Transportation costs — shipping goods across oceans accounts for most of the price difference between countries",
+      "Currency conversion costs — foreign exchange fees on international transactions",
+      "Insurance costs — insuring goods against loss or damage in transit"
+    ],
+    "answer": "Information and contract enforcement costs — finding reliable foreign suppliers, verifying quality, and enforcing contracts across legal systems",
+    "explanation": "James Anderson and Eric van Wincoop estimated that the full cost of international trade is equivalent to a 170% tariff (compared to domestic trade) — far larger than actual tariff rates of a few percent. Most of this iceberg cost is 'beneath the surface': language barriers, information asymmetry about foreign product quality, legal uncertainty in enforcing contracts across jurisdictions, cultural differences in business norms, and regulatory compliance. Trade agreements and WTO disciplines help with visible tariffs but barely touch these transaction costs.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "trade costs",
+      "iceberg model",
+      "trade barriers",
+      "information costs",
+      "international trade"
+    ]
+  },
+  {
+    "id": "wildcard-068",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'Coase theorem' states that externalities can be efficiently resolved through private bargaining if property rights are well-defined and transaction costs are zero. In practice, this rarely works for large-scale externalities like climate change. Why?",
+    "choices": [
+      "Transaction costs are prohibitively high: billions of emitters and billions of affected parties cannot negotiate directly, and free-rider problems prevent collective action",
+      "Property rights over clean air have not been legally defined, so Coase himself admitted the theorem doesn't apply to pollution",
+      "Climate change is a positive externality, not a negative one — the Coase theorem applies only to harms, not benefits",
+      "International law prohibits private bargaining over global commons like the atmosphere"
+    ],
+    "answer": "Transaction costs are prohibitively high: billions of emitters and billions of affected parties cannot negotiate directly, and free-rider problems prevent collective action",
+    "explanation": "The Coase theorem works in small-scale settings (a factory and a fisherman; neighbours with a noisy party). For climate change, the 'transaction costs are zero' assumption completely breaks down: 8 billion people affected by climate change cannot negotiate with billions of emitters. Identifying who bears what cost and who should pay what is computationally and practically impossible. International collective action problems (each country prefers others to decarbonise) compound the issue. This is the core economic rationale for government carbon pricing policies.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Coase theorem",
+      "externalities",
+      "climate change",
+      "transaction costs",
+      "carbon pricing"
+    ]
+  },
+  {
+    "id": "wildcard-069",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In a competitive market, prices generally equal marginal cost. But many digital products (software, apps, streaming) have near-zero marginal cost — it costs almost nothing to serve one more user. What pricing challenge does this create?",
+    "choices": [
+      "Firms cannot cover their large fixed development costs if they price at near-zero marginal cost, so they must develop alternative revenue models (subscriptions, ads, tiered pricing)",
+      "Near-zero marginal cost means digital products should always be free, making private investment in software economically irrational",
+      "Digital firms cannot compete because any product with zero marginal cost can be undercut to zero by a competitor",
+      "Regulatory frameworks require minimum prices above zero for digital services to prevent predatory pricing that would eliminate all software companies"
+    ],
+    "answer": "Firms cannot cover their large fixed development costs if they price at near-zero marginal cost, so they must develop alternative revenue models (subscriptions, ads, tiered pricing)",
+    "explanation": "Microsoft spent billions developing Windows; each additional copy cost almost nothing to distribute. Pricing at marginal cost (~$0) would never recoup development costs. So digital firms use: (1) subscription models (Netflix, Spotify); (2) advertising-supported free access (Google, Meta); (3) freemium (Spotify, LinkedIn); or (4) one-time licence fees. The economics of near-zero marginal cost are a key reason digital markets tend toward 'winner-take-most' outcomes — once you've covered fixed costs, you can price very aggressively.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "digital economics",
+      "marginal cost",
+      "zero marginal cost",
+      "pricing strategy",
+      "software"
+    ]
+  },
+  {
+    "id": "wildcard-070",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "True or false: Research on assortative mating (educated people marrying educated people) shows that this trend has contributed to rising income inequality between households in recent decades.",
+    "answer": true,
+    "explanation": "Assortative mating has increased: in 1960, only about 25% of couples both had college degrees; by 2010 it was 48%. When high earners increasingly partner with other high earners, household incomes at the top rise faster than individual wages, widening the household income distribution. If randomly assigned, some high-earning individuals would marry lower-earning partners, moderating top-household income growth. Robert Mare, Yuting Chang, and others have estimated that assortative mating explains 25–40% of the increase in household income inequality in the US.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "assortative mating",
+      "income inequality",
+      "marriage market",
+      "households",
+      "Becker"
+    ]
+  },
+  {
+    "id": "wildcard-071",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Why might self-checkout machines have slowed down checkout times in grocery stores rather than speeding them up, as economic theory about technology would predict?",
+    "choices": [
+      "Self-checkouts require human attendants to approve age-restricted purchases and fix errors, creating a new bottleneck — and many customers scan and pack more slowly than trained cashiers",
+      "Stores use self-checkout to justify reducing trained cashiers, making human-staffed lanes slower due to lower staffing levels elsewhere",
+      "Inventory theft at self-checkout is so high that stores added security measures that slow the process for honest customers",
+      "Union contracts require stores to staff one human monitor per self-checkout machine, eliminating labour savings"
+    ],
+    "answer": "Self-checkouts require human attendants to approve age-restricted purchases and fix errors, creating a new bottleneck — and many customers scan and pack more slowly than trained cashiers",
+    "explanation": "Self-checkouts illustrate unintended consequences and Baumol's cost disease. Customers scan items more slowly than trained cashiers; errors require staff intervention; age verification requires human approval; produce items need lookup. Meanwhile, stores reduced human cashier staffing assuming customers would use self-checkout — but many prefer human lanes, concentrating demand there. The technology also revealed 'shrink' (theft) rates significantly above what was assumed, prompting some chains (Booths in the UK) to remove most self-checkouts in 2023.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "self-checkout",
+      "technology",
+      "unintended consequences",
+      "retail economics",
+      "Baumol"
+    ]
+  },
+  {
+    "id": "wildcard-072",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "order",
+    "prompt": "These four economic 'perverse incentive' stories each involved governments or businesses getting exactly the wrong result from a well-intentioned policy. Put them in chronological order, earliest first.",
+    "items": [
+      "Cobra bounty programme — British India",
+      "Daycare fine for late pickups — Haifa, Israel",
+      "Hong Kong Nolan Committee — land supply restrictions",
+      "US ethanol mandate creating food price inflation"
+    ],
+    "order_by": "approximate year of the policy introduction or study",
+    "answer": "Cobra bounty programme → Hong Kong land restrictions → Daycare fine → US ethanol mandate",
+    "explanation": "Cobra effect: British colonial India, approximately 1880s. Hong Kong land supply restrictions (colonial-era policies): 1960s–1980s. Israeli daycare fine study (Gneezy & Rustichini): published 2000, experiment run late 1990s. US corn ethanol mandate (Energy Policy Act): 2005. The cobra effect is the original named 'perverse incentive' — farmers bred cobras to claim the bounty, increasing the cobra population.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "perverse incentives",
+      "unintended consequences",
+      "cobra effect",
+      "chronology"
+    ]
+  },
+  {
+    "id": "wildcard-073",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "When a government attempts to subsidise farmers by paying above-market prices for grain, standard economic theory predicts what consequence?",
+    "choices": [
+      "Surplus production: farmers grow more at the higher price, creating stockpiles that the government must store or sell at a loss",
+      "A shortage: consumers demand more grain because the government subsidy makes it cheaper for them",
+      "Efficient allocation: the market clears at the government price, producing exactly the socially optimal quantity",
+      "Price discrimination: foreign buyers pay the full market price while domestic consumers pay the subsidised price"
+    ],
+    "answer": "Surplus production: farmers grow more at the higher price, creating stockpiles that the government must store or sell at a loss",
+    "explanation": "A price floor above equilibrium creates a surplus — quantity supplied exceeds quantity demanded. EU and US farm price support programmes historically produced 'butter mountains,' 'wine lakes,' and grain mountains. These surpluses had to be stored (costly), destroyed (politically embarrassing), or dumped on world markets at subsidised prices (harming developing-country farmers). This is a price floor in action: it benefits producers but creates waste and costs taxpayers.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "price floor",
+      "agricultural subsidies",
+      "surplus",
+      "EU farm policy",
+      "unintended consequences"
+    ]
+  },
+  {
+    "id": "wildcard-074",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "When a rich-country government subsidises its own fishing fleet, this creates an 'externality' — an external cost imposed on which parties?",
+    "choices": [
+      "Foreign fishers and future generations — subsidies allow over-fishing that depletes shared fish stocks beyond sustainable levels",
+      "Domestic fish consumers — subsidies raise retail prices by supporting inefficient domestic fleets",
+      "Commercial shipbuilders — subsidised fleets reduce demand for new vessels by keeping old ones operating longer",
+      "Neighbouring countries' navies — subsidised fishing fleets expand into exclusive economic zones, creating territorial disputes"
+    ],
+    "answer": "Foreign fishers and future generations — subsidies allow over-fishing that depletes shared fish stocks beyond sustainable levels",
+    "explanation": "Fishing subsidies (estimated at $35 billion/year globally) enable fishing beyond what the underlying fish stocks can sustain. This depletes fish stocks that are a common resource — harming foreign fishing communities that depend on the same stocks and future generations who inherit depleted oceans. It's a classic 'tragedy of the commons' problem amplified by state support. The WTO reached a historic fisheries subsidies agreement in 2022 to limit harmful subsidies for the first time.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "fishing subsidies",
+      "externality",
+      "tragedy of the commons",
+      "WTO",
+      "overfishing"
+    ]
+  },
+  {
+    "id": "wildcard-075",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Why does it make economic sense to pay people NOT to fish — as some conservation programmes do — rather than simply setting catch limits?",
+    "choices": [
+      "Paying fishers to stop fishing can be more cost-effective than monitoring catch limits, which are expensive to enforce and easy to evade",
+      "Fishers who are paid not to fish become advocates for conservation, influencing their communities to fish sustainably",
+      "The payment directly compensates fishers for the externality they impose on future fish stocks",
+      "International maritime law prohibits direct catch limits but allows financial incentives"
+    ],
+    "answer": "Paying fishers to stop fishing can be more cost-effective than monitoring catch limits, which are expensive to enforce and easy to evade",
+    "explanation": "Regulatory catch limits require monitoring, enforcement, and penalties — all costly and imperfect (fishers can misreport catches). Paying fishers to retire or not fish (through permit buybacks) eliminates fishing capacity permanently and achieves conservation goals without enforcement problems. This is the 'cap and trade' or 'Coasian' solution: instead of regulating behaviour, change the economic incentive. The US, EU, and Australia have all used buyback programmes. The challenge is selecting the right boats to retire and preventing the money from being used to buy new capacity.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "fishing",
+      "conservation policy",
+      "regulatory economics",
+      "incentives",
+      "buyback"
+    ]
+  },
+  {
+    "id": "wildcard-076",
+    "category": "wildcard",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The 'Ikea effect' — named after the furniture company — describes what psychological phenomenon?",
+    "choices": [
+      "People value things they built themselves more highly than identical ready-made items, proportional to the labour they invested",
+      "People are more likely to buy a product if it comes with assembly instructions, because effort creates perceived value",
+      "Consumer satisfaction with IKEA furniture increases after assembly because anticipation is more enjoyable than the product itself",
+      "People prefer difficult-to-assemble products because complexity signals quality and craftsmanship"
+    ],
+    "answer": "People value things they built themselves more highly than identical ready-made items, proportional to the labour they invested",
+    "explanation": "Norton, Mochon, and Ariely (2012) showed that people valued their self-assembled IKEA furniture comparably to professional work — and were willing to pay far more for objects they built than for identical ready-made versions. This 'IKEA effect' is a variant of the endowment effect combined with labour justification bias. It has implications for product design (involvement increases attachment), education (struggling with problems improves learning), and investment (people overvalue stocks they researched themselves).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "IKEA effect",
+      "labour justification",
+      "behavioural economics",
+      "endowment effect",
+      "consumer behaviour"
+    ]
+  },
+  {
+    "id": "wildcard-077",
+    "category": "wildcard",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Microfinance — lending small amounts to poor borrowers without collateral — was celebrated as a poverty-reduction miracle in the 1990s and 2000s. Later randomised controlled trials found what surprising result?",
+    "choices": [
+      "Access to microloans improved business formation and resilience but had little measurable effect on long-run income or poverty rates — the transformative claims were overstated",
+      "Microfinance reduced poverty only for women borrowers, not for men, due to different spending patterns",
+      "Microloans were statistically shown to increase poverty by trapping borrowers in debt cycles with high interest rates",
+      "The RCTs confirmed early enthusiasts' claims: microfinance reduced poverty by 40–60% wherever it was rigorously tested"
+    ],
+    "answer": "Access to microloans improved business formation and resilience but had little measurable effect on long-run income or poverty rates — the transformative claims were overstated",
+    "explanation": "A series of RCTs in the 2010s (Banerjee/Duflo and others in India, Bosnia, Ethiopia, Mexico, Morocco) found modest positive effects: microloans did help some borrowers start businesses and manage cash flow — but the large poverty-reducing effects claimed by Yunus and Grameen Bank's early advocates did not materialise. The impact on household income, children's schooling, or women's empowerment was small and inconsistent. The story illustrates how development economics evolved from anecdote-based advocacy to rigorous measurement.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "microfinance",
+      "RCT",
+      "development economics",
+      "Banerjee",
+      "Duflo",
+      "Yunus"
+    ]
   }
 ]

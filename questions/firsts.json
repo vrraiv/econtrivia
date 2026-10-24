@@ -16,7 +16,12 @@
     "source": "https://www.parliament.uk/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["income tax", "UK", "Pitt", "Napoleon"]
+    "tags": [
+      "income tax",
+      "UK",
+      "Pitt",
+      "Napoleon"
+    ]
   },
   {
     "id": "firsts-002",
@@ -35,7 +40,12 @@
     "source": "https://www.riksbank.se/en-gb/about-the-riksbank/history/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["central bank", "Riksbank", "Sweden", "firsts"]
+    "tags": [
+      "central bank",
+      "Riksbank",
+      "Sweden",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-003",
@@ -50,7 +60,12 @@
     "source": "https://www.bankofengland.co.uk/about/history",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of England", "central bank", "1694", "firsts"]
+    "tags": [
+      "Bank of England",
+      "central bank",
+      "1694",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-004",
@@ -69,7 +84,12 @@
     "source": "https://www.euronext.com/en/about/history",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["VOC", "Amsterdam", "stock exchange", "firsts"]
+    "tags": [
+      "VOC",
+      "Amsterdam",
+      "stock exchange",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-005",
@@ -88,7 +108,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Adam Smith", "Wealth of Nations", "1776", "classical economics"]
+    "tags": [
+      "Adam Smith",
+      "Wealth of Nations",
+      "1776",
+      "classical economics"
+    ]
   },
   {
     "id": "firsts-006",
@@ -107,7 +132,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["VAT", "France", "tax policy", "firsts"]
+    "tags": [
+      "VAT",
+      "France",
+      "tax policy",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-007",
@@ -126,7 +156,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["credit card", "Diners Club", "firsts", "payments"]
+    "tags": [
+      "credit card",
+      "Diners Club",
+      "firsts",
+      "payments"
+    ]
   },
   {
     "id": "firsts-008",
@@ -145,7 +180,12 @@
     "source": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/history-of-monetary-policy",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["inflation targeting", "New Zealand", "monetary policy", "firsts"]
+    "tags": [
+      "inflation targeting",
+      "New Zealand",
+      "monetary policy",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-009",
@@ -158,7 +198,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["pension", "Bismarck", "Germany", "social security", "firsts"]
+    "tags": [
+      "pension",
+      "Bismarck",
+      "Germany",
+      "social security",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-010",
@@ -177,7 +223,13 @@
     "source": "https://www.barclays.co.uk/news/2017/6/50-years-of-the-atm/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["ATM", "Barclays", "firsts", "payments", "banking"]
+    "tags": [
+      "ATM",
+      "Barclays",
+      "firsts",
+      "payments",
+      "banking"
+    ]
   },
   {
     "id": "firsts-011",
@@ -196,7 +248,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["paper money", "China", "Song dynasty", "firsts", "currency"]
+    "tags": [
+      "paper money",
+      "China",
+      "Song dynasty",
+      "firsts",
+      "currency"
+    ]
   },
   {
     "id": "firsts-012",
@@ -215,7 +273,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["free trade", "Cobden-Chevalier", "firsts", "UK", "France"]
+    "tags": [
+      "free trade",
+      "Cobden-Chevalier",
+      "firsts",
+      "UK",
+      "France"
+    ]
   },
   {
     "id": "firsts-013",
@@ -234,7 +298,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["gold standard", "UK", "monetary history", "firsts"]
+    "tags": [
+      "gold standard",
+      "UK",
+      "monetary history",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-014",
@@ -253,7 +322,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["gold standard", "Great Depression", "UK", "firsts"]
+    "tags": [
+      "gold standard",
+      "Great Depression",
+      "UK",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-015",
@@ -272,7 +346,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["minimum wage", "New Zealand", "labour policy", "firsts"]
+    "tags": [
+      "minimum wage",
+      "New Zealand",
+      "labour policy",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-016",
@@ -287,7 +366,12 @@
     "source": "https://www.nobelprize.org/prizes/economic-sciences/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Nobel", "economics prize", "1969", "firsts"]
+    "tags": [
+      "Nobel",
+      "economics prize",
+      "1969",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-017",
@@ -306,7 +390,12 @@
     "source": "https://www.bankofcanada.ca/core-functions/monetary-policy/inflation/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bank of Canada", "inflation targeting", "Canada", "monetary policy"]
+    "tags": [
+      "Bank of Canada",
+      "inflation targeting",
+      "Canada",
+      "monetary policy"
+    ]
   },
   {
     "id": "firsts-018",
@@ -325,7 +414,12 @@
     "source": "https://www.boj.or.jp/en/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["quantitative easing", "Bank of Japan", "monetary policy", "firsts"]
+    "tags": [
+      "quantitative easing",
+      "Bank of Japan",
+      "monetary policy",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-019",
@@ -338,7 +432,13 @@
     "source": "https://www.fdic.gov/about/history/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["FDIC", "deposit insurance", "US", "banking", "firsts"]
+    "tags": [
+      "FDIC",
+      "deposit insurance",
+      "US",
+      "banking",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-020",
@@ -357,7 +457,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["carbon tax", "Finland", "climate policy", "firsts"]
+    "tags": [
+      "carbon tax",
+      "Finland",
+      "climate policy",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-021",
@@ -376,7 +481,12 @@
     "source": "https://www.kela.fi/web/en/news-archive/-/asset_publisher/lN08GY2nIrZo/content/results-of-the-basic-income-experiment-small-employment-effects-better-wellbeing",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["UBI", "universal basic income", "Finland", "firsts"]
+    "tags": [
+      "UBI",
+      "universal basic income",
+      "Finland",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-022",
@@ -395,7 +505,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["South Sea Bubble", "UK", "stock market crash", "financial history"]
+    "tags": [
+      "South Sea Bubble",
+      "UK",
+      "stock market crash",
+      "financial history"
+    ]
   },
   {
     "id": "firsts-023",
@@ -408,7 +523,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["futures market", "Japan", "Dojima", "rice", "firsts"]
+    "tags": [
+      "futures market",
+      "Japan",
+      "Dojima",
+      "rice",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-024",
@@ -427,7 +548,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Marx", "Communist Manifesto", "1848", "socialism"]
+    "tags": [
+      "Marx",
+      "Communist Manifesto",
+      "1848",
+      "socialism"
+    ]
   },
   {
     "id": "firsts-025",
@@ -446,7 +572,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["GDP", "Kuznets", "national accounts", "Nobel", "firsts"]
+    "tags": [
+      "GDP",
+      "Kuznets",
+      "national accounts",
+      "Nobel",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-026",
@@ -466,7 +598,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bretton Woods", "GATT", "WTO", "Nixon", "international economics"]
+    "tags": [
+      "Bretton Woods",
+      "GATT",
+      "WTO",
+      "Nixon",
+      "international economics"
+    ]
   },
   {
     "id": "firsts-027",
@@ -479,7 +617,12 @@
     "source": "https://www.nobelprize.org/prizes/economic-sciences/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Nobel", "Riksbank", "prize history", "firsts"]
+    "tags": [
+      "Nobel",
+      "Riksbank",
+      "prize history",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-028",
@@ -498,7 +641,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["John Law", "Mississippi Bubble", "monetary history", "France", "firsts"]
+    "tags": [
+      "John Law",
+      "Mississippi Bubble",
+      "monetary history",
+      "France",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-029",
@@ -517,7 +666,13 @@
     "source": "https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets_en",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["EU ETS", "carbon trading", "cap-and-trade", "climate policy", "firsts"]
+    "tags": [
+      "EU ETS",
+      "carbon trading",
+      "cap-and-trade",
+      "climate policy",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-030",
@@ -526,12 +681,21 @@
     "format": "short",
     "prompt": "What term describes the economic doctrine, dominant from roughly 1500–1800, that a nation's wealth depends on accumulating gold and silver by maximising exports and minimising imports?",
     "answer": "mercantilism",
-    "accept": ["mercantilism", "mercantilist", "mercantile system"],
+    "accept": [
+      "mercantilism",
+      "mercantilist",
+      "mercantile system"
+    ],
     "explanation": "Mercantilism held that the world's wealth was a fixed pie and nations competed for share. Adam Smith's Wealth of Nations (1776) was largely a refutation of mercantilist policies. Ironically, some economists argue modern export-led growth strategies echo mercantilist ideas.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["mercantilism", "economic history", "trade policy", "firsts"]
+    "tags": [
+      "mercantilism",
+      "economic history",
+      "trade policy",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-031",
@@ -544,7 +708,13 @@
     "source": "https://www.nyse.com/history",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["NYSE", "Wall Street", "Buttonwood Agreement", "firsts", "stock exchange"]
+    "tags": [
+      "NYSE",
+      "Wall Street",
+      "Buttonwood Agreement",
+      "firsts",
+      "stock exchange"
+    ]
   },
   {
     "id": "firsts-032",
@@ -564,7 +734,14 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Smith", "Marshall", "Keynes", "Samuelson", "economics texts", "firsts"]
+    "tags": [
+      "Smith",
+      "Marshall",
+      "Keynes",
+      "Samuelson",
+      "economics texts",
+      "firsts"
+    ]
   },
   {
     "id": "firsts-033",
@@ -573,11 +750,568 @@
     "format": "short",
     "prompt": "What word, coined by the physiocrat economist A.R.J. Turgot around 1750, describes the doctrine that market economies are self-regulating and governments should not interfere?",
     "answer": "laissez-faire",
-    "accept": ["laissez-faire", "laissez faire", "laissez-faire economics"],
+    "accept": [
+      "laissez-faire",
+      "laissez faire",
+      "laissez-faire economics"
+    ],
     "explanation": "Laissez-faire ('let do' or 'leave alone' in French) became the rallying cry of classical liberal economists. The phrase is often attributed to French merchant Legendre responding to Colbert's question about how government could help commerce ('Leave us alone!'). Adam Smith gave it its intellectual foundation.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["laissez-faire", "economic liberalism", "firsts", "classical economics"]
+    "tags": [
+      "laissez-faire",
+      "economic liberalism",
+      "firsts",
+      "classical economics"
+    ]
+  },
+  {
+    "id": "firsts-034",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which country created the world's first sovereign wealth fund — a state-owned investment fund for managing national savings?",
+    "choices": [
+      "Kuwait, which established the Kuwait Investment Authority in 1953 to invest oil revenues",
+      "Norway, which created the Government Pension Fund Global in 1990",
+      "Saudi Arabia, which established SAMA Foreign Holdings in the 1970s",
+      "Singapore, which founded Temasek Holdings in 1974"
+    ],
+    "answer": "Kuwait, which established the Kuwait Investment Authority in 1953 to invest oil revenues",
+    "explanation": "The Kuwait Investment Authority (KIA), established in 1953, is the world's first and oldest sovereign wealth fund, predating Norway's GPFG by nearly four decades. Kuwait began investing oil revenues abroad while the oil industry was still nascent, recognising that oil wealth needed to be saved and invested for future generations. Today it manages over $700 billion. Norway's fund is the largest ($1.7 trillion) but not the oldest.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "sovereign wealth fund",
+      "Kuwait",
+      "firsts",
+      "oil revenues"
+    ]
+  },
+  {
+    "id": "firsts-035",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which country was the first in the world to implement a comprehensive goods and services tax (GST) or value-added tax (VAT) at the national level?",
+    "choices": [
+      "France introduced TVA (taxe sur la valeur ajoutée) in 1954, the first modern VAT",
+      "Germany introduced Mehrwertsteuer in 1950 under post-war reconstruction",
+      "Sweden introduced moms (mervärdeskatt) in 1960 as a welfare state funding mechanism",
+      "The United Kingdom introduced VAT in 1973 as a condition of joining the European Economic Community"
+    ],
+    "answer": "France introduced TVA (taxe sur la valeur ajoutée) in 1954, the first modern VAT",
+    "explanation": "France implemented the first national VAT in 1954, developed by economist Maurice Lauré at the Direction générale des impôts. The innovation was taxing only the value added at each stage of production (not gross turnover), avoiding the cascading tax problem. The French model spread: the EEC mandated VAT for all members in the 1960s–70s; today over 160 countries use VAT or GST. The US is the only major developed country without a federal VAT.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "VAT",
+      "France",
+      "tax history",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-036",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The first central bank in North America was the Bank of North America, founded in 1781 in Philadelphia. However, the institution that eventually became the US Federal Reserve system had an earlier precursor. What was it?",
+    "choices": [
+      "The First Bank of the United States (1791–1811), chartered by Congress and largely designed by Alexander Hamilton",
+      "The Continental Congress's Bank of Pennsylvania, established in 1780 to fund the Revolutionary War",
+      "The Suffolk Bank of Boston (1818), which operated as a de facto central bank clearing system for New England",
+      "The Bank of New York (1784), founded by Alexander Hamilton as the nation's first private commercial bank"
+    ],
+    "answer": "The First Bank of the United States (1791–1811), chartered by Congress and largely designed by Alexander Hamilton",
+    "explanation": "Alexander Hamilton, as the first Treasury Secretary, proposed the First Bank of the United States, chartered in 1791. It performed quasi-central bank functions: holding government deposits, issuing banknotes, and regulating state banks. Thomas Jefferson opposed it as unconstitutional; its charter was not renewed in 1811. The Second Bank of the United States (1816–36) followed but was also allowed to lapse after Andrew Jackson's opposition. The US didn't get a permanent central bank until the Federal Reserve Act of 1913.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "First Bank of the United States",
+      "Hamilton",
+      "US banking history",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-037",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The first country to introduce a national unemployment insurance programme was:",
+    "choices": [
+      "United Kingdom (1911, National Insurance Act)",
+      "Germany (1927, Reichsanstalt für Arbeitsvermittlung)",
+      "New Zealand (1938, Social Security Act)",
+      "Sweden (1934, voluntary Ghent system)"
+    ],
+    "answer": "United Kingdom (1911, National Insurance Act)",
+    "explanation": "David Lloyd George's National Insurance Act 1911 introduced Britain's first compulsory unemployment insurance, covering about 2.25 million workers in trades prone to cyclical unemployment (construction, shipbuilding, engineering). Germany had pioneered social insurance earlier (Bismarck's sickness insurance 1883, accident 1884, old age 1889) but a national unemployment insurance programme didn't arrive until 1927. The UK's 1911 Act also created the first compulsory health insurance scheme in Britain.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "unemployment insurance",
+      "UK",
+      "National Insurance Act",
+      "1911",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-038",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The world's first stock exchange is generally considered to be in Amsterdam, founded in 1602 alongside the Dutch East India Company. Where was the world's second-oldest stock exchange?",
+    "choices": [
+      "London — the London Stock Exchange emerged from coffeehouses (especially Jonathan's Coffee House) in the late 17th century, formalised in 1801",
+      "New York — the NYSE Buttonwood Agreement (1792) predates the formal London exchange",
+      "Paris — the Paris Bourse was founded in 1724 by royal decree",
+      "Hamburg — as the leading commercial city of the Hanseatic League, it established formal share trading in the 1670s"
+    ],
+    "answer": "London — the London Stock Exchange emerged from coffeehouses (especially Jonathan's Coffee House) in the late 17th century, formalised in 1801",
+    "explanation": "Share trading in London developed informally in coffeehouses from the 1690s onward. Jonathan's Coffee House in Exchange Alley became the principal venue for brokers and jobbers. It formally became the Stock Exchange in 1801. The Paris Bourse (1724) and the NYSE (1792 Buttonwood Agreement) are also among the oldest, but London's continuous development from the 1690s gives it a strong claim to second place after Amsterdam.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "London Stock Exchange",
+      "stock exchange history",
+      "firsts",
+      "financial history"
+    ]
+  },
+  {
+    "id": "firsts-039",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The first index fund accessible to ordinary retail investors was launched by Vanguard in 1976. Who founded Vanguard and championed passive index investing against fierce industry opposition?",
+    "choices": [
+      "John 'Jack' Bogle",
+      "Warren Buffett",
+      "Burton Malkiel",
+      "Charles Schwab"
+    ],
+    "answer": "John 'Jack' Bogle",
+    "explanation": "John Bogle launched the Vanguard First Index Investment Trust (now Vanguard 500 Index Fund) in August 1976. It was initially mocked as 'Bogle's Folly' by the investment industry, which derided passive investing as 'settling for average.' Bogle's core argument: most active managers underperform the market index after fees, so a low-cost index fund capturing market returns will beat most managers over time. Vanguard's unusual mutual ownership structure (fund shareholders own the company) meant it could continually reduce fees. Today Vanguard manages over $8 trillion.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "index fund",
+      "Vanguard",
+      "Bogle",
+      "passive investing",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-040",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Who was the first woman to serve as both head of the International Monetary Fund AND as head of a major G7 central bank?",
+    "choices": [
+      "Christine Lagarde, who served as IMF Managing Director (2011–2019) and then became ECB President (2019–present)",
+      "Janet Yellen, who served as Fed Chair (2014–2018) and then US Treasury Secretary (2021–present)",
+      "Kristalina Georgieva, who became IMF Managing Director in 2019 after heading the World Bank",
+      "Elvira Nabiullina, who has served as Governor of the Bank of Russia since 2013"
+    ],
+    "answer": "Christine Lagarde, who served as IMF Managing Director (2011–2019) and then became ECB President (2019–present)",
+    "explanation": "Christine Lagarde is the first person — not just the first woman — to have led both the IMF and a major central bank. She served as IMF Managing Director from 2011 to 2019, then became the first female President of the European Central Bank in November 2019. Before both roles, she was France's Minister of Finance. Janet Yellen was the first woman to chair the Federal Reserve (2014–2018) and the first woman as US Treasury Secretary (2021), but she did not head the IMF.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Lagarde",
+      "IMF",
+      "ECB",
+      "first woman",
+      "central bank governor"
+    ]
+  },
+  {
+    "id": "firsts-041",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Janet Yellen became the first woman to serve as Chair of the Federal Reserve (2014–2018), and later the first woman to serve as US Treasury Secretary (2021). What was her academic specialisation before entering government?",
+    "choices": [
+      "Labour economics — her research focused on unemployment, wage rigidity, and efficiency wages (with husband George Akerlof)",
+      "International trade theory — she specialised in comparative advantage and optimal tariff policy",
+      "Monetary theory — she developed the quantity theory of money extension incorporating credit cycles",
+      "Development economics — she researched poverty traps and the role of microcredit in developing countries"
+    ],
+    "answer": "Labour economics — her research focused on unemployment, wage rigidity, and efficiency wages (with husband George Akerlof)",
+    "explanation": "Yellen's academic research was primarily in labour economics. With her husband George Akerlof (2001 Nobel laureate), she developed efficiency wage models — explaining why firms pay above market-clearing wages to reduce turnover, attract better workers, and deter shirking. Their 1990 paper 'The Fair Wage-Effort Hypothesis' is a classic. Yellen served as President of the Federal Reserve Bank of San Francisco before becoming Fed Vice Chair and then Chair.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Yellen",
+      "Federal Reserve",
+      "Treasury Secretary",
+      "first woman",
+      "labour economics"
+    ]
+  },
+  {
+    "id": "firsts-042",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The first country to have a female finance minister was:",
+    "choices": [
+      "Finland, where Eva Kuuskoski served briefly as Finance Minister in 1983",
+      "Norway, where Sissel Rønbeck was Finance Minister in 1986",
+      "Sweden, where Gunvor Engström was Finance Minister in 1982",
+      "Canada, where Chrystia Freeland became Finance Minister in 2020"
+    ],
+    "answer": "Finland, where Eva Kuuskoski served briefly as Finance Minister in 1983",
+    "explanation": "Finland has a strong history of female political firsts. Eva Kuuskoski served as Finland's Finance Minister briefly in 1983, becoming one of the world's first female finance ministers. The Nordic countries have generally led in gender representation in political and economic leadership. Canada's Chrystia Freeland became Canada's first female Finance Minister in 2020 — a significant milestone for a G7 nation, but nearly four decades after Finland's trailblazer.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "finance minister",
+      "first woman",
+      "Finland",
+      "Freeland",
+      "gender firsts"
+    ]
+  },
+  {
+    "id": "firsts-043",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The first governor of the Bank of Canada, Graham Towers, served from the bank's founding in 1934 until 1954. What was unique about Towers' decision regarding the Bank of Canada in 1938?",
+    "choices": [
+      "He oversaw the nationalisation of the Bank of Canada — the government bought out private shareholders and made it fully publicly owned",
+      "He created Canada's first mortgage-backed securities to fund post-Depression housing recovery",
+      "He implemented Canada's first exchange rate controls to prevent capital flight during WWII",
+      "He was the first central banker to publish the Bank's interest rate decisions in advance"
+    ],
+    "answer": "He oversaw the nationalisation of the Bank of Canada — the government bought out private shareholders and made it fully publicly owned",
+    "explanation": "The Bank of Canada was originally established in 1934 as a privately owned institution (shareholders were the public and the chartered banks). Following a 1934 election, the Liberal government under Mackenzie King moved to bring it fully under public control. In 1938, the government purchased all outstanding private shares, making the Bank of Canada 100% publicly owned. Towers supported the nationalisation. This made Canada's central bank one of the first to be a fully public institution rather than a quasi-private bank.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Bank of Canada",
+      "Towers",
+      "nationalisation",
+      "Canadian central bank",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-044",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Which Canadian province was the first to introduce a carbon pricing system?",
+    "choices": [
+      "British Columbia (revenue-neutral carbon tax, 2008)",
+      "Quebec (cap-and-trade linked to California, 2013)",
+      "Alberta (carbon levy on large emitters, 2007)",
+      "Ontario (cap-and-trade, 2017)"
+    ],
+    "answer": "British Columbia (revenue-neutral carbon tax, 2008)",
+    "explanation": "British Columbia introduced North America's first revenue-neutral carbon tax on July 1, 2008. Starting at $10/tonne CO₂, it rose to $30/tonne by 2012. Revenue-neutral meant all carbon tax revenues were returned to taxpayers through income and business tax cuts. The policy was implemented under the centre-right BC Liberal government. Studies found it reduced fuel consumption and emissions without measurably harming BC's economic growth. It became a model for carbon pricing globally.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "BC carbon tax",
+      "British Columbia",
+      "carbon pricing",
+      "Canada",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-045",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The first Governor of the Bank of England, appointed when it was founded in 1694, was:",
+    "choices": [
+      "Sir John Houblon, a merchant and City of London alderman",
+      "William Paterson, the Scottish merchant who first proposed the Bank's creation",
+      "King William III, as the monarch who chartered the Bank",
+      "Charles Montagu, the Chancellor of the Exchequer who designed the funding scheme"
+    ],
+    "answer": "Sir John Houblon, a merchant and City of London alderman",
+    "explanation": "Sir John Houblon was the first Governor of the Bank of England (1694–1697), a prominent merchant of Huguenot descent. He has the unusual distinction of being the only Bank of England Governor ever depicted on a banknote — the £50 note issued from 1994 to 2011. William Paterson proposed the Bank's creation and was a founding director but did not become Governor. Charles Montagu, as Chancellor, implemented the plan through Parliament.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Bank of England",
+      "first governor",
+      "Houblon",
+      "1694",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-046",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which country was the first to adopt a negative interest rate policy (NIRP) — setting its central bank policy rate below zero?",
+    "choices": [
+      "Sweden (Riksbank cut the repo rate below zero in July 2009, briefly, during the financial crisis)",
+      "Japan (Bank of Japan adopted negative rates in January 2016)",
+      "Denmark (Danmarks Nationalbank cut below zero in July 2012)",
+      "Switzerland (SNB moved to negative rates in January 2015)"
+    ],
+    "answer": "Sweden (Riksbank cut the repo rate below zero in July 2009, briefly, during the financial crisis)",
+    "explanation": "The Riksbank (Sweden's central bank) was technically the first to set a policy rate below zero — it briefly cut the deposit facility rate to -0.25% in July 2009, during the global financial crisis. However, most accounts point to Denmark's National Bank in 2012 as the first to deliberately adopt negative rates as a sustained policy tool (to defend the krone's peg to the euro). The ECB followed in 2014, Switzerland and Sweden in 2015, and Japan in 2016. The Riksbank exited negative rates in December 2019, before the Covid pandemic.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "negative interest rates",
+      "NIRP",
+      "Riksbank",
+      "Sweden",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-047",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "What was the first global multilateral trade agreement that substantially reduced tariffs and governed international trade rules?",
+    "choices": [
+      "The General Agreement on Tariffs and Trade (GATT), signed in Geneva in 1947",
+      "The Cobden-Chevalier Treaty (1860) between Britain and France",
+      "The Bretton Woods trade provisions (1944)",
+      "The International Trade Organisation charter agreed at Havana in 1948"
+    ],
+    "answer": "The General Agreement on Tariffs and Trade (GATT), signed in Geneva in 1947",
+    "explanation": "GATT was signed on October 30, 1947 by 23 nations as a provisional agreement to reduce tariffs and govern trade while the International Trade Organisation (ITO) was being negotiated. The ITO never came into force (the US Senate refused to ratify it), so GATT became the de facto global trade regime. It underwent eight negotiating rounds, most famously the Kennedy Round (1960s) and Uruguay Round (1986–1994), which created the WTO in 1995. The Cobden-Chevalier Treaty (1860) was bilateral, not multilateral.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "GATT",
+      "WTO",
+      "trade history",
+      "1947",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-048",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Which country was the first to issue a digital central bank currency (digital currency accessible to the general public, not just banks)?",
+    "choices": [
+      "The Bahamas, which launched the Sand Dollar in October 2020",
+      "China, which began testing the digital yuan (e-CNY) in 2020",
+      "Sweden, which ran a Riksbank e-krona pilot from 2020",
+      "Nigeria, which launched the eNaira in October 2021"
+    ],
+    "answer": "The Bahamas, which launched the Sand Dollar in October 2020",
+    "explanation": "The Bahamas launched the Sand Dollar in October 2020, becoming the first country to issue a fully operational retail CBDC (central bank digital currency available to the general public, not just financial institutions). The motivation: many Bahamian islands had poor banking infrastructure, and a digital currency accessible via mobile phone could improve financial inclusion. China's digital yuan (e-CNY) was in large-scale pilots by 2020 but not yet officially 'launched.' Nigeria's eNaira came in 2021.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "CBDC",
+      "digital currency",
+      "Bahamas",
+      "Sand Dollar",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-049",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The world's first cryptocurrency was Bitcoin. In what year did Bitcoin's creator(s), operating under the pseudonym Satoshi Nakamoto, publish the founding whitepaper?",
+    "choices": [
+      "2008",
+      "2009",
+      "2010",
+      "2007"
+    ],
+    "answer": "2008",
+    "explanation": "Satoshi Nakamoto published 'Bitcoin: A Peer-to-Peer Electronic Cash System' in October 2008, during the global financial crisis. The genesis block (first Bitcoin block) was mined in January 2009, embedded with a reference to a Times of London headline about bank bailouts: 'Chancellor on brink of second bailout for banks.' Bitcoin reached price parity with the US dollar in February 2011. Nakamoto's true identity remains unknown; their estimated holdings of ~1 million BTC have never moved.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Bitcoin",
+      "cryptocurrency",
+      "Satoshi Nakamoto",
+      "2008",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-050",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The first major citywide congestion pricing scheme — charging drivers to enter a central zone — was implemented in:",
+    "choices": [
+      "Singapore (1975, Electronic Road Pricing predecessor)",
+      "London (2003, Congestion Charge zone)",
+      "Stockholm (2006, trial, permanent 2007)",
+      "Oslo (1990, toll ring but not strictly congestion pricing)"
+    ],
+    "answer": "Singapore (1975, Electronic Road Pricing predecessor)",
+    "explanation": "Singapore introduced the world's first urban road pricing scheme in June 1975 — the Area Licensing Scheme, where drivers had to purchase and display a paper license to enter the Restricted Zone during peak hours. It required a toll collector inspection at entry points. The scheme dramatically reduced central-area congestion. Singapore replaced it with the fully electronic ERP system in 1998. London's Congestion Charge (2003) and Stockholm's pricing trial (2006) are later examples, but Singapore pioneered the concept nearly three decades earlier.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "congestion pricing",
+      "Singapore",
+      "urban economics",
+      "road pricing",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-051",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The first recorded instance of a government explicitly 'bailing out' a failed financial institution — injecting public money to prevent a bank collapse — is generally associated with:",
+    "choices": [
+      "The Bank of England rescuing Barings Bank in 1890 after its Argentine speculation collapsed",
+      "The US Treasury rescuing Jay Cooke & Company in 1873 after the railroad financing collapse",
+      "The Swedish Riksbank rescuing Stockholms Banco in 1664 after Sweden's first banking crisis",
+      "The Dutch government rescuing the VOC (Dutch East India Company) in 1782"
+    ],
+    "answer": "The Bank of England rescuing Barings Bank in 1890 after its Argentine speculation collapsed",
+    "explanation": "In November 1890, Barings Bank — one of England's oldest and most prestigious merchant banks — faced insolvency after its loans to Argentina went bad. The Bank of England organised a private bailout: major UK banks contributed a rescue fund guaranteed by the Bank of England. The firm survived (until its 1995 collapse due to Nick Leeson). This 1890 episode established the template for 'too big to fail' rescues: systemic importance can justify exceptional measures to prevent a failure that would cascade through the financial system.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "bailout",
+      "Barings",
+      "Bank of England",
+      "1890",
+      "too big to fail",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-052",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The first US state to enact a minimum wage law was:",
+    "choices": [
+      "Massachusetts (1912)",
+      "Oregon (1913)",
+      "California (1913)",
+      "New York (1914)"
+    ],
+    "answer": "Massachusetts (1912)",
+    "explanation": "Massachusetts enacted the first US minimum wage law in 1912 — applicable to women and minors. It was technically 'advisory' rather than compulsory. Oregon followed in 1913 with a more enforceable minimum wage for women. A national federal minimum wage didn't come until the Fair Labor Standards Act of 1938. New Zealand had enacted the world's first national minimum wage in 1894, covering female workers; Australia followed with wage boards in 1896.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "minimum wage",
+      "Massachusetts",
+      "US labour history",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-053",
+    "category": "firsts",
+    "difficulty": 3,
+    "format": "order",
+    "prompt": "Arrange these central bank 'firsts' in chronological order, from earliest to most recent.",
+    "items": [
+      "Riksbank (Sweden) — world's first central bank",
+      "Bank of England introduces the lender-of-last-resort concept",
+      "Bank of Japan launches QE — world's first quantitative easing",
+      "ECB announces 'whatever it takes' — Draghi's OMT programme"
+    ],
+    "order_by": "year of the event",
+    "answer": "Riksbank 1668 → BoE lender-of-last-resort concept (Bagehot 1873) → BoJ QE 2001 → ECB 'whatever it takes' 2012",
+    "explanation": "Riksbank founded 1668. Walter Bagehot's Lombard Street (1873) codified the lender-of-last-resort principle, based on the Bank of England's practice. Bank of Japan launched the first quantitative easing programme in March 2001. Mario Draghi's 'whatever it takes' speech was July 26, 2012, followed by the Outright Monetary Transactions (OMT) announcement in September 2012.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "central bank firsts",
+      "chronology",
+      "Riksbank",
+      "BoJ QE",
+      "ECB OMT",
+      "lender of last resort"
+    ]
+  },
+  {
+    "id": "firsts-054",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The first country to implement an explicit 'debt brake' — a constitutional limit on government deficits — was:",
+    "choices": [
+      "Switzerland (2001 constitutional amendment, effective 2003)",
+      "Germany (2009 Grundgesetz amendment, effective 2016 for federal government)",
+      "Sweden (1996 fiscal framework, not constitutional but statutory)",
+      "Austria (2011, as part of EU fiscal compact negotiations)"
+    ],
+    "answer": "Switzerland (2001 constitutional amendment, effective 2003)",
+    "explanation": "Switzerland's Schuldenbremse (debt brake) was approved by referendum in December 2001 and took effect in 2003. It requires the federal government to balance cyclically adjusted revenue and expenditure over a full business cycle. Germany's Schuldenbremse, added to the Basic Law (Grundgesetz) in 2009, limits structural federal deficits to 0.35% of GDP and came fully into force in 2016. Both have been widely cited as models for fiscal rules, though the German brake has been debated amid calls for major defence and infrastructure investment.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "debt brake",
+      "Switzerland",
+      "fiscal rules",
+      "Germany",
+      "firsts"
+    ]
+  },
+  {
+    "id": "firsts-055",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Which country was the first to declare Bitcoin legal tender — giving it the same status as official national currency?",
+    "choices": [
+      "El Salvador (2021)",
+      "Venezuela (2018, with the petro cryptocurrency)",
+      "Panama (2021)",
+      "The Central African Republic (2022)"
+    ],
+    "answer": "El Salvador (2021)",
+    "explanation": "El Salvador's President Nayib Bukele signed the Bitcoin Law in June 2021, making El Salvador the first country to adopt Bitcoin as legal tender alongside the US dollar (which it had used since dollarising in 2001). All businesses were required to accept Bitcoin. The IMF criticised the move; adoption among citizens was lower than hoped; and Bitcoin's price volatility made practical use difficult. The Central African Republic adopted Bitcoin as legal tender in 2022 but later reversed the policy. El Salvador subsequently rolled back the mandatory acceptance requirement in 2024.",
+    "source": "https://www.imf.org/en/Publications/WEO",
+    "as_of": "2024",
+    "time_sensitive": true,
+    "tags": [
+      "Bitcoin",
+      "El Salvador",
+      "legal tender",
+      "cryptocurrency",
+      "firsts"
+    ]
   }
 ]

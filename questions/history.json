@@ -624,5 +624,548 @@
     "as_of": null,
     "time_sensitive": false,
     "tags": ["Volcker", "Federal Reserve", "inflation", "interest rates"]
+  },
+  {
+    "id": "history-036",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which Canadian Finance Minister, serving from 1993 to 2002, eliminated a $42 billion federal deficit and achieved the first string of federal budget surpluses since 1969?",
+    "choices": [
+      "Paul Martin",
+      "Michael Wilson",
+      "Ralph Goodale",
+      "John Manley"
+    ],
+    "answer": "Paul Martin",
+    "explanation": "Paul Martin's 1995 budget, built around a sweeping Program Review that cut federal transfers and spending, turned Canada's structural deficit into a surplus by 1997–98. The turnaround was internationally praised as a model of fiscal consolidation; Martin went on to become Prime Minister in 2003.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Paul Martin", "Canada", "fiscal policy", "budget surplus", "finance minister"]
+  },
+  {
+    "id": "history-037",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Alexander Hamilton, America's first Treasury Secretary, envisioned an industrial America built on tariffs, a national bank, and federal assumption of state debts. His economic nationalism clashed most directly with the agrarian vision of which statesman?",
+    "choices": [
+      "Thomas Jefferson",
+      "John Adams",
+      "James Madison",
+      "Benjamin Franklin"
+    ],
+    "answer": "Thomas Jefferson",
+    "explanation": "Jefferson believed America's virtue lay in its yeoman farmers and feared that Hamilton's industrial-financial system would corrupt republican values. Their rivalry shaped US economic policy for generations: Hamiltonian industrial protectionism vs. Jeffersonian agrarian free trade.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Hamilton", "Jefferson", "US Treasury", "industrial policy", "founding era"]
+  },
+  {
+    "id": "history-038",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "West Germany's postwar Wirtschaftswunder (economic miracle) was set in motion in 1948 when Finance Minister Ludwig Erhard introduced a new currency and simultaneously lifted wartime price controls. The new currency that replaced the worthless Reichsmark was the:",
+    "choices": [
+      "Deutsche Mark",
+      "Rentenmark",
+      "Petro-mark",
+      "Bundesmark"
+    ],
+    "answer": "Deutsche Mark",
+    "explanation": "The Deutsche Mark launched on June 21, 1948 — and almost overnight, goods reappeared on shelves that had been empty under rationing. The currency reform wiped out wartime debts and savings alike, but gave West Germany a credible monetary foundation. West Germany's GDP surpassed pre-war levels by 1955.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Deutsche Mark", "Erhard", "West Germany", "Wirtschaftswunder", "economic miracle"]
+  },
+  {
+    "id": "history-039",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In September 1992, speculator George Soros famously made approximately $1 billion in a single day by short-selling the currency of a country forced to withdraw from the European Exchange Rate Mechanism. Which country?",
+    "choices": [
+      "United Kingdom",
+      "France",
+      "Italy",
+      "Sweden"
+    ],
+    "answer": "United Kingdom",
+    "explanation": "On 'Black Wednesday' (September 16, 1992), the UK tried and failed to defend the pound's ERM parity by raising interest rates to 15% and spending £27 billion in reserves. Soros's Quantum Fund netted roughly $1 billion. The UK suspended ERM membership, the pound fell sharply — and subsequently the UK economy recovered faster than its ERM-constrained neighbours.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Soros", "ERM", "Black Wednesday", "pound", "UK"]
+  },
+  {
+    "id": "history-040",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Plaza Accord of September 1985, signed by the G5 at the Plaza Hotel in New York, was an agreement to deliberately weaken which currency that the others felt was dangerously overvalued and fuelling US trade deficits?",
+    "choices": [
+      "The US dollar",
+      "The Japanese yen",
+      "The West German mark",
+      "The British pound"
+    ],
+    "answer": "The US dollar",
+    "explanation": "The dollar had appreciated roughly 50% from 1980 to 1985, making US exports uncompetitive and imports cheap. The G5 (US, Japan, West Germany, France, UK) agreed to coordinated intervention to weaken the dollar. The yen subsequently appreciated dramatically — contributing to Japan's asset bubble as the Bank of Japan cut rates to offset the shock.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Plaza Accord", "G5", "US dollar", "exchange rate", "1985"]
+  },
+  {
+    "id": "history-041",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Latin American debt crisis of the early 1980s — sometimes called the region's 'Lost Decade' — was triggered when which country declared in August 1982 that it could not service its foreign debt?",
+    "choices": [
+      "Mexico",
+      "Argentina",
+      "Brazil",
+      "Venezuela"
+    ],
+    "answer": "Mexico",
+    "explanation": "Mexico's Finance Minister Jesús Silva Herzog called the US Treasury and IMF in August 1982 to say Mexico could not make its debt payments. The announcement set off a cascade of sovereign debt crises across Latin America. GDP per capita fell across the region through the 1980s, and the period became known as the 'Lost Decade'.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Latin America", "debt crisis", "Mexico", "1982", "IMF"]
+  },
+  {
+    "id": "history-042",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Long-Term Capital Management (LTCM), the hedge fund whose 1998 collapse required a Fed-orchestrated private bailout, was notable because two of its founding partners had won the Nobel Prize in Economics just a year earlier (1997). They were:",
+    "choices": [
+      "Robert Merton and Myron Scholes",
+      "Paul Samuelson and Robert Solow",
+      "Gary Becker and Milton Friedman",
+      "Eugene Fama and Kenneth French"
+    ],
+    "answer": "Robert Merton and Myron Scholes",
+    "explanation": "Merton and Scholes won the 1997 Nobel for their work on options pricing (the Black-Scholes formula). LTCM's models failed catastrophically during the 1998 Russia default when correlations between markets spiked and liquidity vanished. The New York Fed orchestrated a $3.6 billion private rescue to prevent systemic collapse.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["LTCM", "Merton", "Scholes", "hedge fund", "1998"]
+  },
+  {
+    "id": "history-043",
+    "category": "history",
+    "difficulty": 1,
+    "format": "numeric",
+    "prompt": "In what year did euro banknotes and coins enter physical circulation, replacing the franc, mark, lira, and other national currencies of participating eurozone countries?",
+    "answer": 2002,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "Euro banknotes and coins were introduced on January 1, 2002, in 12 eurozone countries. The euro had existed as an electronic and accounting currency since January 1, 1999. National currencies ceased to be legal tender within weeks of the physical euro launch.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["euro", "eurozone", "currency", "2002"]
+  },
+  {
+    "id": "history-044",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Pierre Trudeau's National Energy Program (NEP) of 1980, which imposed federal taxes on Alberta's oil revenues and set made-in-Canada prices below world levels, is most remembered for:",
+    "choices": [
+      "Deepening western alienation and fuelling separatist sentiment in Alberta",
+      "Reducing Canadian inflation during the second oil shock of 1979–80",
+      "Successfully attracting foreign investment into the oil sands",
+      "Enabling Canada to achieve full energy self-sufficiency within five years"
+    ],
+    "answer": "Deepening western alienation and fuelling separatist sentiment in Alberta",
+    "explanation": "Alberta saw the NEP as an unconstitutional federal raid on provincial resources. Premier Peter Lougheed called it 'economic aggression' and introduced retaliatory production cutbacks. The Western separatist movement grew sharply. The NEP was dismantled by Brian Mulroney after 1984, but it remains a live grievance in Alberta politics.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["NEP", "Alberta", "Trudeau", "western alienation", "oil"]
+  },
+  {
+    "id": "history-045",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Canada–US Automotive Products Agreement of 1965 (the Auto Pact) transformed Ontario's manufacturing sector by:",
+    "choices": [
+      "Eliminating tariffs on cars and parts between the two countries, subject to minimum Canadian production requirements",
+      "Creating a jointly owned Canada-US Crown corporation for automobile manufacturing",
+      "Requiring all cars sold in Canada to contain at least 60% Canadian-made components",
+      "Merging the UAW and Canadian auto workers' unions into a single continental bargaining unit"
+    ],
+    "answer": "Eliminating tariffs on cars and parts between the two countries, subject to minimum Canadian production requirements",
+    "explanation": "The Auto Pact created a continental market for vehicles, guaranteed Canada a share of North American production proportional to its sales, and transformed Windsor and Oshawa into major manufacturing hubs. Canada's auto sector grew rapidly — by the 1990s autos were Canada's single largest export. The WTO ruled the production requirements violated trade rules in 2000, but NAFTA/CUSMA preserved the integrated industry.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Auto Pact", "Canada", "Ontario", "manufacturing", "trade"]
+  },
+  {
+    "id": "history-046",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "In 1992, the Canadian government declared a moratorium on cod fishing on the Grand Banks off Newfoundland — a fishery worked continuously for 500 years. What had caused the cod stocks to collapse?",
+    "choices": [
+      "Decades of overfishing, accelerated by large-scale offshore trawlers using sonar and bottom-dragging technology",
+      "Pollution from offshore oil drilling destroying spawning grounds",
+      "Climate change raising ocean temperatures beyond cod's tolerance range",
+      "Invasive jellyfish species introduced by ballast water from Soviet vessels"
+    ],
+    "answer": "Decades of overfishing, accelerated by large-scale offshore trawlers using sonar and bottom-dragging technology",
+    "explanation": "The fisheries science had been warning of dangerously low cod stocks for years, but political pressure from fishing communities delayed action. The 1992 moratorium threw 30,000 Newfoundlanders out of work overnight — the largest layoff in Canadian history at that time. The cod stocks have never fully recovered.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["cod moratorium", "Newfoundland", "fisheries", "overfishing", "Canada"]
+  },
+  {
+    "id": "history-047",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Quebec's 'Quiet Revolution' (Révolution tranquille) of the 1960s is associated with the provincial government asserting control over the economy. Which crown corporation, nationalized in 1962 under Premier Jean Lesage, became the symbol of Quebec's economic self-assertion?",
+    "choices": [
+      "Hydro-Québec",
+      "Caisse de dépôt et placement du Québec",
+      "Société générale de financement",
+      "Bombardier"
+    ],
+    "answer": "Hydro-Québec",
+    "explanation": "The 1962 nationalization of private electricity companies into Hydro-Québec gave the provincial government control of a strategic resource and was seen as Quebec 'maîtres chez nous' (masters in our own house). Hydro-Québec later built the massive James Bay hydroelectric project, one of the largest in the world.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Quebec", "Quiet Revolution", "Hydro-Québec", "Lesage", "nationalization"]
+  },
+  {
+    "id": "history-048",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Canada–US Free Trade Agreement of 1989, negotiated under Prime Minister Brian Mulroney, was deeply controversial in Canada. The most common fear expressed by opponents was that free trade would:",
+    "choices": [
+      "Erode Canada's social programmes and draw it into closer economic and political integration with the US",
+      "Destroy Canada's agricultural sector by exposing it to US farm subsidies",
+      "Force Canada to adopt the US dollar within a decade",
+      "Transfer control of Canada's natural resources to American corporations"
+    ],
+    "answer": "Erode Canada's social programmes and draw it into closer economic and political integration with the US",
+    "explanation": "The 1988 federal election became a single-issue referendum on free trade. Critics like the NDP and prominent cultural figures warned that free trade would lead to harmonization with US social standards — lower minimum wages, reduced health care. Mulroney won a majority and the FTA took effect January 1, 1989.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["FTA", "Mulroney", "Canada-US", "free trade", "1989"]
+  },
+  {
+    "id": "history-049",
+    "category": "history",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: Canada's banking system did not suffer a single bank failure during the Great Depression of the 1930s, in sharp contrast to the United States where thousands of banks collapsed.",
+    "answer": true,
+    "explanation": "Canada's highly concentrated system of large chartered banks with nationwide branch networks was far more resilient than the US system of thousands of small, undiversified unit banks. This structural difference — the legacy of early 19th-century banking regulation — contributed to Canada's comparatively milder Depression and again to its stability during the 2008 global financial crisis.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Canada", "banking", "Great Depression", "bank failures"]
+  },
+  {
+    "id": "history-050",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The 'Rust Belt' — a region of the United States defined by the decline of heavy manufacturing from the 1970s onward — is most associated with which group of cities?",
+    "choices": [
+      "Detroit, Pittsburgh, Cleveland, and Buffalo",
+      "Houston, Dallas, Phoenix, and Las Vegas",
+      "Boston, New York, Philadelphia, and Baltimore",
+      "Atlanta, Charlotte, Nashville, and Memphis"
+    ],
+    "answer": "Detroit, Pittsburgh, Cleveland, and Buffalo",
+    "explanation": "These cities built their prosperity on steel, automobiles, and related industries. Foreign competition (especially from Germany and Japan) and automation hollowed out manufacturing employment from the 1970s onward. Detroit, once the fourth-largest US city, lost more than half its population between 1950 and 2010 and filed for municipal bankruptcy in 2013.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Rust Belt", "manufacturing", "Detroit", "deindustrialisation", "US"]
+  },
+  {
+    "id": "history-051",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In 1995, the Wall Street Journal published an editorial calling Canada 'an honorary member of the Third World' and warning of an imminent financial crisis. The fiscal problem driving this concern was:",
+    "choices": [
+      "Federal debt approaching 70% of GDP, with credit rating agencies threatening a downgrade",
+      "Unemployment exceeding 20% for three consecutive years",
+      "The Canadian dollar having fallen below 60 US cents",
+      "Canada's trade deficit exceeding 10% of GDP"
+    ],
+    "answer": "Federal debt approaching 70% of GDP, with credit rating agencies threatening a downgrade",
+    "explanation": "By 1994-95, Canada's federal debt was roughly 68% of GDP and the federal deficit was running at $42 billion. Moody's had already downgraded Canadian federal debt; a further downgrade was feared. Finance Minister Paul Martin's 1995 budget introduced the most sweeping spending cuts in Canadian peacetime history, averting the crisis.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Canada", "fiscal crisis", "Paul Martin", "debt", "1995"]
+  },
+  {
+    "id": "history-052",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Andrew Mellon, US Treasury Secretary from 1921 to 1932, became notorious for the advice he reportedly gave President Hoover at the start of the Great Depression. Mellon urged Hoover to:",
+    "choices": [
+      "'Liquidate labor, liquidate stocks, liquidate the farmers' — let bad investments purge themselves",
+      "Immediately abandon the gold standard and allow the dollar to depreciate",
+      "Raise corporate taxes to fund a federal unemployment insurance system",
+      "Have the Federal Reserve purchase mortgage bonds to prop up real estate values"
+    ],
+    "answer": "'Liquidate labor, liquidate stocks, liquidate the farmers' — let bad investments purge themselves",
+    "explanation": "Hoover later recalled Mellon's 'liquidationist' advice as a major policy error that deepened the Depression. This approach — letting recessions run their course to purge excesses — was the orthodox view before Keynes. Mellon believed the slump would be short and self-correcting. It was not.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Mellon", "US Treasury", "Great Depression", "liquidationist", "Hoover"]
+  },
+  {
+    "id": "history-053",
+    "category": "history",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Russia's 1998 financial crisis included a sovereign debt default and a ruble devaluation — events that helped trigger the collapse of the US hedge fund Long-Term Capital Management.",
+    "answer": true,
+    "explanation": "Russia's August 1998 default on its domestic GKO bonds sent shockwaves through global financial markets. LTCM, which held positions predicated on convergence trades across many markets, found that correlations broke down and liquidity evaporated simultaneously. The New York Fed organised a private sector rescue of LTCM in September 1998.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Russia", "default", "1998", "LTCM", "contagion"]
+  },
+  {
+    "id": "history-054",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "West Germany's Wirtschaftswunder (economic miracle) saw real GDP approximately double during which decade?",
+    "choices": [
+      "1950s",
+      "1960s",
+      "1970s",
+      "1940s"
+    ],
+    "answer": "1950s",
+    "explanation": "Between 1950 and 1960, West Germany's real GDP roughly doubled, growing at an average of over 8% per year. By 1958, Germany's industrial production had surpassed its pre-war level. This spectacular recovery, from a bombed-out economy to Europe's industrial powerhouse, was driven by currency reform, Marshall Plan aid, pent-up consumer demand, and Ludwig Erhard's social market economy.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["West Germany", "Wirtschaftswunder", "economic miracle", "1950s"]
+  },
+  {
+    "id": "history-055",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Argentina's economic collapse of 2001–2002 — which included the largest sovereign debt default in history at the time (~$100 billion) — was immediately triggered by the collapse of:",
+    "choices": [
+      "The peso's fixed 1:1 peg to the US dollar (the Convertibility Plan)",
+      "The Argentine central bank's foreign exchange reserves after a speculative attack",
+      "Argentina's membership in the Mercosur customs union",
+      "A series of corruption scandals that paralysed the federal government"
+    ],
+    "answer": "The peso's fixed 1:1 peg to the US dollar (the Convertibility Plan)",
+    "explanation": "Carlos Menem's Convertibility Plan of 1991 pegged the peso 1:1 to the dollar, ending hyperinflation but making Argentina increasingly uncompetitive. When the peg collapsed in early 2002, the peso fell by 75% and bank deposits (converted to pesos) were frozen. Five presidents came and went in two weeks. Argentina has defaulted on its sovereign debt multiple times since.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Argentina", "default", "Convertibility Plan", "peso", "2001"]
+  },
+  {
+    "id": "history-056",
+    "category": "history",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Match each Finance Minister or Treasury Secretary to their country.",
+    "pairs": [
+      ["Paul Martin", "Canada"],
+      ["Alexander Hamilton", "United States"],
+      ["Gordon Brown", "United Kingdom"],
+      ["Wolfgang Schäuble", "Germany"]
+    ],
+    "answer": "Paul Martin↔Canada, Alexander Hamilton↔United States, Gordon Brown↔United Kingdom, Wolfgang Schäuble↔Germany",
+    "explanation": "Paul Martin was Canada's FM 1993–2002, then PM. Hamilton was the first US Treasury Secretary (1789–1795). Gordon Brown was UK Chancellor 1997–2007, then PM. Wolfgang Schäuble was Germany's Finance Minister 2009–2017, leading eurozone austerity policy during the Greek debt crisis.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["finance ministers", "Paul Martin", "Hamilton", "Gordon Brown", "Schäuble"]
+  },
+  {
+    "id": "history-057",
+    "category": "history",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "These four post-WWII economic milestones each happened in a different decade. Put them in chronological order, earliest first.",
+    "items": [
+      "West Germany's Deutsche Mark currency reform",
+      "Japan's Nikkei 225 stock index peak",
+      "Asian Financial Crisis begins in Thailand",
+      "Plaza Accord signed in New York"
+    ],
+    "order_by": "year of occurrence",
+    "answer": "West Germany's Deutsche Mark currency reform → Plaza Accord signed in New York → Japan's Nikkei 225 stock index peak → Asian Financial Crisis begins in Thailand",
+    "explanation": "Deutsche Mark launched: June 1948. Plaza Accord: September 1985. Nikkei peaked at ~39,000: December 29, 1989. Asian crisis begins with Thai baht devaluation: July 2, 1997.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["postwar", "Plaza Accord", "Japan", "Asia", "timeline"]
+  },
+  {
+    "id": "history-058",
+    "category": "history",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "True or false: Saskatchewan, under Premier Tommy Douglas, was the first province — and the first jurisdiction in North America — to introduce universal hospital insurance.",
+    "answer": true,
+    "explanation": "Saskatchewan introduced universal publicly funded hospital insurance in 1947, and universal medical care insurance in 1962 — both under CCF/NDP governments led at different times by Tommy Douglas. The federal Medical Care Act of 1966 extended the Saskatchewan model nationally. Douglas was voted 'The Greatest Canadian' in a 2004 CBC poll.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Saskatchewan", "Tommy Douglas", "Medicare", "healthcare", "Canada"]
+  },
+  {
+    "id": "history-059",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Canadian Finance Minister Jim Flaherty shocked financial markets on Halloween 2006 by announcing that income trusts — a popular tax-advantaged structure used by energy companies, telecoms, and utilities — would be taxed like corporations. The immediate market impact was:",
+    "choices": [
+      "Income trust share prices collapsed, wiping out roughly $25 billion in market value in a single day",
+      "The TSX rose sharply as investors rotated from trusts into regular equities",
+      "The announcement was welcomed by all major Canadian pension funds as a positive tax reform",
+      "Bay Street anticipated the move and markets were largely unmoved"
+    ],
+    "answer": "Income trust share prices collapsed, wiping out roughly $25 billion in market value in a single day",
+    "explanation": "The 'Halloween Massacre' erased an estimated $25 billion of market value on the Toronto Stock Exchange in a single session. Flaherty argued income trusts were costing the government billions in lost corporate tax revenue; critics pointed out he had previously promised not to tax trusts. The controversy dogged the Conservatives but the policy stood.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Jim Flaherty", "income trusts", "Canada", "TSX", "2006"]
+  },
+  {
+    "id": "history-060",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Saskatchewan's economy was devastated during the 'Dirty Thirties'. Unlike most Canadian provinces, Saskatchewan faced two simultaneous catastrophes. What were they?",
+    "choices": [
+      "Collapsing wheat prices AND severe drought that turned the southern prairies into a Dust Bowl",
+      "Falling potash prices AND a series of regional bank failures unique to the prairies",
+      "American border closures cutting off grain exports AND flooding on the Saskatchewan River",
+      "Falling fur trade revenues AND punishing protective tariffs imposed by Ontario manufacturers"
+    ],
+    "answer": "Collapsing wheat prices AND severe drought that turned the southern prairies into a Dust Bowl",
+    "explanation": "The global collapse in wheat prices (from ~$1.60/bushel in 1929 to $0.38 in 1932) combined with a sustained drought and severe soil erosion to devastate Saskatchewan. By 1937, two-thirds of the province's rural population was on relief. The crisis gave birth to the CCF (predecessor to the NDP), which won a Saskatchewan majority in 1944 under Tommy Douglas.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Saskatchewan", "Dirty Thirties", "Dust Bowl", "wheat", "Great Depression"]
+  },
+  {
+    "id": "history-061",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Britain returned to the gold standard in 1925 at its pre-WWI parity (a decision Keynes called 'a serious miscalculation') and was forced to abandon it again in September 1931. Who was the British Prime Minister when Britain left the gold standard?",
+    "choices": [
+      "Ramsay MacDonald",
+      "Stanley Baldwin",
+      "Neville Chamberlain",
+      "Winston Churchill"
+    ],
+    "answer": "Ramsay MacDonald",
+    "explanation": "The National Government under Ramsay MacDonald — a coalition formed after the Labour government collapsed over cuts demanded by international creditors — abandoned gold convertibility on September 21, 1931. The pound fell 25% against the dollar. Britain's subsequent recovery was faster than gold-standard adherents like France and the US, suggesting the devaluation helped. Ironically, Churchill had been Chancellor when Britain rejoined gold in 1925.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["gold standard", "UK", "MacDonald", "1931", "Great Depression"]
+  },
+  {
+    "id": "history-062",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Following Nixon's 1971 suspension of dollar-gold convertibility, the US secured a new source of global dollar demand through agreements with Saudi Arabia in 1974–75. Under these arrangements, Saudi Arabia agreed to:",
+    "choices": [
+      "Price its oil exclusively in US dollars and recycle surplus oil revenues through US financial markets",
+      "Buy US Treasury bonds equivalent to its entire annual oil export revenue",
+      "Peg the Saudi riyal to the dollar at a fixed rate guaranteed by the US military",
+      "Grant the US first-refusal rights on 30% of Saudi oil production"
+    ],
+    "answer": "Price its oil exclusively in US dollars and recycle surplus oil revenues through US financial markets",
+    "explanation": "The petrodollar system emerged from secret agreements between the US Treasury's William Simon and Saudi officials. By pricing oil in dollars and recycling oil profits through US banks and Treasury bonds, Saudi Arabia (and OPEC broadly) maintained global demand for US dollars — underpinning dollar hegemony after the gold standard ended.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["petrodollar", "Saudi Arabia", "US dollar", "OPEC", "Nixon"]
+  },
+  {
+    "id": "history-063",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Henry Morgenthau Jr., US Treasury Secretary from 1934 to 1945, chaired the 1944 Bretton Woods Conference that created which two international financial institutions?",
+    "choices": [
+      "The International Monetary Fund and the World Bank (International Bank for Reconstruction and Development)",
+      "The Bank for International Settlements (BIS) and the GATT",
+      "The European Payments Union and the Marshall Plan Administration",
+      "The Federal Deposit Insurance Corporation (FDIC) and the Export-Import Bank"
+    ],
+    "answer": "The International Monetary Fund and the World Bank (International Bank for Reconstruction and Development)",
+    "explanation": "Morgenthau hosted and chaired the 1944 UN Monetary and Financial Conference at Bretton Woods, New Hampshire, which created the IMF (for balance-of-payments stability) and the IBRD/World Bank (for reconstruction lending). John Maynard Keynes led the British delegation and pushed unsuccessfully for his 'Bancor' international currency.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Morgenthau", "Bretton Woods", "IMF", "World Bank", "WWII"]
+  },
+  {
+    "id": "history-064",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Philip Snowden, UK Chancellor of the Exchequer from 1929 to 1931, is often blamed for deepening Britain's Great Depression because he insisted on maintaining orthodox economic policies. Which approach did Snowden champion over Keynesian stimulus?",
+    "choices": [
+      "Balancing the budget through spending cuts and staying on the gold standard",
+      "Raising tariffs on all manufactured imports to protect British industry",
+      "Devaluing the pound immediately to boost exports",
+      "Nationalising the Bank of England to directly control credit expansion"
+    ],
+    "answer": "Balancing the budget through spending cuts and staying on the gold standard",
+    "explanation": "Snowden's insistence on fiscal orthodoxy and gold-standard discipline deepened Britain's slump. His determination to cut unemployment benefits triggered the collapse of the Labour government in 1931 and the formation of the National Government. Within weeks of the National Government's formation, Britain left the gold standard anyway — the very outcome Snowden's cuts had been meant to prevent.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Snowden", "UK", "Great Depression", "gold standard", "austerity"]
+  },
+  {
+    "id": "history-065",
+    "category": "history",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "True or false: Canada's province of Alberta has no provincial sales tax, and has never had one — making it unique among Canadian provinces.",
+    "answer": true,
+    "explanation": "Alberta is the only Canadian province without a provincial sales tax (PST), a distinction it has maintained throughout its history. This is made possible by Alberta's oil and gas royalty revenues, which historically reduced its need for broader consumer taxation. When oil prices fall sharply, the lack of a PST becomes a fiscal vulnerability, fuelling periodic debates about introducing one.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Alberta", "sales tax", "Canada", "provincial finance"]
   }
 ]

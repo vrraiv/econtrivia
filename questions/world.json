@@ -16,7 +16,12 @@
     "source": "https://www.imf.org/en/About/Factsheets/Sheets/2016/07/27/15/31/IMF-World-Bank",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bretton Woods", "IMF", "World Bank", "international"]
+    "tags": [
+      "Bretton Woods",
+      "IMF",
+      "World Bank",
+      "international"
+    ]
   },
   {
     "id": "world-002",
@@ -35,7 +40,11 @@
     "source": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["WTO", "GATT", "trade"]
+    "tags": [
+      "WTO",
+      "GATT",
+      "trade"
+    ]
   },
   {
     "id": "world-003",
@@ -48,7 +57,11 @@
     "source": "https://www.wto.org/english/thewto_e/countries_e/european_communities_e.htm",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["EU", "WTO", "trade policy"]
+    "tags": [
+      "EU",
+      "WTO",
+      "trade policy"
+    ]
   },
   {
     "id": "world-004",
@@ -56,14 +69,25 @@
     "difficulty": 1,
     "format": "order",
     "prompt": "Place these international economic institutions in the order they were founded (earliest first).",
-    "items": ["IMF / World Bank", "GATT", "OECD", "WTO"],
+    "items": [
+      "IMF / World Bank",
+      "GATT",
+      "OECD",
+      "WTO"
+    ],
     "order_by": "year of founding or first operation",
     "answer": "IMF/World Bank → GATT → OECD → WTO",
     "explanation": "IMF and World Bank: Bretton Woods 1944. GATT signed: 1947. OECD succeeded the OEEC in 1961. WTO replaced GATT: 1995.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["IMF", "GATT", "OECD", "WTO", "international institutions"]
+    "tags": [
+      "IMF",
+      "GATT",
+      "OECD",
+      "WTO",
+      "international institutions"
+    ]
   },
   {
     "id": "world-005",
@@ -79,10 +103,16 @@
     ],
     "answer": "floating exchange rate, free capital mobility, and independent monetary policy",
     "explanation": "By letting the exchange rate float, countries give up the fixed-rate peg but retain both free capital flows and independent monetary policy. The US, Canada, and the UK all operate this way. The trilemma is why eurozone members lost monetary independence after adopting the euro.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["trilemma", "Mundell", "exchange rate", "monetary policy", "Canada"]
+    "tags": [
+      "trilemma",
+      "Mundell",
+      "exchange rate",
+      "monetary policy",
+      "Canada"
+    ]
   },
   {
     "id": "world-006",
@@ -98,10 +128,14 @@
     ],
     "answer": "Canada, France, Germany, Italy, Japan, UK, USA",
     "explanation": "The G7 consists of Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States — plus the European Union as a non-enumerated member. Russia was a member (G8) from 1998 until its suspension following the annexation of Crimea in 2014.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["G7", "international", "Canada"]
+    "tags": [
+      "G7",
+      "international",
+      "Canada"
+    ]
   },
   {
     "id": "world-007",
@@ -117,10 +151,15 @@
     ],
     "answer": "The G7 excluded major emerging economies like China, India, and Brazil",
     "explanation": "The G20 was founded in 1999 after the Asian financial crisis revealed that global economic management needed the input of large emerging economies. Its membership covers about 85% of world GDP and two-thirds of the global population.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["G20", "G7", "emerging markets", "international governance"]
+    "tags": [
+      "G20",
+      "G7",
+      "emerging markets",
+      "international governance"
+    ]
   },
   {
     "id": "world-008",
@@ -139,7 +178,12 @@
     "source": "https://www.imf.org/en/About/Factsheets/Sheets/2016/08/01/14/51/Special-Drawing-Right-SDR",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["IMF", "SDR", "reserve currency", "international finance"]
+    "tags": [
+      "IMF",
+      "SDR",
+      "reserve currency",
+      "international finance"
+    ]
   },
   {
     "id": "world-009",
@@ -155,10 +199,14 @@
     ],
     "answer": "The IMF focuses on macroeconomic stability and balance-of-payments crises; the World Bank funds long-term development projects",
     "explanation": "The IMF acts as a lender of last resort for countries facing currency or balance-of-payments crises (e.g., Argentina, Greece), while the World Bank finances long-run development — infrastructure, health, education — primarily in low- and middle-income countries.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["IMF", "World Bank", "international development"]
+    "tags": [
+      "IMF",
+      "World Bank",
+      "international development"
+    ]
   },
   {
     "id": "world-010",
@@ -174,10 +222,15 @@
     ],
     "answer": "Non-traded services like haircuts and housing are cheaper in poorer countries, so a dollar goes further",
     "explanation": "PPP compares what a given sum can buy in each country. Non-tradeable goods (services, local food, rent) are far cheaper in low-wage economies, so adjusting for PPP raises their relative GDP. By PPP, China surpassed the United States as the world's largest economy around 2014–2016.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["PPP", "GDP", "purchasing power parity", "international comparison"]
+    "tags": [
+      "PPP",
+      "GDP",
+      "purchasing power parity",
+      "international comparison"
+    ]
   },
   {
     "id": "world-011",
@@ -185,14 +238,22 @@
     "difficulty": 2,
     "format": "higher_lower",
     "prompt": "By nominal GDP in 2023, which economy was larger: China or the United States?",
-    "items": ["United States", "China"],
+    "items": [
+      "United States",
+      "China"
+    ],
     "metric": "nominal GDP in 2023 (USD)",
     "answer": "United States",
     "explanation": "The US recorded approximately $27.4 trillion in nominal GDP in 2023 versus China's $17.7 trillion. However, by purchasing-power-parity (PPP), China has surpassed the US — a difference that matters because PPP better reflects domestic living standards.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["GDP", "US", "China", "global economy"]
+    "tags": [
+      "GDP",
+      "US",
+      "China",
+      "global economy"
+    ]
   },
   {
     "id": "world-012",
@@ -208,10 +269,15 @@
     ],
     "answer": "IMF, World Bank, and the US Treasury",
     "explanation": "Economist John Williamson coined 'Washington Consensus' in 1989 to describe a package of reforms — fiscal discipline, trade liberalisation, privatisation, deregulation — promoted by the IMF, World Bank, and US Treasury. Its legacy is contested: Chile saw success; Argentina and others suffered severe crises after following its prescriptions.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Washington Consensus", "IMF", "World Bank", "development economics"]
+    "tags": [
+      "Washington Consensus",
+      "IMF",
+      "World Bank",
+      "development economics"
+    ]
   },
   {
     "id": "world-013",
@@ -227,10 +293,15 @@
     ],
     "answer": "Thailand",
     "explanation": "The crisis began on 2 July 1997 when Thailand was forced to float the baht after depleting its foreign reserves defending the dollar peg. Currency crises quickly spread to Indonesia, Malaysia, South Korea, and the Philippines, prompting massive IMF bailouts and triggering calls for a new international financial architecture.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Asian financial crisis", "Thailand", "currency crisis", "contagion"]
+    "tags": [
+      "Asian financial crisis",
+      "Thailand",
+      "currency crisis",
+      "contagion"
+    ]
   },
   {
     "id": "world-014",
@@ -246,10 +317,15 @@
     ],
     "answer": "France",
     "explanation": "PIIGS stood for Portugal, Ireland, Italy, Greece, and Spain — the five eurozone members that faced unsustainable borrowing costs during the debt crisis. Greece required three bailouts; Ireland and Portugal also needed IMF/EU rescues. France, though under fiscal pressure, was not among the five.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["PIIGS", "eurozone", "sovereign debt crisis", "Europe"]
+    "tags": [
+      "PIIGS",
+      "eurozone",
+      "sovereign debt crisis",
+      "Europe"
+    ]
   },
   {
     "id": "world-015",
@@ -259,10 +335,15 @@
     "prompt": "The United Kingdom joined the eurozone and adopted the euro as its currency when the EU's Economic and Monetary Union launched in 1999.",
     "answer": false,
     "explanation": "The UK retained the pound sterling and never joined the eurozone. It negotiated an opt-out from the single currency at the Maastricht Treaty. The UK remained in the EU (as a non-euro member) until Brexit was completed in January 2020.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["UK", "eurozone", "euro", "Brexit"]
+    "tags": [
+      "UK",
+      "eurozone",
+      "euro",
+      "Brexit"
+    ]
   },
   {
     "id": "world-016",
@@ -278,10 +359,15 @@
     ],
     "answer": "South Africa",
     "explanation": "Jim O'Neill's 2001 paper named Brazil, Russia, India, and China as BRICs. South Africa joined in 2010 to give the group an African voice, making it BRICS. In 2024, several new members joined (Egypt, Ethiopia, Iran, UAE, Saudi Arabia), creating what some call BRICS+.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["BRICS", "emerging markets", "South Africa", "Goldman Sachs"]
+    "tags": [
+      "BRICS",
+      "emerging markets",
+      "South Africa",
+      "Goldman Sachs"
+    ]
   },
   {
     "id": "world-017",
@@ -294,7 +380,12 @@
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["China", "PPP", "GDP", "global economy"]
+    "tags": [
+      "China",
+      "PPP",
+      "GDP",
+      "global economy"
+    ]
   },
   {
     "id": "world-018",
@@ -310,10 +401,15 @@
     ],
     "answer": "The resource boom appreciates the exchange rate, making non-resource exports less competitive",
     "explanation": "Named after the effects of North Sea gas on the Netherlands in the 1960s–70s: large export revenues from a new resource strengthen the currency, which raises the cost of domestically produced goods abroad and causes manufacturing and agriculture to contract. Canada's heavy reliance on oil exports makes it susceptible to a mild version of Dutch disease.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Dutch disease", "resource curse", "exchange rate", "Canada"]
+    "tags": [
+      "Dutch disease",
+      "resource curse",
+      "exchange rate",
+      "Canada"
+    ]
   },
   {
     "id": "world-019",
@@ -329,10 +425,16 @@
     ],
     "answer": "The 1970s petrodollar agreement between the US and Saudi Arabia established dollar pricing for OPEC oil, entrenching it globally",
     "explanation": "After the US ended gold convertibility in 1971, the Nixon administration struck a deal with Saudi Arabia: oil would be priced in dollars, and Saudi petrodollar revenues would be recycled into US Treasury securities. This cemented the dollar's role as the global reserve currency and created demand for dollars worldwide.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["petrodollar", "USD", "Saudi Arabia", "OPEC", "reserve currency"]
+    "tags": [
+      "petrodollar",
+      "USD",
+      "Saudi Arabia",
+      "OPEC",
+      "reserve currency"
+    ]
   },
   {
     "id": "world-020",
@@ -351,7 +453,12 @@
     "source": "https://www.opec.org/opec_web/en/about_us/24.htm",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["OPEC", "oil", "founding", "Russia"]
+    "tags": [
+      "OPEC",
+      "oil",
+      "founding",
+      "Russia"
+    ]
   },
   {
     "id": "world-021",
@@ -367,10 +474,15 @@
     ],
     "answer": "Each country should specialise in goods where its opportunity cost is relatively lower, even if another country has an absolute advantage in all goods",
     "explanation": "David Ricardo's 1817 insight: even if Portugal can produce both cloth and wine more efficiently than England, both countries gain if Portugal specialises in wine (its relatively stronger suit) and England in cloth. The gains come from specialising where your relative productivity is highest, not where it's highest in absolute terms.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["comparative advantage", "Ricardo", "trade theory", "opportunity cost"]
+    "tags": [
+      "comparative advantage",
+      "Ricardo",
+      "trade theory",
+      "opportunity cost"
+    ]
   },
   {
     "id": "world-022",
@@ -389,7 +501,12 @@
     "source": "https://www.bis.org/about/index.htm",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["BIS", "central bank", "Basel", "banking regulation"]
+    "tags": [
+      "BIS",
+      "central bank",
+      "Basel",
+      "banking regulation"
+    ]
   },
   {
     "id": "world-023",
@@ -405,10 +522,16 @@
     ],
     "answer": "Several major Russian banks were disconnected from SWIFT following Russia's invasion of Ukraine",
     "explanation": "Following Russia's full-scale invasion of Ukraine in February 2022, the US, EU, UK, and others cut several major Russian banks (including Sberbank and VTB) off from SWIFT, severely disrupting Russia's ability to process international payments. It was one of the most aggressive financial sanctions in modern history.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": "2022",
     "time_sensitive": false,
-    "tags": ["SWIFT", "Russia", "sanctions", "Ukraine", "international finance"]
+    "tags": [
+      "SWIFT",
+      "Russia",
+      "sanctions",
+      "Ukraine",
+      "international finance"
+    ]
   },
   {
     "id": "world-024",
@@ -416,14 +539,22 @@
     "difficulty": 1,
     "format": "higher_lower",
     "prompt": "Norway or Canada: which had the higher GDP per capita (PPP) in 2023?",
-    "items": ["Norway", "Canada"],
+    "items": [
+      "Norway",
+      "Canada"
+    ],
     "metric": "GDP per capita (PPP, international dollars) in 2023",
     "answer": "Norway",
     "explanation": "Norway's GDP per capita (PPP) was approximately $82,000–$90,000 in 2023, well above Canada's ~$55,000–$58,000. Norway's oil wealth — managed through the Government Pension Fund Global (the world's largest sovereign wealth fund) — drives its extraordinary per-capita income.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Norway", "Canada", "GDP per capita", "PPP"]
+    "tags": [
+      "Norway",
+      "Canada",
+      "GDP per capita",
+      "PPP"
+    ]
   },
   {
     "id": "world-025",
@@ -431,14 +562,25 @@
     "difficulty": 2,
     "format": "order",
     "prompt": "Starting with the largest, rank these four economies by their nominal GDP in 2023.",
-    "items": ["Germany", "India", "Japan", "United Kingdom"],
+    "items": [
+      "Germany",
+      "India",
+      "Japan",
+      "United Kingdom"
+    ],
     "order_by": "2023 nominal GDP, largest first",
     "answer": "Germany → Japan → India → United Kingdom",
     "explanation": "By 2023 nominal GDP (IMF data): Germany ~$4.4T, Japan ~$4.2T, India ~$3.7T, UK ~$3.1T. Germany edged ahead of Japan partly due to yen depreciation. India surpassed the UK to become the 5th-largest economy in the world.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["GDP", "global economy", "rankings", "India", "Germany"]
+    "tags": [
+      "GDP",
+      "global economy",
+      "rankings",
+      "India",
+      "Germany"
+    ]
   },
   {
     "id": "world-026",
@@ -451,7 +593,12 @@
     "source": "https://www.international.gc.ca/trade-commerce/trade-data-donnees-commerciales/index.aspx",
     "as_of": "2023",
     "time_sensitive": false,
-    "tags": ["Canada", "trade", "US", "exports"]
+    "tags": [
+      "Canada",
+      "trade",
+      "US",
+      "exports"
+    ]
   },
   {
     "id": "world-027",
@@ -460,17 +607,34 @@
     "format": "match",
     "prompt": "Match each country to its official currency.",
     "pairs": [
-      ["Brazil", "Real"],
-      ["South Korea", "Won"],
-      ["India", "Rupee"],
-      ["South Africa", "Rand"]
+      [
+        "Brazil",
+        "Real"
+      ],
+      [
+        "South Korea",
+        "Won"
+      ],
+      [
+        "India",
+        "Rupee"
+      ],
+      [
+        "South Africa",
+        "Rand"
+      ]
     ],
     "answer": "Brazil↔Real, South Korea↔Won, India↔Rupee, South Africa↔Rand",
     "explanation": "The Brazilian real (BRL) replaced the cruzeiro in 1994. The South Korean won (KRW) has been used since 1962. The Indian rupee (INR) dates to the 16th century. The South African rand (ZAR) was introduced in 1961 when South Africa became a republic, named after the Witwatersrand gold-bearing ridge.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["currencies", "emerging markets", "Brazil", "India"]
+    "tags": [
+      "currencies",
+      "emerging markets",
+      "Brazil",
+      "India"
+    ]
   },
   {
     "id": "world-028",
@@ -489,7 +653,12 @@
     "source": "https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Hong Kong", "currency peg", "exchange rate", "USD"]
+    "tags": [
+      "Hong Kong",
+      "currency peg",
+      "exchange rate",
+      "USD"
+    ]
   },
   {
     "id": "world-029",
@@ -508,7 +677,11 @@
     "source": "https://www.oecd.org/about/members-and-partners/",
     "as_of": "2024",
     "time_sensitive": true,
-    "tags": ["OECD", "international institutions", "Canada"]
+    "tags": [
+      "OECD",
+      "international institutions",
+      "Canada"
+    ]
   },
   {
     "id": "world-030",
@@ -517,16 +690,822 @@
     "format": "match",
     "prompt": "Match each international institution to its primary role.",
     "pairs": [
-      ["IMF", "Balance-of-payments crisis lending"],
-      ["World Bank", "Long-term development project financing"],
-      ["WTO", "Multilateral trade rules and dispute settlement"],
-      ["BIS", "Banking standards and central-bank cooperation"]
+      [
+        "IMF",
+        "Balance-of-payments crisis lending"
+      ],
+      [
+        "World Bank",
+        "Long-term development project financing"
+      ],
+      [
+        "WTO",
+        "Multilateral trade rules and dispute settlement"
+      ],
+      [
+        "BIS",
+        "Banking standards and central-bank cooperation"
+      ]
     ],
     "answer": "IMF↔Balance-of-payments crisis lending, World Bank↔Long-term development project financing, WTO↔Multilateral trade rules and dispute settlement, BIS↔Banking standards and central-bank cooperation",
     "explanation": "Each institution has a distinct mandate: the IMF stabilises countries in financial crisis; the World Bank finances development; the WTO administers trade agreements and adjudicates disputes; the BIS in Basel sets the Basel Accords on bank capital adequacy and hosts central bank governor meetings.",
-    "source": null,
+    "source": "https://www.imf.org/en/Data",
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["IMF", "World Bank", "WTO", "BIS", "international institutions"]
+    "tags": [
+      "IMF",
+      "World Bank",
+      "WTO",
+      "BIS",
+      "international institutions"
+    ]
+  },
+  {
+    "id": "world-031",
+    "category": "world",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Christine Lagarde has served as President of the European Central Bank since November 2019. Before leading the ECB, she held which two prominent international roles?",
+    "choices": [
+      "Managing Director of the IMF (2011–2019) and French Finance Minister (2007–2011)",
+      "President of the World Bank (2012–2019) and German Finance Minister (2006–2012)",
+      "UN Secretary-General (2012–2019) and Belgian Finance Minister (2006–2012)",
+      "Chair of the BIS (2010–2019) and French Prime Minister (2005–2010)"
+    ],
+    "answer": "Managing Director of the IMF (2011–2019) and French Finance Minister (2007–2011)",
+    "explanation": "Lagarde was France's Finance Minister from 2007 to 2011 and then succeeded Dominique Strauss-Kahn as IMF Managing Director (2011–2019). She became ECB president in November 2019 and oversaw the ECB's rapid rate hikes during the 2022–2023 inflation surge — the fastest in the ECB's history. She was re-appointed for a second term in 2024.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Christine Lagarde",
+      "ECB",
+      "IMF",
+      "France",
+      "central bank governors"
+    ]
+  },
+  {
+    "id": "world-032",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In a famous July 2012 speech, ECB President Mario Draghi said the ECB would do 'whatever it takes' to preserve the euro. This was followed by the announcement of which specific bond-buying programme?",
+    "choices": [
+      "Outright Monetary Transactions (OMT) — unlimited purchases of short-term bonds of eurozone countries under adjustment programmes",
+      "Public Sector Purchase Programme (PSPP) — buying €60 billion of government bonds per month",
+      "Pandemic Emergency Purchase Programme (PEPP) — €1.85 trillion emergency QE",
+      "Securities Markets Programme (SMP) — sterilised purchases of Greek, Irish, and Portuguese bonds"
+    ],
+    "answer": "Outright Monetary Transactions (OMT) — unlimited purchases of short-term bonds of eurozone countries under adjustment programmes",
+    "explanation": "The OMT, announced in September 2012, offered unlimited purchases of short-dated sovereign bonds for countries under ESM/EFSF programmes. Crucially, the OMT was never actually used in large scale — Draghi's credibility alone broke the doom loop between sovereign spreads and bank balance sheets. Italian 10-year yields fell from above 7% to below 4% within months. The OMT was later upheld by the European Court of Justice.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mario Draghi",
+      "ECB",
+      "OMT",
+      "eurozone crisis",
+      "whatever it takes"
+    ]
+  },
+  {
+    "id": "world-033",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The World Bank and IMF have an informal division of leadership. Which statement correctly describes the convention?",
+    "choices": [
+      "The World Bank president is traditionally American; the IMF managing director is traditionally European",
+      "Both institutions rotate leadership among G7 countries",
+      "The IMF president is traditionally American; the World Bank managing director is traditionally European",
+      "Both institutions elect their leaders democratically from all member countries"
+    ],
+    "answer": "The World Bank president is traditionally American; the IMF managing director is traditionally European",
+    "explanation": "Since Bretton Woods, a 'gentleman's agreement' has held that the World Bank president is nominated by the US (which holds the largest voting share) and the IMF managing director is nominated by European countries. This convention has been challenged — Ngozi Okonjo-Iweala became the first African and female WTO Director-General in 2021 — but it persisted for World Bank and IMF through 2024.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "World Bank",
+      "IMF",
+      "leadership convention",
+      "global governance",
+      "Bretton Woods"
+    ]
+  },
+  {
+    "id": "world-034",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The eurozone's 'Maastricht criteria' set conditions countries must meet before adopting the euro. Which of the following is NOT one of the convergence criteria?",
+    "choices": [
+      "The country's central bank must have been independent for at least 10 years",
+      "Inflation must be within 1.5 percentage points of the three lowest-inflation EU members",
+      "Government deficit must be below 3% of GDP",
+      "Government debt must be below 60% of GDP (or converging toward it)"
+    ],
+    "answer": "The country's central bank must have been independent for at least 10 years",
+    "explanation": "The Maastricht criteria cover: price stability (inflation within 1.5pp of the three best performers), sound public finances (deficit below 3% of GDP and debt below 60% of GDP or converging), exchange rate stability (within the ERM II band for two years), and interest rate convergence (long-term rates within 2pp of the best performers). Central bank independence is required but there is no 10-year duration criterion.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "eurozone",
+      "Maastricht criteria",
+      "euro adoption",
+      "convergence criteria"
+    ]
+  },
+  {
+    "id": "world-035",
+    "category": "world",
+    "difficulty": 1,
+    "format": "numeric",
+    "prompt": "As of 2024, approximately how many of the 27 EU member states use the euro as their official currency?",
+    "answer": 20,
+    "unit": "countries",
+    "tolerance": 0,
+    "tolerance_pct": null,
+    "explanation": "Croatia became the 20th eurozone member on January 1, 2023. Seven EU members still use their own currencies: Poland, Czech Republic, Hungary, Sweden, Romania, Bulgaria, and Denmark. Denmark and Sweden have effectively opted out. Bulgaria and Romania had been in the queue. Countries outside the EU — like Montenegro and Kosovo — also use the euro unilaterally.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": "2024",
+    "time_sensitive": true,
+    "tags": [
+      "eurozone",
+      "euro",
+      "EU",
+      "membership"
+    ]
+  },
+  {
+    "id": "world-036",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "China's Belt and Road Initiative (BRI), launched in 2013, has committed trillions of dollars in infrastructure loans to developing countries. Critics have raised what primary concern?",
+    "choices": [
+      "Debt-trap diplomacy: countries that cannot repay may be forced to cede strategic assets or political influence to China",
+      "BRI projects use only Chinese workers, providing no employment benefits to recipient countries",
+      "The BRI only funds luxury hotels and government buildings rather than productive infrastructure",
+      "Western countries are legally prohibited from competing for BRI-funded contracts"
+    ],
+    "answer": "Debt-trap diplomacy: countries that cannot repay may be forced to cede strategic assets or political influence to China",
+    "explanation": "The 'debt-trap diplomacy' narrative — popularised by Sri Lanka's Hambantota Port lease to a Chinese company after debt difficulties — has shaped Western criticism of the BRI. However, researchers have debated whether Chinese lending terms are systematically worse than Western alternatives or whether borrowing countries made their own choices. China is now the world's largest bilateral creditor and faces rising defaults from distressed BRI borrowers.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "China",
+      "Belt and Road",
+      "BRI",
+      "debt diplomacy",
+      "development finance"
+    ]
+  },
+  {
+    "id": "world-037",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The OECD's 'Pillar Two' global minimum corporate tax, agreed by 140+ countries in 2021, set a minimum rate of what?",
+    "choices": [
+      "15%",
+      "10%",
+      "20%",
+      "25%"
+    ],
+    "answer": "15%",
+    "explanation": "The Pillar Two global minimum tax of 15% means that multinationals with revenues over €750 million must pay at least 15% corporate tax on profits wherever they operate. Countries can still set lower rates, but the company's home country can 'top up' the tax to the 15% minimum. This targets profit-shifting to tax havens (Ireland 12.5%, Luxembourg, Cayman Islands). Canada, EU countries, Japan, and many others began implementing it from 2024.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "global minimum tax",
+      "OECD",
+      "Pillar Two",
+      "corporate tax",
+      "BEPS"
+    ]
+  },
+  {
+    "id": "world-038",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Bank of England was granted operational independence — meaning it could set interest rates without government approval — in which year?",
+    "choices": [
+      "1997",
+      "1979",
+      "1944",
+      "2008"
+    ],
+    "answer": "1997",
+    "explanation": "On May 6, 1997 — just five days after Labour's landslide election victory — Chancellor of the Exchequer Gordon Brown granted the Bank of England independence to set interest rates. A new Monetary Policy Committee (MPC) was created with a 2% inflation target. This was considered one of the most significant institutional reforms in British economic policy and is credited with reducing the political manipulation of interest rates before elections.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Bank of England",
+      "central bank independence",
+      "Gordon Brown",
+      "UK monetary policy"
+    ]
+  },
+  {
+    "id": "world-039",
+    "category": "world",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Sweden's Riksbank, the world's oldest central bank, was founded in which century?",
+    "choices": [
+      "17th century (1600s)",
+      "16th century (1500s)",
+      "18th century (1700s)",
+      "19th century (1800s)"
+    ],
+    "answer": "17th century (1600s)",
+    "explanation": "The Riksbank (originally Riksens Ständers Bank) was founded in 1668, making it the world's oldest central bank. The Bank of England was founded in 1694. The Riksbank introduced the world's first banknotes (created by its predecessor, Stockholms Banco, in 1661) but Stockholms Banco collapsed — which is why the Riksbank was established under parliamentary control.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Riksbank",
+      "Sweden",
+      "oldest central bank",
+      "banking history"
+    ]
+  },
+  {
+    "id": "world-040",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Argentina has defaulted on its sovereign debt more times than any other country. By 2023, how many sovereign debt defaults had Argentina experienced?",
+    "choices": [
+      "9",
+      "3",
+      "5",
+      "15"
+    ],
+    "answer": "9",
+    "explanation": "Argentina's 9 sovereign defaults include: 1827, 1890, 1951, 1956, 1982, 1989, 2001, 2014, and 2020. The 2001 default ($100 billion) was the world's largest sovereign default in nominal terms at the time; the 2020 default ($65 billion) was also enormous. Argentina's serial defaults reflect structural fiscal problems, currency crises, and political cycles between spending-driven populism and austerity.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Argentina",
+      "sovereign debt default",
+      "debt crisis",
+      "Latin America"
+    ]
+  },
+  {
+    "id": "world-041",
+    "category": "world",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: Venezuela's inflation reached such extreme levels in 2018 that the IMF estimated annual inflation exceeded 1,000,000% (one million percent).",
+    "answer": true,
+    "explanation": "Venezuela's annual inflation was estimated at roughly 1,000,000% in 2018 by the IMF — and some estimates put it even higher. This hyperinflation resulted from years of price controls, currency restrictions, oil revenue collapse, and money printing by the Maduro government. The bolivar lost virtually all its value; the government introduced the 'sovereign bolivar' and 'digital bolivar,' each time removing zeros. Venezuela's implosion became a cautionary tale about economic mismanagement.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Venezuela",
+      "hyperinflation",
+      "Maduro",
+      "economic crisis",
+      "Latin America"
+    ]
+  },
+  {
+    "id": "world-042",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Turkey's central bank faced an unusual challenge under President Erdogan's 'heterodox' economic theory. What unconventional approach did Erdogan insist on — contrary to standard economics?",
+    "choices": [
+      "Cutting interest rates to fight inflation (arguing that high rates cause inflation rather than cure it)",
+      "Pegging the lira to a basket of gold and oil rather than to the dollar",
+      "Requiring the central bank to buy unlimited amounts of Turkish government bonds",
+      "Setting a maximum interest rate that banks could charge borrowers below the inflation rate"
+    ],
+    "answer": "Cutting interest rates to fight inflation (arguing that high rates cause inflation rather than cure it)",
+    "explanation": "Erdogan argued — contrary to mainstream economics — that high interest rates cause inflation rather than reduce it, calling interest rates 'the mother and father of all evil.' He repeatedly pressured or dismissed central bank governors who raised rates. Turkey's inflation exceeded 85% in 2022 while the central bank cut rates. After the 2023 election, Erdogan reversed course and appointed orthodox economists who raised rates sharply.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Turkey",
+      "Erdogan",
+      "heterodox economics",
+      "central bank independence",
+      "inflation"
+    ]
+  },
+  {
+    "id": "world-043",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The EU's Carbon Border Adjustment Mechanism (CBAM), implemented from 2026, applies a carbon price to imports from countries without equivalent carbon pricing. What economic purpose does it serve?",
+    "choices": [
+      "It prevents 'carbon leakage' — the risk that EU companies move production to non-carbon-priced countries to avoid the EU's emissions costs",
+      "It raises revenue for EU member states by taxing all imports based on their carbon content",
+      "It bans the import of goods produced using coal or oil from non-EU countries",
+      "It forces trading partners to adopt the EU's specific emissions trading system"
+    ],
+    "answer": "It prevents 'carbon leakage' — the risk that EU companies move production to non-carbon-priced countries to avoid the EU's emissions costs",
+    "explanation": "CBAM ensures that imported goods face the same carbon cost as EU-produced goods. Without it, EU companies facing carbon costs would lose competitiveness to imports from countries like China and India with lower or no carbon prices, potentially shifting production and emissions abroad. CBAM initially covers steel, cement, aluminium, fertilisers, electricity, and hydrogen. Trading partners must either adopt their own carbon pricing or pay CBAM.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "CBAM",
+      "EU",
+      "carbon border adjustment",
+      "climate policy",
+      "trade"
+    ]
+  },
+  {
+    "id": "world-044",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "G7 finance ministers agreed in June 2021 to support a global minimum corporate tax of 15%. Which country's Treasury Secretary championed this initiative and coined the term 'friend-shoring'?",
+    "choices": [
+      "Janet Yellen (United States)",
+      "Olaf Scholz (Germany)",
+      "Rishi Sunak (United Kingdom)",
+      "Bruno Le Maire (France)"
+    ],
+    "answer": "Janet Yellen (United States)",
+    "explanation": "Janet Yellen, as US Treasury Secretary, was the driving force behind the global minimum tax agreed at the G7 and G20. She also coined 'friend-shoring' — the policy of redirecting supply chains away from geopolitical rivals toward trusted democratic allies — as a complement to reshoring. The US had previously blocked global tax reform under the Trump administration, so Yellen's support was pivotal in securing agreement.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Janet Yellen",
+      "global minimum tax",
+      "G7",
+      "friend-shoring",
+      "US Treasury"
+    ]
+  },
+  {
+    "id": "world-045",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The IMF's Special Drawing Right (SDR) is a reserve asset whose value is based on a weighted basket of five currencies. Which currency was added to the SDR basket in 2016?",
+    "choices": [
+      "Chinese renminbi (CNY)",
+      "Indian rupee (INR)",
+      "Russian ruble (RUB)",
+      "Brazilian real (BRL)"
+    ],
+    "answer": "Chinese renminbi (CNY)",
+    "explanation": "The Chinese renminbi was added to the SDR basket on October 1, 2016 — the first new addition since the euro replaced the deutschmark and French franc in 1999. The five basket currencies are: USD (~41%), EUR (~31%), CNY (~11%), JPY (~8%), and GBP (~8%). The renminbi's inclusion was politically significant but its weight remains small, reflecting that it is not fully freely convertible and China still maintains capital controls.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "SDR",
+      "IMF",
+      "renminbi",
+      "CNY",
+      "reserve currency"
+    ]
+  },
+  {
+    "id": "world-046",
+    "category": "world",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "These four central banks each have a different degree of balance sheet expansion relative to their economies. Rank them from largest to smallest balance sheet as a share of GDP (around 2023).",
+    "items": [
+      "Bank of Japan",
+      "European Central Bank",
+      "US Federal Reserve",
+      "Reserve Bank of Australia"
+    ],
+    "order_by": "central bank balance sheet as a percentage of GDP, largest to smallest (2023)",
+    "answer": "Bank of Japan → European Central Bank → US Federal Reserve → Reserve Bank of Australia",
+    "explanation": "Approximate 2023 ratios: BoJ ~120% of GDP (decades of QE and yield curve control), ECB ~60% (massive PEPP and PSPP programmes), Fed ~30% (COVID QE then QT), RBA ~15% (COVID QE but smaller scale). The BoJ is in a category of its own — it owns more than half of Japan's outstanding government bonds.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "central bank",
+      "balance sheet",
+      "Bank of Japan",
+      "ECB",
+      "Fed",
+      "QE"
+    ]
+  },
+  {
+    "id": "world-047",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Japan's central bank implemented 'yield curve control' (YCC) in 2016. What did this policy entail?",
+    "choices": [
+      "Capping the yield on 10-year Japanese government bonds at a specific target (initially 0%) by buying unlimited bonds if needed",
+      "Printing yen and distributing it directly to Japanese citizens to stimulate inflation",
+      "Targeting a downward-sloping yield curve by making long-term rates lower than short-term rates",
+      "Pegging the yen to a basket of Asian currencies to stabilise trade"
+    ],
+    "answer": "Capping the yield on 10-year Japanese government bonds at a specific target (initially 0%) by buying unlimited bonds if needed",
+    "explanation": "YCC (implemented by Governor Haruhiko Kuroda) committed the Bank of Japan to buying unlimited 10-year government bonds to keep yields near 0%, directly targeting the yield curve shape rather than just the overnight rate. This required the BoJ to buy enormous quantities of bonds, expanding its balance sheet above 120% of GDP. Japan began abandoning YCC in 2023 as global inflation rose and yen weakness became excessive.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Bank of Japan",
+      "yield curve control",
+      "YCC",
+      "Kuroda",
+      "Japanese monetary policy"
+    ]
+  },
+  {
+    "id": "world-048",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which of the following best describes the G7 finance ministers' 'price cap' on Russian oil, implemented in December 2022?",
+    "choices": [
+      "Western countries agreed to allow Russian oil shipping services (insurance, tankers) only if the oil was sold below $60 per barrel",
+      "Russia was prohibited from selling any oil to any country at any price",
+      "The G7 placed a maximum retail price of $60 per barrel for petrol in member countries",
+      "OPEC was asked to impose a $60/barrel cap on global oil prices to reduce energy inflation"
+    ],
+    "answer": "Western countries agreed to allow Russian oil shipping services (insurance, tankers) only if the oil was sold below $60 per barrel",
+    "explanation": "The price cap exploited Western dominance in oil shipping services: since most tanker insurance and maritime services are based in the UK, EU, or US, Russia needed Western cooperation to ship oil safely. The G7 used this leverage to impose a $60/barrel price cap — allowing Russian oil to keep flowing to global markets (avoiding a supply shock) while limiting Russian revenues from oil sales. Russia circumvented the cap by building its own 'shadow fleet' of tankers.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Russia",
+      "oil price cap",
+      "G7",
+      "Ukraine",
+      "sanctions",
+      "energy"
+    ]
+  },
+  {
+    "id": "world-049",
+    "category": "world",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Match each central bank to its home country or region.",
+    "pairs": [
+      [
+        "Bank of England",
+        "United Kingdom"
+      ],
+      [
+        "Riksbank",
+        "Sweden"
+      ],
+      [
+        "Reserve Bank of India (RBI)",
+        "India"
+      ],
+      [
+        "People's Bank of China (PBOC)",
+        "China"
+      ]
+    ],
+    "answer": "Bank of England→United Kingdom, Riksbank→Sweden, RBI→India, PBOC→China",
+    "explanation": "The Bank of England (est. 1694) is one of the world's oldest central banks. Sweden's Riksbank (est. 1668) is the oldest. India's RBI was established in 1935, modelled partly on the Bank of England. China's PBOC is responsible for monetary policy but also manages capital controls and the renminbi exchange rate — with less formal independence than Western central banks.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "central banks",
+      "Bank of England",
+      "Riksbank",
+      "RBI",
+      "PBOC"
+    ]
+  },
+  {
+    "id": "world-050",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The African Continental Free Trade Area (AfCFTA), which came into force in 2021, is significant because it would create the world's largest free trade area by number of countries. How many African countries have signed the agreement?",
+    "choices": [
+      "54",
+      "30",
+      "44",
+      "20"
+    ],
+    "answer": "54",
+    "explanation": "AfCFTA has been signed by 54 of 55 African Union member states (only Eritrea has not signed), making it the world's largest free trade agreement by country count. However, actual trade liberalisation has proceeded slowly — tariff schedules, rules of origin, and institutional capacity remain incomplete. If fully implemented, AfCFTA could increase intra-African trade from about 15% to 50%+ of total African exports, potentially adding $450 billion to continental income by 2035.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "AfCFTA",
+      "Africa",
+      "free trade",
+      "regional integration",
+      "developing countries"
+    ]
+  },
+  {
+    "id": "world-051",
+    "category": "world",
+    "difficulty": 1,
+    "format": "higher_lower",
+    "prompt": "Which economy relies more heavily on trade (exports plus imports) relative to its size?",
+    "items": [
+      "Singapore",
+      "United States"
+    ],
+    "metric": "trade openness (total trade as a percentage of GDP)",
+    "answer": "Singapore",
+    "explanation": "Singapore's trade (exports + imports) exceeds 300% of its GDP — a ratio possible because Singapore is an entrepôt: it imports, adds value, and re-exports. The US has one of the lowest trade-to-GDP ratios among advanced economies (~25–30%), reflecting its large internal market. The difference illustrates how trade openness ratios systematically overstate openness for small transit economies and understate it for large continental ones.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Singapore",
+      "United States",
+      "trade openness",
+      "trade to GDP",
+      "entrepôt"
+    ]
+  },
+  {
+    "id": "world-052",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "What is the primary purpose of the Bank for International Settlements (BIS)'s quarterly derivatives statistics?",
+    "choices": [
+      "To provide transparency about the size of global over-the-counter derivatives markets, helping regulators monitor systemic risk",
+      "To process and settle derivative contracts between banks in member countries",
+      "To regulate margin requirements for derivatives trading in G10 countries",
+      "To publish the benchmark interest rates used in derivative contracts globally"
+    ],
+    "answer": "To provide transparency about the size of global over-the-counter derivatives markets, helping regulators monitor systemic risk",
+    "explanation": "The BIS collects data from central banks and publishes statistics on OTC derivatives markets. These statistics revealed that global OTC derivatives notional outstanding exceeded $700 trillion before the 2008 crisis — alarming given that the size and interconnectedness of these contracts was poorly understood by regulators. Post-2008 reforms required central clearing of many derivatives to reduce counterparty risk, and mandatory trade reporting to improve BIS data quality.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "BIS",
+      "derivatives",
+      "OTC markets",
+      "financial stability",
+      "systemic risk"
+    ]
+  },
+  {
+    "id": "world-053",
+    "category": "world",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: In 2023, India overtook China to become the world's most populous country, ending China's status as the world's largest population for roughly 5,000 years.",
+    "answer": true,
+    "explanation": "India surpassed China in total population around April 2023, according to UN estimates, reaching approximately 1.43 billion people. China had held the top spot for centuries. India's population continues to grow while China's has begun to decline due to the legacy of the one-child policy (1980–2015). China faces a demographic time bomb: a rapidly ageing population and shrinking workforce with insufficient younger workers to support retirees.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "India",
+      "China",
+      "population",
+      "demographics",
+      "one-child policy"
+    ]
+  },
+  {
+    "id": "world-054",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'Triffin dilemma' — articulated by economist Robert Triffin in 1960 — identified a fundamental contradiction in the Bretton Woods system. What was the dilemma?",
+    "choices": [
+      "The US must run persistent current account deficits to supply the world with dollars, but doing so undermines confidence in the dollar's gold convertibility",
+      "Countries cannot simultaneously have high growth and low inflation, so international monetary cooperation will always break down",
+      "Fixed exchange rates require either large gold reserves or unlimited capital controls, and no country can sustain both",
+      "The IMF cannot lend to both surplus and deficit countries without creating perverse incentives for both"
+    ],
+    "answer": "The US must run persistent current account deficits to supply the world with dollars, but doing so undermines confidence in the dollar's gold convertibility",
+    "explanation": "Triffin showed that the reserve currency issuer must run deficits to supply liquidity to the world, but accumulating deficits would eventually destroy confidence in the reserve currency's value. This fundamental instability is why Nixon ended gold convertibility in 1971. The modern version of the Triffin dilemma is that the US must continue issuing dollar assets for the world, even though this requires large fiscal deficits that eventually may erode dollar confidence.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Triffin dilemma",
+      "Bretton Woods",
+      "US dollar",
+      "reserve currency",
+      "international monetary system"
+    ]
+  },
+  {
+    "id": "world-055",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which statement best explains why the US dollar has maintained its dominant reserve currency status despite decades of US current account deficits, rising debt, and the emergence of the euro and renminbi?",
+    "choices": [
+      "Network effects: dollar dominance creates self-reinforcing advantages in liquidity, contract denomination, and safe-haven demand that alternatives struggle to replicate",
+      "The US has legally bound trading partners to use the dollar through bilateral treaty agreements",
+      "Gold still underpins the dollar through an informal agreement with G7 central banks",
+      "The dollar benefits because the US GDP is so much larger than any other economy that its currency naturally dominates"
+    ],
+    "answer": "Network effects: dollar dominance creates self-reinforcing advantages in liquidity, contract denomination, and safe-haven demand that alternatives struggle to replicate",
+    "explanation": "Dollar dominance is self-reinforcing: oil is priced in dollars, so countries need dollars for energy. Dollars are the most liquid assets, so investors want them in crises. Most global trade contracts are denominated in dollars, so banks hold dollar reserves. Breaking this network requires a coordinated shift that no single country can unilaterally trigger. The euro is a partial exception — roughly 20% of global reserves — but even eurozone financial integration lags the US.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "US dollar",
+      "reserve currency",
+      "network effects",
+      "exorbitant privilege",
+      "dedollarization"
+    ]
+  },
+  {
+    "id": "world-056",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Taiwan produces roughly 90% of the world's most advanced semiconductor chips. This concentration of critical supply creates what geopolitical risk?",
+    "choices": [
+      "Any disruption to Taiwan — from conflict, natural disaster, or blockade — could cripple global electronics, automotive, and AI industries simultaneously",
+      "Taiwan charges a 90% export tariff on chips, making electronics prohibitively expensive for most countries",
+      "Taiwan's chip monopoly enables it to set global AI and computing standards without international oversight",
+      "Countries dependent on Taiwanese chips must sign bilateral defence agreements with the US to secure supply"
+    ],
+    "answer": "Any disruption to Taiwan — from conflict, natural disaster, or blockade — could cripple global electronics, automotive, and AI industries simultaneously",
+    "explanation": "TSMC (Taiwan Semiconductor Manufacturing Company) produces roughly 90% of chips below 7nm — the most advanced semiconductors used in smartphones, servers, AI, and modern vehicles. This concentration means a conflict over Taiwan or even a major earthquake could disrupt global supply chains across every advanced technology sector. The US CHIPS Act and EU Chips Act were partly motivated by reducing this dependency.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Taiwan",
+      "TSMC",
+      "semiconductors",
+      "supply chain",
+      "geopolitics",
+      "chips"
+    ]
+  },
+  {
+    "id": "world-057",
+    "category": "world",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Reserve Bank of New Zealand was the world's first central bank to adopt explicit 'inflation targeting' as its monetary policy framework. In what year did it introduce this approach?",
+    "choices": [
+      "1990",
+      "1985",
+      "1999",
+      "2008"
+    ],
+    "answer": "1990",
+    "explanation": "New Zealand's Reserve Bank Act (1989) took effect in 1990, establishing an explicit inflation target band and holding the governor personally accountable for achieving it. Canada adopted inflation targeting in 1991; the UK in 1992; Sweden and Australia in 1993; the ECB in 1999. The Fed only formally adopted a 2% inflation target in 2012. New Zealand's experiment proved so successful that inflation targeting became the dominant monetary policy framework globally.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "New Zealand",
+      "inflation targeting",
+      "Reserve Bank",
+      "monetary policy framework"
+    ]
+  },
+  {
+    "id": "world-058",
+    "category": "world",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "Both are major emerging market economies and BRICS members. Which had the higher nominal GDP in 2023?",
+    "items": [
+      "India",
+      "Russia"
+    ],
+    "metric": "nominal GDP in USD (2023)",
+    "answer": "India",
+    "explanation": "India's nominal GDP of approximately $3.7 trillion in 2023 substantially exceeded Russia's ~$2.2 trillion. India overtook the UK as the world's 5th largest economy in 2022. Russia's economy, despite its vast natural resources, remains roughly the size of Canada or South Korea — a consequence of decades of oil dependence, relatively poor institutional quality, and international sanctions after the 2022 Ukraine invasion.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": [
+      "India",
+      "Russia",
+      "GDP",
+      "BRICS",
+      "emerging markets",
+      "comparison"
+    ]
+  },
+  {
+    "id": "world-059",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'exorbitant privilege' is a term used to describe the economic benefits the United States enjoys from the dollar's reserve currency status. Which benefit does NOT result from this privilege?",
+    "choices": [
+      "The US is exempt from World Trade Organization rules because its currency is the global reserve",
+      "The US can borrow internationally at lower interest rates because foreign investors always need to hold dollars",
+      "The US can run persistent trade deficits without facing currency crises that would afflict other countries",
+      "Seigniorage: foreigners hold dollar bills and bank deposits, essentially giving the US an interest-free loan"
+    ],
+    "answer": "The US is exempt from World Trade Organization rules because its currency is the global reserve",
+    "explanation": "The 'exorbitant privilege' (coined by French Finance Minister Valéry Giscard d'Estaing to criticise US dollar dominance) refers to lower borrowing costs, the ability to run deficits without currency crises, and seigniorage from foreign dollar holdings. The US is absolutely not exempt from WTO rules — it faces WTO disputes like any other member. The privilege is monetary and financial, not a legal exemption.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "exorbitant privilege",
+      "US dollar",
+      "reserve currency",
+      "seigniorage",
+      "WTO"
+    ]
+  },
+  {
+    "id": "world-060",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which of these correctly describes the difference between a 'trade deficit' and a 'current account deficit'?",
+    "choices": [
+      "The current account is broader: it includes the trade deficit plus net income flows (investment returns) and net transfers (remittances, aid)",
+      "A trade deficit measures only goods; a current account deficit measures only services",
+      "A current account deficit means the country owes more foreign debt than it has foreign assets",
+      "Trade deficits are always bad for an economy; current account deficits are always beneficial"
+    ],
+    "answer": "The current account is broader: it includes the trade deficit plus net income flows (investment returns) and net transfers (remittances, aid)",
+    "explanation": "The current account has three components: (1) the trade balance (goods + services); (2) the primary income account (dividends, interest, wages from abroad minus payments to foreigners); and (3) the secondary income account (remittances, foreign aid, taxes). The US typically runs a large trade deficit in goods but a surplus in services and investment income. Norway's current account surplus is primarily investment income from its $1.7T sovereign wealth fund, not goods exports.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "current account",
+      "trade deficit",
+      "balance of payments",
+      "international economics"
+    ]
+  },
+  {
+    "id": "world-061",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 2010 eurozone sovereign debt crisis revealed a 'doom loop' — a vicious cycle between which two interconnected balance sheets?",
+    "choices": [
+      "Sovereign (government) balance sheets and bank balance sheets — banks holding government bonds meant sovereign distress immediately weakened banks, and bank bailouts weakened sovereigns",
+      "The ECB balance sheet and the US Federal Reserve balance sheet — rising Fed rates caused ECB rate rises that triggered sovereign debt problems",
+      "Eurozone households' mortgage balance sheets and corporate bond portfolios — housing busts caused corporate defaults",
+      "IMF emergency lending facilities and eurozone country fiscal accounts — IMF loans worsened public debt ratios"
+    ],
+    "answer": "Sovereign (government) balance sheets and bank balance sheets — banks holding government bonds meant sovereign distress immediately weakened banks, and bank bailouts weakened sovereigns",
+    "explanation": "The 'doom loop' (also called the 'diabolic loop') works as follows: sovereign bonds fall in value → banks holding those bonds face losses → markets fear banks need bailouts → governments face higher borrowing costs → sovereign bonds fall further. Spain and Italy were especially vulnerable. The ECB's OMT programme broke the doom loop by implicitly backstopping sovereign bonds. The Banking Union (2012) was designed to structurally break the loop by separating bank rescues from national budgets.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "doom loop",
+      "eurozone crisis",
+      "sovereign debt",
+      "banking crisis",
+      "ECB"
+    ]
+  },
+  {
+    "id": "world-062",
+    "category": "world",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: As of 2024, the BRICS grouping (now BRICS+) collectively represents a larger share of global GDP (by PPP) than the G7.",
+    "answer": true,
+    "explanation": "By purchasing-power-parity measures, BRICS+ (which expanded to include Egypt, Ethiopia, Iran, Saudi Arabia, and the UAE in 2024) collectively accounts for roughly 35–37% of global GDP on a PPP basis — exceeding the G7's roughly 30%. However, at market exchange rates, the G7 still leads. BRICS+ members also have far lower GDPs per capita on average, making comparisons complex. The expansion of BRICS is partly a geopolitical statement about a multipolar world order.",
+    "source": "https://www.imf.org/en/Data",
+    "as_of": "2024",
+    "time_sensitive": true,
+    "tags": [
+      "BRICS",
+      "G7",
+      "GDP",
+      "PPP",
+      "global governance",
+      "multipolarity"
+    ]
   }
 ]

@@ -16,7 +16,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Smith", "invisible hand", "markets"]
+    "tags": [
+      "Smith",
+      "invisible hand",
+      "markets"
+    ]
   },
   {
     "id": "economists-002",
@@ -35,7 +39,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Keynes", "quotes", "fiscal policy"]
+    "tags": [
+      "Keynes",
+      "quotes",
+      "fiscal policy"
+    ]
   },
   {
     "id": "economists-003",
@@ -55,7 +63,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Smith", "Marshall", "Keynes", "Friedman", "books"]
+    "tags": [
+      "Smith",
+      "Marshall",
+      "Keynes",
+      "Friedman",
+      "books"
+    ]
   },
   {
     "id": "economists-004",
@@ -64,12 +78,21 @@
     "format": "short",
     "prompt": "Which economist popularised the concept of 'creative destruction' — the idea that capitalism ceaselessly destroys old industries to create new ones?",
     "answer": "Joseph Schumpeter",
-    "accept": ["Schumpeter", "Joseph Schumpeter", "J.A. Schumpeter", "J. Schumpeter"],
+    "accept": [
+      "Schumpeter",
+      "Joseph Schumpeter",
+      "J.A. Schumpeter",
+      "J. Schumpeter"
+    ],
     "explanation": "Schumpeter developed 'creative destruction' most fully in Capitalism, Socialism and Democracy (1942). He drew on Marx but made it the essential feature of capitalist dynamics, explaining why innovators rather than price-takers drive growth.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Schumpeter", "creative destruction", "innovation"]
+    "tags": [
+      "Schumpeter",
+      "creative destruction",
+      "innovation"
+    ]
   },
   {
     "id": "economists-005",
@@ -88,7 +111,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Ricardo", "comparative advantage", "trade"]
+    "tags": [
+      "Ricardo",
+      "comparative advantage",
+      "trade"
+    ]
   },
   {
     "id": "economists-006",
@@ -107,7 +134,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Malthus", "population", "food", "subsistence"]
+    "tags": [
+      "Malthus",
+      "population",
+      "food",
+      "subsistence"
+    ]
   },
   {
     "id": "economists-007",
@@ -126,7 +158,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Marx", "surplus value", "labour", "exploitation"]
+    "tags": [
+      "Marx",
+      "surplus value",
+      "labour",
+      "exploitation"
+    ]
   },
   {
     "id": "economists-008",
@@ -145,7 +182,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Veblen", "conspicuous consumption", "status", "luxury"]
+    "tags": [
+      "Veblen",
+      "conspicuous consumption",
+      "status",
+      "luxury"
+    ]
   },
   {
     "id": "economists-009",
@@ -164,7 +206,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Fisher", "debt-deflation", "Great Depression", "deflation"]
+    "tags": [
+      "Fisher",
+      "debt-deflation",
+      "Great Depression",
+      "deflation"
+    ]
   },
   {
     "id": "economists-010",
@@ -183,7 +230,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Hayek", "knowledge", "prices", "central planning"]
+    "tags": [
+      "Hayek",
+      "knowledge",
+      "prices",
+      "central planning"
+    ]
   },
   {
     "id": "economists-011",
@@ -202,7 +254,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Samuelson", "neoclassical synthesis", "Keynesian", "textbook"]
+    "tags": [
+      "Samuelson",
+      "neoclassical synthesis",
+      "Keynesian",
+      "textbook"
+    ]
   },
   {
     "id": "economists-012",
@@ -221,7 +278,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Coase", "Coase theorem", "property rights", "transaction costs"]
+    "tags": [
+      "Coase",
+      "Coase theorem",
+      "property rights",
+      "transaction costs"
+    ]
   },
   {
     "id": "economists-013",
@@ -240,7 +302,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Becker", "human capital", "education", "labour"]
+    "tags": [
+      "Becker",
+      "human capital",
+      "education",
+      "labour"
+    ]
   },
   {
     "id": "economists-014",
@@ -259,7 +326,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Sen", "capability approach", "development", "HDI"]
+    "tags": [
+      "Sen",
+      "capability approach",
+      "development",
+      "HDI"
+    ]
   },
   {
     "id": "economists-015",
@@ -278,7 +350,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Akerlof", "Stiglitz", "asymmetric information", "lemons"]
+    "tags": [
+      "Akerlof",
+      "Stiglitz",
+      "asymmetric information",
+      "lemons"
+    ]
   },
   {
     "id": "economists-016",
@@ -297,7 +374,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Piketty", "inequality", "r>g", "capital"]
+    "tags": [
+      "Piketty",
+      "inequality",
+      "r>g",
+      "capital"
+    ]
   },
   {
     "id": "economists-017",
@@ -316,7 +398,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Ostrom", "commons", "Nobel 2009", "governance"]
+    "tags": [
+      "Ostrom",
+      "commons",
+      "Nobel 2009",
+      "governance"
+    ]
   },
   {
     "id": "economists-018",
@@ -335,7 +422,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Solow", "growth model", "technology", "residual"]
+    "tags": [
+      "Solow",
+      "growth model",
+      "technology",
+      "residual"
+    ]
   },
   {
     "id": "economists-019",
@@ -354,7 +446,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Ricardo", "rent", "land", "distribution"]
+    "tags": [
+      "Ricardo",
+      "rent",
+      "land",
+      "distribution"
+    ]
   },
   {
     "id": "economists-020",
@@ -367,7 +464,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Friedman", "Great Depression", "Federal Reserve", "money supply"]
+    "tags": [
+      "Friedman",
+      "Great Depression",
+      "Federal Reserve",
+      "money supply"
+    ]
   },
   {
     "id": "economists-021",
@@ -386,7 +488,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Hayek", "Road to Serfdom", "planning", "freedom"]
+    "tags": [
+      "Hayek",
+      "Road to Serfdom",
+      "planning",
+      "freedom"
+    ]
   },
   {
     "id": "economists-022",
@@ -405,7 +512,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Fisher", "Fisher equation", "interest rate", "inflation"]
+    "tags": [
+      "Fisher",
+      "Fisher equation",
+      "interest rate",
+      "inflation"
+    ]
   },
   {
     "id": "economists-023",
@@ -424,7 +536,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Mill", "distribution", "institutions", "reform"]
+    "tags": [
+      "Mill",
+      "distribution",
+      "institutions",
+      "reform"
+    ]
   },
   {
     "id": "economists-024",
@@ -443,7 +560,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Acemoglu", "institutions", "Nobel 2024", "development"]
+    "tags": [
+      "Acemoglu",
+      "institutions",
+      "Nobel 2024",
+      "development"
+    ]
   },
   {
     "id": "economists-025",
@@ -452,17 +574,35 @@
     "format": "match",
     "prompt": "Match each economist to their most famous concept or contribution.",
     "pairs": [
-      ["Ronald Coase", "Transaction costs"],
-      ["Gary Becker", "Human capital"],
-      ["Amartya Sen", "Capability approach"],
-      ["Robert Solow", "Growth residual"]
+      [
+        "Ronald Coase",
+        "Transaction costs"
+      ],
+      [
+        "Gary Becker",
+        "Human capital"
+      ],
+      [
+        "Amartya Sen",
+        "Capability approach"
+      ],
+      [
+        "Robert Solow",
+        "Growth residual"
+      ]
     ],
     "answer": "Coase→Transaction costs, Becker→Human capital, Sen→Capability approach, Solow→Growth residual",
     "explanation": "Coase (1937, 1960): firms and contracts exist because of transaction costs. Becker (1964): education is investment in human capital. Sen (1985+): development = expanding capabilities. Solow (1956): technology is the 'residual' driving long-run growth.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Coase", "Becker", "Sen", "Solow", "match"]
+    "tags": [
+      "Coase",
+      "Becker",
+      "Sen",
+      "Solow",
+      "match"
+    ]
   },
   {
     "id": "economists-026",
@@ -481,7 +621,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Pigou", "externalities", "Pigouvian tax", "market failure"]
+    "tags": [
+      "Pigou",
+      "externalities",
+      "Pigouvian tax",
+      "market failure"
+    ]
   },
   {
     "id": "economists-027",
@@ -500,7 +645,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Galbraith", "Affluent Society", "public goods", "inequality"]
+    "tags": [
+      "Galbraith",
+      "Affluent Society",
+      "public goods",
+      "inequality"
+    ]
   },
   {
     "id": "economists-028",
@@ -519,6 +669,861 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Marx", "historical materialism", "modes of production", "base-superstructure"]
+    "tags": [
+      "Marx",
+      "historical materialism",
+      "modes of production",
+      "base-superstructure"
+    ]
+  },
+  {
+    "id": "economists-029",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Paul Volcker served as Federal Reserve Chair from 1979 to 1987. He is remembered above all for what accomplishment?",
+    "choices": [
+      "Deliberately causing a severe recession by raising interest rates above 19% to permanently break double-digit inflation",
+      "Preventing the 2008 financial crisis from becoming a depression by guaranteeing all bank deposits",
+      "Introducing the gold standard that gave the US dollar its stability in the post-war era",
+      "Writing the 1977 legislation that gave the Federal Reserve its 'dual mandate'"
+    ],
+    "answer": "Deliberately causing a severe recession by raising interest rates above 19% to permanently break double-digit inflation",
+    "explanation": "Volcker was appointed by Jimmy Carter in 1979 to fight inflation that had exceeded 13%. He raised the federal funds rate above 19% by 1981, causing a deep recession (unemployment peaked above 10%) but ultimately reducing inflation to around 3% by 1983. This 'Volcker disinflation' is regarded as the defining central banking success of the 20th century — demonstrating that credible, resolute monetary policy can cure even entrenched inflation at a steep short-term cost.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Paul Volcker",
+      "Federal Reserve",
+      "inflation",
+      "disinflation",
+      "central banking"
+    ]
+  },
+  {
+    "id": "economists-030",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Alan Greenspan served as Federal Reserve Chair for 18 years (1987–2006). His famous 'irrational exuberance' speech in December 1996 warned against what?",
+    "choices": [
+      "Excessive stock market valuations that might be driven by investor psychology rather than fundamentals",
+      "Central banks printing too much money and causing runaway inflation",
+      "Government deficits growing so large they would crowd out private investment",
+      "Banks lending too aggressively to emerging-market countries, risking a global debt crisis"
+    ],
+    "answer": "Excessive stock market valuations that might be driven by investor psychology rather than fundamentals",
+    "explanation": "Greenspan asked 'How do we know when irrational exuberance has unduly escalated asset values?' in a December 1996 speech. Markets fell briefly but quickly recovered and continued rising until the dot-com bubble burst in 2000. The irony: Greenspan himself was later criticised for keeping rates too low in the early 2000s, helping inflate the housing bubble that led to the 2008 crisis. Robert Shiller popularised the 'irrational exuberance' concept in his 2000 book of the same name.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Alan Greenspan",
+      "Federal Reserve",
+      "irrational exuberance",
+      "stock market",
+      "dot-com bubble"
+    ]
+  },
+  {
+    "id": "economists-031",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Ben Bernanke won the 2022 Nobel Prize in Economics for academic research done decades before his time as Federal Reserve Chair. What was the core insight of his prize-winning 1983 paper on the Great Depression?",
+    "choices": [
+      "Bank failures weren't just a symptom of the Depression — they actively worsened it by destroying credit intermediation that firms depended on",
+      "The Great Depression was caused primarily by tariff wars rather than by monetary contraction",
+      "Central banks should always prioritise financial stability over price stability, even if this means allowing inflation",
+      "The 1929 stock market crash was predictable using price-earnings ratios available to economists at the time"
+    ],
+    "answer": "Bank failures weren't just a symptom of the Depression — they actively worsened it by destroying credit intermediation that firms depended on",
+    "explanation": "Bernanke's 1983 paper argued that the wave of bank failures (which wiped out the knowledge, relationships, and systems needed to evaluate and process loans) caused a lasting collapse in credit supply — making the Depression deeper and longer than pure money supply contraction would explain. This research directly shaped his 2008 decisions: if bank failures had multiplied the Depression, preventing them this time became paramount.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Ben Bernanke",
+      "Nobel Prize",
+      "Great Depression",
+      "bank failures",
+      "credit intermediation"
+    ]
+  },
+  {
+    "id": "economists-032",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Janet Yellen is notable for multiple 'firsts' in economics and policy. Which statement about her career is accurate?",
+    "choices": [
+      "She was the first woman to serve as both Federal Reserve Chair and US Treasury Secretary",
+      "She was the first woman to win the Nobel Prize in Economics",
+      "She was the first female President of the American Economic Association",
+      "She was the first Federal Reserve Chair appointed by a Democratic president since the 1970s"
+    ],
+    "answer": "She was the first woman to serve as both Federal Reserve Chair and US Treasury Secretary",
+    "explanation": "Yellen served as Fed Chair from 2014 to 2018 and Treasury Secretary from 2021 — the first person ever to hold both top roles. As an academic she specialised in labour economics, particularly efficiency wages and unemployment. She and her husband George Akerlof (the 2001 Nobel laureate) are one of economics' most famous couples. As Treasury Secretary, she championed the 15% global minimum corporate tax and coordinated the US fiscal response to COVID-19.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Janet Yellen",
+      "Federal Reserve",
+      "Treasury Secretary",
+      "women in economics"
+    ]
+  },
+  {
+    "id": "economists-033",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Jean-Baptiste Say formulated 'Say's Law,' which holds that 'supply creates its own demand.' What does this mean, and who famously challenged it?",
+    "choices": [
+      "Producing goods generates the income needed to buy them — so markets always clear; Keynes challenged this by showing demand shortfalls can persist",
+      "All goods produced will eventually be sold, but only if prices are flexible; Ricardo challenged this by showing rent captures all the gains",
+      "Supply and demand are always equal in the long run; Malthus challenged this by pointing to persistent food surpluses",
+      "Countries can always export whatever they produce; Mercantilists challenged this by arguing trade surpluses are required"
+    ],
+    "answer": "Producing goods generates the income needed to buy them — so markets always clear; Keynes challenged this by showing demand shortfalls can persist",
+    "explanation": "Say's Law held that the act of production creates purchasing power equal to the value produced, so there can be no general glut — insufficient aggregate demand is impossible. Classical economists used this to argue depressions were temporary self-correcting phenomena. Keynes demolished this in the General Theory (1936), showing that savings could 'leak out' of the spending stream, causing persistent demand shortfalls and involuntary unemployment. The debate between Say and Keynes is essentially the debate between classical and Keynesian macro.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Jean-Baptiste Say",
+      "Say's Law",
+      "Keynes",
+      "aggregate demand",
+      "classical economics"
+    ]
+  },
+  {
+    "id": "economists-034",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Alfred Marshall, the dominant figure in British economics in the late 19th and early 20th centuries, is credited with which fundamental methodological contribution?",
+    "choices": [
+      "The supply and demand diagram — using geometry to show how price and quantity are jointly determined by the interaction of supply and demand curves",
+      "The concept of GDP — inventing national income accounting to measure aggregate economic output",
+      "The quantity theory of money — using the equation MV = PQ to link money supply to price levels",
+      "The concept of general equilibrium — showing all markets clear simultaneously through Walras's Law"
+    ],
+    "answer": "The supply and demand diagram — using geometry to show how price and quantity are jointly determined by the interaction of supply and demand curves",
+    "explanation": "Marshall's Principles of Economics (1890) introduced the supply-and-demand diagram that every economics student learns on day one. He also developed concepts of elasticity, consumer surplus, producer surplus, and long-run vs short-run equilibrium. Marshall is often called the founder of neoclassical economics. He famously urged economists to 'burn the mathematics' and translate findings into plain English — though he used mathematics extensively in his work.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Alfred Marshall",
+      "supply and demand",
+      "neoclassical economics",
+      "methodology"
+    ]
+  },
+  {
+    "id": "economists-035",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "John Hicks developed the IS-LM model in 1937 as an interpretation of Keynes's General Theory. What do IS and LM stand for?",
+    "choices": [
+      "Investment-Saving (IS) and Liquidity-Money (LM)",
+      "Income-Spending (IS) and Labour-Market (LM)",
+      "Interest-Supply (IS) and Labour-Multiplier (LM)",
+      "Input-Savings (IS) and Long-run-Macro (LM)"
+    ],
+    "answer": "Investment-Saving (IS) and Liquidity-Money (LM)",
+    "explanation": "The IS curve shows combinations of interest rates and output where planned investment equals planned saving (goods market equilibrium). The LM curve shows where money demand equals money supply (money market equilibrium). Together they determine the equilibrium interest rate and output level. The IS-LM model became the standard Keynesian teaching framework for decades and is still used to show how fiscal policy (shifts IS) and monetary policy (shifts LM) affect the economy.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "IS-LM",
+      "John Hicks",
+      "Keynes",
+      "macroeconomics",
+      "fiscal policy",
+      "monetary policy"
+    ]
+  },
+  {
+    "id": "economists-036",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Robert Mundell won the 1999 Nobel Prize and is often called the 'father of the euro.' His 'Optimal Currency Area' theory asked: when is it worth giving up your own currency? Which condition did he identify as the most important?",
+    "choices": [
+      "Labour mobility: if workers can easily move between regions, a single currency works because migration adjusts to regional shocks instead of exchange rates",
+      "Similar trade structures: if all regions export the same goods, a currency union imposes no asymmetric costs",
+      "Fiscal transfers: a common currency only works if a large federal budget redistributes income between regions",
+      "Similar inflation histories: countries with similar past inflation are natural currency union partners"
+    ],
+    "answer": "Labour mobility: if workers can easily move between regions, a single currency works because migration adjusts to regional shocks instead of exchange rates",
+    "explanation": "Mundell's OCA theory (1961) showed that when a region faces an asymmetric shock (e.g., a recession hitting one country but not another), a currency union member cannot devalue to restore competitiveness. The substitute adjustment mechanisms are: labour migration, wage flexibility, or fiscal transfers. The eurozone was criticised for having insufficient labour mobility and no common fiscal stabiliser — weaknesses exposed by the 2010–12 crisis where southern European countries couldn't devalue and couldn't easily transfer workers to Germany.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Robert Mundell",
+      "Optimal Currency Area",
+      "euro",
+      "monetary union",
+      "Nobel Prize"
+    ]
+  },
+  {
+    "id": "economists-037",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Raghuram Rajan made headlines in 2005 when he presented a paper at the Jackson Hole symposium — attended by Alan Greenspan and other central bankers — arguing that the financial system had become dangerously fragile. What happened subsequently?",
+    "choices": [
+      "He was largely dismissed at the time; when the 2008 crisis struck, he was widely hailed as having predicted it",
+      "The Federal Reserve immediately adopted his recommendations, tightening bank leverage requirements before the crisis",
+      "His paper triggered Greenspan's early resignation and a congressional inquiry into bank risk management",
+      "His warnings were immediately vindicated when Bear Stearns collapsed in 2005"
+    ],
+    "answer": "He was largely dismissed at the time; when the 2008 crisis struck, he was widely hailed as having predicted it",
+    "explanation": "Rajan's 2005 paper 'Has Financial Development Made the World Riskier?' argued that financial innovation had created dangerous incentives in the banking system. He was dismissed by Donald Kohn and others as a 'luddite' who didn't understand modern finance. When the 2008 crisis proved him largely right, Rajan became famous. He later served as Reserve Bank of India Governor (2013–2016) and is regarded as one of the most prescient financial economists of his generation.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Raghuram Rajan",
+      "2008 crisis",
+      "financial stability",
+      "Jackson Hole",
+      "prediction"
+    ]
+  },
+  {
+    "id": "economists-038",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Lawrence Summers served as US Treasury Secretary (1999–2001) and was a leading macroeconomist. After the 2008 crisis, he revived which concept to explain persistently slow economic growth?",
+    "choices": [
+      "Secular stagnation: the idea that the neutral real interest rate may have fallen permanently, making it difficult for monetary policy to achieve full employment",
+      "Creative destruction: the argument that the crisis was clearing out inefficient firms, paving the way for stronger future growth",
+      "Liquidity trap: the classical Keynesian claim that near-zero interest rates made monetary policy ineffective",
+      "Dutch disease: the proposition that the US financial sector had grown so large it crowded out productive investment in manufacturing"
+    ],
+    "answer": "Secular stagnation: the idea that the neutral real interest rate may have fallen permanently, making it difficult for monetary policy to achieve full employment",
+    "explanation": "Summers revived Alvin Hansen's 1938 'secular stagnation' thesis in a 2013 IMF speech, arguing that the neutral real interest rate — the rate consistent with full employment and stable inflation — may have turned negative due to ageing populations, rising inequality, and a global savings glut. If so, central banks might chronically struggle to stimulate the economy without inflating bubbles. The concept became highly influential in the 2010s before the post-COVID inflation surge complicated the narrative.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Lawrence Summers",
+      "secular stagnation",
+      "neutral rate",
+      "macroeconomics",
+      "2010s"
+    ]
+  },
+  {
+    "id": "economists-039",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "James Tobin proposed a small tax on foreign exchange transactions — often called the 'Tobin tax' — to reduce currency speculation. He also developed 'Tobin's q,' a ratio used in investment theory. What does Tobin's q measure?",
+    "choices": [
+      "The ratio of a company's market value to the replacement cost of its assets — above 1.0 suggests new investment is worthwhile",
+      "The ratio of a country's exports to its imports, adjusted for currency fluctuations",
+      "The ratio of stock price to earnings expected over the next 10 years",
+      "The ratio of tax revenue to GDP, indicating the efficiency of a country's tax system"
+    ],
+    "answer": "The ratio of a company's market value to the replacement cost of its assets — above 1.0 suggests new investment is worthwhile",
+    "explanation": "Tobin's q = market value / replacement cost of physical capital. If q > 1, the market values capital above what it costs to create new capital, so businesses should invest more. If q < 1, it's cheaper to buy existing capacity than build new, so investment declines. Tobin's q is used to predict investment cycles and assess stock market valuations (when aggregate q is high, the whole market may be overvalued). Tobin won the 1981 Nobel Prize.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "James Tobin",
+      "Tobin's q",
+      "investment theory",
+      "capital",
+      "Tobin tax"
+    ]
+  },
+  {
+    "id": "economists-040",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "William Baumol identified 'Baumol's cost disease,' which explains why services like education, healthcare, and live music tend to get relatively more expensive over time even when quality doesn't change. What is his explanation?",
+    "choices": [
+      "Productivity growth in services is inherently low (you can't play a string quartet with two musicians), so rising wages in the productive economy spill over as higher costs in services",
+      "Government regulation artificially raises the cost of services while allowing goods prices to fall freely",
+      "Services require more energy than manufactured goods, so rising energy prices disproportionately affect the service sector",
+      "The service sector attracts lower-quality workers, so quality-adjusted costs must rise to attract talent as the economy grows"
+    ],
+    "answer": "Productivity growth in services is inherently low (you can't play a string quartet with two musicians), so rising wages in the productive economy spill over as higher costs in services",
+    "explanation": "Baumol's insight: a string quartet in 1800 required four musicians playing for 40 minutes; it still does today — no productivity gain. But as wages rise economy-wide (due to productivity gains elsewhere), musicians must be paid more. Services become relatively more expensive over time not because they waste resources but because labour productivity growth is harder to achieve in them. This explains why healthcare, education, and childcare consume ever-larger shares of GDP.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "William Baumol",
+      "Baumol's cost disease",
+      "productivity",
+      "services",
+      "healthcare costs"
+    ]
+  },
+  {
+    "id": "economists-041",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Lionel Robbins gave what is now the most commonly cited definition of economics in modern textbooks. Which definition is his?",
+    "choices": [
+      "Economics is the science which studies human behaviour as a relationship between ends and scarce means which have alternative uses",
+      "Economics is the study of wealth — how nations produce, distribute, and consume material goods",
+      "Economics is a branch of mathematics applied to the allocation of finite resources in human societies",
+      "Economics is the social science concerned with how individuals and societies make choices under uncertainty"
+    ],
+    "answer": "Economics is the science which studies human behaviour as a relationship between ends and scarce means which have alternative uses",
+    "explanation": "Robbins's 1932 definition in 'An Essay on the Nature and Significance of Economic Science' shifted economics from being the study of 'wealth' or 'material welfare' to a broader study of choice under scarcity. It implied that economics can apply to any situation of scarce means and competing ends — from household decisions to national defence — opening the path to economics imperialism into other social sciences. The definition remains in most introductory economics textbooks.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Lionel Robbins",
+      "definition of economics",
+      "scarcity",
+      "economic methodology"
+    ]
+  },
+  {
+    "id": "economists-042",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Kenneth Arrow's 'impossibility theorem' (1951) is one of social choice theory's most important results. What does it prove?",
+    "choices": [
+      "No voting system can convert individual ranked preferences into a consistent social ranking while satisfying all reasonable fairness conditions simultaneously",
+      "Competitive markets cannot produce a Pareto-efficient allocation unless all externalities are priced correctly",
+      "No central planner can replicate the information-processing capacity of a competitive market",
+      "Majority rule always produces a voting cycle unless at least one participant has 'single-peaked' preferences"
+    ],
+    "answer": "No voting system can convert individual ranked preferences into a consistent social ranking while satisfying all reasonable fairness conditions simultaneously",
+    "explanation": "Arrow proved that if there are three or more alternatives and three or more voters, no ranked voting system can simultaneously satisfy: unanimity (if everyone prefers A to B, society prefers A); independence of irrelevant alternatives; and non-dictatorship. This is deeply unsettling for democratic theory: it implies there is no 'will of the people' that can be cleanly aggregated from individual preferences. Arrow won the 1972 Nobel Prize.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Kenneth Arrow",
+      "impossibility theorem",
+      "social choice theory",
+      "voting",
+      "Nobel Prize"
+    ]
+  },
+  {
+    "id": "economists-043",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Paul Krugman won the 2008 Nobel Prize for his 'new trade theory,' which challenged classical comparative advantage explanations of trade. His key insight was that:",
+    "choices": [
+      "Even identical countries can profitably trade manufactured goods due to economies of scale and consumers' love of variety",
+      "Free trade always benefits both countries only when one country has an absolute advantage in everything",
+      "Trade patterns are determined by capital and labour endowments alone, not by technology or firm behaviour",
+      "Tariffs always reduce national welfare regardless of a country's market size or scale economies"
+    ],
+    "answer": "Even identical countries can profitably trade manufactured goods due to economies of scale and consumers' love of variety",
+    "explanation": "Classical trade theory (Ricardo, Heckscher-Ohlin) explained trade based on differences between countries. Krugman's new trade theory showed that even between identical countries, specialisation allows firms to achieve economies of scale in specific product varieties, while consumers benefit from access to a wider range of varieties. This explains intra-industry trade (Germany and Japan both exporting and importing cars) and why most trade is between similar rich countries rather than between rich and poor countries as classical theory suggested.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Paul Krugman",
+      "new trade theory",
+      "economies of scale",
+      "trade",
+      "Nobel Prize"
+    ]
+  },
+  {
+    "id": "economists-044",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "James Buchanan won the 1986 Nobel Prize for public choice theory. His central insight was that politicians, bureaucrats, and voters should be modelled as:",
+    "choices": [
+      "Self-interested rational agents who maximise their own welfare, rather than benevolent planners pursuing the public good",
+      "Irrational actors driven by ideology who systematically ignore economic efficiency",
+      "Perfectly informed agents who can always identify and correct market failures",
+      "Social welfare maximisers constrained by constitutional rules they cannot change"
+    ],
+    "answer": "Self-interested rational agents who maximise their own welfare, rather than benevolent planners pursuing the public good",
+    "explanation": "Buchanan's 'politics without romance' applied the standard economic assumption of self-interest to government actors. Politicians maximise votes; bureaucrats maximise budgets; interest groups maximise rents. This leads to systematic government failures: spending beyond the socially optimal level, regulatory capture, deficit bias, and concentrated benefits at diffuse costs. Buchanan's work provided the intellectual foundation for constitutional constraints on government (balanced budget amendments, independent central banks, etc.).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "James Buchanan",
+      "public choice theory",
+      "government failure",
+      "Nobel Prize",
+      "rent-seeking"
+    ]
+  },
+  {
+    "id": "economists-045",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Robert Shiller won the 2013 Nobel Prize partly for developing the CAPE ratio (also called the 'Shiller PE ratio'). What does CAPE stand for and what does it measure?",
+    "choices": [
+      "Cyclically Adjusted Price-to-Earnings — stock price divided by average inflation-adjusted earnings over the past 10 years",
+      "Capital Asset Pricing Equilibrium — a model for predicting stock returns using interest rates and GDP growth",
+      "Consumer Asset Price Expectation — a survey measure of how households expect stock prices to change",
+      "Current Adjusted Profit to Equity — a measure of corporate profitability adjusted for the business cycle"
+    ],
+    "answer": "Cyclically Adjusted Price-to-Earnings — stock price divided by average inflation-adjusted earnings over the past 10 years",
+    "explanation": "Shiller's CAPE ratio smooths out business cycle fluctuations by using 10-year average earnings. When CAPE is high relative to historical norms, subsequent 10-year returns have historically been lower than average. Shiller's 2000 book 'Irrational Exuberance' (published just as the dot-com bubble peaked) used CAPE to warn of overvaluation. A high CAPE doesn't tell you when a crash will occur — but Shiller showed that stock prices are far more volatile than underlying fundamentals justify.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Robert Shiller",
+      "CAPE ratio",
+      "stock market valuation",
+      "Nobel Prize",
+      "irrational exuberance"
+    ]
+  },
+  {
+    "id": "economists-046",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Robert Lucas's 'Lucas critique' (1976) had a major impact on macroeconomic modelling. What did it show?",
+    "choices": [
+      "Econometric relationships estimated from historical data break down when policy changes, because agents' expectations and behaviour adjust to the new policy regime",
+      "Mathematical models in economics are inherently incapable of predicting recessions because human behaviour is too complex",
+      "Central banks should never respond to stock market movements because this introduces instability into monetary policy",
+      "Fiscal multipliers are always zero because Ricardian equivalence ensures households save any government spending"
+    ],
+    "answer": "Econometric relationships estimated from historical data break down when policy changes, because agents' expectations and behaviour adjust to the new policy regime",
+    "explanation": "Lucas showed that historical correlations between policy variables and economic outcomes reflect a particular policy regime and agents' expectations about it. When the policy changes, agents update their behaviour, invalidating the old correlations. For example, the historical Phillips curve (lower unemployment → higher inflation) broke down when central banks used it as a policy target — because workers incorporated the expected policy into their wage demands. Lucas's critique spurred the rational expectations revolution and dynamic stochastic general equilibrium (DSGE) modelling.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Robert Lucas",
+      "Lucas critique",
+      "rational expectations",
+      "macroeconomics",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "economists-047",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "match",
+    "prompt": "Match each economist to the central banking role they held.",
+    "pairs": [
+      [
+        "Mark Carney",
+        "Bank of Canada Governor (2008–2013) then Bank of England Governor (2013–2020)"
+      ],
+      [
+        "Christine Lagarde",
+        "IMF Managing Director (2011–2019) then ECB President (2019–present)"
+      ],
+      [
+        "Paul Volcker",
+        "US Federal Reserve Chair (1979–1987)"
+      ],
+      [
+        "Raghuram Rajan",
+        "Reserve Bank of India Governor (2013–2016)"
+      ]
+    ],
+    "answer": "Mark Carney→BoC/BoE, Christine Lagarde→IMF/ECB, Paul Volcker→Fed Chair, Raghuram Rajan→RBI Governor",
+    "explanation": "Carney is the only person to have governed two G7 central banks. Lagarde transitioned from head of the IMF to head of the ECB — both top global monetary institutions. Volcker's tenure is synonymous with the definitive defeat of 1970s inflation. Rajan had predicted the 2008 crisis at Jackson Hole in 2005 before leading India's central bank during a period of currency volatility.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "central bank governors",
+      "Mark Carney",
+      "Christine Lagarde",
+      "Volcker",
+      "Rajan"
+    ]
+  },
+  {
+    "id": "economists-048",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "These four economists each made landmark contributions. Put them in the order they were born, from earliest to most recent.",
+    "items": [
+      "Adam Smith",
+      "John Maynard Keynes",
+      "Milton Friedman",
+      "Paul Krugman"
+    ],
+    "order_by": "year of birth",
+    "answer": "Adam Smith → John Maynard Keynes → Milton Friedman → Paul Krugman",
+    "explanation": "Adam Smith: born 1723. John Maynard Keynes: born 1883. Milton Friedman: born 1912. Paul Krugman: born 1953. Each represents a different era and school of thought: Smith/classical, Keynes/macroeconomics, Friedman/monetarism, Krugman/new trade theory and popular commentary.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "economists",
+      "chronology",
+      "Adam Smith",
+      "Keynes",
+      "Friedman",
+      "Krugman"
+    ]
+  },
+  {
+    "id": "economists-049",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Claudia Goldin won the 2023 Nobel Prize in Economics for her research on the gender pay gap. What was her most surprising finding about why women earn less than men?",
+    "choices": [
+      "The pay gap is now primarily driven not by employer discrimination but by the penalty for working irregular, non-flexible hours — which disproportionately affects mothers",
+      "Women earn less mainly because they choose lower-paying professions due to societal pressure, not labour market discrimination",
+      "The gender pay gap has not actually narrowed since the 1970s when correcting for hours worked",
+      "Women who negotiate salaries as aggressively as men receive identical pay, suggesting the gap is entirely due to negotiating behaviour"
+    ],
+    "answer": "The pay gap is now primarily driven not by employer discrimination but by the penalty for working irregular, non-flexible hours — which disproportionately affects mothers",
+    "explanation": "Goldin found that in most high-paying professions, the earnings gap between men and women largely reflects that high earnings require availability for irregular hours, evening calls, and inflexible schedules — and this penalty falls disproportionately on mothers (not all women). The solution, she argues, is not anti-discrimination law but changes in how work is organised — creating more substitutable roles so availability for non-standard hours becomes less rewarded.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Claudia Goldin",
+      "gender pay gap",
+      "Nobel Prize",
+      "labour economics",
+      "women in economics"
+    ]
+  },
+  {
+    "id": "economists-050",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Nouriel Roubini earned the nickname 'Dr. Doom' because he predicted the 2008 financial crisis. In what year did he present his famous warning to the IMF, and what happened when he delivered it?",
+    "choices": [
+      "2006 — he was largely mocked by colleagues who called him alarmist; the crisis struck two years later",
+      "2008 — he correctly predicted the Lehman collapse two weeks before it happened",
+      "2004 — his predictions prompted the Fed to raise interest rates and prevent the crisis",
+      "2010 — he predicted a second crisis in European banks that materialized as the eurozone debt crisis"
+    ],
+    "answer": "2006 — he was largely mocked by colleagues who called him alarmist; the crisis struck two years later",
+    "explanation": "Roubini presented his crisis forecast at the IMF in 2006, predicting a housing bust, bank failures, and deep recession. His colleagues were largely dismissive. When the 2008 crisis unfolded almost exactly as he described, Roubini became globally famous — though economists debate whether his prediction was based on rigorous modelling or narrative-style forecasting. He continued to make dire predictions about the global economy, earning his 'Dr. Doom' moniker.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Nouriel Roubini",
+      "2008 crisis",
+      "prediction",
+      "housing bubble",
+      "financial crisis"
+    ]
+  },
+  {
+    "id": "economists-051",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Herman Daly is associated with 'ecological economics' and coined the concept of the 'steady-state economy.' How does it differ from the mainstream economic goal of growth?",
+    "choices": [
+      "A steady-state economy maintains constant throughput of matter and energy, recognising that physical growth is impossible on a finite planet — development should happen qualitatively, not quantitatively",
+      "A steady-state economy is one where GDP growth exactly matches population growth, keeping GDP per capita constant",
+      "A steady-state economy uses only renewable energy and recycles all materials, eliminating pollution and waste entirely",
+      "A steady-state economy is a managed recession — deliberately reducing GDP to pre-industrial levels to restore ecological balance"
+    ],
+    "answer": "A steady-state economy maintains constant throughput of matter and energy, recognising that physical growth is impossible on a finite planet — development should happen qualitatively, not quantitatively",
+    "explanation": "Daly argued that the economy is a subsystem of the biosphere — it cannot grow beyond the physical limits of the planet. A steady-state economy maintains population and capital stock at levels that can be sustained indefinitely. Development (improvement in efficiency and wellbeing) continues; quantitative growth (more stuff) does not. His work challenged the universal equation of economic progress with GDP growth and influenced environmental economics and the degrowth movement.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Herman Daly",
+      "steady-state economy",
+      "ecological economics",
+      "degrowth",
+      "sustainability"
+    ]
+  },
+  {
+    "id": "economists-052",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Yanis Varoufakis served as Greece's Finance Minister for seven months in 2015 during the peak of the Greek debt crisis. He is known for which approach to negotiations with creditors?",
+    "choices": [
+      "Adopting a confrontational game-theoretic approach, refusing to accept further austerity conditions — which ultimately failed when Greece accepted a third bailout",
+      "Successfully renegotiating Greece's debt to reduce its principal by 50%, achieving what other finance ministers called impossible",
+      "Proposing that Greece leave the euro (Grexit) and he himself arguing this was the best solution for Greece",
+      "Negotiating a secret deal with Russia for a bilateral loan that would have replaced the EU bailout"
+    ],
+    "answer": "Adopting a confrontational game-theoretic approach, refusing to accept further austerity conditions — which ultimately failed when Greece accepted a third bailout",
+    "explanation": "Varoufakis, an academic game theorist, believed that creditors would ultimately prefer a deal to a default and applied this logic in negotiations. But Europe's creditors called his bluff — when Greece held a referendum rejecting the bailout terms, Tsipras capitulated and accepted an even harsher deal anyway, with Varoufakis resigning. Critics argued his game theory was correct in theory but failed in practice because creditors' actual preferences (punishing Greece to deter other countries) differed from his assumptions.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Yanis Varoufakis",
+      "Greece",
+      "debt crisis",
+      "eurozone",
+      "game theory",
+      "finance ministers"
+    ]
+  },
+  {
+    "id": "economists-053",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: George Akerlof and Janet Yellen are married to each other — an economist couple whose combined contributions to economics include information asymmetry, efficiency wages, and the gender pay gap.",
+    "answer": true,
+    "explanation": "George Akerlof (2001 Nobel Prize for information asymmetry — 'The Market for Lemons') and Janet Yellen (Fed Chair, Treasury Secretary, labour economist) have been married since 1978. They collaborated on research into efficiency wages — the idea that above-market wages boost productivity by reducing shirking and turnover — in the 1980s. They are arguably the most powerful couple in the history of economics and economic policy.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "George Akerlof",
+      "Janet Yellen",
+      "information asymmetry",
+      "efficiency wages",
+      "economists"
+    ]
+  },
+  {
+    "id": "economists-054",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'Washington Consensus' — a set of economic reform prescriptions for developing countries, coined by economist John Williamson in 1989 — was later heavily criticised. What was the most common critique?",
+    "choices": [
+      "Its emphasis on rapid liberalisation, privatisation, and fiscal austerity often destabilised developing economies instead of creating sustainable growth, as in Russia and Latin America in the 1990s",
+      "It was developed without any input from developing-country economists and only reflected the interests of Wall Street banks",
+      "Its prescriptions were mathematically correct but required decades of institutional reform that developing countries couldn't accomplish quickly enough",
+      "It successfully increased GDP in reforming countries but worsened income distribution, creating political backlash"
+    ],
+    "answer": "Its emphasis on rapid liberalisation, privatisation, and fiscal austerity often destabilised developing economies instead of creating sustainable growth, as in Russia and Latin America in the 1990s",
+    "explanation": "Williamson's term described 10 policy recommendations including fiscal discipline, tax reform, trade liberalisation, privatisation, and deregulation. When applied rapidly (as the IMF sometimes required), the results were often devastating: Russia's 'shock therapy' created oligarchs and prolonged recession; IMF austerity during the 1997 Asian crisis deepened the downturn. Rodrik, Stiglitz, and others argued that successful development required heterodox policies tailored to local conditions, not a one-size-fits-all template.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Washington Consensus",
+      "development economics",
+      "IMF",
+      "liberalisation",
+      "John Williamson"
+    ]
+  },
+  {
+    "id": "economists-055",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Mo Ibrahim is a Sudanese-British billionaire and philanthropist, not an academic economist. Yet he created the Ibrahim Index of African Governance (IIAG), which has become an important tool in development economics. What does the IIAG measure?",
+    "choices": [
+      "A composite governance score for African countries covering rule of law, accountability, personal safety, sustainable economic opportunity, and human development",
+      "Annual GDP growth rates across all 54 African countries adjusted for oil and mining revenues",
+      "The level of corruption as measured by business executive surveys and reported bribes in each African country",
+      "African countries' compliance with IMF structural adjustment programme conditions"
+    ],
+    "answer": "A composite governance score for African countries covering rule of law, accountability, personal safety, sustainable economic opportunity, and human development",
+    "explanation": "Mo Ibrahim, who made his fortune in telecoms (Celtel), established the Mo Ibrahim Foundation in 2006. The IIAG scores all 54 African countries on governance quality. He also created the Mo Ibrahim Prize — the world's most valuable individual award ($5 million over 10 years + $200,000/year for life) — given to African heads of state or government who governed well and left office voluntarily. The premise: if you can earn more from the prize than from corruption, leaders may govern better.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mo Ibrahim",
+      "African governance",
+      "IIAG",
+      "development",
+      "institutions"
+    ]
+  },
+  {
+    "id": "economists-056",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Adam Smith's foundational insight about the division of labour is illustrated in 'The Wealth of Nations' using which famous manufacturing example?",
+    "choices": [
+      "A pin factory: one worker making a complete pin per day vs. 10 workers dividing the task into 18 steps, producing thousands of pins per day",
+      "A flour mill: water-powered milling producing 100 times more flour per worker than hand-grinding",
+      "A shipyard: naval vessels assembled from standardised parts faster than individually crafted ships",
+      "A weaving workshop: the flying shuttle allowing one weaver to do the work of three"
+    ],
+    "answer": "A pin factory: one worker making a complete pin per day vs. 10 workers dividing the task into 18 steps, producing thousands of pins per day",
+    "explanation": "Smith's famous pin factory example in Chapter 1 of Wealth of Nations shows that dividing the production of pins into 18 distinct operations — drawing wire, straightening, cutting, pointing, grinding, whitening, packaging — allows ten workers to produce 48,000 pins per day. One worker doing everything might produce 20. This division of labour requires specialisation, trade, and coordination — the foundation of Smith's argument for market exchange.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Adam Smith",
+      "division of labour",
+      "Wealth of Nations",
+      "pin factory",
+      "specialisation"
+    ]
+  },
+  {
+    "id": "economists-057",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "John Kenneth Galbraith coined the phrase 'conventional wisdom' in 'The Affluent Society' (1958). But he is also known for his concept of 'countervailing power.' What does this refer to?",
+    "choices": [
+      "The tendency for large organisations (trade unions, cooperatives, retail chains) to arise to offset the market power of large corporations",
+      "The way democratic governments counterbalance the power of financial markets through regulation",
+      "The competitive pressure that foreign imports exert on domestic monopolies, preventing excessive prices",
+      "The economic power of consumers — who, by refusing to buy overpriced goods, discipline corporate pricing"
+    ],
+    "answer": "The tendency for large organisations (trade unions, cooperatives, retail chains) to arise to offset the market power of large corporations",
+    "explanation": "Galbraith's 1952 book 'American Capitalism' argued that large corporate power doesn't necessarily lead to exploitation because it creates countervailing powers: trade unions arise to balance corporate power over workers; large retailers like Walmart can balance the power of large manufacturers; farm cooperatives balance the power of food processors. This challenged both classical laissez-faire (big firms are fine) and progressive calls for anti-trust breakups (natural countervailing forces will emerge).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Galbraith",
+      "countervailing power",
+      "market power",
+      "American Capitalism",
+      "trade unions"
+    ]
+  },
+  {
+    "id": "economists-058",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Daron Acemoglu, Simon Johnson, and James Robinson, who shared the 2024 Nobel Prize, argued that institutional quality explains why some countries are rich and others poor. Their most famous evidence was based on which natural experiment?",
+    "choices": [
+      "Comparing European coloniser mortality rates: where Europeans died of tropical disease, they set up extractive institutions; where they could settle, they created inclusive ones — and the institutions persisted",
+      "Comparing North and South Korea: showing that identical initial conditions produced radically different outcomes under different political systems",
+      "Comparing African countries with different colonial borders, showing that arbitrary partitioning reduced institutional quality",
+      "Comparing city-states with democracies in ancient Greece and their relative economic performance"
+    ],
+    "answer": "Comparing European coloniser mortality rates: where Europeans died of tropical disease, they set up extractive institutions; where they could settle, they created inclusive ones — and the institutions persisted",
+    "explanation": "Their 2001 AER paper 'The Colonial Origins of Comparative Development' used European settler mortality as an instrument for institutional quality. Where disease made European settlement risky (Africa, Caribbean, South America), colonisers set up extractive institutions to exploit resources without settling. Where conditions allowed settlement (North America, Australia, New Zealand), they transplanted inclusive institutions. Centuries later, places with inclusive institutions are much richer, even after controlling for geography and many other factors.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Acemoglu",
+      "Johnson",
+      "Robinson",
+      "institutions",
+      "colonial origins",
+      "Nobel Prize 2024"
+    ]
+  },
+  {
+    "id": "economists-059",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: Joseph Schumpeter, who coined 'creative destruction,' was pessimistic about the long-term survival of capitalism — he believed capitalism's own success would eventually undermine the entrepreneurial spirit that drove it.",
+    "answer": true,
+    "explanation": "In 'Capitalism, Socialism and Democracy' (1942), Schumpeter made a surprising prediction: capitalism would be replaced not because it fails economically but because it succeeds too well. Large corporations would routinise and bureaucratise the innovation process; the intellectual and cultural environment created by capitalism would turn against it; and the capitalist class would lose the will to defend the system. This is different from Marx's prediction (capitalism collapses from contradictions) — Schumpeter thought capitalism would transform into a managed quasi-socialist system.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Schumpeter",
+      "capitalism",
+      "creative destruction",
+      "socialism",
+      "prediction"
+    ]
+  },
+  {
+    "id": "economists-060",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Mohamed El-Erian, former CEO of PIMCO (the world's largest bond fund), popularised which concept to describe the post-2008 global economic environment of slow growth, deleveraging, and near-zero interest rates?",
+    "choices": [
+      "The 'New Normal': a prolonged era of below-average growth and low interest rates as the global economy deleveraged from the debt accumulated before 2008",
+      "The 'Great Moderation 2.0': continued low inflation and stable growth but at a slower pace than pre-crisis",
+      "The 'Secular Boom': as emerging markets took over from developed economies as the engine of global growth",
+      "The 'Liquidity Trap': permanent zero lower bound for interest rates making monetary policy permanently impotent"
+    ],
+    "answer": "The 'New Normal': a prolonged era of below-average growth and low interest rates as the global economy deleveraged from the debt accumulated before 2008",
+    "explanation": "El-Erian coined 'New Normal' in 2009 to describe the post-2008 macroeconomic environment: subdued growth, high unemployment, persistent low interest rates, deleveraging by households and governments, and heightened regulatory risk for financial institutions. The concept became one of the most-cited frameworks for understanding the 2010s. It was later challenged by the post-COVID inflation surge, which El-Erian also wrote extensively about.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mohamed El-Erian",
+      "New Normal",
+      "PIMCO",
+      "post-2008",
+      "macroeconomics"
+    ]
+  },
+  {
+    "id": "economists-061",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Anne Krueger coined the concept of 'rent-seeking' in a famous 1974 paper. How does rent-seeking differ from ordinary profit-seeking?",
+    "choices": [
+      "Rent-seeking involves using political connections or lobbying to capture artificially created monopoly profits, rather than creating value through production",
+      "Rent-seeking involves extracting income from land and natural resources rather than from human labour or capital",
+      "Rent-seeking is Adam Smith's term for price-gouging by landlords who own scarce urban land",
+      "Rent-seeking describes competition among firms to attract tenants to commercial real estate developments"
+    ],
+    "answer": "Rent-seeking involves using political connections or lobbying to capture artificially created monopoly profits, rather than creating value through production",
+    "explanation": "Krueger defined rent-seeking as competition to capture 'rents' — income above the competitive return — created by government policies (import quotas, licenses, regulations). Firms spend real resources lobbying for such rents; this spending is a deadweight social cost with no corresponding output. The concept explains why import quotas are worse than tariffs (quotas create rents captured by importers; tariffs at least go to the government) and why deregulation improves efficiency. It became central to public choice theory.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Anne Krueger",
+      "rent-seeking",
+      "public choice",
+      "lobbying",
+      "trade policy"
+    ]
+  },
+  {
+    "id": "economists-062",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "short",
+    "prompt": "Which economist is most associated with the phrase 'there is no such thing as a free lunch' — meaning that every choice has an opportunity cost, even if it appears free at first?",
+    "answer": "Milton Friedman",
+    "accept": [
+      "Milton Friedman",
+      "Friedman",
+      "milton friedman"
+    ],
+    "explanation": "Although the phrase predates Friedman (it appeared in Robert Heinlein's 1966 novel 'The Moon Is a Harsh Mistress'), Milton Friedman's 1975 book of the same title and his use of it in speeches and interviews made it synonymous with free-market economics. The phrase captures the opportunity cost principle: nothing is truly free because obtaining it requires giving up something else, even if you don't pay money for it.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Milton Friedman",
+      "opportunity cost",
+      "free lunch",
+      "economic principles"
+    ]
   }
 ]

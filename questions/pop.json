@@ -16,7 +16,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Freakonomics", "Levitt", "Dubner", "pop econ"]
+    "tags": [
+      "Freakonomics",
+      "Levitt",
+      "Dubner",
+      "pop econ"
+    ]
   },
   {
     "id": "pop-002",
@@ -35,7 +40,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Galbraith", "Affluent Society", "Canada", "public goods"]
+    "tags": [
+      "Galbraith",
+      "Affluent Society",
+      "Canada",
+      "public goods"
+    ]
   },
   {
     "id": "pop-003",
@@ -54,7 +64,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Kahneman", "behavioural economics", "System 1", "System 2"]
+    "tags": [
+      "Kahneman",
+      "behavioural economics",
+      "System 1",
+      "System 2"
+    ]
   },
   {
     "id": "pop-004",
@@ -73,7 +88,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Thaler", "Sunstein", "nudge", "behavioural economics"]
+    "tags": [
+      "Thaler",
+      "Sunstein",
+      "nudge",
+      "behavioural economics"
+    ]
   },
   {
     "id": "pop-005",
@@ -92,7 +112,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Piketty", "inequality", "r > g", "capital"]
+    "tags": [
+      "Piketty",
+      "inequality",
+      "r > g",
+      "capital"
+    ]
   },
   {
     "id": "pop-006",
@@ -111,7 +136,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Lewis", "Big Short", "2008", "short selling"]
+    "tags": [
+      "Lewis",
+      "Big Short",
+      "2008",
+      "short selling"
+    ]
   },
   {
     "id": "pop-007",
@@ -130,7 +160,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Lewis", "Flash Boys", "HFT", "front-running"]
+    "tags": [
+      "Lewis",
+      "Flash Boys",
+      "HFT",
+      "front-running"
+    ]
   },
   {
     "id": "pop-008",
@@ -149,7 +184,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Lewis", "Liar's Poker", "Salomon Brothers", "Wall Street"]
+    "tags": [
+      "Lewis",
+      "Liar's Poker",
+      "Salomon Brothers",
+      "Wall Street"
+    ]
   },
   {
     "id": "pop-009",
@@ -162,7 +202,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Thaler", "behavioural economics", "Misbehaving"]
+    "tags": [
+      "Thaler",
+      "behavioural economics",
+      "Misbehaving"
+    ]
   },
   {
     "id": "pop-010",
@@ -181,7 +225,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Banerjee", "Duflo", "RCT", "development economics", "Nobel 2019"]
+    "tags": [
+      "Banerjee",
+      "Duflo",
+      "RCT",
+      "development economics",
+      "Nobel 2019"
+    ]
   },
   {
     "id": "pop-011",
@@ -200,7 +250,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Tetlock", "forecasting", "superforecasters", "fox vs hedgehog"]
+    "tags": [
+      "Tetlock",
+      "forecasting",
+      "superforecasters",
+      "fox vs hedgehog"
+    ]
   },
   {
     "id": "pop-012",
@@ -219,7 +274,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Schumacher", "Small is Beautiful", "natural resources", "green economics"]
+    "tags": [
+      "Schumacher",
+      "Small is Beautiful",
+      "natural resources",
+      "green economics"
+    ]
   },
   {
     "id": "pop-013",
@@ -238,7 +298,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Raworth", "doughnut economics", "planetary boundaries"]
+    "tags": [
+      "Raworth",
+      "doughnut economics",
+      "planetary boundaries"
+    ]
   },
   {
     "id": "pop-014",
@@ -257,7 +321,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Graham", "Buffett", "value investing", "Intelligent Investor"]
+    "tags": [
+      "Graham",
+      "Buffett",
+      "value investing",
+      "Intelligent Investor"
+    ]
   },
   {
     "id": "pop-015",
@@ -276,7 +345,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Malkiel", "random walk", "index funds", "efficient markets"]
+    "tags": [
+      "Malkiel",
+      "random walk",
+      "index funds",
+      "efficient markets"
+    ]
   },
   {
     "id": "pop-016",
@@ -295,7 +369,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Akerlof", "Shiller", "animal spirits", "Keynes", "behavioural macro"]
+    "tags": [
+      "Akerlof",
+      "Shiller",
+      "animal spirits",
+      "Keynes",
+      "behavioural macro"
+    ]
   },
   {
     "id": "pop-017",
@@ -308,7 +388,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["sunk cost", "behavioural economics", "fallacy"]
+    "tags": [
+      "sunk cost",
+      "behavioural economics",
+      "fallacy"
+    ]
   },
   {
     "id": "pop-018",
@@ -327,7 +411,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["IKEA effect", "behavioural economics", "endowment effect"]
+    "tags": [
+      "IKEA effect",
+      "behavioural economics",
+      "endowment effect"
+    ]
   },
   {
     "id": "pop-019",
@@ -346,7 +434,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Kahneman", "Tversky", "loss aversion", "prospect theory"]
+    "tags": [
+      "Kahneman",
+      "Tversky",
+      "loss aversion",
+      "prospect theory"
+    ]
   },
   {
     "id": "pop-020",
@@ -365,7 +458,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Lewis", "Moneyball", "market inefficiency", "Oakland A's"]
+    "tags": [
+      "Lewis",
+      "Moneyball",
+      "market inefficiency",
+      "Oakland A's"
+    ]
   },
   {
     "id": "pop-021",
@@ -384,7 +482,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["anchoring", "Tversky", "Kahneman", "behavioural economics"]
+    "tags": [
+      "anchoring",
+      "Tversky",
+      "Kahneman",
+      "behavioural economics"
+    ]
   },
   {
     "id": "pop-022",
@@ -393,12 +496,23 @@
     "format": "short",
     "prompt": "What is the term for the economic fallacy of continuing to invest in a failing project because of the resources already spent, even when quitting would be rational?",
     "answer": "sunk cost fallacy",
-    "accept": ["sunk cost fallacy", "sunk cost", "sunk-cost fallacy", "escalation of commitment", "concorde fallacy"],
+    "accept": [
+      "sunk cost fallacy",
+      "sunk cost",
+      "sunk-cost fallacy",
+      "escalation of commitment",
+      "concorde fallacy"
+    ],
     "explanation": "The sunk cost fallacy — also called the Concorde fallacy after the supersonic jet that the UK and France kept funding despite mounting losses — is one of the most pervasive decision-making errors in business and government. Rational decision-makers should ignore past costs and focus only on future payoffs.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["sunk cost", "fallacy", "behavioural economics", "Concorde"]
+    "tags": [
+      "sunk cost",
+      "fallacy",
+      "behavioural economics",
+      "Concorde"
+    ]
   },
   {
     "id": "pop-023",
@@ -417,7 +531,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["endowment effect", "Thaler", "Coase", "behavioural economics"]
+    "tags": [
+      "endowment effect",
+      "Thaler",
+      "Coase",
+      "behavioural economics"
+    ]
   },
   {
     "id": "pop-024",
@@ -436,7 +555,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Becker", "economics of everything", "pop econ"]
+    "tags": [
+      "Becker",
+      "economics of everything",
+      "pop econ"
+    ]
   },
   {
     "id": "pop-025",
@@ -455,7 +578,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Shiller", "irrational exuberance", "behavioural finance", "bubbles"]
+    "tags": [
+      "Shiller",
+      "irrational exuberance",
+      "behavioural finance",
+      "bubbles"
+    ]
   },
   {
     "id": "pop-026",
@@ -463,14 +591,22 @@
     "difficulty": 1,
     "format": "higher_lower",
     "prompt": "Which book sold more copies in its first year?",
-    "items": ["Capital in the Twenty-First Century (Piketty, 2014 English edition)", "Freakonomics (Levitt & Dubner, 2005)"],
+    "items": [
+      "Capital in the Twenty-First Century (Piketty, 2014 English edition)",
+      "Freakonomics (Levitt & Dubner, 2005)"
+    ],
     "metric": "first-year English-language sales (approximate)",
     "answer": "Freakonomics (Levitt & Dubner, 2005)",
     "explanation": "Freakonomics sold roughly 500,000 copies in its first year and went on to 5+ million total. Piketty's Capital sold about 80,000 copies in the first year of its English translation — remarkable for a dense 700-page academic tome, but far behind Freakonomics.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Freakonomics", "Piketty", "bestsellers", "pop econ"]
+    "tags": [
+      "Freakonomics",
+      "Piketty",
+      "bestsellers",
+      "pop econ"
+    ]
   },
   {
     "id": "pop-027",
@@ -490,6 +626,608 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Graham", "Schumacher", "Malkiel", "Kahneman", "books", "chronology"]
+    "tags": [
+      "Graham",
+      "Schumacher",
+      "Malkiel",
+      "Kahneman",
+      "books",
+      "chronology"
+    ]
+  },
+  {
+    "id": "pop-028",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Nassim Nicholas Taleb's The Black Swan (2007) uses the metaphor of a black swan to describe events that are:",
+    "choices": [
+      "Rare and extreme, with enormous impact, and rationalised only in hindsight",
+      "Predictable in theory but ignored by conventional risk models",
+      "Caused by overconfident economists failing to account for fat tails in data",
+      "Common in nature but rare in human society, hence surprising when they occur"
+    ],
+    "answer": "Rare and extreme, with enormous impact, and rationalised only in hindsight",
+    "explanation": "Taleb named his concept after the discovery of black swans in Australia — which shattered the European assumption that all swans were white. A Black Swan event has three traits: (1) it is an extreme outlier; (2) it has massive consequences; and (3) after the fact, people construct explanations that make it seem predictable. Taleb argued that economic models systematically underestimate the probability of catastrophic events by assuming normal distributions.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Black Swan",
+      "Taleb",
+      "risk",
+      "fat tails",
+      "forecasting"
+    ]
+  },
+  {
+    "id": "pop-029",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Ha-Joon Chang's 23 Things They Don't Tell You About Capitalism argues against which orthodoxy?",
+    "choices": [
+      "That free markets and neoliberal policies always produce the best outcomes — using historical cases to show that development requires active industrial policy",
+      "That capitalism is inherently unstable and should be replaced with a mixed economy model",
+      "That economic growth is incompatible with environmental sustainability",
+      "That comparative advantage is the best guide to trade policy for developing countries"
+    ],
+    "answer": "That free markets and neoliberal policies always produce the best outcomes — using historical cases to show that development requires active industrial policy",
+    "explanation": "Chang, a Cambridge economist from South Korea, argues that today's rich countries got rich through protectionism and industrial policy — not the free-market policies they now prescribe to developing nations. He calls this 'kicking away the ladder.' Thing 1 is 'There is no such thing as a free market.' The book was a popular-accessible version of his academic arguments in Kicking Away the Ladder (2002).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Ha-Joon Chang",
+      "23 Things",
+      "industrial policy",
+      "development economics"
+    ]
+  },
+  {
+    "id": "pop-030",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The 2008 global financial crisis inspired several popular books and films. Which 2015 film won the Academy Award for Best Adapted Screenplay, based on Michael Lewis's book about the crisis?",
+    "choices": [
+      "The Big Short",
+      "Margin Call",
+      "Too Big to Fail",
+      "Inside Job"
+    ],
+    "answer": "The Big Short",
+    "explanation": "The Big Short (2015), directed by Adam McKay, won the Oscar for Best Adapted Screenplay. It follows investors like Michael Burry and Steve Eisman who discovered — and profited from — the coming collapse of the US housing market. The film used unorthodox fourth-wall breaks with celebrity cameos to explain complex financial instruments. Inside Job (2010) is a documentary that won Best Documentary Feature; Margin Call is a fictional film.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Big Short",
+      "financial crisis",
+      "film",
+      "Michael Lewis",
+      "2008"
+    ]
+  },
+  {
+    "id": "pop-031",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Daron Acemoglu and James Robinson's Why Nations Fail (2012) argues that the primary driver of long-run prosperity or poverty is:",
+    "choices": [
+      "Inclusive vs extractive political and economic institutions — whether rulers set up systems that distribute power broadly or concentrate it among elites",
+      "Geography and climate — countries near the equator face disease burdens and poor soils that constrain development",
+      "Culture and religion — societies with Protestant work ethics develop economically faster",
+      "Technology adoption rates — countries that adopt new technologies earliest develop fasted long-run"
+    ],
+    "answer": "Inclusive vs extractive political and economic institutions — whether rulers set up systems that distribute power broadly or concentrate it among elites",
+    "explanation": "Acemoglu and Robinson argue against geography (Diamond), culture (Weber), and leader quality as primary explanations. 'Inclusive' institutions allow broad participation in economic and political life, protecting property rights and enabling innovation. 'Extractive' institutions concentrate wealth and power in elite hands, discouraging investment. Their research on coloniser mortality (Acemoglu, Johnson, Robinson 2001) underpins the argument: colonies where settlers died in droves became extractive; where settlers thrived, they built inclusive institutions.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Why Nations Fail",
+      "Acemoglu",
+      "Robinson",
+      "institutions",
+      "development economics"
+    ]
+  },
+  {
+    "id": "pop-032",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Jared Diamond's Guns, Germs, and Steel (1997) — a Pulitzer Prize winner — argues that Eurasia's economic head-start over other continents was due primarily to what?",
+    "choices": [
+      "East-west geographic orientation: Eurasia's axis allowed crops and animals to spread across similar latitudes more easily than on north-south continents like Africa or the Americas",
+      "Superior intelligence of Eurasian populations, shaped by harsh winters requiring more cognitive effort to survive",
+      "The presence of gold and silver deposits in Europe that financed military superiority",
+      "Eurasian religions encouraging literacy and commerce more than animist traditions elsewhere"
+    ],
+    "answer": "East-west geographic orientation: Eurasia's axis allowed crops and animals to spread across similar latitudes more easily than on north-south continents like Africa or the Americas",
+    "explanation": "Diamond's core argument is environmental determinism. An east-west axis means similar day length, temperature, and climate, allowing crop varieties and livestock to diffuse rapidly. A north-south axis (Africa, Americas) requires crossing climate zones — so a crop domesticated in Mexico couldn't easily reach what is now Canada, and vice versa. Eurasia's head-start in domesticable animals (cattle, horses, pigs) and crops gave it military and demographic advantages. The book has been criticised for underemphasising agency and institutions.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Guns Germs and Steel",
+      "Diamond",
+      "geography",
+      "development",
+      "institutions"
+    ]
+  },
+  {
+    "id": "pop-033",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Robert Kiyosaki's Rich Dad Poor Dad is among the best-selling personal finance books ever. What is the book's central distinction between the 'poor' and 'rich' mindset?",
+    "choices": [
+      "The poor work for money; the rich make money work for them by acquiring assets rather than liabilities",
+      "The poor save too little; the rich save over 50% of their income from an early age",
+      "The poor spend on education; the rich invest in real estate from as young as possible",
+      "The poor fear debt; the rich embrace any debt as leverage to build wealth"
+    ],
+    "answer": "The poor work for money; the rich make money work for them by acquiring assets rather than liabilities",
+    "explanation": "Kiyosaki's framework defines assets as things that put money in your pocket (investments, rental properties, businesses) and liabilities as things that take money out (a personal home with a mortgage, cars). The rich column acquires assets; the poor and middle-class column acquires liabilities they think are assets. The book has been widely criticised by economists for factual inaccuracies and potentially dangerous financial advice, but it has sold over 40 million copies worldwide.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Rich Dad Poor Dad",
+      "Kiyosaki",
+      "personal finance",
+      "pop economics"
+    ]
+  },
+  {
+    "id": "pop-034",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The documentary film Inside Job (2010) won the Academy Award for Best Documentary and focused on which topic?",
+    "choices": [
+      "The causes and aftermath of the 2008 global financial crisis, including the deregulation and conflicts of interest that enabled it",
+      "The rise of algorithmic high-frequency trading and its impact on market stability",
+      "The history of offshore tax havens and corporate tax avoidance since the 1980s",
+      "The lobbying power of pharmaceutical companies in shaping US drug pricing policy"
+    ],
+    "answer": "The causes and aftermath of the 2008 global financial crisis, including the deregulation and conflicts of interest that enabled it",
+    "explanation": "Inside Job, directed by Charles Ferguson, chronicles the 2008 financial crisis from deregulation beginning in the Reagan era through the subprime mortgage collapse. It notably interviewed (and confronted) economists, regulators, and bankers — and exposed conflicts of interest among academic economists who took paid consulting work from financial firms while advocating deregulation. The film contributed to the debate about whether economics academia had been captured by the finance industry.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Inside Job",
+      "documentary",
+      "financial crisis",
+      "2008",
+      "deregulation"
+    ]
+  },
+  {
+    "id": "pop-035",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Malcolm Gladwell's The Tipping Point (2000) introduced the '10,000-hour rule' and the concept of social epidemics. Wait — which of these did Gladwell actually introduce?",
+    "choices": [
+      "Social epidemics — the idea that trends, ideas, and products spread like infectious viruses, tipping into widespread adoption at a threshold",
+      "The 10,000-hour rule — his claim that 10,000 hours of deliberate practice makes anyone an expert, applicable to all skills equally",
+      "Both — The Tipping Point covers both social epidemics and deliberate practice",
+      "Neither — The Tipping Point is actually about statistical outliers in human performance"
+    ],
+    "answer": "Social epidemics — the idea that trends, ideas, and products spread like infectious viruses, tipping into widespread adoption at a threshold",
+    "explanation": "The Tipping Point introduced three rules of social epidemics: the Law of the Few (Connectors, Mavens, Salesmen who spread ideas), the Stickiness Factor (what makes a message memorable), and the Power of Context (environment shapes behaviour). The 10,000-hour rule appeared in Gladwell's later book Outliers (2008), where he popularised Anders Ericsson's research on deliberate practice — though Gladwell's popularisation oversimplified Ericsson's findings.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Malcolm Gladwell",
+      "Tipping Point",
+      "social epidemics",
+      "pop economics"
+    ]
+  },
+  {
+    "id": "pop-036",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Wolf of Wall Street (2013, film) and its real-life basis depicted illegal stock market manipulation at a boiler-room brokerage. What is the specific scheme Jordan Belfort used called?",
+    "choices": [
+      "Pump and dump — artificially inflating penny stock prices through hype before selling at a profit, leaving investors with worthless shares",
+      "Insider trading — trading on non-public corporate information shared by friends inside major companies",
+      "Front-running — placing orders ahead of known large client orders to profit from the resulting price movement",
+      "Spoofing — placing large fake orders to move prices and then cancelling them"
+    ],
+    "answer": "Pump and dump — artificially inflating penny stock prices through hype before selling at a profit, leaving investors with worthless shares",
+    "explanation": "Stratton Oakmont's core scheme was classic pump and dump: buy large quantities of cheap, illiquid penny stocks; cold-call investors with high-pressure sales pitches to drive up the price; then dump the firm's holdings onto newly arrived buyers who were left with rapidly declining shares. Pump and dump is securities fraud and market manipulation. Belfort was convicted in 1999 and sentenced to four years in prison.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "pump and dump",
+      "Wolf of Wall Street",
+      "securities fraud",
+      "market manipulation"
+    ]
+  },
+  {
+    "id": "pop-037",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Mariana Mazzucato's The Entrepreneurial State (2013) challenges the conventional Silicon Valley narrative that government should stay out of innovation. What is her central argument?",
+    "choices": [
+      "Government investment — not private venture capital — funded the key technologies inside iPhones: GPS, touchscreen, the internet, and Siri all originated from US government research",
+      "State-owned enterprises consistently outperform private firms in strategic sectors like energy, defence, and pharmaceuticals",
+      "Venture capital systematically underfunds long-horizon basic research, so government subsidies are needed to correct the market failure",
+      "Private innovation is a myth — most 'new' products are incremental improvements on publicly funded platforms"
+    ],
+    "answer": "Government investment — not private venture capital — funded the key technologies inside iPhones: GPS, touchscreen, the internet, and Siri all originated from US government research",
+    "explanation": "Mazzucato's core case study is the iPhone: every technology that makes the iPhone 'smart' was developed with US government funding (ARPANET → internet; DARPA → GPS; NIH-funded research → touchscreen; DARPA → Siri/voice recognition). Apple assembled and commercialised them brilliantly, but the foundational R&D risk was borne by taxpayers. She argues this means the state should share in the upside of the companies it creates — not just cover the downside through bailouts.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mazzucato",
+      "Entrepreneurial State",
+      "innovation",
+      "government R&D",
+      "iPhone"
+    ]
+  },
+  {
+    "id": "pop-038",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Sheryl Sandberg's Lean In (2013) and related research by economists like Claudia Goldin focus on the 'gender pay gap.' What is the single largest driver of the gap in high-income countries, according to recent research?",
+    "choices": [
+      "Flexibility penalty: roles requiring long, inflexible hours (finance, law, medicine) pay disproportionately more, and women disproportionately choose or are pushed into flexible arrangements after having children",
+      "Direct wage discrimination: employers pay women less than men for identical work in the same job",
+      "Occupational segregation: women cluster in lower-paying fields entirely by choice, unaffected by discrimination or structural barriers",
+      "Educational attainment: women have lower educational credentials on average, explaining most of the earnings gap"
+    ],
+    "answer": "Flexibility penalty: roles requiring long, inflexible hours (finance, law, medicine) pay disproportionately more, and women disproportionately choose or are pushed into flexible arrangements after having children",
+    "explanation": "Claudia Goldin (2023 Nobel laureate) showed that the raw gender wage gap is largely explained by the child penalty — earnings diverge sharply after women have children. High-paying professions reward long, unpredictable hours in a highly non-linear way: working 80 hours doesn't pay twice as much as 40, it pays three or four times as much. Women with children disproportionately work flexible hours, which are penalised enormously in these sectors. The fix, Goldin argues, is restructuring how work is organised — not just removing explicit discrimination.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "gender pay gap",
+      "flexibility penalty",
+      "Goldin",
+      "child penalty",
+      "labour economics"
+    ]
+  },
+  {
+    "id": "pop-039",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Ray Dalio's Principles (2017) describes a 'debt supercycle' — a long-term cycle of debt accumulation and deleveraging. At the peak of a debt supercycle, what typically happens?",
+    "choices": [
+      "Debt levels become so high that borrowers can no longer service them; a period of painful deleveraging follows — deflation, defaults, or inflationary money printing",
+      "Central banks raise interest rates to crush the debt supercycle, producing a deep but short recession",
+      "The government introduces debt relief programmes that allow growth to continue without deleveraging",
+      "Foreign investors stop buying government bonds, causing a currency crisis that resets the cycle"
+    ],
+    "answer": "Debt levels become so high that borrowers can no longer service them; a period of painful deleveraging follows — deflation, defaults, or inflationary money printing",
+    "explanation": "Dalio describes deleveraging as one of the most misunderstood economic forces. Three mechanisms can reduce debt burdens: (1) austerity and defaults (deflationary, painful); (2) printing money (inflationary); or (3) redistribution via wealth taxes. He argues a 'beautiful deleveraging' requires balancing all three. Examples: the US in the 1930s (deflationary depression), Germany in the 1920s (hyperinflation), and the US post-2008 which he viewed as a relatively successful managed deleveraging.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Dalio",
+      "debt supercycle",
+      "deleveraging",
+      "macroeconomics",
+      "Principles"
+    ]
+  },
+  {
+    "id": "pop-040",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Dave Ramsey's 'Baby Steps' financial advice and Elizabeth Warren's '50/30/20 rule' are both popular personal finance frameworks. What does Warren's rule allocate to 'wants'?",
+    "choices": [
+      "30%",
+      "20%",
+      "50%",
+      "15%"
+    ],
+    "answer": "30%",
+    "explanation": "The 50/30/20 rule, popularised by Elizabeth Warren and her daughter Amelia Tyagi in All Your Worth (2005), allocates: 50% to needs (housing, food, utilities, minimum debt payments), 30% to wants (dining out, entertainment, non-essential shopping), and 20% to savings and debt repayment above minimums. The rule is a simplification and does not work well in high cost-of-living cities where housing alone can easily exceed 50% of income.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "50/30/20 rule",
+      "Warren",
+      "personal finance",
+      "budgeting"
+    ]
+  },
+  {
+    "id": "pop-041",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Stephanie Kelton's The Deficit Myth (2020) is the most prominent popular account of Modern Monetary Theory (MMT). What is MMT's central claim about federal government spending in a country with its own currency?",
+    "choices": [
+      "A currency-issuing government can never 'run out of money' because it creates currency — the real limit on spending is inflation, not taxes or borrowing",
+      "Government debt is functionally equivalent to a family's debt and should be managed with the same prudence",
+      "Large deficits always cause inflation regardless of economic conditions, so balanced budgets are always necessary",
+      "The central bank, not elected government, should control the money supply to prevent politicians from irresponsibly expanding spending"
+    ],
+    "answer": "A currency-issuing government can never 'run out of money' because it creates currency — the real limit on spending is inflation, not taxes or borrowing",
+    "explanation": "MMT holds that for a currency sovereign (US, UK, Japan — not eurozone members who can't print euros), the question is not 'can we afford it?' but 'will it cause inflation?' Taxes, in MMT's view, drain money and fight inflation rather than fund government spending. Bonds offer a savings vehicle, not financing. Critics (including most mainstream economists) argue MMT underestimates inflation risks and doesn't adequately explain how to calibrate the 'inflation limit' in practice.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "MMT",
+      "Modern Monetary Theory",
+      "Kelton",
+      "fiscal policy",
+      "deficit"
+    ]
+  },
+  {
+    "id": "pop-042",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Ben Bernanke wrote The Courage to Act (2015) about the Federal Reserve's response to the 2008 crisis. Before becoming Fed Chair, he was known for a specific academic contribution. What was it?",
+    "choices": [
+      "A 1983 paper showing that the bank failures of the 1930s — not just the initial demand shock — turned a recession into the Great Depression",
+      "The 'Bernanke-Boivin-Eliasz' paper introducing factor-augmented VAR models for measuring monetary policy",
+      "His dissertation at MIT showing that the Federal Reserve caused the Great Depression by raising interest rates in 1931",
+      "A 2002 paper predicting that derivatives and CDOs would cause the next financial crisis"
+    ],
+    "answer": "A 1983 paper showing that the bank failures of the 1930s — not just the initial demand shock — turned a recession into the Great Depression",
+    "explanation": "Bernanke's 1983 paper 'Nonmonetary Effects of the Financial Crisis in the Propagation of the Great Depression' argued that bank failures destroyed the credit channel — the mechanism by which banks assess borrowers and allocate credit — deepening the Depression beyond what monetary contraction alone could explain. This insight directly shaped his 2008 response: unlike the Fed in 1930–33, Bernanke threw everything at preventing bank failures. He won the 2022 Nobel Prize (with Diamond and Dybvig) for this work.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Bernanke",
+      "Great Depression",
+      "bank failures",
+      "Federal Reserve",
+      "2022 Nobel"
+    ]
+  },
+  {
+    "id": "pop-043",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The phrase 'trickle-down economics' is used to describe supply-side policies that cut taxes on the wealthy in the belief that the benefits eventually reach everyone. Which of the following best captures mainstream economists' view of this concept?",
+    "choices": [
+      "Most economists reject the strong form — that tax cuts for the wealthy pay for themselves and benefit lower-income groups proportionally — while accepting that low marginal tax rates have some positive supply-side effects",
+      "Mainstream economists unanimously support trickle-down theory as well-established empirical fact",
+      "The term is neutral and technical; trickle-down describes all forms of investment-led growth theory",
+      "Most economists believe taxes on the wealthy should be as high as possible, as this maximises redistribution"
+    ],
+    "answer": "Most economists reject the strong form — that tax cuts for the wealthy pay for themselves and benefit lower-income groups proportionally — while accepting that low marginal tax rates have some positive supply-side effects",
+    "explanation": "No mainstream economic textbook actually uses the term 'trickle-down economics' positively — it's largely a political label. Most economists accept that very high marginal tax rates can reduce work incentives at the margin, but the evidence that tax cuts for the wealthy produce large growth dividends that 'trickle down' to lower earners is weak. IMF research, the Equality of Opportunity Project, and others show US inequality has grown significantly since supply-side tax cuts of the 1980s without offsetting growth gains for lower-income Americans.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "trickle-down",
+      "supply-side economics",
+      "Reaganomics",
+      "inequality",
+      "tax policy"
+    ]
+  },
+  {
+    "id": "pop-044",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In Freakonomics, Steven Levitt controversially argued that the sharp decline in US crime rates during the 1990s was partly caused by which earlier policy change?",
+    "choices": [
+      "The legalisation of abortion in 1973 (Roe v. Wade), which reduced the number of unwanted children born into circumstances associated with higher crime rates",
+      "The mandatory minimum sentencing laws of the early 1970s, which removed more criminals from streets for longer periods",
+      "The rise of the crack cocaine market in the 1980s, which saturated demand and caused drug wars to subside by the 1990s",
+      "The introduction of CompStat police data analytics in New York, which spread to other cities and systematically reduced crime"
+    ],
+    "answer": "The legalisation of abortion in 1973 (Roe v. Wade), which reduced the number of unwanted children born into circumstances associated with higher crime rates",
+    "explanation": "Levitt and co-author John Donohue published a paper (2001) arguing that children not born due to Roe v. Wade would have been disproportionately born into poverty and single-parent households — risk factors for crime. When this cohort would have reached their peak crime years (roughly 18–24 years old, around 1989–1995), the crime decline began instead. The hypothesis was highly controversial and contested empirically. Freakonomics popularised this argument, sparking widespread debate about the ethics and methodology of such analysis.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Freakonomics",
+      "Levitt",
+      "abortion",
+      "crime",
+      "controversial"
+    ]
+  },
+  {
+    "id": "pop-045",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The concept of 'superstar economics' — first introduced by economist Sherwin Rosen in 1981 — explains why a small number of top performers earn far more than the slightly less talented. What technological factor has amplified superstar effects since the 1990s?",
+    "choices": [
+      "Digital distribution: a top singer or software program can reach billions of customers at near-zero marginal cost, while the second-best cannot split the market with them",
+      "Social media: fame is more visible than in the past, so top performers are more widely admired and sought after",
+      "Globalisation: the world's top talent now competes in one global market rather than national markets",
+      "Winner-take-all corporate tournaments: large bonuses for CEOs have created massive wealth concentrations at the very top"
+    ],
+    "answer": "Digital distribution: a top singer or software program can reach billions of customers at near-zero marginal cost, while the second-best cannot split the market with them",
+    "explanation": "Rosen's original model focused on talent markets where the best can serve large numbers of customers — a top lawyer can handle more cases than a slightly lesser one by hiring associates. Digital technology amplified this: Spotify streams the top song as cheaply to a billion people as to one, while the 10th-best song gets a tiny fraction of plays. The winner takes the whole market. This is why the income distribution among musicians, software developers, athletes, and writers has become far more skewed since the digital revolution.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "superstar economics",
+      "Rosen",
+      "digital distribution",
+      "inequality",
+      "winner-take-all"
+    ]
+  },
+  {
+    "id": "pop-046",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The TV show Shark Tank (US) / Dragon's Den (UK/Canada) features entrepreneurs pitching to investors for equity stakes. What term describes the type of investor the 'sharks' or 'dragons' represent?",
+    "choices": [
+      "Angel investors — wealthy individuals investing their own money in early-stage startups in exchange for equity",
+      "Venture capitalists — professionals managing funds raised from institutional investors for startup investment",
+      "Private equity investors — firms that buy established businesses, improve operations, and sell them",
+      "Seed accelerators — organisations providing mentorship and small amounts of capital in exchange for equity"
+    ],
+    "answer": "Angel investors — wealthy individuals investing their own money in early-stage startups in exchange for equity",
+    "explanation": "Shark Tank/Dragon's Den 'sharks' invest their own personal money — that's what makes them angel investors, not venture capitalists. VCs manage pooled institutional funds (pension funds, endowments), operate with formal processes, and typically invest later-stage than the very early pitches on the shows. Angel investors typically invest at the seed stage before VCs are involved. The term 'angel' comes from Broadway, where wealthy patrons backed theatrical productions at high risk.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "angel investors",
+      "venture capital",
+      "Shark Tank",
+      "startups",
+      "equity"
+    ]
+  },
+  {
+    "id": "pop-047",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Morgan Housel's The Psychology of Money (2020) argues that financial success depends more on behaviour and psychology than technical knowledge. What is the book's most cited core insight?",
+    "choices": [
+      "Getting rich and staying rich require different skills — getting rich requires risk-taking and optimism; staying rich requires humility and fear",
+      "People should maximise their savings rate above all other financial decisions, as compound interest rewards patience",
+      "Market timing is essential: the few best days in the market account for most long-run returns, so staying invested is paramount",
+      "Wealth is primarily determined by income, not spending habits — earning more matters far more than frugality"
+    ],
+    "answer": "Getting rich and staying rich require different skills — getting rich requires risk-taking and optimism; staying rich requires humility and fear",
+    "explanation": "Housel's book argues that the common mistake is using aggressive wealth-building strategies (leverage, concentration, risk-taking) to preserve wealth, when survival requires almost opposite traits (diversification, humility, margin of safety). He uses Napoleon's soldier Rajiv Sethi's metaphor: the same boldness that wins the battle gets you killed if applied to the peace that follows. Warren Buffett's secret, Housel argues, is not spectacular returns — it's 75 years of compounding without catastrophic interruption.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Psychology of Money",
+      "Housel",
+      "personal finance",
+      "behavioural finance"
+    ]
+  },
+  {
+    "id": "pop-048",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 2010 book The Big Short preceded the film by five years. But Michael Lewis's very first book, Liar's Poker, was set in which decade?",
+    "choices": [
+      "1980s",
+      "1990s",
+      "1970s",
+      "2000s"
+    ],
+    "answer": "1980s",
+    "explanation": "Liar's Poker (1989) describes Lewis's experience at Salomon Brothers in the mid-1980s — the height of the junk bond era and the rise of mortgage-backed securities. He depicts the extreme culture of Salomon Brothers' trading floor under John Gutfreund. The 1980s were the decade that birthed the culture of aggressive financial engineering that Lewis would later chronicle collapsing in The Big Short (2008 crisis).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Liar's Poker",
+      "Michael Lewis",
+      "1980s",
+      "Salomon Brothers"
+    ]
+  },
+  {
+    "id": "pop-049",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "William Foster and Andrei Shleifer's research — popularised in books like The Millionaire Next Door — found that most American millionaires share which surprising characteristic?",
+    "choices": [
+      "They live well below their means and accumulate wealth through frugality and investing, not high incomes or inheritance",
+      "They inherited most of their wealth from parents who were also in the top income percentile",
+      "They worked in finance or real estate — sectors with disproportionate millionaire representation",
+      "They became millionaires primarily through stock options at tech startups rather than salary accumulation"
+    ],
+    "answer": "They live well below their means and accumulate wealth through frugality and investing, not high incomes or inheritance",
+    "explanation": "Thomas Stanley and William Danko's The Millionaire Next Door (1996) profiled American millionaires and found most drove used cars, lived in modest houses, and were first-generation wealthy through businesses like pest control, dry cleaning, and small manufacturing — not glamorous professions. The core finding was that wealth is not what you earn but what you keep: 'prodigious accumulators of wealth' save far more than their income peers, while 'under-accumulators' spend most of what they earn on status symbols.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Millionaire Next Door",
+      "personal finance",
+      "frugality",
+      "wealth"
+    ]
+  },
+  {
+    "id": "pop-050",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "Arrange these influential economics books in order of publication, from oldest to most recent.",
+    "items": [
+      "Galbraith's The Affluent Society",
+      "Kahneman's Thinking, Fast and Slow",
+      "Piketty's Capital in the Twenty-First Century",
+      "Chang's 23 Things They Don't Tell You About Capitalism"
+    ],
+    "order_by": "year of first publication",
+    "answer": "Affluent Society (1958) → 23 Things (2010) → Thinking Fast and Slow (2011) → Capital in the Twenty-First Century (2013)",
+    "explanation": "The Affluent Society (1958) — a post-war critique of private wealth vs. public squalor. 23 Things They Don't Tell You About Capitalism (2010) — Ha-Joon Chang's critique of neoliberal orthodoxy. Thinking, Fast and Slow (2011) — Daniel Kahneman's summary of behavioural economics research. Capital in the Twenty-First Century (2013) — Piketty's inequality landmark, published in French; English translation and global bestseller in 2014.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "pop economics",
+      "books",
+      "chronology",
+      "Galbraith",
+      "Piketty",
+      "Kahneman",
+      "Chang"
+    ]
+  },
+  {
+    "id": "pop-051",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Peter Lynch's One Up on Wall Street argues that ordinary investors have a key advantage over professional fund managers. What is this advantage?",
+    "choices": [
+      "Individual investors encounter great businesses as consumers before Wall Street analysts discover them — local knowledge and everyday observation are information edges",
+      "Individual investors can hold stocks indefinitely without redemption pressure, giving them a longer time horizon than institutional funds",
+      "Individual investors pay lower taxes on capital gains than large institutions, improving after-tax returns",
+      "Individual investors can freely buy stocks of any size, while large fund managers are restricted to large-cap companies"
+    ],
+    "answer": "Individual investors encounter great businesses as consumers before Wall Street analysts discover them — local knowledge and everyday observation are information edges",
+    "explanation": "Lynch, manager of Fidelity's Magellan Fund (1977–1990, averaging 29% annual returns), argued that noticing a great store, restaurant, or product as a customer is genuine investment research. His famous example: his wife's enthusiasm for L'eggs pantyhose in grocery stores was an early signal long before analysts upgraded the parent company. Professional funds are often too large to invest in small companies; individual investors can freely buy small-caps with the most potential growth.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Peter Lynch",
+      "One Up on Wall Street",
+      "investing",
+      "retail investor",
+      "information edge"
+    ]
   }
 ]

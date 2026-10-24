@@ -16,7 +16,10 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["regression", "OLS"]
+    "tags": [
+      "regression",
+      "OLS"
+    ]
   },
   {
     "id": "math-002",
@@ -35,7 +38,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["econometrics", "DiD", "causal inference"]
+    "tags": [
+      "econometrics",
+      "DiD",
+      "causal inference"
+    ]
   },
   {
     "id": "math-003",
@@ -48,7 +55,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["econometrics", "Gauss-Markov", "BLUE"]
+    "tags": [
+      "econometrics",
+      "Gauss-Markov",
+      "BLUE"
+    ]
   },
   {
     "id": "math-004",
@@ -63,7 +74,11 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["macroeconomics", "multiplier", "Keynes"]
+    "tags": [
+      "macroeconomics",
+      "multiplier",
+      "Keynes"
+    ]
   },
   {
     "id": "math-005",
@@ -82,7 +97,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["instrumental variables", "endogeneity", "causal inference", "econometrics"]
+    "tags": [
+      "instrumental variables",
+      "endogeneity",
+      "causal inference",
+      "econometrics"
+    ]
   },
   {
     "id": "math-006",
@@ -95,7 +115,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["instrumental variables", "relevance", "exclusion restriction", "econometrics"]
+    "tags": [
+      "instrumental variables",
+      "relevance",
+      "exclusion restriction",
+      "econometrics"
+    ]
   },
   {
     "id": "math-007",
@@ -114,7 +139,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["RDD", "regression discontinuity", "causal inference", "running variable"]
+    "tags": [
+      "RDD",
+      "regression discontinuity",
+      "causal inference",
+      "running variable"
+    ]
   },
   {
     "id": "math-008",
@@ -133,7 +163,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["omitted variable bias", "OLS", "econometrics", "education"]
+    "tags": [
+      "omitted variable bias",
+      "OLS",
+      "econometrics",
+      "education"
+    ]
   },
   {
     "id": "math-009",
@@ -142,12 +177,24 @@
     "format": "short",
     "prompt": "A study reports a p-value of 0.04. Which of the following is the correct interpretation: it is the probability of observing data at least this extreme IF the null hypothesis is true. Complete this sentence: the p-value is the probability of the ___ given the ___.",
     "answer": "data given the null",
-    "accept": ["data given the null", "data given null hypothesis", "observed data given the null", "results given the null", "data given H0", "data given null"],
+    "accept": [
+      "data given the null",
+      "data given null hypothesis",
+      "observed data given the null",
+      "results given the null",
+      "data given H0",
+      "data given null"
+    ],
     "explanation": "The p-value is NOT the probability that the null hypothesis is true (a common error). It is P(data | H₀) — the probability of observing results this extreme or more extreme, assuming the null is correct. A small p-value means the data would be unlikely under H₀, not that H₀ is unlikely.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["p-value", "hypothesis testing", "statistics", "null hypothesis"]
+    "tags": [
+      "p-value",
+      "hypothesis testing",
+      "statistics",
+      "null hypothesis"
+    ]
   },
   {
     "id": "math-010",
@@ -156,17 +203,35 @@
     "format": "match",
     "prompt": "Match each statistical error type to its correct definition.",
     "pairs": [
-      ["Type I error", "Rejecting a true null hypothesis (false positive)"],
-      ["Type II error", "Failing to reject a false null hypothesis (false negative)"],
-      ["Statistical power", "Probability of correctly rejecting a false null hypothesis"],
-      ["Significance level (α)", "Acceptable probability of making a Type I error"]
+      [
+        "Type I error",
+        "Rejecting a true null hypothesis (false positive)"
+      ],
+      [
+        "Type II error",
+        "Failing to reject a false null hypothesis (false negative)"
+      ],
+      [
+        "Statistical power",
+        "Probability of correctly rejecting a false null hypothesis"
+      ],
+      [
+        "Significance level (α)",
+        "Acceptable probability of making a Type I error"
+      ]
     ],
     "answer": "Type I→false positive; Type II→false negative; Power→P(reject false null); α→P(Type I error)",
     "explanation": "The trade-off: lowering α (e.g., from 0.05 to 0.01) reduces Type I errors but, for a fixed sample size, increases Type II errors and reduces power. A medical analogy: Type I is diagnosing a healthy person as sick; Type II is missing a real disease.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Type I error", "Type II error", "power", "hypothesis testing", "statistics"]
+    "tags": [
+      "Type I error",
+      "Type II error",
+      "power",
+      "hypothesis testing",
+      "statistics"
+    ]
   },
   {
     "id": "math-011",
@@ -179,7 +244,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["R-squared", "causation", "correlation", "regression"]
+    "tags": [
+      "R-squared",
+      "causation",
+      "correlation",
+      "regression"
+    ]
   },
   {
     "id": "math-012",
@@ -198,7 +268,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["heteroskedasticity", "standard errors", "OLS", "robust"]
+    "tags": [
+      "heteroskedasticity",
+      "standard errors",
+      "OLS",
+      "robust"
+    ]
   },
   {
     "id": "math-013",
@@ -211,7 +286,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["central limit theorem", "statistics", "normal distribution", "CLT"]
+    "tags": [
+      "central limit theorem",
+      "statistics",
+      "normal distribution",
+      "CLT"
+    ]
   },
   {
     "id": "math-014",
@@ -226,7 +306,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["law of large numbers", "expected value", "probability", "statistics"]
+    "tags": [
+      "law of large numbers",
+      "expected value",
+      "probability",
+      "statistics"
+    ]
   },
   {
     "id": "math-015",
@@ -245,7 +330,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["spurious regression", "time series", "correlation", "non-stationarity"]
+    "tags": [
+      "spurious regression",
+      "time series",
+      "correlation",
+      "non-stationarity"
+    ]
   },
   {
     "id": "math-016",
@@ -258,7 +348,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Bayes", "probability", "posterior", "prior", "likelihood"]
+    "tags": [
+      "Bayes",
+      "probability",
+      "posterior",
+      "prior",
+      "likelihood"
+    ]
   },
   {
     "id": "math-017",
@@ -277,7 +373,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["multicollinearity", "standard errors", "OLS", "regression"]
+    "tags": [
+      "multicollinearity",
+      "standard errors",
+      "OLS",
+      "regression"
+    ]
   },
   {
     "id": "math-018",
@@ -296,7 +397,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["survivorship bias", "selection bias", "mutual funds", "statistics"]
+    "tags": [
+      "survivorship bias",
+      "selection bias",
+      "mutual funds",
+      "statistics"
+    ]
   },
   {
     "id": "math-019",
@@ -309,7 +415,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["natural experiment", "causal inference", "identification", "econometrics"]
+    "tags": [
+      "natural experiment",
+      "causal inference",
+      "identification",
+      "econometrics"
+    ]
   },
   {
     "id": "math-020",
@@ -328,7 +439,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["fixed effects", "random effects", "Hausman test", "panel data"]
+    "tags": [
+      "fixed effects",
+      "random effects",
+      "Hausman test",
+      "panel data"
+    ]
   },
   {
     "id": "math-021",
@@ -347,7 +463,12 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["confidence interval", "statistics", "frequentist", "interpretation"]
+    "tags": [
+      "confidence interval",
+      "statistics",
+      "frequentist",
+      "interpretation"
+    ]
   },
   {
     "id": "math-022",
@@ -367,7 +488,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["IV", "2SLS", "LATE", "causal inference", "econometrics"]
+    "tags": [
+      "IV",
+      "2SLS",
+      "LATE",
+      "causal inference",
+      "econometrics"
+    ]
   },
   {
     "id": "math-023",
@@ -386,7 +513,13 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["autocorrelation", "Durbin-Watson", "time series", "OLS", "serial correlation"]
+    "tags": [
+      "autocorrelation",
+      "Durbin-Watson",
+      "time series",
+      "OLS",
+      "serial correlation"
+    ]
   },
   {
     "id": "math-024",
@@ -405,6 +538,691 @@
     "source": null,
     "as_of": null,
     "time_sensitive": false,
-    "tags": ["Heckman", "selection bias", "sample selection", "two-step", "econometrics"]
+    "tags": [
+      "Heckman",
+      "selection bias",
+      "sample selection",
+      "two-step",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-025",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In regression analysis, the 'omitted variable bias' formula states that the bias on the coefficient of X from omitting variable Z equals:",
+    "choices": [
+      "The coefficient of Z (from a regression including Z) × the coefficient from regressing Z on X",
+      "The variance of Z divided by the covariance of X and Z",
+      "The correlation between X and Z times the standard deviation of Z",
+      "The mean of Z times the coefficient of X in the short regression"
+    ],
+    "answer": "The coefficient of Z (from a regression including Z) × the coefficient from regressing Z on X",
+    "explanation": "If the true model is Y = α + βX + γZ + ε, but you regress Y on X alone, the OLS estimator on X is biased by γ × δ₁, where δ₁ is the coefficient from regressing Z on X. This means omitting Z biases the estimate of β upward if Z and X are positively correlated (δ₁ > 0) and Z has a positive effect on Y (γ > 0). The formula operationalises when omitted variable bias is large: it requires both that Z affects Y and that Z correlates with X.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "omitted variable bias",
+      "OLS",
+      "regression",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-026",
+    "category": "math",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The compound interest formula for a principal P invested at annual rate r for n years is: P × (1 + r)ⁿ. If you invest $1,000 at 7% annual return, approximately how long does it take to double your money?",
+    "choices": [
+      "About 10 years (Rule of 72: 72/7 ≈ 10.3)",
+      "About 7 years",
+      "About 14 years",
+      "About 20 years"
+    ],
+    "answer": "About 10 years (Rule of 72: 72/7 ≈ 10.3)",
+    "explanation": "The Rule of 72 is a useful approximation: divide 72 by the annual interest rate to estimate the doubling time in years. At 7%, money doubles in approximately 72/7 ≈ 10.3 years. The exact answer using logarithms: ln(2)/ln(1.07) ≈ 10.24 years. At 10%, doubling takes about 7.2 years. The Rule works best for rates between 5% and 12% — outside this range, the approximation error grows.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Rule of 72",
+      "compound interest",
+      "time value of money",
+      "finance math"
+    ]
+  },
+  {
+    "id": "math-027",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Price elasticity of demand (PED) measures the percentage change in quantity demanded divided by the percentage change in price. If PED = -2, what happens to total revenue when the price rises by 10%?",
+    "choices": [
+      "Total revenue falls — demand falls 20% while price rises only 10%, so quantity loss outweighs price gain",
+      "Total revenue rises — higher price always means more revenue regardless of elasticity",
+      "Total revenue stays the same — elasticity of exactly -2 is the revenue-neutral point",
+      "Total revenue rises by exactly 10% — elasticity only affects quantity, not revenue"
+    ],
+    "answer": "Total revenue falls — demand falls 20% while price rises only 10%, so quantity loss outweighs price gain",
+    "explanation": "With PED = -2, a 10% price rise causes a 20% fall in quantity demanded. Total revenue = P × Q. New revenue ≈ 1.10P × 0.80Q = 0.88PQ — an 12% fall. The rule: when |PED| > 1 (elastic demand), a price rise reduces total revenue. When |PED| < 1 (inelastic), price rises increase revenue. When |PED| = 1 (unit elastic), revenue is unchanged. This is why profit-maximising firms produce where MR = 0, which occurs at unit elasticity.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "price elasticity",
+      "total revenue",
+      "demand",
+      "microeconomics math"
+    ]
+  },
+  {
+    "id": "math-028",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In a simple two-period model, the present value of receiving $X in one year at discount rate r is X/(1+r). If the government promises to pay $1,000 in 10 years and the annual discount rate is 5%, what is the approximate present value today?",
+    "choices": [
+      "About $614",
+      "About $900",
+      "About $500",
+      "About $750"
+    ],
+    "answer": "About $614",
+    "explanation": "PV = $1,000 / (1.05)¹⁰ = $1,000 / 1.6289 ≈ $614. This illustrates the power of discounting: receiving $1,000 in 10 years is worth only $614 today at 5% — roughly 39% less. At a 10% discount rate, the PV falls to $1,000/2.594 ≈ $386. The discount rate matters enormously for long-horizon projects like infrastructure or climate policy, where costs are near-term but benefits are decades away.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "present value",
+      "discounting",
+      "time value of money",
+      "finance math"
+    ]
+  },
+  {
+    "id": "math-029",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Gini coefficient measures income inequality on a scale from 0 (perfect equality) to 1 (maximum inequality). It is defined as the area between the Lorenz curve and the line of perfect equality, divided by the total area below the perfect equality line. Which of the following best illustrates what a Gini coefficient of 0.5 means?",
+    "choices": [
+      "The Lorenz curve sits midway between perfect equality and maximum inequality — the income distribution is quite concentrated but not at an extreme",
+      "The top 50% of the population earns exactly 100% of income",
+      "The top 10% of the population earns 50% of all income",
+      "Half of all income recipients earn above the mean income"
+    ],
+    "answer": "The Lorenz curve sits midway between perfect equality and maximum inequality — the income distribution is quite concentrated but not at an extreme",
+    "explanation": "The Gini coefficient equals A/(A+B) where A is the area between the Lorenz curve and the 45° equality line, and B is the area below the Lorenz curve. A Gini of 0 means A=0 (everyone earns the same). A Gini of 0.5 is high: the US has a Gini around 0.39, Brazil around 0.53. South Africa around 0.63. Nordic countries around 0.25–0.28. The Gini doesn't tell you where in the distribution inequality is concentrated — two countries can have the same Gini with very different distribution shapes.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Gini coefficient",
+      "Lorenz curve",
+      "inequality",
+      "statistics"
+    ]
+  },
+  {
+    "id": "math-030",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The net present value (NPV) of a project is: NPV = -Initial Investment + Σ Cash Flows/(1+r)ᵗ. A firm should invest if NPV > 0. What does a positive NPV actually mean in words?",
+    "choices": [
+      "The project earns more than the opportunity cost of capital (discount rate r) — so it creates value above what putting the money in the next-best alternative would generate",
+      "The project generates positive cash flows in every period, guaranteeing the investment is recovered",
+      "The project has a payback period shorter than the discount rate",
+      "The project's revenues exceed its costs when measured in nominal (uninflated) terms"
+    ],
+    "answer": "The project earns more than the opportunity cost of capital (discount rate r) — so it creates value above what putting the money in the next-best alternative would generate",
+    "explanation": "The discount rate in NPV analysis represents the opportunity cost of capital — the return available on a comparably risky alternative. NPV > 0 means: 'this project earns more than I could get elsewhere with this money at this risk level.' NPV = 0 means the project exactly matches the opportunity cost. NPV < 0 means capital is better deployed elsewhere. A critical insight: NPV doesn't require profits in every period — it considers the pattern of all cash flows discounted to present value.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "NPV",
+      "net present value",
+      "investment decision",
+      "corporate finance math"
+    ]
+  },
+  {
+    "id": "math-031",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In probability, if events A and B are independent, then P(A and B) = P(A) × P(B). A financial model assumes that 100 different mortgages each have a 1% probability of default, independently. What is the probability that at least one defaults?",
+    "choices": [
+      "About 63% — using P(at least one) = 1 - P(none) = 1 - 0.99¹⁰⁰ ≈ 1 - 0.366 = 0.634",
+      "About 1% — the probability of any individual mortgage defaulting",
+      "About 100% — with 100 mortgages each with 1% probability, one is virtually certain to default",
+      "About 10% — applying rough multiplication of independent probabilities"
+    ],
+    "answer": "About 63% — using P(at least one) = 1 - P(none) = 1 - 0.99¹⁰⁰ ≈ 1 - 0.366 = 0.634",
+    "explanation": "The correct calculation: P(none default) = 0.99¹⁰⁰ ≈ e^(−1) ≈ 0.368. So P(at least one defaults) ≈ 1 − 0.368 = 0.632. This illustrates a critical insight in portfolio risk: even individually low-probability risks combine to create high aggregate risk when you hold many positions. The CDO crisis of 2008 occurred partly because models assumed mortgages were largely independent — but in reality, a nationwide housing price decline caused correlated defaults, making the '1% each' assumption catastrophically wrong.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "probability",
+      "independence",
+      "portfolio risk",
+      "mortgage",
+      "complement rule"
+    ]
+  },
+  {
+    "id": "math-032",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'random walk hypothesis' in finance states that stock price changes are serially uncorrelated. If returns are a random walk, which of the following must be true?",
+    "choices": [
+      "The best forecast of tomorrow's price is today's price — past returns contain no information about future returns",
+      "Stock prices are drawn from a normal distribution, so extreme moves are very rare",
+      "A strategy of buying recent winners (momentum) should outperform the market",
+      "The efficient market hypothesis implies that no strategy can earn above-average returns"
+    ],
+    "answer": "The best forecast of tomorrow's price is today's price — past returns contain no information about future returns",
+    "explanation": "If prices follow a random walk, price changes (returns) are independently and identically distributed. The best forecast of tomorrow's price Pₜ₊₁ = Pₜ — i.e., the current price contains all available information. This is the weak form of the Efficient Market Hypothesis (EMH). The random walk does NOT require normality (returns can have fat tails and still be a random walk). Empirically, momentum strategies do show some predictability — evidence against a pure random walk — but after transaction costs, most active strategies underperform passive indexes.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "random walk",
+      "efficient market hypothesis",
+      "stock prices",
+      "time series"
+    ]
+  },
+  {
+    "id": "math-033",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In econometrics, panel data contains observations on multiple units (firms, countries, individuals) across multiple time periods. The fixed effects estimator eliminates time-invariant unobservables by:",
+    "choices": [
+      "Demeaning each unit's observations — subtracting each unit's mean from all its observations, so any stable characteristic (gender, culture, geography) cancels out",
+      "Adding a dummy variable for each time period to control for aggregate trends affecting all units simultaneously",
+      "Instrumenting for unobserved characteristics using lagged values of the dependent variable",
+      "Restricting the sample to units with complete data in all time periods to avoid attrition bias"
+    ],
+    "answer": "Demeaning each unit's observations — subtracting each unit's mean from all its observations, so any stable characteristic (gender, culture, geography) cancels out",
+    "explanation": "Fixed effects (within) estimation removes unit-specific intercepts by demeaning: for each unit i, subtract the mean of all observations for i. After demeaning, any variable that doesn't vary within unit i (age, country, race) drops out — so fixed effects controls for all time-invariant confounders, observed or not. The downside: you cannot estimate the effect of time-invariant variables (e.g., you can't estimate the effect of being male). Random effects assumes unit-specific effects are uncorrelated with regressors — testable with the Hausman test.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "fixed effects",
+      "panel data",
+      "econometrics",
+      "within estimator"
+    ]
+  },
+  {
+    "id": "math-034",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In a simple Nash equilibrium, each player's strategy is a best response to the other's strategy. In the classic Prisoner's Dilemma, the Nash equilibrium is (Defect, Defect) even though (Cooperate, Cooperate) gives both players higher payoffs. Why does the Nash equilibrium not achieve the socially optimal outcome?",
+    "choices": [
+      "Individual rationality leads to collective irrationality: each player's dominant strategy (Defect regardless of what the other does) makes defecting optimal for both, even though mutual cooperation would be better",
+      "Players don't have enough information about each other's intentions to trust cooperation",
+      "The payoff structure is asymmetric, so one player always benefits more from cooperation than the other",
+      "The Prisoner's Dilemma has multiple Nash equilibria, and players coordinate on the worst one"
+    ],
+    "answer": "Individual rationality leads to collective irrationality: each player's dominant strategy (Defect regardless of what the other does) makes defecting optimal for both, even though mutual cooperation would be better",
+    "explanation": "In the Prisoner's Dilemma, Defect is a dominant strategy: regardless of what the other player does, you are better off defecting. If both players follow their individually rational dominant strategy, both defect — yielding a worse outcome for both than mutual cooperation. This 'dominance-solvable' game illustrates the tragedy of the commons, arms races, cartel instability, and climate negotiations. The solution in repeated games: tit-for-tat strategies can sustain cooperation when the game is played many times by patient players.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Nash equilibrium",
+      "Prisoner's Dilemma",
+      "game theory",
+      "dominant strategy"
+    ]
+  },
+  {
+    "id": "math-035",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "In welfare economics, a Pareto improvement means making at least one person better off without making anyone worse off. Why are real-world policy changes almost never Pareto improvements?",
+    "choices": [
+      "Almost every significant policy creates winners and losers — trade liberalisation benefits consumers but hurts import-competing workers; redistribution benefits recipients but costs payers",
+      "Welfare comparisons require interpersonal utility comparisons that are mathematically impossible",
+      "Pareto improvements only exist in perfectly competitive markets where no externalities exist",
+      "Most policies affect so many people that finding unanimous consent is logistically impossible"
+    ],
+    "answer": "Almost every significant policy creates winners and losers — trade liberalisation benefits consumers but hurts import-competing workers; redistribution benefits recipients but costs payers",
+    "explanation": "This is why economists use the Kaldor-Hicks efficiency criterion instead: a change is efficient if winners could theoretically compensate losers and still be better off (even if the compensation doesn't actually occur). This theoretical compensation is why economists say free trade 'improves welfare' while acknowledging it creates losers. The distinction between Pareto and Kaldor-Hicks is crucial: much of economic policy advice implicitly uses Kaldor-Hicks while describing it as improving 'social welfare' — glossing over the distributional question.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Pareto efficiency",
+      "Kaldor-Hicks",
+      "welfare economics",
+      "winners and losers"
+    ]
+  },
+  {
+    "id": "math-036",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The money multiplier in introductory economics textbooks states that if the required reserve ratio is 10%, then $1 of base money supports $10 of bank deposits. In reality, the money multiplier is much lower than this textbook formula predicts. Why?",
+    "choices": [
+      "Banks hold excess reserves beyond the required minimum (especially after 2008), and households hold some currency rather than depositing everything",
+      "Central banks sterilise bank lending by raising the reserve requirement whenever deposits expand",
+      "Modern banking operates on full-reserve principles, so the multiplier formula doesn't apply",
+      "The Federal Reserve caps the money multiplier by limiting the total number of loans banks can make"
+    ],
+    "answer": "Banks hold excess reserves beyond the required minimum (especially after 2008), and households hold some currency rather than depositing everything",
+    "explanation": "The textbook multiplier = 1/reserve ratio assumes: (1) banks lend out every dollar beyond the legal minimum; (2) all money returns to banks as deposits. Both fail in practice. After the 2008 financial crisis, banks accumulated trillions in excess reserves (partly earning interest from the Fed), and the actual money multiplier in the US fell below 1 for the first time (monetary base > M1). Many modern central bank economists now describe money creation as banks making loans first, with reserves provided on demand — not the textbook reverse.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "money multiplier",
+      "fractional reserve banking",
+      "monetary policy",
+      "reserves"
+    ]
+  },
+  {
+    "id": "math-037",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In a simple demand and supply model, the consumer surplus is:",
+    "choices": [
+      "The area below the demand curve and above the market price — the value consumers receive above and beyond what they pay",
+      "The area below the market price and above the supply curve",
+      "The difference between the highest price any consumer would pay and the lowest price any consumer would pay",
+      "The total expenditure by consumers on a good"
+    ],
+    "answer": "The area below the demand curve and above the market price — the value consumers receive above and beyond what they pay",
+    "explanation": "Consumer surplus is the aggregate value consumers gain from trade beyond what they actually pay. If someone values a coffee at $5 but pays $3, they gain $2 of surplus. Graphically, it's the triangular area between the demand curve (willingness to pay) and the horizontal market price line. Producer surplus is the analogous area above the supply curve and below the price. Total welfare (consumer + producer surplus) is maximised at the competitive equilibrium quantity — this is the first theorem of welfare economics.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "consumer surplus",
+      "welfare economics",
+      "supply and demand",
+      "microeconomics math"
+    ]
+  },
+  {
+    "id": "math-038",
+    "category": "math",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "True or false: If two variables are uncorrelated (correlation = 0), they must be statistically independent.",
+    "answer": false,
+    "explanation": "Correlation measures only linear association. Two variables can have zero correlation but be perfectly dependent in a nonlinear way. Classic example: X is symmetric around zero (like a standard normal), and Y = X². Then Cov(X, Y) = E[X³] − E[X]E[X²] = 0 (by symmetry), so correlation = 0 — but Y is perfectly determined by X. Zero correlation implies independence only for jointly normally distributed variables. This distinction matters in finance: two assets may have zero linear correlation but move together in crashes (tail dependence).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "correlation",
+      "independence",
+      "statistics",
+      "probability"
+    ]
+  },
+  {
+    "id": "math-039",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The IS-LM model uses two equations. What does the 'IS' curve represent, and what does the 'LM' curve represent?",
+    "choices": [
+      "IS: combinations of interest rates and output where goods market equilibrium holds (Investment = Saving); LM: combinations where money market equilibrium holds (Liquidity preference = Money supply)",
+      "IS: combinations of investment and saving that balance the government budget; LM: combinations of liquidity and money where the central bank targets inflation",
+      "IS: interest rate sensitivity of investment spending; LM: leverage multiplier applied to money supply",
+      "IS: import-export balance equation; LM: loan market equilibrium between banks and the private sector"
+    ],
+    "answer": "IS: combinations of interest rates and output where goods market equilibrium holds (Investment = Saving); LM: combinations where money market equilibrium holds (Liquidity preference = Money supply)",
+    "explanation": "Hicks (1937) formalised Keynes's General Theory into the IS-LM model. The IS curve is downward sloping (higher interest rates reduce investment and output). The LM curve is upward sloping (higher output increases money demand, raising interest rates for a given money supply). The intersection determines short-run equilibrium output and interest rates. The model is still used in introductory courses but has been critiqued for ignoring expectations, inflation dynamics, and the zero lower bound problem.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "IS-LM",
+      "Hicks",
+      "macroeconomics",
+      "Keynesian model",
+      "interest rates"
+    ]
+  },
+  {
+    "id": "math-040",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "A regression is run with robust standard errors. What problem does this address, and what does NOT change when you use robust standard errors?",
+    "choices": [
+      "Heteroskedasticity: robust SEs address non-constant error variance, correcting inference — but the point estimates (coefficients) are unchanged",
+      "Endogeneity: robust SEs correct for correlation between regressors and error terms by reweighting observations",
+      "Multicollinearity: robust SEs reduce the variance inflation caused by correlated regressors",
+      "Omitted variable bias: robust SEs adjust coefficient estimates downward when a relevant variable is missing"
+    ],
+    "answer": "Heteroskedasticity: robust SEs address non-constant error variance, correcting inference — but the point estimates (coefficients) are unchanged",
+    "explanation": "Heteroskedasticity-consistent (HC) standard errors (White 1980) correct the standard errors used for t-tests and confidence intervals when error variance differs across observations — but they don't change the OLS coefficient estimates themselves. OLS is still unbiased and consistent under heteroskedasticity (Gauss-Markov still needs homoskedasticity for efficiency, not unbiasedness). Robust SEs are now standard in applied work. Nothing they do corrects endogeneity or omitted variable bias — those require different solutions (IV, controls, panel data).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "robust standard errors",
+      "heteroskedasticity",
+      "OLS",
+      "inference",
+      "White"
+    ]
+  },
+  {
+    "id": "math-041",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In the consumption function C = a + bY, the parameter 'b' is the marginal propensity to consume (MPC). Keynes argued 0 < b < 1. What does it mean if b = 0.75?",
+    "choices": [
+      "For each additional $1 of income, consumers spend 75 cents and save 25 cents",
+      "Consumers spend 75% of their total income on consumption",
+      "Consumption changes by 75% of any change in investment",
+      "75% of consumers save positively; 25% are credit-constrained"
+    ],
+    "answer": "For each additional $1 of income, consumers spend 75 cents and save 25 cents",
+    "explanation": "The MPC is the derivative of consumption with respect to income: ΔC/ΔY = b = 0.75. For every $1 extra of income, 75 cents is consumed and 25 cents saved (MPS = 1 - MPC = 0.25). This parameter directly determines the Keynesian multiplier: multiplier = 1/(1-MPC) = 1/0.25 = 4. A $1 billion government spending increase would raise equilibrium output by $4 billion in the simple model. Empirically, the MPC is higher for lower-income households (who have less buffer) than for higher-income ones.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "marginal propensity to consume",
+      "MPC",
+      "consumption function",
+      "Keynesian multiplier"
+    ]
+  },
+  {
+    "id": "math-042",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Regression discontinuity (RDD) exploits sharp thresholds to identify causal effects. A study uses the 60% vote share threshold for municipal councils to study the effect of council composition on local spending. The identifying assumption requires that:",
+    "choices": [
+      "All determinants of the outcome (spending) change smoothly through the threshold except the treatment (council composition) — so any jump in outcomes at the 60% cutoff is attributable to the treatment",
+      "Mayors must be randomly selected from candidates who received vote shares between 55% and 65%",
+      "The threshold of 60% was chosen randomly and is unrelated to any characteristic of the municipality",
+      "Municipalities just above and below the threshold have identical populations and economic conditions"
+    ],
+    "answer": "All determinants of the outcome (spending) change smoothly through the threshold except the treatment (council composition) — so any jump in outcomes at the 60% cutoff is attributable to the treatment",
+    "explanation": "RDD's key identifying assumption is 'continuity' or 'no manipulation': all other factors determining the outcome must vary continuously at the cutoff. If near the cutoff, municipalities barely above and below are similar in all pre-treatment characteristics, the RDD compares near-identical units — like a local randomised experiment. Validity tests include: (1) checking that predetermined covariates don't jump at the threshold; (2) McCrary density test — if agents manipulate the running variable (vote counts), the density won't be smooth at the threshold.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "regression discontinuity",
+      "RDD",
+      "causal inference",
+      "continuity assumption"
+    ]
+  },
+  {
+    "id": "math-043",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The internal rate of return (IRR) of a project is the discount rate that makes NPV = 0. A project with cash flows: Year 0 = -$1,000, Year 1 = $600, Year 2 = $600. If the opportunity cost of capital is 10%, should the firm invest?",
+    "choices": [
+      "Yes — the IRR exceeds 10%: solving for r gives approximately 13%, so the project earns more than the cost of capital",
+      "No — the total undiscounted cash inflows ($1,200) barely exceed the investment ($1,000), making the project marginal",
+      "No — the payback period of 1.67 years is too long for the project to be worthwhile at 10% discount rate",
+      "Cannot determine without knowing whether the project has conventional (sign-changing once) cash flows"
+    ],
+    "answer": "Yes — the IRR exceeds 10%: solving for r gives approximately 13%, so the project earns more than the cost of capital",
+    "explanation": "NPV = -1000 + 600/(1+r) + 600/(1+r)². Setting NPV = 0 and solving: 600/(1+r) + 600/(1+r)² = 1000. Let x = 1/(1+r): 600x + 600x² = 1000, 600x² + 600x - 1000 = 0. Using the quadratic formula or trial: r ≈ 13%. Since 13% > 10% cost of capital, NPV > 0 and the firm should invest. For conventional single-sign-change cash flows, NPV > 0 and IRR > discount rate always agree. IRR can give wrong answers with non-conventional cash flows (multiple sign changes).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "IRR",
+      "internal rate of return",
+      "NPV",
+      "corporate finance",
+      "investment decision"
+    ]
+  },
+  {
+    "id": "math-044",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Solow growth model predicts that, in the long run, differences in physical capital accumulation rates cannot explain persistent differences in income per capita across countries. Why?",
+    "choices": [
+      "Diminishing returns to capital: as capital accumulates, each additional unit adds less output, so capital-rich countries grow more slowly and converge to a steady state",
+      "Capital flows freely between countries, so all countries end up with the same capital stock per worker in equilibrium",
+      "Depreciation always exactly offsets new investment at any capital stock above zero, preventing long-run growth",
+      "Workers' marginal product falls to zero when capital-to-labour ratios become too high, limiting accumulation"
+    ],
+    "answer": "Diminishing returns to capital: as capital accumulates, each additional unit adds less output, so capital-rich countries grow more slowly and converge to a steady state",
+    "explanation": "In the Solow model (f(k) = Ak^α with α < 1), diminishing marginal returns to capital mean that as a country accumulates capital (higher k), the marginal product of capital falls, and eventually new investment just replaces depreciation — steady state. All countries with the same savings rate, depreciation, and population growth converge to the same steady-state capital per worker. Long-run growth requires exogenous technological progress (g). This is why the model predicts 'conditional convergence' — countries should converge to their own steady states, which depend on their structural parameters.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Solow model",
+      "growth theory",
+      "diminishing returns",
+      "convergence",
+      "steady state"
+    ]
+  },
+  {
+    "id": "math-045",
+    "category": "math",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Suppose an economy has inflation of 3% and a nominal interest rate of 5%. What is the approximate real interest rate?",
+    "choices": [
+      "2% (Fisher equation: real rate ≈ nominal rate − inflation = 5% − 3%)",
+      "8% (adding inflation to the nominal rate)",
+      "1.67% (dividing the nominal rate by the inflation rate)",
+      "The real rate equals the nominal rate because inflation affects both sides equally"
+    ],
+    "answer": "2% (Fisher equation: real rate ≈ nominal rate − inflation = 5% − 3%)",
+    "explanation": "The Fisher equation: (1 + nominal rate) = (1 + real rate)(1 + inflation rate). For small rates, the approximation is: real rate ≈ nominal rate − inflation = 5% − 3% = 2%. The exact real rate = (1.05/1.03) − 1 ≈ 1.94%. The real interest rate matters for investment decisions (the actual cost of borrowing in terms of purchasing power) and for monetary policy effectiveness. When nominal rates fall below inflation, real rates go negative — borrowers gain, savers lose purchasing power.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Fisher equation",
+      "real interest rate",
+      "nominal rate",
+      "inflation",
+      "monetary economics"
+    ]
+  },
+  {
+    "id": "math-046",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In a regression of log(wages) on years of schooling, the coefficient on schooling is 0.08. This means:",
+    "choices": [
+      "Each additional year of schooling is associated with approximately 8% higher wages (since the dependent variable is in logs and the right-hand side is in levels: semi-elasticity)",
+      "Each 1% increase in schooling years is associated with an 8% increase in wages (elasticity interpretation)",
+      "An extra year of schooling raises wages by $0.08 per hour regardless of current wage level",
+      "Workers with more years of schooling earn 8 times more than workers with fewer years"
+    ],
+    "answer": "Each additional year of schooling is associated with approximately 8% higher wages (since the dependent variable is in logs and the right-hand side is in levels: semi-elasticity)",
+    "explanation": "In a log-linear specification (log Y = α + βX + ε), the coefficient β is a semi-elasticity: a one-unit change in X is associated with a β × 100% change in Y. So β = 0.08 means one additional year of schooling → approximately 8% higher wages. This is often called the 'Mincerian return to schooling' after Jacob Mincer. The exact percentage: e^0.08 − 1 ≈ 8.33%. If both sides were in logs (log-log), β would be an elasticity (% change in Y per % change in X).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "log regression",
+      "Mincer",
+      "returns to schooling",
+      "semi-elasticity",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-047",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Synthetic control methods (Abadie, Diamond, Hainmueller) are used when there is only one treated unit (e.g., one country or state). What is the key advantage over ordinary difference-in-differences?",
+    "choices": [
+      "The synthetic control constructs a data-driven weighted average of untreated units that best matches the treated unit's pre-treatment outcomes — providing a transparent, tailored counterfactual rather than assuming all control units are equally valid comparators",
+      "Synthetic control avoids the parallel trends assumption entirely, making it valid even when pre-treatment trends differ",
+      "It can estimate treatment effects even when the treatment is self-selected by the treated unit",
+      "It eliminates the need for a control group by extrapolating the pre-treatment time trend into the post-treatment period"
+    ],
+    "answer": "The synthetic control constructs a data-driven weighted average of untreated units that best matches the treated unit's pre-treatment outcomes — providing a transparent, tailored counterfactual rather than assuming all control units are equally valid comparators",
+    "explanation": "Classic DiD with one treated and many control units assumes all controls would have followed the same trend as the treated unit absent treatment. Synthetic control is more flexible: it finds the combination of control units that, when weighted, best tracks the treated unit's pre-treatment outcomes across multiple pre-treatment periods. The post-treatment divergence between the treated unit and its synthetic twin is the causal effect. Abadie et al. applied this to estimate the effect of the 1988 California tobacco tax using a synthetic California from other states.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "synthetic control",
+      "causal inference",
+      "counterfactual",
+      "econometrics",
+      "DiD"
+    ]
+  },
+  {
+    "id": "math-048",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Taylor Rule is a monetary policy guideline that suggests how central banks should set interest rates. In its original formulation, what two gaps does it respond to?",
+    "choices": [
+      "The inflation gap (actual inflation minus target) and the output gap (actual GDP minus potential GDP)",
+      "The unemployment gap and the exchange rate gap",
+      "The credit gap (actual credit growth minus trend) and the inflation gap",
+      "The fiscal gap (deficit as share of GDP) and the interest rate gap (short-term minus long-term rates)"
+    ],
+    "answer": "The inflation gap (actual inflation minus target) and the output gap (actual GDP minus potential GDP)",
+    "explanation": "John Taylor (1993) proposed: i = r* + π + 0.5(π - π*) + 0.5(Y - Y*)/Y* where i is the nominal rate, r* is the neutral real rate (~2%), π is inflation, π* is the inflation target, and (Y - Y*)/Y* is the output gap. Coefficients of 0.5 on each gap are Taylor's original suggestion; different central banks use different weights. The rule captures the dual mandate (price stability + maximum employment) in a simple formula that has been a useful benchmark for evaluating central bank policy, though central banks don't mechanically follow it.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Taylor Rule",
+      "monetary policy",
+      "inflation gap",
+      "output gap",
+      "central banking math"
+    ]
+  },
+  {
+    "id": "math-049",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "A bond has a face value of $1,000, a coupon rate of 5% (pays $50 per year), and 10 years to maturity. If market interest rates rise to 7%, what happens to the bond's market price?",
+    "choices": [
+      "The price falls below $1,000 — investors demand a higher yield, which requires a lower price to make the fixed $50 coupon competitive",
+      "The price rises above $1,000 — higher interest rates increase the bond's return",
+      "The price stays at $1,000 — face value is guaranteed, so market rates don't affect it",
+      "The price falls only if the bond is callable; for non-callable bonds, prices are protected"
+    ],
+    "answer": "The price falls below $1,000 — investors demand a higher yield, which requires a lower price to make the fixed $50 coupon competitive",
+    "explanation": "Bond prices move inversely to yields: when market rates rise from 5% to 7%, new bonds offer $70 per year; the existing bond paying only $50 is less attractive, so its price must fall until its yield matches 7%. Price = Σ($50/(1.07)ᵗ) + $1,000/(1.07)¹⁰ ≈ $859. This is the fundamental interest rate risk of bonds. Duration measures sensitivity: a bond with higher duration (longer maturity, lower coupon) loses more value when rates rise. This is why long-term bonds fell sharply in 2022 when rates rose rapidly.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "bond pricing",
+      "yield",
+      "interest rate risk",
+      "duration",
+      "finance math"
+    ]
+  },
+  {
+    "id": "math-050",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "In a DiD setting, the 'parallel trends assumption' is not directly testable for the post-treatment period. What is the standard empirical approach economists use to provide evidence in its favour?",
+    "choices": [
+      "An event study plot — showing that treated and control groups had similar pre-treatment trends across multiple periods before the treatment, making parallel post-treatment trends more plausible",
+      "A placebo test — assigning the treatment to untreated units and checking that no treatment effect is found",
+      "A Hausman test — testing whether fixed effects and random effects produce similar coefficient estimates",
+      "A falsification test — showing that the treatment has no effect on outcomes that theory says it shouldn't affect"
+    ],
+    "answer": "An event study plot — showing that treated and control groups had similar pre-treatment trends across multiple periods before the treatment, making parallel post-treatment trends more plausible",
+    "explanation": "The parallel trends assumption says the treated group would have evolved like the control group absent treatment. This is never testable post-treatment, but pre-treatment data allows a check: if treated and control units had parallel trends in multiple pre-treatment periods, the assumption is more credible. An event study regresses outcomes on indicators for each period relative to treatment, separately for each period. 'Pre-trends' (significant coefficients before treatment) would suggest non-parallel trends and undermine the DiD design. Placebo tests and falsification tests are additional robustness checks but not the primary test.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "parallel trends",
+      "DiD",
+      "event study",
+      "pre-trends test",
+      "causal inference"
+    ]
+  },
+  {
+    "id": "math-051",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "When computing real GDP growth, statisticians use a GDP deflator (or price index) to remove the effect of inflation. If nominal GDP grew by 8% and the GDP deflator rose by 3%, real GDP growth was approximately:",
+    "choices": [
+      "About 5% (real growth ≈ nominal growth − inflation = 8% − 3%)",
+      "About 11% (adding the deflator to nominal growth)",
+      "About 2.67% (dividing by the deflator)",
+      "About 8% — nominal and real GDP growth are identical because GDP is measured at current prices"
+    ],
+    "answer": "About 5% (real growth ≈ nominal growth − inflation = 8% − 3%)",
+    "explanation": "The approximation: real growth ≈ nominal growth − price growth = 8% − 3% = 5%. Exactly: real GDP growth = (1.08/1.03) − 1 ≈ 4.85%. This decomposition is crucial for macroeconomic analysis: a country that grows 10% nominally while experiencing 10% inflation has had zero real growth — living standards haven't improved. The GDP deflator differs from CPI: it covers the whole economy (not just a consumer basket) and can change composition each period.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "real GDP",
+      "GDP deflator",
+      "nominal vs real",
+      "inflation adjustment",
+      "national accounts"
+    ]
+  },
+  {
+    "id": "math-052",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In a simple auction model, the 'revenue equivalence theorem' states that all standard auction formats — first-price sealed bid, second-price sealed bid (Vickrey), English, and Dutch — generate the same expected revenue for the seller. Under what conditions does this equivalence hold?",
+    "choices": [
+      "Risk-neutral bidders, symmetric and independent private values, and the object going to the highest-value bidder",
+      "Risk-averse bidders, public information about the object's value, and identical bidder budgets",
+      "Only when the number of bidders is large (more than 10), ensuring competitive pricing",
+      "When reserve prices are set at the seller's cost and bidders cannot communicate with each other"
+    ],
+    "answer": "Risk-neutral bidders, symmetric and independent private values, and the object going to the highest-value bidder",
+    "explanation": "The Revenue Equivalence Theorem (Myerson 1981, Vickrey 1961) holds when: (1) bidders are risk-neutral; (2) values are drawn independently from the same distribution (symmetric); (3) the bidder with the highest value wins (efficiency); (4) the bidder with the lowest possible value expects zero surplus. Under these conditions, any mechanism satisfying these properties yields the same expected seller revenue. Real auctions deviate (risk aversion, common values, asymmetric bidders) — and these deviations explain why different formats are preferred in different contexts.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "revenue equivalence theorem",
+      "auction theory",
+      "Vickrey",
+      "Myerson",
+      "game theory"
+    ]
   }
 ]
