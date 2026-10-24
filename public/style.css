@@ -15,6 +15,13 @@
   --correct-bg: #dcfce7;
   --wrong:      #dc2626;
   --wrong-bg:   #fee2e2;
+  /* Text on the tinted correct/wrong backgrounds needs more contrast than the
+     bright fills (--correct / --wrong) provide: those are only ~3:1 there. */
+  --correct-text:   #166534;
+  --wrong-text:     #b91c1c;
+  --correct-strong: #15803d;  /* solid fills, e.g. the ✓ position badge */
+  --wrong-strong:   #dc2626;
+  --on-strong:      #ffffff;
   --chip-bg:    #e8e8e0;
   --diff1:      #16a34a;
   --diff2:      #d97706;
@@ -39,6 +46,11 @@
     --correct-bg: #14532d;
     --wrong:      #f87171;
     --wrong-bg:   #7f1d1d;
+    --correct-text:   #86efac;
+    --wrong-text:     #fecaca;
+    --correct-strong: #4ade80;
+    --wrong-strong:   #f87171;
+    --on-strong:      #0b1220;
     --chip-bg:    #2a2a2a;
     --shadow:     0 1px 3px rgba(0,0,0,.4);
   }
@@ -191,9 +203,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.chip.diff-1 { background: var(--correct-bg); color: var(--correct); }
+.chip.diff-1 { background: var(--correct-bg); color: var(--correct-text); }
 .chip.diff-2 { background: #fef3c7; color: #92400e; }
-.chip.diff-3 { background: var(--wrong-bg); color: var(--wrong); }
+.chip.diff-3 { background: var(--wrong-bg); color: var(--wrong-text); }
 .chip-cat { background: #ede9fe; color: #6d28d9; }
 
 @media (prefers-color-scheme: dark) {
@@ -306,7 +318,7 @@ body {
 }
 
 .mc-option:hover:not(:disabled) { border-color: var(--accent); background: var(--chip-bg); }
-.mc-option.correct { background: var(--correct-bg) !important; border-color: var(--correct) !important; color: var(--correct); font-weight: 600; }
+.mc-option.correct { background: var(--correct-bg) !important; border-color: var(--correct) !important; color: var(--correct-text); font-weight: 600; }
 .mc-option.dim { opacity: 0.45; }
 
 /* ═══════════════════════════════════════
@@ -329,7 +341,7 @@ body {
 }
 
 .tf-option:hover:not(:disabled) { border-color: var(--accent); }
-.tf-option.correct { background: var(--correct-bg); border-color: var(--correct); color: var(--correct); }
+.tf-option.correct { background: var(--correct-bg); border-color: var(--correct); color: var(--correct-text); }
 .tf-option.dim { opacity: 0.45; }
 
 /* ═══════════════════════════════════════
@@ -425,8 +437,8 @@ body {
   flex-shrink: 0;
 }
 
-.order-item.correct-pos .order-pos-num { background: var(--correct); color: #fff; }
-.order-item.wrong-pos   .order-pos-num { background: var(--wrong);   color: #fff; }
+.order-item.correct-pos .order-pos-num { background: var(--correct-strong); color: var(--on-strong); }
+.order-item.wrong-pos   .order-pos-num { background: var(--wrong-strong);   color: var(--on-strong); }
 
 .order-item-text { flex: 1; line-height: 1.4; }
 
@@ -461,7 +473,7 @@ body {
 }
 
 .hl-option:hover:not(:disabled) { border-color: var(--accent); }
-.hl-option.correct { background: var(--correct-bg); border-color: var(--correct); color: var(--correct); }
+.hl-option.correct { background: var(--correct-bg); border-color: var(--correct); color: var(--correct-text); }
 .hl-option.dim { opacity: 0.45; }
 
 /* ═══════════════════════════════════════
@@ -538,8 +550,8 @@ body {
   align-self: flex-start;
 }
 
-.feedback-badge.correct { background: var(--correct-bg); color: var(--correct); }
-.feedback-badge.wrong   { background: var(--wrong-bg);   color: var(--wrong); }
+.feedback-badge.correct { background: var(--correct-bg); color: var(--correct-text); }
+.feedback-badge.wrong   { background: var(--wrong-bg);   color: var(--wrong-text); }
 .feedback-badge.skipped { background: var(--chip-bg);    color: var(--text-muted); }
 
 .feedback-correct-ans { font-size: 0.95rem; color: var(--text-muted); }
@@ -653,7 +665,7 @@ body {
 .error {
   padding: 2rem;
   text-align: center;
-  color: var(--wrong);
+  color: var(--wrong-text);
 }
 
 /* ═══════════════════════════════════════
@@ -664,7 +676,7 @@ body {
 .mc-option.wrong, .tf-option.wrong, .hl-option.wrong {
   background: var(--wrong-bg);
   border-color: var(--wrong);
-  color: var(--wrong);
+  color: var(--wrong-text);
   font-weight: 600;
 }
 
@@ -679,15 +691,15 @@ body {
   -webkit-text-fill-color: currentColor;
   cursor: default;
 }
-.numeric-input.is-correct, .short-input.is-correct { border-color: var(--correct); background: var(--correct-bg); color: var(--correct); }
-.numeric-input.is-wrong,   .short-input.is-wrong   { border-color: var(--wrong);   background: var(--wrong-bg);   color: var(--wrong); }
+.numeric-input.is-correct, .short-input.is-correct { border-color: var(--correct); background: var(--correct-bg); color: var(--correct-text); }
+.numeric-input.is-wrong,   .short-input.is-wrong   { border-color: var(--wrong);   background: var(--wrong-bg);   color: var(--wrong-text); }
 
 .order-item.revealed-pos { border-style: dashed; }
 
 .result-mark { font-weight: 800; flex-shrink: 0; }
 .order-item .result-mark { margin-left: auto; padding-left: 0.5rem; }
-.order-item.correct-pos .result-mark { color: var(--correct); }
-.order-item.wrong-pos   .result-mark { color: var(--wrong); }
+.order-item.correct-pos .result-mark { color: var(--correct-text); }
+.order-item.wrong-pos   .result-mark { color: var(--wrong-text); }
 
 /* ═══════════════════════════════════════
    MATCH — numbered pairing + result rows
@@ -747,9 +759,9 @@ body {
 .match-result-left { font-weight: 600; overflow-wrap: anywhere; }
 .match-result-right { display: flex; flex-direction: column; gap: 0.2rem; overflow-wrap: anywhere; }
 .match-result-row.correct .match-result-right { flex-direction: row; align-items: baseline; gap: 0.4rem; }
-.match-result-row.correct .result-mark { color: var(--correct); }
-.match-result-row.wrong .result-mark   { color: var(--wrong); }
-.match-given-wrong { color: var(--wrong); display: flex; align-items: baseline; gap: 0.4rem; }
+.match-result-row.correct .result-mark { color: var(--correct-text); }
+.match-result-row.wrong .result-mark   { color: var(--wrong-text); }
+.match-given-wrong { color: var(--wrong-text); display: flex; align-items: baseline; gap: 0.4rem; }
 .match-correct-partner { color: var(--text); font-weight: 600; }
 
 /* ═══════════════════════════════════════
