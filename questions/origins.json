@@ -175,9 +175,9 @@
     "prompt": "The term 'boycott' — refusing to deal with a person or business as a form of protest — is named after Captain Charles Boycott. What was his role in 1880s Ireland?",
     "choices": [
       "Land agent who refused to reduce tenant rents after a bad harvest",
-      "Factory owner who locked out striking workers",
-      "Colonial tax collector who doubled duties without notice",
-      "Bank manager who foreclosed on struggling farmers"
+      "Factory owner who locked out striking workers in a wage dispute",
+      "Colonial tax collector who doubled customs duties without any notice",
+      "Bank manager who foreclosed on struggling tenant farmers"
     ],
     "answer": "Land agent who refused to reduce tenant rents after a bad harvest",
     "explanation": "In 1880, Captain Charles Boycott managed estates in County Mayo, Ireland. After refusing to lower rents following a crop failure, the Irish Land League urged local people to shun him completely — his labourers quit, shops refused him, and his mail went undelivered. Charles Stewart Parnell's movement had coined a new word within months.",
@@ -376,15 +376,15 @@
     "category": "origins",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Tulip mania (Netherlands, 1636–37) is often cited as the first speculative bubble. At the peak in early 1637, a single prised bulb reportedly sold for roughly how much?",
+    "prompt": "Tulip mania (Netherlands, 1636–37) is often cited as the first speculative bubble. At the peak in early 1637, a single prized bulb reportedly sold for roughly how much?",
     "choices": [
       "About ten times a skilled craftsman's annual income",
-      "About a skilled craftsman's annual income",
-      "About a skilled craftsman's monthly wage",
-      "About a skilled craftsman's weekly wage"
+      "About a skilled craftsman's annual income, no more",
+      "About one skilled craftsman's monthly wage, a high price",
+      "About one skilled craftsman's weekly wage, a trivial sum"
     ],
     "answer": "About ten times a skilled craftsman's annual income",
-    "explanation": "At the height of the mania in February 1637, the most prised bulbs — rare 'broken' tulips whose multicoloured patterns were caused by a mosaic virus — reportedly fetched more than ten times a skilled craftsman's annual income (about 300 guilders); a Semper Augustus is said to have reached 10,000 guilders. The market collapsed that month when buyers stopped turning up. Caution: historians such as Anne Goldgar argue the popular story is exaggerated — many of its most dramatic details come from later satirical pamphlets, and only a few dozen buyers spent more than 300 guilders on bulbs.",
+    "explanation": "At the height of the mania in February 1637, the most prized bulbs — rare 'broken' tulips whose multicoloured patterns were caused by a mosaic virus — reportedly fetched more than ten times a skilled craftsman's annual income (about 300 guilders); a Semper Augustus is said to have reached 10,000 guilders. The market collapsed that month when buyers stopped turning up. Caution: historians such as Anne Goldgar argue the popular story is exaggerated — many of its most dramatic details come from later satirical pamphlets, and only a few dozen buyers spent more than 300 guilders on bulbs.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -546,7 +546,7 @@
       "US $5,000"
     ],
     "answer": "US $27",
-    "explanation": "In the mid-1970s (the loan is usually dated 1974 or 1976), Yunus lent the equivalent of US $27 from his own pocket to 42 stool-makers in Jobra village, who were trapped in debt to moneylenders and traders. The experiment proved small loans at fair rates could be commercially viable and transform lives. Grameen Bank was formally established in 1983 and has since extended billions in microloans. Yunus and Grameen Bank shared the Nobel Peace Prise in 2006.",
+    "explanation": "In the mid-1970s (the loan is usually dated 1974 or 1976), Yunus lent the equivalent of US $27 from his own pocket to 42 stool-makers in Jobra village, who were trapped in debt to moneylenders and traders. The experiment proved small loans at fair rates could be commercially viable and transform lives. Grameen Bank was formally established in 1983 and has since extended billions in microloans. Yunus and Grameen Bank shared the Nobel Peace Prize in 2006.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -736,12 +736,12 @@
     "format": "mc",
     "prompt": "The Dutch East India Company (VOC, 1602) is often called the first modern corporation. Unlike earlier ventures that were financed and wound up voyage by voyage, what did it do?",
     "choices": [
-      "Kept investors' capital in the company for the long term, while letting them sell their shares to other investors in Amsterdam",
-      "Guaranteed every shareholder a fixed annual dividend, backed by the Dutch state",
-      "Raised money only from its directors, who held unlimited personal liability",
-      "Returned each voyage's capital and profits to investors as soon as the ships came home"
+      "Kept investors' capital in the company long term while letting them sell their shares to other investors in Amsterdam",
+      "Guaranteed every shareholder a fixed annual dividend, backed by the Dutch state, whatever the voyages earned",
+      "Raised money only from its directors, who each held unlimited personal liability for the company's debts",
+      "Returned each voyage's capital and profits to investors as soon as the ships came home, then closed the books for good"
     ],
-    "answer": "Kept investors' capital in the company for the long term, while letting them sell their shares to other investors in Amsterdam",
+    "answer": "Kept investors' capital in the company long term while letting them sell their shares to other investors in Amsterdam",
     "explanation": "The VOC raised capital from thousands of investors. After its first years that capital was effectively permanent: shareholders could not demand their money back, but they could sell their shares to others, and a lively secondary market developed in Amsterdam. Investors' losses were limited to what they had put in, and ownership was separated from day-to-day management. Joint-stock companies existed before — England's Muscovy Company dates to 1555 — but this combination of tradeable shares, limited liability and permanent capital is why the VOC is called the first modern corporation.",
     "source": null,
     "as_of": null,
@@ -810,9 +810,9 @@
     "prompt": "The Bretton Woods system — the post-WWII international monetary framework that pegged currencies to the US dollar — was negotiated at a conference in July 1944. Where was that conference held?",
     "choices": [
       "Bretton Woods, New Hampshire, USA",
-      "Geneva, Switzerland",
-      "London, UK",
-      "Ottawa, Canada"
+      "Geneva, Switzerland (League of Nations)",
+      "London, England (Bank of England)",
+      "Washington, D.C., USA (US Treasury)"
     ],
     "answer": "Bretton Woods, New Hampshire, USA",
     "explanation": "The United Nations Monetary and Financial Conference was held at the Mount Washington Hotel in Bretton Woods, New Hampshire, in July 1944. 730 delegates from 44 nations agreed on fixed exchange rates tied to the US dollar (itself pegged to gold at $35/oz), and created the IMF and World Bank. The system collapsed in 1971 when Nixon suspended dollar-gold convertibility.",
@@ -1025,14 +1025,14 @@
     "category": "origins",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Black-Scholes options pricing formula (1973) revolutionized finance and earned Myron Scholes and Robert Merton the 1997 Nobel prise. What key insight made the model tractable?",
+    "prompt": "The Black-Scholes options pricing formula (1973) revolutionized finance and earned Myron Scholes and Robert Merton the 1997 Nobel prize. What key insight made the model tractable?",
     "choices": [
-      "A delta-hedging insight: by continuously adjusting the ratio of stock to option, you can create a risk-free portfolio — and a risk-free portfolio must earn the risk-free rate, giving you the option price",
-      "That stock prices follow a perfectly normal distribution over any time period, making expected payoffs calculable",
-      "That the volatility of an option was predictable from the volatility of the underlying stock price alone",
-      "That options markets were systematically mispriced, allowing arbitrage profits that revealed the true pricing formula"
+      "Delta hedging: continuously rebalancing stock against the option makes a risk-free portfolio, which must earn the risk-free rate",
+      "That stock prices follow a perfectly normal distribution over any horizon, which makes expected payoffs directly calculable",
+      "That an option's volatility could be predicted from the volatility of the underlying stock price alone, without market data",
+      "That options markets were systematically mispriced, so arbitrage profits revealed the true pricing formula that markets ignored for decades"
     ],
-    "answer": "A delta-hedging insight: by continuously adjusting the ratio of stock to option, you can create a risk-free portfolio — and a risk-free portfolio must earn the risk-free rate, giving you the option price",
+    "answer": "Delta hedging: continuously rebalancing stock against the option makes a risk-free portfolio, which must earn the risk-free rate",
     "explanation": "The key Black-Scholes breakthrough was that you could hedge away all risk from an option position by holding the right amount of the underlying stock — and since the hedged portfolio has no risk, it must earn the risk-free rate. This no-arbitrage argument pins down the option price uniquely. Robert Merton independently derived the same result (and made the continuous hedging argument rigorous). Fischer Black had died in 1995 and the Nobel is not awarded posthumously, so only Scholes and Merton were honoured, with the citation crediting Black.",
     "source": null,
     "as_of": null,
@@ -1171,7 +1171,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The Nobel Memorial Prise in Economics is not technically one of Alfred Nobel's original prises. Which institution created it — and funded it — in 1968 to mark its own 300th anniversary?",
+    "prompt": "The Nobel Memorial Prize in Economics is not technically one of Alfred Nobel's original prizes. Which institution created it — and funded it — in 1968 to mark its own 300th anniversary?",
     "choices": [
       "Sveriges Riksbank (Bank of Sweden)",
       "The Royal Swedish Academy of Sciences",
@@ -1179,7 +1179,7 @@
       "The Nobel Foundation itself"
     ],
     "answer": "Sveriges Riksbank (Bank of Sweden)",
-    "explanation": "The full name is the 'Sveriges Riksbank Prise in Economic Sciences in Memory of Alfred Nobel.' The Riksbank created and endowed it in 1968 as part of its tricentenary celebrations. Because it was not in Alfred Nobel's will, some purists argue it is not a 'true' Nobel Prise — but it is awarded alongside the original prises every December 10.",
+    "explanation": "The full name is the 'Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel.' The Riksbank created and endowed it in 1968 as part of its tricentenary celebrations. Because it was not in Alfred Nobel's will, some purists argue it is not a 'true' Nobel Prize — but it is awarded alongside the original prizes every December 10.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1197,12 +1197,12 @@
     "format": "mc",
     "prompt": "The concept of the 'gold standard' — backing paper money with a guaranteed gold exchange rate — was adopted internationally in the late 19th century. Which major economy first adopted it?",
     "choices": [
-      "United Kingdom, de facto from 1717 when Isaac Newton (as Master of the Mint) set the gold price for sterling",
-      "Germany, formally in 1871 after the Franco-Prussian War",
-      "The United States, in the Gold Standard Act of 1900",
-      "France, after Napoleon stabilized the franc in 1803"
+      "United Kingdom, de facto from 1717, when Isaac Newton set sterling's gold price at the Mint",
+      "Germany, formally in 1871 after the Franco-Prussian War, using French indemnity money",
+      "The United States, in the Gold Standard Act of 1900, after the silver-money debates of the 1890s",
+      "France, after Napoleon stabilized the franc with the Germinal law of 1803 and a fixed metal value"
     ],
-    "answer": "United Kingdom, de facto from 1717 when Isaac Newton (as Master of the Mint) set the gold price for sterling",
+    "answer": "United Kingdom, de facto from 1717, when Isaac Newton set sterling's gold price at the Mint",
     "explanation": "Isaac Newton served as Master of the Mint from 1699 to 1727. In 1717, he set the gold price for sterling at £3 17s 10.5d per troy ounce — a rate maintained (with wartime suspensions) for two centuries. This effectively put Britain on a de facto gold standard. The UK formally adopted a legal gold standard in 1816, and after Germany's 1871 adoption sparked a rush, most major economies had joined by 1900.",
     "source": null,
     "as_of": null,

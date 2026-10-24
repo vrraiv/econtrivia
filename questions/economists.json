@@ -7,9 +7,9 @@
     "prompt": "Adam Smith's metaphor of the 'invisible hand' describes how:",
     "choices": [
       "individual self-interest leads to beneficial social outcomes without central direction",
-      "government policy quietly steers markets toward efficient outcomes",
-      "monopolies arise naturally from unchecked competitive markets",
-      "wages converge across industries and regions over time"
+      "government regulation quietly steers markets toward efficient outcomes without anyone noticing",
+      "monopolies arise naturally from unchecked competition and eventually harm consumers",
+      "wages across industries and regions converge over time as workers move toward higher pay"
     ],
     "answer": "individual self-interest leads to beneficial social outcomes without central direction",
     "explanation": "From The Wealth of Nations (1776): each individual 'intends only his own gain' yet is 'led by an invisible hand to promote an end which was no part of his intention.' Smith used it sparingly — only three times across his collected works.",
@@ -197,9 +197,9 @@
     "prompt": "Irving Fisher's 'debt-deflation theory', set out in 1933 to explain the Great Depression, argued that falling prices made downturns worse mainly because:",
     "choices": [
       "deflation increases the real burden of debt, causing more defaults and further contraction",
-      "falling prices reduce corporate profits and trigger mass layoffs",
-      "deflation causes consumers to delay purchases, reducing aggregate demand",
-      "lower prices destroy collateral values, preventing banks from lending"
+      "falling prices squeeze corporate profit margins and force mass layoffs that cut household income",
+      "deflation leads consumers to delay purchases, shrinking aggregate demand",
+      "lower prices destroy the value of collateral, so banks stop lending to otherwise sound firms"
     ],
     "answer": "deflation increases the real burden of debt, causing more defaults and further contraction",
     "explanation": "Fisher's insight: as prices fall, the real value of debts rises even as nominal values stay fixed. Debtors sell assets to repay loans, driving prices down further — a deflationary spiral. Ironically, Fisher himself had been ruined in the 1929 crash, famously declaring stocks had reached 'a permanently high plateau' days before the crash.",
@@ -245,12 +245,12 @@
     "prompt": "Paul Samuelson's 1948 textbook 'Economics' was significant because it:",
     "choices": [
       "synthesized Keynesian macroeconomics with neoclassical microeconomics into a unified framework",
-      "was the first economics textbook written for undergraduate students",
-      "provided the first mathematical proof of Adam Smith's invisible hand theorem",
-      "introduced the concept of GDP to a popular American audience"
+      "was the first economics textbook ever written specifically for undergraduate students",
+      "provided the first rigorous mathematical proof of Adam Smith's invisible hand theorem",
+      "argued that Keynesian demand management should be abandoned in favour of strict monetarism and balanced budgets"
     ],
     "answer": "synthesized Keynesian macroeconomics with neoclassical microeconomics into a unified framework",
-    "explanation": "Samuelson's 'neoclassical synthesis' made Keynesian analysis of aggregate demand compatible with neoclassical supply-side micro. The textbook sold over 4 million copies and shaped how economics was taught for generations. Samuelson became the first American to win the Nobel Prise in Economics in 1970.",
+    "explanation": "Samuelson's 'neoclassical synthesis' made Keynesian analysis of aggregate demand compatible with neoclassical supply-side micro. The textbook sold over 4 million copies and shaped how economics was taught for generations. Samuelson became the first American to win the Nobel Prize in Economics in 1970.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -274,7 +274,7 @@
       "tax liability"
     ],
     "answer": "property rights",
-    "explanation": "If a factory pollutes a river, it doesn't matter whether the factory or the fishermen have the legal right — they will bargain to the efficient level of pollution. Coase's insight shifted economics toward examining transaction costs as the reason markets sometimes fail. He won the Nobel Prise in 1991.",
+    "explanation": "If a factory pollutes a river, it doesn't matter whether the factory or the fishermen have the legal right — they will bargain to the efficient level of pollution. Coase's insight shifted economics toward examining transaction costs as the reason markets sometimes fail. He won the Nobel Prize in 1991.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -338,7 +338,7 @@
     "category": "economists",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Joseph Stiglitz, George Akerlof, and Michael Spence shared the 2001 Nobel Prise in Economics for their work on markets with 'asymmetric information'. Akerlof's 1970 paper on the 'market for lemons' showed that:",
+    "prompt": "Joseph Stiglitz, George Akerlof, and Michael Spence shared the 2001 Nobel Prize in Economics for their work on markets with 'asymmetric information'. Akerlof's 1970 paper on the 'market for lemons' showed that:",
     "choices": [
       "sellers knowing more than buyers about product quality can cause markets to collapse",
       "monopolistic competition leads to too many low-quality variants of consumer products",
@@ -386,7 +386,7 @@
     "category": "economists",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Elinor Ostrom won the 2009 Nobel Prise for showing that communities can sustainably manage shared resources — forests, fisheries, irrigation systems — without either government regulation or privatization. She was challenging the pessimistic 1968 argument by Garrett Hardin known as the:",
+    "prompt": "Elinor Ostrom won the 2009 Nobel Prize for showing that communities can sustainably manage shared resources — forests, fisheries, irrigation systems — without either government regulation or privatization. She was challenging the pessimistic 1968 argument by Garrett Hardin known as the:",
     "choices": [
       "Tragedy of the Commons",
       "Prisoner's Dilemma",
@@ -413,12 +413,12 @@
     "prompt": "The Solow Growth Model, developed by Robert Solow in 1956, identified which factor as the primary driver of sustained long-run economic growth — beyond labour and capital accumulation?",
     "choices": [
       "Technological progress (total factor productivity)",
-      "Population growth",
-      "Increased savings rates",
-      "International trade openness"
+      "Population growth, which steadily enlarges the labour force over time",
+      "Higher savings rates raising capital per worker",
+      "Greater trade openness and capital flows"
     ],
     "answer": "Technological progress (total factor productivity)",
-    "explanation": "Solow showed that capital and labour accumulation alone predict that growth slows as capital deepens (diminishing returns). Only the unexplained 'residual' — technological progress — can sustain growth indefinitely. Economist Moses Abramovitz called that residual 'a measure of our ignorance'. Solow won the Nobel Prise in 1987.",
+    "explanation": "Solow showed that capital and labour accumulation alone predict that growth slows as capital deepens (diminishing returns). Only the unexplained 'residual' — technological progress — can sustain growth indefinitely. Economist Moses Abramovitz called that residual 'a measure of our ignorance'. Solow won the Nobel Prize in 1987.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -458,9 +458,9 @@
     "category": "economists",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "Milton Friedman argued that the primary cause of the Great Depression was the Federal Reserve's failure to prevent a collapse of the money supply.",
-    "answer": true,
-    "explanation": "In A Monetary History of the United States (1963), Friedman and Schwartz argued the Fed allowed the money supply to contract by one-third between 1929 and 1933, turning a recession into a depression. Ben Bernanke, at Friedman's 90th birthday celebration in 2002, told him: 'You're right, we did it. We're very sorry. But thanks to you, we won't do it again.'",
+    "prompt": "Milton Friedman argued that the primary cause of the Great Depression was the Federal Reserve's excessive expansion of the money supply during the 1920s.",
+    "answer": false,
+    "explanation": "Friedman argued the opposite. In A Monetary History of the United States (1963), he and Anna Schwartz showed the Fed allowed the money supply to contract by about one-third between 1929 and 1933, turning a recession into a depression. Blaming the credit expansion of the 1920s is the Austrian school's line (Hayek and Mises), not Friedman's. Ben Bernanke, at Friedman's 90th birthday celebration in 2002, told him: 'You're right, we did it. We're very sorry. But thanks to you, we won't do it again.'",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -548,7 +548,7 @@
     "category": "economists",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Daron Acemoglu, Simon Johnson, and James Robinson, who shared the 2024 Nobel Prise in Economics, are best known for arguing that differences in long-run prosperity between countries are primarily explained by:",
+    "prompt": "Daron Acemoglu, Simon Johnson, and James Robinson, who shared the 2024 Nobel Prize in Economics, are best known for arguing that differences in long-run prosperity between countries are primarily explained by:",
     "choices": [
       "the quality of their political and economic institutions",
       "their distance from the equator and resulting disease burden",
@@ -684,9 +684,9 @@
     "prompt": "Paul Volcker served as Federal Reserve Chair from 1979 to 1987. He is remembered above all for what accomplishment?",
     "choices": [
       "Deliberately causing a severe recession by raising interest rates above 19% to permanently break double-digit inflation",
-      "Preventing the 2008 financial crisis from becoming a depression by guaranteeing all bank deposits",
-      "Introducing the gold standard that gave the US dollar its stability in the post-war era",
-      "Writing the 1977 legislation that gave the Federal Reserve its 'dual mandate'"
+      "Preventing the 2008 financial crisis from becoming a depression by guaranteeing all US bank deposits, money-market funds and bonds",
+      "Reintroducing the gold standard to restore the dollar's stability after the inflation of the 1970s",
+      "Writing the 1977 legislation that gave the Federal Reserve its dual mandate of price stability and full employment"
     ],
     "answer": "Deliberately causing a severe recession by raising interest rates above 19% to permanently break double-digit inflation",
     "explanation": "Volcker was appointed by Jimmy Carter in 1979 to fight inflation that had exceeded 13%. He raised the federal funds rate above 19% by 1981, causing a deep recession (unemployment peaked above 10%) but ultimately reducing inflation to around 3% by 1983. This 'Volcker disinflation' is widely regarded as one of the defining central-banking successes of the 20th century — demonstrating that credible, resolute monetary policy can cure even entrenched inflation at a steep short-term cost.",
@@ -709,8 +709,8 @@
     "prompt": "Alan Greenspan served as Federal Reserve Chair for 18 years (1987–2006). His famous 'irrational exuberance' speech in December 1996 warned against what?",
     "choices": [
       "Excessive stock market valuations that might be driven by investor psychology rather than fundamentals",
-      "Central banks printing too much money and causing runaway inflation",
-      "Government deficits growing so large they would crowd out private investment",
+      "Central banks printing too much money and ignoring the risk that this would eventually trigger runaway inflation",
+      "Government deficits growing so large that they would crowd out private investment and slow growth",
       "Banks lending too aggressively to emerging-market countries, risking a global debt crisis"
     ],
     "answer": "Excessive stock market valuations that might be driven by investor psychology rather than fundamentals",
@@ -731,12 +731,12 @@
     "category": "economists",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Ben Bernanke won the 2022 Nobel Prise in Economics for academic research done decades before his time as Federal Reserve Chair. What was the core insight of his prise-winning 1983 paper on the Great Depression?",
+    "prompt": "Ben Bernanke won the 2022 Nobel Prize in Economics for academic research done decades before his time as Federal Reserve Chair. What was the core insight of his prize-winning 1983 paper on the Great Depression?",
     "choices": [
       "Bank failures weren't just a symptom of the Depression — they actively worsened it by destroying credit intermediation that firms depended on",
-      "The Great Depression was caused primarily by tariff wars rather than by monetary contraction",
+      "The Great Depression was caused primarily by tariff wars and the collapse of international trade, not by monetary contraction",
       "Central banks should always prioritize financial stability over price stability, even if this means allowing inflation",
-      "The 1929 stock market crash was predictable using price-earnings ratios available to economists at the time"
+      "The 1929 stock market crash was predictable from price-earnings ratios already available to economists, so the Depression could have been avoided"
     ],
     "answer": "Bank failures weren't just a symptom of the Depression — they actively worsened it by destroying credit intermediation that firms depended on",
     "explanation": "Bernanke's 1983 paper argued that the wave of bank failures (which wiped out the knowledge, relationships, and systems needed to evaluate and process loans) caused a lasting collapse in credit supply — making the Depression deeper and longer than pure money supply contraction would explain. This research directly shaped his 2008 decisions: if bank failures had multiplied the Depression, preventing them this time became paramount.",
@@ -759,7 +759,7 @@
     "prompt": "Janet Yellen is notable for several 'firsts' in economic policy. Which statement about her career is accurate?",
     "choices": [
       "She was the first woman to chair the Federal Reserve",
-      "She was the first woman to win the Nobel Prise in Economics",
+      "She was the first woman to win the Nobel Prize in Economics",
       "She was the first woman to chair the President's Council of Economic Advisers",
       "She was the first Federal Reserve Chair to hold a PhD in economics"
     ],
@@ -808,9 +808,9 @@
     "prompt": "Alfred Marshall, the dominant figure in British economics in the late 19th and early 20th centuries, is credited with which fundamental methodological contribution?",
     "choices": [
       "The supply and demand diagram — using geometry to show how price and quantity are jointly determined by the interaction of supply and demand curves",
-      "The concept of GDP — inventing national income accounting to measure aggregate economic output",
-      "The quantity theory of money — using the equation MV = PQ to link money supply to price levels",
-      "The concept of general equilibrium — showing all markets clear simultaneously through Walras's Law"
+      "The concept of GDP: inventing national income accounting to measure a country's total annual economic output",
+      "The quantity theory of money: using the equation MV = PQ to link the money supply to price levels over the long run",
+      "The concept of general equilibrium: showing, through Walras's Law, that every market in a competitive economy clears simultaneously, using a system of mathematical equations rather than diagrams"
     ],
     "answer": "The supply and demand diagram — using geometry to show how price and quantity are jointly determined by the interaction of supply and demand curves",
     "explanation": "Marshall's Principles of Economics (1890) popularized the supply-and-demand diagram (the 'Marshallian cross') that every economics student learns on day one. He also developed concepts of elasticity, consumer surplus, producer surplus, and long-run vs short-run equilibrium. Marshall is often called the founder of neoclassical economics. He famously urged economists to 'burn the mathematics' and translate findings into plain English — though he used mathematics extensively in his work.",
@@ -855,12 +855,12 @@
     "category": "economists",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Robert Mundell won the 1999 Nobel Prise and is often called the 'father of the euro.' His 'Optimal Currency Area' theory asked: when is it worth giving up your own currency? Which condition did he identify as the most important?",
+    "prompt": "Robert Mundell won the 1999 Nobel Prize and is often called the 'father of the euro.' His 'Optimal Currency Area' theory asked: when is it worth giving up your own currency? Which condition did he identify as the most important?",
     "choices": [
       "Labour mobility: if workers can easily move between regions, a single currency works because migration adjusts to regional shocks instead of exchange rates",
-      "Similar trade structures: if all regions export the same goods, a currency union imposes no asymmetric costs",
-      "Fiscal transfers: a common currency only works if a large federal budget redistributes income between regions",
-      "Similar inflation histories: countries with similar past inflation are natural currency union partners"
+      "Similar trade structures: if all regions export the same goods, a currency union imposes no asymmetric costs on any member, so shocks hit everyone alike and no adjustment mechanism is needed",
+      "Fiscal transfers: a common currency only works if a large federal budget redistributes income between regions hit by different shocks",
+      "Similar inflation histories: countries with comparable past inflation rates are natural currency union partners because their wage-setting habits match"
     ],
     "answer": "Labour mobility: if workers can easily move between regions, a single currency works because migration adjusts to regional shocks instead of exchange rates",
     "explanation": "Mundell's OCA theory (1961) showed that when a region faces an asymmetric shock (e.g., a recession hitting one country but not another), a currency union member cannot devalue to restore competitiveness. The substitute adjustment mechanisms are: labour migration, wage flexibility, or fiscal transfers. The eurozone was criticized for having insufficient labour mobility and no common fiscal stabilizer — weaknesses exposed by the 2010–12 crisis where southern European countries couldn't devalue and couldn't easily transfer workers to Germany. Mundell was born in Ontario and studied at the University of British Columbia.",
@@ -908,9 +908,9 @@
     "prompt": "Lawrence Summers served as US Treasury Secretary (1999–2001) and was a leading macroeconomist. After the 2008 crisis, he revived which concept to explain persistently slow economic growth?",
     "choices": [
       "Secular stagnation: the idea that the neutral real interest rate may have fallen permanently, making it difficult for monetary policy to achieve full employment",
-      "Creative destruction: the argument that the crisis was clearing out inefficient firms, paving the way for stronger future growth",
-      "Liquidity trap: the Keynesian idea that near-zero interest rates make monetary policy ineffective",
-      "Dutch disease: the proposition that the US financial sector had grown so large it crowded out productive investment in manufacturing"
+      "Creative destruction: the argument that the crisis was clearing out inefficient firms and reallocating resources, paving the way for stronger long-run growth",
+      "Liquidity trap: the Keynesian idea that near-zero interest rates make monetary policy ineffective at stimulating demand",
+      "Dutch disease: the proposition that the US financial sector had grown so large it crowded out productive investment in manufacturing and other tradable goods industries, leaving the economy unable to export its way out of recession"
     ],
     "answer": "Secular stagnation: the idea that the neutral real interest rate may have fallen permanently, making it difficult for monetary policy to achieve full employment",
     "explanation": "Summers revived Alvin Hansen's 1938 'secular stagnation' thesis in a 2013 IMF speech, arguing that the neutral real interest rate — the rate consistent with full employment and stable inflation — may have turned negative due to ageing populations, rising inequality, and a global savings glut. If so, central banks might chronically struggle to stimulate the economy without inflating bubbles. The concept became highly influential in the 2010s before the post-COVID inflation surge complicated the narrative.",
@@ -933,12 +933,12 @@
     "prompt": "James Tobin proposed a small tax on foreign exchange transactions — often called the 'Tobin tax' — to reduce currency speculation. He also developed 'Tobin's q,' a ratio used in investment theory. What does Tobin's q measure?",
     "choices": [
       "The ratio of a company's market value to the replacement cost of its assets — above 1.0 suggests new investment is worthwhile",
-      "The ratio of a country's exports to its imports, adjusted for currency fluctuations",
-      "The ratio of stock price to earnings expected over the next 10 years",
-      "The ratio of tax revenue to GDP, indicating the efficiency of a country's tax system"
+      "The ratio of a country's exports to its imports, adjusted for currency fluctuations and trade-weighted exchange rates",
+      "The ratio of a stock's price to its average earnings expected over the next ten years, used to judge valuations",
+      "The ratio of tax revenue to GDP, indicating how efficiently a country's tax system collects revenue from citizens and businesses across the economy"
     ],
     "answer": "The ratio of a company's market value to the replacement cost of its assets — above 1.0 suggests new investment is worthwhile",
-    "explanation": "Tobin's q = market value / replacement cost of physical capital. If q > 1, the market values capital above what it costs to create new capital, so businesses should invest more. If q < 1, it's cheaper to buy existing capacity than build new, so investment declines. Tobin's q is used to predict investment cycles and assess stock market valuations (when aggregate q is high, the whole market may be overvalued). Tobin won the 1981 Nobel Prise.",
+    "explanation": "Tobin's q = market value / replacement cost of physical capital. If q > 1, the market values capital above what it costs to create new capital, so businesses should invest more. If q < 1, it's cheaper to buy existing capacity than build new, so investment declines. Tobin's q is used to predict investment cycles and assess stock market valuations (when aggregate q is high, the whole market may be overvalued). Tobin won the 1981 Nobel Prize.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -957,12 +957,12 @@
     "format": "mc",
     "prompt": "William Baumol identified 'Baumol's cost disease,' which explains why services like education, healthcare, and live music tend to get relatively more expensive over time even when quality doesn't change. What is his explanation?",
     "choices": [
-      "Productivity growth in services is inherently low (you can't play a string quartet with two musicians), so rising wages in the productive economy spill over as higher costs in services",
-      "Government regulation artificially raises the cost of services while allowing goods prices to fall freely",
-      "Services require more energy than manufactured goods, so rising energy prices disproportionately affect the service sector",
-      "The service sector attracts lower-quality workers, so quality-adjusted costs must rise to attract talent as the economy grows"
+      "Productivity growth in services is inherently low (a string quartet still needs four musicians), so rising wages in the productive economy spill over as higher costs in services",
+      "Government regulation artificially raises the cost of services while allowing goods prices to fall freely, so services inflate faster than manufactured goods and consumers pay for red tape rather than for better quality",
+      "Services require far more energy than manufactured goods, so rising energy prices disproportionately raise costs in the service sector over time",
+      "The service sector attracts lower-quality workers, so quality-adjusted costs must rise to attract talent as the economy grows and wages rise elsewhere"
     ],
-    "answer": "Productivity growth in services is inherently low (you can't play a string quartet with two musicians), so rising wages in the productive economy spill over as higher costs in services",
+    "answer": "Productivity growth in services is inherently low (a string quartet still needs four musicians), so rising wages in the productive economy spill over as higher costs in services",
     "explanation": "Baumol's insight: a string quartet in 1800 required four musicians playing for 40 minutes; it still does today — no productivity gain. But as wages rise economy-wide (due to productivity gains elsewhere), musicians must be paid more. Services become relatively more expensive over time not because they waste resources but because labour productivity growth is harder to achieve in them. This helps explain why healthcare, education, and childcare take ever-larger shares of GDP.",
     "source": null,
     "as_of": null,
@@ -1007,12 +1007,12 @@
     "prompt": "Kenneth Arrow's 'impossibility theorem' (1951) is one of social choice theory's most important results. What does it prove?",
     "choices": [
       "No voting system can convert individual ranked preferences into a consistent social ranking while satisfying all reasonable fairness conditions simultaneously",
-      "Competitive markets cannot produce a Pareto-efficient allocation unless all externalities are priced correctly",
-      "No central planner can replicate the information-processing capacity of a competitive market",
-      "Majority rule always produces a voting cycle unless at least one participant has 'single-peaked' preferences"
+      "Competitive markets cannot produce a Pareto-efficient allocation unless all externalities are priced correctly and property rights are fully defined, which is why governments must always intervene",
+      "No central planner can replicate the information-processing capacity of a competitive market, however powerful the computers they use",
+      "Majority rule always produces a voting cycle unless at least one participant has 'single-peaked' preferences over the alternatives"
     ],
     "answer": "No voting system can convert individual ranked preferences into a consistent social ranking while satisfying all reasonable fairness conditions simultaneously",
-    "explanation": "Arrow proved that if there are three or more alternatives and at least two voters, no ranked voting system can simultaneously satisfy: unrestricted domain (any set of rankings is allowed); unanimity (if everyone prefers A to B, society prefers A); independence of irrelevant alternatives; and non-dictatorship. This is deeply unsettling for democratic theory: it implies there is no 'will of the people' that can be cleanly aggregated from individual preferences. Arrow won the 1972 Nobel Prise.",
+    "explanation": "Arrow proved that if there are three or more alternatives and at least two voters, no ranked voting system can simultaneously satisfy: unrestricted domain (any set of rankings is allowed); unanimity (if everyone prefers A to B, society prefers A); independence of irrelevant alternatives; and non-dictatorship. This is deeply unsettling for democratic theory: it implies there is no 'will of the people' that can be cleanly aggregated from individual preferences. Arrow won the 1972 Nobel Prize.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1029,7 +1029,7 @@
     "category": "economists",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Paul Krugman won the 2008 Nobel Prise for his 'new trade theory,' which challenged classical comparative advantage explanations of trade. His key insight was that:",
+    "prompt": "Paul Krugman won the 2008 Nobel Prize for his 'new trade theory,' which challenged classical comparative advantage explanations of trade. His key insight was that:",
     "choices": [
       "Even identical countries can profitably trade manufactured goods due to economies of scale and consumers' love of variety",
       "Free trade always benefits both countries only when one country has an absolute advantage in everything",
@@ -1054,12 +1054,12 @@
     "category": "economists",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "James Buchanan won the 1986 Nobel Prise for public choice theory. His central insight was that politicians, bureaucrats, and voters should be modelled as:",
+    "prompt": "James Buchanan won the 1986 Nobel Prize for public choice theory. His central insight was that politicians, bureaucrats, and voters should be modelled as:",
     "choices": [
       "Self-interested rational agents who maximize their own welfare, rather than benevolent planners pursuing the public good",
-      "Irrational actors driven by ideology who systematically ignore economic efficiency",
-      "Perfectly informed agents who can always identify and correct market failures",
-      "Social welfare maximizers constrained by constitutional rules they cannot change"
+      "Irrational actors driven by ideology who systematically ignore economic efficiency whenever they make political or bureaucratic choices",
+      "Perfectly informed agents who can always identify and correct market failures through collective action",
+      "Social welfare maximizers constrained by constitutional rules that they have no power to change"
     ],
     "answer": "Self-interested rational agents who maximize their own welfare, rather than benevolent planners pursuing the public good",
     "explanation": "Buchanan's 'politics without romance' applied the standard economic assumption of self-interest to government actors. Politicians maximize votes; bureaucrats maximize budgets; interest groups maximize rents. This leads to systematic government failures: spending beyond the socially optimal level, regulatory capture, deficit bias, and concentrated benefits at diffuse costs. Buchanan's work provided the intellectual foundation for constitutional constraints on government (balanced budget amendments, independent central banks, etc.).",
@@ -1079,7 +1079,7 @@
     "category": "economists",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Robert Shiller won the 2013 Nobel Prise partly for developing the CAPE ratio (also called the 'Shiller PE ratio'). What does CAPE stand for and what does it measure?",
+    "prompt": "Robert Shiller won the 2013 Nobel Prize partly for developing the CAPE ratio (also called the 'Shiller PE ratio'). What does CAPE stand for and what does it measure?",
     "choices": [
       "Cyclically Adjusted Price-to-Earnings — stock price divided by average inflation-adjusted earnings over the past 10 years",
       "Capital Asset Pricing Equilibrium — a model for predicting stock returns using interest rates and GDP growth",
@@ -1107,9 +1107,9 @@
     "prompt": "Robert Lucas's 'Lucas critique' (1976) had a major impact on macroeconomic modelling. What did it show?",
     "choices": [
       "Econometric relationships estimated from historical data break down when policy changes, because agents' expectations and behaviour adjust to the new policy regime",
-      "Mathematical models in economics are inherently incapable of predicting recessions because human behaviour is too complex",
-      "Central banks should never respond to stock market movements because this introduces instability into monetary policy",
-      "Fiscal multipliers are always zero because Ricardian equivalence ensures households save any government spending"
+      "Mathematical models in economics are inherently incapable of predicting recessions because human behaviour is far too complex to capture, so economists should abandon forecasting models altogether",
+      "Central banks should never respond to stock market movements because doing so introduces instability into monetary policy",
+      "Fiscal multipliers are always zero because Ricardian equivalence ensures households save any government spending in full"
     ],
     "answer": "Econometric relationships estimated from historical data break down when policy changes, because agents' expectations and behaviour adjust to the new policy regime",
     "explanation": "Lucas showed that historical correlations between policy variables and economic outcomes reflect a particular policy regime and agents' expectations about it. When the policy changes, agents update their behaviour, invalidating the old correlations. For example, the historical Phillips curve (lower unemployment → higher inflation) broke down when central banks used it as a policy target — because workers incorporated the expected policy into their wage demands. Lucas's critique spurred the rational expectations revolution and dynamic stochastic general equilibrium (DSGE) modelling.",
@@ -1193,12 +1193,12 @@
     "category": "economists",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Claudia Goldin won the 2023 Nobel Prise in Economics for advancing our understanding of women's labour-market outcomes. What did her research identify as a major driver of the remaining gender pay gap, especially after couples have children?",
+    "prompt": "Claudia Goldin won the 2023 Nobel Prize in Economics for advancing our understanding of women's labour-market outcomes. What did her research identify as a major driver of the remaining gender pay gap, especially after couples have children?",
     "choices": [
       "'Greedy work': jobs that pay disproportionately more for long, inflexible, on-call hours, a premium that tends to fall hardest on mothers",
-      "Women choosing lower-paying occupations, with little pay gap between men and women in the same occupation",
-      "Women negotiating less aggressively than men, which accounts for essentially the whole gap",
-      "The gap has not narrowed at all since the 1970s once hours worked are taken into account"
+      "Women choosing lower-paying occupations, with little pay gap between men and women in the same occupation and the same hours, so the problem is purely one of occupational choice",
+      "Women negotiating less aggressively than men, which accounts for essentially the whole of the remaining gap",
+      "The gap has not narrowed at all since the 1970s once hours worked are taken into account in the comparison"
     ],
     "answer": "'Greedy work': jobs that pay disproportionately more for long, inflexible, on-call hours, a premium that tends to fall hardest on mothers",
     "explanation": "Goldin found that much of today's pay gap arises within occupations and widens after the first child, because some high-paying jobs reward long, inflexible and unpredictable hours disproportionately ('greedy work') — and in couples that burden has tended to fall on women. Discrimination mattered more historically. She argues that reorganizing work so employees are more substitutable for one another would shrink the penalty.",
@@ -1245,12 +1245,12 @@
     "format": "mc",
     "prompt": "Herman Daly is associated with 'ecological economics' and championed the concept of the 'steady-state economy.' How does it differ from the mainstream economic goal of growth?",
     "choices": [
-      "A steady-state economy keeps the throughput of matter and energy low and roughly constant, recognizing that physical growth cannot continue forever on a finite planet — development should happen qualitatively, not quantitatively",
-      "A steady-state economy is one where GDP growth exactly matches population growth, keeping GDP per capita constant",
-      "A steady-state economy uses only renewable energy and recycles all materials, eliminating pollution and waste entirely",
-      "A steady-state economy is a managed recession — deliberately reducing GDP to pre-industrial levels to restore ecological balance"
+      "A steady-state economy keeps the throughput of matter and energy low and roughly constant, recognizing that physical growth cannot continue forever on a finite planet, so development should be qualitative rather than quantitative",
+      "A steady-state economy is one where GDP growth exactly matches population growth, keeping GDP per capita constant while total output continues to rise in line with the number of people living in the economy",
+      "A steady-state economy uses only renewable energy and recycles all materials, eliminating pollution and waste entirely so that the economy can keep growing indefinitely without any environmental damage",
+      "A steady-state economy is a managed recession: deliberately reducing GDP to pre-industrial levels to restore ecological balance, with output falling year after year until the natural environment has fully recovered and growth can resume"
     ],
-    "answer": "A steady-state economy keeps the throughput of matter and energy low and roughly constant, recognizing that physical growth cannot continue forever on a finite planet — development should happen qualitatively, not quantitatively",
+    "answer": "A steady-state economy keeps the throughput of matter and energy low and roughly constant, recognizing that physical growth cannot continue forever on a finite planet, so development should be qualitative rather than quantitative",
     "explanation": "Daly argued that the economy is a subsystem of the biosphere — it cannot grow beyond the physical limits of the planet. A steady-state economy maintains population and capital stock at levels that can be sustained indefinitely. Development (improvement in efficiency and wellbeing) continues; quantitative growth (more stuff) does not. His work challenged the universal equation of economic progress with GDP growth and influenced environmental economics and the degrowth movement.",
     "source": null,
     "as_of": null,
@@ -1271,9 +1271,9 @@
     "prompt": "Yanis Varoufakis served as Greece's Finance Minister for about five months in 2015 (January to July), at the peak of the Greek debt crisis. He is known for which approach to negotiations with creditors?",
     "choices": [
       "Adopting a confrontational game-theoretic approach, refusing to accept further austerity conditions — which ultimately failed when Greece accepted a third bailout",
-      "Successfully renegotiating Greece's debt to reduce its principal by 50%, achieving what other finance ministers called impossible",
-      "Proposing that Greece leave the euro (Grexit) and he himself arguing this was the best solution for Greece",
-      "Negotiating a secret deal with Russia for a bilateral loan that would have replaced the EU bailout"
+      "Successfully renegotiating Greece's debt to cut its principal by 50%, achieving what other eurozone finance ministers had called impossible, and returning home to a hero's welcome",
+      "Proposing that Greece leave the euro (Grexit) and arguing publicly that this was the best solution for Greece",
+      "Negotiating a secret bilateral loan from Russia that would have replaced the EU bailout and saved Greece from austerity"
     ],
     "answer": "Adopting a confrontational game-theoretic approach, refusing to accept further austerity conditions — which ultimately failed when Greece accepted a third bailout",
     "explanation": "Varoufakis, an academic game theorist, believed that creditors would ultimately prefer a deal to a default and applied this logic in negotiations. But Europe's creditors called his bluff — Greece held a referendum rejecting the bailout terms in July 2015; Varoufakis resigned the next day, and Tsipras then accepted an even harsher deal anyway. Critics argued his game theory was correct in theory but failed in practice because creditors' actual preferences (punishing Greece to deter other countries) differed from his assumptions.",
@@ -1294,9 +1294,9 @@
     "category": "economists",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "True or false: George Akerlof and Janet Yellen are married to each other — an economist couple whose combined work includes information asymmetry, efficiency wages and macroeconomic policy.",
-    "answer": true,
-    "explanation": "George Akerlof (2001 Nobel Prise for information asymmetry — 'The Market for Lemons') and Janet Yellen (Fed Chair 2014–18, Treasury Secretary 2021–25, labour economist) have been married since 1978. They collaborated on research into efficiency wages — the idea that above-market wages boost productivity by reducing shirking and turnover — in the 1980s. They are arguably the most powerful couple in the history of economics and economic policy.",
+    "prompt": "True or false: Janet Yellen is married to fellow Nobel laureate Joseph Stiglitz.",
+    "answer": false,
+    "explanation": "Yellen has been married since 1978 to George Akerlof, not Joseph Stiglitz. The mix-up is understandable: Akerlof shared the 2001 Nobel Prize with Stiglitz and Michael Spence for work on information asymmetry ('The Market for Lemons'). Yellen (Fed Chair 2014-18, Treasury Secretary 2021-25) is a labour economist, and the couple collaborated on efficiency-wage research in the 1980s: the idea that above-market wages boost productivity by reducing shirking and turnover.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1315,12 +1315,12 @@
     "format": "mc",
     "prompt": "The 'Washington Consensus' — a set of economic reform prescriptions for developing countries, coined by economist John Williamson in 1989 — was later heavily criticized. Which of these was a central criticism?",
     "choices": [
-      "Its emphasis on rapid liberalization, privatization, and fiscal austerity often destabilized developing economies instead of creating sustainable growth, as in Russia and Latin America in the 1990s",
-      "It was developed without any input from developing-country economists and only reflected the interests of Wall Street banks",
-      "Its prescriptions were never implemented by any country, so there was no evidence on whether they worked",
-      "It recommended heavy state ownership of industry, which discouraged private investment"
+      "Its emphasis on rapid liberalization, privatization, and fiscal austerity often destabilized developing economies rather than producing sustainable growth, as in Russia and Latin America in the 1990s",
+      "It was developed without any input from developing-country economists and reflected only the interests of Wall Street banks and the US Treasury during the 1980s debt crisis, which is why every country rejected it",
+      "Its prescriptions were never implemented by any country, so there was no evidence on whether the reforms worked in practice anywhere in the developing world",
+      "It recommended heavy state ownership of industry and strict capital controls, which discouraged private investment and slowed growth across Latin America"
     ],
-    "answer": "Its emphasis on rapid liberalization, privatization, and fiscal austerity often destabilized developing economies instead of creating sustainable growth, as in Russia and Latin America in the 1990s",
+    "answer": "Its emphasis on rapid liberalization, privatization, and fiscal austerity often destabilized developing economies rather than producing sustainable growth, as in Russia and Latin America in the 1990s",
     "explanation": "Williamson's term described 10 policy recommendations including fiscal discipline, tax reform, trade liberalization, privatization, and deregulation. When applied rapidly (as the IMF sometimes required), the results were often devastating: Russia's 'shock therapy' created oligarchs and prolonged recession; IMF austerity during the 1997 Asian crisis deepened the downturn. Rodrik, Stiglitz, and others argued that successful development required heterodox policies tailored to local conditions, not a one-size-fits-all template.",
     "source": null,
     "as_of": null,
@@ -1340,13 +1340,13 @@
     "format": "mc",
     "prompt": "Mo Ibrahim is a Sudanese-British telecoms entrepreneur and philanthropist, not an academic economist. Yet he created the Ibrahim Index of African Governance (IIAG), which has become an important tool in development economics. What does the IIAG measure?",
     "choices": [
-      "A composite governance score for each African country across four areas: security and the rule of law; participation, rights and inclusion; foundations for economic opportunity; and human development",
-      "Annual GDP growth rates across all 54 African countries adjusted for oil and mining revenues",
-      "The level of corruption as measured by business executive surveys and reported bribes in each African country",
-      "African countries' compliance with IMF structural adjustment program conditions"
+      "A composite governance score for each African country across four areas: security and rule of law; participation, rights and inclusion; foundations for economic opportunity; and human development",
+      "A ranking of annual GDP growth across all 54 African countries, adjusted for the revenue each earns from oil, mining and other natural resources, published every year since the index launched in 2007",
+      "The level of corruption in each African country, as measured by surveys of business executives, reported bribe payments by firms, and rankings compiled by anti-corruption campaigners",
+      "African countries' compliance with the conditions of IMF structural adjustment programs, scored each year by IMF staff on a four-point scale of cooperation"
     ],
-    "answer": "A composite governance score for each African country across four areas: security and the rule of law; participation, rights and inclusion; foundations for economic opportunity; and human development",
-    "explanation": "Mo Ibrahim, who made his fortune in telecoms (Celtel), established the Mo Ibrahim Foundation in 2006. The IIAG scores all 54 African countries on governance quality. He also created the Mo Ibrahim Prise — reportedly the world's largest individual prise ($5 million over 10 years + $200,000/year for life) — given to African heads of state or government who governed well and left office voluntarily. The premise: if you can earn more from the prise than from corruption, leaders may govern better.",
+    "answer": "A composite governance score for each African country across four areas: security and rule of law; participation, rights and inclusion; foundations for economic opportunity; and human development",
+    "explanation": "Mo Ibrahim, who made his fortune in telecoms (Celtel), established the Mo Ibrahim Foundation in 2006. The IIAG scores all 54 African countries on governance quality. He also created the Mo Ibrahim Prize — reportedly the world's largest individual prize ($5 million over 10 years + $200,000/year for life) — given to African heads of state or government who governed well and left office voluntarily. The premise: if you can earn more from the prize than from corruption, leaders may govern better.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1365,12 +1365,12 @@
     "format": "mc",
     "prompt": "Adam Smith's foundational insight about the division of labour is illustrated in 'The Wealth of Nations' using which famous manufacturing example?",
     "choices": [
-      "A pin factory: one worker making a complete pin per day vs. 10 workers dividing the task into 18 steps, producing thousands of pins per day",
-      "A flour mill: water-powered milling producing 100 times more flour per worker than hand-grinding",
-      "A shipyard: naval vessels assembled from standardized parts faster than individually crafted ships",
-      "A weaving workshop: the flying shuttle allowing one weaver to do the work of three"
+      "A pin factory: one worker making a complete pin per day versus 10 workers dividing the task into 18 steps and producing thousands of pins per day",
+      "A flour mill: water-powered milling producing 100 times more flour per worker than hand-grinding, with each miller specializing in a single stage of the process",
+      "A shipyard: naval vessels assembled from standardized parts far faster than individually crafted ships, with specialist crews for each stage of the hull",
+      "A weaving workshop: the flying shuttle allowing one weaver to do the work of three, so that weavers' wages tripled"
     ],
-    "answer": "A pin factory: one worker making a complete pin per day vs. 10 workers dividing the task into 18 steps, producing thousands of pins per day",
+    "answer": "A pin factory: one worker making a complete pin per day versus 10 workers dividing the task into 18 steps and producing thousands of pins per day",
     "explanation": "Smith's famous pin factory example in Chapter 1 of Wealth of Nations shows that dividing the production of pins into 18 distinct operations — drawing wire, straightening, cutting, pointing, grinding, whitening, packaging — allows ten workers to produce 48,000 pins per day. Smith reckoned one worker doing every step alone could scarcely make one pin a day, and certainly not twenty. This division of labour requires specialization, trade, and coordination — the foundation of Smith's argument for market exchange.",
     "source": null,
     "as_of": null,
@@ -1392,8 +1392,8 @@
     "choices": [
       "The tendency for large organizations (trade unions, cooperatives, retail chains) to arise to offset the market power of large corporations",
       "The way democratic governments counterbalance the power of financial markets through regulation",
-      "The competitive pressure that foreign imports exert on domestic monopolies, preventing excessive prices",
-      "The economic power of consumers — who, by refusing to buy overpriced goods, discipline corporate pricing"
+      "The competitive pressure that foreign imports exert on domestic monopolies, preventing them from charging excessive prices to consumers and forcing them to cut costs",
+      "The economic power of consumers, who by refusing to buy overpriced goods discipline corporate pricing and force companies to cut prices across the economy"
     ],
     "answer": "The tendency for large organizations (trade unions, cooperatives, retail chains) to arise to offset the market power of large corporations",
     "explanation": "Galbraith's 1952 book 'American Capitalism' argued that large corporate power doesn't necessarily lead to exploitation because it creates countervailing powers: trade unions arise to balance corporate power over workers; large retailers like Sears and A&P can balance the power of large manufacturers; farm cooperatives balance the power of food processors. This challenged both classical laissez-faire (big firms are fine) and progressive calls for anti-trust breakups (natural countervailing forces will emerge).",
@@ -1413,14 +1413,14 @@
     "category": "economists",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Daron Acemoglu, Simon Johnson, and James Robinson, who shared the 2024 Nobel Prise, argued that institutional quality explains why some countries are rich and others poor. Their most famous evidence was based on which natural experiment?",
+    "prompt": "Daron Acemoglu, Simon Johnson, and James Robinson, who shared the 2024 Nobel Prize, argued that institutional quality explains why some countries are rich and others poor. Their most famous evidence was based on which natural experiment?",
     "choices": [
-      "Comparing European colonizer mortality rates: where Europeans died of tropical disease, they set up extractive institutions; where they could settle, they created inclusive ones — and the institutions persisted",
-      "Comparing North and South Korea: showing that identical initial conditions produced radically different outcomes under different political systems",
-      "Comparing African countries with different colonial borders, showing that arbitrary partitioning reduced institutional quality",
-      "Comparing city-states with democracies in ancient Greece and their relative economic performance"
+      "Comparing European colonizer mortality rates: where Europeans died of tropical disease they set up extractive institutions, and where they could settle they created inclusive ones that persisted",
+      "Comparing North and South Korea: showing that near-identical initial conditions produced radically different outcomes under different political and economic systems",
+      "Comparing African countries with different colonial borders: showing that the arbitrary partitioning of ethnic groups sharply reduced institutional quality and growth across the whole continent for many decades",
+      "Comparing city-states and democracies in ancient Greece: showing that open political participation led to faster economic growth than rule by tyrants"
     ],
-    "answer": "Comparing European colonizer mortality rates: where Europeans died of tropical disease, they set up extractive institutions; where they could settle, they created inclusive ones — and the institutions persisted",
+    "answer": "Comparing European colonizer mortality rates: where Europeans died of tropical disease they set up extractive institutions, and where they could settle they created inclusive ones that persisted",
     "explanation": "Their 2001 AER paper 'The Colonial Origins of Comparative Development' used European settler mortality as an instrument for institutional quality. Where disease made European settlement risky (Africa, Caribbean, South America), colonizers set up extractive institutions to exploit resources without settling. Where conditions allowed settlement (North America, Australia, New Zealand), they transplanted inclusive institutions. Centuries later, places with inclusive institutions are much richer, even after controlling for geography and many other factors.",
     "source": null,
     "as_of": null,
@@ -1439,9 +1439,9 @@
     "category": "economists",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "True or false: Joseph Schumpeter, who popularized 'creative destruction,' was pessimistic about the long-term survival of capitalism — he believed capitalism's own success would eventually undermine the entrepreneurial spirit that drove it.",
-    "answer": true,
-    "explanation": "In 'Capitalism, Socialism and Democracy' (1942), Schumpeter made a surprising prediction: capitalism would be replaced not because it fails economically but because it succeeds too well. Large corporations would routinize and bureaucratize the innovation process; the intellectual and cultural environment created by capitalism would turn against it; and the capitalist class would lose the will to defend the system. This is different from Marx's prediction (capitalism collapses from contradictions) — Schumpeter thought capitalism would transform into a managed quasi-socialist system.",
+    "prompt": "True or false: Joseph Schumpeter, who popularized 'creative destruction,' was optimistic about the long-term survival of capitalism. He believed its success would keep reinforcing the entrepreneurial spirit that drove it.",
+    "answer": false,
+    "explanation": "Schumpeter predicted the opposite. In 'Capitalism, Socialism and Democracy' (1942) he argued that capitalism would be replaced not because it fails economically but because it succeeds too well: large corporations would routinize and bureaucratize innovation, the intellectual and cultural environment capitalism creates would turn against it, and the capitalist class would lose the will to defend the system. This differs from Marx's prediction (collapse from internal contradictions): Schumpeter thought capitalism would transform into a managed, quasi-socialist system.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1461,9 +1461,9 @@
     "prompt": "Mohamed El-Erian, former CEO of PIMCO (one of the world's largest bond managers), popularized which concept to describe the post-2008 global economic environment of slow growth, deleveraging, and near-zero interest rates?",
     "choices": [
       "The 'New Normal': a prolonged era of below-average growth and low interest rates as the global economy deleveraged from the debt accumulated before 2008",
-      "The 'Great Moderation 2.0': continued low inflation and stable growth but at a slower pace than pre-crisis",
-      "The 'Secular Boom': as emerging markets took over from developed economies as the engine of global growth",
-      "The 'Liquidity Trap': permanent zero lower bound for interest rates making monetary policy permanently impotent"
+      "The 'Great Moderation 2.0': continued low inflation and stable growth, but at a slower pace than before the crisis",
+      "The 'Secular Boom': a long expansion as emerging markets took over from developed economies as the engine of global growth",
+      "The 'Liquidity Trap': a permanent zero lower bound for interest rates that makes monetary policy permanently impotent in advanced economies, however large the stimulus"
     ],
     "answer": "The 'New Normal': a prolonged era of below-average growth and low interest rates as the global economy deleveraged from the debt accumulated before 2008",
     "explanation": "El-Erian popularized 'New Normal' in 2009 to describe the post-2008 macroeconomic environment: subdued growth, high unemployment, persistent low interest rates, deleveraging by households and governments, and heightened regulatory risk for financial institutions. The concept became one of the most-cited frameworks for understanding the 2010s. It was later challenged by the post-COVID inflation surge, which El-Erian also wrote extensively about.",
@@ -1486,9 +1486,9 @@
     "prompt": "Anne Krueger coined the concept of 'rent-seeking' in a famous 1974 paper. How does rent-seeking differ from ordinary profit-seeking?",
     "choices": [
       "Rent-seeking involves using political connections or lobbying to capture artificially created monopoly profits, rather than creating value through production",
-      "Rent-seeking involves extracting income from land and natural resources rather than from human labour or capital",
-      "Rent-seeking is Adam Smith's term for price-gouging by landlords who own scarce urban land",
-      "Rent-seeking describes competition among firms to attract tenants to commercial real estate developments"
+      "Rent-seeking involves extracting income from land and natural resources rather than from human labour or capital invested in production",
+      "Rent-seeking is Adam Smith's term for price-gouging by landlords who own scarce urban land and charge tenants whatever the market will bear, regardless of competition",
+      "Rent-seeking describes competition among firms to attract tenants to commercial real estate developments in city centres"
     ],
     "answer": "Rent-seeking involves using political connections or lobbying to capture artificially created monopoly profits, rather than creating value through production",
     "explanation": "Krueger defined rent-seeking as competition to capture 'rents' — income above the competitive return — created by government policies (import quotas, licenses, regulations). Firms spend real resources lobbying for such rents; this spending is a deadweight social cost with no corresponding output. The concept explains why import quotas are worse than tariffs (quotas create rents captured by importers; tariffs at least go to the government) and why deregulation improves efficiency. It became central to public choice theory.",

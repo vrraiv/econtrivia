@@ -75,9 +75,9 @@
     "prompt": "The Dutch East India Company (VOC), founded in 1602, is often described as the world's first publicly traded company. On which exchange did its shares trade?",
     "choices": [
       "Amsterdam Stock Exchange",
-      "London Stock Exchange",
-      "Antwerp Bourse",
-      "Hamburg Exchange"
+      "London Royal Exchange",
+      "Antwerp Bourse (Flanders)",
+      "Hamburg Stock Exchange"
     ],
     "answer": "Amsterdam Stock Exchange",
     "explanation": "The Amsterdam Stock Exchange (Amsterdamsche Beurs) was established in 1602 specifically to trade VOC shares. It is often called the first modern stock exchange, where traders developed practices such as short selling, options and margin trading.",
@@ -147,9 +147,9 @@
     "prompt": "The Diners Club card, launched in 1950, is generally recognized as the world's first general-purpose charge card. In which city was it first used?",
     "choices": [
       "New York City",
-      "Chicago",
+      "Chicago, Illinois",
       "Los Angeles",
-      "London"
+      "London, England"
     ],
     "answer": "New York City",
     "explanation": "Frank McNamara founded Diners Club after reportedly forgetting his wallet at a restaurant. The first cards were used at select New York restaurants in 1950. Unlike today's credit cards, early Diners Club cards required full payment each month.",
@@ -192,9 +192,9 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "Germany introduced the world's first national old-age pension system, under Chancellor Bismarck, in 1889.",
-    "answer": true,
-    "explanation": "Bismarck's Old Age and Disability Insurance Law (1889) created the first state-run contributory pension, covering workers aged 70 and older. The retirement age was later lowered. The scheme was partly designed to undercut socialist political movements by giving workers a stake in the existing order.",
+    "prompt": "Britain introduced the world's first national old-age pension system, under Chancellor of the Exchequer David Lloyd George, in 1909.",
+    "answer": false,
+    "explanation": "Germany was first. Bismarck's Old Age and Disability Insurance Law (1889) created the first state-run contributory pension, covering workers aged 70 and older (the age was later lowered). Britain's non-contributory Old-Age Pensions Act followed in 1908, with the first payments made on 1 January 1909 while Lloyd George was Chancellor. The German scheme was partly designed to undercut socialist political movements by giving workers a stake in the existing order.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -314,8 +314,8 @@
     "choices": [
       "United Kingdom",
       "United States",
-      "France",
-      "Germany"
+      "Weimar Germany",
+      "Third Republic France"
     ],
     "answer": "United Kingdom",
     "explanation": "Britain suspended gold convertibility on 21 September 1931 under intense speculative pressure on sterling. The US followed in 1933 (domestically) and 1971 (internationally). Countries that left gold early generally recovered from the Depression faster than those that clung to it.",
@@ -358,11 +358,11 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "numeric",
-    "prompt": "In what year was the first Nobel Memorial Prise in Economic Sciences awarded?",
+    "prompt": "In what year was the first Nobel Memorial Prize in Economic Sciences awarded?",
     "answer": 1969,
     "unit": "",
     "tolerance": 0,
-    "explanation": "The Sveriges Riksbank Prise in Economic Sciences in Memory of Alfred Nobel was first awarded in 1969 to Ragnar Frisch and Jan Tinbergen. It was established by Sweden's central bank (the Riksbank) to commemorate its 300th anniversary — not part of Alfred Nobel's original will.",
+    "explanation": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel was first awarded in 1969 to Ragnar Frisch and Jan Tinbergen. It was established by Sweden's central bank (the Riksbank) to commemorate its 300th anniversary — not part of Alfred Nobel's original will.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/",
     "as_of": null,
     "time_sensitive": false,
@@ -496,8 +496,8 @@
     "prompt": "The South Sea Bubble of 1720, one of history's first major stock market crashes, occurred in which country?",
     "choices": [
       "Great Britain",
-      "Netherlands",
-      "France",
+      "The Netherlands",
+      "Kingdom of France",
       "Spain"
     ],
     "answer": "Great Britain",
@@ -568,7 +568,7 @@
       "John Kenneth Galbraith"
     ],
     "answer": "Simon Kuznets",
-    "explanation": "Simon Kuznets developed national income accounting for the US Commerce Department (1934 report) and is the father of GDP measurement. He won the Nobel Prise in 1971. Kuznets himself warned that GDP poorly measures economic welfare — a caveat economists still echo.",
+    "explanation": "Simon Kuznets developed national income accounting for the US Commerce Department (1934 report) and is the father of GDP measurement. He won the Nobel Prize in 1971. Kuznets himself warned that GDP poorly measures economic welfare — a caveat economists still echo.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -611,9 +611,9 @@
     "category": "firsts",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "The Nobel Memorial Prise in Economics (officially the Sveriges Riksbank Prise) was not part of Alfred Nobel's original will — it was added later by Sweden's central bank.",
-    "answer": true,
-    "explanation": "Alfred Nobel's 1895 will established prises for physics, chemistry, medicine, literature, and peace. The economics prise was established in 1968 by the Riksbank on its 300th anniversary and is technically not a Nobel Prise — a distinction Nobel's descendants have repeatedly pointed out.",
+    "prompt": "The Nobel Memorial Prize in Economics (officially the Sveriges Riksbank Prize) was one of the five prizes Alfred Nobel established in his 1895 will.",
+    "answer": false,
+    "explanation": "It was not. Alfred Nobel's 1895 will established prizes for physics, chemistry, physiology or medicine, literature, and peace. The economics prize was created in 1968 by Sweden's central bank, the Riksbank, on its 300th anniversary (first awarded in 1969), and is technically not a Nobel Prize, a distinction members of Nobel's family have repeatedly pointed out.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/",
     "as_of": null,
     "time_sensitive": false,
@@ -632,8 +632,8 @@
     "prompt": "In 1716 the Scottish financier John Law founded France's Banque Générale, the start of the system that fuelled the Mississippi Bubble (1719–1720). What was the bank's key innovation?",
     "choices": [
       "It issued paper banknotes in place of heavy metal coin, later with state backing",
-      "It created the world's first stock exchange",
-      "It issued the first government-backed mortgages",
+      "It created the world's first stock exchange, trading shares in French colonial companies",
+      "It issued the first government-backed mortgages, allowing ordinary French households to buy their own homes",
       "It pegged the French livre to the English pound"
     ],
     "answer": "It issued paper banknotes in place of heavy metal coin, later with state backing",
@@ -774,9 +774,9 @@
     "prompt": "Which country created what is widely regarded as the world's first sovereign wealth fund — a state-owned investment fund for managing national savings?",
     "choices": [
       "Kuwait, which established the Kuwait Investment Authority in 1953 to invest oil revenues",
-      "Norway, which created the Government Pension Fund Global in 1990",
-      "Saudi Arabia, which established SAMA Foreign Holdings in the 1970s",
-      "Singapore, which founded Temasek Holdings in 1974"
+      "Norway, which created the Government Pension Fund Global in 1990 to invest its oil and gas revenues",
+      "Saudi Arabia, which established SAMA Foreign Holdings in the 1970s to manage its oil surplus",
+      "Singapore, which founded Temasek Holdings in 1974 to manage government-owned companies"
     ],
     "answer": "Kuwait, which established the Kuwait Investment Authority in 1953 to invest oil revenues",
     "explanation": "The Kuwait Investment Authority (KIA), established in 1953, is the world's first and oldest sovereign wealth fund, predating Norway's GPFG by nearly four decades. Kuwait began investing oil revenues abroad while the oil industry was still nascent, recognizing that oil wealth needed to be saved and invested for future generations. Today it manages roughly $1 trillion. Norway's fund is the largest (about $2 trillion) but not the oldest.",
@@ -920,7 +920,7 @@
     "prompt": "Which woman has led both the International Monetary Fund and a major central bank?",
     "choices": [
       "Christine Lagarde, IMF Managing Director (2011–2019) and then European Central Bank President (from 2019)",
-      "Janet Yellen, Fed Chair (2014–2018) and then US Treasury Secretary (2021–2025)",
+      "Janet Yellen, who chaired the Federal Reserve (2014-2018) and then served as US Treasury Secretary (2021-2025)",
       "Kristalina Georgieva, who became IMF Managing Director in 2019 after heading the World Bank",
       "Elvira Nabiullina, who has been Governor of the Bank of Russia since 2013"
     ],
@@ -994,12 +994,12 @@
     "format": "mc",
     "prompt": "The Bank of Canada opened in 1934 under its first governor, Graham Towers, who served until 1954. What change in 1938 made the bank different from when it opened?",
     "choices": [
-      "He oversaw the nationalization of the Bank of Canada — the government bought out private shareholders and made it fully publicly owned",
-      "He created Canada's first mortgage-backed securities to fund post-Depression housing recovery",
-      "He implemented Canada's first exchange rate controls to prevent capital flight during WWII",
-      "He was the first central banker to publish the Bank's interest rate decisions in advance"
+      "He oversaw the nationalization of the Bank of Canada: the government bought out private shareholders and made it fully publicly owned",
+      "He created Canada's first mortgage-backed securities to fund post-Depression housing recovery and rebuilding",
+      "He implemented Canada's first exchange rate controls to prevent capital flight at the outbreak of World War II and to protect the value of the Canadian dollar",
+      "He became the first central banker to publish the Bank's interest rate decisions in advance of each meeting"
     ],
-    "answer": "He oversaw the nationalization of the Bank of Canada — the government bought out private shareholders and made it fully publicly owned",
+    "answer": "He oversaw the nationalization of the Bank of Canada: the government bought out private shareholders and made it fully publicly owned",
     "explanation": "The Bank of Canada was established in 1934 as a privately owned institution, with shares held by the public and the chartered banks. After the Liberals under Mackenzie King returned to power in 1935 the government moved to bring it under public control, and in 1938 it became wholly owned by the Government of Canada by buying out the remaining private shareholders.",
     "source": null,
     "as_of": null,
@@ -1070,9 +1070,9 @@
     "prompt": "In July 2009, which country's central bank first pushed one of its key interest rates below zero?",
     "choices": [
       "Sweden (the Riksbank cut its deposit rate to −0.25% during the financial crisis)",
-      "Japan (Bank of Japan, January 2016)",
-      "Denmark (Danmarks Nationalbank, July 2012)",
-      "Switzerland (Swiss National Bank, December 2014)"
+      "Japan (the Bank of Japan, January 2016)",
+      "Denmark (Danmarks Nationalbank cut its certificates of deposit rate below zero in July 2012)",
+      "Switzerland (the Swiss National Bank imposed negative rates in December 2014 to weaken the franc)"
     ],
     "answer": "Sweden (the Riksbank cut its deposit rate to −0.25% during the financial crisis)",
     "explanation": "The Riksbank (Sweden's central bank) was technically the first to set a policy rate below zero — it briefly cut the deposit facility rate to -0.25% in July 2009, during the global financial crisis. However, most accounts point to Denmark's National Bank in 2012 as the first to deliberately adopt negative rates as a sustained policy tool (to defend the krone's peg to the euro). The ECB followed in 2014, Switzerland and Sweden in 2015, and Japan in 2016. The Riksbank exited negative rates in December 2019, before the Covid pandemic.",
@@ -1095,9 +1095,9 @@
     "prompt": "What was the first global multilateral trade agreement that substantially reduced tariffs and governed international trade rules?",
     "choices": [
       "The General Agreement on Tariffs and Trade (GATT), signed in Geneva in 1947",
-      "The Cobden-Chevalier Treaty (1860) between Britain and France",
-      "The Bretton Woods trade provisions (1944)",
-      "The International Trade Organization charter agreed at Havana in 1948"
+      "The Cobden-Chevalier Treaty (1860) between Britain and France, which cut tariffs on a wide range of goods",
+      "The International Trade Organization charter agreed at Havana in 1948, which never entered into force",
+      "The Bretton Woods trade provisions (1944)"
     ],
     "answer": "The General Agreement on Tariffs and Trade (GATT), signed in Geneva in 1947",
     "explanation": "GATT was signed on October 30, 1947 by 23 nations as a provisional agreement to reduce tariffs and govern trade while the International Trade Organization (ITO) was being negotiated. The ITO never came into force (the US Senate refused to ratify it), so GATT became the de facto global trade regime. It underwent eight negotiating rounds, most famously the Kennedy Round (1960s) and Uruguay Round (1986–1994), which created the WTO in 1995. The Cobden-Chevalier Treaty (1860) was bilateral, not multilateral.",
@@ -1221,9 +1221,9 @@
     "prompt": "The first US state to enact a minimum wage law was:",
     "choices": [
       "Massachusetts (1912)",
-      "Oregon (1913)",
       "California (1913)",
-      "New York (1914)"
+      "New York (1914)",
+      "Washington State (1913)"
     ],
     "answer": "Massachusetts (1912)",
     "explanation": "Massachusetts enacted the first US minimum wage law in 1912 — applicable to women and minors. It was technically 'advisory' rather than compulsory. Oregon followed in 1913 with a more enforceable minimum wage for women. A national federal minimum wage didn't come until the Fair Labor Standards Act of 1938. New Zealand had enacted the world's first national minimum wage in 1894, covering female workers; Australia followed with wage boards in 1896.",

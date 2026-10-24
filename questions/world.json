@@ -51,9 +51,9 @@
     "category": "world",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "In WTO trade negotiations, the European Commission speaks on behalf of all EU member states, because trade policy is an exclusive EU competence.",
-    "answer": true,
-    "explanation": "Trade policy is an exclusive EU competence, so the Commission negotiates for all 27 member states with one voice. (Formally, the EU and each of its member states are all WTO members, but they act as a single bloc.) Together they represent an economy of roughly $18 trillion, which gives the bloc major weight in shaping global trade rules.",
+    "prompt": "In WTO trade negotiations, each EU member state sends its own delegation and negotiates its own tariff commitments, because trade policy is left to national governments.",
+    "answer": false,
+    "explanation": "False. Trade policy is an exclusive EU competence, so the European Commission negotiates for all 27 member states with one voice. (Formally, the EU and each of its member states are all WTO members, but they act as a single bloc.) Together they represent an economy of roughly $18 trillion, which gives the bloc major weight in shaping global trade rules.",
     "source": "https://www.wto.org/english/thewto_e/countries_e/european_communities_e.htm",
     "as_of": null,
     "time_sensitive": false,
@@ -193,9 +193,9 @@
     "prompt": "What is the key difference between the IMF and the World Bank?",
     "choices": [
       "The IMF focuses on macroeconomic stability and balance-of-payments crises; the World Bank funds long-term development projects",
-      "The IMF lends only to rich countries; the World Bank lends only to poor countries",
-      "The IMF manages global trade rules; the World Bank manages international debt",
-      "The IMF is a UN agency; the World Bank is a private institution"
+      "The IMF lends only to rich countries to stabilize their banks; the World Bank lends only to poor countries for relief",
+      "The IMF sets global trade rules and settles disputes; the World Bank manages the international debt of developing countries",
+      "The IMF is a United Nations agency funded by member dues; the World Bank is a private bank owned by commercial shareholders"
     ],
     "answer": "The IMF focuses on macroeconomic stability and balance-of-payments crises; the World Bank funds long-term development projects",
     "explanation": "The IMF acts as a lender of last resort for countries facing currency or balance-of-payments crises (e.g., Argentina, Greece), while the World Bank finances long-run development — infrastructure, health, education — primarily in low- and middle-income countries.",
@@ -216,8 +216,8 @@
     "prompt": "Purchasing Power Parity (PPP) adjustments tend to make the GDPs of poorer countries look larger relative to market exchange rates. Why?",
     "choices": [
       "Non-traded services like haircuts and housing are cheaper in poorer countries, so a dollar goes further",
-      "Poorer countries undercount informal economic activity in their national accounts",
-      "The IMF applies a development bonus to account for unreported agricultural output",
+      "Poorer countries undercount informal economic activity in their national accounts, which shrinks measured market-rate GDP",
+      "The IMF applies a development bonus to the GDP figures of poorer countries to account for unreported agricultural output",
       "Poorer countries typically have undervalued currencies due to capital controls"
     ],
     "answer": "Non-traded services like haircuts and housing are cheaper in poorer countries, so a dollar goes further",
@@ -353,9 +353,9 @@
     "prompt": "The original BRIC grouping (later BRICS) was coined by Goldman Sachs economist Jim O'Neill in 2001 to describe four large emerging economies with rapid growth potential. Which country was added to form BRICS in 2010?",
     "choices": [
       "South Africa",
-      "Mexico",
-      "Indonesia",
-      "Turkey"
+      "Saudi Arabia",
+      "South Korea",
+      "Indonesia"
     ],
     "answer": "South Africa",
     "explanation": "Jim O'Neill's 2001 paper named Brazil, Russia, India, and China as BRICs. South Africa joined in 2010 to give the group an African voice, making it BRICS. Egypt, Ethiopia, Iran, and the UAE joined in January 2024 and Indonesia in 2025, while Saudi Arabia was invited but has not formally confirmed — creating what some call BRICS+.",
@@ -374,9 +374,9 @@
     "category": "world",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "By purchasing-power-parity (PPP), China overtook the United States as the world's largest economy sometime in the 2010s.",
-    "answer": true,
-    "explanation": "The IMF and World Bank both estimate China surpassed the US in PPP-adjusted GDP around 2014–2016. By nominal GDP, the US remains larger — approximately $27 trillion vs. China's $18 trillion in 2023. The distinction matters: PPP better captures domestic living standards, while nominal GDP is more relevant for international financial comparisons.",
+    "prompt": "By purchasing-power parity (PPP), the United States is still the world's largest economy, ahead of China.",
+    "answer": false,
+    "explanation": "False. The IMF and World Bank both estimate that China surpassed the US in PPP-adjusted GDP around 2014–2016, and its lead has widened since. By nominal GDP, the US remains larger: approximately $27 trillion vs. China's $18 trillion in 2023. The distinction matters: PPP better captures domestic living standards, while nominal GDP is more relevant for international financial comparisons.",
     "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
     "as_of": "2023",
     "time_sensitive": false,
@@ -419,9 +419,9 @@
     "prompt": "Oil has long been priced in US dollars. Which 1970s arrangement is most often credited with cementing that practice?",
     "choices": [
       "The mid-1970s US–Saudi 'petrodollar' understanding: oil sold for dollars, proceeds invested in US Treasuries",
-      "A WTO rule requiring all commodities to be invoiced in a single reserve currency",
+      "A WTO rule requiring all commodities to be invoiced in a single reserve currency, adopted after the 1973 oil shock",
       "A clause in the 1944 Bretton Woods agreement requiring oil contracts to be written in dollars",
-      "OPEC's founding charter, which named the dollar as the unit of account for member exports"
+      "OPEC's founding charter in 1960, which named the dollar as the official unit of account for all member exports"
     ],
     "answer": "The mid-1970s US–Saudi 'petrodollar' understanding: oil sold for dollars, proceeds invested in US Treasuries",
     "explanation": "Oil was already largely invoiced in dollars before the 1970s, because the dollar was the dominant trade and reserve currency after 1944. After the US ended gold convertibility in 1971 and oil prices surged in 1973, the US and Saudi Arabia reached an understanding (1974–75) under which Saudi Arabia priced oil in dollars and invested much of its revenue in US Treasury securities, helping sustain global demand for dollars. Historians debate how much the deal added to forces already at work, such as deep dollar financial markets and network effects.",
@@ -468,9 +468,9 @@
     "prompt": "In international economics, 'comparative advantage' argues that countries gain from trade even when one country is more efficient at producing everything. What is the key insight?",
     "choices": [
       "Each country should specialize in goods where its opportunity cost is relatively lower, even if another country has an absolute advantage in all goods",
-      "Countries should only trade goods where they have an absolute cost advantage over their trading partners",
-      "Specialization benefits only the more productive country; the less productive country should protect its industries",
-      "Free trade is only beneficial when countries have similar factor endowments and wage levels"
+      "Countries should only trade in goods where they hold an absolute cost advantage over their trading partners, never in other goods",
+      "Specialization benefits only the more productive country, so the less productive country should protect its industries with tariffs",
+      "Free trade is only beneficial when countries have similar factor endowments, wage levels and technologies to begin with"
     ],
     "answer": "Each country should specialize in goods where its opportunity cost is relatively lower, even if another country has an absolute advantage in all goods",
     "explanation": "David Ricardo's 1817 insight: even if Portugal can produce both cloth and wine more efficiently than England, both countries gain if Portugal specializes in wine (its relatively stronger suit) and England in cloth. The gains come from specializing where your relative productivity is highest, not where it's highest in absolute terms.",
@@ -516,8 +516,8 @@
     "prompt": "SWIFT — the messaging network used by banks to send international payment instructions — became newsworthy in 2022 when it was used as a financial sanction. What happened?",
     "choices": [
       "Several major Russian banks were disconnected from SWIFT following Russia's invasion of Ukraine",
-      "China launched an alternative to SWIFT and persuaded G20 members to switch",
-      "The US Treasury sanctioned Iran by shutting down SWIFT's servers in Europe",
+      "China launched an alternative to SWIFT in 2022 and persuaded G20 members to switch their cross-border payments to it",
+      "The US Treasury sanctioned Iran in 2022 by physically shutting down SWIFT's servers in Europe",
       "SWIFT was hacked, and $1 billion was stolen from the Bangladesh central bank"
     ],
     "answer": "Several major Russian banks were disconnected from SWIFT following Russia's invasion of Ukraine",
@@ -587,9 +587,9 @@
     "category": "world",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "Roughly three-quarters of Canada's merchandise exports go to the United States.",
-    "answer": true,
-    "explanation": "The US typically accounts for roughly 75–77% of all Canadian merchandise exports, making it by far Canada's dominant trading partner. This dependence makes US trade policy — including tariffs — an outsized economic risk for Canada, as seen during the 2018–2019 NAFTA renegotiation and the 2025 tariff disputes.",
+    "prompt": "Roughly half of Canada's merchandise exports go to the United States.",
+    "answer": false,
+    "explanation": "False. The US typically accounts for roughly 75–77% of all Canadian merchandise exports, far more than half, making it by far Canada's dominant trading partner. This dependence makes US trade policy, including tariffs, an outsized economic risk for Canada, as seen during the 2018–2019 NAFTA renegotiation and the 2025 tariff disputes.",
     "source": "https://www.international.gc.ca/trade-commerce/trade-data-donnees-commerciales/index.aspx",
     "as_of": "2023",
     "time_sensitive": false,
@@ -644,9 +644,9 @@
     "prompt": "The Hong Kong dollar has been pegged to the US dollar since 1983. Under this 'linked exchange rate system,' the peg is maintained at roughly what rate?",
     "choices": [
       "HK$7.80 per US dollar (within a narrow band of 7.75–7.85)",
-      "HK$5.00 per US dollar (fixed exactly)",
+      "HK$5.00 per US dollar (fixed exactly, with no permitted band)",
       "HK$10.00 per US dollar (within a band of 9.50–10.50)",
-      "HK$1.00 per US dollar (one-to-one parity)"
+      "HK$1.00 per US dollar (one-to-one parity at all times)"
     ],
     "answer": "HK$7.80 per US dollar (within a narrow band of 7.75–7.85)",
     "explanation": "The Hong Kong Monetary Authority has kept the Hong Kong dollar pegged to the US dollar since 1983, originally at a fixed HK$7.80. Since 2005 it has operated a convertibility undertaking band of HK$7.75–7.85 per US dollar. The peg, introduced after a currency crisis in 1983, has survived the Asian financial crisis, SARS, and the 2008 global financial crisis, and is backed by Hong Kong's substantial foreign exchange reserves.",
@@ -753,9 +753,9 @@
     "prompt": "In a famous July 2012 speech, ECB President Mario Draghi said the ECB would do 'whatever it takes' to preserve the euro. This was followed by the announcement of which specific bond-buying program?",
     "choices": [
       "Outright Monetary Transactions (OMT) — unlimited purchases of short-term bonds of eurozone countries under adjustment programs",
-      "Public Sector Purchase Program (PSPP) — buying €60 billion of government bonds per month",
-      "Pandemic Emergency Purchase Program (PEPP) — €1.85 trillion emergency QE",
-      "Securities Markets Program (SMP) — sterilized purchases of Greek, Irish, and Portuguese bonds"
+      "Public Sector Purchase Program (PSPP) — large-scale purchases of €60 billion of government bonds per month from all euro members",
+      "Pandemic Emergency Purchase Program (PEPP) — a €1.85 trillion emergency asset-purchase scheme launched in response to the pandemic",
+      "Securities Markets Program (SMP) — sterilized purchases of Greek, Irish, Portuguese and later Italian and Spanish government bonds"
     ],
     "answer": "Outright Monetary Transactions (OMT) — unlimited purchases of short-term bonds of eurozone countries under adjustment programs",
     "explanation": "The OMT, announced in 2012 (details published in September), offered unlimited purchases of short-dated sovereign bonds for countries under ESM/EFSF programs. Crucially, the OMT was never actually used — Draghi's credibility alone broke the doom loop between sovereign spreads and bank balance sheets. Italian and Spanish 10-year yields fell sharply from their 2011–12 peaks above 7%, and Italy's were below 3% by 2014. The OMT was later upheld by the Court of Justice of the EU (2015).",
@@ -848,9 +848,9 @@
     "prompt": "China's Belt and Road Initiative (BRI), launched in 2013, has financed on the order of a trillion dollars of infrastructure projects in developing countries. Which concern have critics most prominently raised?",
     "choices": [
       "Debt-trap diplomacy: countries that cannot repay may be forced to cede strategic assets or political influence to China",
-      "BRI projects use only Chinese workers, providing no employment benefits to recipient countries",
-      "The BRI only funds luxury hotels and government buildings rather than productive infrastructure",
-      "Western countries are legally prohibited from competing for BRI-funded contracts"
+      "BRI projects use almost exclusively Chinese workers, so they provide no employment benefits at all to recipient countries",
+      "The BRI funds only luxury hotels and government buildings rather than productive infrastructure such as ports or railways",
+      "Western countries are legally prohibited by WTO rules from bidding on any BRI-funded construction contract abroad"
     ],
     "answer": "Debt-trap diplomacy: countries that cannot repay may be forced to cede strategic assets or political influence to China",
     "explanation": "The 'debt-trap diplomacy' narrative — popularized by Sri Lanka's Hambantota Port lease to a Chinese company after debt difficulties — has shaped Western criticism of the BRI. However, researchers have debated whether Chinese lending terms are systematically worse than Western alternatives or whether borrowing countries made their own choices. China is now the world's largest bilateral creditor and faces rising defaults from distressed BRI borrowers.",
@@ -989,8 +989,8 @@
     "prompt": "Turkey's central bank faced an unusual challenge under President Erdogan's 'heterodox' economic theory. What unconventional approach did Erdogan insist on — contrary to standard economics?",
     "choices": [
       "Cutting interest rates to fight inflation (arguing that high rates cause inflation rather than cure it)",
-      "Pegging the lira to a basket of gold and oil rather than to the dollar",
-      "Requiring the central bank to buy unlimited amounts of Turkish government bonds",
+      "Pegging the lira to a basket of gold and oil rather than to the dollar, to shield it from US monetary policy",
+      "Requiring the central bank to buy unlimited amounts of Turkish government bonds to hold down yields",
       "Setting a maximum interest rate that banks could charge borrowers below the inflation rate"
     ],
     "answer": "Cutting interest rates to fight inflation (arguing that high rates cause inflation rather than cure it)",
@@ -1014,9 +1014,9 @@
     "prompt": "The EU's Carbon Border Adjustment Mechanism (CBAM), implemented from 2026, applies a carbon price to imports from countries without equivalent carbon pricing. What economic purpose does it serve?",
     "choices": [
       "It prevents 'carbon leakage' — the risk that EU companies move production to non-carbon-priced countries to avoid the EU's emissions costs",
-      "It raises revenue for EU member states by taxing all imports based on their carbon content",
-      "It bans the import of goods produced using coal or oil from non-EU countries",
-      "It forces trading partners to adopt the EU's specific emissions trading system"
+      "It raises general revenue for EU member states by taxing all imports according to the carbon content of the goods concerned",
+      "It bans imports of goods made using coal or oil from non-EU countries, closing the single market to high-emission producers",
+      "It forces trading partners to adopt the EU's own emissions trading system, with the same allowance prices and coverage"
     ],
     "answer": "It prevents 'carbon leakage' — the risk that EU companies move production to non-carbon-priced countries to avoid the EU's emissions costs",
     "explanation": "CBAM ensures that imported goods face the same carbon cost as EU-produced goods. Without it, EU companies facing carbon costs would lose competitiveness to imports from countries like China and India with lower or no carbon prices, potentially shifting production and emissions abroad. CBAM initially covers steel, cement, aluminium, fertilizers, electricity, and hydrogen. Trading partners must either adopt their own carbon pricing or pay CBAM.",
@@ -1116,9 +1116,9 @@
     "prompt": "Japan's central bank implemented 'yield curve control' (YCC) in 2016. What did this policy entail?",
     "choices": [
       "Capping the yield on 10-year Japanese government bonds at a specific target (initially 0%) by buying unlimited bonds if needed",
-      "Printing yen and distributing it directly to Japanese citizens to stimulate inflation",
-      "Targeting a downward-sloping yield curve by making long-term rates lower than short-term rates",
-      "Pegging the yen to a basket of Asian currencies to stabilize trade"
+      "Printing yen and distributing it directly to Japanese households to stimulate spending and push inflation above target",
+      "Targeting a downward-sloping yield curve by deliberately pushing long-term rates below short-term rates across all maturities",
+      "Pegging the yen to a basket of Asian currencies so that export competitiveness and trade balances stay stable"
     ],
     "answer": "Capping the yield on 10-year Japanese government bonds at a specific target (initially 0%) by buying unlimited bonds if needed",
     "explanation": "YCC (implemented by Governor Haruhiko Kuroda) committed the Bank of Japan to buying unlimited 10-year government bonds to keep yields near 0%, directly targeting the yield curve shape rather than just the overnight rate. This required the BoJ to buy enormous quantities of bonds, expanding its balance sheet above 100% of GDP. The BoJ loosened YCC in 2023 and abandoned it in March 2024, under Governor Kazuo Ueda, as inflation rose and the yen weakened.",
@@ -1141,9 +1141,9 @@
     "prompt": "Which of the following best describes the G7 finance ministers' 'price cap' on Russian oil, implemented in December 2022?",
     "choices": [
       "Western countries agreed to allow Russian oil shipping services (insurance, tankers) only if the oil was sold below $60 per barrel",
-      "Russia was prohibited from selling any oil to any country at any price",
-      "The G7 placed a maximum retail price of $60 per barrel for petrol in member countries",
-      "OPEC was asked to impose a $60/barrel cap on global oil prices to reduce energy inflation"
+      "Russia was prohibited from selling any oil to any country at any price, with enforcement by a joint G7 naval blockade",
+      "The G7 placed a maximum retail price of $60 per barrel-equivalent on petrol sold at gas stations in all member countries",
+      "OPEC was asked by the G7 to impose a $60 per barrel ceiling on global oil prices in order to reduce energy inflation"
     ],
     "answer": "Western countries agreed to allow Russian oil shipping services (insurance, tankers) only if the oil was sold below $60 per barrel",
     "explanation": "The price cap exploited Western dominance in oil shipping services: since most tanker insurance and maritime services are based in the UK, EU, or US, Russia needed Western cooperation to ship oil safely. The G7 used this leverage to impose a $60/barrel price cap — allowing Russian oil to keep flowing to global markets (avoiding a supply shock) while limiting Russian revenues from oil sales. Russia circumvented the cap by building its own 'shadow fleet' of tankers.",
@@ -1253,9 +1253,9 @@
     "prompt": "What is the primary purpose of the Bank for International Settlements' (BIS) regular statistics on over-the-counter (OTC) derivatives?",
     "choices": [
       "To provide transparency about the size of global over-the-counter derivatives markets, helping regulators monitor systemic risk",
-      "To process and settle derivative contracts between banks in member countries",
-      "To regulate margin requirements for derivatives trading in G10 countries",
-      "To publish the benchmark interest rates used in derivative contracts globally"
+      "To process and settle derivative contracts between banks in member countries through a central clearing arrangement",
+      "To regulate margin requirements for derivatives trading among banks in G10 countries and enforce them directly",
+      "To publish the benchmark interest rates used to price derivative contracts across global financial markets"
     ],
     "answer": "To provide transparency about the size of global over-the-counter derivatives markets, helping regulators monitor systemic risk",
     "explanation": "The BIS collects data from central banks, reported by major dealers, and publishes semiannual statistics (plus a larger triennial survey) on OTC derivatives markets. These statistics showed global OTC derivatives notional outstanding reaching roughly $680 trillion by mid-2008 — alarming given that the size and interconnectedness of these contracts was poorly understood by regulators. Post-2008 reforms required central clearing of many derivatives to reduce counterparty risk, and mandatory trade reporting to improve data quality.",
@@ -1297,8 +1297,8 @@
     "choices": [
       "The US must run persistent current account deficits to supply the world with dollars, but doing so undermines confidence in the dollar's gold convertibility",
       "Countries cannot simultaneously have high growth and low inflation, so international monetary cooperation will always break down",
-      "Fixed exchange rates require either large gold reserves or unlimited capital controls, and no country can sustain both",
-      "The IMF cannot lend to both surplus and deficit countries without creating perverse incentives for both"
+      "Fixed exchange rates require either enormous gold reserves or comprehensive capital controls, and no country can sustain both over time",
+      "The IMF cannot lend to both surplus and deficit countries without creating perverse incentives for borrowers and lenders alike"
     ],
     "answer": "The US must run persistent current account deficits to supply the world with dollars, but doing so undermines confidence in the dollar's gold convertibility",
     "explanation": "Triffin showed that the reserve currency issuer must run deficits to supply liquidity to the world, but accumulating deficits would eventually destroy confidence in the reserve currency's value. This fundamental instability was a major reason why Nixon ended gold convertibility in 1971. The modern version of the Triffin dilemma is that the US must continue issuing dollar assets for the world, even though this requires large deficits that may eventually erode dollar confidence.",
@@ -1321,9 +1321,9 @@
     "prompt": "Which statement best explains why the US dollar has maintained its dominant reserve currency status despite decades of US current account deficits, rising debt, and the emergence of the euro and renminbi?",
     "choices": [
       "Network effects: dollar dominance creates self-reinforcing advantages in liquidity, contract denomination, and safe-haven demand that alternatives struggle to replicate",
-      "The US has legally bound trading partners to use the dollar through bilateral treaty agreements",
-      "Gold still underpins the dollar through an informal agreement with G7 central banks",
-      "The dollar benefits because the US GDP is so much larger than any other economy that its currency naturally dominates"
+      "The US has legally bound its trading partners to settle trade in dollars through bilateral treaties that they cannot easily withdraw from",
+      "Gold still underpins the dollar through an informal agreement among G7 central banks to redeem dollars at a fixed price in emergencies",
+      "The US economy is so much larger than any other that its currency dominates automatically, with no role for financial-market depth or habit"
     ],
     "answer": "Network effects: dollar dominance creates self-reinforcing advantages in liquidity, contract denomination, and safe-haven demand that alternatives struggle to replicate",
     "explanation": "Dollar dominance is self-reinforcing: oil is priced in dollars, so countries need dollars for energy. Dollars are the most liquid assets, so investors want them in crises. Most global trade contracts are denominated in dollars, so banks hold dollar reserves. Breaking this network requires a coordinated shift that no single country can unilaterally trigger. The euro is a partial exception — roughly 20% of global reserves — but even eurozone financial integration lags the US.",
@@ -1346,9 +1346,9 @@
     "prompt": "Taiwan, chiefly through TSMC, produces roughly 90% of the world's most advanced (leading-edge) semiconductor chips. What geopolitical risk does this concentration create?",
     "choices": [
       "Any disruption to Taiwan — from conflict, natural disaster, or blockade — could cripple global electronics, automotive, and AI industries simultaneously",
-      "Taiwan charges a 90% export tariff on chips, making electronics prohibitively expensive for most countries",
-      "Taiwan's chip monopoly enables it to set global AI and computing standards without international oversight",
-      "Countries dependent on Taiwanese chips must sign bilateral defence agreements with the US to secure supply"
+      "Taiwan charges a 90% export tariff on chips, which makes consumer electronics prohibitively expensive for most importing countries",
+      "Taiwan's near-monopoly lets it set global AI and computing standards without any international oversight or coordination",
+      "Countries that depend on Taiwanese chips must sign bilateral defence agreements with the US before they can secure supply"
     ],
     "answer": "Any disruption to Taiwan — from conflict, natural disaster, or blockade — could cripple global electronics, automotive, and AI industries simultaneously",
     "explanation": "TSMC (Taiwan Semiconductor Manufacturing Company) produces roughly 90% of leading-edge chips (below 7nm) — the most advanced semiconductors used in smartphones, servers, AI, and modern vehicles; the exact share depends on how 'leading-edge' is defined. This concentration means a conflict over Taiwan or even a major earthquake could disrupt global supply chains across every advanced technology sector. The US CHIPS Act and EU Chips Act were partly motivated by reducing this dependency.",
@@ -1446,9 +1446,9 @@
     "prompt": "Which of these correctly describes the difference between a 'trade deficit' and a 'current account deficit'?",
     "choices": [
       "The current account is broader: it includes the trade deficit plus net income flows (investment returns) and net transfers (remittances, aid)",
-      "A trade deficit measures only goods; a current account deficit measures only services",
-      "A current account deficit means the country owes more foreign debt than it has foreign assets",
-      "Trade deficits are always bad for an economy; current account deficits are always beneficial"
+      "A trade deficit measures only trade in goods, while a current account deficit measures only trade in services and tourism receipts",
+      "A current account deficit means the country owes more in foreign debt than it holds in foreign assets, summed over all years",
+      "Trade deficits are always harmful to an economy, whereas current account deficits are always beneficial because they bring in capital"
     ],
     "answer": "The current account is broader: it includes the trade deficit plus net income flows (investment returns) and net transfers (remittances, aid)",
     "explanation": "The current account has three components: (1) the trade balance (goods + services); (2) the primary income account (dividends, interest, wages from abroad minus payments to foreigners); and (3) the secondary income account (remittances, foreign aid, taxes). The US typically runs a large trade deficit in goods but a surplus in services and investment income.",
@@ -1471,8 +1471,8 @@
     "choices": [
       "Sovereign (government) balance sheets and bank balance sheets — banks holding government bonds meant sovereign distress immediately weakened banks, and bank bailouts weakened sovereigns",
       "The ECB balance sheet and the US Federal Reserve balance sheet — rising Fed rates caused ECB rate rises that triggered sovereign debt problems",
-      "Eurozone households' mortgage balance sheets and corporate bond portfolios — housing busts caused corporate defaults",
-      "IMF emergency lending facilities and eurozone country fiscal accounts — IMF loans worsened public debt ratios"
+      "Eurozone households' mortgage balance sheets and corporate bond portfolios — falling house prices triggered corporate defaults, which in turn hit household wealth",
+      "IMF emergency lending facilities and eurozone country fiscal accounts — IMF loans raised public debt ratios, which required yet more IMF lending"
     ],
     "answer": "Sovereign (government) balance sheets and bank balance sheets — banks holding government bonds meant sovereign distress immediately weakened banks, and bank bailouts weakened sovereigns",
     "explanation": "The 'doom loop' (also called the 'diabolic loop') works as follows: sovereign bonds fall in value → banks holding those bonds face losses → markets fear banks need bailouts → governments face higher borrowing costs → sovereign bonds fall further. Spain and Italy were especially vulnerable. The ECB's OMT program broke the doom loop by implicitly backstopping sovereign bonds. The Banking Union (2012) was designed to structurally break the loop by separating bank rescues from national budgets.",

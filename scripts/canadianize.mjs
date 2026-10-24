@@ -24,7 +24,7 @@ const KEEP_ROOTS = [
   'promis', 'premis', 'supervis', 'revis', 'devis', 'compris', 'franchis',
   'disguis', 'demis', 'improvis', 'excis', 'paradis', 'cruis', 'pois',
   'appris', 'televis', 'advis', 'advertis', 'despis', 'bruis', 'concis',
-  'precis', 'treatis', 'sunris', 'upris', 'likewis', 'otherwis', 'pris',
+  'precis', 'treatis', 'sunris', 'upris', 'likewis', 'otherwis',
 ];
 const KEEP_SUFFIXES = ['e', 'es', 'ed', 'ing', 'er', 'ers'];
 const KEEP = new Set([

@@ -53,9 +53,9 @@
     "prompt": "The New Deal programs — including the FDIC, SEC, Social Security, and the TVA — were created under which US president?",
     "choices": [
       "Franklin D. Roosevelt",
-      "Herbert Hoover",
-      "Harry S. Truman",
-      "Woodrow Wilson"
+      "Lyndon Baines Johnson",
+      "Theodore Roosevelt",
+      "Harry S. Truman"
     ],
     "answer": "Franklin D. Roosevelt",
     "explanation": "FDR's New Deal (1933–1939) created dozens of 'alphabet agencies' to combat the Great Depression through relief, recovery, and reform. It fundamentally expanded the federal government's role in the economy.",
@@ -411,9 +411,9 @@
     "category": "usa",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "True or false: The United States has imported more goods and services than it has exported in almost every year since the mid-1970s.",
-    "answer": true,
-    "explanation": "The US has run a deficit on goods and services trade every year since 1976, financed by foreign investors' willingness to hold US dollar assets. Its broader current account (which also counts investment income and transfers) was in surplus only in 1981 and 1991. The goods deficit consistently outweighs the services surplus.",
+    "prompt": "True or false: The United States has exported more goods and services than it has imported in almost every year since the mid-1970s.",
+    "answer": false,
+    "explanation": "False. The reverse is true: the US has run a deficit on goods and services trade every year since 1976, financed by foreign investors' willingness to hold US dollar assets. Its broader current account (which also counts investment income and transfers) was in surplus only in 1981 and 1991. The goods deficit consistently outweighs the services surplus.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -534,9 +534,9 @@
     "prompt": "Alexander Hamilton, the first US Secretary of the Treasury, successfully argued for a national bank to anchor the young republic's finances. The institution he championed, chartered in 1791, was called:",
     "choices": [
       "the First Bank of the United States",
+      "the Second Bank of the United States",
       "the Bank of North America",
-      "the United States National Bank",
-      "the Federal Bank of Philadelphia"
+      "the United States National Bank"
     ],
     "answer": "the First Bank of the United States",
     "explanation": "Hamilton persuaded Congress to charter the First Bank of the United States in 1791, locating it in Philadelphia. It held government deposits, issued bank notes, and helped stabilize the new nation's finances. Its charter lapsed in 1811 after fierce opposition from Jeffersonians who feared concentrated federal financial power.",
@@ -654,7 +654,7 @@
     "prompt": "Quantitative easing (QE), first used by the Federal Reserve at large scale after the 2008 financial crisis, primarily involves the central bank:",
     "choices": [
       "purchasing government bonds and other securities to inject money into the financial system",
-      "sending direct cash transfers to households to stimulate consumer spending",
+      "sending direct cash transfers to households to stimulate consumer spending during a recession",
       "requiring commercial banks to lend a fixed percentage of their deposits to businesses",
       "issuing new currency notes to pay down outstanding government debt"
     ],
@@ -775,9 +775,9 @@
     "prompt": "Janet Yellen holds a unique distinction in US economic history. What is it?",
     "choices": [
       "She is the only person to have led the Council of Economic Advisers, the Federal Reserve, and the US Treasury",
-      "She was the first Fed Chair to hold a PhD in economics",
-      "She is the only person to have served on the Federal Reserve Board five separate times",
-      "She was the first Fed Chair to publicly endorse a fiscal stimulus package"
+      "She was the first Federal Reserve Chair to hold a PhD in economics, and the first to have taught at a major university",
+      "She is the only person to have served on the Federal Reserve Board of Governors in five separate decades",
+      "She was the first Federal Reserve Chair to publicly endorse a large fiscal stimulus package during a recession"
     ],
     "answer": "She is the only person to have led the Council of Economic Advisers, the Federal Reserve, and the US Treasury",
     "explanation": "Yellen chaired the Council of Economic Advisers (1997–99), then the Federal Reserve (2014–2018), then served as US Treasury Secretary (2021–2025) — the only person to have headed all three. She was also the first woman to chair the Fed and the first woman to lead the Treasury. (G. William Miller was Fed Chair and then Treasury Secretary in 1978–81, but never chaired the CEA.)",
@@ -1031,8 +1031,8 @@
     "choices": [
       "\"irrational exuberance\"",
       "\"creative destruction\"",
-      "\"animal spirits\"",
-      "\"tulip mania\""
+      "\"the paradox of thrift\"",
+      "\"animal spirits\""
     ],
     "answer": "\"irrational exuberance\"",
     "explanation": "Greenspan's December 5, 1996 speech to the American Enterprise Institute asked: 'How do we know when irrational exuberance has unduly escalated asset values?' Stock markets in Asia and Europe fell by roughly 2–4% the next day, then recovered. Ironically, the NASDAQ nearly quadrupled before the dot-com crash, and Greenspan kept rates low for years — contributing to both the tech bubble and the housing bubble.",
@@ -1101,9 +1101,9 @@
     "prompt": "Silicon Valley — the global centre of technology entrepreneurship and venture capital — is located in which region of California?",
     "choices": [
       "The San Francisco Bay Area, south of the city (around San Jose and Palo Alto)",
-      "Greater Los Angeles, around Culver City and Venice Beach",
-      "The Sacramento Valley, near the state capital",
-      "San Diego County, near the US-Mexico border"
+      "Greater Los Angeles, concentrated around Culver City, Santa Monica and Venice Beach",
+      "The Sacramento Valley, in the agricultural interior near the state capital and Davis",
+      "San Diego County, along the coast near the US–Mexico border and Camp Pendleton"
     ],
     "answer": "The San Francisco Bay Area, south of the city (around San Jose and Palo Alto)",
     "explanation": "Silicon Valley runs through the South Bay part of the San Francisco Bay Area, with major hubs in Palo Alto (Stanford University, VCs), Menlo Park (Meta), Mountain View (Google), Cupertino (Apple), and San Jose. The name came from silicon semiconductor manufacturers in the 1970s. Stanford's culture of spinning out companies into startups is widely credited as the key institutional ingredient.",
@@ -1171,9 +1171,9 @@
     "prompt": "Alexander Hamilton's plan for the federal government to assume state war debts was bitterly opposed by Southern states, which had already paid off much of theirs. According to the famous 'Compromise of 1790', Southern states agreed to Hamilton's plan in exchange for:",
     "choices": [
       "locating the permanent national capital on the Potomac River (Washington DC)",
-      "a 20-year moratorium on federal regulation of the slave trade",
-      "a guaranteed floor on federal military spending in the South",
-      "permanent tariff exemptions on Southern agricultural exports"
+      "a guaranteed floor on federal military spending in the South for the next ten years",
+      "permanent tariff exemptions on Southern agricultural exports shipped through federal ports",
+      "a 20-year moratorium on federal regulation of the slave trade"
     ],
     "answer": "locating the permanent national capital on the Potomac River (Washington DC)",
     "explanation": "Secretary of State Thomas Jefferson brokered a dinner in June 1790 where Madison agreed to stop blocking debt assumption in the House, in exchange for Hamilton's acceptance of a Potomac-site capital. The compromise placed the capital between Virginia and Maryland — satisfying the South — and is the reason Washington DC exists where it does today.",
@@ -1196,9 +1196,9 @@
     "prompt": "Fannie Mae and Freddie Mac — the government-sponsored enterprises that became central figures in the 2008 housing crisis — primarily functioned by:",
     "choices": [
       "buying mortgages from originating banks and packaging them into securities sold to investors",
-      "directly lending mortgage money to home buyers at subsidized government rates",
+      "directly lending mortgage money to home buyers at subsidized government interest rates",
       "insuring bank deposits up to $250,000 per account against bank failure",
-      "setting the maximum loan-to-value ratios banks were permitted to offer home buyers"
+      "setting the maximum loan-to-value ratios that banks were permitted to offer to prospective home buyers"
     ],
     "answer": "buying mortgages from originating banks and packaging them into securities sold to investors",
     "explanation": "Fannie Mae (FNMA) and Freddie Mac (FHLMC) operate the secondary mortgage market: they buy mortgages from the banks that originated them, bundle them into mortgage-backed securities (MBS), and sell them with a guarantee. This frees up capital for banks to make more loans. Their implicit government backing led investors to treat their MBS as near-risk-free — which amplified the 2008 housing collapse. Both were placed under federal conservatorship in September 2008.",
@@ -1292,9 +1292,9 @@
     "category": "usa",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "True or false: The United States federal government's fiscal year begins on October 1 and ends on September 30 the following calendar year.",
-    "answer": true,
-    "explanation": "The US federal fiscal year has run from October 1 to September 30 since 1976, shifted from July 1 by the Congressional Budget Act of 1974. This means FY2025 runs from October 1, 2024 to September 30, 2025. When Congress fails to pass appropriations in time, the government operates under 'continuing resolutions' — or shuts down.",
+    "prompt": "True or false: The United States federal government's fiscal year runs from January 1 to December 31, matching the calendar year.",
+    "answer": false,
+    "explanation": "False. The US federal fiscal year runs from October 1 to September 30, and has since 1976, shifted from July 1 by the Congressional Budget Act of 1974. This means FY2025 runs from October 1, 2024 to September 30, 2025. When Congress fails to pass appropriations in time, the government operates under 'continuing resolutions', or shuts down.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1376,9 +1376,9 @@
     "prompt": "Which US city is widely considered the world's leading financial centre, home to the New York Stock Exchange, NASDAQ, and the headquarters of the largest US investment banks?",
     "choices": [
       "New York City",
-      "Chicago",
+      "San Francisco",
       "Los Angeles",
-      "Boston"
+      "Washington, D.C."
     ],
     "answer": "New York City",
     "explanation": "New York City — specifically lower Manhattan's Financial District and Midtown — hosts the NYSE (founded 1792), NASDAQ (founded 1971), the Federal Reserve Bank of New York, and the global headquarters of JPMorgan Chase, Goldman Sachs, Morgan Stanley, Citigroup, and BlackRock. It consistently ranks #1 or #2 globally as a financial centre alongside London.",

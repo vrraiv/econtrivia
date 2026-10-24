@@ -48,9 +48,9 @@
     "category": "theory",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "In a Nash equilibrium, every player is choosing a best response to the other players' strategies.",
-    "answer": true,
-    "explanation": "That is the definition: a Nash equilibrium is a strategy profile where no player can increase their payoff by unilaterally changing their own strategy, i.e., each is already playing a best response.",
+    "prompt": "In a Nash equilibrium, every player receives the highest payoff available to them across all possible combinations of strategies.",
+    "answer": false,
+    "explanation": "False. A Nash equilibrium only requires that each player is choosing a best response to the others' strategies, so no one can gain by changing course alone. That can leave everyone worse off than under another outcome: in the prisoner's dilemma, mutual defection is the Nash equilibrium even though mutual cooperation would pay both players more.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -89,8 +89,8 @@
     "prompt": "The Coase theorem states that, when property rights are clearly defined and transaction costs are zero, private bargaining between parties will lead to:",
     "choices": [
       "an efficient outcome regardless of how property rights are initially assigned",
-      "the government-optimal level of production in every case",
-      "monopoly pricing for any excludable resource",
+      "the government-optimal level of production in every case, with no real role for bargaining",
+      "monopoly pricing for any excludable resource, since each owner bargains as a monopolist",
       "zero externalities only if the polluter holds the property right"
     ],
     "answer": "an efficient outcome regardless of how property rights are initially assigned",
@@ -134,9 +134,9 @@
     "category": "theory",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "Moral hazard describes the tendency to take on more risk when insulated from its full consequences — for example, driving less carefully because you have comprehensive car insurance.",
-    "answer": true,
-    "explanation": "Moral hazard arises from hidden action after a contract is signed. Insurance markets are the classic case; other examples include corporate executives whose downside is limited (shareholders vs. managers) and financial institutions that expect government bailouts ('too big to fail').",
+    "prompt": "Moral hazard describes the problem that arises before a deal is made, when sellers know more about quality than buyers do, so low-quality goods drive good ones out of the market.",
+    "answer": false,
+    "explanation": "False. That describes adverse selection (Akerlof's 'market for lemons'), a hidden-information problem that exists before a contract is signed. Moral hazard is the tendency to take on more risk when insulated from its full consequences, such as driving less carefully because you have comprehensive car insurance. It arises from hidden action after a contract is signed. Other examples include corporate executives whose downside is limited (shareholders vs. managers) and financial institutions that expect government bailouts ('too big to fail').",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -154,9 +154,9 @@
     "prompt": "In economic theory, a 'public good' is defined by two properties: non-excludability (no one can be denied access) and:",
     "choices": [
       "non-rivalry (one person's use does not reduce availability to others)",
-      "positive externalities (consumption benefits third parties)",
+      "positive externalities (consumption by one person benefits third parties as well)",
       "inelastic demand (consumption is insensitive to price)",
-      "government provision (it must be supplied by the state)"
+      "government provision (it must be supplied by the state to qualify)"
     ],
     "answer": "non-rivalry (one person's use does not reduce availability to others)",
     "explanation": "National defence, clean air, and public fireworks are classic examples. Because both properties hold simultaneously, markets tend to undersupply public goods — private producers cannot exclude free-riders, so they cannot recover costs through user charges.",
@@ -202,7 +202,7 @@
     "format": "tf",
     "prompt": "The 'tragedy of the commons,' as described by Garrett Hardin (1968), holds that an open-access shared resource will be over-exploited because each user captures the full benefit of using it but bears only a fraction of the total cost.",
     "answer": true,
-    "explanation": "Hardin's classic example: a shared pasture. Each herder gains fully from adding another animal but shares the overgrazing cost with everyone. Elinor Ostrom later showed many communities manage commons sustainably through norms and institutions — work that earned her the 2009 Nobel Prise.",
+    "explanation": "Hardin's classic example: a shared pasture. Each herder gains fully from adding another animal but shares the overgrazing cost with everyone. Elinor Ostrom later showed many communities manage commons sustainably through norms and institutions — work that earned her the 2009 Nobel Prize.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -245,12 +245,12 @@
     "prompt": "In Michael Spence's job-market signalling model (1973), costly education can credibly signal worker ability only if:",
     "choices": [
       "acquiring the credential is less costly (in time or effort) for high-ability workers than for low-ability workers",
-      "education directly raises worker productivity by the same amount for all ability types",
-      "employers cannot observe whether workers have completed their degrees",
-      "governments subsidize tuition to make the signal universally accessible"
+      "education directly raises worker productivity by exactly the same amount for every ability type, whatever the credential",
+      "employers cannot observe whether workers have actually completed their degrees, so any claimed credential is accepted",
+      "governments subsidize tuition heavily enough that the credential becomes equally accessible to every worker"
     ],
     "answer": "acquiring the credential is less costly (in time or effort) for high-ability workers than for low-ability workers",
-    "explanation": "Spence's key insight is that education can constitute a separating equilibrium even if it raises no one's productivity — provided it is sufficiently cheaper for high-ability types. This 'single-crossing' condition prevents low-ability workers from profitably mimicking the signal. Spence shared the 2001 Nobel Prise with Stiglitz and Akerlof.",
+    "explanation": "Spence's key insight is that education can constitute a separating equilibrium even if it raises no one's productivity — provided it is sufficiently cheaper for high-ability types. This 'single-crossing' condition prevents low-ability workers from profitably mimicking the signal. Spence shared the 2001 Nobel Prize with Stiglitz and Akerlof.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -274,7 +274,7 @@
       "diminishing marginal utility based solely on absolute wealth levels"
     ],
     "answer": "loss aversion: losses loom roughly twice as large as equivalent gains",
-    "explanation": "Prospect theory proposes that people evaluate outcomes relative to a reference point, weight losses about twice as heavily as equal gains, and overweight small probabilities. Kahneman won the 2002 Nobel Prise in Economics (Tversky had died in 1996 and prises are not awarded posthumously).",
+    "explanation": "Prospect theory proposes that people evaluate outcomes relative to a reference point, weight losses about twice as heavily as equal gains, and overweight small probabilities. Kahneman won the 2002 Nobel Prize in Economics (Tversky had died in 1996 and prizes are not awarded posthumously).",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -293,7 +293,7 @@
     "format": "tf",
     "prompt": "Richard Thaler and Cass Sunstein coined the term 'libertarian paternalism' to describe policies that steer people toward better choices (e.g. through default options) while preserving full freedom to opt out.",
     "answer": true,
-    "explanation": "Their 2008 book Nudge popularized 'choice architecture': changing default enrolment for pensions, organ donation, and green energy so that inertia works in people's favour. Thaler won the 2017 Nobel Prise for contributions to behavioural economics.",
+    "explanation": "Their 2008 book Nudge popularized 'choice architecture': changing default enrolment for pensions, organ donation, and green energy so that inertia works in people's favour. Thaler won the 2017 Nobel Prize for contributions to behavioural economics.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -379,9 +379,9 @@
     "prompt": "The Second Fundamental Theorem of Welfare Economics states that:",
     "choices": [
       "any Pareto-efficient allocation can be decentralized as a competitive equilibrium following an appropriate lump-sum redistribution of endowments",
-      "every competitive equilibrium is Pareto efficient",
-      "governments can always improve on market outcomes through redistribution",
-      "externalities are the only barrier to competitive equilibria being efficient"
+      "every competitive equilibrium is Pareto efficient, provided markets are complete and there are no externalities or market power",
+      "governments can always raise total welfare above the competitive outcome by taxing efficient allocations and redistributing the proceeds",
+      "externalities are the only barrier to competitive equilibria being efficient, so correcting them with Pigouvian taxes restores optimality"
     ],
     "answer": "any Pareto-efficient allocation can be decentralized as a competitive equilibrium following an appropriate lump-sum redistribution of endowments",
     "explanation": "The Second Welfare Theorem separates efficiency from equity: pick any Pareto-efficient outcome as your social goal, redistribute initial endowments via lump-sum transfers, and markets will deliver it. The practical problem is that lump-sum taxes are generally not feasible — real taxes distort incentives.",
@@ -402,9 +402,9 @@
     "prompt": "Ricardian equivalence (formalized by Barro in 1974) implies that deficit-financed tax cuts will not raise aggregate demand because:",
     "choices": [
       "rational, forward-looking households save the full tax cut, anticipating higher future taxes to repay the debt",
-      "higher government borrowing crowds out private investment through rising interest rates",
-      "bond-financed spending raises the price level rather than real output",
-      "fiscal multipliers are zero whenever the central bank targets a nominal interest rate"
+      "higher government borrowing crowds out private investment by pushing up interest rates, offsetting the stimulus",
+      "bond-financed government spending raises the price level rather than real output, so nominal demand rises but not real demand",
+      "fiscal multipliers are zero whenever the central bank targets a nominal interest rate rather than the money supply"
     ],
     "answer": "rational, forward-looking households save the full tax cut, anticipating higher future taxes to repay the debt",
     "explanation": "Barro argued that under perfect capital markets and rational expectations, a government deficit today implies future tax liabilities of equal present value. Households internalize this and save exactly the amount needed to pay those taxes — leaving consumption and aggregate demand unchanged. Critics note the result requires no liquidity constraints and operative bequest motives.",
@@ -497,9 +497,9 @@
     "prompt": "A Giffen good violates the law of demand — quantity demanded rises when price rises. This happens because:",
     "choices": [
       "the income effect of a price rise (making the consumer poorer) outweighs the substitution effect, causing more of this inferior staple to be consumed",
-      "consumers perceive higher prices as signals of superior quality and status",
-      "expected future price rises trigger rational hoarding behaviour",
-      "monopoly power allows firms to charge more while selling more units"
+      "consumers read higher prices as a signal of superior quality and status, so a price rise makes the good more desirable to buy",
+      "consumers expect further price rises and rationally hoard the good today, buying more now to avoid paying more later",
+      "the seller holds monopoly power and can raise prices while still selling more units, because demand curves slope upward for monopolists"
     ],
     "answer": "the income effect of a price rise (making the consumer poorer) outweighs the substitution effect, causing more of this inferior staple to be consumed",
     "explanation": "Giffen goods must be strongly inferior and represent a large share of the budget. A price rise makes the consumer poorer; they cut back on relatively expensive goods and consume more of this cheap staple — the income effect dominates the substitution effect. Empirical confirmation is rare; Irish potatoes during the Famine are often cited but the evidence is contested.",
@@ -563,9 +563,9 @@
     "prompt": "Hyperbolic discounting, used to explain procrastination and undersaving, describes a pattern where people:",
     "choices": [
       "place a disproportionately high discount between the present and the near future, creating time-inconsistent preferences",
-      "discount all future periods at the same constant exponential rate",
-      "overvalue future outcomes relative to present ones due to optimism bias",
-      "assign zero weight to any outcome beyond a fixed planning horizon"
+      "discount all future periods at the same constant exponential rate, so that their plans never change as time passes",
+      "overvalue future outcomes relative to present ones because of optimism bias, so they save more than standard theory predicts",
+      "assign zero weight to any outcome beyond a fixed planning horizon, ignoring all consequences that fall after that date"
     ],
     "answer": "place a disproportionately high discount between the present and the near future, creating time-inconsistent preferences",
     "explanation": "Under hyperbolic discounting, the discount rate between today and tomorrow is far larger than between day 100 and day 101. This creates present bias: preferring a smaller-sooner reward over a larger-later one when both are imminent, even if the preference reverses when both are distant. Standard exponential discounting does not exhibit this time inconsistency.",
@@ -587,9 +587,9 @@
     "prompt": "The 'Lucas critique' (1976) warns that empirical macroeconomic models are unreliable for evaluating policy changes because:",
     "choices": [
       "the estimated parameters will shift when policy changes, since rational agents adjust behaviour based on the new policy regime",
-      "macroeconomic data is subject to measurement errors that compound over long estimation periods",
-      "rational expectations make future economic outcomes fundamentally unpredictable",
-      "government deficits crowd out private investment, nullifying any intended policy effect"
+      "macroeconomic data is measured with errors that compound over long estimation periods, making any forecast of policy effects unreliable",
+      "rational expectations make future economic outcomes fundamentally unpredictable, so no model can say anything useful about policy",
+      "government deficits crowd out private investment so completely that any intended policy effect is nullified in the model"
     ],
     "answer": "the estimated parameters will shift when policy changes, since rational agents adjust behaviour based on the new policy regime",
     "explanation": "Lucas argued that the behavioural relationships estimated from historical data embed agents' expectations under the previous policy regime. Change the policy, and agents update their expectations and behaviours — invalidating the original equations. This critique was a key motivation for building macroeconomic models from explicit microfoundations (DSGE models).",
@@ -611,8 +611,8 @@
     "prompt": "The revelation principle in mechanism design states that for any mechanism that achieves a given outcome, there exists an equivalent direct mechanism in which:",
     "choices": [
       "truthful reporting of private information is an equilibrium, and the outcome is unchanged",
-      "all agents voluntarily participate without any outside option",
-      "information asymmetry is eliminated through competitive bidding among agents",
+      "all agents voluntarily participate in the mechanism, even though they would do better with an outside option",
+      "information asymmetry is removed through competitive bidding among the agents",
       "the principal can directly observe every agent's private type"
     ],
     "answer": "truthful reporting of private information is an equilibrium, and the outcome is unchanged",
@@ -652,7 +652,7 @@
       ]
     ],
     "answer": "Coase→Transaction costs; Akerlof→Lemons; Lucas→Rational expectations; Kahneman→Prospect theory",
-    "explanation": "All four won the Nobel Prise in Economics: Coase (1991), Akerlof (2001), Lucas (1995), and Kahneman (2002, shared with Vernon Smith). Their contributions span institutional, information, macro, and behavioural economics.",
+    "explanation": "All four won the Nobel Prize in Economics: Coase (1991), Akerlof (2001), Lucas (1995), and Kahneman (2002, shared with Vernon Smith). Their contributions span institutional, information, macro, and behavioural economics.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -699,8 +699,8 @@
     "prompt": "The 'endowment effect', documented by Kahneman, Knetsch, and Thaler, describes the tendency of people to:",
     "choices": [
       "value items more highly once they own them than they would pay to acquire them",
-      "underestimate the value of goods they have never experienced",
-      "spend windfall gains more freely than equivalent earned income",
+      "underestimate the value of goods they have never experienced, since they have no reference point",
+      "spend windfall gains more freely than equivalent income they have earned through work",
       "overinvest in familiar assets due to status quo bias"
     ],
     "answer": "value items more highly once they own them than they would pay to acquire them",
@@ -724,9 +724,9 @@
     "prompt": "In behavioural economics, 'anchoring' refers to the tendency to rely too heavily on:",
     "choices": [
       "the first piece of numerical information encountered when making estimates or decisions",
-      "well-established reference prices from previous personal purchases",
-      "the advice of trusted experts or authority figures",
-      "recent outcomes when predicting future events"
+      "well-established reference prices drawn from their own previous purchases of similar goods",
+      "the advice of trusted experts or authority figures when they are unsure of an estimate",
+      "recent outcomes when predicting future events, assuming that the latest trend will simply continue"
     ],
     "answer": "the first piece of numerical information encountered when making estimates or decisions",
     "explanation": "Kahneman and Tversky showed that when asked to estimate an unknown quantity, people are heavily influenced by an arbitrary starting number — even one generated by a random wheel of fortune. Negotiators exploit anchoring by making extreme first offers; retailers use it with 'original prices' crossed out.",
@@ -784,8 +784,8 @@
     "prompt": "In a Dutch auction, the auctioneer begins with a high asking price and then:",
     "choices": [
       "steadily lowers it until a buyer accepts — the first bidder to accept wins at that price",
-      "raises it incrementally until only one bidder remains willing to pay",
-      "collects sealed bids, then sells to the highest bidder at their stated price",
+      "raises it incrementally until only one bidder remains willing to pay, who then wins at the final price",
+      "collects sealed bids, then sells to the highest bidder at the price that bidder stated",
       "sells to the highest bidder at the second-highest bid price"
     ],
     "answer": "steadily lowers it until a buyer accepts — the first bidder to accept wins at that price",
@@ -807,9 +807,9 @@
     "prompt": "In economics, the 'principal-agent problem' arises whenever:",
     "choices": [
       "one party (the agent) takes actions on behalf of another (the principal) but their interests may diverge",
-      "a government principal must design taxes to correct agent-caused market failures",
-      "multiple principals compete to hire a single worker through an auction",
-      "a firm holds a patent, making it the sole agent for pricing an innovation"
+      "a government principal must design taxes to correct market failures caused by the behaviour of private agents",
+      "multiple principals compete to hire a single worker through an auction, driving the wage above productivity",
+      "a firm holds a patent, making it the sole agent that can set prices for an innovation in its industry"
     ],
     "answer": "one party (the agent) takes actions on behalf of another (the principal) but their interests may diverge",
     "explanation": "Classic examples: shareholders (principals) and managers (agents); insurance companies and policyholders; voters and politicians; employers and employees. Whenever the agent has private information or takes hidden actions, they may exploit their position for personal gain — motivating the design of incentive-compatible contracts.",
@@ -831,9 +831,9 @@
     "prompt": "The 'Solow residual' in growth accounting refers to:",
     "choices": [
       "the portion of economic growth not explained by increases in capital or labour — typically attributed to technological progress",
-      "the rate at which capital depreciates and must be replaced to maintain steady-state output",
-      "the difference between actual GDP and potential GDP over the business cycle",
-      "the gap between a country's growth rate and the global average"
+      "the rate at which capital depreciates and must be replaced each year to keep output constant in the steady state",
+      "the difference between actual GDP and potential GDP over the business cycle, expressed as a share of potential output",
+      "the gap between a country's growth rate and the global average, left over after adjusting for population growth"
     ],
     "answer": "the portion of economic growth not explained by increases in capital or labour — typically attributed to technological progress",
     "explanation": "Robert Solow's 1957 paper decomposed US growth over 1909–1949 and found that roughly seven-eighths of the rise in output per worker-hour came from the residual — not from capital accumulation. This 'measure of our ignorance' (as Abramovitz called it) motivated endogenous growth theory to explain technological progress rather than simply assume it.",
@@ -855,12 +855,12 @@
     "prompt": "Paul Romer's endogenous growth theory (1986–1990) departs from the Solow model mainly by treating ideas and technology as:",
     "choices": [
       "non-rival inputs: one firm's use does not prevent another's, so returns to knowledge need not diminish with use",
-      "a fixed endowment that determines each country's long-run growth trajectory",
-      "a pure public good freely available to all firms at no cost",
-      "a rival, excludable input whose price is set by competitive markets"
+      "a fixed endowment that differs across countries and determines each one's long-run growth trajectory regardless of policy",
+      "a pure public good, freely available to all firms at no cost, so every country grows at the same long-run rate",
+      "a rival, excludable input whose price is set in competitive markets, so returns to knowledge diminish as in the Solow model"
     ],
     "answer": "non-rival inputs: one firm's use does not prevent another's, so returns to knowledge need not diminish with use",
-    "explanation": "Ideas (blueprints, software, formulas) are non-rival: Ford using a production technique doesn't prevent Toyota from using the same technique. This non-rivalry means knowledge can generate increasing returns and sustain long-run growth — unlike physical capital, which faces diminishing returns. Romer won the 2018 Nobel Prise.",
+    "explanation": "Ideas (blueprints, software, formulas) are non-rival: Ford using a production technique doesn't prevent Toyota from using the same technique. This non-rivalry means knowledge can generate increasing returns and sustain long-run growth — unlike physical capital, which faces diminishing returns. Romer won the 2018 Nobel Prize.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -899,9 +899,9 @@
     "prompt": "In public choice economics, 'rent-seeking' describes the activity of:",
     "choices": [
       "spending resources to capture a larger share of existing wealth through lobbying or litigation rather than creating new value",
-      "real-estate investors bidding up property rents in supply-constrained urban markets",
-      "firms investing in R&D to monopolize an innovation through patents",
-      "workers holding out for higher wages rather than accepting the market-clearing wage"
+      "real-estate investors bidding up rents in supply-constrained urban housing markets in order to earn higher returns",
+      "firms investing heavily in research and development to monopolize an innovation temporarily through patent protection",
+      "workers holding out for wages above the market-clearing level, rather than accepting the going rate for their skills"
     ],
     "answer": "spending resources to capture a larger share of existing wealth through lobbying or litigation rather than creating new value",
     "explanation": "Gordon Tullock introduced the concept; Anne Krueger coined 'rent-seeking' in 1974. When firms spend on lobbying for subsidies, tariff protection, or exclusive licences, they are competing for existing economic rents rather than creating new wealth. Society loses both the rent and the resources spent trying to capture it.",
@@ -924,8 +924,8 @@
     "prompt": "The median voter theorem predicts that in a simple majority election between two candidates on a one-dimensional policy spectrum, both candidates will rationally converge toward the position of:",
     "choices": [
       "the median voter, whose preferred policy has half of all voters on each side",
-      "the average voter, weighted by donation intensity and turnout likelihood",
-      "the most extreme voters on either end, who are most reliably mobilized",
+      "the average voter, weighted by campaign donation intensity and likelihood of turning out",
+      "the most extreme voters on either end, who are the most reliably mobilized at the polls",
       "the voter whose income equals the country's mean income"
     ],
     "answer": "the median voter, whose preferred policy has half of all voters on each side",
@@ -997,7 +997,7 @@
     "answer": 1964,
     "unit": "",
     "tolerance": 0,
-    "explanation": "Becker's Human Capital (1964) treated schooling and on-the-job training as investments that raise future earnings. The return on education is analogous to the return on physical capital. Becker won the Nobel Prise in 1992. The framework underpins cost-benefit analysis of education policy worldwide.",
+    "explanation": "Becker's Human Capital (1964) treated schooling and on-the-job training as investments that raise future earnings. The return on education is analogous to the return on physical capital. Becker won the Nobel Prize in 1992. The framework underpins cost-benefit analysis of education policy worldwide.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1017,9 +1017,9 @@
     "prompt": "First-degree (or 'perfect') price discrimination allows a seller to:",
     "choices": [
       "charge each consumer their maximum willingness to pay, capturing all consumer surplus as producer profit",
-      "offer volume discounts — lower prices for larger quantities — to all buyers",
-      "charge different prices to different demographic groups (e.g. students vs. adults)",
-      "set a two-part tariff: a fixed access fee plus a per-unit charge"
+      "offer volume discounts, charging lower prices for larger quantities, to every buyer who is willing to purchase in bulk",
+      "charge different prices to different demographic groups, such as students versus adults, based on observable traits",
+      "set a two-part tariff made up of a fixed access fee plus a constant per-unit charge for every item bought"
     ],
     "answer": "charge each consumer their maximum willingness to pay, capturing all consumer surplus as producer profit",
     "explanation": "Perfect price discrimination is theoretically efficient (output equals the competitive level) but transfers all surplus to the seller. In practice it is rare since sellers cannot perfectly observe each buyer's valuation. Personalized dynamic pricing in e-commerce is a partial real-world approximation. Third-degree discrimination (different prices to groups) is common; second-degree (quantity discounts) is intermediate.",
@@ -1059,7 +1059,7 @@
     "prompt": "An industry is a 'natural monopoly' when average costs decline continuously over the entire relevant range of market output, meaning that:",
     "choices": [
       "a single firm can produce the market's entire output more cheaply than two or more firms",
-      "one firm has acquired all key inputs and legally excluded competitors",
+      "one firm has bought up all of the key inputs and has legally excluded every competitor from entry",
       "government regulation has licensed only one firm to serve the market",
       "economies of scope make multi-product bundling more profitable than specialization"
     ],
@@ -1083,12 +1083,12 @@
     "prompt": "The Kydland–Prescott time inconsistency problem in monetary policy (1977) shows that a central bank committed to low inflation faces a temptation to inflate because:",
     "choices": [
       "once wages and prices are set based on low-inflation expectations, a surprise inflation boost can temporarily raise output — but the gain vanishes once workers update expectations",
-      "high inflation is needed to service large government debt accumulated during recessions",
-      "flexible exchange rates automatically transmit inflationary pressure from trading partners",
-      "forward guidance loses credibility when central banks publish inflation targets"
+      "high inflation is needed to service the large government debt accumulated during recessions, so a committed central bank is eventually forced to monetize that debt",
+      "flexible exchange rates automatically transmit inflationary pressure from trading partners, so a central bank cannot hold domestic inflation below the world rate",
+      "forward guidance loses credibility whenever the central bank publishes an explicit inflation target, so announcements stop influencing expectations"
     ],
     "answer": "once wages and prices are set based on low-inflation expectations, a surprise inflation boost can temporarily raise output — but the gain vanishes once workers update expectations",
-    "explanation": "The time-inconsistency result says the optimal ex-ante policy (commit to zero inflation) is not optimal ex-post (once wages are fixed, inflate for a short-run boost). Anticipating this, workers demand higher wages, producing an inflationary equilibrium with no output gain. The solution — independent central banks with credible mandates — became the post-1980s consensus. Kydland and Prescott won the 2004 Nobel Prise.",
+    "explanation": "The time-inconsistency result says the optimal ex-ante policy (commit to zero inflation) is not optimal ex-post (once wages are fixed, inflate for a short-run boost). Anticipating this, workers demand higher wages, producing an inflationary equilibrium with no output gain. The solution — independent central banks with credible mandates — became the post-1980s consensus. Kydland and Prescott won the 2004 Nobel Prize.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1175,9 +1175,9 @@
     "prompt": "David Ricardo's principle of comparative advantage implies that a country should specialize in and export goods in which it has:",
     "choices": [
       "a lower opportunity cost of production relative to other goods, even if it is absolutely less efficient at everything",
-      "an absolute productivity advantage over all trading partners",
-      "the most abundant factor of production as determined by its resource endowment",
-      "the highest domestic consumer demand, signalling competitive home-market conditions"
+      "an absolute productivity advantage over all of its trading partners, so that it can produce each good with fewer resources",
+      "the most abundant factor of production, as determined by its natural resource endowment compared with its trading partners",
+      "the highest domestic consumer demand, which signals competitive conditions in its home market and scale advantages abroad"
     ],
     "answer": "a lower opportunity cost of production relative to other goods, even if it is absolutely less efficient at everything",
     "explanation": "Ricardo showed in 1817 that even if England produced both cloth and wine less efficiently than Portugal, both countries could gain from trade if England's comparative disadvantage was smaller in cloth. The insight — that opportunity costs, not absolute productivity, drive specialization — remains the bedrock of trade theory.",
@@ -1200,8 +1200,8 @@
     "choices": [
       "relatively abundant factors of production — e.g. labour-intensive goods if labour is cheap and plentiful",
       "scarcest factors, because domestic scarcity raises domestic prices and creates export opportunities",
-      "most advanced technology, regardless of factor endowments",
-      "most widely consumed domestic products, since scale economies lower costs"
+      "most technologically advanced production methods, regardless of how its factor endowments compare",
+      "most widely consumed domestic products, since large home-market scale economies lower their costs abroad"
     ],
     "answer": "relatively abundant factors of production — e.g. labour-intensive goods if labour is cheap and plentiful",
     "explanation": "Eli Heckscher (1919) and Bertil Ohlin (1933) extended Ricardian trade theory by attributing comparative advantage to factor endowments. China exports labour-intensive manufactures; Canada exports resource-intensive commodities. The Leontief paradox (1953) challenged the model when it turned out the US — capital-rich — exported relatively labour-intensive goods.",
@@ -1223,12 +1223,12 @@
     "prompt": "Paul Krugman's 'new trade theory' (1979–1980) challenged traditional comparative-advantage models by showing that much international trade occurs between:",
     "choices": [
       "similar countries exchanging similar goods, driven by economies of scale and consumers' love of variety",
-      "rich and poor countries trading goods that intensively use their respective abundant factors",
-      "countries with complementary natural resources and manufactured-goods capabilities",
+      "rich and poor countries trading goods that intensively use each side's abundant factors, as traditional models predict",
+      "countries with complementary natural resources and manufactured-goods capabilities that suit each other",
       "countries whose governments have negotiated bilateral preferential tariff agreements"
     ],
     "answer": "similar countries exchanging similar goods, driven by economies of scale and consumers' love of variety",
-    "explanation": "The US and Germany both produce and trade cars — not because of comparative advantage in factor endowments, but because scale economies reward specialization in particular varieties and consumers want both German and American models. Krugman won the 2008 Nobel Prise partly for this work, which also explained geographic concentration of industries.",
+    "explanation": "The US and Germany both produce and trade cars — not because of comparative advantage in factor endowments, but because scale economies reward specialization in particular varieties and consumers want both German and American models. Krugman won the 2008 Nobel Prize partly for this work, which also explained geographic concentration of industries.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1275,9 +1275,9 @@
     "prompt": "The 'double dividend' hypothesis for environmental taxes claims that a revenue-neutral carbon tax can deliver two benefits simultaneously: reducing emissions and:",
     "choices": [
       "allowing cuts to other distortionary taxes (like those on labour or capital), potentially improving overall economic efficiency",
-      "funding direct investment in green infrastructure that accelerates decarbonization",
-      "eliminating the need for a separate emissions trading scheme or cap-and-trade system",
-      "achieving full Pareto efficiency by internalizing all negative externalities at once"
+      "funding direct public investment in green infrastructure that accelerates the transition away from fossil fuels",
+      "eliminating any need for a separate emissions trading scheme or cap-and-trade system alongside the carbon tax",
+      "achieving full Pareto efficiency by internalizing every negative externality in the economy through one single tax"
     ],
     "answer": "allowing cuts to other distortionary taxes (like those on labour or capital), potentially improving overall economic efficiency",
     "explanation": "The first dividend is environmental (fewer emissions). The second dividend is economic: recycling carbon-tax revenues to cut income or payroll taxes reduces the distortions those taxes create in labour and capital markets. Whether the second dividend is reliable is debated — the result depends on pre-existing tax structures and how the revenue is used.",
@@ -1343,9 +1343,9 @@
     "prompt": "Kaldor–Hicks efficiency, used by economists and courts to evaluate policy changes, holds that a change is efficient if:",
     "choices": [
       "the gains to winners are large enough that they could hypothetically compensate the losers and still be better off — even if no compensation is actually paid",
-      "every individual affected is made at least as well off as before the change",
-      "the total social utility of all individuals increases, using cardinal comparisons of welfare",
-      "the gainers do in fact compensate the losers, achieving a Pareto improvement"
+      "every individual affected by the change is made at least as well off as before, so that nobody loses and at least one person gains",
+      "the total social utility of all individuals increases, measured using cardinal, interpersonally comparable utility scales for each person",
+      "the winners actually compensate the losers in full, so that the change becomes a Pareto improvement once the payments have been made"
     ],
     "answer": "the gains to winners are large enough that they could hypothetically compensate the losers and still be better off — even if no compensation is actually paid",
     "explanation": "Kaldor–Hicks is weaker than Pareto (no one worse off) but more practical: it only asks whether total value increases, not whether the distribution is fair. Most cost-benefit analysis in public policy uses this criterion. Critics note it can justify policies that make the poor worse off as long as the rich gain more.",

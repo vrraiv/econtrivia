@@ -93,7 +93,7 @@
       "autocorrelation — when error terms in a time series are correlated across periods"
     ],
     "answer": "endogeneity — when a regressor is correlated with the error term, biasing OLS estimates",
-    "explanation": "When the regressor of interest (e.g., education) is correlated with unobserved factors in the error (e.g., ability), OLS is biased. A valid instrument must be correlated with the endogenous regressor (relevance) but affect the outcome only through that regressor (exclusion restriction). Angrist and Imbens won the 2021 Nobel Prise partly for this work.",
+    "explanation": "When the regressor of interest (e.g., education) is correlated with unobserved factors in the error (e.g., ability), OLS is biased. A valid instrument must be correlated with the endogenous regressor (relevance) but affect the outcome only through that regressor (exclusion restriction). Angrist and Imbens won the 2021 Nobel Prize partly for this work.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -129,12 +129,12 @@
     "format": "mc",
     "prompt": "In a Regression Discontinuity Design (RDD), causal identification relies on the assumption that units just below and just above the threshold are comparable. The variable that determines which side of the threshold a unit falls on is called the:",
     "choices": [
-      "running variable (or forcing variable)",
-      "treatment indicator",
-      "instrumental variable",
-      "propensity score"
+      "running variable (also called the forcing variable)",
+      "treatment indicator (the above-cutoff dummy variable)",
+      "instrumental variable for treatment assignment",
+      "propensity score (probability of being treated)"
     ],
-    "answer": "running variable (or forcing variable)",
+    "answer": "running variable (also called the forcing variable)",
     "explanation": "In an RDD, treatment is assigned based on whether a continuous running variable (e.g., test score, age, vote share) crosses a known threshold. Near the cutoff, assignment is as good as random, allowing estimation of a local average treatment effect. RDD is invalid if individuals can precisely manipulate their running variable to just cross the threshold.",
     "source": null,
     "as_of": null,
@@ -281,9 +281,9 @@
     "category": "math",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "The Central Limit Theorem guarantees that, for a sufficiently large sample, the distribution of the sample mean will be approximately normal — regardless of the shape of the underlying population distribution, provided it has a finite variance.",
-    "answer": true,
-    "explanation": "The CLT is one of the most powerful results in statistics. It explains why normal-distribution-based tests work even when the underlying data are skewed, bimodal, or otherwise non-normal, provided the sample is large enough (a common rule of thumb is n ≥ 30).",
+    "prompt": "The Central Limit Theorem guarantees that, once a sample is large enough, the individual observations in it will be approximately normally distributed, whatever the shape of the underlying population.",
+    "answer": false,
+    "explanation": "The CLT is about the sample mean, not the data. As the sample size grows, the distribution of the sample mean becomes approximately normal (given a finite variance), but individual observations keep the shape of the population: a large sample from a skewed distribution is still skewed. That is why normal-based tests on means work even when the underlying data are not normal, with a common rule of thumb of n ≥ 30.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -291,7 +291,8 @@
       "central limit theorem",
       "statistics",
       "normal distribution",
-      "CLT"
+      "CLT",
+      "sampling distribution"
     ]
   },
   {
@@ -321,12 +322,12 @@
     "format": "mc",
     "prompt": "A researcher notices that the number of Nicolas Cage films released each year moves closely with the number of US swimming-pool drownings (a correlation of about 0.67 across roughly a decade of annual data). This is a classic example of:",
     "choices": [
-      "spurious regression — two unrelated trending or cyclical variables appearing correlated by coincidence",
-      "reverse causality — popularity of films driving dangerous pool behaviour",
-      "omitted variable bias — a confounding factor causing both trends simultaneously",
-      "multicollinearity — two variables measuring the same underlying phenomenon"
+      "spurious regression — two unrelated trending or cyclical series that appear correlated by chance",
+      "reverse causality — the popularity of Cage films driving dangerous behaviour around swimming pools",
+      "omitted variable bias — an unmeasured confounding factor that causes both trends at the same time",
+      "multicollinearity — two regressors measuring essentially the same underlying phenomenon"
     ],
-    "answer": "spurious regression — two unrelated trending or cyclical variables appearing correlated by coincidence",
+    "answer": "spurious regression — two unrelated trending or cyclical series that appear correlated by chance",
     "explanation": "This is a famous example from Tyler Vigen's Spurious Correlations. When two unrelated variables share a trend, seasonal pattern, or common shock — or when you simply search through enough pairs of series — OLS will find a strong apparent relationship that is purely coincidental. Granger and Newbold (1974) showed that regressing independent random walks on each other produces high R² and significant t-statistics with alarming frequency. The remedy is to test for and handle non-stationarity.",
     "source": null,
     "as_of": null,
@@ -430,12 +431,12 @@
     "format": "mc",
     "prompt": "The Hausman test in panel data econometrics is used to choose between fixed effects and random effects estimators. The test rejects random effects in favour of fixed effects when:",
     "choices": [
-      "the evidence indicates that the individual-specific effects are correlated with the regressors",
-      "the error terms show significant heteroskedasticity",
-      "the panel is unbalanced (different numbers of observations per unit)",
-      "the regressors do not vary over time within individuals"
+      "the individual-specific effects appear to be correlated with the regressors",
+      "the error terms show significant heteroskedasticity across units and periods",
+      "the panel is unbalanced, with different numbers of observations per unit",
+      "the regressors hardly vary over time within individuals at all"
     ],
-    "answer": "the evidence indicates that the individual-specific effects are correlated with the regressors",
+    "answer": "the individual-specific effects appear to be correlated with the regressors",
     "explanation": "Random effects assumes unobserved individual effects are uncorrelated with regressors (and are treated as random draws). If this assumption fails, random effects is biased and inconsistent; fixed effects is consistent by partialling out all time-invariant unit characteristics. The Hausman test checks whether the two estimators give systematically different results, which signals correlation.",
     "source": null,
     "as_of": null,
@@ -455,9 +456,9 @@
     "prompt": "Which of the following is the correct interpretation of a 95% confidence interval for a population mean?",
     "choices": [
       "If the sampling procedure were repeated many times, 95% of such intervals would contain the true population mean",
-      "There is a 95% probability that the true population mean lies within this specific interval",
-      "95% of individual observations in the population fall within this range",
-      "A new sample drawn tomorrow would produce exactly this same interval 95% of the time"
+      "There is a 95% probability that the true population mean lies inside this one specific interval, given the sample data",
+      "95% of the individual observations in the population fall inside this range of values around the sample mean",
+      "A new sample drawn tomorrow would produce exactly this same interval 95% of the time, so the interval is stable"
     ],
     "answer": "If the sampling procedure were repeated many times, 95% of such intervals would contain the true population mean",
     "explanation": "The frequentist confidence interval is a statement about the procedure, not about any specific interval. Once computed, the interval either does or does not contain the true mean — there is no probability to speak of. The common error is treating the 95% as applying to the specific interval already in hand.",
@@ -529,13 +530,13 @@
     "format": "mc",
     "prompt": "The Heckman selection correction (Heckman two-step estimator) is designed to address:",
     "choices": [
-      "sample selection bias, when the sample is non-randomly selected from the population in a way correlated with the outcome",
-      "heteroskedasticity caused by the inclusion of a binary dependent variable",
-      "multicollinearity introduced by including too many highly correlated regressors",
-      "reverse causality when treatment and outcome are determined simultaneously"
+      "sample selection bias, where who ends up in the sample is related to the outcome being studied",
+      "heteroskedasticity that arises when the dependent variable is binary, by reweighting the observations",
+      "multicollinearity introduced by including too many highly correlated regressors in the model",
+      "reverse causality arising when treatment and outcome are determined simultaneously by each other"
     ],
-    "answer": "sample selection bias, when the sample is non-randomly selected from the population in a way correlated with the outcome",
-    "explanation": "Classic example: estimating the wage equation only for people who are employed. Those who choose to work are not a random sample — women with higher potential wages are more likely to enter the workforce. Heckman (1979) proposed estimating a selection equation (who participates) and including the inverse Mills ratio as a control in the outcome equation. He won the 2000 Nobel Prise for this and related methods.",
+    "answer": "sample selection bias, where who ends up in the sample is related to the outcome being studied",
+    "explanation": "Classic example: estimating the wage equation only for people who are employed. Those who choose to work are not a random sample — women with higher potential wages are more likely to enter the workforce. Heckman (1979) proposed estimating a selection equation (who participates) and including the inverse Mills ratio as a control in the outcome equation. He won the 2000 Nobel Prize for this and related methods.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -554,12 +555,12 @@
     "format": "mc",
     "prompt": "In regression analysis, the 'omitted variable bias' formula states that the bias on the coefficient of X from omitting variable Z equals:",
     "choices": [
-      "The coefficient of Z (from a regression including Z) × the coefficient from regressing Z on X",
-      "The variance of Z divided by the covariance of X and Z",
-      "The correlation between X and Z times the standard deviation of Z",
-      "The mean of Z times the coefficient of X in the short regression"
+      "The coefficient on Z (in the long regression) × the coefficient from regressing Z on X",
+      "The variance of Z divided by the covariance between X and Z, measured in the short regression",
+      "The correlation between X and Z multiplied by the standard deviation of Z in the sample",
+      "The mean of Z multiplied by the coefficient on X taken from the short regression"
     ],
-    "answer": "The coefficient of Z (from a regression including Z) × the coefficient from regressing Z on X",
+    "answer": "The coefficient on Z (in the long regression) × the coefficient from regressing Z on X",
     "explanation": "If the true model is Y = α + βX + γZ + ε, but you regress Y on X alone, the OLS estimator on X is biased by γ × δ₁, where δ₁ is the coefficient from regressing Z on X. This means omitting Z biases the estimate of β upward if Z and X are positively correlated (δ₁ > 0) and Z has a positive effect on Y (γ > 0). The formula operationalizes when omitted variable bias is large: it requires both that Z affects Y and that Z correlates with X.",
     "source": null,
     "as_of": null,
@@ -650,12 +651,12 @@
     "format": "mc",
     "prompt": "The Gini coefficient measures income inequality on a scale from 0 (perfect equality) to 1 (maximum inequality). It is defined as the area between the Lorenz curve and the line of perfect equality, divided by the total area below the perfect equality line. Which of the following correctly describes a Gini coefficient of 0.5?",
     "choices": [
-      "The area between the Lorenz curve and the equality line is half of the maximum possible area — a highly unequal distribution, but far short of one person holding everything",
-      "The richest half of the population receives exactly half of all income",
-      "Half of the population lives below the poverty line",
-      "More than half of all income recipients earn above the mean — implying the income distribution is left-skewed rather than right-skewed"
+      "The area between the Lorenz curve and the equality line is half the maximum possible area: highly unequal, but far from total concentration",
+      "The richest half of the population receives exactly half of all income, while the poorer half shares the other half between them",
+      "Half of the population lives below the national poverty line and the other half above it, which is the split the coefficient measures",
+      "More than half of all income recipients earn above the mean — implying the income distribution is left-skewed rather than the usual right-skewed shape"
     ],
-    "answer": "The area between the Lorenz curve and the equality line is half of the maximum possible area — a highly unequal distribution, but far short of one person holding everything",
+    "answer": "The area between the Lorenz curve and the equality line is half the maximum possible area: highly unequal, but far from total concentration",
     "explanation": "The Gini coefficient equals A/(A+B), where A is the area between the Lorenz curve and the 45° equality line and B is the area below the Lorenz curve. A Gini of 0 means A = 0 (everyone earns the same); a Gini of 1 means one person has everything. A Gini of 0.5 is high: the US is roughly 0.39–0.41 after taxes and transfers, Brazil around 0.52, South Africa around 0.63, and the Nordic countries around 0.25–0.28. The second option describes perfect equality (a Gini of 0): if the richest half received only half of all income, every person would have to earn the same. The Gini also doesn't say where in the distribution inequality is concentrated — two countries can share a Gini but have very different distribution shapes.",
     "source": null,
     "as_of": null,
@@ -674,12 +675,12 @@
     "format": "mc",
     "prompt": "The net present value (NPV) of a project is: NPV = -Initial Investment + Σ Cash Flows/(1+r)ᵗ. A firm should invest if NPV > 0. What does a positive NPV actually mean in words?",
     "choices": [
-      "The project earns more than the opportunity cost of capital (the discount rate), so it creates value beyond the next-best alternative",
-      "The project generates positive cash flows in every period, guaranteeing the investment is recovered",
-      "The project has a payback period shorter than the discount rate",
-      "The project's revenues exceed its costs when measured in nominal (uninflated) terms"
+      "The project earns more than the opportunity cost of capital, so it creates value beyond the next-best alternative",
+      "The project generates positive cash flows in every period, so the original investment is guaranteed to be recovered",
+      "The project has a payback period shorter than the discount rate, meaning it recovers its cost quickly",
+      "The project's revenues exceed its costs when everything is measured in nominal (uninflated) terms, ignoring timing"
     ],
-    "answer": "The project earns more than the opportunity cost of capital (the discount rate), so it creates value beyond the next-best alternative",
+    "answer": "The project earns more than the opportunity cost of capital, so it creates value beyond the next-best alternative",
     "explanation": "The discount rate in NPV analysis represents the opportunity cost of capital — the return available on a comparably risky alternative. NPV > 0 means: 'this project earns more than I could get elsewhere with this money at this risk level.' NPV = 0 means the project exactly matches the opportunity cost. NPV < 0 means capital is better deployed elsewhere. A critical insight: NPV doesn't require profits in every period — it considers the pattern of all cash flows discounted to present value.",
     "source": null,
     "as_of": null,
@@ -723,12 +724,12 @@
     "format": "mc",
     "prompt": "The 'random walk hypothesis' in finance states that stock price changes are serially uncorrelated. If returns are a random walk, which of the following must be true?",
     "choices": [
-      "Ignoring any steady drift, the best forecast of tomorrow's price is today's price — past returns carry no information about future returns",
-      "Stock prices are drawn from a normal distribution, so extreme moves are very rare",
-      "A strategy of buying recent winners (momentum) should outperform the market",
-      "The efficient market hypothesis implies that no strategy can earn above-average returns"
+      "With no drift, the best forecast of tomorrow's price is today's price, because past returns carry no information about future returns",
+      "Stock prices are drawn from a normal distribution, so extreme moves are very rare and large crashes essentially never occur in practice",
+      "A strategy of buying recent winners (momentum) should outperform the market, because price trends tend to persist",
+      "The efficient market hypothesis must hold, which implies that no strategy of any kind can earn above-average returns"
     ],
-    "answer": "Ignoring any steady drift, the best forecast of tomorrow's price is today's price — past returns carry no information about future returns",
+    "answer": "With no drift, the best forecast of tomorrow's price is today's price, because past returns carry no information about future returns",
     "explanation": "If prices follow a random walk, price changes (returns) are unpredictable from past returns. Setting aside the average drift (a random walk with drift simply adds the expected return), the best forecast of tomorrow's price Pₜ₊₁ is Pₜ — today's price already reflects everything in past prices. This is the weak form of the Efficient Market Hypothesis (EMH). The random walk does NOT require normality (returns can have fat tails and still be a random walk). Empirically, momentum strategies do show some predictability — evidence against a pure random walk — but after transaction costs, most active strategies underperform passive indexes.",
     "source": null,
     "as_of": null,
@@ -747,12 +748,12 @@
     "format": "mc",
     "prompt": "In econometrics, panel data contains observations on multiple units (firms, countries, individuals) across multiple time periods. The fixed effects estimator eliminates time-invariant unobservables by:",
     "choices": [
-      "Demeaning each unit's observations — subtracting each unit's mean from all its observations, so any stable characteristic (gender, culture, geography) cancels out",
-      "Adding a dummy variable for each time period to control for aggregate trends affecting all units simultaneously",
-      "Instrumenting for unobserved characteristics using lagged values of the dependent variable",
-      "Restricting the sample to units with complete data in all time periods to avoid attrition bias"
+      "Demeaning each unit's observations, so any stable characteristic (gender, culture, geography) cancels out",
+      "Adding a dummy variable for each time period to control for aggregate trends that affect all units at the same moment",
+      "Instrumenting for the unobserved characteristics using lagged values of the dependent variable as the instruments",
+      "Restricting the sample to units with complete data in every time period, which avoids attrition bias"
     ],
-    "answer": "Demeaning each unit's observations — subtracting each unit's mean from all its observations, so any stable characteristic (gender, culture, geography) cancels out",
+    "answer": "Demeaning each unit's observations, so any stable characteristic (gender, culture, geography) cancels out",
     "explanation": "Fixed effects (within) estimation removes unit-specific intercepts by demeaning: for each unit i, subtract the mean of all observations for i. After demeaning, any variable that doesn't vary within unit i (sex, country of birth, geography) drops out — so fixed effects controls for all time-invariant confounders, observed or not. The downside: you cannot estimate the effect of time-invariant variables (e.g., you can't estimate the effect of being male). Random effects assumes unit-specific effects are uncorrelated with regressors — testable with the Hausman test.",
     "source": null,
     "as_of": null,
@@ -771,12 +772,12 @@
     "format": "mc",
     "prompt": "In a simple Nash equilibrium, each player's strategy is a best response to the other's strategy. In the classic Prisoner's Dilemma, the Nash equilibrium is (Defect, Defect) even though (Cooperate, Cooperate) gives both players higher payoffs. Why does the Nash equilibrium not achieve the socially optimal outcome?",
     "choices": [
-      "Individual rationality leads to collective irrationality: each player's dominant strategy (Defect regardless of what the other does) makes defecting optimal for both, even though mutual cooperation would be better",
-      "Players don't have enough information about each other's intentions to trust cooperation",
-      "The payoff structure is asymmetric, so one player always benefits more from cooperation than the other",
-      "The Prisoner's Dilemma has multiple Nash equilibria, and players coordinate on the worst one"
+      "Each player's dominant strategy is to defect whatever the other does, so individual rationality produces a collectively worse outcome",
+      "Players lack enough information about each other's intentions, so neither can trust that the other will cooperate and both play it safe",
+      "The payoff structure is asymmetric, so one player always gains more from cooperating than the other and the loser refuses to take part",
+      "The game has several Nash equilibria and the players fail to coordinate on the best one, ending up at the worst of them"
     ],
-    "answer": "Individual rationality leads to collective irrationality: each player's dominant strategy (Defect regardless of what the other does) makes defecting optimal for both, even though mutual cooperation would be better",
+    "answer": "Each player's dominant strategy is to defect whatever the other does, so individual rationality produces a collectively worse outcome",
     "explanation": "In the Prisoner's Dilemma, Defect is a dominant strategy: regardless of what the other player does, you are better off defecting. If both players follow their individually rational dominant strategy, both defect — yielding a worse outcome for both than mutual cooperation. This 'dominance-solvable' game illustrates the tragedy of the commons, arms races, cartel instability, and climate negotiations. The solution in repeated games: tit-for-tat strategies can sustain cooperation when the game is played many times by patient players.",
     "source": null,
     "as_of": null,
@@ -795,12 +796,12 @@
     "format": "mc",
     "prompt": "In welfare economics, a Pareto improvement means making at least one person better off without making anyone worse off. Why are real-world policy changes almost never Pareto improvements?",
     "choices": [
-      "Almost every significant policy creates winners and losers — trade liberalization benefits consumers but hurts import-competing workers; redistribution benefits recipients but costs payers",
-      "Welfare comparisons require interpersonal utility comparisons that are mathematically impossible",
-      "Pareto improvements only exist in perfectly competitive markets where no externalities exist",
-      "Most policies affect so many people that finding unanimous consent is logistically impossible"
+      "Almost any significant policy creates winners and losers, such as consumers gaining and import-competing workers losing from freer trade",
+      "Welfare comparisons require interpersonal utility comparisons, which are mathematically impossible, so no policy can ever be shown to help anyone",
+      "Pareto improvements exist only in perfectly competitive markets with no externalities, and real markets always depart from that benchmark",
+      "Most policies affect so many people that gaining unanimous consent is logistically impossible, even where everyone would in fact gain"
     ],
-    "answer": "Almost every significant policy creates winners and losers — trade liberalization benefits consumers but hurts import-competing workers; redistribution benefits recipients but costs payers",
+    "answer": "Almost any significant policy creates winners and losers, such as consumers gaining and import-competing workers losing from freer trade",
     "explanation": "This is why economists use the Kaldor-Hicks efficiency criterion instead: a change is efficient if winners could theoretically compensate losers and still be better off (even if the compensation doesn't actually occur). This theoretical compensation is why economists say free trade 'improves welfare' while acknowledging it creates losers. The distinction between Pareto and Kaldor-Hicks is crucial: much of economic policy advice implicitly uses Kaldor-Hicks while describing it as improving 'social welfare' — glossing over the distributional question.",
     "source": null,
     "as_of": null,
@@ -819,12 +820,12 @@
     "format": "mc",
     "prompt": "The money multiplier in introductory economics textbooks states that if the required reserve ratio is 10%, then $1 of base money supports $10 of bank deposits. In reality, the money multiplier is much lower than this textbook formula predicts. Why?",
     "choices": [
-      "Banks hold excess reserves beyond the required minimum (especially after 2008), and households hold some currency rather than depositing everything",
-      "Central banks sterilize bank lending by raising the reserve requirement whenever deposits expand",
-      "Modern banking operates on full-reserve principles, so the multiplier formula doesn't apply",
-      "The Federal Reserve caps the money multiplier by limiting the total number of loans banks can make"
+      "Banks hold excess reserves above the minimum (especially after 2008), and households keep some cash instead of depositing it",
+      "Central banks sterilize bank lending by raising the reserve requirement whenever deposits expand, which caps the money multiplier",
+      "Modern banking operates on full-reserve principles, so the textbook multiplier formula simply does not apply any more",
+      "The Federal Reserve caps the multiplier by limiting the total number of loans that banks are allowed to make"
     ],
-    "answer": "Banks hold excess reserves beyond the required minimum (especially after 2008), and households hold some currency rather than depositing everything",
+    "answer": "Banks hold excess reserves above the minimum (especially after 2008), and households keep some cash instead of depositing it",
     "explanation": "The textbook multiplier = 1/reserve ratio assumes: (1) banks lend out every dollar beyond the legal minimum; (2) all money returns to banks as deposits. Both fail in practice. After the 2008 financial crisis, banks accumulated trillions in excess reserves (partly earning interest from the Fed), and the US M1 money multiplier fell below 1 (the monetary base exceeded M1). Many modern central bank economists now describe money creation as banks making loans first, with reserves provided on demand — not the textbook reverse.",
     "source": null,
     "as_of": null,
@@ -844,9 +845,9 @@
     "prompt": "In a simple demand and supply model, the consumer surplus is:",
     "choices": [
       "The area below the demand curve and above the market price — the value consumers receive above and beyond what they pay",
-      "The area below the market price and above the supply curve",
+      "The area below the market price and above the supply curve — the gain producers receive over their minimum acceptable price",
       "The difference between the highest price any consumer would pay and the lowest price any consumer would pay",
-      "The total expenditure by consumers on a good"
+      "The total amount consumers spend on the good — the market price multiplied by the quantity traded in the market"
     ],
     "answer": "The area below the demand curve and above the market price — the value consumers receive above and beyond what they pay",
     "explanation": "Consumer surplus is the aggregate value consumers gain from trade beyond what they actually pay. If someone values a coffee at $5 but pays $3, they gain $2 of surplus. Graphically, it's the triangular area between the demand curve (willingness to pay) and the horizontal market price line. Producer surplus is the analogous area above the supply curve and below the price. Total welfare (consumer + producer surplus) is maximized at the competitive equilibrium quantity — this is the partial-equilibrium version of the first theorem of welfare economics.",
@@ -885,12 +886,12 @@
     "format": "mc",
     "prompt": "The IS-LM model uses two equations. What does the 'IS' curve represent, and what does the 'LM' curve represent?",
     "choices": [
-      "IS: combinations of interest rates and output where goods market equilibrium holds (Investment = Saving); LM: combinations where money market equilibrium holds (Liquidity preference = Money supply)",
+      "IS: interest rate and output pairs where the goods market clears (investment = saving); LM: pairs where the money market clears",
       "IS: combinations of investment and saving that balance the government budget; LM: combinations of liquidity and money where the central bank targets inflation",
-      "IS: interest rate sensitivity of investment spending; LM: leverage multiplier applied to money supply",
-      "IS: import-export balance equation; LM: loan market equilibrium between banks and the private sector"
+      "IS: the interest-rate sensitivity of investment spending; LM: the leverage multiplier that banks apply to the money supply",
+      "IS: the import-export balance equation for the economy; LM: loan-market equilibrium between banks and the private sector"
     ],
-    "answer": "IS: combinations of interest rates and output where goods market equilibrium holds (Investment = Saving); LM: combinations where money market equilibrium holds (Liquidity preference = Money supply)",
+    "answer": "IS: interest rate and output pairs where the goods market clears (investment = saving); LM: pairs where the money market clears",
     "explanation": "Hicks (1937) formalized Keynes's General Theory into the IS-LM model. The IS curve is downward sloping (higher interest rates reduce investment and output). The LM curve is upward sloping (higher output increases money demand, raising interest rates for a given money supply). The intersection determines short-run equilibrium output and interest rates. The model is still used in introductory courses but has been critiqued for ignoring expectations, inflation dynamics, and the zero lower bound problem.",
     "source": null,
     "as_of": null,
@@ -910,12 +911,12 @@
     "format": "mc",
     "prompt": "A regression is run with robust standard errors. What problem does this address, and what does NOT change when you use robust standard errors?",
     "choices": [
-      "Heteroskedasticity: robust SEs address non-constant error variance, correcting inference — but the point estimates (coefficients) are unchanged",
-      "Endogeneity: robust SEs correct for correlation between regressors and error terms by reweighting observations",
-      "Multicollinearity: robust SEs reduce the variance inflation caused by correlated regressors",
-      "Omitted variable bias: robust SEs adjust coefficient estimates downward when a relevant variable is missing"
+      "Heteroskedasticity: robust SEs fix inference for non-constant error variance, but the coefficients themselves are unchanged",
+      "Endogeneity: robust SEs correct for correlation between regressors and error terms by reweighting the observations in the sample",
+      "Multicollinearity: robust SEs reduce the variance inflation caused by highly correlated regressors, shrinking the standard errors",
+      "Omitted variable bias: robust SEs adjust the coefficient estimates downward whenever a relevant variable is missing"
     ],
-    "answer": "Heteroskedasticity: robust SEs address non-constant error variance, correcting inference — but the point estimates (coefficients) are unchanged",
+    "answer": "Heteroskedasticity: robust SEs fix inference for non-constant error variance, but the coefficients themselves are unchanged",
     "explanation": "Heteroskedasticity-consistent (HC) standard errors (White 1980) correct the standard errors used for t-tests and confidence intervals when error variance differs across observations — but they don't change the OLS coefficient estimates themselves. OLS is still unbiased and consistent under heteroskedasticity (Gauss-Markov still needs homoskedasticity for efficiency, not unbiasedness). Robust SEs are now standard in applied work. Nothing they do corrects endogeneity or omitted variable bias — those require different solutions (IV, controls, panel data).",
     "source": null,
     "as_of": null,
@@ -935,12 +936,12 @@
     "format": "mc",
     "prompt": "In the consumption function C = a + bY, the parameter 'b' is the marginal propensity to consume (MPC). Keynes argued 0 < b < 1. What does it mean if b = 0.75?",
     "choices": [
-      "For each additional $1 of income, consumers spend 75 cents and save 25 cents",
-      "Consumers spend 75% of their total income on consumption",
-      "Consumption changes by 75% of any change in investment",
-      "75% of consumers save positively; 25% are credit-constrained"
+      "For each additional $1 of income, consumers spend 75 cents and save the other 25 cents",
+      "Consumers spend 75% of their total income on consumption, whatever their level of income",
+      "Consumption changes by 75% of any change in investment, through the multiplier effect",
+      "75% of consumers save a positive amount and the other 25% are credit-constrained"
     ],
-    "answer": "For each additional $1 of income, consumers spend 75 cents and save 25 cents",
+    "answer": "For each additional $1 of income, consumers spend 75 cents and save the other 25 cents",
     "explanation": "The MPC is the derivative of consumption with respect to income: ΔC/ΔY = b = 0.75. For every $1 extra of income, 75 cents is consumed and 25 cents saved (MPS = 1 - MPC = 0.25). This parameter directly determines the Keynesian multiplier: multiplier = 1/(1-MPC) = 1/0.25 = 4. A $1 billion government spending increase would raise equilibrium output by $4 billion in the simple model. Empirically, the MPC is higher for lower-income households (who have less buffer) than for higher-income ones.",
     "source": null,
     "as_of": null,
@@ -959,12 +960,12 @@
     "format": "mc",
     "prompt": "Regression discontinuity (RDD) exploits sharp thresholds to identify causal effects. A study uses the 60% vote share threshold for municipal councils to study the effect of council composition on local spending. The identifying assumption requires that:",
     "choices": [
-      "All determinants of the outcome (spending) change smoothly through the threshold except the treatment (council composition) — so any jump in outcomes at the 60% cutoff is attributable to the treatment",
-      "Mayors must be randomly selected from candidates who received vote shares between 55% and 65%",
-      "The threshold of 60% was chosen randomly and is unrelated to any characteristic of the municipality",
-      "Municipalities just above and below the threshold have identical populations and economic conditions"
+      "All other determinants of spending change smoothly through the threshold, so any jump in spending at the 60% cutoff is due to council composition",
+      "Mayors must be randomly selected from among the candidates who received vote shares between 55% and 65%, so councils on either side are comparable",
+      "The 60% threshold was itself chosen at random and bears no relation to any characteristic of the municipalities on either side of it",
+      "Municipalities just above and just below the threshold must have identical populations, incomes and economic conditions in every respect"
     ],
-    "answer": "All determinants of the outcome (spending) change smoothly through the threshold except the treatment (council composition) — so any jump in outcomes at the 60% cutoff is attributable to the treatment",
+    "answer": "All other determinants of spending change smoothly through the threshold, so any jump in spending at the 60% cutoff is due to council composition",
     "explanation": "RDD's key identifying assumption is 'continuity' or 'no manipulation': all other factors determining the outcome must vary continuously at the cutoff. If near the cutoff, municipalities barely above and below are similar in all pre-treatment characteristics, the RDD compares near-identical units — like a local randomized experiment. Validity tests include: (1) checking that predetermined covariates don't jump at the threshold; (2) McCrary density test — if agents manipulate the running variable (vote counts), the density won't be smooth at the threshold.",
     "source": null,
     "as_of": null,
@@ -1008,12 +1009,12 @@
     "format": "mc",
     "prompt": "The Solow growth model predicts that raising the rate of physical capital accumulation (the saving rate) cannot, by itself, deliver permanently faster growth. Why?",
     "choices": [
-      "Diminishing returns to capital: as capital accumulates, each additional unit adds less output, so capital-rich countries grow more slowly and converge to a steady state",
+      "Diminishing returns to capital: each extra unit adds less output, so growth slows and the economy settles at a steady state",
       "Capital flows freely between countries, so all countries end up with the same capital stock per worker in equilibrium",
-      "Depreciation always exactly offsets new investment at any capital stock above zero, preventing long-run growth",
-      "Workers' marginal product falls to zero when capital-to-labour ratios become too high, limiting accumulation"
+      "Depreciation always exactly offsets new investment at every positive capital stock, which rules out any growth in the long run",
+      "Workers' marginal product falls to zero once capital-to-labour ratios get too high, which limits further accumulation"
     ],
-    "answer": "Diminishing returns to capital: as capital accumulates, each additional unit adds less output, so capital-rich countries grow more slowly and converge to a steady state",
+    "answer": "Diminishing returns to capital: each extra unit adds less output, so growth slows and the economy settles at a steady state",
     "explanation": "In the Solow model (f(k) = Ak^α with α < 1), diminishing marginal returns to capital mean that as a country accumulates capital (higher k), the marginal product of capital falls, and eventually new investment just replaces depreciation — a steady state. A higher saving rate raises the steady-state level of income per capita, but it raises growth only temporarily on the way there. Long-run growth requires exogenous technological progress (g). This is why the model predicts 'conditional convergence' — countries converge to their own steady states, which depend on their saving rates, depreciation, and population growth.",
     "source": null,
     "as_of": null,
@@ -1058,12 +1059,12 @@
     "format": "mc",
     "prompt": "In a regression of log(wages) on years of schooling, the coefficient on schooling is 0.08. This means:",
     "choices": [
-      "Each additional year of schooling is associated with approximately 8% higher wages (since the dependent variable is in logs and the right-hand side is in levels: semi-elasticity)",
-      "Each 1% increase in schooling years is associated with an 8% increase in wages (elasticity interpretation)",
-      "An extra year of schooling raises wages by $0.08 per hour regardless of current wage level",
-      "Workers with more years of schooling earn 8 times more than workers with fewer years"
+      "Each extra year of schooling goes with roughly 8% higher wages (a semi-elasticity: log outcome, level regressor)",
+      "Each 1% increase in years of schooling is associated with an 8% rise in wages, since both variables are measured in logs",
+      "An extra year of schooling raises wages by $0.08 per hour regardless of the worker's current wage level or sector",
+      "Workers with more schooling earn eight times as much as workers with less, on average across the whole sample"
     ],
-    "answer": "Each additional year of schooling is associated with approximately 8% higher wages (since the dependent variable is in logs and the right-hand side is in levels: semi-elasticity)",
+    "answer": "Each extra year of schooling goes with roughly 8% higher wages (a semi-elasticity: log outcome, level regressor)",
     "explanation": "In a log-linear specification (log Y = α + βX + ε), the coefficient β is a semi-elasticity: a one-unit change in X is associated with a β × 100% change in Y. So β = 0.08 means one additional year of schooling → approximately 8% higher wages. This is often called the 'Mincerian return to schooling' after Jacob Mincer. The exact percentage: e^0.08 − 1 ≈ 8.33%. If both sides were in logs (log-log), β would be an elasticity (% change in Y per % change in X).",
     "source": null,
     "as_of": null,
@@ -1083,12 +1084,12 @@
     "format": "mc",
     "prompt": "Synthetic control methods (Abadie, Diamond, Hainmueller) are used when there is only one treated unit (e.g., one country or state). What is the key advantage over ordinary difference-in-differences?",
     "choices": [
-      "It builds a weighted average of untreated units that best matches the treated unit's pre-treatment outcomes, giving a transparent, tailored counterfactual",
-      "Synthetic control needs no pre-treatment data, so it works when only post-treatment outcomes are observed",
-      "It can estimate treatment effects even when the treatment is self-selected by the treated unit",
+      "It builds a weighted average of untreated units that matches the treated unit's pre-treatment outcomes, a transparent counterfactual",
+      "Synthetic control needs no pre-treatment data, so it works even when only post-treatment outcomes are observed for every unit in the sample",
+      "It can estimate treatment effects even when the treated unit selected into treatment based on its own expected gains",
       "It eliminates the need for a control group by extrapolating the pre-treatment time trend into the post-treatment period"
     ],
-    "answer": "It builds a weighted average of untreated units that best matches the treated unit's pre-treatment outcomes, giving a transparent, tailored counterfactual",
+    "answer": "It builds a weighted average of untreated units that matches the treated unit's pre-treatment outcomes, a transparent counterfactual",
     "explanation": "Classic DiD with one treated and many control units assumes all controls would have followed the same trend as the treated unit absent treatment. Synthetic control is more flexible: it finds the combination of control units that, when weighted, best tracks the treated unit's pre-treatment outcomes across multiple pre-treatment periods. The post-treatment divergence between the treated unit and its synthetic twin is the causal effect. Abadie et al. applied this to estimate the effect of the 1988 California tobacco tax using a synthetic California from other states.",
     "source": null,
     "as_of": null,
@@ -1133,12 +1134,12 @@
     "format": "mc",
     "prompt": "A bond has a face value of $1,000, a coupon rate of 5% (pays $50 per year), and 10 years to maturity. If market interest rates rise to 7%, what happens to the bond's market price?",
     "choices": [
-      "The price falls below $1,000 — investors demand a higher yield, which requires a lower price to make the fixed $50 coupon competitive",
-      "The price rises above $1,000 — higher interest rates increase the bond's return",
-      "The price stays at $1,000 — face value is guaranteed, so market rates don't affect it",
-      "The price falls only if the bond is callable; for non-callable bonds, prices are protected"
+      "The price falls below $1,000, because investors demand a higher yield and a lower price makes the fixed $50 coupon competitive",
+      "The price rises above $1,000, because higher market interest rates raise the return that this bond's coupons offer",
+      "The price stays at $1,000, because face value is guaranteed and so market rates cannot affect what the bond sells for in the market",
+      "The price falls only if the bond is callable; for non-callable bonds, prices are protected from rate changes"
     ],
-    "answer": "The price falls below $1,000 — investors demand a higher yield, which requires a lower price to make the fixed $50 coupon competitive",
+    "answer": "The price falls below $1,000, because investors demand a higher yield and a lower price makes the fixed $50 coupon competitive",
     "explanation": "Bond prices move inversely to yields: when market rates rise from 5% to 7%, new bonds offer $70 per year; the existing bond paying only $50 is less attractive, so its price must fall until its yield matches 7%. Price = Σ($50/(1.07)ᵗ) + $1,000/(1.07)¹⁰ ≈ $860. This is the fundamental interest rate risk of bonds. Duration measures sensitivity: a bond with higher duration (longer maturity, lower coupon) loses more value when rates rise. This is why long-term bonds fell sharply in 2022 when rates rose rapidly.",
     "source": null,
     "as_of": null,
@@ -1158,12 +1159,12 @@
     "format": "mc",
     "prompt": "In a DiD setting, the 'parallel trends assumption' cannot be tested directly, because the untreated outcome after treatment is never observed. Which check, using only pre-treatment data, do economists most often use to judge whether it is plausible?",
     "choices": [
-      "An event study plot — showing that treated and control groups had similar pre-treatment trends across multiple periods before the treatment, making parallel post-treatment trends more plausible",
-      "A placebo test — assigning the treatment to untreated units and checking that no treatment effect is found",
-      "A Hausman test — testing whether fixed effects and random effects produce similar coefficient estimates",
-      "A falsification test — showing that the treatment has no effect on outcomes that theory says it shouldn't affect"
+      "An event study plot: treated and control groups trend similarly over several pre-treatment periods, supporting parallel trends",
+      "A placebo test, which assigns the treatment to units that were never actually treated and checks that no treatment effect appears there",
+      "A Hausman test, which compares fixed-effects and random-effects estimates to see whether the two give similar coefficients",
+      "A falsification test, which shows the treatment has no effect on outcomes that theory says it should not affect at all"
     ],
-    "answer": "An event study plot — showing that treated and control groups had similar pre-treatment trends across multiple periods before the treatment, making parallel post-treatment trends more plausible",
+    "answer": "An event study plot: treated and control groups trend similarly over several pre-treatment periods, supporting parallel trends",
     "explanation": "The parallel trends assumption says the treated group would have evolved like the control group absent treatment. This is never testable post-treatment, but pre-treatment data allows a check: if treated and control units had parallel trends in multiple pre-treatment periods, the assumption is more credible. An event study regresses outcomes on indicators for each period relative to treatment, separately for each period. 'Pre-trends' (significant coefficients before treatment) would suggest non-parallel trends and undermine the DiD design. Placebo tests and falsification tests are additional robustness checks but not the primary test.",
     "source": null,
     "as_of": null,
@@ -1427,12 +1428,12 @@
     "format": "mc",
     "prompt": "The matrix with rows (0, −1) and (1, 0) rotates the plane by 90 degrees. What does that imply about its eigenvalues?",
     "choices": [
-      "They are a complex conjugate pair, ±i",
-      "They are 1 and −1",
-      "They are both zero",
-      "They are 0 and 1"
+      "They are a complex conjugate pair, +i and −i",
+      "They are 1 and −1, as for a reflection",
+      "They are both 0, since the matrix is singular",
+      "They are 0 and 1, as for a projection"
     ],
-    "answer": "They are a complex conjugate pair, ±i",
+    "answer": "They are a complex conjugate pair, +i and −i",
     "explanation": "Trace is 0 and determinant is 1, so λ² + 1 = 0 and λ = ±i. Geometrically this must happen: an eigenvector is a direction the matrix leaves unchanged up to scaling, and a 90-degree rotation leaves no real direction fixed. In a dynamic economic model, complex eigenvalues are precisely what produce oscillating rather than monotone adjustment paths.",
     "source": null,
     "as_of": null,
@@ -1527,9 +1528,9 @@
     "prompt": "In a Markov model of labour-market transitions the columns of the transition matrix each sum to 1. What can you say about its eigenvalues before seeing any numbers?",
     "choices": [
       "One eigenvalue is exactly 1, and none exceeds 1 in magnitude",
-      "All eigenvalues are strictly between 0 and 1",
-      "The eigenvalues must sum to 1",
-      "Every eigenvalue equals 1"
+      "All eigenvalues are strictly between 0 and 1, so the chain decays",
+      "The eigenvalues must sum to 1, like each column does",
+      "Every eigenvalue equals 1, so the chain never changes the distribution"
     ],
     "answer": "One eigenvalue is exactly 1, and none exceeds 1 in magnitude",
     "explanation": "Columns summing to 1 force an eigenvalue of exactly 1, whose eigenvector — once normalized to sum to 1 — is the stationary distribution the chain converges to. No eigenvalue can exceed 1 in magnitude, since probabilities cannot grow without bound. The second-largest magnitude governs how fast the economy settles toward that long-run distribution.",

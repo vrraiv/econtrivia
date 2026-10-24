@@ -120,9 +120,9 @@
     "prompt": "Keynes's 1919 book 'The Economic Consequences of the Peace' argued that the post-WWI reparations imposed on Germany at Versailles were:",
     "choices": [
       "so harsh they would destabilize Europe and sow the seeds of future conflict",
-      "insufficient to compensate France and Belgium for wartime destruction",
-      "fair provided Germany was given 50 years to pay",
-      "unnecessary because Germany could simply inflate away the debt"
+      "insufficient to compensate France and Belgium fully for the destruction of the war",
+      "fair provided Germany was given fifty years to pay",
+      "unnecessary because Germany could simply inflate away the debt it owed"
     ],
     "answer": "so harsh they would destabilize Europe and sow the seeds of future conflict",
     "explanation": "Keynes resigned from the British delegation at Versailles and predicted that the reparations would impoverish Germany and fuel resentment; the total was later fixed at 132 billion gold marks in 1921. The hyperinflation of 1923 and the eventual rise of Nazism are often cited as vindication of his warning.",
@@ -173,7 +173,7 @@
       "Harry Hopkins"
     ],
     "answer": "George Marshall",
-    "explanation": "George Marshall announced the plan in a speech at Harvard in June 1947. Between 1948 and 1952, the US provided roughly $13 billion (well over $100 billion in today's money) to Western European countries. Marshall won the Nobel Peace Prise in 1953 for the initiative.",
+    "explanation": "George Marshall announced the plan in a speech at Harvard in June 1947. Between 1948 and 1952, the US provided roughly $13 billion (well over $100 billion in today's money) to Western European countries. Marshall won the Nobel Peace Prize in 1953 for the initiative.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -354,7 +354,7 @@
     "prompt": "Reaganomics, the supply-side economic program of the early 1980s, was underpinned by the 'Laffer Curve' — the idea that cutting tax rates could:",
     "choices": [
       "increase total tax revenue if rates were above the revenue-maximizing point",
-      "directly reduce inflation by shrinking the money supply",
+      "directly reduce inflation by shrinking the money supply and the central bank's balance sheet",
       "stimulate exports by cheapening the dollar through capital outflows",
       "eliminate the budget deficit by reducing government borrowing costs"
     ],
@@ -375,9 +375,9 @@
     "category": "history",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "Margaret Thatcher's government privatized British Telecom, British Gas, and British Airways — all state-owned companies — during the 1980s.",
-    "answer": true,
-    "explanation": "Thatcher's privatization program was the most extensive in the Western world at the time: BT (1984), British Gas (1986), British Airways (1987), then water (1989) and electricity (1990-91). The program raised billions and transformed public attitudes toward share ownership, though critics argued essential services were sold below value.",
+    "prompt": "Margaret Thatcher's government privatized British Telecom, British Gas, and British Rail — all state-owned companies — during the 1980s.",
+    "answer": false,
+    "explanation": "British Rail was not privatized by Thatcher. Her government sold BT (1984), British Gas (1986) and British Airways (1987), then water (1989) and electricity (1990-91), but left the railways alone as too politically sensitive. They were privatized under her successor John Major, through the Railways Act 1993, between 1994 and 1997. Thatcher's program was still the most extensive in the Western world at the time, though critics argued essential services were sold below value.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -588,9 +588,9 @@
     "prompt": "The TVA (Tennessee Valley Authority), created in 1933 as part of the New Deal, was primarily designed to:",
     "choices": [
       "bring electricity, flood control, and economic development to a poor rural region",
-      "provide federal unemployment benefits to displaced factory workers",
-      "regulate Wall Street and restore confidence in the banking system",
-      "fund public works construction in major US cities"
+      "provide federal unemployment benefits to displaced factory workers across the industrial Midwest",
+      "regulate Wall Street and restore public confidence in the banking system after the crash",
+      "fund public works construction in major US cities to employ the urban unemployed"
     ],
     "answer": "bring electricity, flood control, and economic development to a poor rural region",
     "explanation": "The TVA built a system of dams along the Tennessee River, providing cheap hydroelectric power to one of America's poorest regions. It became a model for large-scale government-led development, debated ever since as a success story of industrial planning versus a cautionary tale of cost overruns.",
@@ -630,8 +630,8 @@
     "prompt": "The Klondike Gold Rush of 1896–1899, centred in what is now Yukon, Canada, is notable for the fact that most of the prospectors who made the journey:",
     "choices": [
       "arrived too late and found little gold, while merchants and transport companies profited",
-      "struck rich deposits and returned home wealthy within two seasons",
-      "were ultimately forced off their claims by American mining corporations",
+      "struck rich deposits and returned home wealthy within just two mining seasons",
+      "were ultimately forced off their claims by large American mining corporations that bought the land",
       "stayed permanently, founding what became Canada's largest western city"
     ],
     "answer": "arrived too late and found little gold, while merchants and transport companies profited",
@@ -783,9 +783,9 @@
     "category": "history",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "True or false: US real GDP fell by more than a quarter between 1929 and 1933.",
-    "answer": true,
-    "explanation": "US real GDP fell by roughly 26 to 27% between 1929 and 1933. Unemployment peaked at about 25% in 1933, and the value of world trade collapsed by roughly two-thirds between 1929 and 1934. Many countries did not fully recover until WWII mobilization.",
+    "prompt": "True or false: US real GDP fell by more than half between 1929 and 1933.",
+    "answer": false,
+    "explanation": "US real GDP fell by roughly 26 to 27% between 1929 and 1933, about a quarter and not more than half. (Nominal GDP, which also reflects falling prices, dropped by about 45%.) Unemployment peaked at about 25% in 1933, and the value of world trade collapsed by roughly two-thirds between 1929 and 1934. Many countries did not fully recover until WWII mobilization.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -902,12 +902,12 @@
     "format": "mc",
     "prompt": "On 'Black Wednesday' (16 September 1992), George Soros famously made about $1 billion in a single day by betting against whose currency, which was forced out of the European Exchange Rate Mechanism?",
     "choices": [
-      "United Kingdom",
-      "France",
-      "Italy",
-      "Sweden"
+      "The United Kingdom",
+      "The Netherlands",
+      "The Republic of France",
+      "The Kingdom of Denmark"
     ],
-    "answer": "United Kingdom",
+    "answer": "The United Kingdom",
     "explanation": "On Black Wednesday the UK tried and failed to defend the pound's ERM parity by raising interest rates to 15% and spending a reported £27 billion or so of reserves. Soros's Quantum Fund netted roughly $1 billion. The UK suspended ERM membership, the pound fell sharply, and the UK economy subsequently recovered faster than its ERM-constrained neighbours. Italy left the mechanism the next day.",
     "source": null,
     "as_of": null,
@@ -975,7 +975,7 @@
     "category": "history",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Long-Term Capital Management (LTCM), the hedge fund whose 1998 collapse required a Fed-orchestrated private bailout, was notable because two of its founding partners had won the Nobel Prise in Economics just a year earlier (1997). They were:",
+    "prompt": "Long-Term Capital Management (LTCM), the hedge fund whose 1998 collapse required a Fed-orchestrated private bailout, was notable because two of its founding partners had won the Nobel Prize in Economics just a year earlier (1997). They were:",
     "choices": [
       "Robert Merton and Myron Scholes",
       "Paul Samuelson and Robert Solow",
@@ -1048,9 +1048,9 @@
     "prompt": "The Canada–US Automotive Products Agreement of 1965 (the Auto Pact) transformed Ontario's manufacturing sector by:",
     "choices": [
       "Eliminating tariffs on cars and parts between the two countries, subject to minimum Canadian production requirements",
-      "Creating a jointly owned Canada-US Crown corporation for automobile manufacturing",
-      "Requiring all cars sold in Canada to be assembled in Ontario plants",
-      "Merging the UAW and Canadian auto workers' unions into a single continental bargaining unit"
+      "Creating a jointly owned Canada-US Crown corporation to design and build automobiles for both markets",
+      "Requiring all cars sold in Canada to be assembled in Ontario plants, with no imports from the United States",
+      "Merging the UAW and Canadian auto workers' unions into a single continental bargaining unit covering every plant in both countries"
     ],
     "answer": "Eliminating tariffs on cars and parts between the two countries, subject to minimum Canadian production requirements",
     "explanation": "The Auto Pact created a continental market for vehicles, guaranteed Canada a share of North American production proportional to its sales, and transformed Windsor and Oshawa into major manufacturing hubs. By the 1990s autos were Canada's single largest export category. The WTO ruled in 2000 that the pact's safeguards violated trade rules and Canada ended it in 2001, but the integrated industry carried on under NAFTA.",
@@ -1073,9 +1073,9 @@
     "prompt": "In 1992, the Canadian government declared a moratorium on cod fishing on the Grand Banks off Newfoundland — a fishery worked continuously for 500 years. What had caused the cod stocks to collapse?",
     "choices": [
       "Decades of overfishing, accelerated by large-scale offshore trawlers using sonar and bottom-dragging technology",
-      "Pollution from offshore oil drilling destroying spawning grounds",
-      "Climate change raising ocean temperatures beyond cod's tolerance range",
-      "Invasive jellyfish species introduced by ballast water from Soviet vessels"
+      "Pollution from offshore oil drilling on the Grand Banks destroying the cod's spawning grounds",
+      "Climate change raising ocean temperatures beyond the range that cod can tolerate anywhere in the northwest Atlantic",
+      "Invasive jellyfish species introduced through ballast water from Soviet factory ships fishing nearby"
     ],
     "answer": "Decades of overfishing, accelerated by large-scale offshore trawlers using sonar and bottom-dragging technology",
     "explanation": "Inshore fishers had warned for years that catches were shrinking, but official stock assessments overestimated the cod population and political pressure from fishing communities delayed action. The 1992 moratorium put roughly 30,000 Newfoundland fishers and plant workers out of work almost overnight, among the largest layoffs in Canadian history. The cod stocks have never fully recovered.",
@@ -1123,9 +1123,9 @@
     "prompt": "The Canada–US Free Trade Agreement of 1989, negotiated under Prime Minister Brian Mulroney, was deeply controversial in Canada. The most common fear expressed by opponents was that free trade would:",
     "choices": [
       "Erode Canada's social programs and draw it into closer economic and political integration with the US",
-      "Destroy Canada's agricultural sector by exposing it to US farm subsidies",
-      "Force Canada to adopt the US dollar within a decade",
-      "Transfer control of Canada's natural resources to American corporations"
+      "Destroy Canada's agricultural sector by exposing farmers to heavily subsidized US farm competition",
+      "Force Canada to adopt the US dollar within a decade and give up its own central bank entirely",
+      "Transfer control of Canada's natural resources to American corporations and strip provinces of their ownership"
     ],
     "answer": "Erode Canada's social programs and draw it into closer economic and political integration with the US",
     "explanation": "The 1988 federal election became a single-issue referendum on free trade. Critics including the NDP, John Turner's Liberals and prominent cultural figures warned that free trade would lead to harmonization with US social standards, such as lower minimum wages and reduced health care. Mulroney won a majority and the FTA took effect January 1, 1989.",
@@ -1191,9 +1191,9 @@
     "prompt": "In 1995, the Wall Street Journal published an editorial calling Canada 'an honorary member of the Third World' and warning of an imminent financial crisis. The fiscal problem driving this concern was:",
     "choices": [
       "Federal debt approaching 70% of GDP, with credit rating agencies threatening a downgrade",
-      "Unemployment exceeding 20% for three consecutive years",
-      "The Canadian dollar having fallen below 60 US cents",
-      "Canada's trade deficit exceeding 10% of GDP"
+      "Unemployment exceeding 20% for three consecutive years, with provincial governments unable to pay public servants",
+      "The Canadian dollar having fallen below 60 US cents, with exports collapsing as a result of the devaluation",
+      "A trade deficit exceeding 10% of GDP, financed by short-term loans from US banks"
     ],
     "answer": "Federal debt approaching 70% of GDP, with credit rating agencies threatening a downgrade",
     "explanation": "By 1994-95 Canada's federal debt was roughly 68% of GDP, and the federal deficit, which peaked at about $42 billion in 1993-94, was still near $40 billion. Moody's had already cut Canada from Aaa to Aa1 in 1994 and cut it again in April 1995. Finance Minister Paul Martin's February 1995 budget introduced the deepest federal spending cuts in decades, averting the crisis.",
@@ -1216,9 +1216,9 @@
     "prompt": "Andrew Mellon, US Treasury Secretary from 1921 to 1932, became notorious for the advice he reportedly gave President Hoover at the start of the Great Depression. Mellon urged Hoover to:",
     "choices": [
       "'Liquidate labor, liquidate stocks, liquidate the farmers' — let bad investments purge themselves",
-      "Immediately abandon the gold standard and allow the dollar to depreciate",
-      "Raise corporate taxes to fund a federal unemployment insurance system",
-      "Have the Federal Reserve purchase mortgage bonds to prop up real estate values"
+      "Immediately abandon the gold standard and let the dollar depreciate in order to stimulate exports",
+      "Raise corporate taxes to fund a federal unemployment insurance system for displaced workers",
+      "Have the Federal Reserve purchase mortgage bonds to prop up real estate values nationwide"
     ],
     "answer": "'Liquidate labor, liquidate stocks, liquidate the farmers' — let bad investments purge themselves",
     "explanation": "In his memoirs Hoover recalled Mellon's 'liquidationist' advice and said he had rejected it, though historians dispute both the exact quote and how far Hoover followed that philosophy. The approach of letting recessions run their course to purge excesses was the orthodox view before Keynes. Mellon believed the slump would be short and self-correcting. It was not.",
@@ -1391,9 +1391,9 @@
     "prompt": "Canadian Finance Minister Jim Flaherty shocked financial markets on Halloween 2006 by announcing that income trusts — a popular tax-advantaged structure used by energy companies, telecoms, and utilities — would be taxed like corporations. The immediate market impact was:",
     "choices": [
       "Income trust share prices collapsed, wiping out roughly $25 billion in market value in a single day",
-      "The TSX rose sharply as investors rotated from trusts into regular equities",
-      "The announcement was welcomed by all major Canadian pension funds as a positive tax reform",
-      "Bay Street anticipated the move and markets were largely unmoved"
+      "The TSX rose sharply that day as investors rotated out of income trusts into regular equities",
+      "The announcement was welcomed by all the major Canadian pension funds as a positive and overdue tax reform",
+      "Bay Street had anticipated the move and markets were largely unmoved by the announcement"
     ],
     "answer": "Income trust share prices collapsed, wiping out roughly $25 billion in market value in a single day",
     "explanation": "The 'Halloween Massacre' erased an estimated $25 billion of market value on the Toronto Stock Exchange in a single session. Flaherty argued income trusts were costing the government billions in lost corporate tax revenue; critics pointed out that Stephen Harper's Conservatives had promised during the 2005-06 campaign never to tax them. The controversy dogged the government but the policy stood.",
@@ -1466,9 +1466,9 @@
     "prompt": "After Nixon suspended dollar-gold convertibility in 1971, the US reached arrangements with Saudi Arabia in 1974-75 that are often called the 'petrodollar' deal. In broad terms, what did Saudi Arabia agree to?",
     "choices": [
       "To keep pricing its oil in US dollars and invest its surplus oil revenue in US Treasury securities",
-      "To buy US Treasury bonds equal to its entire annual oil export revenue",
-      "To peg the riyal to the dollar at a rate guaranteed by the US military",
-      "To grant the US first-refusal rights on 30% of Saudi oil production"
+      "To buy US Treasury bonds equal to its entire annual oil export revenue, and to make no other foreign investments",
+      "To peg the riyal to the dollar at a rate guaranteed by the US military and the US Treasury",
+      "To grant the US first-refusal rights on 30% of Saudi oil production for the next twenty years"
     ],
     "answer": "To keep pricing its oil in US dollars and invest its surplus oil revenue in US Treasury securities",
     "explanation": "The arrangements were negotiated by US Treasury officials led by William Simon in exchange for US security and military support. Saudi Arabia (and OPEC broadly) kept pricing oil in dollars and recycled oil profits into Treasury bonds and US banks, sustaining global demand for dollars after the gold standard ended. Dollar pricing was more a convention than a formal legal obligation, and historians debate how binding the arrangement really was.",
@@ -1491,9 +1491,9 @@
     "prompt": "Henry Morgenthau Jr., US Treasury Secretary from 1934 to 1945, chaired the 1944 Bretton Woods Conference that created which two international financial institutions?",
     "choices": [
       "The International Monetary Fund and the World Bank (International Bank for Reconstruction and Development)",
-      "The Bank for International Settlements (BIS) and the GATT",
-      "The European Payments Union and the Marshall Plan Administration",
-      "The Federal Deposit Insurance Corporation (FDIC) and the Export-Import Bank"
+      "The Bank for International Settlements (BIS) and the General Agreement on Tariffs and Trade (GATT) in Geneva",
+      "The European Payments Union and the Economic Cooperation Administration that ran the Marshall Plan",
+      "The Federal Deposit Insurance Corporation (FDIC) and the Reconstruction Finance Corporation (RFC)"
     ],
     "answer": "The International Monetary Fund and the World Bank (International Bank for Reconstruction and Development)",
     "explanation": "Morgenthau hosted and chaired the 1944 UN Monetary and Financial Conference at Bretton Woods, New Hampshire, which created the IMF (for balance-of-payments stability) and the IBRD/World Bank (for reconstruction lending). John Maynard Keynes led the British delegation and pushed unsuccessfully for his 'Bancor' international currency.",
@@ -1516,7 +1516,7 @@
     "prompt": "Philip Snowden, UK Chancellor of the Exchequer from 1929 to 1931, is often blamed for deepening Britain's Great Depression because he insisted on maintaining orthodox economic policies. Which approach did Snowden champion over Keynesian stimulus?",
     "choices": [
       "Balancing the budget through spending cuts and staying on the gold standard",
-      "Raising tariffs on all manufactured imports to protect British industry",
+      "Raising tariffs on all manufactured imports to protect British industry and British jobs",
       "Devaluing the pound immediately to boost exports",
       "Nationalizing the Bank of England to directly control credit expansion"
     ],

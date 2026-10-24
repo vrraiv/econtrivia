@@ -7,9 +7,9 @@
     "prompt": "Who was Canada's first Prime Minister after Confederation in 1867?",
     "choices": [
       "Sir John A. Macdonald",
+      "Sir George-Étienne Cartier",
       "Alexander Mackenzie",
-      "Wilfrid Laurier",
-      "Robert Borden"
+      "Sir Wilfrid Laurier"
     ],
     "answer": "Sir John A. Macdonald",
     "explanation": "Macdonald served as Canada's first PM from 1867 to 1873 and again from 1878 to 1891. He championed the National Policy of tariffs to protect Canadian industry and the transcontinental railway.",
@@ -228,12 +228,12 @@
     "format": "mc",
     "prompt": "Canada Mortgage and Housing Corporation (CMHC) is a federal Crown corporation. What is its best-known economic function?",
     "choices": [
-      "Providing mortgage insurance that allows Canadians to buy homes with less than 20% down payment",
-      "Setting the overnight interest rate that governs mortgage pricing",
-      "Directly lending money to first-time homebuyers at subsidized rates",
-      "Regulating real estate agents and brokers across the provinces"
+      "Providing mortgage insurance that lets Canadians buy homes with less than a 20% down payment",
+      "Setting the overnight interest rate that determines how mortgages are priced across the country",
+      "Lending money directly to first-time homebuyers at subsidized rates through its own branches",
+      "Regulating real estate agents and brokers and licensing them across all the provinces"
     ],
-    "answer": "Providing mortgage insurance that allows Canadians to buy homes with less than 20% down payment",
+    "answer": "Providing mortgage insurance that lets Canadians buy homes with less than a 20% down payment",
     "explanation": "CMHC insures high-ratio mortgages (down payments below 20%), transferring default risk from lenders to the federal government. This allows banks to offer these mortgages but requires borrowers to pay an insurance premium of up to 4% of the mortgage value.",
     "source": null,
     "as_of": null,
@@ -384,12 +384,12 @@
     "format": "mc",
     "prompt": "From 2019 until March 2025, Canada's federal fuel charge — the consumer side of the federal carbon price — was levied on what?",
     "choices": [
-      "The carbon content of fuels such as gasoline, diesel and natural gas",
-      "Household electricity use above a set threshold",
-      "Goods imported from countries without an equivalent carbon price",
-      "The profits of oil and gas companies"
+      "The carbon content of fuels such as gasoline, diesel and natural gas, paid at the pump and on heating bills",
+      "Household electricity use above a set threshold, billed to customers through their monthly utility invoices",
+      "Goods imported from countries that lack an equivalent carbon price, collected at the border as a tariff",
+      "The profits of oil and gas companies, collected by the federal government as a share of annual net income"
     ],
-    "answer": "The carbon content of fuels such as gasoline, diesel and natural gas",
+    "answer": "The carbon content of fuels such as gasoline, diesel and natural gas, paid at the pump and on heating bills",
     "explanation": "The federal fuel charge applied to the carbon content of gasoline, diesel, natural gas and other fossil fuels, and most of the proceeds were returned to households through the Canada Carbon Rebate. Prime Minister Mark Carney's government set the charge to zero effective April 1, 2025, and the rebate ended; pricing for large industrial emitters continued.",
     "source": null,
     "as_of": null,
@@ -478,12 +478,12 @@
     "format": "mc",
     "prompt": "The long-running Canada–US softwood lumber dispute centres on US claims that Canadian lumber is unfairly subsidized. What is the principal subsidy allegation?",
     "choices": [
-      "Canadian provinces charge below-market stumpage fees for logging rights on Crown land, effectively subsidizing lumber producers",
-      "The Canadian government directly pays per-unit subsidies to sawmill operators",
-      "Canadian exporters avoid US tariffs by routing lumber through Mexico before it reaches the border",
-      "Provincial governments ban US companies from bidding on Canadian timber licences"
+      "Canadian provinces charge below-market stumpage fees for logging rights on Crown land, effectively subsidizing producers",
+      "The federal government pays a direct per-unit subsidy to every Canadian sawmill that exports softwood lumber to the United States",
+      "Canadian exporters avoid US duties by routing lumber through Mexico before it crosses into the United States",
+      "Provincial governments ban US companies from bidding on Canadian timber licences, protecting domestic mills"
     ],
-    "answer": "Canadian provinces charge below-market stumpage fees for logging rights on Crown land, effectively subsidizing lumber producers",
+    "answer": "Canadian provinces charge below-market stumpage fees for logging rights on Crown land, effectively subsidizing producers",
     "explanation": "About 90% of Canada's forestland is Crown-owned. The US argues that provincially set stumpage fees are below the market rates seen in competitive US timber auctions — effectively a countervailable subsidy. The US also imposes separate anti-dumping duties, alleging sales below cost. Multiple rounds of WTO and NAFTA/CUSMA dispute panels have produced mixed rulings.",
     "source": null,
     "as_of": null,
@@ -502,12 +502,12 @@
     "format": "mc",
     "prompt": "The Canada–United States Automotive Products Agreement (Auto Pact) of 1965 had what primary economic effect?",
     "choices": [
-      "It integrated the two countries' auto industries by eliminating tariffs on cars and parts, allowing production to be concentrated where it was most efficient",
+      "It integrated the two countries' auto industries by removing tariffs on cars and parts, so production could be placed where it was most efficient",
       "It required US automakers to source at least 60% of components from Canadian suppliers",
-      "It required every vehicle sold in Canada to be assembled in a Canadian factory",
+      "It required every vehicle sold in Canada to be assembled in a Canadian factory, protecting domestic jobs by banning auto imports from the US and overseas",
       "It established a joint Canada–US body to harmonize vehicle emissions and safety standards"
     ],
-    "answer": "It integrated the two countries' auto industries by eliminating tariffs on cars and parts, allowing production to be concentrated where it was most efficient",
+    "answer": "It integrated the two countries' auto industries by removing tariffs on cars and parts, so production could be placed where it was most efficient",
     "explanation": "The Auto Pact allowed duty-free cross-border flows of vehicles and parts, subject to production safeguards such as Canadian-content and production-to-sales requirements for automakers. It transformed Ontario into a major auto-manufacturing hub — the sector became Canada's largest export industry for decades. The WTO ruled the safeguards inconsistent with trade rules in 2000, effectively ending the pact.",
     "source": null,
     "as_of": null,
@@ -524,9 +524,9 @@
     "category": "canada",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "During the 2008 global financial crisis, none of Canada's major banks received direct government capital injections, unlike banks in the United States and United Kingdom.",
-    "answer": true,
-    "explanation": "Canada's Big Five banks stayed profitable through the 2008–09 crisis and received no government capital injections. The federal government did give indirect support — buying about $69 billion of insured mortgages through CMHC's Insured Mortgage Purchase Program, while the Bank of Canada widened its liquidity facilities — but there were no equity bailouts. Conservative leverage, stricter domestic regulation and limited exposure to subprime lending shielded the banks from the losses that devastated US and UK lenders.",
+    "prompt": "During the 2008 global financial crisis, Canada's major banks, like banks in the United States and United Kingdom, needed direct government capital injections to stay solvent.",
+    "answer": false,
+    "explanation": "Canada's Big Five banks stayed profitable through the 2008–09 crisis and received no government capital injections, unlike many US and UK lenders. The federal government did give indirect support — buying about $69 billion of insured mortgages through CMHC's Insured Mortgage Purchase Program, while the Bank of Canada widened its liquidity facilities — but there were no equity bailouts. Conservative leverage, stricter domestic regulation and limited exposure to subprime lending shielded the banks from the losses that devastated US and UK lenders.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -627,9 +627,9 @@
     "category": "canada",
     "difficulty": 3,
     "format": "tf",
-    "prompt": "Canada's labour productivity — output per hour worked — has grown more slowly than US labour productivity for most of the period since 2000, resulting in a widening productivity gap.",
-    "answer": true,
-    "explanation": "The Canada–US productivity gap is a persistent concern among Canadian economists and policymakers. Canadian investment in machinery, equipment, and R&D per worker has lagged US levels; the resource sector is capital-intensive but not high-technology, and the small domestic market limits economies of scale for manufacturers.",
+    "prompt": "Canada's labour productivity — output per hour worked — has grown faster than US labour productivity for most of the period since 2000, narrowing the productivity gap between the two countries.",
+    "answer": false,
+    "explanation": "It is the other way round. Statistics Canada finds that Canadian labour productivity has grown at roughly 0.8% a year since 2000, less than half the US pace of about 1.9%, so the gap has widened rather than narrowed. It is a persistent concern among Canadian economists and policymakers: Canadian investment in machinery, equipment, and R&D per worker has lagged US levels, the resource sector is capital-intensive but not high-technology, and the small domestic market limits economies of scale for manufacturers.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -990,12 +990,12 @@
     "format": "mc",
     "prompt": "Bank of Canada Governor Tiff Macklem (2020–present) oversaw the most aggressive rate-hiking cycle in decades. What drove him to raise the overnight rate from 0.25% to 5.00% between March 2022 and July 2023?",
     "choices": [
-      "A surge in inflation above 8% — the highest since the early 1980s — driven by post-pandemic supply disruptions and energy prices",
-      "A speculative real estate bubble requiring emergency monetary tightening",
-      "A collapse of the Canadian dollar requiring rate increases to attract foreign capital",
-      "Pressure from the IMF to bring Canada's rates in line with the US Federal Reserve"
+      "A surge in inflation above 8%, the highest since the early 1980s, driven by post-pandemic supply disruptions and energy prices",
+      "A speculative real estate bubble in Toronto and Vancouver that required emergency monetary tightening to avert a housing-market collapse",
+      "A collapse of the Canadian dollar that required higher rates to attract foreign capital and stabilize the exchange rate",
+      "Pressure from the IMF and the US Federal Reserve to bring Canada's interest rates in line with American rates"
     ],
-    "answer": "A surge in inflation above 8% — the highest since the early 1980s — driven by post-pandemic supply disruptions and energy prices",
+    "answer": "A surge in inflation above 8%, the highest since the early 1980s, driven by post-pandemic supply disruptions and energy prices",
     "explanation": "Canadian CPI inflation peaked at 8.1% in June 2022 — the highest since early 1983. Macklem raised rates by 475 basis points over 16 months to bring inflation back toward the 2% target. He was also criticized for earlier forward guidance signalling that rates would stay near zero for an extended period, shortly before the inflation surge.",
     "source": null,
     "as_of": null,
@@ -1040,12 +1040,12 @@
     "format": "mc",
     "prompt": "Bank of Canada Governor Stephen Poloz (2013–2020) made two surprise rate cuts in 2015, calling them 'insurance.' What event prompted these cuts?",
     "choices": [
-      "A collapse in global oil prices — from over $100 a barrel in mid-2014 to under $50 by early 2015 — that tipped Alberta into recession",
-      "The Chinese stock market crash of 2015, which threatened to reduce demand for Canadian commodities",
-      "A sudden spike in the Canadian dollar threatening the competitiveness of Canadian exporters",
-      "A US Federal Reserve rate hike that caused capital to flee Canadian bond markets"
+      "A collapse in global oil prices, from over $100 a barrel in mid-2014 to under $50 by early 2015, that hit Alberta hard",
+      "The Chinese stock market crash of 2015, which threatened to cut global demand for Canadian metals and other commodities",
+      "A sudden spike in the Canadian dollar to parity with the US dollar, which threatened the competitiveness of Canadian exporters",
+      "A US Federal Reserve rate hike in early 2015 that caused capital to flee Canadian bond markets"
     ],
-    "answer": "A collapse in global oil prices — from over $100 a barrel in mid-2014 to under $50 by early 2015 — that tipped Alberta into recession",
+    "answer": "A collapse in global oil prices, from over $100 a barrel in mid-2014 to under $50 by early 2015, that hit Alberta hard",
     "explanation": "Oil fell from over $100 in mid-2014 to under $50 by early 2015, and below $30 in early 2016. Alberta's economy contracted sharply. Poloz cut in January 2015 and again in July 2015 to cushion the national impact. Critics warned the cuts would fuel household debt and a housing bubble; supporters say they cushioned the shock to the wider economy.",
     "source": null,
     "as_of": null,
@@ -1111,9 +1111,9 @@
     "category": "canada",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "Chrystia Freeland, appointed Deputy Prime Minister and Finance Minister in August 2020, was the first woman to serve as Canada's federal Finance Minister.",
-    "answer": true,
-    "explanation": "Freeland became Canada's first female Finance Minister when appointed by PM Justin Trudeau in August 2020. She oversaw the later phases of pandemic support spending, the launch of a national child-care program, and the enactment of Canada's global minimum tax. (She had earlier led the NAFTA renegotiation as Foreign Affairs Minister.) She resigned from cabinet in December 2024.",
+    "prompt": "Chrystia Freeland, appointed Deputy Prime Minister and Finance Minister in August 2020, took over the finance portfolio directly from Joe Oliver.",
+    "answer": false,
+    "explanation": "Freeland succeeded Bill Morneau, who resigned in August 2020. Joe Oliver had been Finance Minister earlier, in 2014–15 under Stephen Harper. Freeland was Canada's first female Finance Minister, appointed by PM Justin Trudeau. She oversaw the later phases of pandemic support spending, the launch of a national child-care program, and the enactment of Canada's global minimum tax. (She had earlier led the NAFTA renegotiation as Foreign Affairs Minister.) She resigned from cabinet in December 2024.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1165,9 +1165,9 @@
     "category": "canada",
     "difficulty": 1,
     "format": "tf",
-    "prompt": "Alberta is the only Canadian province that levies neither a provincial sales tax (PST) nor a harmonized sales tax (HST).",
-    "answer": true,
-    "explanation": "Alberta has never introduced a provincial sales tax. Combined with relatively low income taxes, this creates the 'Alberta Advantage' — a lower overall tax burden than other provinces that has historically attracted workers and businesses. All other provinces either levy a PST alongside the GST, or have harmonized their sales tax into a single HST with the federal government.",
+    "prompt": "Saskatchewan is the only Canadian province that levies neither a provincial sales tax (PST) nor a harmonized sales tax (HST).",
+    "answer": false,
+    "explanation": "Alberta, not Saskatchewan, is the only province with no provincial sales tax; Saskatchewan charges a 6% PST on top of the 5% federal GST. Alberta has no sales tax today (apart from a short-lived one in the 1930s), and combined with relatively low income taxes this creates the 'Alberta Advantage' — a lower overall tax burden than other provinces that has historically attracted workers and businesses. All other provinces either levy a PST alongside the GST, or have harmonized their sales tax into a single HST with the federal government.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -1583,9 +1583,9 @@
     "prompt": "Canada's Registered Retirement Savings Plan (RRSP) offers which primary tax advantage?",
     "choices": [
       "Contributions reduce taxable income in the year made, and investment growth is tax-deferred until withdrawal",
-      "Contributions are taxed normally but all withdrawals are completely tax-free at any age",
-      "Investment income inside an RRSP is taxed at a special reduced rate of 10%",
-      "The government matches RRSP contributions up to $5,000 per year for lower-income Canadians"
+      "Contributions are taxed normally, but all withdrawals are completely tax-free at any age and in any amount",
+      "Investment income inside an RRSP is taxed at a special reduced rate of 10% instead of the marginal rate",
+      "The government matches RRSP contributions up to $5,000 per year for lower-income Canadians who file on time"
     ],
     "answer": "Contributions reduce taxable income in the year made, and investment growth is tax-deferred until withdrawal",
     "explanation": "RRSP contributions are deductible from income, saving taxes in high-earning years. Growth inside the plan is tax-deferred — no tax is paid until you withdraw funds, typically in retirement when your marginal rate is lower. Compare with the TFSA: no upfront deduction, but withdrawals are tax-free. Most financial advisors recommend using both accounts.",
@@ -1606,12 +1606,12 @@
     "format": "mc",
     "prompt": "The Bank of Canada's 'overnight rate' is its key policy tool. What does it directly set?",
     "choices": [
-      "The target interest rate at which major financial institutions lend to each other for one-day (overnight) funds",
-      "The retail prime rate offered by the Big Five banks to their most creditworthy borrowers",
-      "The rate of return guaranteed on Government of Canada treasury bills",
-      "The maximum rate Canadian banks can charge on variable-rate mortgages"
+      "The target rate at which major financial institutions lend to each other for one-day (overnight) funds",
+      "The retail prime rate that the Big Five banks charge their most creditworthy borrowers on loans and lines of credit",
+      "The rate of return the government guarantees on treasury bills sold at its regular auctions",
+      "The maximum rate that Canadian banks are permitted to charge on variable-rate mortgages"
     ],
-    "answer": "The target interest rate at which major financial institutions lend to each other for one-day (overnight) funds",
+    "answer": "The target rate at which major financial institutions lend to each other for one-day (overnight) funds",
     "explanation": "The overnight rate is the target for the rate at which major financial institutions borrow and lend one-day funds among themselves. By setting this rate, the Bank influences all other interest rates in the economy. When the Bank raises the overnight rate, commercial banks typically raise their prime rates within a day, rippling through mortgages, business loans, and savings accounts.",
     "source": null,
     "as_of": null,
@@ -1673,12 +1673,12 @@
     "format": "mc",
     "prompt": "The Investment Canada Act (1985) allows the federal government to review large foreign acquisitions of Canadian businesses. On what grounds can the minister block or impose conditions on a foreign takeover?",
     "choices": [
-      "If the investment fails the 'net benefit to Canada' test — i.e., it would not bring sufficient economic, social, or employment benefits",
-      "If the foreign company is incorporated in a country without a bilateral investment treaty with Canada",
-      "If the acquisition would give the foreign company more than 25% market share in any Canadian industry",
-      "If the acquiring country imposes restrictions on Canadian investment in comparable sectors"
+      "If the investment fails the 'net benefit to Canada' test, meaning it would not bring enough economic, social or employment benefits",
+      "If the foreign company is incorporated in a country that has no bilateral investment treaty with Canada",
+      "If the acquisition would give the foreign buyer more than 25% market share in any Canadian industry or sector",
+      "If the acquiring company's home country imposes restrictions on Canadian investment in comparable sectors, as a matter of strict reciprocity"
     ],
-    "answer": "If the investment fails the 'net benefit to Canada' test — i.e., it would not bring sufficient economic, social, or employment benefits",
+    "answer": "If the investment fails the 'net benefit to Canada' test, meaning it would not bring enough economic, social or employment benefits",
     "explanation": "Above dollar-value thresholds, the Act requires a 'net benefit to Canada' assessment covering employment, Canadian participation in management, R&D, productivity, and competition effects. A separate 'national security' review (added 2009) can block any investment threatening security — increasingly invoked for Chinese state-owned enterprise deals in critical minerals, telecoms, and technology.",
     "source": null,
     "as_of": null,
@@ -1796,12 +1796,12 @@
     "format": "mc",
     "prompt": "Which commodity group is Canada's largest merchandise export by value in recent years?",
     "choices": [
-      "Crude oil and petroleum products",
-      "Natural gas",
-      "Lumber and forest products",
-      "Wheat and grain"
+      "Crude oil and other petroleum products",
+      "Natural gas and liquefied natural gas",
+      "Lumber, pulp and other forest products",
+      "Wheat, canola and other agricultural grains"
     ],
-    "answer": "Crude oil and petroleum products",
+    "answer": "Crude oil and other petroleum products",
     "explanation": "Crude oil and petroleum products typically account for about 20–25% of Canada's total merchandise exports by value — by far the single largest commodity category. Almost all Canadian crude exports go to the United States through pipeline networks. Canada is the world's 4th largest oil producer, and the Athabasca oil sands drive a large share of output.",
     "source": null,
     "as_of": null,
