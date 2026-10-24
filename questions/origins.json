@@ -1171,15 +1171,15 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The first central bank in the world is generally considered to be which institution, founded in 1668?",
+    "prompt": "The Nobel Memorial Prize in Economics is not technically one of Alfred Nobel's original prizes. Which institution created it — and funded it — in 1968 to mark its own 300th anniversary?",
     "choices": [
-      "Riksbank (Bank of Sweden)",
-      "Bank of England",
-      "Bank of Amsterdam",
-      "Banca Monte dei Paschi di Siena"
+      "Sveriges Riksbank (Bank of Sweden)",
+      "The Royal Swedish Academy of Sciences",
+      "The Swedish government's Ministry of Finance",
+      "The Nobel Foundation itself"
     ],
-    "answer": "Riksbank (Bank of Sweden)",
-    "explanation": "The Riksbank (Sveriges Riksbank) was founded in 1668, making it the world's oldest central bank in continuous operation. It was preceded by Stockholms Banco (1656), which issued Europe's first banknotes — but Stockholms Banco failed in a banking crisis (1664), directly inspiring the parliamentary creation of the Riksbank. The Bank of England followed in 1694. The Riksbank today awards the Nobel Memorial Prize in Economic Sciences.",
+    "answer": "Sveriges Riksbank (Bank of Sweden)",
+    "explanation": "The full name is the 'Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel.' The Riksbank created and endowed it in 1968 as part of its tricentenary celebrations. Because it was not in Alfred Nobel's will, some purists argue it is not a 'true' Nobel Prize — but it is awarded alongside the original prizes every December 10.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,

@@ -1684,16 +1684,16 @@
     "category": "data",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The OECD (Organisation for Economic Co-operation and Development) is often called the 'club of rich democracies.' As of 2024, it had approximately how many member countries?",
+    "prompt": "As of 2024, how many member countries belong to the International Monetary Fund (IMF) — making it one of the most universal international organisations?",
     "choices": [
-      "38",
-      "20",
-      "50",
-      "28"
+      "190",
+      "150",
+      "120",
+      "200"
     ],
-    "answer": "38",
-    "explanation": "The OECD had 38 member countries as of 2024. Members are predominantly high-income democracies: North America, Western Europe, Japan, South Korea, Australia, New Zealand, and Chile, among others. Costa Rica, Colombia, and Lithuania joined in 2021. The OECD produces widely-used economic data and policy research, including the PISA education rankings and the Base Erosion and Profit Shifting (BEPS) framework on corporate tax.",
-    "source": "https://www.oecd.org/about/members-and-partners/",
+    "answer": "190",
+    "explanation": "The IMF had 190 member countries as of 2024 — essentially every recognized sovereign state on Earth. It was founded with just 29 members at the Bretton Woods Conference in 1944 and grew steadily as decolonization created new states. Non-members include North Korea and Cuba. Canada has been a member since the IMF's founding.",
+    "source": "https://www.imf.org/en/About/The-IMF/member-countries",
     "as_of": "2024",
     "time_sensitive": false,
     "tags": [
@@ -1710,9 +1710,9 @@
     "prompt": "Global military spending first exceeded $2 trillion per year in 2023. Which country accounted for the single largest share of that spending?",
     "choices": [
       "United States (~37% of the global total)",
-      "China (~12%)",
-      "Russia (~4%)",
-      "India (~3%)"
+      "China (~12% of the global total)",
+      "Russia (~4% of the global total)",
+      "India (~3% of the global total)"
     ],
     "answer": "United States (~37% of the global total)",
     "explanation": "The US spent approximately $916 billion on defence in fiscal year 2023 — about 37% of all global military spending. China was second (~12%), followed by Russia (~4%), India (~3%), and Saudi Arabia (~3%). The US outspends the next 10 countries combined. US defence spending (~3.5% of GDP) far exceeds the NATO target of 2% of GDP that most European allies fall short of.",
@@ -1919,7 +1919,7 @@
     "category": "data",
     "difficulty": 3,
     "format": "order",
-    "prompt": "Rank these four countries from largest to smallest by total nominal GDP in 2023.",
+    "prompt": "The United States, China, Germany, and the United Kingdom: rank them from the largest to the smallest economy by 2023 nominal GDP.",
     "items": [
       "United States",
       "China",

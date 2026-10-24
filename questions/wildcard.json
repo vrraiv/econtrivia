@@ -1407,7 +1407,7 @@
     "category": "wildcard",
     "difficulty": 2,
     "format": "match",
-    "prompt": "Match each pricing or market phenomenon to the economics concept it illustrates.",
+    "prompt": "Match each description of a real-world market behaviour to the microeconomics term that names it.",
     "pairs": [
       [
         "A taxi becomes free on New Year's Eve when everyone needs one",

@@ -704,7 +704,7 @@
     "category": "money",
     "difficulty": 2,
     "format": "order",
-    "prompt": "These four Federal Reserve Chairs each took office in a different decade. Rank them from the earliest to the most recent.",
+    "prompt": "Volcker, Greenspan, Bernanke, and Powell — put these four chairs of the Federal Reserve in the order they first held the role.",
     "items": [
       "Paul Volcker",
       "Alan Greenspan",

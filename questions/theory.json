@@ -837,9 +837,9 @@
     "prompt": "The quantity theory of money, summarised as MV = PY, predicts that if money supply (M) doubles while velocity (V) and real output (Y) remain constant, the price level (P) will:",
     "choices": [
       "double",
-      "rise by less than double, as some inflation expectations are anchored",
-      "remain unchanged if the central bank sterilises the injection",
-      "fall, because higher money balances reduce the velocity of circulation"
+      "rise, but by less than double",
+      "remain unchanged",
+      "fall"
     ],
     "answer": "double",
     "explanation": "With V and Y fixed, P must rise proportionally with M — a one-for-one relationship between money growth and inflation. This 'quantity theory' dates to David Hume and was formalised by Irving Fisher. Milton Friedman's monetarism rested on a stable money-demand (and thus velocity) assumption, though V proved unstable in practice during the 1980s.",

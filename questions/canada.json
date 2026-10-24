@@ -1298,7 +1298,7 @@
     "category": "canada",
     "difficulty": 2,
     "format": "order",
-    "prompt": "These four milestones in Canadian economic and social policy each happened in a different decade. Put them in chronological order, earliest first.",
+    "prompt": "Each of these pillars of Canada's economic and social safety net was created in a different decade. Order them from the one established first to the most recently created.",
     "items": ["Bank of Canada opens for business", "Old Age Security payments begin", "Canada Pension Plan established", "Goods and Services Tax takes effect"],
     "order_by": "year of first operation or entry into force",
     "answer": "Bank of Canada opens for business → Old Age Security payments begin → Canada Pension Plan established → Goods and Services Tax takes effect",

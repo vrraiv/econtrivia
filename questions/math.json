@@ -577,12 +577,12 @@
     "format": "mc",
     "prompt": "The compound interest formula for a principal P invested at annual rate r for n years is: P × (1 + r)ⁿ. If you invest $1,000 at 7% annual return, approximately how long does it take to double your money?",
     "choices": [
-      "About 10 years (Rule of 72: 72/7 ≈ 10.3)",
-      "About 7 years",
-      "About 14 years",
-      "About 20 years"
+      "About 10 years (the Rule of 72 gives 72 ÷ 7 ≈ 10.3)",
+      "About 7 years (same as the interest rate itself)",
+      "About 14 years (double the interest rate as a rule of thumb)",
+      "About 20 years (conservative estimate for compounding to work)"
     ],
-    "answer": "About 10 years (Rule of 72: 72/7 ≈ 10.3)",
+    "answer": "About 10 years (the Rule of 72 gives 72 ÷ 7 ≈ 10.3)",
     "explanation": "The Rule of 72 is a useful approximation: divide 72 by the annual interest rate to estimate the doubling time in years. At 7%, money doubles in approximately 72/7 ≈ 10.3 years. The exact answer using logarithms: ln(2)/ln(1.07) ≈ 10.24 years. At 10%, doubling takes about 7.2 years. The Rule works best for rates between 5% and 12% — outside this range, the approximation error grows.",
     "source": null,
     "as_of": null,
@@ -650,9 +650,9 @@
     "prompt": "The Gini coefficient measures income inequality on a scale from 0 (perfect equality) to 1 (maximum inequality). It is defined as the area between the Lorenz curve and the line of perfect equality, divided by the total area below the perfect equality line. Which of the following best illustrates what a Gini coefficient of 0.5 means?",
     "choices": [
       "The Lorenz curve sits midway between perfect equality and maximum inequality — the income distribution is quite concentrated but not at an extreme",
-      "The top 50% of the population earns exactly 100% of income",
-      "The top 10% of the population earns 50% of all income",
-      "Half of all income recipients earn above the mean income"
+      "Exactly half the population earns all the income, while the other half earns nothing — the distribution is at near-maximum concentration",
+      "The wealthiest tenth captures exactly half of total national income — a pattern typical of very high-inequality countries like Brazil or South Africa",
+      "More than half of all income recipients earn above the mean — implying the income distribution is left-skewed rather than right-skewed"
     ],
     "answer": "The Lorenz curve sits midway between perfect equality and maximum inequality — the income distribution is quite concentrated but not at an extreme",
     "explanation": "The Gini coefficient equals A/(A+B) where A is the area between the Lorenz curve and the 45° equality line, and B is the area below the Lorenz curve. A Gini of 0 means A=0 (everyone earns the same). A Gini of 0.5 is high: the US has a Gini around 0.39, Brazil around 0.53. South Africa around 0.63. Nordic countries around 0.25–0.28. The Gini doesn't tell you where in the distribution inequality is concentrated — two countries can have the same Gini with very different distribution shapes.",
