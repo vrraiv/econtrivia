@@ -1,0 +1,87 @@
+[
+  {
+    "id": "finance-001",
+    "category": "finance",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 2008 global financial crisis was most directly triggered by losses on:",
+    "choices": [
+      "US subprime mortgage-backed securities",
+      "sovereign debt in the euro zone",
+      "Japanese real-estate derivatives",
+      "commodity-price collapses in emerging markets"
+    ],
+    "answer": "US subprime mortgage-backed securities",
+    "explanation": "Trillions of dollars of subprime US mortgages were packaged into CDOs and sold globally. When US house prices fell and default rates spiked, these securities became worthless, transmitting losses through the global financial system.",
+    "source": "https://www.federalreserve.gov/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["2008 crisis", "subprime", "MBS", "CDO"]
+  },
+  {
+    "id": "finance-002",
+    "category": "finance",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Long-Term Capital Management (LTCM), the hedge fund whose 1998 collapse required a Federal Reserve-orchestrated creditor rescue, failed primarily because of:",
+    "choices": [
+      "massive leverage amplifying losses from the Russian government debt default",
+      "fraud and falsification of trading records by its founding partners",
+      "regulatory shutdown after an SEC investigation into market manipulation",
+      "dot-com bubble losses on its technology-sector equity portfolio"
+    ],
+    "answer": "massive leverage amplifying losses from the Russian government debt default",
+    "explanation": "LTCM used leverage of roughly 25:1 on assets and held $1.25 trillion in derivatives notional. Russia's August 1998 default caused spreads to blow out, turning small position losses into catastrophic ones. The Fed convened 14 banks to recapitalise the fund.",
+    "source": "https://www.federalreserve.gov/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["LTCM", "hedge fund", "1998", "Russia", "leverage"]
+  },
+  {
+    "id": "finance-003",
+    "category": "finance",
+    "difficulty": 1,
+    "format": "order",
+    "prompt": "Place these famous financial crises in chronological order (earliest first).",
+    "items": ["Tulip Mania", "South Sea Bubble", "Panic of 1907", "Black Monday (1987)"],
+    "order_by": "year the crisis peaked or broke",
+    "answer": "Tulip Mania → South Sea Bubble → Panic of 1907 → Black Monday (1987)",
+    "explanation": "Dutch Tulip Mania peaked in 1637; the South Sea Bubble burst in 1720; the Panic of 1907 nearly collapsed the US banking system, prompting calls for a central bank; Black Monday (19 Oct 1987) saw the DJIA fall 22.6% in a single day.",
+    "source": "https://www.federalreserve.gov/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["financial crises", "history", "bubbles"]
+  },
+  {
+    "id": "finance-004",
+    "category": "finance",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Lehman Brothers filed for Chapter 11 bankruptcy protection in September 2008, making it the largest bankruptcy filing in US history at the time.",
+    "answer": true,
+    "explanation": "Lehman Brothers filed on September 15, 2008, listing $639 billion in assets — the largest US bankruptcy ever at that point. Its collapse accelerated the global financial crisis, freezing credit markets worldwide.",
+    "source": "https://www.sec.gov/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Lehman", "2008", "bankruptcy"]
+  },
+  {
+    "id": "finance-005",
+    "category": "finance",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Black–Scholes option pricing formula (1973) uses five inputs: current stock price, strike price, time to expiry, volatility, and risk-free rate. Which input is notably absent?",
+    "choices": [
+      "the stock's expected future return",
+      "the current stock price",
+      "the option's time to expiry",
+      "the risk-free interest rate"
+    ],
+    "answer": "the stock's expected future return",
+    "explanation": "The formula's key insight is that the stock's expected return cancels out under risk-neutral pricing — only volatility (not direction) matters for an option's fair value. Merton, Black, and Scholes won the 1997 Nobel Prize for this discovery.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1997/press-release/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Black-Scholes", "options", "derivatives", "Nobel 1997"]
+  }
+]

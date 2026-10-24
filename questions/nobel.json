@@ -1,0 +1,78 @@
+[
+  {
+    "id": "nobel-001",
+    "category": "nobel",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The inaugural Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel (1969) was jointly awarded to Ragnar Frisch and which other economist?",
+    "choices": [
+      "Jan Tinbergen",
+      "Paul Samuelson",
+      "Simon Kuznets",
+      "Friedrich Hayek"
+    ],
+    "answer": "Jan Tinbergen",
+    "explanation": "Frisch (Norway) and Tinbergen (Netherlands) shared the first economics Nobel for developing and applying dynamic models to the analysis of economic processes.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1969/summary/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 1969", "econometrics", "Tinbergen", "Frisch"]
+  },
+  {
+    "id": "nobel-002",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Paul Krugman won the 2008 Nobel Memorial Prize in Economics primarily for his contributions to:",
+    "choices": [
+      "new trade theory and economic geography",
+      "behavioural economics and prospect theory",
+      "auction theory and market design",
+      "mechanism design and information economics"
+    ],
+    "answer": "new trade theory and economic geography",
+    "explanation": "Krugman showed why countries trade similar goods and why economic activity clusters geographically — founding 'new trade theory' and 'new economic geography'. His 1979 JPE paper on monopolistic competition and trade is foundational.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2008/krugman/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2008", "trade theory", "Krugman"]
+  },
+  {
+    "id": "nobel-003",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Elinor Ostrom became the first woman to win the Nobel Memorial Prize in Economics in which year?",
+    "choices": [
+      "2009",
+      "1991",
+      "2001",
+      "2014"
+    ],
+    "answer": "2009",
+    "explanation": "Ostrom shared the 2009 prize with Oliver Williamson for her analysis of economic governance, particularly showing that communities can manage common-pool resources without privatisation or government control.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2009", "Ostrom", "commons", "governance"]
+  },
+  {
+    "id": "nobel-004",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 2024 Nobel Prize in Economics was awarded to Daron Acemoglu, Simon Johnson, and James A. Robinson for demonstrating how:",
+    "choices": [
+      "societal institutions shape whether nations become prosperous or remain poor",
+      "auction design can improve the allocation of spectrum and other public resources",
+      "carbon pricing and climate policy can be integrated with economic growth models",
+      "randomised controlled trials can measure the causal effects of development programmes"
+    ],
+    "answer": "societal institutions shape whether nations become prosperous or remain poor",
+    "explanation": "The trio showed that inclusive political and economic institutions — secure property rights, rule of law, checks on power — drive long-run prosperity, while extractive institutions trap countries in poverty. Their work on colonial reversal of fortune is particularly influential.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2024/press-release/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nobel 2024", "institutions", "Acemoglu", "Robinson", "growth"]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "pop-001",
+    "category": "pop",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The 2003 bestseller Freakonomics was co-authored by University of Chicago economist Steven Levitt and journalist:",
+    "choices": [
+      "Stephen Dubner",
+      "Malcolm Gladwell",
+      "Michael Lewis",
+      "Tim Harford"
+    ],
+    "answer": "Stephen Dubner",
+    "explanation": "Levitt and Dubner's Freakonomics applied economic thinking to unconventional questions — from sumo wrestling incentives to the name-grade correlation. It sold over 5 million copies and spawned a franchise of sequels and a podcast.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Freakonomics", "Levitt", "Dubner", "pop econ"]
+  },
+  {
+    "id": "pop-002",
+    "category": "pop",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Canadian-born economist John Kenneth Galbraith argued in his 1958 bestseller that affluent societies had wrongly prioritised private consumption over public goods — naming it:",
+    "choices": [
+      "The Affluent Society",
+      "The Great Transformation",
+      "Small Is Beautiful",
+      "The Age of Uncertainty"
+    ],
+    "answer": "The Affluent Society",
+    "explanation": "Born in Iona Station, Ontario, Galbraith wrote The Affluent Society (1958) to argue that the US was rich in private goods but starved of public investment in education, infrastructure, and healthcare. The phrase 'conventional wisdom' also comes from this book.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Galbraith", "Affluent Society", "Canada", "public goods"]
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "firsts-001",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Which country introduced the first modern income tax, in 1799, to fund its wars against Napoleon?",
+    "choices": [
+      "Great Britain",
+      "France",
+      "Prussia",
+      "United States"
+    ],
+    "answer": "Great Britain",
+    "explanation": "Prime Minister William Pitt the Younger introduced the income tax in 1799 at a rate of two shillings in the pound (10%). It was repealed in 1816 after Waterloo but revived by Robert Peel in 1842 — and has never left.",
+    "source": "https://www.parliament.uk/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["income tax", "UK", "Pitt", "Napoleon"]
+  },
+  {
+    "id": "firsts-002",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Riksbank, generally considered the world's first central bank, was founded in which country?",
+    "choices": [
+      "Sweden",
+      "England",
+      "Netherlands",
+      "Italy"
+    ],
+    "answer": "Sweden",
+    "explanation": "The Riksbank was founded in 1668 in Stockholm, making it the world's oldest central bank. The Bank of England followed in 1694, and the Riksbank's model of public monetary authority became the template for central banking worldwide.",
+    "source": "https://www.riksbank.se/en-gb/about-the-riksbank/history/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["central bank", "Riksbank", "Sweden", "firsts"]
+  },
+  {
+    "id": "firsts-003",
+    "category": "firsts",
+    "difficulty": 1,
+    "format": "numeric",
+    "prompt": "In what year was the Bank of England — the model for modern central banking adopted by Canada, the US, and others — founded?",
+    "answer": 1694,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "The Bank of England received its Royal Charter on 27 July 1694. It was created to lend money to the government to fund the Nine Years' War against France and has served as the template for central banks worldwide.",
+    "source": "https://www.bankofengland.co.uk/about/history",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Bank of England", "central bank", "1694", "firsts"]
+  }
+]

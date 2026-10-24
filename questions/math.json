@@ -1,0 +1,68 @@
+[
+  {
+    "id": "math-001",
+    "category": "math",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Ordinary Least Squares (OLS) finds regression coefficients that minimize:",
+    "choices": [
+      "the sum of squared residuals",
+      "the sum of absolute residuals",
+      "the mean absolute error",
+      "the R-squared statistic"
+    ],
+    "answer": "the sum of squared residuals",
+    "explanation": "OLS minimises ∑(yᵢ − ŷᵢ)², the sum of squared differences between observed and fitted values. This closed-form minimisation gives the familiar formula β̂ = (X'X)⁻¹X'y.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["regression", "OLS"]
+  },
+  {
+    "id": "math-002",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "In a Difference-in-Differences design, the key identifying assumption is:",
+    "choices": [
+      "parallel trends: treatment and control groups would have trended similarly absent treatment",
+      "random assignment: units are assigned to treatment by a coin flip",
+      "no spillovers: treatment of one unit does not affect others",
+      "strict exogeneity: all regressors are uncorrelated with future error terms"
+    ],
+    "answer": "parallel trends: treatment and control groups would have trended similarly absent treatment",
+    "explanation": "DiD relies on the counterfactual assumption that, without treatment, both groups would have followed the same trend. Violation — e.g., if the treated group was already changing differently — invalidates the estimate.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["econometrics", "DiD", "causal inference"]
+  },
+  {
+    "id": "math-003",
+    "category": "math",
+    "difficulty": 3,
+    "format": "tf",
+    "prompt": "Under the Gauss–Markov assumptions, OLS has the lowest variance of any unbiased estimator.",
+    "answer": false,
+    "explanation": "The Gauss–Markov theorem says OLS is the Best *Linear* Unbiased Estimator (BLUE) — lowest variance among linear unbiased estimators. Non-linear unbiased estimators can be more efficient in some settings.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["econometrics", "Gauss-Markov", "BLUE"]
+  },
+  {
+    "id": "math-004",
+    "category": "math",
+    "difficulty": 1,
+    "format": "numeric",
+    "prompt": "If the marginal propensity to consume (MPC) is 0.8, what is the value of the simple Keynesian spending multiplier?",
+    "answer": 5,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "Multiplier = 1 / (1 − MPC) = 1 / 0.2 = 5. A $1 increase in autonomous spending raises equilibrium output by $5 through successive rounds of consumption.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["macroeconomics", "multiplier", "Keynes"]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "origins-001",
+    "category": "origins",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Monopoly descends from an early-1900s board game designed to illustrate whose ideas about land value and a single tax on land?",
+    "choices": [
+      "Henry George",
+      "Karl Marx",
+      "Thorstein Veblen",
+      "Alfred Marshall"
+    ],
+    "answer": "Henry George",
+    "explanation": "Lizzie Magie patented The Landlord's Game in 1903 to demonstrate Henry George's single-tax philosophy from Progress and Poverty (1879). Parker Brothers later commercialised a variant as Monopoly in 1935, stripping out most of the progressive message.",
+    "source": "https://www.loc.gov/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Monopoly", "Henry George", "land tax", "board games"]
+  },
+  {
+    "id": "origins-002",
+    "category": "origins",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The concept of national income accounting — the statistical backbone of modern GDP measurement — was largely developed in the 1930s by which economist, working for the US government?",
+    "choices": [
+      "Simon Kuznets",
+      "John Maynard Keynes",
+      "Paul Samuelson",
+      "Irving Fisher"
+    ],
+    "answer": "Simon Kuznets",
+    "explanation": "Congress asked Kuznets to develop national income accounts in the depths of the Depression; his 1934 report to the Senate became the foundation for GDP measurement. He cautioned that GDP should not be used as a measure of welfare — a warning economists still repeat.",
+    "source": "https://www.bea.gov/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["GDP", "Kuznets", "national accounts", "origins"]
+  },
+  {
+    "id": "origins-003",
+    "category": "origins",
+    "difficulty": 1,
+    "format": "short",
+    "prompt": "What is the general term for a tax levied specifically on goods as they cross a national border?",
+    "answer": "tariff",
+    "accept": ["tariff", "tariffs", "customs duty", "customs duties", "import duty", "import duties", "import tariff"],
+    "explanation": "Tariffs (or customs duties) are one of the oldest instruments of trade policy, used both to raise revenue and to protect domestic industries from foreign competition. Canada and the US famously escalated tariffs against each other in 2025.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["tariff", "trade policy", "origins"]
+  }
+]

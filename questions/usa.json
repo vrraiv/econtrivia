@@ -1,0 +1,59 @@
+[
+  {
+    "id": "usa-001",
+    "category": "usa",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Federal Reserve Act, which created the US central banking system, was signed into law in:",
+    "choices": [
+      "1913",
+      "1907",
+      "1929",
+      "1933"
+    ],
+    "answer": "1913",
+    "explanation": "President Woodrow Wilson signed the Federal Reserve Act on December 23, 1913. It was partly a response to the Panic of 1907, when the absence of a central bank forced J.P. Morgan to personally orchestrate a private rescue.",
+    "source": "https://www.federalreserve.gov/aboutthefed/fedact.htm",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Federal Reserve", "central bank", "Wilson"]
+  },
+  {
+    "id": "usa-002",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Glass–Steagall Act of 1933 primarily required the separation of:",
+    "choices": [
+      "commercial banking from investment banking",
+      "federal monetary policy from fiscal policy",
+      "the Federal Reserve from the Treasury",
+      "deposit insurance from bank lending activities"
+    ],
+    "answer": "commercial banking from investment banking",
+    "explanation": "Glass–Steagall erected a wall between deposit-taking banks and securities underwriting. It was effectively repealed by the Gramm–Leach–Bliley Act of 1999, a repeal many economists link to the 2008 financial crisis.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Glass-Steagall", "banking regulation", "New Deal"]
+  },
+  {
+    "id": "usa-003",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The New Deal programmes — including the FDIC, SEC, Social Security, and the TVA — were created under which US president?",
+    "choices": [
+      "Franklin D. Roosevelt",
+      "Herbert Hoover",
+      "Harry S. Truman",
+      "Woodrow Wilson"
+    ],
+    "answer": "Franklin D. Roosevelt",
+    "explanation": "FDR's New Deal (1933–1939) created dozens of 'alphabet agencies' to combat the Great Depression through relief, recovery, and reform. It fundamentally expanded the federal government's role in the economy.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["New Deal", "FDR", "Great Depression"]
+  }
+]

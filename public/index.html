@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Econ Pub Trivia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+
+    <!-- ── Landing ── -->
+    <div id="screen-landing" class="screen active">
+      <div class="hero">
+        <h1 class="site-title">Econ Pub Trivia</h1>
+        <p class="tagline">20 questions. All the economics you never forgot.</p>
+        <div id="stats-display" class="stats-banner hidden"></div>
+        <button id="btn-start" class="btn-primary btn-large">Start Round</button>
+        <div id="thin-pool-msg" class="thin-msg hidden"></div>
+        <button id="btn-reset-history" class="link-btn">Reset my history</button>
+      </div>
+    </div>
+
+    <!-- ── Round ── -->
+    <div id="screen-round" class="screen hidden">
+      <header class="round-header">
+        <div class="progress-track" role="progressbar" aria-label="Round progress">
+          <div id="progress-bar" class="progress-fill" style="width:0%"></div>
+        </div>
+        <div class="round-meta">
+          <span id="q-counter" class="q-counter"></span>
+          <div class="chips">
+            <span id="chip-category" class="chip chip-cat"></span>
+            <span id="chip-difficulty" class="chip"></span>
+          </div>
+        </div>
+      </header>
+
+      <main class="question-area">
+        <p id="question-prompt" class="prompt"></p>
+        <div id="answer-area" class="answer-area"></div>
+        <div id="feedback-area" class="feedback-area hidden"
+             aria-live="polite" aria-atomic="true" role="status"></div>
+        <button id="btn-next" class="btn-primary btn-next hidden">Next →</button>
+      </main>
+    </div>
+
+    <!-- ── End ── -->
+    <div id="screen-end" class="screen hidden">
+      <div id="end-content" class="end-content"></div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

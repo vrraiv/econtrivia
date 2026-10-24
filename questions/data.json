@@ -1,0 +1,66 @@
+[
+  {
+    "id": "data-001",
+    "category": "data",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "According to WTO merchandise trade data, which country was the world's largest exporter of goods in 2023?",
+    "choices": [
+      "China",
+      "United States",
+      "Germany",
+      "Japan"
+    ],
+    "answer": "China",
+    "explanation": "China exported approximately US $3.27 trillion in merchandise in 2023 — about 14% of world goods trade — retaining its top spot despite geopolitical pressure to diversify supply chains.",
+    "source": "https://www.wto.org/english/res_e/booksp_e/trade_outlook25_e.pdf",
+    "as_of": "2023",
+    "time_sensitive": true,
+    "tags": ["trade", "exports", "China"]
+  },
+  {
+    "id": "data-002",
+    "category": "data",
+    "difficulty": 1,
+    "format": "higher_lower",
+    "prompt": "Which had the larger population in Canada's 2021 census?",
+    "items": ["Ontario", "Quebec"],
+    "metric": "population counted in Canada's 2021 census",
+    "answer": "Ontario",
+    "explanation": "Ontario recorded 14,223,942 people in the 2021 census versus Quebec's 8,501,833 — Ontario is Canada's most populous province by a large margin.",
+    "source": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm",
+    "as_of": "2021",
+    "time_sensitive": false,
+    "tags": ["Canada", "population", "census", "StatCan"]
+  },
+  {
+    "id": "data-003",
+    "category": "data",
+    "difficulty": 1,
+    "format": "numeric",
+    "prompt": "To the nearest million, how many people did Statistics Canada count in the 2021 national census?",
+    "answer": 37,
+    "unit": "million people",
+    "tolerance_pct": 3,
+    "explanation": "The 2021 census recorded exactly 36,991,981 Canadians — essentially 37 million — a 5.2% increase from the 2016 census, the fastest five-year growth rate since 1956.",
+    "source": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm",
+    "as_of": "2021",
+    "time_sensitive": false,
+    "tags": ["Canada", "population", "census", "StatCan"]
+  },
+  {
+    "id": "data-004",
+    "category": "data",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "Which country had the larger nominal GDP in 2023?",
+    "items": ["Germany", "United Kingdom"],
+    "metric": "nominal GDP in 2023 (IMF World Economic Outlook data, USD)",
+    "answer": "Germany",
+    "explanation": "Germany's nominal GDP in 2023 was approximately US $4.6 trillion, compared with the UK's US $3.4 trillion. Germany is the largest economy in Europe and the third largest in the world.",
+    "source": "https://www.imf.org/en/Publications/WEO/weo-database/2024/April",
+    "as_of": "2023",
+    "time_sensitive": false,
+    "tags": ["GDP", "Germany", "UK", "Europe"]
+  }
+]

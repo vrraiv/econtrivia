@@ -1,0 +1,628 @@
+[
+  {
+    "id": "history-001",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Corn Laws, which imposed tariffs on imported grain to protect British landowners, were repealed in:",
+    "choices": ["1846", "1832", "1815", "1869"],
+    "answer": "1846",
+    "explanation": "Prime Minister Robert Peel repealed the Corn Laws in 1846, partly driven by the Irish Famine and the lobbying of the Anti-Corn Law League (Cobden and Bright). Repeal marked Britain's embrace of free trade and weakened the political power of landed aristocracy.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Corn Laws", "free trade", "UK", "1846"]
+  },
+  {
+    "id": "history-002",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "NAFTA — the North American Free Trade Agreement linking Canada, the US, and Mexico — came into force on January 1 of which year?",
+    "choices": ["1994", "1988", "2000", "1991"],
+    "answer": "1994",
+    "explanation": "NAFTA was signed in 1992 and entered into force on January 1, 1994. It was replaced by the Canada–United States–Mexico Agreement (CUSMA/USMCA) on July 1, 2020.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["NAFTA", "CUSMA", "trade", "Canada", "Mexico"]
+  },
+  {
+    "id": "history-003",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Mercantilism, the dominant economic doctrine of 16th–18th century European states, held that national wealth depended primarily on:",
+    "choices": [
+      "accumulating gold and silver through a trade surplus",
+      "free exchange of goods with all trading partners",
+      "maximising agricultural output through enclosure",
+      "securing monopoly rents from colonial territories"
+    ],
+    "answer": "accumulating gold and silver through a trade surplus",
+    "explanation": "Mercantilist states believed wealth was finite and zero-sum: exports earned precious metals, imports spent them. Adam Smith's The Wealth of Nations (1776) demolished this view, arguing wealth comes from productive capacity, not gold stockpiles.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["mercantilism", "trade", "Smith"]
+  },
+  {
+    "id": "history-004",
+    "category": "history",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "The Luddites of early 19th-century England were primarily opposed to all forms of new technology and industrial progress.",
+    "answer": false,
+    "explanation": "The Luddites (1811–1816) were skilled textile workers who destroyed specific machinery — power looms and stocking frames — that allowed owners to undercut their wages with unskilled labour. They were not anti-technology in principle; they were defending their livelihoods against machines used to circumvent labour agreements.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Luddites", "Industrial Revolution", "labour"]
+  },
+  {
+    "id": "history-005",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Sherman Antitrust Act of 1890, the first major US competition law, was most directly inspired by the dominance of which company?",
+    "choices": [
+      "Standard Oil",
+      "Carnegie Steel",
+      "J.P. Morgan & Co.",
+      "American Tobacco"
+    ],
+    "answer": "Standard Oil",
+    "explanation": "John D. Rockefeller's Standard Oil controlled roughly 90% of US oil refining by 1880, using secret railroad rebates and predatory pricing to crush rivals. Public outrage over its tactics drove Congress to pass the Sherman Act; Standard Oil itself was broken up by the Supreme Court in 1911.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Standard Oil", "antitrust", "Sherman Act", "Rockefeller"]
+  },
+  {
+    "id": "history-006",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Keynes's 1919 book 'The Economic Consequences of the Peace' argued that the post-WWI reparations imposed on Germany at Versailles were:",
+    "choices": [
+      "so harsh they would destabilise Europe and sow the seeds of future conflict",
+      "insufficient to compensate France and Belgium for wartime destruction",
+      "fair provided Germany was given 50 years to pay",
+      "unnecessary because Germany could simply inflate away the debt"
+    ],
+    "answer": "so harsh they would destabilise Europe and sow the seeds of future conflict",
+    "explanation": "Keynes resigned from the British delegation at Versailles and predicted the reparations — set at 132 billion gold marks — would impoverish Germany and fuel resentment. The hyperinflation of 1923 and eventual rise of Nazism are often cited as vindication of his warning.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Keynes", "WWI", "Versailles", "reparations"]
+  },
+  {
+    "id": "history-007",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Smoot-Hawley Tariff Act of 1930, which raised US import duties to record levels, is primarily remembered for:",
+    "choices": [
+      "triggering retaliatory tariffs that deepened the Great Depression",
+      "successfully protecting American manufacturing jobs during the Depression",
+      "driving Canada and the UK into a bilateral trade agreement that excluded the US",
+      "being struck down by the Supreme Court as unconstitutional"
+    ],
+    "answer": "triggering retaliatory tariffs that deepened the Great Depression",
+    "explanation": "Over 60 countries retaliated with their own tariffs, and US exports fell by more than half between 1930 and 1932. Most economists view Smoot-Hawley as a factor that worsened and prolonged the Depression, though the crash had already begun before it passed.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Smoot-Hawley", "tariffs", "Great Depression", "trade war"]
+  },
+  {
+    "id": "history-008",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Marshall Plan (officially the European Recovery Program), which provided US economic aid to reconstruct Western Europe after WWII, was named after Secretary of State:",
+    "choices": [
+      "George Marshall",
+      "Dean Acheson",
+      "Cordell Hull",
+      "Harry Hopkins"
+    ],
+    "answer": "George Marshall",
+    "explanation": "George Marshall announced the plan in a speech at Harvard in June 1947. Between 1948 and 1952, the US provided roughly $13 billion (about $170 billion today) to 17 European countries. Marshall won the Nobel Peace Prize in 1953 for the initiative.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Marshall Plan", "postwar", "Europe", "US aid"]
+  },
+  {
+    "id": "history-009",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'Nixon Shock' of August 1971 ended which key pillar of the Bretton Woods international monetary system?",
+    "choices": [
+      "The convertibility of US dollars into gold at a fixed rate",
+      "The fixed exchange rate between the dollar and the British pound",
+      "The IMF's authority to lend to countries in balance-of-payments deficit",
+      "Free movement of capital across OECD member borders"
+    ],
+    "answer": "The convertibility of US dollars into gold at a fixed rate",
+    "explanation": "Since 1944, the dollar had been convertible to gold at $35/oz, anchoring all other currencies. Facing a run on US gold reserves, Nixon suspended convertibility unilaterally. Within two years the Bretton Woods fixed-exchange-rate system had collapsed entirely into floating rates.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Nixon shock", "Bretton Woods", "gold standard", "exchange rate"]
+  },
+  {
+    "id": "history-010",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 1973 oil shock was triggered when Arab members of OPEC imposed an oil embargo on countries that had supported which party in the Yom Kippur War?",
+    "choices": [
+      "Israel",
+      "Egypt",
+      "Syria",
+      "Jordan"
+    ],
+    "answer": "Israel",
+    "explanation": "After the US and Netherlands supported Israel in the October 1973 war, OPEC's Arab members embargoed them. Oil prices quadrupled from ~$3 to ~$12 a barrel, causing fuel shortages, long queues at petrol stations, and a severe recession across Western economies — introducing the world to 'stagflation'.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["oil shock", "OPEC", "1973", "stagflation"]
+  },
+  {
+    "id": "history-011",
+    "category": "history",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "Stagflation — the combination of high inflation and high unemployment — was considered theoretically impossible under the original Phillips Curve framework.",
+    "answer": true,
+    "explanation": "The original Phillips Curve (1958) showed an inverse relationship between unemployment and inflation, implying you could not have both high at the same time. The stagflation of the 1970s shattered this model and led to the expectations-augmented Phillips Curve of Friedman and Phelps.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["stagflation", "Phillips Curve", "inflation", "unemployment"]
+  },
+  {
+    "id": "history-012",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Enclosure Movement in England (roughly 16th–19th centuries) primarily involved:",
+    "choices": [
+      "converting open common land to privately owned and fenced fields",
+      "building protective tariff walls around domestic manufacturing",
+      "concentrating merchant guild privileges in Crown-chartered companies",
+      "nationalising canals and turnpikes under Parliamentary authority"
+    ],
+    "answer": "converting open common land to privately owned and fenced fields",
+    "explanation": "Enclosure stripped peasants of rights to common land for grazing and gathering, pushing them into urban wage labour and fuelling the Industrial Revolution's factory workforce. Marx called it 'primitive accumulation'; modern historians debate whether it raised or lowered rural living standards.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["enclosure", "Industrial Revolution", "land", "commons"]
+  },
+  {
+    "id": "history-013",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Railway Mania — the speculative investment bubble in British railway stocks — peaked and crashed in which decade?",
+    "choices": [
+      "1840s",
+      "1820s",
+      "1860s",
+      "1880s"
+    ],
+    "answer": "1840s",
+    "explanation": "In 1844–1846 Parliament authorised over 9,000 miles of new railway lines; share prices doubled and then collapsed. Thousands of investors were ruined, though many lines were actually built, permanently transforming British transport and accelerating industrialisation.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Railway Mania", "speculative bubble", "UK", "1840s"]
+  },
+  {
+    "id": "history-014",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The California Gold Rush of 1848–1855 famously enriched many miners, but who consistently made the most reliable profits during the rush?",
+    "choices": [
+      "Merchants selling supplies to miners",
+      "The California state government through mining royalties",
+      "Banks that issued gold-backed currency",
+      "The federal government through land sales"
+    ],
+    "answer": "Merchants selling supplies to miners",
+    "explanation": "Prices for basic goods in gold-rush California were absurdly inflated: eggs went for $1 each (weeks' wages), shovels for $36. Merchants like Levi Strauss (who sold canvas trousers) and Samuel Brannan (who bought all the shovels before announcing the rush) made fortunes. The average miner barely broke even.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["gold rush", "California", "merchants", "speculation"]
+  },
+  {
+    "id": "history-015",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Social Security Act of 1935 was a New Deal programme that created which two major social insurance systems in the United States?",
+    "choices": [
+      "Old-age pensions and unemployment insurance",
+      "Universal healthcare and disability benefits",
+      "Farm price supports and housing assistance",
+      "Bank deposit insurance and mortgage guarantees"
+    ],
+    "answer": "Old-age pensions and unemployment insurance",
+    "explanation": "The Act created federal old-age insurance (what Americans today call Social Security) and a federal-state unemployment insurance system. It was the first time the US federal government took direct responsibility for income security — previously considered a state or private matter.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Social Security", "New Deal", "FDR", "welfare state"]
+  },
+  {
+    "id": "history-016",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Reaganomics, the supply-side economic programme of the early 1980s, was underpinned by the 'Laffer Curve' — the idea that cutting tax rates could:",
+    "choices": [
+      "increase total tax revenue if rates were above the revenue-maximising point",
+      "directly reduce inflation by shrinking the money supply",
+      "stimulate exports by cheapening the dollar through capital outflows",
+      "eliminate the budget deficit by reducing government borrowing costs"
+    ],
+    "answer": "increase total tax revenue if rates were above the revenue-maximising point",
+    "explanation": "Arthur Laffer sketched his curve on a napkin in 1974. Reagan cut the top marginal income tax rate from 70% to 28%, arguing this would unleash growth and actually raise revenues. In practice, deficits tripled during his presidency — critics dubbed the theory 'trickle-down economics'.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Reaganomics", "Laffer Curve", "supply-side", "tax cuts"]
+  },
+  {
+    "id": "history-017",
+    "category": "history",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Margaret Thatcher's government privatised British Telecom, British Gas, and British Airways — all state-owned companies — during the 1980s.",
+    "answer": true,
+    "explanation": "Thatcher's privatisation programme was the most extensive in the Western world at the time: BT (1984), British Gas (1986), British Airways (1987), water and electricity utilities (1989–90). The programme raised billions and transformed public attitudes toward share ownership, though critics argued essential services were sold below value.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Thatcher", "privatisation", "UK", "1980s"]
+  },
+  {
+    "id": "history-018",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Japan's post-WWII economic miracle saw it become the world's second-largest economy by the 1970s. This rapid growth was sometimes described as following which model?",
+    "choices": [
+      "State-directed industrial policy coordinated by MITI",
+      "Laissez-faire capitalism guided solely by market prices",
+      "Soviet-style central planning through five-year production targets",
+      "Export controls on capital to maintain a weak yen"
+    ],
+    "answer": "State-directed industrial policy coordinated by MITI",
+    "explanation": "Japan's Ministry of International Trade and Industry (MITI) guided credit toward priority industries — steel, cars, electronics — and protected them from foreign competition until they were globally competitive. The 'developmental state' model influenced South Korea, Taiwan, and Singapore.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Japan", "MITI", "industrial policy", "economic miracle"]
+  },
+  {
+    "id": "history-019",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Japan's asset price bubble of the late 1980s collapsed in 1990-91, beginning a period of economic stagnation often called:",
+    "choices": [
+      "The Lost Decade",
+      "The Heisei Hangover",
+      "The Tokyo Trough",
+      "The Pacific Slump"
+    ],
+    "answer": "The Lost Decade",
+    "explanation": "Japanese stock prices fell roughly 80% from their 1989 peak, and property prices collapsed. Banks sat on mountains of non-performing loans, zombie companies survived on credit, and GDP growth averaged near zero for over a decade — a template that worried Western economists during the 2008 crisis.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Japan", "Lost Decade", "asset bubble", "deflation"]
+  },
+  {
+    "id": "history-020",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Asian financial crisis of 1997–98 began in which country when its currency came under speculative attack and was forced to float?",
+    "choices": [
+      "Thailand",
+      "South Korea",
+      "Indonesia",
+      "Malaysia"
+    ],
+    "answer": "Thailand",
+    "explanation": "The Thai baht had been pegged to the US dollar, masking a current-account deficit financed by hot money. When speculators attacked and Thailand's reserves ran out, the baht was floated on July 2, 1997, losing half its value. The crisis rapidly spread to Indonesia, South Korea, and Malaysia.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Asian crisis", "Thailand", "currency", "contagion"]
+  },
+  {
+    "id": "history-021",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The dot-com bubble — the speculative boom in internet-related stocks — peaked in March 2000 and then crashed. The NASDAQ Composite index, which concentrated tech stocks, eventually fell by approximately:",
+    "choices": [
+      "78%",
+      "35%",
+      "52%",
+      "90%"
+    ],
+    "answer": "78%",
+    "explanation": "The NASDAQ peaked at 5,048 in March 2000 and bottomed at around 1,114 in October 2002 — a fall of about 78%. Hundreds of dot-com companies with no revenue or profits had been valued in the billions; most went bankrupt. A few survivors — Amazon, Google — went on to dominate the economy.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["dot-com", "NASDAQ", "tech bubble", "2000"]
+  },
+  {
+    "id": "history-022",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The European sovereign debt crisis (2010–2015) centred on several eurozone countries whose governments could not refinance their debt without assistance. The country that required the largest bailout by the ESM/IMF, measured by total loans, was:",
+    "choices": [
+      "Greece",
+      "Spain",
+      "Portugal",
+      "Ireland"
+    ],
+    "answer": "Greece",
+    "explanation": "Greece received three successive bailouts totalling over €260 billion from the EU, ECB, and IMF — by far the largest in history. In exchange it accepted severe austerity: pensions cut, wages slashed, public services privatised. GDP fell about 25% and unemployment peaked above 27%.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["eurozone crisis", "Greece", "austerity", "bailout"]
+  },
+  {
+    "id": "history-023",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "China joined the World Trade Organization in which year, a move that accelerated its integration into global manufacturing supply chains?",
+    "choices": [
+      "2001",
+      "1995",
+      "1997",
+      "2008"
+    ],
+    "answer": "2001",
+    "explanation": "China joined the WTO on December 11, 2001, after 15 years of negotiations. Its accession gave foreign exporters better access to Chinese markets and gave Chinese firms access to global trade rules. Manufacturing jobs shifted en masse from rich countries to China — a phenomenon economists call the 'China shock'.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["China", "WTO", "globalisation", "trade"]
+  },
+  {
+    "id": "history-024",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Thomas Malthus's 'Malthusian trap', described in his 1798 Essay on Population, predicted that living standards would remain near subsistence because:",
+    "choices": [
+      "population grows geometrically but food production grows only arithmetically",
+      "landlords extract all agricultural surplus as rent, leaving nothing for workers",
+      "technological progress creates new goods but also destroys old jobs at equal rates",
+      "governments inevitably spend any economic surplus on wars and monuments"
+    ],
+    "answer": "population grows geometrically but food production grows only arithmetically",
+    "explanation": "Malthus argued that whenever living standards rose above subsistence, population would increase until resources were again exhausted — a 'preventive check' of delayed marriage and a 'positive check' of famine and disease. The Industrial Revolution eventually escaped the trap through sustained productivity growth, vindicating his critics.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Malthus", "population", "subsistence", "trap"]
+  },
+  {
+    "id": "history-025",
+    "category": "history",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "Place these major economic crises in chronological order (earliest first).",
+    "items": [
+      "Wall Street Crash",
+      "OPEC Oil Embargo",
+      "Asian Financial Crisis",
+      "Global Financial Crisis"
+    ],
+    "order_by": "year the crisis began",
+    "answer": "Wall Street Crash → OPEC Oil Embargo → Asian Financial Crisis → Global Financial Crisis",
+    "explanation": "The Wall Street Crash began October 1929; the OPEC oil embargo started October 1973; Thailand's baht devaluation triggered the Asian crisis in July 1997; Lehman Brothers collapsed September 2008, marking the Global Financial Crisis.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["crises", "timeline", "history"]
+  },
+  {
+    "id": "history-026",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The TVA (Tennessee Valley Authority), created in 1933 as part of the New Deal, was primarily designed to:",
+    "choices": [
+      "bring electricity, flood control, and economic development to a poor rural region",
+      "provide federal unemployment benefits to displaced factory workers",
+      "regulate Wall Street and restore confidence in the banking system",
+      "fund public works construction in major US cities"
+    ],
+    "answer": "bring electricity, flood control, and economic development to a poor rural region",
+    "explanation": "The TVA built a system of dams along the Tennessee River, providing cheap hydroelectric power to one of America's poorest regions. It became a model for large-scale government-led development, debated ever since as a success story of industrial planning versus a cautionary tale of cost overruns.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["TVA", "New Deal", "FDR", "infrastructure"]
+  },
+  {
+    "id": "history-027",
+    "category": "history",
+    "difficulty": 3,
+    "format": "tf",
+    "prompt": "The German hyperinflation of 1923, at its peak, saw prices roughly double every day.",
+    "answer": true,
+    "explanation": "By November 1923, the exchange rate reached 4.2 trillion marks per US dollar. At the peak, prices were doubling every 3–4 days. Workers were paid twice daily and rushed to spend wages before they lost value. The Rentenmark, introduced in November 1923, ended the hyperinflation almost overnight.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["hyperinflation", "Germany", "Weimar", "1923"]
+  },
+  {
+    "id": "history-028",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Klondike Gold Rush of 1896–1899, centred in what is now Yukon, Canada, is notable for the fact that most of the prospectors who made the journey:",
+    "choices": [
+      "arrived too late and found little gold, while merchants and transport companies profited",
+      "struck rich deposits and returned home wealthy within two seasons",
+      "were ultimately forced off their claims by American mining corporations",
+      "stayed permanently, founding what became Canada's largest western city"
+    ],
+    "answer": "arrived too late and found little gold, while merchants and transport companies companies profited",
+    "explanation": "By the time the news broke and 100,000 prospectors set out, most claims had been staked. The steamship lines, outfitters like the NWMP suppliers, and retailers in Dawson City made the reliable fortunes. The rush did spur Canadian government investment in the Yukon and accelerated the push for railways.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Klondike", "gold rush", "Yukon", "Canada"]
+  },
+  {
+    "id": "history-029",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The second oil shock of 1979 was primarily caused by:",
+    "choices": [
+      "The Iranian Revolution, which disrupted Iranian oil exports",
+      "Saudi Arabia cutting production in retaliation for Camp David Accords",
+      "OPEC collectively voting to halve output quotas",
+      "The Soviet invasion of Afghanistan cutting Central Asian pipeline routes"
+    ],
+    "answer": "The Iranian Revolution, which disrupted Iranian oil exports",
+    "explanation": "The overthrow of the Shah of Iran and the subsequent hostage crisis caused Iranian oil output to plummet from 5.5 to 1.5 million barrels per day. Oil prices doubled to $35/barrel by 1980, triggering a deep recession and cementing the era of stagflation that Volcker's Fed eventually broke.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["oil shock", "Iran", "1979", "stagflation"]
+  },
+  {
+    "id": "history-030",
+    "category": "history",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Which British Prime Minister introduced the 'poll tax' (Community Charge) in the late 1980s, a flat per-person local tax that triggered widespread riots and contributed to her downfall?",
+    "choices": [
+      "Margaret Thatcher",
+      "John Major",
+      "James Callaghan",
+      "Edward Heath"
+    ],
+    "answer": "Margaret Thatcher",
+    "explanation": "The Community Charge, introduced in Scotland in 1989 and England/Wales in 1990, replaced property-based rates with a flat tax the same for a duke and a pauper. Mass non-payment and the March 1990 riot in Trafalgar Square accelerated Thatcher's resignation in November 1990.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Thatcher", "poll tax", "UK", "1990"]
+  },
+  {
+    "id": "history-031",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'Washington Consensus', a set of economic policy prescriptions promoted by the IMF and World Bank for developing countries in crisis during the 1980s-90s, did NOT typically include:",
+    "choices": [
+      "expansion of social spending to protect the poor from adjustment",
+      "fiscal discipline and deficit reduction",
+      "privatisation of state-owned enterprises",
+      "trade liberalisation"
+    ],
+    "answer": "expansion of social spending to protect the poor from adjustment",
+    "explanation": "John Williamson's 1989 list of consensus policies — fiscal discipline, tax reform, trade and capital liberalisation, privatisation, deregulation — notably excluded protecting social safety nets. Critics like Stiglitz argued this omission caused the social costs of structural adjustment in Latin America and Africa to fall disproportionately on the poor.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Washington Consensus", "IMF", "World Bank", "development"]
+  },
+  {
+    "id": "history-032",
+    "category": "history",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Match each major economic crisis to the decade in which it peaked or broke.",
+    "pairs": [
+      ["Great Depression", "1930s"],
+      ["Stagflation crisis", "1970s"],
+      ["Savings and Loan crisis (USA)", "1980s"],
+      ["Global Financial Crisis", "2000s"]
+    ],
+    "answer": "Great Depression→1930s, Stagflation→1970s, S&L crisis→1980s, GFC→2000s",
+    "explanation": "The Depression followed the 1929 crash; stagflation peaked 1973–1979; the US S&L crisis peaked in the late 1980s with hundreds of thrift failures; Lehman Brothers collapsed in September 2008.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["crises", "timeline", "match", "history"]
+  },
+  {
+    "id": "history-033",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The term 'stagflation' — combining stagnation with inflation — was popularised in the 1970s. Which UK politician is credited with first coining the term in a 1965 parliamentary speech?",
+    "choices": [
+      "Iain Macleod",
+      "Harold Wilson",
+      "Denis Healey",
+      "Enoch Powell"
+    ],
+    "answer": "Iain Macleod",
+    "explanation": "Conservative MP Iain Macleod used 'stagflation' in a 1965 House of Commons speech to describe the UK's simultaneous stagnation and inflation. The term was largely ignored until the 1970s oil shocks made the phenomenon globally relevant.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["stagflation", "UK", "Macleod", "etymology"]
+  },
+  {
+    "id": "history-034",
+    "category": "history",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "The Great Depression saw global GDP fall by more than 15% between 1929 and 1932.",
+    "answer": true,
+    "explanation": "Global GDP fell roughly 15% between 1929 and 1932, with much steeper drops in countries like the US (~30%) and Germany. World trade collapsed by two-thirds. Unemployment in the US peaked at about 25%, and in some countries never fully recovered until WWII mobilisation.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Great Depression", "GDP", "unemployment", "1930s"]
+  },
+  {
+    "id": "history-035",
+    "category": "history",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'Volcker Shock' of 1979–1982 — when Fed Chair Paul Volcker raised interest rates to historically extreme levels — successfully broke US inflation but caused a severe recession. The Federal Funds Rate briefly reached approximately:",
+    "choices": [
+      "20%",
+      "12%",
+      "15%",
+      "25%"
+    ],
+    "answer": "20%",
+    "explanation": "Volcker raised the Federal Funds Rate to nearly 20% by mid-1981 — higher than at any point in the Fed's history. Mortgage rates exceeded 18%, construction collapsed, and unemployment hit 10.8% in 1982. But inflation fell from 14% to below 3%, establishing the Fed's inflation-fighting credibility that underpinned the 'Great Moderation' of subsequent decades.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Volcker", "Federal Reserve", "inflation", "interest rates"]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "world-001",
+    "category": "world",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The International Monetary Fund and the World Bank were both created at which 1944 international conference?",
+    "choices": [
+      "Bretton Woods",
+      "Yalta",
+      "Dumbarton Oaks",
+      "San Francisco"
+    ],
+    "answer": "Bretton Woods",
+    "explanation": "The Bretton Woods Conference (July 1944, New Hampshire) created the IMF and the International Bank for Reconstruction and Development (now the World Bank). It also established the dollar-anchored fixed-exchange-rate system that lasted until 1971.",
+    "source": "https://www.imf.org/en/About/Factsheets/Sheets/2016/07/27/15/31/IMF-World-Bank",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Bretton Woods", "IMF", "World Bank", "international"]
+  },
+  {
+    "id": "world-002",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The World Trade Organization (WTO), founded in 1995, replaced which earlier multilateral trade framework?",
+    "choices": [
+      "GATT",
+      "UNCTAD",
+      "GATS",
+      "OECD"
+    ],
+    "answer": "GATT",
+    "explanation": "The General Agreement on Tariffs and Trade (GATT, signed 1947) was a provisional framework that morphed into the WTO through the Uruguay Round (1986–1994). The WTO has a permanent institutional structure and a binding dispute-settlement mechanism.",
+    "source": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["WTO", "GATT", "trade"]
+  },
+  {
+    "id": "world-003",
+    "category": "world",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "The European Union participates in the WTO as a single member, with the European Commission representing all EU member states in trade negotiations.",
+    "answer": true,
+    "explanation": "Trade policy is an exclusive EU competence. The European Commission negotiates on behalf of all member states, and the EU has a single seat at the WTO — meaning the bloc's collective weight (~$5T GDP) shapes global trade rules.",
+    "source": "https://www.wto.org/english/thewto_e/countries_e/european_communities_e.htm",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["EU", "WTO", "trade policy"]
+  },
+  {
+    "id": "world-004",
+    "category": "world",
+    "difficulty": 1,
+    "format": "order",
+    "prompt": "Place these international economic institutions in the order they were founded (earliest first).",
+    "items": ["IMF / World Bank", "GATT", "OECD", "WTO"],
+    "order_by": "year of founding or first operation",
+    "answer": "IMF/World Bank → GATT → OECD → WTO",
+    "explanation": "IMF and World Bank: Bretton Woods 1944. GATT signed: 1947. OECD succeeded the OEEC in 1961. WTO replaced GATT: 1995.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["IMF", "GATT", "OECD", "WTO", "international institutions"]
+  },
+  {
+    "id": "world-005",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'impossible trinity' (Mundell's trilemma) says a country cannot simultaneously have all three of: a fixed exchange rate, free capital mobility, and independent monetary policy. Which combination IS feasible and describes most advanced economies today?",
+    "choices": [
+      "floating exchange rate, free capital mobility, and independent monetary policy",
+      "fixed exchange rate, free capital mobility, and independent monetary policy",
+      "fixed exchange rate, capital controls, and dependent monetary policy",
+      "floating exchange rate, capital controls, and dependent monetary policy"
+    ],
+    "answer": "floating exchange rate, free capital mobility, and independent monetary policy",
+    "explanation": "By letting the exchange rate float, countries give up the fixed-rate peg but retain both free capital flows and independent monetary policy. The US, Canada, and the UK all operate this way. The trilemma is why eurozone members lost monetary independence after adopting the euro.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["trilemma", "Mundell", "exchange rate", "monetary policy", "Canada"]
+  }
+]

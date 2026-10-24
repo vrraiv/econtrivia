@@ -1,0 +1,83 @@
+[
+  {
+    "id": "canada-001",
+    "category": "canada",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Who was Canada's first Prime Minister after Confederation in 1867?",
+    "choices": [
+      "Sir John A. Macdonald",
+      "Alexander Mackenzie",
+      "Wilfrid Laurier",
+      "Robert Borden"
+    ],
+    "answer": "Sir John A. Macdonald",
+    "explanation": "Macdonald served as Canada's first PM from 1867 to 1873 and again from 1878 to 1891. He championed the National Policy of tariffs to protect Canadian industry and the transcontinental railway.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["PMs", "Confederation"]
+  },
+  {
+    "id": "canada-002",
+    "category": "canada",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "The Bank of Canada Act, which established Canada's central bank, received Royal Assent in 1934.",
+    "answer": true,
+    "explanation": "The Bank of Canada Act received Royal Assent on July 3, 1934. The Bank opened for business on March 11, 1935, and became a fully publicly owned Crown corporation in 1938.",
+    "source": "https://www.bankofcanada.ca/about/history/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Bank of Canada", "monetary policy"]
+  },
+  {
+    "id": "canada-003",
+    "category": "canada",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "Canada's federal income tax was introduced 'temporarily' to fund the First World War. In what year did the Income War Tax Act pass?",
+    "answer": 1917,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "Parliament passed the Income War Tax Act in 1917. The 'temporary' tax was never repealed and evolved into today's Income Tax Act.",
+    "source": "https://www.canada.ca/en/revenue-agency/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["taxation", "income tax", "WWI"]
+  },
+  {
+    "id": "canada-004",
+    "category": "canada",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "Place these four provinces in the order they joined Canadian Confederation (earliest first).",
+    "items": ["Manitoba", "British Columbia", "Saskatchewan", "Newfoundland and Labrador"],
+    "order_by": "year of joining Confederation",
+    "answer": "Manitoba → British Columbia → Saskatchewan → Newfoundland and Labrador",
+    "explanation": "Manitoba joined in 1870; British Columbia in 1871; Saskatchewan was carved from the Northwest Territories in 1905; Newfoundland and Labrador was the last to join, in 1949.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Confederation", "provinces"]
+  },
+  {
+    "id": "canada-005",
+    "category": "canada",
+    "difficulty": 1,
+    "format": "match",
+    "prompt": "Match each Canadian province to its capital city.",
+    "pairs": [
+      ["Ontario", "Toronto"],
+      ["Quebec", "Quebec City"],
+      ["Alberta", "Edmonton"],
+      ["British Columbia", "Victoria"]
+    ],
+    "answer": "Ontario→Toronto, Quebec→Quebec City, Alberta→Edmonton, British Columbia→Victoria",
+    "explanation": "Note that British Columbia's capital is Victoria, not Vancouver — a common mix-up. Alberta's capital is Edmonton, not Calgary.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["provinces", "capitals", "geography"]
+  }
+]

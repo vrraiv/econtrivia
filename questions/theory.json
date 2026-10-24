@@ -1,0 +1,523 @@
+[
+  {
+    "id": "theory-001",
+    "category": "theory",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Sonnenschein–Mantel–Debreu results show that, in a general-equilibrium model with many consumers, aggregate excess demand is restricted by little more than:",
+    "choices": [
+      "continuity, homogeneity of degree zero, and Walras' law",
+      "convexity, monotonicity, and weak gross substitutability",
+      "transitivity, completeness, and the weak axiom of revealed preference",
+      "Pareto efficiency, envy-freeness, and local non-satiation"
+    ],
+    "answer": "continuity, homogeneity of degree zero, and Walras' law",
+    "explanation": "SMD shows that almost any continuous function satisfying homogeneity of degree zero and Walras' law can be an aggregate excess-demand function — a devastating blow to the idea that markets have well-behaved aggregate demand.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["general equilibrium", "SMD"]
+  },
+  {
+    "id": "theory-002",
+    "category": "theory",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Arrow's Impossibility Theorem proves that any rank-order voting system satisfying Pareto efficiency and independence of irrelevant alternatives must be:",
+    "choices": [
+      "a dictatorship",
+      "utilitarian",
+      "single-peaked",
+      "cardinally measurable"
+    ],
+    "answer": "a dictatorship",
+    "explanation": "Arrow (1950) showed no collective choice rule can satisfy unrestricted domain, Pareto efficiency, IIA, and non-dictatorship simultaneously. If the first three hold, one voter's preferences must fully determine the social ranking.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["social choice", "Arrow"]
+  },
+  {
+    "id": "theory-003",
+    "category": "theory",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "In a Nash equilibrium, every player is choosing a best response to the other players' strategies.",
+    "answer": true,
+    "explanation": "That is the definition: a Nash equilibrium is a strategy profile where no player can increase their payoff by unilaterally changing their own strategy, i.e., each is already playing a best response.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["game theory", "Nash"]
+  },
+  {
+    "id": "theory-004",
+    "category": "theory",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The First Fundamental Theorem of Welfare Economics states that, under certain conditions, every competitive equilibrium allocation is:",
+    "choices": [
+      "Pareto efficient",
+      "Rawlsian fair",
+      "utilitarian optimal",
+      "Kaldor–Hicks efficient"
+    ],
+    "answer": "Pareto efficient",
+    "explanation": "The First Welfare Theorem says competitive equilibria are Pareto efficient — no one can be made better off without making someone worse off. It requires no externalities, complete markets, and rational agents.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["welfare economics", "Pareto"]
+  },
+  {
+    "id": "theory-005",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Coase theorem states that, when property rights are clearly defined and transaction costs are zero, private bargaining between parties will lead to:",
+    "choices": [
+      "an efficient outcome regardless of how property rights are initially assigned",
+      "the government-optimal level of production in every case",
+      "monopoly pricing for any excludable resource",
+      "zero externalities only if the polluter holds the property right"
+    ],
+    "answer": "an efficient outcome regardless of how property rights are initially assigned",
+    "explanation": "Coase (1960) argued that if two parties can bargain costlessly, they will always reach the efficient outcome — who initially holds the rights affects the distribution of gains but not total efficiency. The key practical implication: externalities are fundamentally a problem of high transaction costs, not market failure per se.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Coase", "externalities", "property rights", "transaction costs"]
+  },
+  {
+    "id": "theory-006",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "George Akerlof's 1970 'market for lemons' paper showed that when sellers know more about product quality than buyers, the resulting information asymmetry can lead to:",
+    "choices": [
+      "high-quality goods being driven out of the market by low-quality ones",
+      "a seller's premium that perfectly compensates for hidden quality differences",
+      "efficient sorting of all buyers to the quality level they prefer",
+      "monopolistic pricing by every seller with private information"
+    ],
+    "answer": "high-quality goods being driven out of the market by low-quality ones",
+    "explanation": "In Akerlof's used-car market, sellers know whether a car is a 'peach' or a 'lemon'; buyers don't, so they offer only average-quality prices. This drives out good-quality sellers, lowering average quality and prices further — a downward spiral that can cause market collapse. The paper founded the modern economics of information.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["adverse selection", "Akerlof", "information asymmetry", "lemons"]
+  },
+  {
+    "id": "theory-007",
+    "category": "theory",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "Moral hazard describes the tendency to take on more risk when insulated from its full consequences — for example, driving less carefully because you have comprehensive car insurance.",
+    "answer": true,
+    "explanation": "Moral hazard arises from hidden action after a contract is signed. Insurance markets are the classic case; other examples include corporate executives whose downside is limited (shareholders vs. managers) and financial institutions that expect government bailouts ('too big to fail').",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["moral hazard", "principal-agent", "insurance"]
+  },
+  {
+    "id": "theory-008",
+    "category": "theory",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "In economic theory, a 'public good' is defined by two properties: non-excludability (no one can be denied access) and:",
+    "choices": [
+      "non-rivalry (one person's use does not reduce availability to others)",
+      "positive externalities (consumption benefits third parties)",
+      "inelastic demand (consumption is insensitive to price)",
+      "government provision (it must be supplied by the state)"
+    ],
+    "answer": "non-rivalry (one person's use does not reduce availability to others)",
+    "explanation": "National defence, lighthouses, and public fireworks are classic examples. Because both properties hold simultaneously, markets undersupply public goods — private producers cannot exclude free-riders, so they cannot recover costs through user charges.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["public goods", "non-rivalry", "non-excludability", "free rider"]
+  },
+  {
+    "id": "theory-009",
+    "category": "theory",
+    "difficulty": 1,
+    "format": "short",
+    "prompt": "A tax set equal to the marginal social damage of a negative externality — designed to make the polluter 'internalise' the cost imposed on others — is named after which British economist?",
+    "answer": "Arthur Pigou",
+    "accept": ["Pigou", "Arthur Pigou", "A.C. Pigou", "A. C. Pigou", "Arthur Cecil Pigou"],
+    "explanation": "Arthur Pigou formalised the corrective tax in The Economics of Welfare (1920). His mentor Alfred Marshall had introduced externalities; Pigou showed the government could restore efficiency with a tax equal to marginal external cost. The modern carbon tax is the most prominent application.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Pigou", "externalities", "carbon tax", "welfare economics"]
+  },
+  {
+    "id": "theory-010",
+    "category": "theory",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "The 'tragedy of the commons,' as described by Garrett Hardin (1968), holds that an open-access shared resource will be over-exploited because each user captures the full benefit of using it but bears only a fraction of the total cost.",
+    "answer": true,
+    "explanation": "Hardin's classic example: a shared pasture. Each herder gains fully from adding another animal but shares the overgrazing cost with everyone. Elinor Ostrom later showed many communities manage commons sustainably through norms and institutions — work that earned her the 2009 Nobel Prize.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["tragedy of the commons", "Hardin", "common-pool resources", "Ostrom"]
+  },
+  {
+    "id": "theory-011",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In a Vickrey (second-price sealed-bid) auction, each bidder's dominant strategy is to:",
+    "choices": [
+      "bid their true value for the item",
+      "shade their bid slightly below their true value",
+      "bid the minimum amount they expect to win at",
+      "bid the average of their value and expected rivals' bids"
+    ],
+    "answer": "bid their true value for the item",
+    "explanation": "Because the winner pays the second-highest bid — not their own — overbidding risks paying more than the item is worth, while underbidding risks losing a worthwhile purchase. The unique equilibrium is truthful bidding regardless of others' values. This incentive-compatibility property made Vickrey auctions central to mechanism design theory.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Vickrey", "auction", "dominant strategy", "mechanism design"]
+  },
+  {
+    "id": "theory-012",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In Michael Spence's job-market signalling model (1973), costly education can credibly signal worker ability only if:",
+    "choices": [
+      "acquiring the credential is less costly (in time or effort) for high-ability workers than for low-ability workers",
+      "education directly raises worker productivity by the same amount for all ability types",
+      "employers cannot observe whether workers have completed their degrees",
+      "governments subsidise tuition to make the signal universally accessible"
+    ],
+    "answer": "acquiring the credential is less costly (in time or effort) for high-ability workers than for low-ability workers",
+    "explanation": "Spence's key insight is that education can constitute a separating equilibrium even if it raises no one's productivity — provided it is sufficiently cheaper for high-ability types. This 'single-crossing' condition prevents low-ability workers from profitably mimicking the signal. Spence shared the 2001 Nobel Prize with Stiglitz and Akerlof.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Spence", "signalling", "information asymmetry", "education"]
+  },
+  {
+    "id": "theory-013",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Kahneman and Tversky's Prospect Theory (1979) departs from standard expected utility theory mainly by incorporating:",
+    "choices": [
+      "loss aversion: losses loom roughly twice as large as equivalent gains",
+      "risk neutrality across all probability ranges",
+      "rational Bayesian updating of beliefs after each new piece of information",
+      "diminishing marginal utility based solely on absolute wealth levels"
+    ],
+    "answer": "loss aversion: losses loom roughly twice as large as equivalent gains",
+    "explanation": "Prospect theory proposes that people evaluate outcomes relative to a reference point, weight losses about twice as heavily as equal gains, and overweight small probabilities. Kahneman won the 2002 Nobel Prize in Economics (Tversky had died in 1996 and prizes are not awarded posthumously).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Kahneman", "Tversky", "prospect theory", "loss aversion", "behavioural economics"]
+  },
+  {
+    "id": "theory-014",
+    "category": "theory",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "Richard Thaler and Cass Sunstein coined the term 'libertarian paternalism' to describe policies that steer people toward better choices (e.g. through default options) while preserving full freedom to opt out.",
+    "answer": true,
+    "explanation": "Their 2008 book Nudge popularised 'choice architecture': changing default enrolment for pensions, organ donation, and green energy so that inertia works in people's favour. Thaler won the 2017 Nobel Prize for contributions to behavioural economics.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Thaler", "nudge", "libertarian paternalism", "behavioural economics"]
+  },
+  {
+    "id": "theory-015",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "A national park with free open access is an example of a 'club good' — that is, it is both excludable and non-rival in consumption.",
+    "answer": false,
+    "explanation": "A freely accessible park is non-excludable (anyone can enter) and, up to congestion, non-rival — making it closer to a public good or common-pool resource. Club goods (Netflix, toll roads, private gyms) are excludable but non-rival up to capacity. Buchanan (1965) formalised club goods theory.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["club goods", "public goods", "Buchanan", "excludability", "non-rivalry"]
+  },
+  {
+    "id": "theory-016",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The semi-strong form of the Efficient Market Hypothesis (EMH) holds that asset prices already fully reflect:",
+    "choices": [
+      "all publicly available information",
+      "only past prices and trading volumes",
+      "all public and private (insider) information",
+      "macroeconomic data but not firm-specific news"
+    ],
+    "answer": "all publicly available information",
+    "explanation": "Fama (1970) distinguished three forms: weak (past prices only), semi-strong (all public information — earnings, news, analyst reports), and strong (all public and private information). Semi-strong efficiency implies that fundamental analysis cannot consistently generate abnormal returns.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["EMH", "Fama", "efficient markets", "semi-strong"]
+  },
+  {
+    "id": "theory-017",
+    "category": "theory",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The original Phillips curve, based on A.W. Phillips's study of UK data from 1861 to 1957, documented an empirical inverse relationship between:",
+    "choices": [
+      "unemployment and wage inflation",
+      "interest rates and investment spending",
+      "output growth and price inflation",
+      "exchange rates and the current account balance"
+    ],
+    "answer": "unemployment and wage inflation",
+    "explanation": "Phillips (1958) found that low unemployment was associated with faster wage growth. Samuelson and Solow subsequently extended this to a price-inflation / unemployment trade-off. Stagflation in the 1970s — high inflation and high unemployment simultaneously — challenged the trade-off's stability and prompted the expectations-augmented version by Friedman and Phelps.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Phillips curve", "unemployment", "inflation", "stagflation"]
+  },
+  {
+    "id": "theory-018",
+    "category": "theory",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Second Fundamental Theorem of Welfare Economics states that:",
+    "choices": [
+      "any Pareto-efficient allocation can be decentralised as a competitive equilibrium following an appropriate lump-sum redistribution of endowments",
+      "every competitive equilibrium is Pareto efficient",
+      "governments can always improve on market outcomes through redistribution",
+      "externalities are the only barrier to competitive equilibria being efficient"
+    ],
+    "answer": "any Pareto-efficient allocation can be decentralised as a competitive equilibrium following an appropriate lump-sum redistribution of endowments",
+    "explanation": "The Second Welfare Theorem separates efficiency from equity: pick any Pareto-efficient outcome as your social goal, redistribute initial endowments via lump-sum transfers, and markets will deliver it. The practical problem is that lump-sum taxes are generally not feasible — real taxes distort incentives.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Second Welfare Theorem", "Pareto efficiency", "lump-sum redistribution"]
+  },
+  {
+    "id": "theory-019",
+    "category": "theory",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Ricardian equivalence (formalised by Barro in 1974) implies that deficit-financed tax cuts will not raise aggregate demand because:",
+    "choices": [
+      "rational, forward-looking households save the full tax cut, anticipating higher future taxes to repay the debt",
+      "higher government borrowing crowds out private investment through rising interest rates",
+      "bond-financed spending raises the price level rather than real output",
+      "fiscal multipliers are zero whenever the central bank targets a nominal interest rate"
+    ],
+    "answer": "rational, forward-looking households save the full tax cut, anticipating higher future taxes to repay the debt",
+    "explanation": "Barro argued that under perfect capital markets and rational expectations, a government deficit today implies future tax liabilities of equal present value. Households internalise this and save exactly the amount needed to pay those taxes — leaving consumption and aggregate demand unchanged. Critics note the result requires no liquidity constraints and operative bequest motives.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Ricardian equivalence", "Barro", "fiscal policy", "rational expectations"]
+  },
+  {
+    "id": "theory-020",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "short",
+    "prompt": "What does the acronym DSGE stand for — the class of macroeconomic models used by central banks to analyse and forecast the economy?",
+    "answer": "Dynamic Stochastic General Equilibrium",
+    "accept": ["Dynamic Stochastic General Equilibrium", "dynamic stochastic general equilibrium", "Dynamic Stochastic General Equillibrium", "dynamic stochastic general equillibrium"],
+    "explanation": "DSGE models combine optimising households and firms (microfoundations), stochastic shocks (e.g. technology, demand), and general equilibrium. They became the workhorse of central bank modelling in the 2000s but were widely criticised for failing to incorporate financial frictions before the 2008 crisis.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["DSGE", "macroeconomics", "central bank", "models"]
+  },
+  {
+    "id": "theory-021",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In the Gale–Shapley deferred acceptance algorithm for two-sided matching, the side that makes proposals consistently ends up with:",
+    "choices": [
+      "their best possible stable matching",
+      "their worst possible stable matching",
+      "a random stable matching drawn uniformly from all stable matchings",
+      "the unique stable matching regardless of which side proposes"
+    ],
+    "answer": "their best possible stable matching",
+    "explanation": "Gale–Shapley is proposer-optimal: the proposing side gets the best outcome across all stable matchings, while the receiving side gets the worst. Medical residency programmes that use deferred acceptance — where hospitals or programmes propose — are programme-optimal rather than applicant-optimal. Roth and Shapley won the 2012 Nobel for this work.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Gale-Shapley", "stable matching", "mechanism design", "Roth"]
+  },
+  {
+    "id": "theory-022",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "In a market with two firms selling an identical product, which mode of competition leads to higher equilibrium prices for consumers?",
+    "items": ["Bertrand competition (firms simultaneously choose prices)", "Cournot competition (firms simultaneously choose quantities)"],
+    "metric": "equilibrium market price in a homogeneous-good duopoly",
+    "answer": "Cournot competition (firms simultaneously choose quantities)",
+    "explanation": "The Bertrand paradox: two price-competing firms undercut each other until price equals marginal cost — the competitive outcome, with zero profits. In Cournot competition, each firm treats the other's quantity as fixed, leading to prices above marginal cost and positive profits. Cournot prices also exceed perfect competition but fall below monopoly.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Bertrand", "Cournot", "oligopoly", "competition"]
+  },
+  {
+    "id": "theory-023",
+    "category": "theory",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "A Giffen good violates the law of demand — quantity demanded rises when price rises. This happens because:",
+    "choices": [
+      "the income effect of a price rise (making the consumer poorer) outweighs the substitution effect, causing more of this inferior staple to be consumed",
+      "consumers perceive higher prices as signals of superior quality and status",
+      "expected future price rises trigger rational hoarding behaviour",
+      "monopoly power allows firms to charge more while selling more units"
+    ],
+    "answer": "the income effect of a price rise (making the consumer poorer) outweighs the substitution effect, causing more of this inferior staple to be consumed",
+    "explanation": "Giffen goods must be strongly inferior and represent a large share of the budget. A price rise makes the consumer poorer; they cut back on relatively expensive goods and consume more of this cheap staple — the income effect dominates the substitution effect. Empirical confirmation is rare; Irish potatoes during the Famine are often cited but the evidence is contested.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Giffen good", "demand", "income effect", "substitution effect"]
+  },
+  {
+    "id": "theory-024",
+    "category": "theory",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "A Veblen good is one for which demand increases as its price rises, primarily because a higher price signals higher social status or quality to other consumers.",
+    "answer": true,
+    "explanation": "Thorstein Veblen described 'conspicuous consumption' in The Theory of the Leisure Class (1899). Luxury handbags, rare wines, and high-end watches are classic examples — part of their desirability is derived from their expense. Unlike Giffen goods, Veblen goods are not inferior; the upward slope reflects social signalling rather than an income effect.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Veblen good", "conspicuous consumption", "status goods", "demand"]
+  },
+  {
+    "id": "theory-025",
+    "category": "theory",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Hotelling's rule (1931) states that along the optimal extraction path of a non-renewable resource, the royalty (net price) must:",
+    "choices": [
+      "rise at the rate of interest",
+      "fall at the rate of interest",
+      "remain constant in real terms",
+      "rise at the rate of physical depletion of the resource stock"
+    ],
+    "answer": "rise at the rate of interest",
+    "explanation": "Resource owners choose between extracting now (receiving the current price) or waiting (receiving a capital gain). In competitive equilibrium they are indifferent only if the in-ground value — the royalty, or price minus extraction cost — appreciates at exactly the market interest rate. This 'r percent rule' determines the optimal time profile of resource extraction.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Hotelling", "exhaustible resources", "resource economics", "r percent rule"]
+  },
+  {
+    "id": "theory-026",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Hyperbolic discounting, used to explain procrastination and undersaving, describes a pattern where people:",
+    "choices": [
+      "place a disproportionately high discount between the present and the near future, creating time-inconsistent preferences",
+      "discount all future periods at the same constant exponential rate",
+      "overvalue future outcomes relative to present ones due to optimism bias",
+      "assign zero weight to any outcome beyond a fixed planning horizon"
+    ],
+    "answer": "place a disproportionately high discount between the present and the near future, creating time-inconsistent preferences",
+    "explanation": "Under hyperbolic discounting, the discount rate between today and tomorrow is far larger than between day 100 and day 101. This creates present bias: preferring a smaller-sooner reward over a larger-later one when both are imminent, even if the preference reverses when both are distant. Standard exponential discounting does not exhibit this time inconsistency.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["hyperbolic discounting", "present bias", "time inconsistency", "behavioural economics"]
+  },
+  {
+    "id": "theory-027",
+    "category": "theory",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The 'Lucas critique' (1976) warns that empirical macroeconomic models are unreliable for evaluating policy changes because:",
+    "choices": [
+      "the estimated parameters will shift when policy changes, since rational agents adjust behaviour based on the new policy regime",
+      "macroeconomic data is subject to measurement errors that compound over long estimation periods",
+      "rational expectations make future economic outcomes fundamentally unpredictable",
+      "government deficits crowd out private investment, nullifying any intended policy effect"
+    ],
+    "answer": "the estimated parameters will shift when policy changes, since rational agents adjust behaviour based on the new policy regime",
+    "explanation": "Lucas argued that the behavioural relationships estimated from historical data embed agents' expectations under the previous policy regime. Change the policy, and agents update their expectations and behaviours — invalidating the original equations. This critique was a key motivation for building macroeconomic models from explicit microfoundations (DSGE models).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Lucas critique", "rational expectations", "macroeconomics", "DSGE"]
+  },
+  {
+    "id": "theory-028",
+    "category": "theory",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The revelation principle in mechanism design states that for any mechanism that achieves a given outcome, there exists an equivalent direct mechanism in which:",
+    "choices": [
+      "truthful reporting of private information is a dominant strategy and achieves the same outcome",
+      "all agents voluntarily participate without any outside option",
+      "information asymmetry is eliminated through competitive bidding among agents",
+      "the principal can directly observe every agent's private type"
+    ],
+    "answer": "truthful reporting of private information is a dominant strategy and achieves the same outcome",
+    "explanation": "The revelation principle (Myerson and others, late 1970s) vastly simplifies mechanism design: rather than searching over all possible game forms, designers can restrict attention to direct truthful mechanisms. It underpins the theory of optimal auctions, efficient resource allocation under asymmetric information, and regulatory design.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["revelation principle", "mechanism design", "Myerson", "incentive compatibility"]
+  },
+  {
+    "id": "theory-029",
+    "category": "theory",
+    "difficulty": 1,
+    "format": "match",
+    "prompt": "Match each economist to the concept or theory most closely associated with them.",
+    "pairs": [
+      ["Ronald Coase", "Transaction costs and property rights"],
+      ["George Akerlof", "Market for lemons (adverse selection)"],
+      ["Robert Lucas", "Rational expectations and the critique of policy models"],
+      ["Daniel Kahneman", "Prospect theory and loss aversion"]
+    ],
+    "answer": "Coase→Transaction costs; Akerlof→Lemons; Lucas→Rational expectations; Kahneman→Prospect theory",
+    "explanation": "All four won the Nobel Prize in Economics: Coase (1991), Akerlof (2001), Lucas (1995), and Kahneman (2002, shared with Vernon Smith). Their contributions span institutional, information, macro, and behavioural economics.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Coase", "Akerlof", "Lucas", "Kahneman", "Nobel", "economists"]
+  },
+  {
+    "id": "theory-030",
+    "category": "theory",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "Place these landmark economic theories or frameworks in the order they were first published or formalised (earliest first).",
+    "items": [
+      "Invisible hand (Adam Smith)",
+      "Marginal revolution (Jevons, Menger, Walras)",
+      "Keynesian macroeconomics (Keynes's General Theory)",
+      "Prospect theory (Kahneman and Tversky)"
+    ],
+    "order_by": "year first published or introduced",
+    "answer": "Invisible hand → Marginal revolution → Keynesian macroeconomics → Prospect theory",
+    "explanation": "Adam Smith's Wealth of Nations: 1776. The marginal revolution: simultaneously by Jevons, Menger, and Walras around 1871. Keynes's General Theory: 1936. Kahneman and Tversky's Prospect Theory paper: 1979.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Smith", "Jevons", "Keynes", "Kahneman", "history of economic thought"]
+  }
+]

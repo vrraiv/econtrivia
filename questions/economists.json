@@ -1,0 +1,524 @@
+[
+  {
+    "id": "economists-001",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Adam Smith's metaphor of the 'invisible hand' describes how:",
+    "choices": [
+      "individual self-interest leads to beneficial social outcomes without central direction",
+      "government policy quietly steers markets toward efficient outcomes",
+      "monopolies arise naturally from unchecked competitive markets",
+      "wages converge across industries and regions over time"
+    ],
+    "answer": "individual self-interest leads to beneficial social outcomes without central direction",
+    "explanation": "From The Wealth of Nations (1776): each individual 'intends only his own gain' yet is 'led by an invisible hand to promote an end which was no part of his intention.' Smith used it sparingly — only three times across his collected works.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Smith", "invisible hand", "markets"]
+  },
+  {
+    "id": "economists-002",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The phrase 'In the long run we are all dead' is attributed to which economist, used to argue for near-term policy action during downturns?",
+    "choices": [
+      "John Maynard Keynes",
+      "Milton Friedman",
+      "Friedrich Hayek",
+      "Alfred Marshall"
+    ],
+    "answer": "John Maynard Keynes",
+    "explanation": "From Keynes's A Tract on Monetary Reform (1923), arguing that economists who insist the economy self-corrects in the long run are ignoring real suffering in the meantime. It became a rallying cry for activist fiscal policy.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Keynes", "quotes", "fiscal policy"]
+  },
+  {
+    "id": "economists-003",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "Place these landmark economics books in the order they were first published (earliest first).",
+    "items": [
+      "The Wealth of Nations",
+      "Principles of Economics",
+      "The General Theory of Employment, Interest and Money",
+      "Capitalism and Freedom"
+    ],
+    "order_by": "year of first publication",
+    "answer": "The Wealth of Nations → Principles of Economics → The General Theory → Capitalism and Freedom",
+    "explanation": "Adam Smith's Wealth of Nations (1776); Alfred Marshall's Principles of Economics (1890); Keynes's General Theory (1936); Milton Friedman's Capitalism and Freedom (1962).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Smith", "Marshall", "Keynes", "Friedman", "books"]
+  },
+  {
+    "id": "economists-004",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "short",
+    "prompt": "Which economist popularised the concept of 'creative destruction' — the idea that capitalism ceaselessly destroys old industries to create new ones?",
+    "answer": "Joseph Schumpeter",
+    "accept": ["Schumpeter", "Joseph Schumpeter", "J.A. Schumpeter", "J. Schumpeter"],
+    "explanation": "Schumpeter developed 'creative destruction' most fully in Capitalism, Socialism and Democracy (1942). He drew on Marx but made it the essential feature of capitalist dynamics, explaining why innovators rather than price-takers drive growth.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Schumpeter", "creative destruction", "innovation"]
+  },
+  {
+    "id": "economists-005",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "David Ricardo's principle of 'comparative advantage' argues that two countries benefit from trade even if one produces everything more cheaply, because each should specialise in:",
+    "choices": [
+      "goods for which it has the lowest opportunity cost",
+      "goods for which it has the highest absolute productivity",
+      "goods in which it has a natural resource endowment",
+      "goods that maximise their trade surplus with the other country"
+    ],
+    "answer": "goods for which it has the lowest opportunity cost",
+    "explanation": "Ricardo illustrated comparative advantage in Principles of Political Economy (1817) with England and Portugal trading cloth and wine. Even if Portugal were better at both, both nations gain by each specialising where they give up least of the other good. It remains the most powerful result in international trade theory.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Ricardo", "comparative advantage", "trade"]
+  },
+  {
+    "id": "economists-006",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Thomas Malthus published his Essay on the Principle of Population in 1798. His central argument was that unchecked population growth would always tend to outstrip:",
+    "choices": [
+      "food supply",
+      "housing supply",
+      "employment opportunities",
+      "technological progress"
+    ],
+    "answer": "food supply",
+    "explanation": "Malthus argued population grows geometrically (1, 2, 4, 8…) while food production grows only arithmetically (1, 2, 3, 4…), so living standards inevitably return to subsistence. The Industrial Revolution and the Green Revolution eventually disproved the prediction, but 'Malthusian' remains a shorthand for resource-scarcity pessimism.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Malthus", "population", "food", "subsistence"]
+  },
+  {
+    "id": "economists-007",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Karl Marx's concept of 'surplus value' refers to the difference between:",
+    "choices": [
+      "the value workers produce and the wages they are paid",
+      "a commodity's market price and its production cost",
+      "GDP and the portion consumed rather than invested",
+      "the wage paid and the subsistence minimum required to survive"
+    ],
+    "answer": "the value workers produce and the wages they are paid",
+    "explanation": "In Capital (1867), Marx argued that labour is the source of all value. Workers are paid their subsistence wage but work longer than needed to produce it; the 'surplus labour' time produces surplus value that the capitalist appropriates as profit. This was his mechanism for explaining exploitation under capitalism.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Marx", "surplus value", "labour", "exploitation"]
+  },
+  {
+    "id": "economists-008",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Thorstein Veblen coined the term 'conspicuous consumption' to describe spending primarily intended to:",
+    "choices": [
+      "signal wealth and social status rather than for utility",
+      "stimulate aggregate demand during economic downturns",
+      "accumulate capital through deferred gratification",
+      "satisfy basic material needs efficiently"
+    ],
+    "answer": "signal wealth and social status rather than for utility",
+    "explanation": "In The Theory of the Leisure Class (1899), Veblen argued that the wealthy class consumed visibly and wastefully as a form of social competition. 'Veblen goods' — luxury items that become more desirable as their price rises — are named after him.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Veblen", "conspicuous consumption", "status", "luxury"]
+  },
+  {
+    "id": "economists-009",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Irving Fisher's 'debt-deflation theory', developed in 1933 to explain the Great Depression, argued that falling prices made economic downturns worse because:",
+    "choices": [
+      "deflation increases the real burden of debt, causing more defaults and further contraction",
+      "falling prices reduce corporate profits and trigger mass layoffs",
+      "deflation causes consumers to delay purchases, reducing aggregate demand",
+      "lower prices destroy collateral values, preventing banks from lending"
+    ],
+    "answer": "deflation increases the real burden of debt, causing more defaults and further contraction",
+    "explanation": "Fisher's insight: as prices fall, the real value of debts rises even as nominal values stay fixed. Debtors sell assets to repay loans, driving prices down further — a deflationary spiral. Ironically, Fisher himself had been ruined in the 1929 crash, famously declaring stocks had reached 'a permanently high plateau' days before the crash.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Fisher", "debt-deflation", "Great Depression", "deflation"]
+  },
+  {
+    "id": "economists-010",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Friedrich Hayek's 1945 essay 'The Use of Knowledge in Society' argued that central planners could never replicate the market because:",
+    "choices": [
+      "knowledge is dispersed and local, impossible to collect and process centrally",
+      "planners are inevitably corrupt and serve their own interests",
+      "prices in a planned economy are always manipulated for political purposes",
+      "consumer preferences change too rapidly for any plan to track"
+    ],
+    "answer": "knowledge is dispersed and local, impossible to collect and process centrally",
+    "explanation": "Hayek's key insight was that the relevant economic knowledge — individual preferences, local resource availabilities, business opportunities — exists only in the minds of millions of individuals. Prices aggregate this 'tacit knowledge' into signals planners can never replicate, no matter how sophisticated their computers.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Hayek", "knowledge", "prices", "central planning"]
+  },
+  {
+    "id": "economists-011",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Paul Samuelson's 1948 textbook 'Economics' was significant because it:",
+    "choices": [
+      "synthesised Keynesian macroeconomics with neoclassical microeconomics into a unified framework",
+      "was the first economics textbook written for undergraduate students",
+      "provided the first mathematical proof of Adam Smith's invisible hand theorem",
+      "introduced the concept of GDP to a popular American audience"
+    ],
+    "answer": "synthesised Keynesian macroeconomics with neoclassical microeconomics into a unified framework",
+    "explanation": "Samuelson's 'neoclassical synthesis' made Keynesian analysis of aggregate demand compatible with neoclassical supply-side micro. The textbook sold over 4 million copies and shaped how economics was taught for generations. Samuelson became the first American to win the Nobel Prize in Economics in 1970.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Samuelson", "neoclassical synthesis", "Keynesian", "textbook"]
+  },
+  {
+    "id": "economists-012",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The 'Coase Theorem', developed by Ronald Coase, states that in the absence of transaction costs, parties will negotiate to an efficient outcome regardless of the initial assignment of:",
+    "choices": [
+      "property rights",
+      "income distribution",
+      "market power",
+      "tax liability"
+    ],
+    "answer": "property rights",
+    "explanation": "If a factory pollutes a river, it doesn't matter whether the factory or the fishermen have the legal right — they will bargain to the efficient level of pollution. Coase's insight shifted economics toward examining transaction costs as the reason markets sometimes fail. He won the Nobel Prize in 1991.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Coase", "Coase theorem", "property rights", "transaction costs"]
+  },
+  {
+    "id": "economists-013",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Gary Becker's 1964 theory of 'human capital' treated education and training primarily as:",
+    "choices": [
+      "an investment that yields returns in the form of higher future wages",
+      "a public good that governments must fund to prevent underinvestment",
+      "a consumption good that workers enjoy for its intrinsic value",
+      "a signalling device that sorts workers by ability without raising productivity"
+    ],
+    "answer": "an investment that yields returns in the form of higher future wages",
+    "explanation": "Becker argued workers invest in themselves by acquiring skills, just as firms invest in machinery — bearing upfront costs for future earnings gains. The framework revolutionised labour economics and underpins how governments now justify subsidising education.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Becker", "human capital", "education", "labour"]
+  },
+  {
+    "id": "economists-014",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Amartya Sen's 'capability approach', developed in the 1980s, argued that development should be measured not just by income but by people's:",
+    "choices": [
+      "substantive freedoms to live lives they have reason to value",
+      "access to consumer goods relative to global average",
+      "satisfaction scores in self-reported happiness surveys",
+      "adherence to the values of their cultural traditions"
+    ],
+    "answer": "substantive freedoms to live lives they have reason to value",
+    "explanation": "Sen argued that income is merely a means; what matters is whether people can actually do things — be educated, healthy, politically active, socially engaged. His approach underpins the UNDP Human Development Index and informed the writing of the Millennium Development Goals.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Sen", "capability approach", "development", "HDI"]
+  },
+  {
+    "id": "economists-015",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Joseph Stiglitz, George Akerlof, and Michael Spence shared the 2001 Nobel Prize in Economics for their work on markets with 'asymmetric information'. Akerlof's 1970 paper on the 'market for lemons' showed that:",
+    "choices": [
+      "sellers knowing more than buyers about product quality can cause markets to collapse",
+      "monopolistic competition leads to too many low-quality variants of consumer products",
+      "public goods are systematically under-provided because their benefits cannot be priced",
+      "rent-seeking by producers transfers value from consumers to inefficient suppliers"
+    ],
+    "answer": "sellers knowing more than buyers about product quality can cause markets to collapse",
+    "explanation": "Akerlof used used-car markets: sellers know whether their car is a 'lemon' (defective), buyers don't. Buyers will only pay average quality prices; sellers of good cars exit; average quality falls; prices fall; more sellers exit — a death spiral. The insight explains why health insurance, credit, and labour markets often fail.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Akerlof", "Stiglitz", "asymmetric information", "lemons"]
+  },
+  {
+    "id": "economists-016",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Thomas Piketty's 2013 book 'Capital in the Twenty-First Century' argued that wealth inequality tends to rise when:",
+    "choices": [
+      "the rate of return on capital (r) exceeds the economic growth rate (g)",
+      "labour markets become more competitive and wages are bid up",
+      "governments reduce income taxes while raising consumption taxes",
+      "technological change substitutes capital for highly skilled labour"
+    ],
+    "answer": "the rate of return on capital (r) exceeds the economic growth rate (g)",
+    "explanation": "Piketty's r > g formula: when capital earns more than the economy grows, wealth concentrates faster than it is diluted by growth. Using centuries of European data, he predicted a return to 19th-century inequality levels. Critics questioned his data and assumed constant r, but the book dominated policy debate for years.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Piketty", "inequality", "r>g", "capital"]
+  },
+  {
+    "id": "economists-017",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Elinor Ostrom won the 2009 Nobel Prize for showing that communities can sustainably manage shared resources — forests, fisheries, irrigation systems — without either government regulation or privatisation, challenging the idea known as the:",
+    "choices": [
+      "Tragedy of the Commons",
+      "Prisoner's Dilemma",
+      "Free-Rider Problem",
+      "Collective Action Problem"
+    ],
+    "answer": "Tragedy of the Commons",
+    "explanation": "Garrett Hardin's 1968 'Tragedy of the Commons' predicted shared resources would inevitably be over-exploited. Ostrom's fieldwork in Swiss alpine villages, Maine lobster fisheries, and Spanish irrigation systems showed communities often develop their own governance rules to prevent this — without top-down intervention.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Ostrom", "commons", "Nobel 2009", "governance"]
+  },
+  {
+    "id": "economists-018",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Solow Growth Model, developed by Robert Solow in 1956, identified which factor as the primary driver of sustained long-run economic growth — beyond labour and capital accumulation?",
+    "choices": [
+      "Technological progress (total factor productivity)",
+      "Population growth",
+      "Increased savings rates",
+      "International trade openness"
+    ],
+    "answer": "Technological progress (total factor productivity)",
+    "explanation": "Solow showed that capital and labour accumulation alone predict that growth slows as capital deepens (diminishing returns). Only the unexplained 'residual' — technological progress — can sustain growth indefinitely. Solow himself called the residual a 'measure of our ignorance' and won the Nobel Prize in 1987.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Solow", "growth model", "technology", "residual"]
+  },
+  {
+    "id": "economists-019",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "David Ricardo's theory of 'Ricardian rent' argued that landowners' income rises as an economy grows, not because they are productive, but because:",
+    "choices": [
+      "population growth forces cultivation of inferior land, raising rents on better land",
+      "landowners invest in agricultural improvements that justify higher returns",
+      "rising food prices allow landowners to renegotiate tenant leases upward",
+      "competition among tenants bids rents to the full marginal product of land"
+    ],
+    "answer": "population growth forces cultivation of inferior land, raising rents on better land",
+    "explanation": "As population grows, farmers must cultivate progressively worse land. The 'surplus' that better land produces over the worst land in use becomes rent. Landlords gain without any effort — a windfall Ricardo saw as economically unproductive. Henry George later proposed taxing this land rent away entirely.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Ricardo", "rent", "land", "distribution"]
+  },
+  {
+    "id": "economists-020",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Milton Friedman argued that the primary cause of the Great Depression was the Federal Reserve's failure to prevent a collapse of the money supply.",
+    "answer": true,
+    "explanation": "In A Monetary History of the United States (1963), Friedman and Schwartz argued the Fed allowed the money supply to contract by one-third between 1929 and 1933, turning a recession into a depression. Ben Bernanke, at Friedman's 90th birthday dinner, famously told him: 'You're right, we did it. We're very sorry. We won't do it again.'",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Friedman", "Great Depression", "Federal Reserve", "money supply"]
+  },
+  {
+    "id": "economists-021",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Friedrich Hayek's 1944 book 'The Road to Serfdom' argued that economic planning by governments inevitably leads to:",
+    "choices": [
+      "the concentration of political power and loss of individual freedom",
+      "inefficiency so severe that the economy eventually collapses",
+      "currency inflation that destroys the middle class",
+      "a permanent working-class revolution against the planning bureaucracy"
+    ],
+    "answer": "the concentration of political power and loss of individual freedom",
+    "explanation": "Hayek argued that planners must inevitably override individual choices to enforce the plan, concentrating power in ever-fewer hands. Written while he watched Nazi and Soviet planning, the book became a touchstone for free-market conservatism and was famously condensed into a pamphlet by Reader's Digest.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Hayek", "Road to Serfdom", "planning", "freedom"]
+  },
+  {
+    "id": "economists-022",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The Irving Fisher equation, a cornerstone of monetary theory, states that the nominal interest rate equals the real interest rate plus:",
+    "choices": [
+      "expected inflation",
+      "the risk premium",
+      "the growth rate of GDP",
+      "the central bank's policy rate"
+    ],
+    "answer": "expected inflation",
+    "explanation": "i = r + πᵉ. If you lend at 5% and expect 3% inflation, your real return is only 2%. Fisher showed lenders demand compensation for expected inflation — so nominal rates rise one-for-one with expected inflation. Central banks raising rates to fight inflation are trying to push up real rates, not just nominal ones.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Fisher", "Fisher equation", "interest rate", "inflation"]
+  },
+  {
+    "id": "economists-023",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "John Stuart Mill argued in his 1848 Principles of Political Economy that there was an important asymmetry in economics: while production is governed by natural laws, distribution is governed by:",
+    "choices": [
+      "human institutions and choices, which can be changed",
+      "the same natural laws that govern production",
+      "the moral preferences of each society",
+      "the relative bargaining power of capital and labour, which is fixed"
+    ],
+    "answer": "human institutions and choices, which can be changed",
+    "explanation": "Mill's insight opened space for reform: society could not change the laws of physics governing production, but it could change property rights, inheritance rules, and labour laws to alter how income and wealth were distributed. This made him a bridge between classical economics and 19th-century liberalism.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Mill", "distribution", "institutions", "reform"]
+  },
+  {
+    "id": "economists-024",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Daron Acemoglu, Simon Johnson, and James Robinson, who shared the 2024 Nobel Prize in Economics, are best known for arguing that differences in long-run prosperity between countries are primarily explained by:",
+    "choices": [
+      "the quality of their political and economic institutions",
+      "their distance from the equator and resulting disease burden",
+      "the diversity of their initial natural resource endowments",
+      "the extent of their integration into European trading networks"
+    ],
+    "answer": "the quality of their political and economic institutions",
+    "explanation": "In papers like 'The Colonial Origins of Comparative Development' (2001) and their book Why Nations Fail (2012), AJR showed that countries where European colonisers settled and built inclusive institutions became rich; those exploited for extraction remained poor. Geography-based theories (Diamond, Sachs) don't survive once you control for institutions.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Acemoglu", "institutions", "Nobel 2024", "development"]
+  },
+  {
+    "id": "economists-025",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Match each economist to their most famous concept or contribution.",
+    "pairs": [
+      ["Ronald Coase", "Transaction costs"],
+      ["Gary Becker", "Human capital"],
+      ["Amartya Sen", "Capability approach"],
+      ["Robert Solow", "Growth residual"]
+    ],
+    "answer": "Coase→Transaction costs, Becker→Human capital, Sen→Capability approach, Solow→Growth residual",
+    "explanation": "Coase (1937, 1960): firms and contracts exist because of transaction costs. Becker (1964): education is investment in human capital. Sen (1985+): development = expanding capabilities. Solow (1956): technology is the 'residual' driving long-run growth.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Coase", "Becker", "Sen", "Solow", "match"]
+  },
+  {
+    "id": "economists-026",
+    "category": "economists",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Which economist is most associated with the theory that free markets can fail due to 'externalities' — costs or benefits that spill over onto third parties not involved in a transaction?",
+    "choices": [
+      "Arthur Pigou",
+      "Alfred Marshall",
+      "John Hicks",
+      "Vilfredo Pareto"
+    ],
+    "answer": "Arthur Pigou",
+    "explanation": "In The Economics of Welfare (1920), Pigou formalised externalities and proposed corrective taxes — now called 'Pigouvian taxes' — to align private and social costs. A tax on carbon equal to the social cost of emissions is the classic modern example of a Pigouvian tax.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Pigou", "externalities", "Pigouvian tax", "market failure"]
+  },
+  {
+    "id": "economists-027",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "John Kenneth Galbraith's 1958 book 'The Affluent Society' criticised the United States for producing an excess of private goods while neglecting:",
+    "choices": [
+      "public goods and social infrastructure like schools, parks, and roads",
+      "investment in heavy industry and manufacturing capacity",
+      "savings and capital formation for future generations",
+      "foreign aid and development assistance to poor countries"
+    ],
+    "answer": "public goods and social infrastructure like schools, parks, and roads",
+    "explanation": "Galbraith coined the phrase 'private affluence, public squalor' to describe a society that could afford tail fins on cars but couldn't fund decent schools or clean streets. He became a public intellectual critics accused of being more persuasive than rigorous, but his questions about what GDP measures remain relevant.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Galbraith", "Affluent Society", "public goods", "inequality"]
+  },
+  {
+    "id": "economists-028",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Karl Marx's concept of 'historical materialism' argues that the primary driver of historical change is:",
+    "choices": [
+      "the development of productive forces and the relations of production",
+      "the clash of religious and secular world-views",
+      "great leaders whose decisions alter the course of history",
+      "random technological discoveries that reshape social organisation"
+    ],
+    "answer": "the development of productive forces and the relations of production",
+    "explanation": "Marx argued the 'base' — technology and class relations of production (who owns what) — determines the 'superstructure' of politics, law, religion, and culture. History progresses through contradictions between new productive forces and old property relations: capitalism replaced feudalism, and Marx predicted socialism would replace capitalism.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Marx", "historical materialism", "modes of production", "base-superstructure"]
+  }
+]
