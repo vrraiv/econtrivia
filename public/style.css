@@ -92,7 +92,8 @@ body {
   color: transparent;
 }
 
-.tagline { color: var(--text-muted); text-align: center; font-size: 1.05rem; }
+.tagline { color: var(--text); text-align: center; font-size: 1.1rem; font-weight: 500; margin-bottom: 0.25rem; }
+.tagline-sub { color: var(--text-muted); text-align: center; font-size: 0.95rem; margin-bottom: 0.25rem; max-width: 34ch; margin-left: auto; margin-right: auto; line-height: 1.5; }
 
 .stats-banner {
   background: var(--bg-card);
