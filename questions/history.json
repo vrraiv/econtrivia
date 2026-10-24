@@ -432,7 +432,7 @@
     "category": "history",
     "difficulty": 2,
     "format": "order",
-    "prompt": "Place these major economic crises in chronological order (earliest first).",
+    "prompt": "These four economic shocks each reshaped the global economy. Rank them from the earliest to the most recent.",
     "items": [
       "Wall Street Crash",
       "OPEC Oil Embargo",
@@ -491,7 +491,7 @@
       "were ultimately forced off their claims by American mining corporations",
       "stayed permanently, founding what became Canada's largest western city"
     ],
-    "answer": "arrived too late and found little gold, while merchants and transport companies companies profited",
+    "answer": "arrived too late and found little gold, while merchants and transport companies profited",
     "explanation": "By the time the news broke and 100,000 prospectors set out, most claims had been staked. The steamship lines, outfitters like the NWMP suppliers, and retailers in Dawson City made the reliable fortunes. The rush did spur Canadian government investment in the Yukon and accelerated the push for railways.",
     "source": null,
     "as_of": null,

@@ -64,5 +64,347 @@
     "as_of": null,
     "time_sensitive": false,
     "tags": ["macroeconomics", "multiplier", "Keynes"]
+  },
+  {
+    "id": "math-005",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Instrumental variables (IV) estimation is used in econometrics primarily to address:",
+    "choices": [
+      "endogeneity — when a regressor is correlated with the error term, biasing OLS estimates",
+      "heteroskedasticity — when error variance is non-constant across observations",
+      "multicollinearity — when two regressors are highly correlated with each other",
+      "autocorrelation — when error terms in a time series are correlated across periods"
+    ],
+    "answer": "endogeneity — when a regressor is correlated with the error term, biasing OLS estimates",
+    "explanation": "When the regressor of interest (e.g., education) is correlated with unobserved factors in the error (e.g., ability), OLS is biased. A valid instrument must be correlated with the endogenous regressor (relevance) but affect the outcome only through that regressor (exclusion restriction). Angrist and Imbens won the 2021 Nobel Prize partly for this work.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["instrumental variables", "endogeneity", "causal inference", "econometrics"]
+  },
+  {
+    "id": "math-006",
+    "category": "math",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "A valid instrumental variable must satisfy two conditions: it must be correlated with the endogenous regressor (relevance), and it must affect the outcome only through that regressor and not directly (the exclusion restriction).",
+    "answer": true,
+    "explanation": "These two conditions are the standard requirements. 'Weak instruments' — those with low relevance (small first-stage F-statistic, below ~10) — can lead to severely biased IV estimates. The exclusion restriction is fundamentally untestable from data alone and must rely on economic reasoning.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["instrumental variables", "relevance", "exclusion restriction", "econometrics"]
+  },
+  {
+    "id": "math-007",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In a Regression Discontinuity Design (RDD), causal identification relies on the assumption that units just below and just above the threshold are comparable. The variable that determines which side of the threshold a unit falls on is called the:",
+    "choices": [
+      "running variable (or forcing variable)",
+      "treatment indicator",
+      "instrumental variable",
+      "propensity score"
+    ],
+    "answer": "running variable (or forcing variable)",
+    "explanation": "In an RDD, treatment is assigned based on whether a continuous running variable (e.g., test score, age, vote share) crosses a known threshold. Near the cutoff, assignment is as good as random, allowing estimation of a local average treatment effect. RDD is invalid if individuals can precisely manipulate their running variable to just cross the threshold.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["RDD", "regression discontinuity", "causal inference", "running variable"]
+  },
+  {
+    "id": "math-008",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "If you regress wages on education but omit ability (which raises both education and wages), the OLS estimate of education's effect will be:",
+    "choices": [
+      "upward biased — because ability is positively correlated with both education and wages",
+      "downward biased — because omitting ability reduces the model's explanatory power",
+      "unbiased — because the omitted variable averages out across the sample",
+      "biased toward zero — because ability is a mediating variable rather than a confounder"
+    ],
+    "answer": "upward biased — because ability is positively correlated with both education and wages",
+    "explanation": "Omitted variable bias (OVB) = (coefficient of omitted variable on wages) × (regression of omitted on included). If ability raises both education and wages, both components are positive — the bias is upward. The estimated return to education picks up some of the ability premium.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["omitted variable bias", "OLS", "econometrics", "education"]
+  },
+  {
+    "id": "math-009",
+    "category": "math",
+    "difficulty": 2,
+    "format": "short",
+    "prompt": "A study reports a p-value of 0.04. Which of the following is the correct interpretation: it is the probability of observing data at least this extreme IF the null hypothesis is true. Complete this sentence: the p-value is the probability of the ___ given the ___.",
+    "answer": "data given the null",
+    "accept": ["data given the null", "data given null hypothesis", "observed data given the null", "results given the null", "data given H0", "data given null"],
+    "explanation": "The p-value is NOT the probability that the null hypothesis is true (a common error). It is P(data | H₀) — the probability of observing results this extreme or more extreme, assuming the null is correct. A small p-value means the data would be unlikely under H₀, not that H₀ is unlikely.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["p-value", "hypothesis testing", "statistics", "null hypothesis"]
+  },
+  {
+    "id": "math-010",
+    "category": "math",
+    "difficulty": 1,
+    "format": "match",
+    "prompt": "Match each statistical error type to its correct definition.",
+    "pairs": [
+      ["Type I error", "Rejecting a true null hypothesis (false positive)"],
+      ["Type II error", "Failing to reject a false null hypothesis (false negative)"],
+      ["Statistical power", "Probability of correctly rejecting a false null hypothesis"],
+      ["Significance level (α)", "Acceptable probability of making a Type I error"]
+    ],
+    "answer": "Type I→false positive; Type II→false negative; Power→P(reject false null); α→P(Type I error)",
+    "explanation": "The trade-off: lowering α (e.g., from 0.05 to 0.01) reduces Type I errors but, for a fixed sample size, increases Type II errors and reduces power. A medical analogy: Type I is diagnosing a healthy person as sick; Type II is missing a real disease.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Type I error", "Type II error", "power", "hypothesis testing", "statistics"]
+  },
+  {
+    "id": "math-011",
+    "category": "math",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "A high R-squared in a regression model means the model has established a causal relationship between the independent and dependent variables.",
+    "answer": false,
+    "explanation": "R-squared measures the proportion of variance in Y explained by X — a purely descriptive statistic. Two trending time series (e.g., TV licences and traffic accidents) can yield R² near 1 with no causal connection whatsoever. Causation requires additional assumptions beyond goodness of fit.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["R-squared", "causation", "correlation", "regression"]
+  },
+  {
+    "id": "math-012",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Heteroskedasticity — non-constant error variance — does NOT bias OLS coefficient estimates, but it does make the standard OLS standard errors:",
+    "choices": [
+      "invalid (too small or too large), leading to incorrect inference",
+      "larger than necessary, causing the model to underfit",
+      "smaller than necessary, improving statistical power",
+      "identical to robust standard errors, making correction unnecessary"
+    ],
+    "answer": "invalid (too small or too large), leading to incorrect inference",
+    "explanation": "OLS is still unbiased under heteroskedasticity, but the estimated standard errors assume constant variance and will be wrong — usually understated, inflating t-statistics and leading to spurious significance. The standard remedy is to use heteroskedasticity-robust ('White') standard errors.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["heteroskedasticity", "standard errors", "OLS", "robust"]
+  },
+  {
+    "id": "math-013",
+    "category": "math",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "The Central Limit Theorem guarantees that, for a sufficiently large sample, the distribution of the sample mean will be approximately normal — regardless of the shape of the underlying population distribution.",
+    "answer": true,
+    "explanation": "The CLT is one of the most powerful results in statistics. It explains why normal-distribution-based tests work even when the underlying data are skewed, bimodal, or otherwise non-normal, provided the sample is large enough (a common rule of thumb is n ≥ 30).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["central limit theorem", "statistics", "normal distribution", "CLT"]
+  },
+  {
+    "id": "math-014",
+    "category": "math",
+    "difficulty": 1,
+    "format": "numeric",
+    "prompt": "You flip a fair coin 10,000 times. According to the law of large numbers, approximately how many heads do you expect?",
+    "answer": 5000,
+    "unit": "heads",
+    "tolerance": 0,
+    "explanation": "The expected value is 10,000 × 0.5 = 5,000. The law of large numbers guarantees the sample proportion converges to the true probability (0.5) as the number of flips grows — but any single run will rarely hit exactly 5,000.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["law of large numbers", "expected value", "probability", "statistics"]
+  },
+  {
+    "id": "math-015",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "A researcher regresses Nicolas Cage films released per year on US swimming pool drownings and finds R² = 0.67 and a highly significant p-value. This is a classic example of:",
+    "choices": [
+      "spurious regression — two unrelated trending or cyclical variables appearing correlated by coincidence",
+      "reverse causality — popularity of films driving dangerous pool behaviour",
+      "omitted variable bias — a confounding factor causing both trends simultaneously",
+      "multicollinearity — two variables measuring the same underlying phenomenon"
+    ],
+    "answer": "spurious regression — two unrelated trending or cyclical variables appearing correlated by coincidence",
+    "explanation": "When two unrelated variables share a trend, seasonal pattern, or common shock, OLS will find a strong apparent relationship that is purely coincidental. Granger and Newbold (1974) showed that regressing independent random walks on each other produces high R² and significant t-statistics with alarming frequency. The remedy is to test for and control for non-stationarity.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["spurious regression", "time series", "correlation", "non-stationarity"]
+  },
+  {
+    "id": "math-016",
+    "category": "math",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Bayes' theorem states that the posterior probability of a hypothesis is proportional to the prior probability multiplied by the likelihood of the observed data given that hypothesis.",
+    "answer": true,
+    "explanation": "P(H|data) ∝ P(H) × P(data|H). The posterior updates the prior belief by how well the hypothesis explains the new data. Bayesian inference is now widely used in econometrics, machine learning, and central bank forecasting.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Bayes", "probability", "posterior", "prior", "likelihood"]
+  },
+  {
+    "id": "math-017",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Multicollinearity — high correlation among regressors — does NOT bias OLS coefficient estimates, but it does:",
+    "choices": [
+      "inflate standard errors, making it hard to estimate individual coefficients precisely",
+      "introduce systematic bias toward zero in all affected coefficients",
+      "cause the model to overfit in-sample while predicting well out-of-sample",
+      "require a larger sample to satisfy the Gauss–Markov conditions"
+    ],
+    "answer": "inflate standard errors, making it hard to estimate individual coefficients precisely",
+    "explanation": "With multicollinearity, the data cannot reliably separate the individual contributions of correlated regressors. OLS estimates remain unbiased and the model's predictions may still be good, but standard errors blow up — the coefficients individually become unstable and statistically insignificant even when the overall F-test is significant.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["multicollinearity", "standard errors", "OLS", "regression"]
+  },
+  {
+    "id": "math-018",
+    "category": "math",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "An investor looks at mutual funds that existed for the full past 10 years and concludes that the average fund has beaten the market. This reasoning is flawed because of:",
+    "choices": [
+      "survivorship bias — funds that failed or were liquidated were excluded from the analysis",
+      "omitted variable bias — macroeconomic conditions were not controlled for",
+      "reverse causality — better performance causes funds to continue operating",
+      "heteroskedasticity — fund returns have non-constant variance over time"
+    ],
+    "answer": "survivorship bias — funds that failed or were liquidated were excluded from the analysis",
+    "explanation": "Only funds that survived the full decade appear in the sample. Poor-performing funds were closed and removed from the dataset. The 'average' therefore overstates fund performance by systematically excluding the worst outcomes — a form of selection bias common in finance, medicine, and business case studies.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["survivorship bias", "selection bias", "mutual funds", "statistics"]
+  },
+  {
+    "id": "math-019",
+    "category": "math",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "A natural experiment achieves causal identification by exploiting a source of variation in the treatment that is plausibly as-good-as-random — such as a policy change affecting only some regions, or a draft lottery.",
+    "answer": true,
+    "explanation": "Natural experiments mimic the logic of randomised trials without deliberate random assignment. Classic examples: Angrist (1990) using Vietnam-era draft lottery numbers as an instrument for military service; Card and Krueger (1994) using a New Jersey minimum-wage increase to study employment effects. The key is that treatment assignment is driven by an exogenous event outside individuals' control.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["natural experiment", "causal inference", "identification", "econometrics"]
+  },
+  {
+    "id": "math-020",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Hausman test in panel data econometrics is used to choose between fixed effects and random effects estimators. The test rejects random effects in favour of fixed effects when:",
+    "choices": [
+      "the individual-specific effects are correlated with the regressors",
+      "the error terms show significant heteroskedasticity",
+      "the panel is unbalanced (different numbers of observations per unit)",
+      "the regressors do not vary over time within individuals"
+    ],
+    "answer": "the individual-specific effects are correlated with the regressors",
+    "explanation": "Random effects assumes unobserved individual effects are uncorrelated with regressors (and are treated as random draws). If this assumption fails, random effects is biased and inconsistent; fixed effects is consistent by partialling out all time-invariant unit characteristics. The Hausman test checks whether the two estimators give systematically different results, which signals correlation.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["fixed effects", "random effects", "Hausman test", "panel data"]
+  },
+  {
+    "id": "math-021",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which of the following is the correct interpretation of a 95% confidence interval for a population mean?",
+    "choices": [
+      "If the sampling procedure were repeated many times, 95% of such intervals would contain the true population mean",
+      "There is a 95% probability that the true population mean lies within this specific interval",
+      "95% of individual observations in the population fall within this range",
+      "The null hypothesis can be rejected at the 5% significance level if the hypothesised value falls outside this interval"
+    ],
+    "answer": "If the sampling procedure were repeated many times, 95% of such intervals would contain the true population mean",
+    "explanation": "The frequentist confidence interval is a statement about the procedure, not about any specific interval. Once computed, the interval either does or does not contain the true mean — there is no probability to speak of. The common error is treating the 95% as applying to the specific interval already in hand. (The last option is also numerically true, but it confuses CIs with hypothesis tests.)",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["confidence interval", "statistics", "frequentist", "interpretation"]
+  },
+  {
+    "id": "math-022",
+    "category": "math",
+    "difficulty": 3,
+    "format": "order",
+    "prompt": "Place these steps in a typical instrumental variables (IV) analysis in the correct logical order (first to last).",
+    "items": [
+      "Identify a candidate instrument: a variable correlated with treatment but not directly with the outcome",
+      "Verify instrument relevance: check the first-stage F-statistic (rule of thumb: F > 10)",
+      "Run two-stage least squares (2SLS) to obtain the IV estimate",
+      "Interpret the result as a Local Average Treatment Effect (LATE) for compliers"
+    ],
+    "order_by": "logical sequence of an IV analysis",
+    "answer": "Identify instrument → Verify relevance → Run 2SLS → Interpret as LATE",
+    "explanation": "Validity of the exclusion restriction cannot be tested — it relies on economic reasoning established in the first step. Instrument strength is tested in the first stage; weak instruments (F < 10) can cause severe finite-sample bias. The IV estimator recovers the LATE — the effect for those whose treatment status is changed by the instrument — not the average treatment effect for all.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["IV", "2SLS", "LATE", "causal inference", "econometrics"]
+  },
+  {
+    "id": "math-023",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "In a time-series regression, autocorrelation (serial correlation) of the residuals means OLS standard errors are generally too small. Which test is specifically designed to detect first-order autocorrelation in OLS residuals?",
+    "choices": [
+      "Durbin–Watson test",
+      "Breusch–Pagan test",
+      "White test",
+      "Jarque–Bera test"
+    ],
+    "answer": "Durbin–Watson test",
+    "explanation": "The Durbin–Watson statistic tests for first-order autocorrelation (correlation between eₜ and eₜ₋₁). Values near 2 indicate no autocorrelation; values near 0 suggest positive autocorrelation; values near 4 suggest negative autocorrelation. The Breusch–Pagan and White tests are for heteroskedasticity; Jarque–Bera tests for normality of residuals.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["autocorrelation", "Durbin-Watson", "time series", "OLS", "serial correlation"]
+  },
+  {
+    "id": "math-024",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The Heckman selection correction (Heckman two-step estimator) is designed to address:",
+    "choices": [
+      "sample selection bias, when the sample is non-randomly selected from the population in a way correlated with the outcome",
+      "heteroskedasticity caused by the inclusion of a binary dependent variable",
+      "multicollinearity introduced by including too many highly correlated regressors",
+      "reverse causality when treatment and outcome are determined simultaneously"
+    ],
+    "answer": "sample selection bias, when the sample is non-randomly selected from the population in a way correlated with the outcome",
+    "explanation": "Classic example: estimating the wage equation only for people who are employed. Those who choose to work are not a random sample — women with higher potential wages are more likely to enter the workforce. Heckman (1979) proposed estimating a selection equation (who participates) and including the inverse Mills ratio as a control in the outcome equation. He won the 2000 Nobel Prize for this and related methods.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": ["Heckman", "selection bias", "sample selection", "two-step", "econometrics"]
   }
 ]

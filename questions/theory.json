@@ -505,7 +505,7 @@
     "category": "theory",
     "difficulty": 2,
     "format": "order",
-    "prompt": "Place these landmark economic theories or frameworks in the order they were first published or formalised (earliest first).",
+    "prompt": "These four intellectual milestones each transformed how economists think. Rank them from the oldest to the most recent.",
     "items": [
       "Invisible hand (Adam Smith)",
       "Marginal revolution (Jevons, Menger, Walras)",
