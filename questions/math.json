@@ -1224,5 +1224,350 @@
       "Myerson",
       "game theory"
     ]
+  },
+  {
+    "id": "math-053",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "What is the determinant of the 2×2 matrix whose rows are (3, 4) and (2, −1)?",
+    "choices": [
+      "−11",
+      "−5",
+      "5",
+      "11"
+    ],
+    "answer": "−11",
+    "explanation": "For a 2×2 matrix with rows (a, b) and (c, d), the determinant is ad − bc. Here that is (3)(−1) − (4)(2) = −3 − 8 = −11. The common slips are dropping the sign on the first product or computing ad + bc; both land you on one of the other options.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "determinant",
+      "arithmetic"
+    ]
+  },
+  {
+    "id": "math-054",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "A 3×3 matrix has rows (2, 7, −3), (0, −1, 5) and (0, 0, 4). There is a one-step shortcut here. What is its determinant?",
+    "choices": [
+      "−8",
+      "8",
+      "−24",
+      "0"
+    ],
+    "answer": "−8",
+    "explanation": "Everything below the diagonal is zero, so the matrix is upper triangular and its determinant is simply the product of the diagonal entries: 2 × (−1) × 4 = −8. No cofactor expansion is needed. This shortcut is why LU decomposition is the standard way to get a determinant numerically — you triangularise first, then multiply the diagonal.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "determinant",
+      "triangular matrix"
+    ]
+  },
+  {
+    "id": "math-055",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Evaluate det(A) where A is the 3×3 matrix with rows (1, 2, 0), (3, −1, 2) and (0, 4, 1).",
+    "choices": [
+      "−15",
+      "−9",
+      "9",
+      "15"
+    ],
+    "answer": "−15",
+    "explanation": "Expand along the top row, where the zero kills the third term: 1·[(−1)(1) − (2)(4)] − 2·[(3)(1) − (2)(0)] + 0 = 1·(−1 − 8) − 2·(3) = −9 − 6 = −15. Picking the row or column with the most zeros is what keeps a 3×3 determinant to napkin size.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "determinant",
+      "cofactor expansion"
+    ]
+  },
+  {
+    "id": "math-056",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "A and B are both 2×2 matrices with det(A) = 3 and det(B) = −2. What is det(2AB)?",
+    "choices": [
+      "−24",
+      "−12",
+      "−6",
+      "6"
+    ],
+    "answer": "−24",
+    "explanation": "Two rules combine. Determinants are multiplicative, so det(AB) = det(A)det(B) = −6. But scaling an n×n matrix multiplies the determinant by the scalar raised to the power n, not by the scalar itself: det(2M) = 2²det(M) for a 2×2. So det(2AB) = 4 × (−6) = −24. Answering −6 means forgetting the scalar entirely; −12 means multiplying by 2 instead of 2².",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "determinant",
+      "matrix properties"
+    ]
+  },
+  {
+    "id": "math-057",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "For which values of k does the matrix with rows (k, 4) and (1, k) fail to be invertible?",
+    "choices": [
+      "k = 2 or k = −2",
+      "k = 2 only",
+      "k = 4 or k = −4",
+      "k = 0 only"
+    ],
+    "answer": "k = 2 or k = −2",
+    "explanation": "A square matrix is singular exactly when its determinant is zero. Here det = k·k − 4·1 = k² − 4, so k² = 4 and k = ±2. The trap is stopping at the positive root: a quadratic gives two values, and the negative one is just as singular. In a simultaneous-equation system, those are the parameter values where the equations stop having a unique solution.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "determinant",
+      "singular matrix",
+      "invertibility"
+    ]
+  },
+  {
+    "id": "math-058",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The symmetric matrix with rows (3, 1) and (1, 3) has which pair of eigenvalues?",
+    "choices": [
+      "2 and 4",
+      "1 and 3",
+      "3 and 3",
+      "0 and 6"
+    ],
+    "answer": "2 and 4",
+    "explanation": "The characteristic equation is λ² − (trace)λ + det = 0. Trace is 3 + 3 = 6 and determinant is 9 − 1 = 8, giving λ² − 6λ + 8 = 0, which factors as (λ − 2)(λ − 4). Because the matrix is symmetric the eigenvalues are guaranteed real — a fact economists lean on constantly, since covariance matrices and Hessians are symmetric by construction.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "eigenvalues",
+      "symmetric matrix"
+    ]
+  },
+  {
+    "id": "math-059",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "You are told only that a 2×2 matrix has trace 7 and determinant 12. Can its eigenvalues be pinned down, and if so what are they?",
+    "choices": [
+      "Yes — they are 3 and 4",
+      "Yes — they are 2 and 6",
+      "Yes — they are 1 and 12",
+      "No — trace and determinant are not enough"
+    ],
+    "answer": "Yes — they are 3 and 4",
+    "explanation": "For a 2×2 matrix the eigenvalues sum to the trace and multiply to the determinant, so you need two numbers summing to 7 and multiplying to 12: that is 3 and 4. You never have to write the matrix down. Note 2 and 6 multiply to 12 but sum to 8, and 1 and 12 sum to 13 — both fail the trace test.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "eigenvalues",
+      "trace",
+      "determinant"
+    ]
+  },
+  {
+    "id": "math-060",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Reading them straight off the page, what are the eigenvalues of the matrix with rows (5, 9) and (0, −2)?",
+    "choices": [
+      "5 and −2",
+      "5 and 9",
+      "9 and −2",
+      "3 and −10"
+    ],
+    "answer": "5 and −2",
+    "explanation": "The matrix is triangular, so its eigenvalues are just the diagonal entries, 5 and −2 — the off-diagonal 9 is irrelevant. You can confirm it the long way: trace 3 and determinant −10 give λ² − 3λ − 10 = (λ − 5)(λ + 2). Option \"3 and −10\" is the trace and determinant themselves, which is a tempting misread.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "eigenvalues",
+      "triangular matrix"
+    ]
+  },
+  {
+    "id": "math-061",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The matrix with rows (0, −1) and (1, 0) rotates the plane by 90 degrees. What does that imply about its eigenvalues?",
+    "choices": [
+      "They are a complex conjugate pair, ±i",
+      "They are 1 and −1",
+      "They are both zero",
+      "They are 0 and 1"
+    ],
+    "answer": "They are a complex conjugate pair, ±i",
+    "explanation": "Trace is 0 and determinant is 1, so λ² + 1 = 0 and λ = ±i. Geometrically this must happen: an eigenvector is a direction the matrix leaves unchanged up to scaling, and a 90-degree rotation leaves no real direction fixed. In a dynamic economic model, complex eigenvalues are precisely what produce oscillating rather than monotone adjustment paths.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "eigenvalues",
+      "complex numbers",
+      "rotation",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "math-062",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Consider the matrix with rows (3, 1) and (0, 3). It has a repeated eigenvalue of 3. How many linearly independent eigenvectors does it have?",
+    "choices": [
+      "One",
+      "Two",
+      "Three",
+      "None"
+    ],
+    "answer": "One",
+    "explanation": "Solving (A − 3I)v = 0 leaves rows (0, 1) and (0, 0), which forces the second component to be zero, so every eigenvector is a multiple of (1, 0) — a single independent direction. A repeated eigenvalue does not guarantee a matching number of eigenvectors; a matrix short of a full set like this is called defective and cannot be diagonalised, which is why Jordan normal form exists.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "eigenvectors",
+      "defective matrix",
+      "diagonalisation"
+    ]
+  },
+  {
+    "id": "math-063",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The matrix with rows (2, 1) and (1, 2) has 3 as one of its eigenvalues. Which vector is a corresponding eigenvector?",
+    "choices": [
+      "(1, 1)",
+      "(1, −1)",
+      "(2, 1)",
+      "(1, 0)"
+    ],
+    "answer": "(1, 1)",
+    "explanation": "Multiplying the matrix by (1, 1) gives (2 + 1, 1 + 2) = (3, 3), which is exactly 3 × (1, 1), so the direction is preserved and only the length changes. The vector (1, −1) is the other eigenvector, but it belongs to the eigenvalue 1: the matrix maps it to (1, −1), not (3, −3).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "eigenvectors",
+      "verification"
+    ]
+  },
+  {
+    "id": "math-064",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "For the matrix with rows (4, 1) and (2, 3), find an eigenvector belonging to the smaller of its two eigenvalues.",
+    "choices": [
+      "(1, −2)",
+      "(1, 1)",
+      "(1, 2)",
+      "(2, 1)"
+    ],
+    "answer": "(1, −2)",
+    "explanation": "Trace 7 and determinant 10 give λ² − 7λ + 10 = (λ − 5)(λ − 2), so the eigenvalues are 5 and 2 and the smaller is 2. Solving (A − 2I)v = 0 gives rows (2, 1) and (2, 1), so 2v₁ + v₂ = 0 and v = (1, −2). Check it: the matrix sends (1, −2) to (4 − 2, 2 − 6) = (2, −4) = 2 × (1, −2). The vector (1, 1) is the eigenvector for the larger eigenvalue, 5.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "eigenvectors",
+      "characteristic polynomial"
+    ]
+  },
+  {
+    "id": "math-065",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "In a Markov model of labour-market transitions the columns of the transition matrix each sum to 1. What can you say about its eigenvalues before seeing any numbers?",
+    "choices": [
+      "One eigenvalue is exactly 1, and none exceeds 1 in magnitude",
+      "All eigenvalues are strictly between 0 and 1",
+      "The eigenvalues must sum to 1",
+      "Every eigenvalue equals 1"
+    ],
+    "answer": "One eigenvalue is exactly 1, and none exceeds 1 in magnitude",
+    "explanation": "Columns summing to 1 force an eigenvalue of exactly 1, whose eigenvector — once normalised to sum to 1 — is the stationary distribution the chain converges to. No eigenvalue can exceed 1 in magnitude, since probabilities cannot grow without bound. The second-largest magnitude governs how fast the economy settles toward that long-run distribution.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "eigenvalues",
+      "Markov chains",
+      "stationary distribution",
+      "labour market"
+    ]
+  },
+  {
+    "id": "math-066",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "A firm maximises a twice-differentiable profit function of two inputs. At a point where both first derivatives vanish, the Hessian has eigenvalues −2 and −5. What has been found?",
+    "choices": [
+      "A local maximum",
+      "A local minimum",
+      "A saddle point",
+      "An inflection point requiring higher-order tests"
+    ],
+    "answer": "A local maximum",
+    "explanation": "The sign pattern of the Hessian's eigenvalues is the multivariable second-order condition. All eigenvalues negative means the Hessian is negative definite and the surface curves downward in every direction, giving a local maximum — the relevant case for profit maximisation. All positive would be a minimum, and mixed signs would be a saddle point. Only a zero eigenvalue leaves the test inconclusive.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "eigenvalues",
+      "Hessian",
+      "optimisation",
+      "second-order conditions"
+    ]
   }
 ]
