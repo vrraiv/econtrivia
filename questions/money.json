@@ -335,8 +335,8 @@
       ]
     ],
     "answer": "M0→Physical currency + central bank reserves, M1→Physical currency + demand deposits, M2→M1 + savings and small time deposits, M3→M2 + large institutional deposits",
-    "explanation": "The M-aggregates build on each other: M0 is the narrowest ('high-powered money') and M3 the broadest. The Fed stopped publishing M3 in 2006, judging it redundant. Definitions differ by country: the Bank of Canada, for example, tracks its own measures such as M1+, M2 and M2++.",
-    "source": null,
+    "explanation": "These are the classic textbook definitions: the M-aggregates build on each other, with M0 the narrowest ('high-powered money') and M3 the broadest. The Fed stopped publishing M3 in March 2006, judging it redundant. Definitions differ by country and over time: since May 2020 the Fed counts savings deposits in M1 (M2 was unchanged), and the Bank of Canada tracks its own measures such as M1+, M2, M2+ and M2++.",
+    "source": "https://www.federalreserve.gov/releases/h6/h6_technical_qa.htm",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -765,8 +765,8 @@
       "Geoffrey Howe"
     ],
     "answer": "Gordon Brown",
-    "explanation": "Gordon Brown announced the Bank of England's operational independence on May 6, 1997 — just 5 days after Labour won the election. This transferred rate decisions from politicians to the new Monetary Policy Committee. The move was widely seen as credibility-enhancing: removing the temptation to cut rates before elections helped anchor inflation expectations.",
-    "source": null,
+    "explanation": "Gordon Brown announced the Bank of England's operational independence on 6 May 1997, within a week of Labour's 1 May election win (sources count it as four or five days later). Rate decisions passed from politicians to the new Monetary Policy Committee, with the government still setting the inflation target; the arrangement was put on a statutory footing by the Bank of England Act 1998. The move was widely seen as credibility-enhancing: removing the temptation to cut rates before elections helped anchor inflation expectations.",
+    "source": "https://www.bankofengland.co.uk/events/2017/september/20-years-on",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -841,7 +841,7 @@
     ],
     "answer": "Cut interest rates",
     "explanation": "Erdoğan holds the heterodox (and widely discredited) view that cutting rates reduces inflation. He repeatedly replaced central bank governors who raised rates. The bank cut its policy rate from 19% to 14% in late 2021 as inflation climbed past 35%, and cut again in 2022, to 9%, with inflation above 80%. The lira lost about 44% against the dollar in 2021. After the 2023 elections, Turkey reversed course and raised rates sharply, to 50% by March 2024.",
-    "source": null,
+    "source": "https://www.rte.ie/news/business/2022/1103/1332934-turkeys-inflation-rate/",
     "as_of": "2022",
     "time_sensitive": false,
     "tags": [
@@ -857,10 +857,10 @@
     "category": "money",
     "difficulty": 2,
     "format": "tf",
-    "prompt": "Argentina has defaulted on its sovereign debt nine times, most recently in 2020, and experienced annual inflation above 200% in 2023.",
+    "prompt": "By the most commonly cited count, Argentina has defaulted on its sovereign debt nine times, the latest in 2020, and its annual inflation topped 200% in 2023.",
     "answer": true,
-    "explanation": "By the usual count Argentina has defaulted nine times since independence, most recently in 2020. Annual inflation hit 211% in 2023. The peso has been chronically devalued since the 2001-2002 crisis. President Javier Milei, elected in late 2023, campaigned on dollarization, replacing the peso with the US dollar, as a radical fix for chronic monetary instability, although he did not carry it out.",
-    "source": null,
+    "explanation": "The usual count, cited by the Council on Foreign Relations among others, is nine sovereign defaults since independence (including 1827, 1890, 1982, 2001 and 2020), though the tally varies a little with how technical defaults are treated. Annual inflation hit about 211% in 2023. The peso has been chronically devalued since the 2001-2002 crisis. President Javier Milei, elected in late 2023, campaigned on dollarization, replacing the peso with the US dollar, as a radical fix for chronic monetary instability, but shelved the plan after taking office.",
+    "source": "https://www.cfr.org/backgrounders/argentinas-struggle-stability",
     "as_of": "2023",
     "time_sensitive": false,
     "tags": [
@@ -1090,7 +1090,7 @@
     ],
     "answer": "Bank of Japan",
     "explanation": "In March 2024, the Bank of Japan raised its policy rate from -0.1% to a 0-0.1% range and abandoned YCC, ending eight years of negative rates. The trigger was Japan's largest wage increases in three decades at the 2024 shunto negotiations, signalling that reflation had finally taken hold after decades of deflation. It was the last major central bank still using negative rates; the ECB, Swiss National Bank and Riksbank had all ended theirs earlier.",
-    "source": null,
+    "source": "https://www.cnn.com/2024/03/18/business/japan-boj-negative-interest-rate-ended-intl-hnk",
     "as_of": "2024",
     "time_sensitive": false,
     "tags": [
@@ -1139,8 +1139,8 @@
       "Black Wednesday"
     ],
     "answer": "Taper tantrum",
-    "explanation": "In May 2013 Fed Chair Ben Bernanke suggested the Fed might 'taper' its quantitative-easing bond purchases. US 10-year yields jumped from about 1.6% in early May to nearly 3% by year-end, and emerging-market currencies such as the Indian rupee, South African rand and Turkish lira fell sharply. The Fed announced the start of tapering in December 2013.",
-    "source": null,
+    "explanation": "On 22 May 2013 Fed Chair Ben Bernanke suggested the Fed might 'taper' its quantitative-easing bond purchases. US 10-year yields rose from about 1.6% in early May to about 3% by year-end, and emerging-market currencies such as the Indian rupee, South African rand and Turkish lira fell sharply. The Fed announced the start of tapering in December 2013.",
+    "source": "https://fred.stlouisfed.org/series/DGS10",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1165,7 +1165,7 @@
     ],
     "answer": "Put option",
     "explanation": "A put option profits when an asset falls, so it works as insurance against a decline. The 'Greenspan put' was the market's belief that the Fed would rescue falling equity markets with easier policy, as it did after the 1987 crash, during the 1998 LTCM crisis and after the dot-com bust in 2001. Critics argued this encouraged excessive risk-taking (moral hazard). The idea later became the 'Fed put'.",
-    "source": null,
+    "source": "https://www.richmondfed.org/publications/research/econ_focus/2023/q1_federal_reserve",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1282,8 +1282,8 @@
     "answer": 1990,
     "unit": "",
     "tolerance": 1,
-    "explanation": "The Reserve Bank of New Zealand Act 1989 introduced the world's first formal inflation-targeting framework, and the first Policy Targets Agreement was signed in March 1990, aiming to bring CPI inflation down to 0-2%. This spawned a global wave of adoption: Canada adopted inflation targets in 1991 (initially 3%, falling to 2%), the UK in 1992, Sweden in 1993, and eventually most major central banks. Today a 2% target is the global norm.",
-    "source": null,
+    "explanation": "The Reserve Bank of New Zealand Act 1989 introduced the world's first formal inflation-targeting framework, and the first Policy Targets Agreement was signed in March 1990, aiming to bring CPI inflation down to 0-2% by the end of 1992. This spawned a global wave of adoption: Canada announced inflation-reduction targets in 1991 (3% by the end of 1992, falling to 2% by 1995), the UK in 1992, Sweden in 1993, and eventually most major central banks. Today a 2% target is the global norm for advanced economies.",
+    "source": "https://www.rbnz.govt.nz/hub/publications/speech/2006/speech2006-01-18",
     "as_of": "1990",
     "time_sensitive": false,
     "tags": [

@@ -94,8 +94,8 @@
       "Elinor Ostrom"
     ],
     "answer": "Ronald Coase",
-    "explanation": "Coase (1960) argued that if two parties can bargain costlessly, they will always reach the efficient outcome — who initially holds the rights affects the distribution of gains but not total efficiency. The key practical implication: externalities are fundamentally a problem of high transaction costs, not market failure per se.",
-    "source": null,
+    "explanation": "Coase's 1960 paper 'The Problem of Social Cost' argued that if parties can bargain without transaction costs, resources flow to their highest-valued use whoever initially holds the rights; the initial allocation affects the distribution of gains but not efficiency. The label 'Coase theorem' came later, from George Stigler (1966), and Coase himself stressed that real-world transaction costs are rarely zero. The practical implication is that externalities often persist because bargaining costs are high, not simply because markets fail.",
+    "source": "https://en.wikipedia.org/wiki/Coase_theorem",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1323,8 +1323,8 @@
     ],
     "metric": "per-transaction fee paid to the card network or issuing bank",
     "answer": "Merchants (businesses accepting the card)",
-    "explanation": "Credit-card networks (Visa, Mastercard) charge merchants interchange fees — typically 1.5–3% of the transaction — while cardholders often pay zero per-transaction fees and may even earn rewards. This is a classic two-sided platform pricing strategy: subsidize the side (consumers) that is more price-sensitive or whose participation generates more value for the other side.",
-    "source": null,
+    "explanation": "Credit-card networks (Visa, Mastercard) charge merchants interchange fees, which on US credit cards typically run from about 1.5% to 3% of the transaction (lower in Canada and much lower in the EU, where they are capped or negotiated down), while cardholders often pay no per-transaction fee and may even earn rewards. This is a classic two-sided platform pricing strategy: subsidize the side (consumers) that is more price-sensitive or whose participation generates more value for the other side.",
+    "source": "https://www.cbc.ca/news/business/visa-mastercard-fees-1.6848082",
     "as_of": null,
     "time_sensitive": false,
     "tags": [

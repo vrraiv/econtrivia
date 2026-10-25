@@ -127,8 +127,8 @@
       "Japan"
     ],
     "answer": "Australia",
-    "explanation": "The G7 consists of Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States — plus the European Union as a non-enumerated member. Russia was a member (G8) from 1998 until its suspension following the annexation of Crimea in 2014. Australia, by contrast, has never been a member.",
-    "source": "https://www.imf.org/en/Data",
+    "explanation": "The G7 consists of Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States, plus the European Union as a non-enumerated member. It began as the G6 in 1975, and Canada joined in 1976. Russia took part as a member of the G8 from 1997-98 until its suspension in March 2014 after the annexation of Crimea. Australia has been invited to summits as a guest but has never been a member.",
+    "source": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/g7/index.aspx?lang=eng",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1094,8 +1094,8 @@
     ],
     "order_by": "central bank balance sheet as a percentage of GDP, largest to smallest (2023)",
     "answer": "Bank of Japan → European Central Bank (Eurosystem) → US Federal Reserve → Bank of Canada",
-    "explanation": "Approximate end-2023 ratios of total assets to GDP (exact figures vary by source): Bank of Japan roughly 100% or more after decades of QE and yield curve control; Eurosystem about 40–50% after its PSPP and PEPP programs; Federal Reserve about 20–28% after COVID-era QE and subsequent QT; Bank of Canada roughly 10–15%, down from a pandemic peak near 25%. The BoJ is in a category of its own — it owns roughly half of Japan's outstanding government bonds.",
-    "source": "https://www.imf.org/en/Data",
+    "explanation": "Approximate end-2023 ratios of total assets to GDP (exact figures vary by source and by the GDP measure used): Bank of Japan roughly 100% or more after decades of QE and yield curve control; Eurosystem about 40–50% after its PSPP and PEPP programs; Federal Reserve about 20–28% after COVID-era QE and subsequent QT; Bank of Canada roughly 10–15%, down from a pandemic peak near 25%. The ranking is the same on every common measure. The BoJ is in a category of its own, owning roughly half of Japan's outstanding government bonds.",
+    "source": "https://finobservatory.org/central-banks",
     "as_of": "2023",
     "time_sensitive": false,
     "tags": [
@@ -1257,8 +1257,8 @@
       "FSB"
     ],
     "answer": "BIS",
-    "explanation": "The Bank for International Settlements (BIS), based in Basel, collects data from central banks and major dealers and publishes semiannual statistics on over-the-counter derivatives, plus a larger triennial survey of foreign-exchange and derivatives markets. The data give regulators and the public a view of how large these markets are and where risk may be building up.",
-    "source": "https://www.imf.org/en/Data",
+    "explanation": "The Bank for International Settlements (BIS), based in Basel, compiles the Triennial Central Bank Survey of foreign exchange and over-the-counter derivatives markets, run every three years since 1986 with central banks in dozens of jurisdictions collecting data from major dealers. It also publishes semiannual OTC derivatives statistics. The data give regulators and the public a view of how large these markets are and where risk may be building up.",
+    "source": "https://www.bis.org/statistics/rpfx25_announcement.htm",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1342,7 +1342,7 @@
     "category": "world",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Which Taiwan-based company manufactures roughly 90% of the world's most advanced (leading-edge) chips?",
+    "prompt": "Which Taiwan-based company makes the large majority of the world's most advanced (leading-edge) chips?",
     "choices": [
       "TSMC",
       "Foxconn",
@@ -1350,8 +1350,8 @@
       "UMC"
     ],
     "answer": "TSMC",
-    "explanation": "TSMC (Taiwan Semiconductor Manufacturing Company) produces roughly 90% of leading-edge chips (below 7nm) — the most advanced semiconductors used in smartphones, servers, AI, and modern vehicles; the exact share depends on how 'leading-edge' is defined. This concentration means a conflict over Taiwan or even a major earthquake could disrupt global supply chains across every advanced technology sector. The US CHIPS Act and EU Chips Act were partly motivated by reducing this dependency.",
-    "source": "https://www.imf.org/en/Data",
+    "explanation": "TSMC (Taiwan Semiconductor Manufacturing Company) makes most of the world's leading-edge chips, the most advanced semiconductors used in smartphones, servers, AI and modern vehicles. The Congressional Research Service puts the figure at about 90% for advanced chips. Estimates depend on the definition: a BCG/SIA study put Taiwan's share of sub-10nm capacity at 92% in 2019, while later estimates for all capacity at 7nm and below are lower (around 60-70%), and TSMC's share at the very newest nodes is higher still. This concentration means a conflict over Taiwan or even a major earthquake could disrupt supply chains across advanced technology sectors. The US CHIPS Act and EU Chips Act were partly motivated by reducing this dependency.",
+    "source": "https://www.congress.gov/crs-product/IG10073",
     "as_of": null,
     "time_sensitive": false,
     "tags": [

@@ -28,7 +28,7 @@
     "category": "origins",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The concept of national income accounting — the statistical backbone of modern GDP measurement — was largely developed in the 1930s by which economist, working for the US government?",
+    "prompt": "The statistical backbone of modern GDP measurement, national income accounting, was largely developed in the 1930s by which economist, working with the US Commerce Department?",
     "choices": [
       "Simon Kuznets",
       "John Maynard Keynes",
@@ -36,8 +36,8 @@
       "Irving Fisher"
     ],
     "answer": "Simon Kuznets",
-    "explanation": "Congress asked Kuznets to develop national income accounts in the depths of the Depression; his 1934 report to the Senate became the foundation for GDP measurement. He cautioned that GDP should not be used as a measure of welfare — a warning economists still repeat.",
-    "source": "https://www.bea.gov/",
+    "explanation": "A 1932 Senate resolution (introduced by Robert La Follette Jr.) asked the Commerce Department for national income estimates. Kuznets, on loan from the National Bureau of Economic Research, led the work, and his report 'National Income, 1929-32' went to the Senate in January 1934. It became the foundation for GDP measurement. He cautioned that national income should not be used as a measure of welfare, a warning economists still repeat.",
+    "source": "https://fraser.stlouisfed.org/files/docs/publications/natincome_1934/19340104_nationalinc.pdf",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -222,8 +222,8 @@
     "format": "tf",
     "prompt": "The terms 'bull market' and 'bear market' have a clear, agreed-upon single etymology: bulls toss their horns upward (prices rising) while bears swipe downward (prices falling).",
     "answer": false,
-    "explanation": "The exact origin is disputed. One competing theory points to 18th-century London 'bearskin jobbers' who sold shares they didn't yet own (selling the bearskin before catching the bear). 'Bull' may have followed as the natural opposite. The up/down gesture explanation is a popular modern folk etymology. Both terms appear in print by the early 1700s, but the tossing/swiping explanation came later.",
-    "source": null,
+    "explanation": "The exact origin is disputed. The leading theory for 'bear' (recorded for stock speculators by 1709) is the old proverb about selling the bearskin before catching the bear, which gave London 'bearskin jobbers' who sold shares they did not yet own. 'Bull' (recorded by about 1714) may simply have followed as the opposite. The up/down horn-and-paw explanation is a popular but unproven modern story. Note that the early uses named speculators; the phrases 'bull market' and 'bear market' came later.",
+    "source": "https://www.etymonline.com/word/bull",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -240,8 +240,8 @@
     "format": "short",
     "prompt": "The investing term 'blue chip' is widely thought to come from the highest-value chips in which game?",
     "answer": "Poker",
-    "explanation": "In American poker sets, chips are typically white (lowest), red, and blue (highest value). Oliver Gingold of Dow Jones is credited with first applying 'blue chip' to stocks in 1923 after watching trades in stocks priced at $200 or more. The poker analogy — high value, trustworthy — stuck.",
-    "source": null,
+    "explanation": "In American poker sets, chips are typically white (lowest), red, and blue (highest value). By Dow Jones company folklore, Oliver Gingold used 'blue chip' of stocks in 1923 after watching trades in shares priced at $200 or more, though earlier uses of the phrase have been claimed, so his role as the coiner is not certain. The poker analogy, high value and trustworthy, is the widely accepted account of the term.",
+    "source": "https://en.wikipedia.org/wiki/Blue_chip_(stock_market)",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -293,8 +293,8 @@
       "Austrian School"
     ],
     "answer": "Physiocrats",
-    "explanation": "The phrase is often attributed to Vincent de Gournay (~1750s), a French merchant-turned-official who argued that government should stay out of commerce. The Physiocrats — Quesnay, Turgot, and others — used it to oppose mercantilist regulations. It predates Adam Smith by decades, though Smith shared the sentiment.",
-    "source": null,
+    "explanation": "The full slogan 'laissez faire, laissez passer' is most often credited to Vincent de Gournay, a merchant turned commercial official (intendant of commerce) in the 1750s, whose circle included Turgot. Some scholars instead credit Quesnay, so the attribution is debated. Either way the phrase came out of the Physiocrat milieu: Quesnay, Turgot and their followers used it to oppose mercantilist regulation. It predates Adam Smith's Wealth of Nations (1776) by about two decades.",
+    "source": "https://en.wikipedia.org/wiki/Laissez-faire",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -375,16 +375,16 @@
     "category": "origins",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "At the peak of Dutch tulip mania in 1637, a prized bulb reportedly cost about how much, relative to a skilled craftsman's annual income?",
+    "prompt": "At the peak of Dutch tulip mania in early 1637, the most prized bulb (a Semper Augustus) was reportedly priced at roughly how many times a skilled craftsman's annual income?",
     "choices": [
+      "About 30 times",
+      "About 3 times",
       "About 10 times",
-      "About 2 times",
-      "About half",
-      "About 100 times"
+      "About 300 times"
     ],
-    "answer": "About 10 times",
-    "explanation": "At the height of the mania in February 1637, the most prized bulbs — rare 'broken' tulips whose multicoloured patterns were caused by a mosaic virus — reportedly fetched more than ten times a skilled craftsman's annual income (about 300 guilders); a Semper Augustus is said to have reached 10,000 guilders. The market collapsed that month when buyers stopped turning up. Caution: historians such as Anne Goldgar argue the popular story is exaggerated — many of its most dramatic details come from later satirical pamphlets, and only a few dozen buyers spent more than 300 guilders on bulbs.",
-    "source": null,
+    "answer": "About 30 times",
+    "explanation": "In February 1637 the most prized bulb, the Semper Augustus, was reportedly priced at about 10,000 guilders, while a skilled craftsman earned roughly 300 guilders a year, so about 30 years of income. The rare 'broken' tulips owed their multicoloured patterns to a mosaic virus. The market collapsed that month when buyers stopped turning up. Caution: historians such as Anne Goldgar argue the popular story is exaggerated. Many of its most dramatic details come from later satirical pamphlets, many contracts were never settled, and she found only a few dozen buyers (37) who paid more than 300 guilders for a bulb.",
+    "source": "https://en.wikipedia.org/wiki/Tulip_mania",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -423,7 +423,7 @@
     "category": "origins",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Paper money was invented centuries before it arrived in Europe. Which civilization issued the earliest known government-backed paper currency, around 1000 CE?",
+    "prompt": "Paper money was invented centuries before it arrived in Europe. Which civilization issued the earliest known government-backed paper currency, in the early 11th century?",
     "choices": [
       "Song dynasty China",
       "Abbasid Caliphate",
@@ -431,8 +431,8 @@
       "Mughal India"
     ],
     "answer": "Song dynasty China",
-    "explanation": "The Song dynasty issued 'jiaozi', government-backed paper promissory notes, around the late 10th–early 11th century. Earlier, Tang dynasty merchants had used private 'flying money' drafts. Marco Polo's accounts of paper money in Yuan China astonished 13th-century Europeans, who wouldn't adopt the technology for another four centuries.",
-    "source": null,
+    "explanation": "Merchants in Sichuan began issuing private paper notes called 'jiaozi' in the 10th century. The Song government took over the system in 1023 and issued the first official series in 1024, which is generally regarded as the first government paper currency. Earlier, Tang dynasty merchants had used private 'flying money' drafts. Marco Polo's accounts of paper money in Yuan China astonished 13th-century Europeans, whose first banknotes did not appear until 1661 in Sweden.",
+    "source": "https://en.wikipedia.org/wiki/Jiaozi_(currency)",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -668,8 +668,8 @@
       "Ceres"
     ],
     "answer": "Juno",
-    "explanation": "'Moneta' is thought to derive from 'monere' (to warn or advise) — Juno allegedly warned the Romans of an earthquake. The mint operated beside her temple, so the coins produced there were called 'moneta', giving us 'money', 'monetary', and (via mint) 'mint' itself. The 'monere' connection also gives us 'monitor' and 'admonish' — all from the same Latin root.",
-    "source": null,
+    "explanation": "'Moneta' is generally derived from 'monere' (to warn or remind). Cicero says the title arose when a voice from Juno's temple gave a warning during an earthquake; another tradition credits her sacred geese, which warned of a Gallic attack in 390 BCE. These are legends, but the monere derivation is the standard one. Rome's mint stood at her temple on the Capitoline from about 273 BCE, so coins and the mint came to be called 'moneta', which gives us 'money', 'monetary' and 'mint'. The same root gives 'monitor' and 'admonish'.",
+    "source": "https://en.wikipedia.org/wiki/Temple_of_Juno_Moneta",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -863,8 +863,8 @@
       "The Caribbean sugar islands"
     ],
     "answer": "Spanish South America",
-    "explanation": "The South Sea Company was granted a monopoly on trade with Spanish South America under the Treaty of Utrecht (1713). The problem was that Spain barely permitted the trade — the company made its real money as a debt management vehicle, taking over government debt and offering stock in exchange. When the stock price collapsed in 1720, it ruined thousands, including Isaac Newton, who reportedly lost £20,000. It led directly to the Bubble Act (1720) restricting joint-stock companies for 100 years.",
-    "source": null,
+    "explanation": "The South Sea Company was founded in 1711 with a monopoly on British trade with Spanish South America, and the Treaty of Utrecht (1713) gave it the asiento, the right to supply enslaved people to Spanish America, plus limited trading rights. The problem was that Spain barely permitted real trade. The company made its money as a debt-management vehicle, taking over government debt and offering stock in exchange. When the share price collapsed in 1720 it ruined many investors, including Isaac Newton, whose losses are often given as about £20,000 (estimates vary, but probably at least £10,000). It led to the Bubble Act (1720), which restricted joint-stock companies until its repeal in 1825.",
+    "source": "https://newtonandthemint.history.ox.ac.uk/global-financial-world/newton-and-the-south-sea-bubble",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1008,8 +1008,8 @@
       "Government spending"
     ],
     "answer": "Money supply",
-    "explanation": "In 19th-century US economic debate, 'inflation' referred to inflating the currency — issuing more paper money. The effect on prices was called 'high prices' or 'dearness.' The shift in usage from cause (money expansion) to effect (price rise) happened gradually through the 20th century. This history matters: Friedman's 'inflation is always and everywhere a monetary phenomenon' was expressing an older view that the cause (money supply) and the effect (price level) are tightly linked.",
-    "source": null,
+    "explanation": "The word entered economics in the 19th century, mainly in US debates over paper money, where 'inflation' meant swelling the currency by issuing more of it. A rise in prices was seen as a possible result, not as the meaning of the word. The usage shifted gradually, mostly in the 20th century, from the cause (money expansion) to the effect (rising prices); the Cleveland Fed's Michael Bryan links this to Keynesian doubts about a tight money-price link. Friedman's 'inflation is always and everywhere a monetary phenomenon' fits the older, money-centred view.",
+    "source": "https://www.clevelandfed.org/publications/economic-commentary/1997/ec-19971015-on-the-origin-and-evolution-of-the-word-inflation",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1154,8 +1154,8 @@
       "Siena"
     ],
     "answer": "Florence",
-    "explanation": "The Medici Bank was founded in Florence in 1397 by Giovanni di Bicci de' Medici and grew into the largest bank in Europe, with branches from Venice and Rome to Geneva, Bruges and London. It pioneered the holding-company structure and the use of bills of exchange, and its fall in 1494 came after loans to kings went bad. The family's money changers, like those of Genoa and Venice, worked at benches called 'banca', which is where the word bank comes from.",
-    "source": null,
+    "explanation": "The Medici Bank was founded in Florence in 1397 by Giovanni di Bicci de' Medici and grew into one of the largest banks in Europe, with branches in cities such as Venice, Rome, Geneva (later Lyon), Bruges and London. It is often described as an early holding company, with the Florence partnership controlling each branch partnership, and it made heavy use of bills of exchange. It was liquidated in 1494 after bad loans (notably to English and Burgundian rulers), weak branch management and the French invasion that toppled the Medici in Florence. The word 'bank' itself comes from Italian 'banca', the bench on which money changers worked.",
+    "source": "https://en.wikipedia.org/wiki/Medici_Bank",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1178,8 +1178,8 @@
       "Karolinska Institute"
     ],
     "answer": "Sveriges Riksbank",
-    "explanation": "The full name is the 'Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel.' The Riksbank created and endowed it in 1968 as part of its tricentenary celebrations. Because it was not in Alfred Nobel's will, some purists argue it is not a 'true' Nobel Prize — but it is awarded alongside the original prizes every December 10.",
-    "source": null,
+    "explanation": "The full name is the 'Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel.' The Riksbank, Sweden's central bank (founded 1668), made a donation to the Nobel Foundation in 1968 for its 300th anniversary, and the first prize was awarded in 1969 (to Ragnar Frisch and Jan Tinbergen). The Royal Swedish Academy of Sciences selects the winners. Because it was not in Alfred Nobel's will, some purists argue it is not a 'true' Nobel Prize, but it is presented alongside the original prizes on December 10.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1202,8 +1202,8 @@
       "United States"
     ],
     "answer": "Britain",
-    "explanation": "Isaac Newton served as Master of the Mint from 1699 to 1727. In 1717, he set the gold price for sterling at £3 17s 10.5d per troy ounce — a rate maintained (with wartime suspensions) for two centuries. This effectively put Britain on a de facto gold standard. The UK formally adopted a legal gold standard in 1816, and after Germany's 1871 adoption sparked a rush, most major economies had joined by 1900.",
-    "source": null,
+    "explanation": "Isaac Newton was Master of the Mint from 1699 to 1727. His 1717 report led to a royal proclamation in December 1717 fixing the guinea at 21 shillings, which implied a gold price of £3 17s 10½d per troy ounce. That price was held (apart from the suspension of convertibility from 1797 to 1821) for roughly two centuries, so Britain drifted onto a de facto gold standard. The UK made gold its sole legal standard in 1816, and convertibility resumed in 1821. After Germany adopted gold in the 1870s, a rush followed, and most major economies had joined by about 1900.",
+    "source": "https://www.royalmint.com/collect/coin-history-and-tradition/1816-coinage-act-and-the-gold-standard/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [

@@ -480,7 +480,7 @@
     "category": "usa",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Under the mid-1970s 'petrodollar' understanding between Washington and Riyadh, Saudi Arabia agreed to price oil in dollars and, reportedly, to invest its surplus in what?",
+    "prompt": "Under the mid-1970s US-Saudi arrangement popularly called the 'petrodollar' deal, Saudi Arabia reportedly agreed to invest much of its oil surplus in what?",
     "choices": [
       "US Treasuries",
       "Swiss gold",
@@ -488,8 +488,8 @@
       "Japanese equities"
     ],
     "answer": "US Treasuries",
-    "explanation": "After Nixon ended dollar-gold convertibility in 1971, the US negotiated agreements (notably with Saudi Arabia in 1974–75) under which oil would be denominated and settled in US dollars. Oil was already largely dollar-priced before then, so historians debate how much the deal added, but it reinforced persistent global demand for dollars, underpinning their continued reserve-currency status after the gold standard was abandoned. In return, Saudi Arabia was reportedly to recycle its surplus oil revenue into US Treasury securities, which helped finance US deficits.",
-    "source": null,
+    "explanation": "After Nixon ended dollar-gold convertibility in 1971 and the 1973 oil shock, Treasury Secretary William Simon negotiated with Saudi Arabia in 1974. The best-documented part is a secret arrangement, revealed by Bloomberg in 2016 through US National Archives documents, under which Saudi Arabia would recycle oil revenue into US Treasury securities (outside the normal auctions), which helped finance US deficits. Oil was already largely priced in dollars, and no formal pledge to sell oil only in dollars has been documented, so historians debate how much the 'petrodollar' deal added beyond reinforcing global demand for dollars after the gold standard was abandoned.",
+    "source": "https://www.bloomberg.com/news/articles/2016-05-16/after-41-years-saudi-arabia-s-treasuries-holdings-are-unveiled",
     "as_of": null,
     "time_sensitive": false,
     "tags": [

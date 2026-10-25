@@ -280,7 +280,7 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Which insurance giant received a roughly $182 billion US government bailout in 2008?",
+    "prompt": "Which insurance giant had roughly $182 billion of US government rescue support committed in 2008–09?",
     "choices": [
       "AIG",
       "Chubb",
@@ -288,9 +288,9 @@
       "MetLife"
     ],
     "answer": "AIG",
-    "explanation": "AIG's financial products division had sold hundreds of billions of dollars of credit default swaps — essentially insurance against MBS default — without holding adequate reserves. When MBS values collapsed, AIG faced catastrophic margin calls it could not meet.",
-    "source": "https://www.federalreserve.gov/newsevents/pressreleases/other20080916a.htm",
-    "as_of": null,
+    "explanation": "The Federal Reserve and Treasury committed about $182 billion in total to AIG in 2008–09 (the first piece was an $85 billion Fed loan on September 16, 2008); the most actually outstanding at once was about $142 billion in April 2009. AIG's financial products division had sold hundreds of billions of dollars of credit default swaps — essentially insurance against defaults on mortgage-linked securities — without holding adequate reserves. When those values collapsed, AIG faced collateral calls it could not meet. The government was ultimately repaid with a profit of roughly $23 billion.",
+    "source": "https://www.everycrsreport.com/reports/R42953.html",
+    "as_of": "2017",
     "time_sensitive": false,
     "tags": [
       "AIG",
@@ -974,7 +974,7 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The 'Greenspan put' was the belief that the Fed would cut rates to rescue falling markets. Which crisis was the first test of it for Alan Greenspan as Fed Chair?",
+    "prompt": "The 'Greenspan put' was the belief that the Fed would step in, with liquidity and lower rates, to rescue falling markets. Which crisis was the first test of it for Alan Greenspan as Fed Chair?",
     "choices": [
       "Black Monday (1987)",
       "Asian crisis (1997)",
@@ -982,8 +982,8 @@
       "Dot-com bust (2001)"
     ],
     "answer": "Black Monday (1987)",
-    "explanation": "Greenspan became Fed Chair in August 1987, and the Black Monday crash that October was his first test. The 'Greenspan put' (named after the options strategy giving a price floor) referred to the market expectation that the Fed would cut rates to rescue falling markets — as it did after the 1987 crash, LTCM in 1998, the dotcom bust in 2001, and 9/11. Critics argued this created moral hazard, encouraging excessive risk-taking on the assumption that the Fed would always bail out markets.",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "Greenspan became Fed Chair in August 1987, and the Black Monday crash of October 19, 1987 (the Dow fell about 22% in a day) was his first test; the Fed announced the next day that it stood ready to serve as a source of liquidity. The 'Greenspan put' (named after the options strategy giving a price floor) refers to the market expectation that the Fed would respond similarly to later market stress, as with LTCM in 1998, the dotcom bust in 2001 and 9/11. Critics argued this created moral hazard, encouraging excessive risk-taking on the assumption that the Fed would always bail out markets.",
+    "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1001,8 +1001,8 @@
     "format": "short",
     "prompt": "Ben Bernanke was nicknamed 'Helicopter Ben' after a 2002 speech referencing a thought experiment by which economist, of dropping money from a helicopter?",
     "answer": "Milton Friedman",
-    "explanation": "In a 2002 speech, Bernanke referenced Milton Friedman's 'helicopter drop' thought experiment — that a government could always create inflation by printing money and distributing it directly to citizens. The speech was intended to reassure markets that the US would never experience Japanese-style deflation. The nickname 'Helicopter Ben' stuck. Bernanke went on to oversee the Fed's first QE program in 2008–09 and won the 2022 Nobel Prize.",
-    "source": "https://www.federalreserve.gov/",
+    "explanation": "In his November 21, 2002 speech 'Deflation: Making Sure \"It\" Doesn't Happen Here', Bernanke cited Milton Friedman's 'helicopter drop' thought experiment and argued that a central bank with a printing press can always head off deflation by getting money into spending. The speech was meant to reassure markets that the US would avoid Japanese-style deflation, and the nickname 'Helicopter Ben' stuck. Bernanke went on to oversee the Fed's first QE program in 2008–09 and shared the 2022 Nobel Prize in Economics.",
+    "source": "https://www.federalreserve.gov/boarddocs/speeches/2002/20021121/default.htm",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1049,7 +1049,7 @@
       "APP"
     ],
     "answer": "OMT",
-    "explanation": "OMT stands for Outright Monetary Transactions. Draghi's three words — 'whatever it takes' — and the announcement of the OMT (Outright Monetary Transactions) bond-buying program that September were enough to calm markets. Italian 10-year yields fell from about 6.5% in July 2012 to roughly 4.5% by the end of the year. The OMT has never actually been used, demonstrating that central bank credibility alone can be a powerful stabilizing force. Draghi subsequently oversaw the ECB's QE program from 2015.",
+    "explanation": "OMT stands for Outright Monetary Transactions. Draghi's three words, 'whatever it takes' (July 26, 2012), and the ECB's September 6, 2012 announcement of the OMT, a conditional sovereign bond-buying programme, were enough to calm markets. Italy's 10-year yield fell from a monthly average of about 6.0% in July 2012 to about 4.5% in December 2012. No country has ever requested OMT support, so the ECB has not bought a single bond under it, a sign of how powerful central bank credibility can be. The other options came at different times: the LTROs were three-year bank loans (December 2011 and February 2012), the APP was expanded into full QE in January 2015, and the PEPP was launched in March 2020.",
     "source": "https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html",
     "as_of": null,
     "time_sensitive": false,
@@ -1485,7 +1485,7 @@
       "Currency hedge"
     ],
     "answer": "Interest tax shield",
-    "explanation": "When corporate taxes are introduced, interest payments on debt reduce taxable income, creating a 'tax shield.' In a world with only corporate taxes (no bankruptcy costs), MM predicts firms should maximize leverage. In practice, bankruptcy costs, agency costs, and financial distress create an optimal interior debt level — this is the basis of the 'trade-off theory' of capital structure. The M&M theorem's real value is identifying what does matter (taxes, bankruptcy, information asymmetry) by specifying what doesn't.",
+    "explanation": "In their 1963 correction to the 1958 paper, Modigliani and Miller added corporate taxes: because interest payments on debt reduce taxable income, they create a 'tax shield' that raises firm value with leverage. In a world with only corporate taxes (no bankruptcy costs), the model implies firms should use as much debt as possible. In practice, bankruptcy costs, agency costs and financial distress create an optimal interior debt level — the basis of the 'trade-off theory' of capital structure. The theorem's real value is identifying what does matter (taxes, bankruptcy, information asymmetry) by specifying what doesn't.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/1990/press-release/",
     "as_of": null,
     "time_sensitive": false,
@@ -1570,7 +1570,7 @@
     "category": "finance",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "What name describes the fee structure under which most hedge funds charge both an annual management fee (typically 2% of assets) and a performance fee (typically 20% of profits)?",
+    "prompt": "What name describes the traditional hedge fund fee structure of an annual management fee of 2% of assets plus a performance fee of 20% of profits?",
     "choices": [
       "Two and twenty",
       "Fee and carry",
@@ -1578,9 +1578,9 @@
       "Fixed and floating"
     ],
     "answer": "Two and twenty",
-    "explanation": "The '2 and 20' fee structure means investors pay 2% of total assets under management annually regardless of performance, plus 20% of any profits generated. This structure was popularized by early hedge funds and has faced pressure as many hedge funds underperformed simple index funds. Average fees have drifted lower — closer to '1.4 and 16' industry-wide by 2023 — but top performers still command 2 and 20 or even higher (Renaissance Technologies reportedly charges '5 and 44').",
-    "source": "https://www.investor.gov/",
-    "as_of": null,
+    "explanation": "The '2 and 20' fee structure means investors pay 2% of assets under management a year regardless of performance, plus 20% of any profits. It was the industry standard for decades, but competition and weak performance have pushed typical fees lower: HFR estimated the industry-wide average at about 1.35% management and 16% incentive fees at the end of 2023 (roughly '1.4 and 16'). Top performers can still charge more; Renaissance Technologies' Medallion fund, now closed to outside investors, is widely reported to charge '5 and 44'.",
+    "source": "https://thefullfx.com/hedge-fund-numbers-rise-slightly-in-2023/",
+    "as_of": "2023-12",
     "time_sensitive": false,
     "tags": [
       "hedge fund",

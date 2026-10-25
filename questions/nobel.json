@@ -296,7 +296,7 @@
     ],
     "answer": "Adverse selection",
     "explanation": "Akerlof showed that when sellers know more about quality than buyers, bad products ('lemons') drive out good ones. The paper was rejected by three journals before publication, yet became one of the most cited economics papers of all time.",
-    "source": "https://www.nobelprize.org/prizes/economic-sciences/2001/akerlof/facts/",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2001/akerlof/article/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -393,7 +393,7 @@
       "Janet Yellen"
     ],
     "answer": "Claudia Goldin",
-    "explanation": "Goldin showed that the modern gender pay gap is largely driven by the high premium paid for long, inflexible hours in many high-paying professions. Because women still disproportionately bear caregiving responsibilities, they face higher costs from demanding work schedules.",
+    "explanation": "Goldin showed that much of the modern gender pay gap is linked to the high premium paid for long, inflexible hours in many high-paying professions ('greedy work'). Because women still disproportionately bear caregiving responsibilities, they face higher costs from demanding work schedules. She also traced a U-shaped pattern in women's labour-force participation over 200 years of US data.",
     "source": "https://www.nobelprize.org/prizes/economic-sciences/2023/goldin/facts/",
     "as_of": null,
     "time_sensitive": false,
@@ -809,7 +809,7 @@
     ],
     "answer": "Bank runs",
     "explanation": "The Diamond-Dybvig model (1983) shows that banks offer maturity transformation (short-term deposits funding long-term loans), which is socially valuable but creates fragility. The model has two equilibria: (1) depositors stay calm and the bank is fine; (2) everyone runs and the bank fails. Both are rational, so the bad equilibrium is self-fulfilling. This formalized the case for deposit insurance: if depositors know their deposits are guaranteed, there is no incentive to run. It has shaped how policymakers think about deposit insurance and lender-of-last-resort support ever since.",
-    "source": null,
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2022/summary/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -959,7 +959,7 @@
     ],
     "answer": "Frictional",
     "explanation": "Diamond-Mortensen-Pissarides (DMP) models explain 'frictional unemployment': even in booms, matching workers to jobs takes time. The model generates equilibrium unemployment from search and matching frictions — the Beveridge curve (negative relationship between unemployment and vacancy rates) is a key empirical implication. The theory has been used to analyze minimum wages, unemployment insurance generosity (longer benefits = higher reservation wages = more frictional unemployment), and hiring subsidies.",
-    "source": null,
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2010/summary/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -985,7 +985,7 @@
     ],
     "answer": "Principal-agent theory",
     "explanation": "Laffont and Tirole model regulation as a principal-agent problem: the regulator (the principal) cannot observe the firm's true costs, while the firm (the agent) knows them. Optimal regulation therefore offers a menu of contracts that gives the firm an incentive to reveal its costs rather than inflate them. Tirole received the 2014 Nobel in part for this work.",
-    "source": null,
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/2014/popular-information/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1035,7 +1035,7 @@
     ],
     "answer": "Pennsylvania",
     "explanation": "Card and Krueger (1994) surveyed fast food restaurants in New Jersey and Pennsylvania before and after NJ raised its minimum wage from $4.25 to $5.05 in 1992. PA was the control group. They found no significant employment fall — and if anything, slightly higher employment in NJ. The paper transformed the minimum wage debate and helped launch the natural experiment revolution in economics. Card received the 2021 Nobel; Krueger, who died in 2019, was ineligible as the prize is not awarded posthumously.",
-    "source": null,
+    "source": "https://davidcard.berkeley.edu/papers/min-wage-ff-nj.pdf",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1059,8 +1059,8 @@
       "Tiger Management"
     ],
     "answer": "Long-Term Capital Management",
-    "explanation": "Fischer Black, the third author of the formula, had died in 1995 and so could not share the prize. LTCM, founded in 1994 by John Meriwether with Scholes and Merton as partners, collapsed in 1998 and became one of the most famous cautionary tales in finance. Using massive leverage (at times about 25:1) and complex arbitrage strategies that relied on historical correlations, it lost most of its capital in weeks when the 1998 Russian default made correlations that its models assumed were low spike together. The New York Fed organized a $3.6 billion private rescue by a group of banks to prevent a cascade of counterparty failures.",
-    "source": null,
+    "explanation": "Fischer Black, the third author of the formula, had died in 1995 and so could not share the prize. LTCM, founded in 1994 by John Meriwether with Scholes and Merton as partners, collapsed in 1998 and became one of the most famous cautionary tales in finance. Using massive leverage (roughly 25 to 30 times its equity) and complex arbitrage strategies that relied on historical correlations, it lost most of its capital within weeks of the 1998 Russian default, when positions its models assumed were unrelated all moved against it together. The New York Fed organized a private rescue of about $3.6 billion by a group of banks, with no Fed money at risk, to prevent a cascade of counterparty failures.",
+    "source": "https://www.federalreservehistory.org/essays/ltcm-near-failure",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1086,7 +1086,7 @@
     ],
     "answer": "Excess female mortality",
     "explanation": "In 'More Than 100 Million Women Are Missing' (New York Review of Books, 1990), Sen compared the ratio of women to men in parts of Asia and North Africa with the ratio in Europe and North America, where women normally outnumber men. The shortfall reflects excess female mortality from neglect in health care and nutrition and, later, sex-selective abortion. Later demographers refined the numbers, but the term 'missing women' stuck.",
-    "source": null,
+    "source": "https://sen.scholars.harvard.edu/publications/more-100-million-women-are-missing",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1308,7 +1308,7 @@
     "prompt": "Christopher Sims shared the 2011 Nobel for empirical macroeconomics. Which three-letter technique, regressing each variable on past values of all the variables, is he best known for?",
     "answer": "VAR",
     "explanation": "Sims (1980) developed VAR models as an alternative to large structural macroeconomic models that imposed many controversial theoretical restrictions, which he called 'incredible'. VARs let the data speak. A key application is the structural VAR, which identifies monetary policy shocks (how does output respond to an unexpected interest rate rise?) using identifying assumptions about the error structure. Sargent's complementary contribution was rational expectations econometrics: testing whether macroeconomic data was consistent with agents having rational expectations.",
-    "source": null,
+    "source": "https://www.nobelprize.org/uploads/2018/06/sims_lecture.pdf",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
