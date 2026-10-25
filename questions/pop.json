@@ -126,12 +126,12 @@
     "format": "mc",
     "prompt": "Michael Lewis's The Big Short chronicles traders who bet against the US housing market before the 2008 crash. The title refers to their financial position: they were 'short' on mortgage bonds, meaning they profited when prices:",
     "choices": [
-      "fell",
-      "rose",
+      "fell in value",
+      "rose in value",
       "stayed flat",
-      "became more volatile"
+      "grew more volatile"
     ],
-    "answer": "fell",
+    "answer": "fell in value",
     "explanation": "Being 'short' means borrowing an asset and selling it, expecting to buy it back cheaper later and pocket the difference. The protagonists in The Big Short — including Michael Burry, Steve Eisman, and Greg Lippmann — were ridiculed for years before the crash proved them right and made them fortunes.",
     "source": null,
     "as_of": null,
@@ -246,8 +246,8 @@
       "Badger"
     ],
     "answer": "Fox",
-    "explanation": "Tetlock found that 'foxes' (who know many things) beat 'hedgehogs' (who know one big thing) in forecasting accuracy. His superforecasters — often ordinary people, not experts — outperformed CIA analysts in a multi-year tournament by constantly seeking disconfirming evidence and making small, frequent updates.",
-    "source": null,
+    "explanation": "Tetlock found that 'foxes' (who know many things) beat 'hedgehogs' (who know one big thing) in forecasting accuracy. His Good Judgment Project won a multi-year US intelligence-community (IARPA) tournament; its top \"superforecasters\" were often ordinary people who reportedly beat intelligence analysts with access to classified information, by constantly seeking disconfirming evidence and making small, frequent updates.",
+    "source": "https://www.econtalk.org/philip-tetlock-on-superforecasting/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -294,7 +294,7 @@
       "Carrying capacity"
     ],
     "answer": "Social foundation",
-    "explanation": "The doughnut's hole represents shortfalls in human needs (the social foundation); the outer ring represents ecological overshoot (the planetary ceiling). The safe and just space is the doughnut itself. Amsterdam adopted the framework for its post-COVID recovery planning in 2020.",
+    "explanation": "The doughnut's hole represents shortfalls in human needs (inside the social foundation); the outer ring is the ecological ceiling, beyond which lies environmental overshoot. The safe and just space for humanity is the doughnut itself. Amsterdam announced in April 2020 that it would use the framework to guide its post-COVID recovery.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -478,7 +478,7 @@
       "Card draw"
     ],
     "answer": "Wheel of fortune",
-    "explanation": "Tversky and Kahneman's classic anchoring experiment: subjects who spun a rigged wheel to land on 65 gave much higher UN-share estimates than those who landed on 10 — even though the wheel was obviously random. Anchors work even when explicitly irrelevant, which is why retailers always show a 'was' price alongside the 'now' price.",
+    "explanation": "Tversky and Kahneman's classic anchoring experiment (1974): subjects spun a wheel rigged to land on 10 or 65, and those who saw 65 gave much higher estimates of Africa's share of UN members (median about 45%) than those who saw 10 (about 25%), even though the wheel was obviously random. Anchors work even when irrelevant, which is why retailers often show a 'was' price beside the 'now' price.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -845,8 +845,8 @@
       "Spoofing"
     ],
     "answer": "Pump and dump",
-    "explanation": "Stratton Oakmont's core scheme was classic pump and dump: buy large quantities of cheap, illiquid penny stocks; cold-call investors with high-pressure sales pitches to drive up the price; then dump the firm's holdings onto newly arrived buyers who were left with rapidly declining shares. Pump and dump is securities fraud and market manipulation. Belfort was convicted in 1999 and sentenced to four years in prison.",
-    "source": null,
+    "explanation": "Stratton Oakmont's core scheme was classic pump and dump: buy large quantities of cheap, illiquid penny stocks; cold-call investors with high-pressure sales pitches to drive up the price; then dump the firm's holdings onto newly arrived buyers who were left with rapidly declining shares. Pump and dump is securities fraud and market manipulation. Belfort pleaded guilty in 1999 to fraud and related charges, was sentenced in 2003 to four years in prison, and served about 22 months.",
+    "source": "https://en.wikipedia.org/wiki/Jordan_Belfort",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1012,8 +1012,8 @@
     "format": "short",
     "prompt": "What nickname do critics give to supply-side policies that cut taxes on the wealthy in the hope that the benefits eventually reach everyone?",
     "answer": "trickle-down economics",
-    "explanation": "'Trickle-down economics' is largely a political label used by critics; few economists use the term themselves. Most economists accept that very high marginal tax rates can reduce work incentives at the margin, but the evidence that tax cuts for the wealthy produce large growth dividends that 'trickle down' to lower earners is weak. IMF research, the Equality of Opportunity Project and others show US inequality has grown significantly since the supply-side tax cuts of the 1980s without offsetting growth gains for lower-income Americans.",
-    "source": null,
+    "explanation": "'Trickle-down economics' is largely a political label used by critics; few economists use the term themselves. Most economists accept that very high marginal tax rates can reduce work incentives at the margin, but the evidence that tax cuts for the wealthy produce large growth dividends for everyone else is weak. A study of 18 OECD countries over about 50 years (Hope and Limberg, 2022) found that major tax cuts for the rich raised the top 1% income share but had no significant effect on economic growth or unemployment.",
+    "source": "https://www.lse.ac.uk/research/research-for-the-world/economics/tax-cuts-for-the-wealthy-only-benefit-the-rich-debunking-trickle-down-economics",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1045,8 +1045,8 @@
       "Price controls"
     ],
     "answer": "Legalized abortion",
-    "explanation": "Levitt and co-author John Donohue published a paper (2001) arguing that children not born due to Roe v. Wade would have been disproportionately born into poverty and single-parent households — risk factors for crime. When this cohort would have reached their peak crime years (roughly 18–24 years old, around 1989–1995), the crime decline began instead. The hypothesis was highly controversial and contested empirically. Freakonomics popularized this argument, sparking widespread debate about the ethics and methodology of such analysis.",
-    "source": null,
+    "explanation": "Levitt and co-author John Donohue published a paper (2001) arguing that children not born after Roe v. Wade would disproportionately have grown up in poverty and single-parent households, which are risk factors for crime. The cohorts that would have been born came of age just as the 1990s crime decline began. The hypothesis was highly controversial: Foote and Goetz (2008) found a coding error in the paper, and while Donohue and Levitt said correcting it reduced the estimated effect but did not erase it, critics dispute the result. Freakonomics (2005) popularized the argument and sparked wide debate about its ethics and methods.",
+    "source": "https://en.wikipedia.org/wiki/Legalized_abortion_and_crime_effect",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1062,7 +1062,7 @@
     "category": "pop",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "'Superstar economics' explains why a few top performers earn far more than slightly less talented rivals. Which economist introduced the idea in a 1981 paper?",
+    "prompt": "'Superstar economics' explains why a few top performers earn far more than slightly less talented rivals. Which economist's 1981 paper formalized the idea?",
     "choices": [
       "Sherwin Rosen",
       "Robert Frank",
@@ -1070,8 +1070,8 @@
       "Alan Krueger"
     ],
     "answer": "Sherwin Rosen",
-    "explanation": "Sherwin Rosen's 1981 paper 'The Economics of Superstars' modelled talent markets where the best can serve huge numbers of customers: a top lawyer can handle more cases than a slightly lesser one by hiring associates. Digital technology has amplified this since the 1990s: Spotify streams the top song as cheaply to a billion people as to one, while the 10th-best song gets a tiny fraction of plays. That is why incomes among musicians, software developers, athletes and writers have become far more skewed. Robert Frank (Winner-Take-All Society) and Alan Krueger (the economics of rock 'superstars') built on the idea.",
-    "source": null,
+    "explanation": "Sherwin Rosen's 1981 American Economic Review paper 'The Economics of Superstars' showed that when talent is an imperfect substitute and one performer can serve a huge market (what he called joint consumption), income differences far exceed talent differences. Technology that widens the market amplifies this: Spotify streams the top song as cheaply to a billion people as to one, while the 10th-best song gets a tiny fraction of plays. Robert Frank (The Winner-Take-All Society, with Philip Cook) and Alan Krueger (Rockonomics) built on the idea.",
+    "source": "https://ideas.repec.org/a/aea/aecrev/v71y1981i5p845-58.html",
     "as_of": null,
     "time_sensitive": false,
     "tags": [

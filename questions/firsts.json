@@ -144,7 +144,7 @@
     "category": "firsts",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The Diners Club card, launched in 1950, is generally recognized as the world's first general-purpose charge card. In which city was it first used?",
+    "prompt": "The Diners Club card, launched in 1950, is widely regarded as the first general-purpose charge card. In which city was it first used?",
     "choices": [
       "New York City",
       "Chicago, Illinois",
@@ -152,8 +152,8 @@
       "London, England"
     ],
     "answer": "New York City",
-    "explanation": "Frank McNamara founded Diners Club after reportedly forgetting his wallet at a restaurant. The first cards were used at select New York restaurants in 1950. Unlike today's credit cards, early Diners Club cards required full payment each month.",
-    "source": null,
+    "explanation": "Frank McNamara founded Diners Club after reportedly forgetting his wallet at a restaurant. The first charge was made in February 1950 at Major's Cabin Grill, next to the company's offices in the Empire State Building in New York City, and the card was initially accepted at a few dozen New York restaurants. Unlike today's credit cards, early Diners Club cards required full payment each month.",
+    "source": "https://en.wikipedia.org/wiki/Diners_Club_International",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -168,7 +168,7 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "New Zealand became the first country to adopt formal inflation targeting as a framework for monetary policy in which year?",
+    "prompt": "New Zealand is widely regarded as the first country to adopt formal inflation targeting as a monetary policy framework. In which year?",
     "choices": [
       "1990",
       "1984",
@@ -176,8 +176,8 @@
       "1979"
     ],
     "answer": "1990",
-    "explanation": "The Reserve Bank of New Zealand Act 1989 came into force in 1990, requiring the central bank to keep inflation within an explicit target band. The framework proved so successful that Canada (1991), the UK (1992), Sweden (1993), and many others quickly adopted it.",
-    "source": "https://www.rbnz.govt.nz/monetary-policy/about-monetary-policy/history-of-monetary-policy",
+    "explanation": "The Reserve Bank of New Zealand Act 1989 came into force in February 1990, and the first Policy Targets Agreement (March 1990) set an explicit inflation target range. New Zealand is widely regarded as the pioneer of formal inflation targeting, and Canada (1991), the UK (1992), Sweden (1993) and many others followed.",
+    "source": "https://www.rbnz.govt.nz/hub/publications/speech/2018/speech2018-04-12",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -194,8 +194,8 @@
     "format": "tf",
     "prompt": "Britain introduced the world's first national old-age pension system, under Chancellor of the Exchequer David Lloyd George, in 1909.",
     "answer": false,
-    "explanation": "Germany was first. Bismarck's Old Age and Disability Insurance Law (1889) created the first state-run contributory pension, covering workers aged 70 and older (the age was later lowered). Britain's non-contributory Old-Age Pensions Act followed in 1908, with the first payments made on 1 January 1909 while Lloyd George was Chancellor. The German scheme was partly designed to undercut socialist political movements by giving workers a stake in the existing order.",
-    "source": null,
+    "explanation": "Germany's scheme is widely regarded as the first national old-age pension system. Bismarck's Old Age and Disability Insurance Law (1889) created a state-run contributory pension paid from age 70. (Denmark and New Zealand also introduced tax-funded old-age pensions in 1891 and 1898, still ahead of Britain.) Britain's non-contributory Old-Age Pensions Act followed in 1908, with the first payments made on 1 January 1909 while Lloyd George was Chancellor. The German scheme was partly designed to undercut socialist political movements by giving workers a stake in the existing order.",
+    "source": "https://www.ssa.gov/history/ottob.html",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -402,7 +402,7 @@
     "category": "firsts",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "The Bank of Japan was the first central bank to adopt quantitative easing (QE) as a policy tool, doing so in:",
+    "prompt": "The Bank of Japan is widely regarded as the first major central bank to adopt quantitative easing (QE) as a policy tool. In what year did it do so?",
     "choices": [
       "2001",
       "1997",
@@ -410,8 +410,8 @@
       "1991"
     ],
     "answer": "2001",
-    "explanation": "The Bank of Japan launched the first QE program in March 2001, purchasing government bonds to increase bank reserves after conventional rate cuts had pushed the policy rate to zero. The Fed, ECB, and Bank of England adopted similar programs after the 2008 financial crisis.",
-    "source": "https://www.boj.or.jp/en/",
+    "explanation": "In March 2001 the Bank of Japan announced a quantitative easing policy, targeting a large rise in banks' reserve balances at the BoJ and buying more government bonds to deliver it after conventional rate cuts had pushed the policy rate to near zero. The Fed, ECB and Bank of England adopted similar large-scale asset purchases after the 2008 financial crisis.",
+    "source": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2006/10/did-quantitative-easing-by-the-bank-of-japan-work/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -536,7 +536,7 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Karl Marx and Friedrich Engels published 'The Communist Manifesto' — the most influential socialist economic tract — in which year?",
+    "prompt": "Karl Marx and Friedrich Engels published 'The Communist Manifesto' — one of the most influential socialist tracts ever written — in which year?",
     "choices": [
       "1848",
       "1867",
@@ -544,8 +544,8 @@
       "1832"
     ],
     "answer": "1848",
-    "explanation": "The Manifesto of the Communist Party was published in February 1848, weeks before the European revolutions of that year. Marx's Capital (Das Kapital) followed in 1867. The Manifesto remains one of the most widely read political-economic documents in history.",
-    "source": null,
+    "explanation": "The Manifesto of the Communist Party was first published in London in February 1848 (around 21 February), just as the wave of revolutions of 1848 was breaking across Europe. Marx's Capital (Das Kapital, Volume I) followed in 1867. The Manifesto remains one of the most widely read political-economic documents in history.",
+    "source": "https://www.historyofinformation.com/detail.php?id=2655",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -594,8 +594,8 @@
     ],
     "order_by": "year of occurrence",
     "answer": "Bretton Woods Agreement → First GATT signed → Nixon ends dollar-gold convertibility → WTO replaces GATT",
-    "explanation": "Bretton Woods: 1944. GATT: 1947. Nixon closes the gold window: August 1971. WTO founded: January 1, 1995.",
-    "source": null,
+    "explanation": "Bretton Woods: July 1944. GATT: signed in Geneva in October 1947 (in force January 1948). Nixon closes the gold window: August 1971. WTO founded: January 1, 1995.",
+    "source": "https://www.britannica.com/topic/General-Agreement-on-Tariffs-and-Trade",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -892,7 +892,7 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The first index fund accessible to ordinary retail investors was launched by Vanguard in 1976. Who founded Vanguard and championed passive index investing against fierce industry opposition?",
+    "prompt": "Vanguard's 1976 fund is widely regarded as the first index fund available to ordinary retail investors. Who founded Vanguard and championed passive index investing against fierce industry opposition?",
     "choices": [
       "John 'Jack' Bogle",
       "Warren Buffett",
@@ -900,8 +900,8 @@
       "Charles Schwab"
     ],
     "answer": "John 'Jack' Bogle",
-    "explanation": "John Bogle launched the Vanguard First Index Investment Trust (now Vanguard 500 Index Fund) in August 1976. It was initially mocked as 'Bogle's Folly' by the investment industry, which derided passive investing as 'settling for average.' Bogle's core argument: most active managers underperform the market index after fees, so a low-cost index fund capturing market returns will beat most managers over time. Vanguard's unusual mutual ownership structure (fund shareholders own the company) meant it could continually reduce fees. Today Vanguard manages over $8 trillion.",
-    "source": null,
+    "explanation": "John Bogle launched the Vanguard First Index Investment Trust (now the Vanguard 500 Index Fund) in August 1976. It was initially mocked as 'Bogle's Folly' by the investment industry, which derided passive investing as 'settling for average.' Bogle's core argument: most active managers underperform the market index after fees, so a low-cost index fund capturing market returns will beat most managers over time. Vanguard's unusual mutual ownership structure (fund shareholders own the company) meant it could continually reduce fees. Today Vanguard manages well over $10 trillion.",
+    "source": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles/50-years-50-facts-indexing-since-1976.html",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1067,7 +1067,7 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "In July 2009, which country's central bank first set one of its key interest rates below zero?",
+    "prompt": "Which country's central bank cut one of its key interest rates below zero in July 2009, making it the first major central bank to do so?",
     "choices": [
       "Sweden",
       "Denmark",
@@ -1075,8 +1075,8 @@
       "Switzerland"
     ],
     "answer": "Sweden",
-    "explanation": "The Riksbank (Sweden's central bank) was technically the first to set a policy rate below zero — it briefly cut the deposit facility rate to -0.25% in July 2009, during the global financial crisis. However, most accounts point to Denmark's National Bank in 2012 as the first to deliberately adopt negative rates as a sustained policy tool (to defend the krone's peg to the euro). The ECB followed in 2014, Switzerland and Sweden in 2015, and Japan in 2016. The Riksbank exited negative rates in December 2019, before the Covid pandemic.",
-    "source": null,
+    "explanation": "Sweden's Riksbank cut its deposit rate to -0.25% in July 2009 during the global financial crisis, which is why it is often called the first major central bank to use a negative rate. Many accounts instead point to Denmark's Nationalbanken in July 2012 as the first to adopt negative rates as a sustained policy tool (to defend the krone's peg to the euro). The ECB followed in June 2014, Switzerland and Sweden (again, on its main policy rate) in 2014–15, and Japan in 2016. The Riksbank exited negative rates in December 2019, before the Covid pandemic.",
+    "source": "https://www.imf.org/external/pubs/ft/wp/2016/wp16172.pdf",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1095,7 +1095,7 @@
     "prompt": "What 1947 multilateral agreement, signed in Geneva by 23 countries, cut tariffs worldwide and later gave way to the WTO? Give its acronym.",
     "answer": "GATT",
     "explanation": "GATT was signed on October 30, 1947 by 23 nations as a provisional agreement to reduce tariffs and govern trade while the International Trade Organization (ITO) was being negotiated. The ITO never came into force (the US Senate refused to ratify it), so GATT became the de facto global trade regime. It underwent eight negotiating rounds, most famously the Kennedy Round (1960s) and Uruguay Round (1986–1994), which created the WTO in 1995. The Cobden-Chevalier Treaty (1860) was bilateral, not multilateral.",
-    "source": null,
+    "source": "https://www.britannica.com/topic/General-Agreement-on-Tariffs-and-Trade",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1116,7 +1116,7 @@
     "category": "firsts",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "Which country launched the world's first fully operational retail central bank digital currency, in October 2020?",
+    "prompt": "Which country is widely credited with launching the world's first fully operational retail central bank digital currency, in October 2020?",
     "choices": [
       "The Bahamas",
       "China",
@@ -1124,8 +1124,8 @@
       "Sweden"
     ],
     "answer": "The Bahamas",
-    "explanation": "The Bahamas launched the Sand Dollar in October 2020, becoming the first country to issue a fully operational retail CBDC (central bank digital currency available to the general public, not just financial institutions). The motivation: many Bahamian islands had poor banking infrastructure, and a digital currency accessible via mobile phone could improve financial inclusion. China's digital yuan (e-CNY) was in large-scale pilots by 2020 but not yet officially 'launched.' Nigeria's eNaira came in 2021.",
-    "source": null,
+    "explanation": "The Bahamas launched the Sand Dollar nationwide in October 2020 (after a pilot), and it is widely credited as the first fully launched retail CBDC (central bank digital currency available to the general public, not just financial institutions). The motivation: many Bahamian islands had poor banking infrastructure, and a digital currency accessible via mobile phone could improve financial inclusion. China's digital yuan (e-CNY) was in large-scale pilots by 2020 but not yet officially 'launched.' Nigeria's eNaira came in October 2021.",
+    "source": "https://www.cigionline.org/articles/can-a-central-bank-digital-currency-work-the-bahamas-offers-lessons/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1166,7 +1166,7 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Which city introduced the world's first congestion pricing scheme for a central zone, in 1975?",
+    "prompt": "Which city is widely regarded as having introduced the first congestion pricing scheme for a central zone, in 1975?",
     "choices": [
       "Singapore",
       "London",
@@ -1174,8 +1174,8 @@
       "Oslo"
     ],
     "answer": "Singapore",
-    "explanation": "Singapore introduced the world's first urban road pricing scheme in June 1975 — the Area Licensing Scheme, where drivers had to purchase and display a paper license to enter the Restricted Zone during peak hours. It required a toll collector inspection at entry points. The scheme dramatically reduced central-area congestion. Singapore replaced it with the fully electronic ERP system in 1998. London's Congestion Charge (2003) and Stockholm's pricing trial (2006) are later examples, but Singapore pioneered the concept nearly three decades earlier.",
-    "source": null,
+    "explanation": "Singapore introduced its Area Licensing Scheme on 1 June 1975, widely regarded as the world's first urban congestion pricing scheme: drivers had to buy and display a paper licence to enter the Restricted Zone during peak hours. The scheme sharply reduced central-area traffic. Singapore replaced it with the electronic ERP system in 1998. London's Congestion Charge (2003) and Stockholm's pricing trial (2006) are later examples, so Singapore pioneered the concept about three decades earlier.",
+    "source": "https://en.wikipedia.org/wiki/Area_Licensing_Scheme",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1217,7 +1217,7 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The first US state to enact a minimum wage law was:",
+    "prompt": "The first US state to enact a minimum wage law is widely recognized to be:",
     "choices": [
       "Massachusetts (1912)",
       "California (1913)",
@@ -1225,8 +1225,8 @@
       "Washington State (1913)"
     ],
     "answer": "Massachusetts (1912)",
-    "explanation": "Massachusetts enacted the first US minimum wage law in 1912 — applicable to women and minors. It was technically 'advisory' rather than compulsory. Oregon followed in 1913 with a more enforceable minimum wage for women. A national federal minimum wage didn't come until the Fair Labor Standards Act of 1938. New Zealand had enacted the world's first national minimum wage in 1894, covering female workers; Australia followed with wage boards in 1896.",
-    "source": null,
+    "explanation": "Massachusetts enacted the first US state minimum wage law in 1912, applying to women and minors. It was effectively voluntary, since the only penalty was publishing the names of employers who did not comply. Oregon followed in February 1913 with an enforceable minimum wage for women. A national federal minimum wage didn't come until the Fair Labor Standards Act of 1938. Internationally, New Zealand's 1894 arbitration law is generally cited as the first national system for setting minimum wages, and the Australian state of Victoria followed with wages boards in 1896.",
+    "source": "https://www.ebsco.com/research-starters/law/massachusetts-adopts-first-minimum-wage-law-united-states",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1268,7 +1268,7 @@
     "category": "firsts",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Which country was first to adopt an explicit constitutional 'debt brake' limiting government deficits, approved by referendum in 2001?",
+    "prompt": "Which country is widely regarded as the first to adopt a modern constitutional 'debt brake' limiting government deficits, approved by referendum in 2001?",
     "choices": [
       "Switzerland",
       "Germany",
@@ -1276,8 +1276,8 @@
       "Denmark"
     ],
     "answer": "Switzerland",
-    "explanation": "Switzerland's Schuldenbremse (debt brake) was approved by referendum in December 2001 and took effect in 2003. It requires the federal government to balance cyclically adjusted revenue and expenditure over a full business cycle. Germany's Schuldenbremse, added to the Basic Law (Grundgesetz) in 2009, limits structural federal deficits to 0.35% of GDP and came fully into force in 2016. Both have been widely cited as models for fiscal rules, though the German brake has been debated amid calls for major defence and infrastructure investment.",
-    "source": null,
+    "explanation": "Switzerland's Schuldenbremse (debt brake) was approved by referendum on 2 December 2001 (with about 85% voting yes) and was first applied in the 2003 budget. It caps federal spending at revenue adjusted for the economic cycle, so the budget balances over a full business cycle. Germany's Schuldenbremse, added to the Basic Law (Grundgesetz) in 2009 and modelled partly on the Swiss rule, limits the federal structural deficit to 0.35% of GDP and has bound the federal government fully since 2016. Both are widely cited as models for fiscal rules, though the German brake has been debated amid calls for major defence and infrastructure investment.",
+    "source": "https://www.efv.admin.ch/en/debt-brake-fp",
     "as_of": null,
     "time_sensitive": false,
     "tags": [

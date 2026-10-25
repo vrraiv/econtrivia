@@ -197,9 +197,9 @@
       "About 50%"
     ],
     "answer": "About 25%",
-    "explanation": "Energy products — dominated by crude oil and natural gas from Alberta's oil sands — consistently make up roughly 20–27% of Canada's total merchandise exports. Motor vehicles and parts are the second-largest category.",
-    "source": "https://natural-resources.canada.ca/energy-sources/fossil-fuels/crude-oil-industry-overview",
-    "as_of": "2023",
+    "explanation": "Energy products — dominated by crude oil and natural gas from Alberta's oil sands — have made up roughly a quarter of Canada's total merchandise exports in recent years (about $195 billion of $780 billion in 2024, per Statistics Canada). Motor vehicles and parts are the second-largest category.",
+    "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/250205/dq250205a-eng.htm",
+    "as_of": "2024",
     "time_sensitive": false,
     "tags": [
       "Canada",
@@ -388,11 +388,11 @@
       "Alberta",
       "Ontario"
     ],
-    "metric": "GDP per capita (Statistics Canada, 2022)",
+    "metric": "Nominal GDP per capita (Statistics Canada, 2024)",
     "answer": "Alberta",
-    "explanation": "Alberta's GDP per capita (roughly $90,000–$100,000 CAD) exceeds Ontario's (roughly $65,000–$70,000 CAD) due to its large energy sector. Alberta's fortunes rise and fall with oil prices, making it the wealthiest province during booms.",
+    "explanation": "Alberta's nominal GDP per capita was about $97,000 in 2024 versus about $74,000 for Ontario (Statistics Canada), and Alberta has led the large provinces for decades because of its energy sector. Its fortunes rise and fall with oil prices.",
     "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610022201",
-    "as_of": "2022",
+    "as_of": "2024",
     "time_sensitive": false,
     "tags": [
       "Alberta",
@@ -462,11 +462,11 @@
       "United States",
       "Canada"
     ],
-    "metric": "Gini coefficient of disposable income inequality (OECD data)",
+    "metric": "Gini coefficient of disposable income (OECD data, 2022–23)",
     "answer": "United States",
-    "explanation": "The US has a Gini coefficient of around 0.39–0.41 for disposable income, compared with Canada's ~0.30–0.31. The US has significantly higher pre-tax inequality and also does less redistribution through its tax-and-transfer system than Canada.",
-    "source": "https://stats.oecd.org/",
-    "as_of": "2021",
+    "explanation": "In OECD data for 2022–23 the US Gini coefficient of disposable income was about 0.39–0.40, compared with about 0.30–0.31 for Canada. The US also redistributes less through its tax-and-transfer system than Canada does.",
+    "source": "https://data-explorer.oecd.org/vis?df%5Bds%5D=DisseminateFinalDMZ&df%5Bid%5D=DSD_WISE_IDD%40DF_IDD&df%5Bag%5D=OECD.WISE.INE",
+    "as_of": "2023",
     "time_sensitive": false,
     "tags": [
       "Gini",
@@ -724,7 +724,7 @@
     "format": "tf",
     "prompt": "According to the Bank for International Settlements 2022 Triennial Survey, the euro was involved in more than half of all foreign exchange transactions globally.",
     "answer": false,
-    "explanation": "The euro was on one side of only about 31% of trades in the BIS 2022 survey. The US dollar was on one side of 88% of all over-the-counter FX transactions, essentially unchanged from 2019. (The shares add up to 200% because every trade involves two currencies.) The gap reflects the dollar's entrenched role as the global vehicle and reserve currency.",
+    "explanation": "The euro was on one side of only about 30.5% of trades in the BIS 2022 survey. The US dollar was on one side of 88% of all over-the-counter FX transactions, essentially unchanged from 2019. (The shares add up to 200% because every trade involves two currencies.) The gap reflects the dollar's entrenched role as the global vehicle and reserve currency.",
     "source": "https://www.bis.org/statistics/rpfx22.htm",
     "as_of": "2022",
     "time_sensitive": false,
@@ -840,11 +840,11 @@
       "Canada",
       "United Kingdom"
     ],
-    "metric": "Gini coefficient of disposable income inequality (OECD data, ~2020)",
+    "metric": "Gini coefficient of disposable income (OECD data, 2022–23)",
     "answer": "United Kingdom",
-    "explanation": "The UK's Gini coefficient of disposable income is around 0.35, against roughly 0.30 for Canada — the UK is one of the more unequal large European economies, though still less unequal than the US (~0.39). The Nordic countries sit lower, at roughly 0.26–0.28.",
-    "source": "https://stats.oecd.org/",
-    "as_of": "2020",
+    "explanation": "OECD data put the UK's Gini coefficient of disposable income at about 0.36–0.37 in 2022–23, against about 0.30–0.31 for Canada. The UK is among the more unequal large European economies, though still less unequal than the US (about 0.39–0.40). Denmark sits lower, at about 0.28.",
+    "source": "https://data-explorer.oecd.org/vis?df%5Bds%5D=DisseminateFinalDMZ&df%5Bid%5D=DSD_WISE_IDD%40DF_IDD&df%5Bag%5D=OECD.WISE.INE",
+    "as_of": "2023",
     "time_sensitive": false,
     "tags": [
       "Gini",
@@ -955,29 +955,29 @@
     "category": "data",
     "difficulty": 3,
     "format": "match",
-    "prompt": "Match each country to its approximate Gini coefficient of income inequality.",
+    "prompt": "Match each country to its approximate Gini coefficient of disposable income (OECD data, 2022–23).",
     "pairs": [
       [
         "United States",
         "~0.39"
       ],
       [
+        "United Kingdom",
+        "~0.36"
+      ],
+      [
         "Canada",
-        "~0.31"
+        "~0.30"
       ],
       [
         "Denmark",
         "~0.28"
-      ],
-      [
-        "South Africa",
-        "~0.63"
       ]
     ],
-    "answer": "United States→~0.39; Canada→~0.31; Denmark→~0.28; South Africa→~0.63",
-    "explanation": "A higher Gini indicates more inequality (0 = perfect equality, 1 = total inequality). South Africa has one of the world's highest Gini coefficients due to its apartheid legacy. Denmark's Nordic model produces one of the lowest. The US is notably more unequal than other wealthy democracies.",
-    "source": "https://stats.oecd.org/",
-    "as_of": "2020",
+    "answer": "United States→~0.39; United Kingdom→~0.36; Canada→~0.30; Denmark→~0.28",
+    "explanation": "A higher Gini means more inequality (0 = perfect equality, 1 = total inequality). In OECD data for 2022–23 the US was around 0.39–0.40, the UK around 0.36–0.37, Canada around 0.30–0.31 and Denmark around 0.28. The US is notably more unequal than other wealthy democracies, and Denmark's tax-and-transfer system keeps it among the least unequal.",
+    "source": "https://data-explorer.oecd.org/vis?df%5Bds%5D=DisseminateFinalDMZ&df%5Bid%5D=DSD_WISE_IDD%40DF_IDD&df%5Bag%5D=OECD.WISE.INE",
+    "as_of": "2023",
     "time_sensitive": false,
     "tags": [
       "Gini",
@@ -1087,9 +1087,9 @@
     "format": "tf",
     "prompt": "The United States consistently runs a large current account surplus in absolute dollar terms, exporting far more goods and services than it imports.",
     "answer": false,
-    "explanation": "The United States runs a current account deficit, not a surplus. It exceeded $900 billion in 2022, the largest in absolute dollar terms of any country. This is partly a function of the dollar's reserve currency status (foreigners willingly accumulate dollars), the US attracting global investment, and American consumers' appetite for imports. Germany and China typically run the largest surpluses.",
-    "source": "https://data.worldbank.org/",
-    "as_of": null,
+    "explanation": "The United States runs a current account deficit, not a surplus. It was about $944 billion in 2022, the largest deficit in absolute dollar terms of any country. This is partly a function of the dollar's reserve currency status (foreigners willingly accumulate dollars), the US attracting global investment, and American consumers' appetite for imports. China and Germany are among the countries that typically run large surpluses.",
+    "source": "https://www.bea.gov/news/blog/2023-03-23/us-current-account-deficit-widens-2022",
+    "as_of": "2022",
     "time_sensitive": false,
     "tags": [
       "current account",
@@ -1111,9 +1111,9 @@
       "Aluminium"
     ],
     "answer": "Oil and gas",
-    "explanation": "Norway discovered North Sea oil in the late 1960s. Rather than spending the windfall, the government established the Government Pension Fund Global in 1990 (the first deposit came in 1996). By 2024, the fund exceeded $1.7 trillion — more than $300,000 per Norwegian citizen — making it the world's largest sovereign wealth fund. Norway's example is frequently cited as a model for managing resource wealth sustainably.",
-    "source": "https://data.worldbank.org/",
-    "as_of": null,
+    "explanation": "Norway discovered North Sea oil in the late 1960s. Rather than spending the windfall, the government established the fund (then called the Government Petroleum Fund) in 1990, and the first deposit came in 1996. At the end of 2024 it was valued at about NOK 19.7 trillion, roughly US $1.7 trillion or more than $300,000 per Norwegian, making it the world's largest sovereign wealth fund. Norway's example is frequently cited as a model for managing resource wealth sustainably.",
+    "source": "https://www.nbim.no/en/about-us/about-the-fund/",
+    "as_of": "2024",
     "time_sensitive": false,
     "tags": [
       "Norway",
@@ -1136,7 +1136,7 @@
     ],
     "answer": "United States",
     "explanation": "The IMF allocates voting power based on economic quotas. The US holds roughly 16.5% of votes — enough to block any fundamental change requiring an 85% supermajority. This gives the US an effective veto over IMF governance reforms. The IMF managing director is traditionally European, while the World Bank president is traditionally American.",
-    "source": "https://www.imf.org/en/About/Factsheets/Sheets/2023/IMF-Quotas",
+    "source": "https://www.congress.gov/crs-product/IF10676",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1159,8 +1159,8 @@
       "About 25–30%"
     ],
     "answer": "About 58–60%",
-    "explanation": "The dollar's share of global reserves has gradually declined from about 70% in the 1990s to roughly 58–60% by 2023, as central banks diversified into euros, yen, sterling, and renminbi. Despite this erosion, the dollar remains by far the dominant reserve currency — the euro is a distant second at around 20%. The renminbi's share remains under 3%.",
-    "source": "https://data.imf.org/COFER",
+    "explanation": "According to the IMF's COFER data, the dollar's share of allocated global reserves has drifted down from about 70% around 2000 to roughly 58% by the end of 2023, as central banks diversified into the euro, yen, sterling and renminbi. Despite this erosion, the dollar remains by far the dominant reserve currency — the euro is a distant second at around 20%, and the renminbi's share is only about 2%.",
+    "source": "https://data.imf.org/en/datasets/IMF.STA:COFER",
     "as_of": "2023",
     "time_sensitive": true,
     "tags": [
@@ -1182,8 +1182,8 @@
     ],
     "metric": "total annual dollar value (2022–2023)",
     "answer": "Global remittances to developing countries",
-    "explanation": "Global remittances to low- and middle-income countries reached a record ~$669 billion in 2023 — more than three times total official development assistance (ODA) from all rich-country donors (~$211 billion in 2022). India receives the most remittances (~$125 billion/year), followed by Mexico and China. Remittances are a more stable and larger flow than foreign aid.",
-    "source": "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data",
+    "explanation": "Remittances to low- and middle-income countries were estimated at roughly $650–670 billion in 2023 (the World Bank's December 2023 brief said $669 billion; later revisions put it near $656 billion). That is about three times the roughly $211 billion of official development assistance from OECD donor countries in 2022. India receives the most remittances (about $125 billion a year), followed by Mexico and China. Remittances are a larger and more stable flow than foreign aid.",
+    "source": "https://www.worldbank.org/en/news/press-release/2023/12/18/remittance-flows-grow-2023-slower-pace-migration-development-brief",
     "as_of": "2023",
     "time_sensitive": false,
     "tags": [
@@ -1325,9 +1325,9 @@
       "About 15%"
     ],
     "answer": "About 45%",
-    "explanation": "The UBS Global Wealth Report estimates the top 1% own roughly 44–47% of all global wealth — a share that has risen over recent decades as asset prices (stocks, property) appreciated faster than wage income. The bottom 50% of the world's population own less than 1% of global wealth. Thomas Piketty's capital-accumulation thesis (r > g) is one influential theoretical explanation for this widening.",
-    "source": "https://data.worldbank.org/",
-    "as_of": "2023",
+    "explanation": "The UBS Global Wealth Report 2023 put the wealth share of the global top 1% of adults at 44.5% in 2022 (down from a higher share the year before, as asset prices fell). Wealth is far more concentrated than income: asset holders such as stock and property owners capture most of the gains when asset prices rise. Thomas Piketty's r > g thesis is one influential explanation for such concentration.",
+    "source": "https://www.ubs.com/global/en/media/display-page-ndp/en-20230815-global-wealth-report-2023.html",
+    "as_of": "2022",
     "time_sensitive": false,
     "tags": [
       "global inequality",
@@ -1397,10 +1397,10 @@
       "United Kingdom"
     ],
     "answer": "China",
-    "explanation": "The four largest banks by total assets — ICBC, China Construction Bank, Agricultural Bank of China, and Bank of China — are all Chinese state-owned banks. ICBC alone has assets exceeding $6 trillion. Chinese banks grew to dominate global rankings as China's economy expanded. JPMorgan Chase is the largest non-Chinese bank, typically ranking 5th–7th globally by assets.",
-    "source": "https://data.worldbank.org/",
-    "as_of": "2023",
-    "time_sensitive": false,
+    "explanation": "S&P Global Market Intelligence's rankings by total assets put four Chinese state-owned banks on top: ICBC, Agricultural Bank of China, China Construction Bank and Bank of China. ICBC alone has assets above $7 trillion. JPMorgan Chase is the largest non-Chinese bank, ranking fifth.",
+    "source": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/04/the-worlds-largest-banks-by-assets-2026",
+    "as_of": "2026",
+    "time_sensitive": true,
     "tags": [
       "banks",
       "China",
@@ -1484,10 +1484,10 @@
       "Bank of Japan",
       "US Federal Reserve"
     ],
-    "metric": "central bank balance sheet as a percentage of GDP (2023)",
+    "metric": "central bank balance sheet as a percentage of GDP (post-pandemic peak)",
     "answer": "Bank of Japan",
-    "explanation": "The Bank of Japan's balance sheet exceeded 120% of Japan's GDP by 2023 — by far the highest ratio among major central banks — after decades of quantitative easing, zero interest rates, and yield curve control. The Fed's balance sheet peaked at about 35% of US GDP in 2022 before shrinking through quantitative tightening. The BoJ's scale means it owns roughly half of Japan's government bond market.",
-    "source": "https://data.worldbank.org/",
+    "explanation": "At its post-pandemic peak the Bank of Japan's balance sheet was around 130% of Japan's GDP — by far the highest ratio among major central banks — after decades of quantitative easing, zero interest rates and yield curve control. The Fed's peaked at roughly 35% of US GDP in 2022 before shrinking through quantitative tightening. The BoJ also owns roughly half of Japan's government bond market.",
+    "source": "https://oecdecoscope.blog/2026/06/23/how-large-should-central-bank-balance-sheets-be/",
     "as_of": "2023",
     "time_sensitive": false,
     "tags": [
@@ -1596,29 +1596,29 @@
     "category": "data",
     "difficulty": 3,
     "format": "match",
-    "prompt": "Match each central bank to its approximate balance sheet size as a percentage of its country's GDP (around 2022–2023).",
+    "prompt": "Match each central bank to its approximate balance sheet size as a percentage of its country's GDP at the post-pandemic peak (2021–2022).",
     "pairs": [
       [
         "Bank of Japan",
-        "~120% of GDP"
+        "~130% of GDP"
       ],
       [
         "European Central Bank",
-        "~60% of GDP"
+        "~65% of GDP"
       ],
       [
         "US Federal Reserve",
-        "~30% of GDP"
+        "~35% of GDP"
       ],
       [
         "Bank of Canada",
-        "~10% of GDP"
+        "~25% of GDP"
       ]
     ],
-    "answer": "Bank of Japan→~120% of GDP, ECB→~60% of GDP, Federal Reserve→~30% of GDP, Bank of Canada→~10% of GDP",
-    "explanation": "The BoJ's extraordinary balance sheet (120%+ of GDP) reflects its decades-long experiment with quantitative and qualitative easing. The ECB's balance sheet swelled to ~60% of eurozone GDP after its PEPP and PSPP programs. The Fed's peaked at ~35% after COVID purchases. The Bank of Canada's balance sheet peaked at about 25% of GDP during COVID QE, then shrank rapidly through quantitative tightening by 2023.",
-    "source": "https://data.worldbank.org/",
-    "as_of": "2023",
+    "answer": "Bank of Japan→~130% of GDP; European Central Bank→~65% of GDP; US Federal Reserve→~35% of GDP; Bank of Canada→~25% of GDP",
+    "explanation": "Estimates differ by source and date, but at their post-pandemic peaks the Bank of Japan's balance sheet was around 130% of GDP, the ECB's almost 65% and the Fed's roughly 35% (both peaking in mid-2022), and the Bank of Canada's about 25%. All have since shrunk through quantitative tightening; the Bank of Canada's has fallen furthest, to roughly 10% of GDP.",
+    "source": "https://oecdecoscope.blog/2026/06/23/how-large-should-central-bank-balance-sheets-be/",
+    "as_of": "2022",
     "time_sensitive": false,
     "tags": [
       "central bank",
@@ -1804,8 +1804,8 @@
     "format": "tf",
     "prompt": "True or false: Argentina experienced annual inflation above 100% in 2023 — the highest rate among G20 countries — with prices more than doubling over the course of the year.",
     "answer": true,
-    "explanation": "Argentina's annual CPI inflation reached approximately 211% in 2023 — and accelerated toward 300% by early 2024. This was the result of decades of fiscal deficits funded by money printing, currency controls, and loss of central bank credibility. The economic crisis drove the election of President Javier Milei, who ran on a radical platform of dollarization and elimination of the central bank.",
-    "source": "https://data.worldbank.org/",
+    "explanation": "Argentina's official statistics agency (INDEC) reported inflation of 211.4% over the twelve months to December 2023, the highest in 32 years and far above any other G20 economy. It kept climbing to a peak near 290% year on year in April 2024. This was the result of decades of fiscal deficits funded by money printing, currency controls, and loss of central bank credibility. The crisis helped elect Javier Milei, who campaigned on dollarization and abolishing the central bank.",
+    "source": "https://www.batimes.com.ar/news/economy/inflation-in-argentina-surpassed-211-in-2023-reveals-indec.phtml",
     "as_of": "2023",
     "time_sensitive": false,
     "tags": [
@@ -1821,16 +1821,16 @@
     "category": "data",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "By 2023, the total market capitalization of all cryptocurrencies combined had recovered from its 2022 crash to approximately which level?",
+    "prompt": "By the end of 2023, the total market capitalization of all cryptocurrencies combined had recovered from its 2022 crash to approximately which level?",
     "choices": [
-      "About $1.5 trillion",
+      "About $1.7 trillion",
       "About $300 billion",
       "About $5 trillion",
       "About $10 trillion"
     ],
-    "answer": "About $1.5 trillion",
-    "explanation": "After peaking at roughly $3 trillion in November 2021, the crypto market cap collapsed to about $800 billion following the FTX collapse (November 2022). By late 2023, it recovered to about $1.5–1.7 trillion, and surged past $3 trillion in 2024 after Bitcoin ETF approvals in the US. Bitcoin alone typically accounts for about 45–55% of total crypto market cap.",
-    "source": "https://data.worldbank.org/",
+    "answer": "About $1.7 trillion",
+    "explanation": "After peaking at roughly $3 trillion in November 2021, the crypto market cap collapsed to about $800 billion following the FTX collapse (November 2022). It roughly doubled in 2023 to about $1.7 trillion by year-end, and later passed $3 trillion in 2024 after US spot Bitcoin ETFs were approved. Bitcoin alone typically accounts for about 45–55% of total crypto market cap.",
+    "source": "https://www.coingecko.com/research/publications/total-crypto-market-cap",
     "as_of": "2023",
     "time_sensitive": true,
     "tags": [

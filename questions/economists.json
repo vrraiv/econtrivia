@@ -12,8 +12,8 @@
       "Trickle-down"
     ],
     "answer": "The invisible hand",
-    "explanation": "From The Wealth of Nations (1776): each individual 'intends only his own gain' yet is 'led by an invisible hand to promote an end which was no part of his intention.' Smith used it sparingly — only three times across his collected works.",
-    "source": null,
+    "explanation": "From The Wealth of Nations (1776): each individual 'intends only his own gain' yet is 'led by an invisible hand to promote an end which was no part of his intention.' Smith used the phrase sparingly: just three times in his surviving works, once each in The History of Astronomy, The Theory of Moral Sentiments (1759) and The Wealth of Nations.",
+    "source": "https://www.worldeconomicsassociation.org/newsletterarticles/smith-invisible-hand/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -266,7 +266,7 @@
     "category": "economists",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "The 'Coase Theorem', developed by Ronald Coase, states that in the absence of transaction costs, parties will negotiate to an efficient outcome regardless of the initial assignment of:",
+    "prompt": "The 'Coase Theorem', drawn from Ronald Coase's work, states that in the absence of transaction costs, parties will negotiate to an efficient outcome regardless of the initial assignment of:",
     "choices": [
       "property rights",
       "income distribution",
@@ -274,8 +274,8 @@
       "tax liability"
     ],
     "answer": "property rights",
-    "explanation": "If a factory pollutes a river, it doesn't matter whether the factory or the fishermen have the legal right — they will bargain to the efficient level of pollution. Coase's insight shifted economics toward examining transaction costs as the reason markets sometimes fail. He won the Nobel Prize in 1991.",
-    "source": null,
+    "explanation": "If a factory pollutes a river, it doesn't matter whether the factory or the fishermen have the legal right: they will bargain to the efficient level of pollution. The name was coined by George Stigler from Coase's 1960 paper 'The Problem of Social Cost', and Coase stressed that real-world transaction costs are rarely zero, which is why the initial assignment of rights often matters. He won the Nobel Prize in 1991.",
+    "source": "https://en.wikipedia.org/wiki/Coase_theorem",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -322,8 +322,8 @@
       "Jeffrey Sachs"
     ],
     "answer": "Amartya Sen",
-    "explanation": "Sen argued that income is merely a means; what matters is whether people can actually do things — be educated, healthy, politically active, socially engaged. His approach underpins the UN Development Program's Human Development Index, created in 1990 by Mahbub ul Haq with Sen's input.",
-    "source": null,
+    "explanation": "Sen argued that income is merely a means; what matters is whether people can actually do things, such as be educated, healthy, politically active, socially engaged. His approach underpins the Human Development Index, first published in the UN Development Programme's 1990 Human Development Report, created by Pakistani economist Mahbub ul Haq with Sen's input.",
+    "source": "https://en.wikipedia.org/wiki/Human_Development_Report",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -434,16 +434,16 @@
     "category": "economists",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Which classical economist is most associated with the theory of differential rent, in which landowners gain as population growth pushes farming onto poorer land?",
+    "prompt": "Which economist is most associated with the theory of differential rent, in which landowners gain as population growth pushes farming onto poorer land?",
     "choices": [
       "David Ricardo",
       "Adam Smith",
-      "Karl Marx",
-      "Henry George"
+      "Alfred Marshall",
+      "John Maynard Keynes"
     ],
     "answer": "David Ricardo",
-    "explanation": "As population grows, farmers must cultivate progressively worse land. The 'surplus' that better land produces over the worst land in use becomes rent. Landlords gain without any effort — a windfall Ricardo saw as economically unproductive. Henry George later proposed taxing this land rent away entirely.",
-    "source": null,
+    "explanation": "As population grows, farmers must cultivate progressively worse land. The 'surplus' that better land produces over the worst land in use becomes rent. Landlords gain without any effort, a windfall Ricardo saw as economically unproductive. The idea is called Ricardian rent theory, although Malthus, Edward West and Robert Torrens published very similar ideas in 1815, within weeks of Ricardo's Essay on Profits; Ricardo's 1817 Principles made it famous. Henry George later proposed taxing land rent away.",
+    "source": "https://www.hetwebsite.net/het/profiles/ricardo.htm",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -484,8 +484,8 @@
       "The Affluent Society"
     ],
     "answer": "The Road to Serfdom",
-    "explanation": "Hayek argued that planners must inevitably override individual choices to enforce the plan, concentrating power in ever-fewer hands. Written while he watched Nazi and Soviet planning, the book became a touchstone for free-market conservatism and was famously condensed into a pamphlet by Reader's Digest.",
-    "source": null,
+    "explanation": "Hayek argued that planners must inevitably override individual choices to enforce the plan, concentrating power in ever-fewer hands. Written in the last years of the Second World War, with Nazi and Soviet planning in view, the book became a touchstone for free-market conservatism, and a condensed version in the April 1945 Reader's Digest reached a mass audience.",
+    "source": "https://press.uchicago.edu/ucp/books/book/chicago/R/bo4138549.html",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -612,12 +612,12 @@
     "prompt": "Which economist is most associated with the theory that free markets can fail due to 'externalities' — costs or benefits that spill over onto third parties not involved in a transaction?",
     "choices": [
       "Arthur Pigou",
-      "Alfred Marshall",
+      "Paul Samuelson",
       "John Hicks",
       "Vilfredo Pareto"
     ],
     "answer": "Arthur Pigou",
-    "explanation": "In The Economics of Welfare (1920), Pigou formalized externalities and proposed corrective taxes — now called 'Pigouvian taxes' — to align private and social costs. A tax on carbon equal to the social cost of emissions is the classic modern example of a Pigouvian tax.",
+    "explanation": "Building on Alfred Marshall's idea of 'external economies', Pigou developed the analysis of externalities in The Economics of Welfare (1920) and proposed corrective taxes, now called 'Pigouvian taxes', to align private and social costs. A tax on carbon equal to the social cost of emissions is the classic modern example.",
     "source": null,
     "as_of": null,
     "time_sensitive": false,
@@ -641,8 +641,8 @@
       "Inferior goods"
     ],
     "answer": "Public goods",
-    "explanation": "Galbraith coined the phrase 'private affluence, public squalor' to describe a society that could afford tail fins on cars but couldn't fund decent schools or clean streets. He became a public intellectual critics accused of being more persuasive than rigorous, but his questions about what GDP measures remain relevant.",
-    "source": null,
+    "explanation": "In the book Galbraith wrote of 'private opulence and public squalor' (often paraphrased as 'private affluence, public squalor'): a society that could afford air-conditioned, power-steered cars but not decent schools, parks or clean streets. His critics called him more persuasive than rigorous, but his questions about what GDP measures remain relevant.",
+    "source": "https://en.wikiquote.org/wiki/John_Kenneth_Galbraith",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -938,8 +938,8 @@
       "Franco Modigliani"
     ],
     "answer": "James Tobin",
-    "explanation": "Tobin's q = market value / replacement cost of physical capital. If q > 1, the market values capital above what it costs to create new capital, so businesses should invest more. If q < 1, it's cheaper to buy existing capacity than build new, so investment declines. Tobin's q is used to predict investment cycles and assess stock market valuations (when aggregate q is high, the whole market may be overvalued). Tobin won the 1981 Nobel Prize.",
-    "source": null,
+    "explanation": "Tobin's q = market value / replacement cost of physical capital, first proposed by Brainard and Tobin (1968) and Tobin (1969). If q > 1, the market values capital above what it costs to create new capital, so businesses should invest more. If q < 1, it's cheaper to buy existing capacity than build new, so investment declines. Tobin's q is used to predict investment cycles and assess stock market valuations (when aggregate q is high, the whole market may be overvalued). Tobin won the 1981 Nobel Prize.",
+    "source": "https://elischolar.library.yale.edu/cowles-discussion-paper-series/477/",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1062,8 +1062,8 @@
       "Informed technocrats"
     ],
     "answer": "Self-interested agents",
-    "explanation": "Buchanan's 'politics without romance' applied the standard economic assumption of self-interest to government actors. Politicians maximize votes; bureaucrats maximize budgets; interest groups maximize rents. This leads to systematic government failures: spending beyond the socially optimal level, regulatory capture, deficit bias, and concentrated benefits at diffuse costs. Buchanan's work provided the intellectual foundation for constitutional constraints on government (balanced budget amendments, independent central banks, etc.).",
-    "source": null,
+    "explanation": "Buchanan, who won the 1986 Nobel, described public choice as 'politics without romance': it applies the standard economic assumption of self-interest to government actors. Politicians seek votes; bureaucrats, in William Niskanen's budget-maximizing model, seek bigger budgets; interest groups seek rents. This points to systematic government failures such as spending beyond the socially optimal level, regulatory capture, deficit bias, and concentrated benefits with diffuse costs. Buchanan's work provided the intellectual foundation for constitutional constraints on government, such as balanced budget rules and independent central banks.",
+    "source": "https://en.wikipedia.org/wiki/Public_choice",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1087,8 +1087,8 @@
       "William Sharpe"
     ],
     "answer": "Robert Shiller",
-    "explanation": "Shiller's CAPE ratio smooths out business cycle fluctuations by using 10-year average earnings. When CAPE is high relative to historical norms, subsequent 10-year returns have historically been lower than average. Shiller's 2000 book 'Irrational Exuberance' (published just as the dot-com bubble peaked) used CAPE to warn of overvaluation. A high CAPE doesn't tell you when a crash will occur — but Shiller showed that stock prices are far more volatile than underlying fundamentals justify.",
-    "source": null,
+    "explanation": "The CAPE ratio was popularized by Robert Shiller and John Campbell (1988 paper) and builds on Benjamin Graham and David Dodd's 1934 advice to divide price by a multi-year average of earnings. It smooths out business cycle fluctuations by using 10-year average inflation-adjusted earnings. When CAPE is high relative to historical norms, subsequent 10-year returns have historically been lower than average. Shiller's 2000 book 'Irrational Exuberance' (published just as the dot-com bubble peaked) used CAPE to warn of overvaluation. A high CAPE doesn't tell you when a crash will occur, but Shiller showed that stock prices are more volatile than underlying fundamentals justify. He shared the 2013 Nobel Prize.",
+    "source": "https://en.wikipedia.org/wiki/Cyclically_adjusted_price-to-earnings_ratio",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1218,7 +1218,7 @@
     "category": "economists",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Nouriel Roubini earned the nickname 'Dr. Doom' for warning of the 2008 crisis. In which year did he give his famous warning at the IMF?",
+    "prompt": "Nouriel Roubini earned the nickname 'Dr. Doom' for warning of the 2008 crisis. In which year did he first give his famous warning to an IMF audience?",
     "choices": [
       "2006",
       "2004",
@@ -1226,9 +1226,9 @@
       "2008"
     ],
     "answer": "2006",
-    "explanation": "Roubini presented his crisis forecast at the IMF in 2006, predicting a housing bust, bank failures, and deep recession. Much of the audience was sceptical. When the 2008 crisis unfolded almost exactly as he described, Roubini became globally famous — though economists debate whether his prediction was based on rigorous modelling or narrative-style forecasting. He continued to make dire predictions about the global economy, earning his 'Dr. Doom' moniker.",
-    "source": null,
-    "as_of": null,
+    "explanation": "On 7 September 2006 Roubini told an IMF seminar that the US faced a 'once-in-a-lifetime' housing bust, an oil shock, falling consumer confidence and ultimately a deep recession; much of the audience was sceptical. He repeated the warning at another IMF seminar in September 2007. When the 2008 crisis unfolded broadly as he described, he became globally famous, though economists debate whether his call reflected rigorous modelling or narrative-style forecasting, and he kept making dire predictions afterwards.",
+    "source": "https://www.imf.org/external/pubs/ft/fandd/2009/03/people.htm",
+    "as_of": "2026-10",
     "time_sensitive": false,
     "tags": [
       "Nouriel Roubini",
@@ -1413,7 +1413,7 @@
     "category": "economists",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Acemoglu, Johnson and Robinson's famous 2001 paper used which historical variable as a natural experiment for institutional quality?",
+    "prompt": "Acemoglu, Johnson and Robinson's famous 2001 paper used which historical variable as an instrument for institutional quality?",
     "choices": [
       "Settler mortality",
       "Distance from equator",
@@ -1422,7 +1422,7 @@
     ],
     "answer": "Settler mortality",
     "explanation": "Their 2001 AER paper 'The Colonial Origins of Comparative Development' used European settler mortality as an instrument for institutional quality. Where disease made European settlement risky (Africa, Caribbean, South America), colonizers set up extractive institutions to exploit resources without settling. Where conditions allowed settlement (North America, Australia, New Zealand), they transplanted inclusive institutions. Centuries later, places with inclusive institutions are much richer, even after controlling for geography and many other factors.",
-    "source": null,
+    "source": "https://www.aeaweb.org/articles?id=10.1257%2Faer.91.5.1369",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1491,8 +1491,8 @@
       "George Stigler"
     ],
     "answer": "Anne Krueger",
-    "explanation": "Krueger defined rent-seeking as competition to capture 'rents' — income above the competitive return — created by government policies (import quotas, licenses, regulations). Firms spend real resources lobbying for such rents; this spending is a deadweight social cost with no corresponding output. The concept explains why import quotas are worse than tariffs (quotas create rents captured by importers; tariffs at least go to the government) and why deregulation improves efficiency. It became central to public choice theory.",
-    "source": null,
+    "explanation": "Krueger defined rent-seeking in 'The Political Economy of the Rent-Seeking Society' (1974) as competition to capture 'rents', income above the competitive return, created by government policies such as import quotas and licences. Firms spend real resources lobbying for such rents; this spending is a deadweight social cost with no corresponding output. Gordon Tullock's 1967 paper on the welfare costs of tariffs, monopolies and theft had laid the groundwork, but he did not use the term. The concept explains why import quotas can be worse than tariffs (quotas create rents captured by licence holders; tariffs at least raise revenue for the government) and became central to public choice theory.",
+    "source": "https://en.wikipedia.org/wiki/Rent-seeking",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1508,15 +1508,15 @@
     "category": "economists",
     "difficulty": 1,
     "format": "short",
-    "prompt": "Which economist is most associated with the phrase 'there is no such thing as a free lunch' — meaning that every choice has an opportunity cost, even if it appears free at first?",
+    "prompt": "Which economist is most associated with popularizing 'there is no such thing as a free lunch', meaning every choice has an opportunity cost, even if it appears free?",
     "answer": "Milton Friedman",
     "accept": [
       "Milton Friedman",
       "Friedman",
       "milton friedman"
     ],
-    "explanation": "Although the phrase predates Friedman (it appeared in Robert Heinlein's 1966 novel 'The Moon Is a Harsh Mistress'), Milton Friedman's 1975 book of the same title and his use of it in speeches and interviews made it synonymous with free-market economics. The phrase captures the opportunity cost principle: nothing is truly free because obtaining it requires giving up something else, even if you don't pay money for it.",
-    "source": null,
+    "explanation": "Friedman is the economist most tied to the phrase: his 1975 book of essays took it as its title, and he used it often. But he did not coin it. It appeared in print by 1938 (a newspaper article by Walter Morrow), and science-fiction author Robert Heinlein popularized it, as 'TANSTAAFL', in his 1966 novel 'The Moon Is a Harsh Mistress'. The phrase captures the opportunity cost principle: nothing is truly free because obtaining it requires giving up something else.",
+    "source": "https://en.wikipedia.org/wiki/No_such_thing_as_a_free_lunch",
     "as_of": null,
     "time_sensitive": false,
     "tags": [

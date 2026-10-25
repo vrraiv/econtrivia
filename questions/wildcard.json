@@ -12,8 +12,8 @@
       "Dumping"
     ],
     "answer": "Captive pricing",
-    "explanation": "Captive pricing (a form of two-part pricing): a low entry price gets you in, then the seller extracts surplus on add-ons once you are locked in. Same logic as cheap printers with expensive ink, or cheap razors with pricey blades.",
-    "source": null,
+    "explanation": "Captive (product) pricing, closely related to two-part pricing: a low entry price gets you in, then the seller earns most of its profit on add-ons once you are inside. Same logic as cheap printers with expensive ink, or cheap razors with pricey blades. Concessions are a small share of cinema revenue but a large share of its profit, because exhibitors keep all of the concession revenue but share ticket revenue with the studios.",
+    "source": "https://www.gsb.stanford.edu/insights/why-does-movie-popcorn-cost-so-much",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -191,16 +191,16 @@
     "category": "wildcard",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "In a 2008 brain-scan study, people sipped identical wine labelled $5 or $45. Which brain region, linked to experienced pleasantness, lit up more for the $45 label?",
+    "prompt": "In a 2008 PNAS brain-scan study (Plassmann, O'Doherty, Shiv and Rangel), people sipped identical wine labelled $5 or $45. Which region, linked to experienced pleasantness, was more active for the $45 label?",
     "choices": [
-      "Medial orbitofrontal cortex",
-      "Dorsolateral prefrontal cortex",
-      "Anterior cingulate cortex",
-      "Ventral striatum"
+      "Orbitofrontal cortex",
+      "Motor cortex",
+      "Visual cortex",
+      "Cerebellum"
     ],
-    "answer": "Medial orbitofrontal cortex",
-    "explanation": "The higher price appeared to change the experienced pleasure itself, not just the reported preference. That goes beyond Veblen goods, where a high price signals status, to suggest that price expectations can alter the hedonic experience. The implication is unsettling: charging more can make a product feel genuinely better to the consumer.",
-    "source": null,
+    "answer": "Orbitofrontal cortex",
+    "explanation": "Plassmann and colleagues found that a higher stated price raised both reported pleasantness and activity in the medial orbitofrontal cortex, a region widely linked to experienced pleasantness. The price appeared to change the experienced pleasure itself, not just the reported preference. That goes beyond Veblen goods, where a high price signals status, to suggest that price expectations can alter the hedonic experience. The implication is unsettling: charging more can make a product feel genuinely better to the consumer.",
+    "source": "https://www.rnl.caltech.edu/publications/pdf/plassmann2008.pdf",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -379,23 +379,24 @@
     "category": "wildcard",
     "difficulty": 3,
     "format": "mc",
-    "prompt": "Rising assortative mating means people increasingly marry partners with similar education and income. What does this do to household income inequality?",
+    "prompt": "Greenwood and co-authors link rising US household income inequality partly to people increasingly marrying partners with similar education and income. What is this pattern called?",
     "choices": [
-      "Raises inequality",
-      "Lowers inequality",
-      "No effect",
-      "Lowers it, then raises it"
+      "Assortative mating",
+      "Tiebout sorting",
+      "Adverse selection",
+      "Hypergamy"
     ],
-    "answer": "Raises inequality",
-    "explanation": "When high earners marry high earners (and low earners marry low earners), two incomes compound the advantage at the top and disadvantage at the bottom. Studies by Greenwood et al. (2014) found that if 1960 mating patterns had persisted to 2005, the US Gini coefficient would have been meaningfully lower. It's a structural driver of inequality that is invisible to wage statistics alone.",
-    "source": null,
+    "answer": "Assortative mating",
+    "explanation": "Assortative mating is the tendency to pair up with someone similar to yourself. When high earners marry high earners (and low earners marry low earners), two incomes compound the advantage at the top and the disadvantage at the bottom. Greenwood, Guner, Kocharkov and Santos (2014) estimated that if US husbands and wives had been matched randomly in 2005, the Gini coefficient of household income would have been about 0.34 instead of the actual 0.43. Tiebout sorting is people choosing communities by taxes and services; hypergamy is marrying up in status.",
+    "source": "https://www.aeaweb.org/articles?id=10.1257%2Faer.104.5.348",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
       "assortative mating",
       "inequality",
       "household income",
-      "Gini"
+      "Gini",
+      "Greenwood"
     ]
   },
   {
@@ -501,8 +502,8 @@
       "Autocorrelation"
     ],
     "answer": "Endogeneity",
-    "explanation": "This is a classic endogeneity/reverse causality problem: immigrants are attracted to places with strong labour markets, so naïve regressions find that more immigration correlates with lower unemployment — the opposite of the feared effect. Card's famous Mariel Boatlift study (1990) exploited a natural experiment to get around this, finding minimal wage effects.",
-    "source": null,
+    "explanation": "This is a classic endogeneity (reverse causality) problem: immigrants are attracted to places with strong labour markets, so naïve regressions can find that more immigration goes with lower unemployment even if immigration itself does not cause it. David Card's 1990 study of the Mariel Boatlift used a sudden, unplanned inflow into Miami as a natural experiment and found virtually no effect on the wages or unemployment of less-skilled workers. The result is contested: George Borjas (2017) reanalyzed the episode for high school dropouts and found wage declines of 10 to 30 percent, and the debate over method and data continues.",
+    "source": "https://journals.sagepub.com/doi/10.1177/001979399004300205",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -951,7 +952,7 @@
     ],
     "answer": "Salary inversion",
     "explanation": "Salary inversion is the result of wage compression: competitive hiring pushes entry salaries up with the market, while incumbents get smaller incremental raises unless they threaten to quit. The cost of turnover and the firm's fear of setting a precedent for raises keep many firms from fixing it.",
-    "source": null,
+    "source": "https://en.wikipedia.org/wiki/Salary_inversion",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1000,7 +1001,7 @@
     ],
     "answer": "Skilled immigration",
     "explanation": "The standard resource curse mechanisms are: (1) Dutch disease — currency appreciation destroys manufacturing; (2) rent-seeking — fighting over oil rents rather than building productive businesses; (3) volatility — commodity prices are volatile, causing boom-bust cycles; (4) weak institutions — governments with oil revenues don't need taxes ('no taxation, no representation' — in reverse). Skilled immigration driving out local workers is not a standard resource curse mechanism; if anything, resource booms tend to attract labour inflows.",
-    "source": null,
+    "source": "https://www.cato.org/policy-analysis/curse-or-blessing-how-institutions-determine-success-resource-rich-economies",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1016,7 +1017,7 @@
     "category": "wildcard",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "After 9/11, Estée Lauder's Leonard Lauder noticed cosmetics sales rising even as the economy sank. What name is given to this consumer behaviour?",
+    "prompt": "After 9/11, Estée Lauder chairman Leonard Lauder said his company's sales of one small beauty product rose even as the economy sank. What name is given to this consumer behaviour?",
     "choices": [
       "Lipstick effect",
       "Veblen effect",
@@ -1024,8 +1025,8 @@
       "Wealth effect"
     ],
     "answer": "Lipstick effect",
-    "explanation": "When people can't afford new cars or vacations, they treat themselves to small luxuries instead — lipstick, artisan coffee, premium chocolate, cinema tickets. This is sometimes called 'trading up in small categories while trading down overall.' The empirical evidence is mixed: some recessions show the effect, others don't. It relates to the broader economic concept of inferior goods and substitution effects.",
-    "source": null,
+    "explanation": "Leonard Lauder said that sales of lipstick rose after the 2001 attacks and publicized the idea in 2008 as a \"leading lipstick indicator\". The hypothesis is that when people cannot afford big-ticket items such as new cars or vacations, they treat themselves to small luxuries instead. The empirical evidence is mixed: some recessions show the effect, others do not. It differs from the Veblen effect (demand rising with price for status) and the Giffen effect (demand rising with price for a staple).",
+    "source": "https://en.wikipedia.org/wiki/Lipstick_effect",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1292,7 +1293,7 @@
     ],
     "answer": "The hot hand",
     "explanation": "Gilovich, Vallone and Tversky found that NBA shooting sequences looked essentially random, with no meaningful correlation between one shot and the next, yet players, coaches and fans firmly believed in the hot hand. They blamed the representativeness heuristic: random sequences contain long streaks that look non-random to us. Later work complicates the story: Miller and Sanjurjo (2018) showed the original statistical test was biased and found a small real hot-hand effect, so the belief may be exaggerated rather than entirely mistaken.",
-    "source": null,
+    "source": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA14943",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1367,7 +1368,7 @@
     ],
     "answer": "Loss aversion",
     "explanation": "Loss aversion creates 'nominal loss aversion' in housing: sellers anchor to their purchase price and refuse to sell at a loss even when the price is fair given current market conditions. This 'housing market stickiness' means that when demand falls, transaction volumes collapse (because sellers won't cut) rather than prices immediately clearing — markets can freeze up. Behavioural economists Genesove and Mayer documented this empirically in Boston condo markets.",
-    "source": null,
+    "source": "https://www.nber.org/papers/w8143",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1502,8 +1503,8 @@
       "Short selling"
     ],
     "answer": "Rare disasters",
-    "explanation": "Mehra and Prescott identified the puzzle in 1985. Robert Barro, building on Thomas Rietz, developed the rare-disaster hypothesis as one leading explanation: the historical sample may contain too few catastrophes (world wars, depressions, hyperinflations) for investors' fears to show up in the data. If investors rationally fear such episodes, they would demand high compensation for holding stocks even if the disasters never occurred in the sample. Other explanations include habit formation, long-run risk and limited stock-market participation. None is universally accepted.",
-    "source": null,
+    "explanation": "Mehra and Prescott identified the puzzle in 1985. Thomas Rietz (1988) showed that a small probability of a very large fall in consumption could produce a large equity premium, and Robert Barro (2006) developed this with long-run international data on 20th-century disasters (world wars, depressions, pandemics), estimating a disaster probability of roughly 2% a year. Investors who rationally fear such rare episodes demand high compensation for holding stocks, even if a given historical sample contains few of them. Other explanations include habit formation, long-run risk and limited stock-market participation. None is universally accepted.",
+    "source": "https://dash.harvard.edu/bitstream/handle/1/3208215/Barro_RareDisasters.pdf",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1595,8 +1596,8 @@
       "Adverse selection"
     ],
     "answer": "Escalation of commitment",
-    "explanation": "Government programs suffer from 'escalation of commitment' — the same bias as throwing good money after bad. Politicians who cancel a program absorb the political blame for the entire failed investment. Contractors employed on the program lobby for continuation. Bureaucrats whose careers are tied to the project fight for it. The UK's NHS IT program (ultimately scrapped at £10 billion loss) and many US defence systems illustrate this. The economic recommendation is to evaluate programs on future marginal value — ignoring sunk costs — but political economy makes this very difficult.",
-    "source": null,
+    "explanation": "Escalation of commitment (named by Barry Staw in 1976) is closely related to the sunk cost fallacy: past, unrecoverable spending is used to justify throwing good money after bad. In government, politicians who cancel a program absorb the blame for the whole failed investment, contractors lobby for continuation, and officials whose careers are tied to the project fight for it. The UK's NHS National Programme for IT, dismantled in 2011 after roughly £7.3 billion had been spent (later estimates of its total cost exceed £10 billion), is a frequently cited example. The economic recommendation is to judge programs on future marginal value, ignoring sunk costs, but political economy makes this very difficult.",
+    "source": "https://en.wikipedia.org/wiki/Escalation_of_commitment",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1669,8 +1670,8 @@
       "Transaction costs"
     ],
     "answer": "Fixed costs",
-    "explanation": "Microsoft spent billions developing Windows; each additional copy cost almost nothing to distribute. Pricing at marginal cost (~$0) would never recoup development costs. So digital firms use: (1) subscription models (Netflix, Spotify); (2) advertising-supported free access (Google, Meta); (3) freemium (Spotify, LinkedIn); or (4) one-time licence fees. The economics of near-zero marginal cost are a key reason digital markets tend toward 'winner-take-most' outcomes — once you've covered fixed costs, you can price very aggressively.",
-    "source": null,
+    "explanation": "Software has large up-front development costs (fixed costs) but each additional copy costs almost nothing to distribute. Pricing at marginal cost (about $0) would never recoup development costs. So digital firms use: (1) subscription models (Netflix, Spotify); (2) advertising-supported free access (Google, Meta); (3) freemium tiers (Spotify, LinkedIn); or (4) one-time licence fees. Near-zero marginal cost is one reason digital markets tend toward 'winner-take-most' outcomes: once fixed costs are covered, a firm can price very aggressively.",
+    "source": "https://www.researchgate.net/publication/5198115_Pricing_Digital_Goods_Discontinuous_Costs_and_Shared_Infrastructure",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1712,8 +1713,8 @@
       "Framing effect"
     ],
     "answer": "Decoy effect",
-    "explanation": "The overpriced medium is a decoy: few people choose it, but it makes the large look like a bargain by comparison, steering buyers from the cheap option to the pricier one. Dan Ariely's Economist subscription experiment (web-only $59, print-only $125, print-and-web $125) showed the same asymmetric dominance effect.",
-    "source": null,
+    "explanation": "The medium is a decoy: few people choose it, but it makes the large look like a bargain by comparison, steering buyers from the cheap option to the pricier one. Dan Ariely's well-known Economist subscription demonstration (web-only $59, print-only $125, print-and-web $125) reported the same asymmetric dominance effect: with the decoy, 84% chose print-and-web; without it, 32% did. How large and reliable the effect is in real markets is debated, since some replications find it smaller.",
+    "source": "https://en.wikipedia.org/wiki/Decoy_effect",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1828,7 +1829,7 @@
     "category": "wildcard",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "People value furniture they assembled themselves more than an identical ready-made piece. Named after a Swedish furniture company, what is this effect?",
+    "prompt": "People who assemble a product themselves tend to value it far more than an identical ready-made one. What is this bias called?",
     "choices": [
       "IKEA effect",
       "Endowment effect",
@@ -1836,8 +1837,8 @@
       "Sunk-cost effect"
     ],
     "answer": "IKEA effect",
-    "explanation": "Norton, Mochon, and Ariely (2012) showed that people valued their self-assembled IKEA furniture comparably to professional work — and were willing to pay far more for objects they built than for identical ready-made versions. This 'IKEA effect' is a variant of the endowment effect combined with labour justification bias. It has implications for product design (involvement increases attachment), education (struggling with problems improves learning), and investment (people overvalue stocks they researched themselves).",
-    "source": null,
+    "explanation": "Norton, Mochon and Ariely (2012) ran experiments in which people assembled IKEA boxes, folded origami or built Lego sets. Builders were willing to pay much more for their own creations than non-builders were for identical ones, and valued them about as highly as expert-made versions. They named it the IKEA effect. It is related to effort justification and the endowment effect, and has implications for product design (involvement increases attachment) and education (struggling with problems can deepen learning).",
+    "source": "https://www.hbs.edu/ris/Publication%20Files/norton%20mochon%20ariely_6f7b1134-06ef-4940-a2a5-ba1b3be7e47e.pdf",
     "as_of": null,
     "time_sensitive": false,
     "tags": [

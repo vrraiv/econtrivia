@@ -474,7 +474,7 @@
     ],
     "answer": "78%",
     "explanation": "The NASDAQ peaked at 5,048 in March 2000 and bottomed at around 1,114 in October 2002 — a fall of about 78%. Hundreds of dot-com companies with no revenue or profits had been valued in the billions; most went bankrupt. A few survivors — Amazon, Google — went on to dominate the economy.",
-    "source": null,
+    "source": "https://en.wikipedia.org/wiki/Stock_market_downturn_of_2002",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -585,7 +585,7 @@
     "category": "history",
     "difficulty": 1,
     "format": "mc",
-    "prompt": "The Tennessee Valley Authority, a 1933 New Deal agency, built dams across a poor rural region mainly to supply which new utility service?",
+    "prompt": "The Tennessee Valley Authority, a 1933 New Deal agency, built dams across a poor rural region and is best known for bringing which new utility service to its farms and towns?",
     "choices": [
       "Electricity",
       "Telephones",
@@ -593,8 +593,8 @@
       "Paved roads"
     ],
     "answer": "Electricity",
-    "explanation": "The TVA built a system of dams along the Tennessee River, providing cheap hydroelectric power to one of America's poorest regions. It became a model for large-scale government-led development, debated ever since as a success story of industrial planning versus a cautionary tale of cost overruns.",
-    "source": null,
+    "explanation": "The TVA was created to control floods, improve navigation and develop the Tennessee River basin, but its dams are best remembered for cheap hydroelectric power: only about 3% of valley farms had electricity in 1933. It became a model for large-scale government-led development, debated ever since as a success story of industrial planning versus a cautionary tale of cost overruns.",
+    "source": "https://www.britannica.com/money/Tennessee-Valley-Authority",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -984,7 +984,7 @@
     ],
     "answer": "Robert Merton and Myron Scholes",
     "explanation": "Merton and Scholes won the 1997 Nobel for their work on options pricing (the Black-Scholes formula). LTCM's models failed catastrophically during the 1998 Russia default when correlations between markets spiked and liquidity vanished. The New York Fed orchestrated a $3.6 billion private rescue to prevent systemic collapse.",
-    "source": null,
+    "source": "https://www.federalreservehistory.org/essays/ltcm-near-failure",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1028,8 +1028,8 @@
       "Energy self-sufficiency"
     ],
     "answer": "Western alienation",
-    "explanation": "Alberta saw the NEP as an unconstitutional federal raid on provincial resources. Premier Peter Lougheed called it 'economic aggression' and introduced retaliatory production cutbacks. The Western separatist movement grew sharply. The NEP was dismantled by Brian Mulroney after 1984, but it remains a live grievance in Alberta politics.",
-    "source": null,
+    "explanation": "Alberta saw the NEP as a federal intrusion into provincial control of natural resources. Premier Peter Lougheed fought it and, in April 1981, announced a 60,000-barrel-a-day cut in oil production (and suspended two oil sands projects) to force concessions; a revenue-sharing deal followed that September. Separatist sentiment such as the Western Canada Concept grew. After the Mulroney government took office in 1984, the Western Accord of 1985 deregulated oil prices and dismantled the NEP, but it remains a live grievance in Alberta politics.",
+    "source": "https://en.wikipedia.org/wiki/National_Energy_Program",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1188,7 +1188,7 @@
     "category": "history",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "In 1995, the Wall Street Journal called Canada 'an honorary member of the Third World' and warned of an imminent financial crisis. What was the main fiscal concern?",
+    "prompt": "In January 1995, the Wall Street Journal called Canada \"an honorary member of the Third World\" and warned of a looming financial crisis. What was the main fiscal concern?",
     "choices": [
       "Federal debt",
       "Unemployment",
@@ -1196,8 +1196,8 @@
       "Trade deficit"
     ],
     "answer": "Federal debt",
-    "explanation": "By 1994-95 Canada's federal debt was roughly 68% of GDP, and the federal deficit, which peaked at about $42 billion in 1993-94, was still near $40 billion. Moody's had already cut Canada from Aaa to Aa1 in 1994 and cut it again in April 1995. Finance Minister Paul Martin's February 1995 budget introduced the deepest federal spending cuts in decades, averting the crisis.",
-    "source": null,
+    "explanation": "By the mid-1990s Canada's federal debt was close to 70% of GDP (published measures vary by vintage) and the annual federal deficit had been around $40 billion for several years. Moody's downgraded Canada's credit rating in 1994 and again in April 1995. Finance Minister Paul Martin's February 1995 budget introduced the deepest federal spending cuts in decades, setting the country on the path to surpluses by 1997-98.",
+    "source": "https://publications.gc.ca/Pilot/LoPBdP/BP/bp400-e.htm",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1396,8 +1396,8 @@
       "$350 billion"
     ],
     "answer": "$35 billion",
-    "explanation": "The 'Halloween Massacre' erased roughly $35 billion of market value from a sector worth about $200 billion within two weeks, and the TSX income trust index fell about 16% in two days. Flaherty argued income trusts were costing the government billions in lost corporate tax revenue; critics pointed out that Stephen Harper's Conservatives had promised during the 2005–06 campaign never to tax them. The controversy dogged the government but the policy stood.",
-    "source": null,
+    "explanation": "The 'Halloween Massacre' erased roughly $30–35 billion of market value (estimates vary by source) from a sector worth some $160–200 billion, and the TSX income trust index was down about 17–18% by mid-November. Flaherty argued income trusts were costing the government billions in lost corporate tax revenue; critics pointed out that Stephen Harper's Conservatives had promised during the 2005–06 campaign not to tax them. The controversy dogged the government but the policy stood.",
+    "source": "https://en.wikipedia.org/wiki/Income_trust",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1421,8 +1421,8 @@
       "Blizzards"
     ],
     "answer": "Drought",
-    "explanation": "The global collapse in wheat prices (from ~$1.60/bushel in 1929 to $0.38 in 1932) combined with a sustained drought and severe soil erosion to devastate Saskatchewan. By 1937, two-thirds of the province's rural population was on relief. The crisis gave birth to the CCF (predecessor to the NDP), which won a Saskatchewan majority in 1944 under Tommy Douglas.",
-    "source": null,
+    "explanation": "The global collapse in wheat prices (from roughly $1 a bushel in 1928–29 to about 35–38 cents by 1932) combined with a sustained drought and severe soil erosion to devastate Saskatchewan: net farm income fell from $363 million in 1928 to $11 million in 1933. By 1937, about two-thirds of the province's farm population was destitute. The crisis helped give rise to the CCF (predecessor to the NDP), which won a Saskatchewan majority in 1944 under Tommy Douglas.",
+    "source": "https://esask.uregina.ca/entry/great_depression.html",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1497,7 +1497,7 @@
     ],
     "answer": "IMF and World Bank",
     "explanation": "Morgenthau hosted and chaired the 1944 UN Monetary and Financial Conference at Bretton Woods, New Hampshire, which created the IMF (for balance-of-payments stability) and the IBRD/World Bank (for reconstruction lending). John Maynard Keynes led the British delegation and pushed unsuccessfully for his 'Bancor' international currency.",
-    "source": null,
+    "source": "https://www.federalreservehistory.org/people/henry-morgenthau-jr",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -1521,8 +1521,8 @@
       "Bank nationalization"
     ],
     "answer": "Austerity and gold standard",
-    "explanation": "Snowden's insistence on fiscal orthodoxy and gold-standard discipline deepened Britain's slump. His determination to cut unemployment benefits triggered the collapse of the Labour government in 1931 and the formation of the National Government. Within weeks of the National Government's formation, Britain left the gold standard anyway — the very outcome Snowden's cuts had been meant to prevent.",
-    "source": null,
+    "explanation": "Critics argue that Snowden's insistence on fiscal orthodoxy and gold-standard discipline deepened Britain's slump. He set up the May Committee, whose call for spending cuts, including to unemployment benefit, split the Labour cabinet in August 1931 and led to the National Government. Britain left the gold standard in September 1931, within weeks, the very outcome the cuts had been meant to prevent.",
+    "source": "https://www.britannica.com/biography/Philip-Snowden-Viscount-Snowden-of-Ickornshaw",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
