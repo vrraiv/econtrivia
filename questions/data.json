@@ -1204,11 +1204,11 @@
       "Canada federal minimum wage",
       "US federal minimum wage"
     ],
-    "metric": "federal minimum wage in equivalent Canadian dollars (2024)",
+    "metric": "federal minimum wage in equivalent Canadian dollars (2026)",
     "answer": "Canada federal minimum wage",
-    "explanation": "Canada's federal minimum wage reached $17.30 CAD/hour in April 2024. The US federal minimum wage is $7.25 USD/hour — equivalent to roughly $9.80–10.00 CAD at typical exchange rates. The US federal minimum wage has not been raised since 2009, the longest freeze in history. Many US states set higher minimums; many Canadian provinces also exceed the federal rate.",
-    "source": "https://data.worldbank.org/",
-    "as_of": "2024",
+    "explanation": "Canada's federal minimum wage rose to $18.15 CAD/hour on April 1, 2026 (indexed to inflation each year). The US federal minimum wage is $7.25 USD/hour — roughly $10 CAD at recent exchange rates of about 1.40 CAD per USD. The US federal minimum wage has not been raised since 2009, the longest freeze since the law began. Many US states set higher minimums; many Canadian provinces also exceed the federal rate.",
+    "source": "https://www.canada.ca/en/employment-social-development/news/2026/03/government-of-canada-raises-the-federal-minimum-wage.html",
+    "as_of": "October 2026",
     "time_sensitive": true,
     "tags": [
       "minimum wage",
@@ -1246,17 +1246,17 @@
     "category": "data",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "Norway's Government Pension Fund Global surpassed which total asset threshold for the first time in 2024, making it by far the world's largest sovereign wealth fund?",
+    "prompt": "Norway's Government Pension Fund Global, the world's largest sovereign wealth fund, passed which value threshold for the first time in December 2024?",
     "choices": [
-      "$1.7 trillion",
-      "$800 billion",
-      "$3 trillion",
-      "$500 billion"
+      "NOK 20 trillion",
+      "NOK 10 trillion",
+      "NOK 15 trillion",
+      "NOK 25 trillion"
     ],
-    "answer": "$1.7 trillion",
-    "explanation": "The fund crossed $1.7 trillion in assets in 2024, driven by record oil revenues and strong equity market returns. The fund is so large it owns on average about 1.5% of every publicly listed company in the world. Its management is often held up as a model of transparent, rules-based sovereign wealth management.",
-    "source": "https://data.worldbank.org/",
-    "as_of": "2024",
+    "answer": "NOK 20 trillion",
+    "explanation": "On December 6, 2024 the fund passed 20 trillion Norwegian kroner (about US$1.8 trillion) for the first time, doubling in value in roughly five years on oil and gas inflows and strong equity markets. It owns almost 1.5% of all shares in the world's listed companies. Its management is often held up as a model of transparent, rules-based sovereign wealth management.",
+    "source": "https://money.usnews.com/investing/news/articles/2024-12-06/norway-wealth-fund-hits-record-20-trillion-crowns",
+    "as_of": "December 2024",
     "time_sensitive": true,
     "tags": [
       "Norway",

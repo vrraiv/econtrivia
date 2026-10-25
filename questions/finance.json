@@ -809,8 +809,8 @@
     "format": "tf",
     "prompt": "Tesla was added to the S&P 500 index in December 2020, and at the time it was the largest company ever added to the index in a single inclusion.",
     "answer": true,
-    "explanation": "Tesla joined the S&P 500 on December 21, 2020, with a market cap of roughly $650 billion — the largest addition in the index's history. Index funds tracking the S&P 500 had to buy approximately $80 billion of Tesla shares overnight, one of the largest coordinated buy programs ever.",
-    "source": "https://www.spglobal.com/spdji/en/",
+    "explanation": "Tesla joined the S&P 500 on December 21, 2020, with a market cap of roughly $650 billion — the largest company ever added to the index. It entered in a single step rather than in stages, and estimates of what S&P 500 index funds had to buy ranged from about $70 billion to $80 billion, one of the largest coordinated buying programs ever.",
+    "source": "https://www.cnbc.com/2020/11/30/teslas-stock-will-be-added-to-the-sp-500-in-a-single-step-before-the-open-on-dec-21.html",
     "as_of": null,
     "time_sensitive": false,
     "tags": [
@@ -849,7 +849,7 @@
     "category": "finance",
     "difficulty": 2,
     "format": "mc",
-    "prompt": "In 2023, which of Canada's 'Big Five' banks (RBC, TD, Scotiabank, BMO, CIBC) was the largest by total assets?",
+    "prompt": "At the end of fiscal 2023 (October 31, 2023), which of Canada's 'Big Five' banks (RBC, TD, Scotiabank, BMO, CIBC) was the largest by total assets?",
     "choices": [
       "Royal Bank of Canada (RBC)",
       "Toronto-Dominion Bank (TD)",
@@ -857,9 +857,9 @@
       "Bank of Montreal (BMO)"
     ],
     "answer": "Royal Bank of Canada (RBC)",
-    "explanation": "RBC was Canada's largest bank by total assets in 2023, at roughly $2 trillion, just ahead of TD (about $1.9 trillion). The Big Five collectively dominate Canadian banking to a degree unusual among major economies, holding the large majority of the system's assets and deposits.",
-    "source": "https://www.bankofcanada.ca/",
-    "as_of": "2023",
+    "explanation": "RBC was Canada's largest bank by total assets at October 31, 2023, at about $2.005 trillion, just ahead of TD (about $1.957 trillion). Scotiabank (about $1.41 trillion), BMO (about $1.29 trillion) and CIBC (about $0.98 trillion) followed. The Big Five collectively dominate Canadian banking to a degree unusual among major economies, holding the large majority of the system's assets and deposits.",
+    "source": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2023q4release.pdf",
+    "as_of": "October 31, 2023",
     "time_sensitive": true,
     "tags": [
       "Big Five banks",
