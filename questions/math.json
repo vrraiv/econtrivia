@@ -1565,5 +1565,1223 @@
       "optimisation",
       "second-order conditions"
     ]
+  },
+  {
+    "id": "math-067",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "A quarterly regression includes an intercept plus a dummy for every one of the four quarters, so X has five columns. What is the rank of X′X?",
+    "choices": [
+      "4",
+      "5",
+      "3",
+      "0"
+    ],
+    "answer": "4",
+    "explanation": "The four quarterly dummies always add up to 1, which is exactly the intercept column, so one column is a linear combination of the others. X has rank 4, X′X (5×5) has rank 4 too, and it cannot be inverted, so OLS has no unique solution. This is the dummy-variable trap. The fix is to drop one dummy (or the intercept), and the omitted quarter becomes the baseline. Perfect multicollinearity is always a rank problem of this kind.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "rank",
+      "dummy variable trap",
+      "multicollinearity",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-068",
+    "category": "math",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "True or false: The matrix OLS formula β̂ = (X′X)⁻¹X′y can be computed only when the columns of X are linearly independent.",
+    "answer": true,
+    "explanation": "X′X is invertible exactly when X has full column rank, which means no regressor is an exact linear combination of the others. If one is (for example, including both income in dollars and income in thousands), X′X is singular and the inverse does not exist. Near-multicollinearity still allows the inverse, but the coefficient estimates become imprecise.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "OLS",
+      "invertibility",
+      "rank",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-069",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "What is the inverse of the 2×2 matrix with rows (4, 7) and (2, 6)?",
+    "choices": [
+      "(0.6, −0.7) / (−0.2, 0.4)",
+      "(0.4, −0.7) / (−0.2, 0.6)",
+      "(0.6, 0.7) / (0.2, 0.4)",
+      "(−0.6, 0.7) / (0.2, −0.4)"
+    ],
+    "answer": "(0.6, −0.7) / (−0.2, 0.4)",
+    "explanation": "For rows (a, b) and (c, d), the inverse is 1/(ad − bc) times rows (d, −b) and (−c, a): swap the diagonal, negate the off-diagonal, divide by the determinant. Here the determinant is 24 − 14 = 10, so the inverse has rows (0.6, −0.7) and (−0.2, 0.4). Multiplying back confirms it: the first row of the product is (4×0.6 + 7×(−0.2), 4×(−0.7) + 7×0.4) = (1, 0). The distractors forget the swap, forget the sign change, or flip every sign.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "matrix inverse",
+      "arithmetic"
+    ]
+  },
+  {
+    "id": "math-070",
+    "category": "math",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "For conformable matrices A, B and C, what is the transpose of the product ABC?",
+    "choices": [
+      "C′B′A′",
+      "A′B′C′",
+      "B′A′C′",
+      "C′A′B′"
+    ],
+    "answer": "C′B′A′",
+    "explanation": "Transposing a product reverses the order: (AB)′ = B′A′, so (ABC)′ = C′B′A′. Inverses follow the same rule, (AB)⁻¹ = B⁻¹A⁻¹. This 'socks and shoes' rule is used constantly in regression algebra, for example to show that X′X is symmetric: (X′X)′ = X′(X′)′ = X′X.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "transpose",
+      "matrix properties"
+    ]
+  },
+  {
+    "id": "math-071",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The OLS 'hat' matrix P = X(X′X)⁻¹X′ turns y into the fitted values. What does P × P equal?",
+    "choices": [
+      "P",
+      "I",
+      "2P",
+      "0"
+    ],
+    "answer": "P",
+    "explanation": "P is idempotent: P·P = X(X′X)⁻¹X′X(X′X)⁻¹X′ = X(X′X)⁻¹X′ = P, because the middle X′X(X′X)⁻¹ collapses to I. Geometrically, P projects y onto the space spanned by the columns of X, and projecting something that is already in that space leaves it unchanged. The residual-maker M = I − P is idempotent too, and PM = 0, which is why fitted values and residuals are orthogonal.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "projection matrix",
+      "idempotent",
+      "OLS",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-072",
+    "category": "math",
+    "difficulty": 3,
+    "format": "numeric",
+    "prompt": "A regression has n = 50 observations and k = 5 regressors (including the intercept). What is the trace of the residual-maker matrix M = I − X(X′X)⁻¹X′?",
+    "answer": 45,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "Trace is linear, so tr(M) = tr(Iₙ) − tr(X(X′X)⁻¹X′). Using tr(AB) = tr(BA), the second term is tr((X′X)⁻¹X′X) = tr(Iₖ) = k. So tr(M) = n − k = 50 − 5 = 45. Because M is idempotent its trace equals its rank, and that is where the n − k degrees of freedom in s² = e′e/(n − k) come from.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "trace",
+      "residual maker",
+      "degrees of freedom",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-073",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "A is a 2×3 matrix and B is a 3×2 matrix, and the trace of AB is 5. What is the trace of BA?",
+    "choices": [
+      "5",
+      "0",
+      "6",
+      "9"
+    ],
+    "answer": "5",
+    "explanation": "AB is 2×2 and BA is 3×3, so they are different matrices, but tr(AB) = tr(BA) holds whenever both products exist. Both traces equal the sum over all i and j of aᵢⱼbⱼᵢ. This cyclic property is the workhorse behind many regression results, including tr(P) = k for the hat matrix and the expected value of a quadratic form, E[e′Ae] = tr(A·Var(e)) for mean-zero e.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "trace",
+      "matrix properties"
+    ]
+  },
+  {
+    "id": "math-074",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The symmetric matrix with rows (2, 3) and (3, 4) has positive diagonal entries. Which of these describes it?",
+    "choices": [
+      "Indefinite",
+      "Positive definite",
+      "Negative definite",
+      "Positive semi-definite"
+    ],
+    "answer": "Indefinite",
+    "explanation": "Check the leading principal minors: the first is 2 > 0, but the determinant is 2×4 − 3×3 = −1 < 0. A positive definite matrix needs every leading principal minor to be positive, and a negative determinant in the 2×2 case means the eigenvalues have opposite signs, so the matrix is indefinite. Positive diagonal entries are necessary for positive definiteness but nowhere near sufficient. Applied to a Hessian, this pattern signals a saddle point.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "positive definite",
+      "principal minors",
+      "quadratic forms"
+    ]
+  },
+  {
+    "id": "math-075",
+    "category": "math",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: A covariance matrix can have a negative eigenvalue, as long as all of its diagonal entries (the variances) are positive.",
+    "answer": false,
+    "explanation": "Every covariance matrix Σ is positive semi-definite. For any weight vector a, a′Σa is the variance of the portfolio a′X, and a variance can never be negative. A negative eigenvalue λ with eigenvector v would give v′Σv = λ‖v‖² < 0, a negative variance. When a matrix of pairwise correlations estimated from patchy data does turn out to have a negative eigenvalue, that shows it cannot be a valid covariance matrix, and it has to be repaired before use, for example in portfolio optimization.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "covariance matrix",
+      "positive semi-definite",
+      "eigenvalues"
+    ]
+  },
+  {
+    "id": "math-076",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "An idempotent matrix satisfies A² = A. Which eigenvalues can it have?",
+    "choices": [
+      "0 and 1 only",
+      "1 only",
+      "−1 and 1 only",
+      "Any real number"
+    ],
+    "answer": "0 and 1 only",
+    "explanation": "If Av = λv, then A²v = λ²v. Since A² = A, λ²v = λv, so λ² = λ, which leaves λ = 0 or λ = 1. Projection matrices such as the OLS hat matrix are idempotent: the eigenvalue 1 covers directions inside the column space of X and 0 covers the directions projected away. A corollary is that for an idempotent matrix the rank equals the trace, because both count the eigenvalues equal to 1.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "matrices",
+      "idempotent",
+      "eigenvalues",
+      "projection matrix"
+    ]
+  },
+  {
+    "id": "math-077",
+    "category": "math",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "True or false: In an OLS regression that includes an intercept, the residuals always sum to exactly zero.",
+    "answer": true,
+    "explanation": "The OLS first-order conditions are X′e = 0, meaning the residuals are orthogonal to every column of X. If one column is a column of ones (the intercept), that condition says Σeᵢ = 0. A side effect is that the regression line passes through the point of means (x̄, ȳ). Drop the intercept and this guarantee disappears, which is one reason R² can behave strangely in regressions through the origin.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "OLS",
+      "residuals",
+      "orthogonality",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-078",
+    "category": "math",
+    "difficulty": 3,
+    "format": "short",
+    "prompt": "Which theorem says that the coefficient on x₁ in a multiple regression equals the slope from regressing y on the residuals left over after x₁ is regressed on the other regressors?",
+    "answer": "Frisch–Waugh–Lovell",
+    "accept": [
+      "Frisch–Waugh–Lovell",
+      "Frisch-Waugh-Lovell",
+      "Frisch Waugh Lovell",
+      "FWL",
+      "Frisch–Waugh",
+      "Frisch-Waugh"
+    ],
+    "explanation": "The result is named after Ragnar Frisch, Frederick Waugh (1933) and Michael Lovell (1963). It formalizes 'controlling for' a variable: the multiple-regression coefficient uses only the variation in x₁ that the other regressors cannot explain. It is also why the fixed-effects (within) estimator matches a regression with a full set of unit dummies.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "linear algebra",
+      "OLS",
+      "Frisch–Waugh–Lovell",
+      "partialling out",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-079",
+    "category": "math",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "A consumer maximizes U = xy subject to the budget 2x + 4y = 40, where 2 and 4 are the prices of goods x and y. How many units of x do they buy?",
+    "answer": 10,
+    "unit": "units",
+    "tolerance": 0,
+    "explanation": "Set up L = xy + λ(40 − 2x − 4y). The first-order conditions are y = 2λ and x = 4λ, so x = 2y. Substituting into the budget gives 2(2y) + 4y = 40, so y = 5 and x = 10. The shortcut: with Cobb–Douglas utility and equal exponents, the consumer spends half of income on each good, so x = 20/2 = 10.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "optimisation",
+      "Lagrangian",
+      "utility maximisation",
+      "Cobb–Douglas"
+    ]
+  },
+  {
+    "id": "math-080",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "When a consumer maximizes utility subject to a budget constraint, what does the Lagrange multiplier on the budget measure at the optimum?",
+    "choices": [
+      "Marginal utility of income",
+      "Price of the good",
+      "Marginal rate of substitution",
+      "Income elasticity"
+    ],
+    "answer": "Marginal utility of income",
+    "explanation": "By the envelope theorem, the multiplier equals the derivative of the maximized objective with respect to the constraint constant, in this case the extra utility from one more dollar of income. More generally, a Lagrange multiplier is a shadow price, the value of relaxing the constraint by one unit. In a firm's cost-minimization problem, the multiplier on the output constraint is marginal cost.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "optimisation",
+      "Lagrangian",
+      "shadow price",
+      "utility maximisation"
+    ]
+  },
+  {
+    "id": "math-081",
+    "category": "math",
+    "difficulty": 3,
+    "format": "numeric",
+    "prompt": "Maximize f(x, y) = xy subject to x + y = 10. What is the value of the Lagrange multiplier λ at the optimum?",
+    "answer": 5,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "From L = xy + λ(10 − x − y), the conditions y = λ and x = λ give x = y = 5, so λ = 5. You can check its shadow-price meaning directly: with the constraint x + y = c, the optimum is c²/4, whose derivative c/2 equals 5 at c = 10. Raising the constraint from 10 to 11 lifts the maximum from 25 to 30.25, an increase of about 5.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "optimisation",
+      "Lagrangian",
+      "shadow price",
+      "envelope theorem"
+    ]
+  },
+  {
+    "id": "math-082",
+    "category": "math",
+    "difficulty": 2,
+    "format": "order",
+    "prompt": "Put these steps for solving a constrained maximization problem by the Lagrange method in order (first to last).",
+    "items": [
+      "Write the Lagrangian: objective plus λ times the constraint",
+      "Take first-order conditions in each variable and in λ",
+      "Solve the first-order conditions jointly for the candidate point",
+      "Check the second-order condition with the bordered Hessian"
+    ],
+    "order_by": "steps of the Lagrange method",
+    "answer": "Write the Lagrangian → Take first-order conditions → Solve them jointly → Check the bordered Hessian",
+    "explanation": "The first-order conditions only locate candidate points, and they cannot tell a maximum from a minimum, which is why the second-order check comes last. In a constrained problem that check uses the bordered Hessian rather than the ordinary Hessian, because only movements along the constraint matter.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "optimisation",
+      "Lagrangian",
+      "method"
+    ]
+  },
+  {
+    "id": "math-083",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "With two choice variables and one equality constraint, what sign must the determinant of the bordered Hessian have to confirm a local maximum?",
+    "choices": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Either sign"
+    ],
+    "answer": "Positive",
+    "explanation": "Border the Hessian of the Lagrangian with the constraint's gradient (the 3×3 matrix with 0 in the corner). For n = 2 variables and m = 1 constraint, a positive determinant means a local maximum and a negative one means a local minimum. In general the last n − m leading principal minors must alternate in sign starting with (−1)^(m+1) for a maximum, and all have the sign (−1)^m for a minimum. The border is there because only curvature along the constraint matters, not curvature in every direction.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "optimisation",
+      "bordered Hessian",
+      "second-order conditions"
+    ]
+  },
+  {
+    "id": "math-084",
+    "category": "math",
+    "difficulty": 3,
+    "format": "match",
+    "prompt": "Each of these is a result from duality in microeconomics. Match each to what it lets you recover.",
+    "pairs": [
+      [
+        "Roy's identity",
+        "Marshallian demand from the indirect utility function"
+      ],
+      [
+        "Shephard's lemma",
+        "Hicksian demand from the expenditure function"
+      ],
+      [
+        "Hotelling's lemma",
+        "Output supply from the profit function"
+      ],
+      [
+        "Slutsky equation",
+        "Substitution and income effects of a price change"
+      ]
+    ],
+    "answer": "Roy→Marshallian demand; Shephard→Hicksian demand; Hotelling→supply; Slutsky→substitution + income effects",
+    "explanation": "The first three all follow from the envelope theorem: differentiate an optimized value function with respect to a price, and the indirect effects through re-optimized choices drop out. Shephard's lemma gives ∂e/∂pᵢ = hᵢ (and, for firms, conditional factor demands from the cost function), Hotelling's lemma gives ∂π/∂p = q, and Roy's identity divides −∂v/∂pᵢ by ∂v/∂m to get xᵢ. The Slutsky equation then ties Marshallian and Hicksian demand together.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "envelope theorem",
+      "duality",
+      "Roy's identity",
+      "Shephard's lemma",
+      "Hotelling's lemma",
+      "microeconomics"
+    ]
+  },
+  {
+    "id": "math-085",
+    "category": "math",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "A twice-differentiable function has f″(x) < 0 for every x. If f′(x*) = 0, what is x*?",
+    "choices": [
+      "A global maximum",
+      "A global minimum",
+      "A saddle point",
+      "An inflection point"
+    ],
+    "answer": "A global maximum",
+    "explanation": "A negative second derivative everywhere means the function is strictly concave, so it curves downward everywhere and a point with zero slope must be the unique global maximum. This is why economists like concave objectives, such as profit with diminishing returns or concave utility: the first-order condition is then sufficient as well as necessary. With f″ > 0 everywhere (convex), the critical point would be a global minimum instead.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "optimisation",
+      "concavity",
+      "second-order conditions"
+    ]
+  },
+  {
+    "id": "math-086",
+    "category": "math",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "True or false: Every quasi-concave function is also concave.",
+    "answer": false,
+    "explanation": "The implication runs only the other way: every concave function is quasi-concave. Quasi-concavity only requires the upper contour sets {x : f(x) ≥ c} to be convex. U(x, y) = xy is the classic counterexample: its indifference curves bound convex sets, so it is quasi-concave, but its Hessian (rows (0, 1) and (1, 0)) has eigenvalues +1 and −1, so it is not concave. Utility theory needs only quasi-concavity, because any increasing transformation of a utility function represents the same preferences.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "concavity",
+      "quasi-concavity",
+      "utility",
+      "microeconomics"
+    ]
+  },
+  {
+    "id": "math-087",
+    "category": "math",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "Real GDP rises from 100 to 110. What is the change in its natural log, multiplied by 100, to one decimal place?",
+    "answer": 9.5,
+    "unit": "log points",
+    "tolerance": 0.1,
+    "explanation": "100 × [ln(110) − ln(100)] = 100 × ln(1.1) ≈ 9.53 log points, a bit less than the 10% simple growth rate. The first-order Taylor expansion ln(1 + x) ≈ x is what makes log changes read as percentages, and it is accurate only for small x. For a 1% change the gap is negligible (0.995 vs 1), but for larger changes it grows: a 50% rise is only 40.5 log points.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "Taylor expansion",
+      "logarithms",
+      "growth rates"
+    ]
+  },
+  {
+    "id": "math-088",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "An estimate β̂ = 2 has a standard error of 0.1. Using the delta method, what is the approximate standard error of β̂²?",
+    "choices": [
+      "0.4",
+      "0.2",
+      "0.01",
+      "0.04"
+    ],
+    "answer": "0.4",
+    "explanation": "The delta method uses a first-order Taylor expansion: for g(β) = β², Var(g(β̂)) ≈ [g′(β)]² Var(β̂), so SE(β̂²) ≈ |2β| × SE(β̂) = 4 × 0.1 = 0.4. Squaring the standard error (0.01) or ignoring the derivative is the usual slip. The same method gives standard errors for elasticities, long-run multipliers and other nonlinear functions of estimated coefficients.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "Taylor expansion",
+      "delta method",
+      "standard errors",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-089",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In the regression y = a + b·ln(x), the estimate of b is 200. Roughly how much does y change when x rises by 1%?",
+    "choices": [
+      "2 units",
+      "200 units",
+      "0.2 units",
+      "20 units"
+    ],
+    "answer": "2 units",
+    "explanation": "A 1% rise in x raises ln(x) by about 0.01, so y changes by about b × 0.01 = 200 × 0.01 = 2 units. In a level–log model, b/100 is the change in y per 1% change in x. Reading b itself as the effect of a 1% change overstates it a hundredfold.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "logarithms",
+      "regression interpretation",
+      "level-log"
+    ]
+  },
+  {
+    "id": "math-090",
+    "category": "math",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Match each regression form to how its slope coefficient b is read.",
+    "pairs": [
+      [
+        "ln y = a + b ln x",
+        "% change in y per 1% change in x"
+      ],
+      [
+        "ln y = a + b x",
+        "About 100b% change in y per unit of x"
+      ],
+      [
+        "y = a + b ln x",
+        "About b/100 units of y per 1% change in x"
+      ],
+      [
+        "y = a + b x",
+        "b units of y per unit of x"
+      ]
+    ],
+    "answer": "log–log→elasticity; log–level→100b%; level–log→b/100 units; level–level→b units",
+    "explanation": "Each reading follows from d ln z ≈ dz/z. In log–log form, b = d ln y / d ln x is an elasticity, which is why demand and production functions are often estimated in logs. The log–level reading of about 100b% is an approximation that breaks down for large b: the exact effect is 100(eᵇ − 1)%.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "calculus",
+      "logarithms",
+      "elasticity",
+      "regression interpretation",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-091",
+    "category": "math",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "Var(X) = 4, Var(Y) = 9 and Cov(X, Y) = 2. What is Var(X − Y)?",
+    "answer": 9,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "Var(aX + bY) = a²Var(X) + b²Var(Y) + 2ab·Cov(X, Y). With a = 1 and b = −1: 4 + 9 − 2(2) = 9. The common errors are subtracting the variances (4 − 9) or forgetting that the covariance term flips sign. Variances add even when you subtract the variables, which is why the difference of two noisy measurements is noisier than either one, unless they are positively correlated.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "probability",
+      "variance",
+      "covariance",
+      "statistics"
+    ]
+  },
+  {
+    "id": "math-092",
+    "category": "math",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "Workers without a degree (60% of the workforce) earn an average of $2,000 a week; those with a degree (40%) earn an average of $5,000. Using the law of iterated expectations, what is the average weekly wage across all workers, in thousands of dollars?",
+    "answer": 3.2,
+    "unit": "thousand dollars",
+    "tolerance": 0.05,
+    "explanation": "The law of iterated expectations says E[Y] = E[E[Y | X]], the probability-weighted average of the conditional means: 0.6 × 2 + 0.4 × 5 = 1.2 + 2.0 = 3.2. A simple unweighted average of the two group means (3.5) ignores how many people are in each group. The same law underpins the OLS assumption E[u | X] = 0, which implies E[u] = 0 and E[Xu] = 0.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "probability",
+      "conditional expectation",
+      "law of iterated expectations",
+      "statistics"
+    ]
+  },
+  {
+    "id": "math-093",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Which assumption about the error u is the standard one for OLS to be unbiased? It is weaker than independence but stronger than zero correlation.",
+    "choices": [
+      "E[u | X] = 0",
+      "Cov(u, X) = 0",
+      "u independent of X",
+      "Var(u | X) = σ²"
+    ],
+    "answer": "E[u | X] = 0",
+    "explanation": "Mean independence, E[u | X] = 0, delivers unbiasedness. It implies zero correlation, since by iterated expectations E[Xu] = E[X·E[u | X]] = 0, but not the reverse: u could be uncorrelated with X yet have a mean that depends on X². It is also weaker than full independence because it allows heteroskedasticity, so the variance of u may still depend on X. Zero correlation alone is enough for consistency, though not for unbiasedness. Var(u | X) = σ² is homoskedasticity, which matters for efficiency, not bias.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "probability",
+      "conditional expectation",
+      "exogeneity",
+      "OLS",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-094",
+    "category": "math",
+    "difficulty": 3,
+    "format": "match",
+    "prompt": "Match each sampling distribution to how it is built from standard normal variables.",
+    "pairs": [
+      [
+        "Chi-squared (k)",
+        "Sum of k squared independent standard normals"
+      ],
+      [
+        "Student's t (k)",
+        "A standard normal over √(χ²ₖ / k)"
+      ],
+      [
+        "F (k₁, k₂)",
+        "Ratio of two independent χ² variables, each over its df"
+      ],
+      [
+        "Cauchy",
+        "Student's t with 1 degree of freedom"
+      ]
+    ],
+    "answer": "χ²→sum of squared normals; t→normal over √(χ²/k); F→ratio of χ²/df; Cauchy→t with 1 df",
+    "explanation": "These constructions explain where regression test statistics come from. A t-statistic divides a normal estimator by an estimated standard error whose square is a scaled χ². An F-statistic compares two sums of squares. As k grows, t(k) approaches the standard normal. At k = 1 its tails are so heavy that it has no mean at all, which is the Cauchy distribution.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "probability",
+      "distributions",
+      "chi-squared",
+      "t distribution",
+      "F distribution",
+      "Cauchy",
+      "statistics"
+    ]
+  },
+  {
+    "id": "math-095",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "T follows a Student's t distribution with k degrees of freedom. What is the distribution of T²?",
+    "choices": [
+      "F(1, k)",
+      "χ²(k)",
+      "t(k²)",
+      "F(k, 1)"
+    ],
+    "answer": "F(1, k)",
+    "explanation": "T = Z / √(V/k) with Z standard normal and V ~ χ²(k), so T² = Z² / (V/k). The numerator Z² is χ²(1), so T² is a ratio of independent χ² variables each divided by its degrees of freedom, which is the definition of F(1, k). In practice this means a two-sided t-test of one coefficient and the F-test of that single restriction give identical p-values.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "probability",
+      "distributions",
+      "t distribution",
+      "F distribution",
+      "hypothesis testing"
+    ]
+  },
+  {
+    "id": "math-096",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "X is a positive random variable that is not constant. How does E[ln X] compare with ln(E[X])?",
+    "choices": [
+      "Smaller",
+      "Larger",
+      "Equal",
+      "Depends on X"
+    ],
+    "answer": "Smaller",
+    "explanation": "The log is strictly concave, and Jensen's inequality says E[f(X)] ≤ f(E[X]) for concave f, with strict inequality unless X is constant. Economically, this is risk aversion: a consumer with log utility values a gamble at less than the utility of its expected payoff. It also explains why the average of log returns is below the log of the average return.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "probability",
+      "Jensen's inequality",
+      "concavity",
+      "risk aversion"
+    ]
+  },
+  {
+    "id": "math-097",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Log wages are normally distributed with mean 3 and variance 0.5. What is the mean wage?",
+    "choices": [
+      "e^3.25",
+      "e^3",
+      "e^3.5",
+      "e^2.75"
+    ],
+    "answer": "e^3.25",
+    "explanation": "If ln Y ~ N(μ, σ²), then Y is lognormal and E[Y] = exp(μ + σ²/2) = exp(3 + 0.25) = e^3.25 ≈ 25.8. Simply exponentiating the mean log (e³ ≈ 20.1) gives the median, not the mean, and understates it, as Jensen's inequality predicts for the convex exponential function. This is the retransformation problem: predictions from a log-wage regression need this correction (or Duan's smearing estimator) to be turned back into dollars.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "probability",
+      "lognormal distribution",
+      "Jensen's inequality",
+      "log wages",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-098",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The moment generating function of X is M(t) = E[e^(tX)]. Which expression gives the mean of X?",
+    "choices": [
+      "M′(0)",
+      "M(0)",
+      "M″(0)",
+      "M(1)"
+    ],
+    "answer": "M′(0)",
+    "explanation": "Differentiating under the expectation gives M′(t) = E[X e^(tX)], so M′(0) = E[X]. The k-th derivative at zero gives the k-th raw moment, so M″(0) = E[X²] and the variance is M″(0) − M′(0)². M(0) is always 1. When the MGF exists, it determines the distribution uniquely, which offers one route to proving the Central Limit Theorem.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "probability",
+      "moment generating function",
+      "moments",
+      "statistics"
+    ]
+  },
+  {
+    "id": "math-099",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Among all functions of X, which one minimizes the mean squared error of a prediction of Y?",
+    "choices": [
+      "E[Y | X]",
+      "Median of Y given X",
+      "The OLS fitted line",
+      "E[X | Y]"
+    ],
+    "answer": "E[Y | X]",
+    "explanation": "The conditional expectation function is the best predictor of Y under squared-error loss. The conditional median wins under absolute-error loss instead. OLS gives the best linear approximation to E[Y | X], and it coincides with E[Y | X] only when that function really is linear (as it is for jointly normal variables).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "probability",
+      "conditional expectation",
+      "prediction",
+      "mean squared error",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-100",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The sample variance that divides by n instead of n − 1 is which kind of estimator?",
+    "choices": [
+      "Biased but consistent",
+      "Unbiased and consistent",
+      "Unbiased but inconsistent",
+      "Biased and inconsistent"
+    ],
+    "answer": "Biased but consistent",
+    "explanation": "Its expected value is ((n − 1)/n)σ², so it is biased downward. The bias shrinks to zero as n grows, and the estimator converges in probability to σ², so it is consistent. Unbiasedness is a property at a fixed sample size, while consistency is a large-sample property, and neither implies the other. An estimator that uses only the first observation, X₁, to estimate the mean is unbiased but not consistent.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "estimation",
+      "consistency",
+      "unbiasedness",
+      "sample variance",
+      "statistics"
+    ]
+  },
+  {
+    "id": "math-101",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Two estimators satisfy plim aₙ = 4 and plim bₙ = 2. What is plim (aₙ / bₙ)?",
+    "choices": [
+      "2",
+      "8",
+      "0.5",
+      "6"
+    ],
+    "answer": "2",
+    "explanation": "Probability limits pass through continuous functions (the continuous mapping theorem; Slutsky's theorem covers the related case of convergence in distribution). Since division is continuous wherever the denominator is non-zero, plim(aₙ/bₙ) = 4/2 = 2. Expectations behave differently: E[a/b] generally does not equal E[a]/E[b]. That is why ratio estimators such as IV are typically biased in finite samples, even when they are consistent.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "asymptotics",
+      "probability limit",
+      "Slutsky's theorem",
+      "continuous mapping theorem",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-102",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Which implication between modes of convergence always holds?",
+    "choices": [
+      "In probability ⇒ in distribution",
+      "In distribution ⇒ in probability",
+      "In probability ⇒ almost surely",
+      "In distribution ⇒ in mean square"
+    ],
+    "answer": "In probability ⇒ in distribution",
+    "explanation": "The hierarchy is: almost sure convergence and mean-square convergence each imply convergence in probability, which implies convergence in distribution. None of the arrows reverses in general. The exception is convergence in distribution to a constant, which does imply convergence in probability to that constant. The law of large numbers is a statement about convergence in probability (or almost surely, in its strong form), while the Central Limit Theorem is about convergence in distribution.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "asymptotics",
+      "convergence",
+      "probability theory",
+      "statistics"
+    ]
+  },
+  {
+    "id": "math-103",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "For an unbiased estimator, the Cramér–Rao lower bound on its variance is the inverse of what quantity?",
+    "choices": [
+      "Fisher information",
+      "The score",
+      "The likelihood",
+      "The sample size"
+    ],
+    "answer": "Fisher information",
+    "explanation": "Fisher information is the variance of the score (the derivative of the log-likelihood), or equivalently minus the expected second derivative. Its inverse is the smallest variance any unbiased estimator can achieve. Under regularity conditions, maximum likelihood estimators attain this bound asymptotically, which is the sense in which MLE is asymptotically efficient.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "estimation",
+      "Cramér–Rao bound",
+      "Fisher information",
+      "maximum likelihood",
+      "statistics"
+    ]
+  },
+  {
+    "id": "math-104",
+    "category": "math",
+    "difficulty": 3,
+    "format": "match",
+    "prompt": "Match each test to what has to be estimated in order to compute it.",
+    "pairs": [
+      [
+        "Wald test",
+        "Only the unrestricted model"
+      ],
+      [
+        "Lagrange multiplier test",
+        "Only the restricted model"
+      ],
+      [
+        "Likelihood ratio test",
+        "Both models"
+      ],
+      [
+        "Hausman test",
+        "Two estimators of the same parameters"
+      ]
+    ],
+    "answer": "Wald→unrestricted only; LM→restricted only; LR→both; Hausman→two estimators",
+    "explanation": "The Wald, LR and LM (score) tests are asymptotically equivalent ways of testing restrictions in maximum likelihood, and the practical difference is which model you have to fit. Wald asks whether the unrestricted estimates are far from the restrictions. LM asks whether the score at the restricted estimates is far from zero, which is handy when the unrestricted model is hard to estimate. LR compares the two maximized log-likelihoods. Hausman compares an estimator that is consistent either way with one that is efficient only under the null, such as fixed versus random effects.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "estimation",
+      "hypothesis testing",
+      "Wald test",
+      "likelihood ratio test",
+      "Lagrange multiplier test",
+      "Hausman test",
+      "maximum likelihood"
+    ]
+  },
+  {
+    "id": "math-105",
+    "category": "math",
+    "difficulty": 1,
+    "format": "numeric",
+    "prompt": "An estimator has a bias of 2 and a variance of 5. What is its mean squared error?",
+    "answer": 9,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "MSE = Variance + Bias² = 5 + 2² = 9. This decomposition is the bias–variance tradeoff: a slightly biased estimator can beat an unbiased one on MSE if it cuts variance enough. Ridge regression and LASSO deliberately accept bias in exchange for lower variance.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "estimation",
+      "mean squared error",
+      "bias–variance tradeoff",
+      "statistics"
+    ]
+  },
+  {
+    "id": "math-106",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "In generalized method of moments (GMM), what is a model with more moment conditions than unknown parameters called?",
+    "choices": [
+      "Overidentified",
+      "Underidentified",
+      "Just identified",
+      "Misspecified"
+    ],
+    "answer": "Overidentified",
+    "explanation": "With more moment conditions than parameters, the sample moments cannot all be set to zero at once, so GMM minimizes a weighted quadratic form in them, and the choice of weighting matrix affects efficiency. The surplus conditions can be tested, using Hansen's J test of overidentifying restrictions. In the just-identified case, GMM reduces to the method of moments (and IV with one instrument per endogenous regressor is an example).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "estimation",
+      "GMM",
+      "method of moments",
+      "overidentification",
+      "econometrics"
+    ]
+  },
+  {
+    "id": "math-107",
+    "category": "math",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "Four independent counts from a Poisson distribution are 2, 4, 3 and 7. What is the maximum likelihood estimate of the Poisson rate λ?",
+    "answer": 4,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "The Poisson log-likelihood is Σ[xᵢ ln λ − λ − ln xᵢ!]. Setting its derivative Σxᵢ/λ − n to zero gives λ̂ = x̄ = 16/4 = 4. The MLE here coincides with the method-of-moments estimator, because the Poisson mean equals λ. The Poisson variance also equals λ, and count data whose variance is well above the mean (overdispersion) is a warning sign that the model is wrong.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "estimation",
+      "maximum likelihood",
+      "Poisson distribution",
+      "statistics"
+    ]
+  },
+  {
+    "id": "math-108",
+    "category": "math",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "An AR(1) process y_t = 0.5·y_{t−1} + ε_t has shocks with variance 1. What is the unconditional variance of y_t? Give two decimal places.",
+    "answer": 1.33,
+    "unit": "",
+    "tolerance": 0.01,
+    "explanation": "If the process is stationary, Var(y) = ρ²Var(y) + σ², so Var(y) = σ² / (1 − ρ²) = 1 / (1 − 0.25) = 4/3 ≈ 1.33. Equivalently, y_t = Σ ρʲ ε_{t−j}, and the variance is the geometric series 1 + ρ² + ρ⁴ + …. As ρ approaches 1, the variance explodes, which is the variance side of a unit root.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "time series",
+      "AR(1)",
+      "stationarity",
+      "geometric series",
+      "variance"
+    ]
+  },
+  {
+    "id": "math-109",
+    "category": "math",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "The AR(1) process y_t = ρ·y_{t−1} + ε_t is covariance stationary when which condition holds?",
+    "choices": [
+      "|ρ| < 1",
+      "ρ < 1",
+      "|ρ| ≤ 1",
+      "ρ > 0"
+    ],
+    "answer": "|ρ| < 1",
+    "explanation": "Shocks must die out, which requires ρʲ → 0, and that happens only when |ρ| < 1. ρ = 1 is a random walk with a unit root, whose variance grows without bound. ρ < 1 alone is not enough, because ρ = −1.5 gives explosive oscillations. Negative values of ρ inside the bound are fine: they produce a stationary series that zigzags.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "time series",
+      "AR(1)",
+      "stationarity",
+      "unit root"
+    ]
+  },
+  {
+    "id": "math-110",
+    "category": "math",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "The process y_t = 1.3·y_{t−1} − 0.4·y_{t−2} + ε_t has lag polynomial 1 − 1.3z + 0.4z². What are the roots of that polynomial?",
+    "choices": [
+      "2 and 1.25",
+      "0.5 and 0.8",
+      "1.3 and 0.4",
+      "−2 and −1.25"
+    ],
+    "answer": "2 and 1.25",
+    "explanation": "Factor it: 1 − 1.3z + 0.4z² = (1 − 0.5z)(1 − 0.8z), so the roots are z = 2 and z = 1.25. Both lie outside the unit circle, so the process is stationary despite a first coefficient above 1. The numbers 0.5 and 0.8 are the inverse roots, which by the equivalent convention must lie inside the unit circle. Reading stationarity from the size of individual coefficients is a common mistake.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "time series",
+      "AR(2)",
+      "lag operator",
+      "stationarity",
+      "difference equations"
+    ]
+  },
+  {
+    "id": "math-111",
+    "category": "math",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "The Dickey–Fuller test regresses Δy_t on y_{t−1}. Under its null hypothesis of a unit root, what is the coefficient on y_{t−1}?",
+    "choices": [
+      "0",
+      "1",
+      "−1",
+      "0.5"
+    ],
+    "answer": "0",
+    "explanation": "Subtracting y_{t−1} from both sides of y_t = ρy_{t−1} + ε_t gives Δy_t = (ρ − 1)y_{t−1} + ε_t. A unit root (ρ = 1) means the coefficient γ = ρ − 1 is zero, and the alternative of stationarity is γ < 0. Under the null, the t-statistic does not follow the usual t distribution, so the test uses special Dickey–Fuller critical values (about −2.86 at 5% with a constant).",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "time series",
+      "unit root",
+      "Dickey–Fuller test",
+      "stationarity",
+      "hypothesis testing"
+    ]
+  },
+  {
+    "id": "math-112",
+    "category": "math",
+    "difficulty": 3,
+    "format": "numeric",
+    "prompt": "In the dynamic model y_t = 0.75·y_{t−1} + 2·x_t + ε_t, x rises permanently by one unit. By how much does y eventually rise?",
+    "answer": 8,
+    "unit": "",
+    "tolerance": 0,
+    "explanation": "In the new steady state y* = 0.75y* + 2, so y* = 2 / (1 − 0.75) = 8. Equivalently, the impact effect is 2, then 2 × 0.75 = 1.5 the next period, then 1.125, and so on, and the geometric series sums to 2/(1 − 0.75). It is the same arithmetic as the Keynesian multiplier 1/(1 − MPC). The long-run effect is a nonlinear function of the coefficients, so its standard error usually comes from the delta method.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "time series",
+      "distributed lag",
+      "long-run multiplier",
+      "geometric series"
+    ]
+  },
+  {
+    "id": "math-113",
+    "category": "math",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "What is the sample variance (dividing by n − 1) of 2, 4, 6 and 8? Give two decimal places.",
+    "answer": 6.67,
+    "unit": "",
+    "tolerance": 0.01,
+    "explanation": "The mean is 5, so the squared deviations are 9, 1, 1 and 9, which sum to 20. Dividing by n − 1 = 3 gives 6.67. Dividing by n = 4 would give 5, the biased population-formula version. The n − 1 corrects for measuring deviations from the sample mean, which sits closer to the data than the true mean does and so understates the spread.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "statistics",
+      "sample variance",
+      "arithmetic",
+      "degrees of freedom"
+    ]
+  },
+  {
+    "id": "math-114",
+    "category": "math",
+    "difficulty": 2,
+    "format": "numeric",
+    "prompt": "Cov(X, Y) = 6, Var(X) = 4 and Var(Y) = 25. What is the correlation between X and Y?",
+    "answer": 0.6,
+    "unit": "",
+    "tolerance": 0.01,
+    "explanation": "Correlation = Cov(X, Y) / (SD(X)·SD(Y)) = 6 / (2 × 5) = 0.6. The common slip is dividing by the variances instead of the standard deviations (6/100). Because correlation is scale-free, it always lies between −1 and 1, while covariance depends on the units of X and Y.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "statistics",
+      "correlation",
+      "covariance",
+      "arithmetic"
+    ]
+  },
+  {
+    "id": "math-115",
+    "category": "math",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "In a simple regression of Y on X, Cov(X, Y) = 10 and Var(X) = 4. What is the OLS slope?",
+    "choices": [
+      "2.5",
+      "0.4",
+      "40",
+      "1.6"
+    ],
+    "answer": "2.5",
+    "explanation": "In a simple regression, β̂ = Cov(X, Y) / Var(X) = 10/4 = 2.5. This is the scalar version of (X′X)⁻¹X′y. Flipping the ratio (0.4) gives neither regression's slope. The slope from regressing X on Y is Cov/Var(Y), and the two slopes multiply to r², not 1.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "statistics",
+      "OLS",
+      "regression slope",
+      "arithmetic"
+    ]
+  },
+  {
+    "id": "math-116",
+    "category": "math",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "A regression has a total sum of squares of 200 and a residual sum of squares of 50. What is its R²?",
+    "choices": [
+      "0.75",
+      "0.25",
+      "4",
+      "0.5"
+    ],
+    "answer": "0.75",
+    "explanation": "R² = 1 − (residual sum of squares / total sum of squares) = 1 − 50/200 = 0.75: the regression explains 75% of the variation in y around its mean. Taking 50/200 = 0.25 gives the unexplained share instead. With an intercept, R² always lies between 0 and 1, and adding regressors can never lower it, which is why adjusted R² exists.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "statistics",
+      "R-squared",
+      "goodness of fit",
+      "arithmetic"
+    ]
   }
 ]
