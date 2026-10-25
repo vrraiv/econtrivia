@@ -1325,5 +1325,47 @@
       "vector autoregressions",
       "vector auto-regression"
     ]
+  },
+  {
+    "id": "nobel-056",
+    "category": "nobel",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Which Nobel laureate in economics led a Swedish political party for 23 years?",
+    "choices": [
+      "Bertil Ohlin",
+      "Gunnar Myrdal",
+      "Eli Heckscher",
+      "Knut Wicksell"
+    ],
+    "answer": "Bertil Ohlin",
+    "explanation": "Ohlin, co-author of the Heckscher–Ohlin trade model, led the liberal People's Party from 1944 to 1967, much of that time as leader of the opposition, and was briefly Minister of Commerce in the wartime coalition (1944–45). He shared the 1977 prize with James Meade. Myrdal was also a cabinet minister, but never a party leader.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1977/ohlin/facts/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Bertil Ohlin",
+      "Sweden",
+      "politics",
+      "second acts"
+    ]
+  },
+  {
+    "id": "nobel-057",
+    "category": "nobel",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Gunnar Myrdal served as Sweden's Minister of Commerce, and his wife Alva later won a Nobel Prize of her own.",
+    "answer": true,
+    "explanation": "Myrdal was Minister of Commerce from 1945 to 1947, leaving to run the UN Economic Commission for Europe; he shared the 1974 economics prize with Friedrich Hayek. Alva Myrdal, a diplomat and disarmament campaigner, shared the 1982 Nobel Peace Prize, making them one of the few married couples to win Nobels in different fields.",
+    "source": "https://www.nobelprize.org/prizes/economic-sciences/1974/myrdal/biographical/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Gunnar Myrdal",
+      "Alva Myrdal",
+      "Sweden",
+      "second acts"
+    ]
   }
 ]

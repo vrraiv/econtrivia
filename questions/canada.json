@@ -1886,5 +1886,165 @@
       "currency",
       "Macdonald"
     ]
+  },
+  {
+    "id": "canada-081",
+    "category": "canada",
+    "difficulty": 1,
+    "format": "tf",
+    "prompt": "When Mark Carney was sworn in as Prime Minister in March 2025, he had never held elected office of any kind.",
+    "answer": true,
+    "explanation": "Carney won the Liberal leadership as a former central banker with no seat in Parliament, making him the first Canadian prime minister never to have held elected office before taking the job. He won his first election six weeks later, taking the Ottawa riding of Nepean in the April 28, 2025 federal election.",
+    "source": "https://www.ourcommons.ca/members/en/mark-carney(28286)/roles",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mark Carney",
+      "prime minister",
+      "second acts"
+    ]
+  },
+  {
+    "id": "canada-082",
+    "category": "canada",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Mark Carney won the Liberal leadership on March 9, 2025 on the first ballot. Roughly what share of the vote did he take?",
+    "choices": [
+      "About 52%",
+      "About 64%",
+      "About 75%",
+      "About 86%"
+    ],
+    "answer": "About 86%",
+    "explanation": "Carney took 85.9% of the vote, about 131,700 of roughly 151,900 ballots cast. Former finance minister Chrystia Freeland was a distant second with about 8%, ahead of Karina Gould and Frank Baylis. He was sworn in as Canada's 24th prime minister five days later, on March 14.",
+    "source": "https://www.bnnbloomberg.ca/business/politics/2025/03/09/mark-carney-elected-liberal-leader-to-soon-replace-justin-trudeau-as-pm/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mark Carney",
+      "Liberal leadership",
+      "Chrystia Freeland",
+      "second acts"
+    ]
+  },
+  {
+    "id": "canada-083",
+    "category": "canada",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Years before he became Prime Minister, Finance Minister Paul Martin was chosen in 1999 as the first chair of which new international forum?",
+    "choices": [
+      "G20",
+      "G7",
+      "Paris Club",
+      "OECD"
+    ],
+    "answer": "G20",
+    "explanation": "In September 1999 G7 finance ministers picked Martin to chair the new Group of Twenty, a forum of finance ministers and central bankers from large advanced and emerging economies set up after the Asian financial crisis. He chaired its first meeting in Berlin that December, and had worked out its membership largely with US Treasury Secretary Larry Summers. As Prime Minister (2003–2006) he pushed for the G20 to meet at leaders' level, which finally happened in 2008.",
+    "source": "https://g20.utoronto.ca/1999/1999communique.htm",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Paul Martin",
+      "G20",
+      "second acts"
+    ]
+  },
+  {
+    "id": "canada-084",
+    "category": "canada",
+    "difficulty": 3,
+    "format": "order",
+    "prompt": "Before entering politics, Mark Carney held four big international economic jobs. Put them in the order he took them on, earliest first.",
+    "items": [
+      "Governor of the Bank of Canada",
+      "Chair of the Financial Stability Board",
+      "Governor of the Bank of England",
+      "UN Special Envoy on Climate Action and Finance"
+    ],
+    "order_by": "year Carney took up the role",
+    "answer": "Governor of the Bank of Canada → Chair of the Financial Stability Board → Governor of the Bank of England → UN Special Envoy on Climate Action and Finance",
+    "explanation": "Carney became Bank of Canada Governor in February 2008. In November 2011, still in Ottawa, he succeeded Mario Draghi as chair of the G20's Financial Stability Board, a role he kept after moving to the Bank of England in July 2013. UN Secretary-General António Guterres named him climate finance envoy in December 2019, a few months before he left the Bank of England in March 2020.",
+    "source": "https://www.bankofcanada.ca/2011/11/bank-of-canada-governor-mark-carney/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mark Carney",
+      "Bank of Canada",
+      "Bank of England",
+      "Financial Stability Board",
+      "second acts"
+    ]
+  },
+  {
+    "id": "canada-085",
+    "category": "canada",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Which of these Prime Ministers did NOT serve as federal Finance Minister before becoming PM?",
+    "choices": [
+      "John Turner",
+      "Jean Chrétien",
+      "Paul Martin",
+      "Brian Mulroney"
+    ],
+    "answer": "Brian Mulroney",
+    "explanation": "John Turner was Finance Minister from 1972 to 1975 before his brief premiership in 1984; Jean Chrétien held the job from 1977 to 1979, 14 years before becoming PM; and Paul Martin ran Finance from 1993 to 2002 before succeeding Chrétien in 2003. Brian Mulroney came from business, as president of the Iron Ore Company of Canada, and never sat in cabinet before he became PM in 1984.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Paul Martin",
+      "Jean Chrétien",
+      "John Turner",
+      "Brian Mulroney",
+      "finance minister",
+      "second acts"
+    ]
+  },
+  {
+    "id": "canada-086",
+    "category": "canada",
+    "difficulty": 2,
+    "format": "short",
+    "prompt": "Mark Carney, the central banker turned Prime Minister, was born in 1965 in Fort Smith. Which territory is Fort Smith in?",
+    "answer": "Northwest Territories",
+    "accept": [
+      "Northwest Territories",
+      "the Northwest Territories",
+      "NWT",
+      "N.W.T.",
+      "NT",
+      "Northwest Territory"
+    ],
+    "explanation": "Carney was born in Fort Smith, Northwest Territories, where his parents were teachers, and grew up in Edmonton. He went on to Harvard (where he played goalie for the varsity hockey team) and an Oxford doctorate in economics, then more than a decade at Goldman Sachs before joining the Bank of Canada.",
+    "source": "https://en.wikipedia.org/wiki/Mark_Carney",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mark Carney",
+      "Northwest Territories",
+      "second acts"
+    ]
+  },
+  {
+    "id": "canada-087",
+    "category": "canada",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Mark Carney is the first former central bank governor to lead the government of a G7 country.",
+    "answer": false,
+    "explanation": "Italy got there first, twice. Carlo Azeglio Ciampi, Governor of the Bank of Italy from 1979 to 1993, became Prime Minister in 1993, and Mario Draghi, a former Bank of Italy governor and ECB President, was Italy's Prime Minister from 2021 to 2022. Carney is, however, the first former Bank of Canada governor to become Prime Minister.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mark Carney",
+      "Mario Draghi",
+      "Carlo Azeglio Ciampi",
+      "G7",
+      "second acts"
+    ]
   }
 ]

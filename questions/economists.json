@@ -1525,5 +1525,78 @@
       "free lunch",
       "economic principles"
     ]
+  },
+  {
+    "id": "economists-063",
+    "category": "economists",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Most Indian rupee notes carry the signature of the holder of one particular job — a job Manmohan Singh held from 1982 to 1985, long before he became Prime Minister. What was it?",
+    "choices": [
+      "Governor of the Reserve Bank of India",
+      "Finance Minister",
+      "President of India",
+      "Head of the Planning Commission"
+    ],
+    "answer": "Governor of the Reserve Bank of India",
+    "explanation": "Rupee banknotes (other than the ₹1 note) are signed by the RBI Governor, so notes issued in 1982–85 bear Singh's signature. He went on to be Finance Minister (1991–1996), when he launched India's liberalization, and Prime Minister (2004–2014). He died in December 2024.",
+    "source": "https://en.wikipedia.org/wiki/List_of_governors_of_the_Reserve_Bank_of_India",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Manmohan Singh",
+      "Reserve Bank of India",
+      "banknotes",
+      "second acts"
+    ]
+  },
+  {
+    "id": "economists-064",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "order",
+    "prompt": "Before she ran the European Central Bank, Christine Lagarde held these four posts. Put them in order, earliest first.",
+    "items": [
+      "Chair of Baker McKenzie",
+      "French trade minister",
+      "French finance minister",
+      "IMF Managing Director"
+    ],
+    "order_by": "year Lagarde took up the post",
+    "answer": "Chair of Baker McKenzie → French trade minister → French finance minister → IMF Managing Director",
+    "explanation": "Lagarde became the first woman to chair the global law firm Baker McKenzie in 1999. She joined the French government as trade minister in 2005, became finance minister in 2007, and succeeded Dominique Strauss-Kahn as IMF Managing Director in July 2011. She moved to the ECB in November 2019.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Christine Lagarde",
+      "IMF",
+      "France",
+      "second acts"
+    ]
+  },
+  {
+    "id": "economists-065",
+    "category": "economists",
+    "difficulty": 3,
+    "format": "short",
+    "prompt": "Which economist, who lent half his name to a famous production function, left the University of Chicago to serve 18 years as a US senator from Illinois?",
+    "answer": "Paul Douglas",
+    "accept": [
+      "Paul Douglas",
+      "Paul H. Douglas",
+      "Paul Howard Douglas",
+      "Douglas"
+    ],
+    "explanation": "In 1928 Paul Douglas and the mathematician Charles Cobb fitted the Cobb–Douglas production function to US manufacturing data. Douglas, a president of the American Economic Association, served in the Marines in the Second World War (enlisting at 50) and then as a Democratic senator from 1949 to 1967, championing civil rights and truth-in-lending laws.",
+    "source": "https://hetwebsite.net/het/profiles/douglas.htm",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Paul Douglas",
+      "Cobb-Douglas",
+      "US Senate",
+      "second acts"
+    ]
   }
 ]

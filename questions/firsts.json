@@ -1312,5 +1312,29 @@
       "cryptocurrency",
       "firsts"
     ]
+  },
+  {
+    "id": "firsts-056",
+    "category": "firsts",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Rachel Reeves, who in 2024 became the first woman to serve as Chancellor of the Exchequer, began her career as an economist at which institution?",
+    "choices": [
+      "Bank of England",
+      "HM Treasury",
+      "Goldman Sachs",
+      "IMF"
+    ],
+    "answer": "Bank of England",
+    "explanation": "Reeves joined the Bank of England after graduating in 2000, reportedly turning down a better-paid offer from Goldman Sachs, and spent about six years there before moving to HBOS and then into politics. She became Chancellor in July 2024 in Keir Starmer's first cabinet, the first woman in the role in its roughly 800-year history.",
+    "source": "https://www.dailymaverick.co.za/article/2024-07-05-rachel-reeves-goes-for-growth-as-uks-first-female-chancellor/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Rachel Reeves",
+      "Bank of England",
+      "Chancellor of the Exchequer",
+      "second acts"
+    ]
   }
 ]

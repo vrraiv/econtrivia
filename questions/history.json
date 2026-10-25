@@ -1550,5 +1550,29 @@
       "Canada",
       "provincial finance"
     ]
+  },
+  {
+    "id": "history-066",
+    "category": "history",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Carlo Azeglio Ciampi held several of the top economic and political offices in Italy. Which of these did he NOT hold?",
+    "choices": [
+      "President of the ECB",
+      "Governor of the Bank of Italy",
+      "Prime Minister",
+      "President of the Republic"
+    ],
+    "answer": "President of the ECB",
+    "explanation": "Ciampi governed the Bank of Italy from 1979 to 1993, was Prime Minister of a caretaker government in 1993–94, then as Treasury minister (1996–99) steered Italy into the euro, and was President of the Republic from 1999 to 2006. The first ECB presidents were Wim Duisenberg and Jean-Claude Trichet; the first Italian to hold the job was Mario Draghi in 2011.",
+    "source": "https://en.wikipedia.org/wiki/Carlo_Azeglio_Ciampi",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Carlo Azeglio Ciampi",
+      "Italy",
+      "Bank of Italy",
+      "second acts"
+    ]
   }
 ]
