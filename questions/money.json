@@ -927,7 +927,7 @@
     "format": "tf",
     "prompt": "The Central African Republic became the first country in the world to adopt Bitcoin as legal tender, passing its law in April 2022.",
     "answer": false,
-    "explanation": "El Salvador was first, not the Central African Republic. President Nayib Bukele signed the Bitcoin Law in June 2021 (in force September 2021), and the Central African Republic followed in April 2022 as the second country, repealing the decision in March 2023. In El Salvador the move was controversial: the IMF urged reversal, and many Salvadorans avoided the government's Chivo wallet. Under a $1.4 billion IMF programme (agreed at staff level in December 2024, approved in February 2025), El Salvador amended its law in January 2025 so that acceptance is voluntary for private businesses.",
+    "explanation": "El Salvador was first, not the Central African Republic. President Nayib Bukele signed the Bitcoin Law in June 2021 (in force September 2021), and the Central African Republic followed in April 2022 as the second country, repealing the decision in March 2023. In El Salvador the move was controversial: the IMF urged reversal, and many Salvadorans avoided the government's Chivo wallet. Under a $1.4 billion IMF program (agreed at staff level in December 2024, approved in February 2025), El Salvador amended its law in January 2025 so that acceptance is voluntary for private businesses.",
     "source": "https://www.imf.org/en/publications/cr/issues/2025/03/19/el-salvador-selected-issues-565394",
     "as_of": "October 2026",
     "time_sensitive": true,
