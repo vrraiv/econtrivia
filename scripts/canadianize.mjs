@@ -5,20 +5,34 @@
  * are standard in Canadian English. Safe to re-run (idempotent).
  *
  * The danger in a rule like this is converting words that merely END in -ise but
- * are not the "-ize" verb family: rise, raise, crises, merchandise, otherwise,
- * promise, advise, exercise... Those are protected by the explicit whole-word
- * list below. Matching is on the complete word, never on an ending, because an
- * ending test would also protect real -ize verbs such as "summarise" or
- * "characterise" (both end in "-rise").
+ * are not the "-ize" verb family: rise, crises, imprecise, pairwise, appraise,
+ * chastise, names like Louise... A hand-kept list of exceptions can never be
+ * complete, so a word is converted only when its "-ize" form is a real English
+ * word (checked against the `word-list` dictionary, using the base "-ize"/"-yze"
+ * form so inflections like "organisations" still match).
  *
- * The OECD's official name is spelled "Organisation" and is left alone.
+ * The dictionary can't help where both spellings are real but different words
+ * (prise/prize, braise/braize, surprise/surprize). Those are protected by the
+ * explicit whole-word list below. Matching is on the complete word, never on an
+ * ending, because an ending test would also protect real -ize verbs such as
+ * "summarise" or "characterise" (both end in "-rise").
+ *
+ * Official names are left alone: the OECD's "Organisation", and any capitalised
+ * "Programme" (UN Development Programme, World Food Programme...). Lowercase
+ * "programme" becomes "program".
  *
  * Usage: node scripts/canadianize.mjs
  */
 import { readFileSync, writeFileSync, readdirSync } from 'fs';
+import wordListPath from 'word-list';
 
-// Roots whose "-is-" is part of the word, not the British "-ize" spelling.
+const DICT = new Set(readFileSync(wordListPath, 'utf8').split('\n'));
+
+// Roots whose "-is-" is part of the word, not the British "-ize" spelling. Only
+// needed where the "-ize" form is ALSO a dictionary word; the rest are caught by
+// the dictionary check and are listed here for clarity.
 const KEEP_ROOTS = [
+  'pris', 'repris', 'empris', 'mispris', 'brais', 'seis', 'disseis',
   'ris', 'rais', 'aris', 'prais', 'nois', 'wis', 'mis',
   'merchandis', 'surpris', 'exercis', 'enterpris', 'expertis', 'compromis',
   'promis', 'premis', 'supervis', 'revis', 'devis', 'compris', 'franchis',
@@ -36,10 +50,12 @@ const WORD = /\b([A-Za-z]+?)(is|ys)(e|es|ed|ing|ation|ations|er|ers)\b/g;
 
 function convert(s) {
   return s
-    .replace(WORD, (m, stem, mid, suf) =>
-      KEEP.has(m.toLowerCase()) ? m : stem + (mid === 'is' ? 'iz' : 'yz') + suf)
-    .replace(/\bprogramme(s?)\b/g, 'program$1')
-    .replace(/\bProgramme(s?)\b/g, 'Program$1');
+    .replace(WORD, (m, stem, mid, suf) => {
+      const z = mid === 'is' ? 'iz' : 'yz';
+      if (KEEP.has(m.toLowerCase()) || !DICT.has((stem + z + 'e').toLowerCase())) return m;
+      return stem + z + suf;
+    })
+    .replace(/\bprogramme(s?)\b/g, 'program$1');
 }
 
 // split() with a capture group puts the matched protected name at odd indexes,
