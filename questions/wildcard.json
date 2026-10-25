@@ -1874,5 +1874,42 @@
       "Duflo",
       "Yunus"
     ]
+  },
+  {
+    "id": "wildcard-078",
+    "category": "wildcard",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Each of these economists won an election. Match each to the office they won.",
+    "pairs": [
+      [
+        "Ben Bernanke",
+        "A local school board in New Jersey"
+      ],
+      [
+        "Dick Armey",
+        "Seat in Congress, rising to House Majority Leader"
+      ],
+      [
+        "Javier Milei",
+        "President of Argentina"
+      ],
+      [
+        "Andreas Papandreou",
+        "Prime Minister of Greece"
+      ]
+    ],
+    "answer": "Bernanke→New Jersey school board; Armey→Congress (House Majority Leader); Milei→President of Argentina; Papandreou→PM of Greece",
+    "explanation": "Before the Fed, Bernanke served two terms on the Montgomery Township Board of Education near Princeton. Armey chaired the economics department at North Texas State before entering Congress in 1985 and was House Majority Leader from 1995 to 2003. Milei, a libertarian economist and TV pundit, won Argentina's presidency in 2023. Papandreou chaired the economics department at Berkeley before returning to Greece, founding PASOK and serving as Prime Minister in 1981–89 and 1993–96.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Ben Bernanke",
+      "Dick Armey",
+      "Javier Milei",
+      "Andreas Papandreou",
+      "second acts"
+    ]
   }
 ]

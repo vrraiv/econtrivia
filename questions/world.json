@@ -1505,5 +1505,350 @@
       "global governance",
       "multipolarity"
     ]
+  },
+  {
+    "id": "world-063",
+    "category": "world",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Before Mario Draghi became Italy's Prime Minister in 2021, which institution had he led for eight years?",
+    "choices": [
+      "European Central Bank",
+      "IMF",
+      "European Commission",
+      "World Bank"
+    ],
+    "answer": "European Central Bank",
+    "explanation": "Draghi was ECB President from 2011 to 2019, before that Governor of the Bank of Italy (2005–2011), and earlier a vice-chairman at Goldman Sachs International and the top civil servant at Italy's Treasury. In February 2021 he was asked to form a national-unity government and served as Prime Minister until October 2022, when Giorgia Meloni succeeded him.",
+    "source": "https://en.wikipedia.org/wiki/Mario_Draghi",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mario Draghi",
+      "ECB",
+      "Italy",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-064",
+    "category": "world",
+    "difficulty": 2,
+    "format": "match",
+    "prompt": "Each of these people later led their country's government. Match each to the economic post they held first.",
+    "pairs": [
+      [
+        "Mark Carney",
+        "Governor of the Bank of England"
+      ],
+      [
+        "Mario Draghi",
+        "President of the European Central Bank"
+      ],
+      [
+        "Ludwig Erhard",
+        "West German economics minister"
+      ],
+      [
+        "Mario Monti",
+        "EU competition commissioner"
+      ]
+    ],
+    "answer": "Carney→Bank of England; Draghi→ECB; Erhard→West German economics minister; Monti→EU competition commissioner",
+    "explanation": "Carney ran the Bank of England (2013–2020) before becoming Canada's PM in 2025. Draghi led the ECB (2011–2019) before becoming Italy's PM in 2021. Erhard, the economics minister behind the Wirtschaftswunder from 1949, succeeded Adenauer as Chancellor in 1963. Monti was the EU's competition commissioner from 1999 to 2004, when he took on Microsoft, and became Italy's technocrat PM in November 2011.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mark Carney",
+      "Mario Draghi",
+      "Ludwig Erhard",
+      "Mario Monti",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-065",
+    "category": "world",
+    "difficulty": 3,
+    "format": "order",
+    "prompt": "Italy has repeatedly turned to economists to run caretaker or technocratic governments. Put these four in the order they became Prime Minister, earliest first.",
+    "items": [
+      "Carlo Azeglio Ciampi",
+      "Lamberto Dini",
+      "Mario Monti",
+      "Mario Draghi"
+    ],
+    "order_by": "year first appointed Prime Minister",
+    "answer": "Carlo Azeglio Ciampi → Lamberto Dini → Mario Monti → Mario Draghi",
+    "explanation": "Ciampi, the Bank of Italy governor, became PM in 1993 in the middle of the Tangentopoli corruption scandals. Dini, the Bank of Italy's former director general, followed in 1995. Monti, a Bocconi economist and ex-EU commissioner, took over from Berlusconi in November 2011 at the height of the euro crisis. Draghi, the former ECB president, led a national-unity government from 2021 to 2022.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Italy",
+      "technocrats",
+      "Ciampi",
+      "Dini",
+      "Mario Monti",
+      "Mario Draghi",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-066",
+    "category": "world",
+    "difficulty": 2,
+    "format": "short",
+    "prompt": "November 2011 was the euro crisis's month of technocrats: Mario Draghi took over the ECB, Mario Monti became Italy's Prime Minister, and which former ECB vice-president became Prime Minister of Greece?",
+    "answer": "Lucas Papademos",
+    "accept": [
+      "Lucas Papademos",
+      "Loukas Papademos",
+      "Papademos",
+      "Loukas Papadimos",
+      "Papadimos"
+    ],
+    "explanation": "Draghi became ECB President on November 1, Papademos was sworn in as Greek PM on November 11 and Monti on November 16. Papademos, a former Governor of the Bank of Greece (1994–2002) and ECB vice-president (2002–2010), led an interim unity government that negotiated Greece's second bailout and its private-sector debt write-down before stepping down in May 2012.",
+    "source": "https://www.thefiscaltimes.com/2011/11/10/Papademos-New-Greek-Prime-Minister",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Lucas Papademos",
+      "Greece",
+      "euro crisis",
+      "technocrats",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-067",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "In March 2004 Horst Köhler resigned as head of which international institution to become President of Germany?",
+    "choices": [
+      "IMF",
+      "EBRD",
+      "ECB",
+      "World Bank"
+    ],
+    "answer": "IMF",
+    "explanation": "Köhler, a former German finance ministry official who had also run the European Bank for Reconstruction and Development (1998–2000), was IMF Managing Director from 2000 until March 2004. He stepped down when he was nominated for the German presidency and was elected by the Federal Convention that May. He was re-elected in 2009 and resigned unexpectedly in 2010.",
+    "source": "https://www.imf.org/external/np/omd/bios/hk.htm",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Horst Köhler",
+      "IMF",
+      "Germany",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-068",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Before becoming President of Côte d'Ivoire, Alassane Ouattara was governor of the central bank that issues which currency?",
+    "choices": [
+      "CFA franc",
+      "Naira",
+      "Cedi",
+      "Dalasi"
+    ],
+    "answer": "CFA franc",
+    "explanation": "Ouattara was Governor of the BCEAO, the Central Bank of West African States, which issues the West African CFA franc for eight countries. He then served as Côte d'Ivoire's Prime Minister (1990–1993) and as Deputy Managing Director of the IMF (1994–1999) before winning the presidency in the disputed 2010 election.",
+    "source": "https://www.imf.org/external/np/omd/bios/ado.htm",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Alassane Ouattara",
+      "BCEAO",
+      "CFA franc",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-069",
+    "category": "world",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Christine Lagarde trained as an economist before she ran the IMF and the European Central Bank.",
+    "answer": false,
+    "explanation": "Lagarde is a lawyer. She spent about 25 years at the law firm Baker McKenzie, becoming its first female chair in 1999, before entering French politics as trade minister in 2005 and finance minister in 2007. Her lack of an economics PhD was widely noted when she took over the ECB in 2019; she has said she relies on the bank's economists for the technical side.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Christine Lagarde",
+      "IMF",
+      "ECB",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-070",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "As a teenager, Christine Lagarde was a member of the French national team in which sport?",
+    "choices": [
+      "Synchronized swimming",
+      "Rhythmic gymnastics",
+      "Figure skating",
+      "Competitive rowing"
+    ],
+    "answer": "Synchronized swimming",
+    "explanation": "Lagarde swam for the French national synchronized swimming team as a teenager in Le Havre. She has often said the sport taught her to 'grit your teeth and smile', a lesson she credited for surviving euro-crisis negotiations as French finance minister and IMF Managing Director.",
+    "source": "https://en.wikipedia.org/wiki/Christine_Lagarde",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Christine Lagarde",
+      "sport",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-071",
+    "category": "world",
+    "difficulty": 2,
+    "format": "short",
+    "prompt": "Which economist, twice Nigeria's finance minister and later a World Bank managing director, became the first woman and first African to lead the World Trade Organization in 2021?",
+    "answer": "Ngozi Okonjo-Iweala",
+    "accept": [
+      "Ngozi Okonjo-Iweala",
+      "Okonjo-Iweala",
+      "Okonjo Iweala",
+      "Ngozi Okonjo Iweala",
+      "Ngozi"
+    ],
+    "explanation": "Okonjo-Iweala, a development economist with an MIT PhD, spent about 25 years at the World Bank, rising to managing director, and served as Nigeria's finance minister in 2003–2006 and 2011–2015. WTO members chose her by consensus in February 2021 after the new Biden administration dropped US objections, and she took office on March 1, 2021.",
+    "source": "https://www.pri.org/file/2021-03-01/wto-head-ngozi-okonjo-iweala-makes-history",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Ngozi Okonjo-Iweala",
+      "WTO",
+      "Nigeria",
+      "World Bank",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-072",
+    "category": "world",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "A former finance minister, World Bank official and Citibank executive became Africa's first elected female head of state in 2005 and shared the 2011 Nobel Peace Prize. Which country did she lead?",
+    "choices": [
+      "Liberia",
+      "Ghana",
+      "Malawi",
+      "Sierra Leone"
+    ],
+    "answer": "Liberia",
+    "explanation": "Ellen Johnson Sirleaf, a Harvard-trained economist, was Liberia's finance minister in 1979–80. After the 1980 coup she went into exile and worked for Citibank, the World Bank and the UN Development Programme. She won Liberia's 2005 presidential election, served two terms from 2006 to 2018, and shared the 2011 Nobel Peace Prize.",
+    "source": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Ellen Johnson Sirleaf",
+      "Liberia",
+      "Nobel Peace Prize",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-073",
+    "category": "world",
+    "difficulty": 2,
+    "format": "higher_lower",
+    "prompt": "Both men were celebrated economic policymakers before becoming head of government. Who spent longer as Prime Minister?",
+    "items": [
+      "Paul Martin (Canada)",
+      "Mario Draghi (Italy)"
+    ],
+    "metric": "time in office as Prime Minister",
+    "answer": "Paul Martin (Canada)",
+    "explanation": "Paul Martin was Prime Minister from December 12, 2003 to February 6, 2006, a little over two years, before losing the 2006 election to Stephen Harper. Mario Draghi governed from February 13, 2021 to October 22, 2022, about 20 months; his national-unity coalition fell apart in July 2022 when three parties boycotted a confidence vote.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Paul Martin",
+      "Mario Draghi",
+      "prime minister",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-074",
+    "category": "world",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "In November 2011 Mark Carney, then at the Bank of Canada, took over as chair of the Financial Stability Board. Whom did he succeed?",
+    "choices": [
+      "Mario Draghi",
+      "Jean-Claude Trichet",
+      "Mervyn King",
+      "Ben Bernanke"
+    ],
+    "answer": "Mario Draghi",
+    "explanation": "Draghi had chaired the FSB since the G20 created it in 2009 out of the old Financial Stability Forum, which he also led. When he became ECB President on November 1, 2011, the chair passed to Carney, who kept it until 2018, through his move to the Bank of England. Both men later became prime ministers: Draghi of Italy in 2021 and Carney of Canada in 2025.",
+    "source": "https://www.bankofcanada.ca/2011/11/bank-of-canada-governor-mark-carney/",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Mark Carney",
+      "Mario Draghi",
+      "Financial Stability Board",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-075",
+    "category": "world",
+    "difficulty": 1,
+    "format": "mc",
+    "prompt": "Mario Draghi, Mark Carney and Australia's Malcolm Turnbull all worked at which firm before going on to lead a national government?",
+    "choices": [
+      "Goldman Sachs",
+      "JPMorgan",
+      "McKinsey",
+      "Morgan Stanley"
+    ],
+    "answer": "Goldman Sachs",
+    "explanation": "Carney spent more than a decade at Goldman Sachs before joining Canada's finance department; Draghi was vice-chairman of Goldman Sachs International from 2002 to 2005; and Turnbull was chairman and managing director of Goldman Sachs Australia from 1997 to 2001, before becoming Australia's Prime Minister in 2015. The bank's alumni in high office led critics to nickname it 'Government Sachs'.",
+    "source": "https://www.aph.gov.au/M_Turnbull_MP",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Goldman Sachs",
+      "Mario Draghi",
+      "Mark Carney",
+      "Malcolm Turnbull",
+      "second acts"
+    ]
+  },
+  {
+    "id": "world-076",
+    "category": "world",
+    "difficulty": 3,
+    "format": "tf",
+    "prompt": "Lucas Papademos, Greek Prime Minister in 2011–12, was the first former Governor of the Bank of Greece to lead a Greek government.",
+    "answer": false,
+    "explanation": "Xenophon Zolotas, who governed the Bank of Greece three separate times between 1944 and 1981, became caretaker Prime Minister in November 1989 at the age of 85, after an election left no party with a majority. He led a non-party government until the April 1990 election. Papademos, Bank of Greece governor from 1994 to 2002, followed the same path 22 years later.",
+    "source": "https://en.wikipedia.org/wiki/Xenophon_Zolotas",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Xenophon Zolotas",
+      "Lucas Papademos",
+      "Greece",
+      "Bank of Greece",
+      "second acts"
+    ]
   }
 ]

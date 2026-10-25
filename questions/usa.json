@@ -1443,5 +1443,73 @@
       "risk-free rate",
       "money markets"
     ]
+  },
+  {
+    "id": "usa-061",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "mc",
+    "prompt": "Several Fed chairs first chaired the President's Council of Economic Advisers. Which of these did NOT?",
+    "choices": [
+      "Paul Volcker",
+      "Arthur Burns",
+      "Alan Greenspan",
+      "Ben Bernanke"
+    ],
+    "answer": "Paul Volcker",
+    "explanation": "Arthur Burns chaired the CEA under Eisenhower (1953–56) and the Fed from 1970; Alan Greenspan chaired the CEA under Ford (1974–77) and the Fed from 1987; Ben Bernanke chaired the CEA under George W. Bush (2005–06) and the Fed from 2006. Janet Yellen did the same under Clinton. Volcker came up through the New York Fed and the Treasury, where he was under-secretary for monetary affairs.",
+    "source": null,
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Federal Reserve",
+      "Council of Economic Advisers",
+      "Paul Volcker",
+      "second acts"
+    ]
+  },
+  {
+    "id": "usa-062",
+    "category": "usa",
+    "difficulty": 2,
+    "format": "tf",
+    "prompt": "Before Janet Yellen, no one had ever gone from chairing the Federal Reserve to running the US Treasury.",
+    "answer": false,
+    "explanation": "G. William Miller did it first. He chaired the Fed for just 17 months (March 1978–August 1979) before Jimmy Carter moved him to Treasury in a cabinet shake-up, opening the Fed chair for Paul Volcker. Yellen, Fed Chair from 2014 to 2018 and Treasury Secretary from 2021 to 2025, is the second person to hold both jobs.",
+    "source": "https://www.federalreservehistory.org/people/g_william_miller",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "G. William Miller",
+      "Janet Yellen",
+      "Treasury",
+      "Federal Reserve",
+      "second acts"
+    ]
+  },
+  {
+    "id": "usa-063",
+    "category": "usa",
+    "difficulty": 3,
+    "format": "mc",
+    "prompt": "Eugene Meyer chaired the Federal Reserve in the early Depression, then bought the Washington Post at a bankruptcy auction. In 1946 he became the first head of which institution?",
+    "choices": [
+      "World Bank",
+      "IMF",
+      "Securities and Exchange Commission",
+      "Bank for International Settlements"
+    ],
+    "answer": "World Bank",
+    "explanation": "Meyer chaired the Fed from 1930 to 1933 and bought the bankrupt Washington Post that year. Truman asked him to become the first President of the World Bank in June 1946, but he left after six months to return to the paper, which his daughter Katharine Graham later ran.",
+    "source": "https://www.worldbank.org/en/archive/history/past-presidents/eugene-meyer",
+    "as_of": null,
+    "time_sensitive": false,
+    "tags": [
+      "Eugene Meyer",
+      "World Bank",
+      "Federal Reserve",
+      "Washington Post",
+      "second acts"
+    ]
   }
 ]
