@@ -17,6 +17,7 @@
     "sharp": "^0.35.5",
     "topojson-client": "^3.1.0",
     "topojson-simplify": "^3.0.3",
+    "word-list": "^4.1.0",
     "world-atlas": "^2.0.2",
     "wrangler": "^3.0.0"
   }
